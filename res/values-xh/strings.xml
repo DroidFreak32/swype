@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">Bhalisa ukuze amagama okunxibelelana akwi-akhawunti yakho ka-Facebook ongezelelwe kwisichazimazwi sakho sobuqu</string>
     <string name="sns_twitter_sign_on">Sayina ukungena ukuze amagama abasebenzisi namagama amatsha ukusuka kwi-Twitter yakho kawonke-wonke ongezelelwe kwisichazimazwi sakho sobuqu</string>
     <string name="sns_gmail_sign_on">Bhalisa ukuze amagama abantu obathumelele i-imeyile ongezelelwe kwisichazimazwi sakho sobuqu</string>
-    <string name="sns_personalizing">Ukwenza okobuqu amava akho…</string>
+    <string name="sns_personalizing">Ukwenza okobuqu amava akho</string>
     <string name="sns_personalize_finished">Kuhlaziywe okokugqibela nge-%s. Cinezela ukuqala ngokutsha.</string>
     <string name="dismiss_button">Susa</string>
     <string name="canceling">Cima</string>
@@ -434,7 +434,7 @@ Kufakelwe Cinezela ukuqalisa"</string>
     <string name="pref_delete_account_desc">Cima ukubhaliswa kwezixhobo zonke futhi ucime iinkcukacha ze-akhawunti yakho ku-Swype Connect. Oku akuzocima iinkcukacha zakho zolwimi buqu, kuquka namagama akho kwesi sixhobo.</string>
     <string name="pref_sync_now_title">Lungelelanisa ngoku</string>
     <string name="pref_devices_title">Izixhobo</string>
-    <string name="pref_personalize_your_experience_title">Ukwenza okobuqu amava akho…</string>
+    <string name="pref_personalize_your_experience_title">Ukwenza okobuqu amava akho</string>
     <string name="pref_clear_lang_data_dialog">Zonke iinkcukacha zolwimi lwakho ziza kucinywa futhi i-Backup &amp; Sync izakulinyazwa kwesi sixhobo. Uqinisekile ufuna ukuqhubeka?</string>
     <string name="startup_choose_lang">Khetha ulwimi lwakho</string>
     <string name="startup_choose_lang_toast">Kufuneka ulayishe phantsi ulwimi ukuze uqhubeke</string>
@@ -480,7 +480,7 @@ Kufakelwe Cinezela ukuqalisa"</string>
     <string name="max_function_item_count_title">Isilinganiso esiphelele esibekiwe samagama</string>
     <string name="functionbar_hwtoggle_toast_on">Umbhalo wesandla kwikhibhodi uphumelelisiwe</string>
     <string name="functionbar_hwtoggle_toast_off">Umbhalo wesandla kwikhibhodi ulinyaziwe</string>
-    <string name="pref_personalization_personalize_experience">Ukwenza okobuqu amava akho…</string>
+    <string name="pref_personalization_personalize_experience">Ukwenza okobuqu amava akho</string>
     <string name="personalization_settings_title">Okobuqu</string>
     <string name="theme_name_frost">I-Athiki</string>
     <string name="theme_name_classic">Okodidi</string>

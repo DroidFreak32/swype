@@ -58,7 +58,7 @@ Ingin melanjutkan?"</string>
     <string name="sns_facebook_sign_on">Masuklah sehingga nama kontak dari akun Facebook Anda ditambahkan ke kamus pribadi Anda</string>
     <string name="sns_twitter_sign_on">Masuklah sehingga nama pengguna dan kata baru dari umpan Twitter publik Anda ditambahkan ke kamus pribadi Anda</string>
     <string name="sns_gmail_sign_on">Masuklah sehingga nama orang yang telah Anda kirimi email ditambahkan ke kamus pribadi Anda</string>
-    <string name="sns_personalizing">Mempersonalisasikan pengalaman Anda…</string>
+    <string name="sns_personalizing">Mempersonalisasikan pengalaman Anda</string>
     <string name="sns_personalize_finished">Terakhir diperbarui pada %s. Sentuh untuk menyegarkan.</string>
     <string name="dismiss_button">Abaikan</string>
     <string name="canceling">Membatalkan</string>
@@ -435,7 +435,7 @@ Terinstal. Sentuh untuk menjalankan."</string>
     <string name="pref_delete_account_desc">Cabut pendaftaran semua perangkat dan hapus data akun Anda dari Swype Connect. Ini tidak akan menghapus data bahasa pribadi Anda atau kata Anda pada perangkat ini.</string>
     <string name="pref_sync_now_title">Sinkronkan sekarang</string>
     <string name="pref_devices_title">Perangkat</string>
-    <string name="pref_personalize_your_experience_title">Mempersonalisasikan pengalaman Anda…</string>
+    <string name="pref_personalize_your_experience_title">Mempersonalisasikan pengalaman Anda</string>
     <string name="pref_clear_lang_data_dialog">Semua data bahasa Anda akan dihapus dan Backup &amp; Sinkronkan juga akan dinonaktifkan untuk perangkat ini. Anda yakin ingin melanjutkan?</string>
     <string name="startup_choose_lang">Pilih bahasa Anda</string>
     <string name="startup_choose_lang_toast">Anda harus mengunduh satu bahasa untuk melanjutkan</string>
@@ -481,7 +481,7 @@ Terinstal. Sentuh untuk menjalankan."</string>
     <string name="max_function_item_count_title">Batas Jumlah Maks</string>
     <string name="functionbar_hwtoggle_toast_on">Tulisan tangan pada keyboard diaktifkan</string>
     <string name="functionbar_hwtoggle_toast_off">Tulisan tangan pada keyboard dinonaktifkan</string>
-    <string name="pref_personalization_personalize_experience">Mempersonalisasikan pengalaman Anda…</string>
+    <string name="pref_personalization_personalize_experience">Mempersonalisasikan pengalaman Anda</string>
     <string name="personalization_settings_title">Personalisasi</string>
     <string name="theme_name_frost">Arktik</string>
     <string name="theme_name_classic">Klasik</string>

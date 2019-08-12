@@ -59,7 +59,7 @@ Davam etmək istəyirsinizmi?"</string>
     <string name="sns_facebook_sign_on">Facebook hesabınızdakı əlaqələrinizin adlarını şəxsi lüğətinizə əlavə etmək üçün sistemə daxil olun</string>
     <string name="sns_twitter_sign_on">Açıq Twitter hesabınızda olan istifadəçi adları və yeni sözləri şəxsi lüğətinizə əlavə etmək üçün sistemə daxil olun</string>
     <string name="sns_gmail_sign_on">E-poçt göndərdiyiniz şəxslərin adlarını şəxsi lüğətinizə əlavə etmək üçün sistemə daxil olun</string>
-    <string name="sns_personalizing">Təcrübələrinizin fərdiləșdirilməsi…</string>
+    <string name="sns_personalizing">Təcrübələrinizin fərdiləșdirilməsi</string>
     <string name="sns_personalize_finished">Ən son yenilənmə tarixi %s. Təzələmək üçün toxunun.</string>
     <string name="dismiss_button">Rədd et</string>
     <string name="canceling">Ləğv edilir</string>
@@ -436,7 +436,7 @@ Quraşdırılıb. Başlatmaq üçün toxunun."</string>
     <string name="pref_delete_account_desc">Bütün cihazlar üzrə qeydiyyatı ləğv edin və hesab məlumatlarınızı Swype Connect-dən silin. Bu, șəxsi dil məlumatlarınızı və sözlərinizi cihazdan silməyəcəkdir.</string>
     <string name="pref_sync_now_title">Sinxronlașdır</string>
     <string name="pref_devices_title">Cihazlar</string>
-    <string name="pref_personalize_your_experience_title">Təcrübələrinizin fərdiləșdirilməsi…</string>
+    <string name="pref_personalize_your_experience_title">Təcrübələrinizin fərdiləșdirilməsi</string>
     <string name="pref_clear_lang_data_dialog">Bütün dil məlumatlarınız silinəcək, eyni zamanda bu cihaz üçün Ehtiyat nüsxə və Sinxronlașdırma qeyri-aktiv ediləcəkdir. Davam etmək istədiyinizdən əminsiniz?</string>
     <string name="startup_choose_lang">Dilinizi seçin</string>
     <string name="startup_choose_lang_toast">Davam etmək üçün bir dil yükləməlisiniz</string>
@@ -482,7 +482,7 @@ Quraşdırılıb. Başlatmaq üçün toxunun."</string>
     <string name="max_function_item_count_title">Maksimal say həddi</string>
     <string name="functionbar_hwtoggle_toast_on">Klaviaturada əllə yazı funksiyası aktiv edilib</string>
     <string name="functionbar_hwtoggle_toast_off">Klaviaturada əllə yazı funksiyası ləğv edilib</string>
-    <string name="pref_personalization_personalize_experience">Təcrübələrinizin fərdiləșdirilməsi…</string>
+    <string name="pref_personalization_personalize_experience">Təcrübələrinizin fərdiləșdirilməsi</string>
     <string name="personalization_settings_title">Fərdiləşdirmə</string>
     <string name="theme_name_frost">Arktika</string>
     <string name="theme_name_classic">Klassik</string>

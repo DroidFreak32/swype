@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Logg på slik at kontaktene fra Facebook-kontoen din legges til i din personlige ordbok</string>
     <string name="sns_twitter_sign_on">Logg på slik at brukernavn og nye ord fra offentlig Twitter-feed legges til din personlige ordbok</string>
     <string name="sns_gmail_sign_on">Logg på slik at navnene på kontakter du har sendt e-post legges til i din personlige ordbok</string>
-    <string name="sns_personalizing">Gjør opplevelsen personlig…</string>
+    <string name="sns_personalizing">Gjør opplevelsen personlig</string>
     <string name="sns_personalize_finished">Sist oppdatert %s. Pek for å oppdatere.</string>
     <string name="dismiss_button">Forkast</string>
     <string name="canceling">Avbryter</string>
@@ -436,7 +436,7 @@ Installert. Pek for å starte."</string>
     <string name="pref_delete_account_desc">Avregistrer alle enheter og slett kontodataene dine fra Swype Connect. Dette vil ikke slette de personlige språkdataene eller ordene dine på denne enheten.</string>
     <string name="pref_sync_now_title">Synkroniser nå</string>
     <string name="pref_devices_title">Enheter</string>
-    <string name="pref_personalize_your_experience_title">Gjør opplevelsen personlig…</string>
+    <string name="pref_personalize_your_experience_title">Gjør opplevelsen personlig</string>
     <string name="pref_clear_lang_data_dialog">Alle dine språkdata vil bli slettet og sikkerhetskopiering og synkronisering vil også bli deaktivert på denne enheten. Er du sikker på at du vil fortsette?</string>
     <string name="startup_choose_lang">Velg språk</string>
     <string name="startup_choose_lang_toast">Du må laste ned et språk for å fortsette</string>
@@ -482,7 +482,7 @@ Installert. Pek for å starte."</string>
     <string name="max_function_item_count_title">Maks. tellegrense</string>
     <string name="functionbar_hwtoggle_toast_on">Håndskrift på tastatur er aktivert</string>
     <string name="functionbar_hwtoggle_toast_off">Håndskrift på tastatur er deaktivert</string>
-    <string name="pref_personalization_personalize_experience">Gjør opplevelsen personlig…</string>
+    <string name="pref_personalization_personalize_experience">Gjør opplevelsen personlig</string>
     <string name="personalization_settings_title">Personlig tilpasning</string>
     <string name="theme_name_frost">Arktisk</string>
     <string name="theme_name_classic">Klassisk</string>

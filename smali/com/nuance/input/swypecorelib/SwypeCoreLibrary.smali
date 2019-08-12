@@ -52,6 +52,8 @@
     .end annotation
 .end field
 
+.field private runningState:I
+
 .field private final versions:Ljava/util/EnumMap;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -93,24 +95,29 @@
     .param p1, "appContext"    # Landroid/content/Context;
 
     .prologue
-    .line 111
+    .line 113
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 112
+    .line 36
+    sget v2, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->RUNNING_STATE_BACKGROUND_UI_HIDDEN:I
+
+    iput v2, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->runningState:I
+
+    .line 114
     iput-object p1, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->appContext:Landroid/content/Context;
 
-    .line 113
+    .line 115
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getBuildInfo()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 114
+    .line 116
     .local v0, "buildInfo":Ljava/lang/String;
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getCoreVersions()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 115
+    .line 117
     .local v1, "coreVersions":Ljava/lang/String;
     invoke-direct {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->parseBuildInfo(Ljava/lang/String;)Ljava/util/EnumSet;
 
@@ -118,14 +125,14 @@
 
     iput-object v2, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->enabled:Ljava/util/EnumSet;
 
-    .line 116
+    .line 118
     invoke-direct {p0, v1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->parseCoreVersions(Ljava/lang/String;)Ljava/util/EnumMap;
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->versions:Ljava/util/EnumMap;
 
-    .line 117
+    .line 119
     return-void
 .end method
 
@@ -144,15 +151,15 @@
     .param p1, "nativeLibraryPath"    # Ljava/lang/String;
 
     .prologue
-    .line 43
+    .line 45
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->swypecorelibInstance:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;
 
     if-nez v0, :cond_0
 
-    .line 44
+    .line 46
     invoke-static {p0, p1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->loadNativeLibrary(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 46
+    .line 48
     :try_start_0
     new-instance v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;
 
@@ -162,14 +169,14 @@
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 52
+    .line 54
     :cond_0
     :goto_0
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->swypecorelibInstance:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;
 
     return-object v0
 
-    .line 48
+    .line 50
     :catch_0
     move-exception v0
 
@@ -199,7 +206,7 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 308
+    .line 310
     invoke-static {p0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->config_getLanguages(Landroid/content/Context;)[B
 
     move-result-object v0
@@ -213,7 +220,7 @@
     .param p1, "nativeLibPath"    # Ljava/lang/String;
 
     .prologue
-    .line 56
+    .line 58
     const-string v0, "SwypeCore"
 
     invoke-static {p0, v0, p1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->loadNativeLibrary(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
@@ -222,7 +229,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 57
+    .line 59
     invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     move-result-object v0
@@ -233,7 +240,7 @@
 
     invoke-static {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->setApplicationContext(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 59
+    .line 61
     :cond_0
     return-void
 .end method
@@ -247,7 +254,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 62
+    .line 64
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "#loadNativeLibrary() libName: "
@@ -270,12 +277,12 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 64
+    .line 66
     invoke-static {p1}, Ljava/lang/System;->mapLibraryName(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 71
+    .line 73
     .local v0, "filename":Ljava/lang/String;
     :try_start_0
     new-instance v1, Ljava/io/File;
@@ -294,7 +301,7 @@
 
     invoke-direct {v1, v4, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 73
+    .line 75
     .local v1, "nativeLibFile":Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -302,12 +309,12 @@
 
     if-eqz v4, :cond_0
 
-    .line 74
+    .line 76
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 75
+    .line 77
     .local v2, "path":Ljava/lang/String;
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -321,32 +328,32 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 76
+    .line 78
     invoke-static {v2}, Ljava/lang/System;->load(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 104
+    .line 106
     .end local v1    # "nativeLibFile":Ljava/io/File;
     .end local v2    # "path":Ljava/lang/String;
     :goto_0
     return v3
 
-    .line 79
+    .line 81
     :catch_0
     move-exception v4
 
-    .line 82
+    .line 84
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 84
+    .line 86
     :try_start_1
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p2, v0}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 86
+    .line 88
     .restart local v1    # "nativeLibFile":Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -354,12 +361,12 @@
 
     if-eqz v4, :cond_1
 
-    .line 87
+    .line 89
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object p2
 
-    .line 88
+    .line 90
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "loadNativeLibrary() with nativeLibraryDir: "
@@ -372,7 +379,7 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 89
+    .line 91
     invoke-static {p2}, Ljava/lang/System;->load(Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_1 .. :try_end_1} :catch_1
@@ -383,7 +390,7 @@
     :catch_1
     move-exception v4
 
-    .line 97
+    .line 99
     :cond_1
     :try_start_2
     invoke-static {p1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -392,7 +399,7 @@
 
     goto :goto_0
 
-    .line 103
+    .line 105
     :catch_2
     move-exception v3
 
@@ -414,7 +421,7 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 104
+    .line 106
     const/4 v3, 0x0
 
     goto :goto_0
@@ -451,18 +458,18 @@
     .end annotation
 
     .prologue
-    .line 246
+    .line 248
     const-class v1, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-static {v1}, Ljava/util/EnumSet;->noneOf(Ljava/lang/Class;)Ljava/util/EnumSet;
 
     move-result-object v0
 
-    .line 247
+    .line 249
     .local v0, "features":Ljava/util/EnumSet;, "Ljava/util/EnumSet<Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;>;"
     if-eqz p1, :cond_3
 
-    .line 248
+    .line 250
     const-string v1, "trace:"
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -471,12 +478,12 @@
 
     if-eqz v1, :cond_0
 
-    .line 249
+    .line 251
     sget-object v1, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->Trace:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {v0, v1}, Ljava/util/EnumSet;->add(Ljava/lang/Object;)Z
 
-    .line 251
+    .line 253
     :cond_0
     const-string v1, "write_alpha:"
 
@@ -486,12 +493,12 @@
 
     if-eqz v1, :cond_1
 
-    .line 252
+    .line 254
     sget-object v1, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->WriteAlpha:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {v0, v1}, Ljava/util/EnumSet;->add(Ljava/lang/Object;)Z
 
-    .line 255
+    .line 257
     :cond_1
     const-string v1, "chinese_input:"
 
@@ -501,12 +508,12 @@
 
     if-eqz v1, :cond_2
 
-    .line 256
+    .line 258
     sget-object v1, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->ChineseInput:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {v0, v1}, Ljava/util/EnumSet;->add(Ljava/lang/Object;)Z
 
-    .line 258
+    .line 260
     :cond_2
     const-string v1, "write_chinese:"
 
@@ -516,12 +523,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 259
+    .line 261
     sget-object v1, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->WriteChinese:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {v0, v1}, Ljava/util/EnumSet;->add(Ljava/lang/Object;)Z
 
-    .line 262
+    .line 264
     :cond_3
     return-object v0
 .end method
@@ -543,18 +550,18 @@
     .end annotation
 
     .prologue
-    .line 266
+    .line 268
     new-instance v6, Ljava/util/EnumMap;
 
     const-class v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-direct {v6, v8}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    .line 267
+    .line 269
     .local v6, "map":Ljava/util/EnumMap;, "Ljava/util/EnumMap<Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;Ljava/lang/String;>;"
     if-eqz p1, :cond_5
 
-    .line 271
+    .line 273
     const-string v8, ";"
 
     invoke-virtual {p1, v8}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
@@ -573,7 +580,7 @@
 
     aget-object v7, v0, v3
 
-    .line 273
+    .line 275
     .local v7, "version":Ljava/lang/String;
     const/16 v8, 0x3d
 
@@ -581,7 +588,7 @@
 
     move-result v4
 
-    .line 274
+    .line 276
     .local v4, "index":I
     const/4 v8, 0x0
 
@@ -589,7 +596,7 @@
 
     move-result-object v1
 
-    .line 275
+    .line 277
     .local v1, "coreName":Ljava/lang/String;
     add-int/lit8 v8, v4, 0x1
 
@@ -597,7 +604,7 @@
 
     move-result-object v2
 
-    .line 276
+    .line 278
     .local v2, "coreVersion":Ljava/lang/String;
     const-string v8, "xt9core_version"
 
@@ -607,19 +614,19 @@
 
     if-eqz v8, :cond_1
 
-    .line 277
+    .line 279
     sget-object v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->XT9:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {v6, v8, v2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 271
+    .line 273
     :cond_0
     :goto_1
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_0
 
-    .line 278
+    .line 280
     :cond_1
     const-string v8, "xt9core_build_id"
 
@@ -629,14 +636,14 @@
 
     if-eqz v8, :cond_2
 
-    .line 279
+    .line 281
     sget-object v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->XT9BuildID:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {v6, v8, v2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 280
+    .line 282
     :cond_2
     const-string v8, "t9trace_version"
 
@@ -646,14 +653,14 @@
 
     if-eqz v8, :cond_3
 
-    .line 281
+    .line 283
     sget-object v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->Trace:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {v6, v8, v2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 282
+    .line 284
     :cond_3
     const-string v8, "t9write_alpha_version"
 
@@ -663,14 +670,14 @@
 
     if-eqz v8, :cond_4
 
-    .line 283
+    .line 285
     sget-object v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->WriteAlpha:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {v6, v8, v2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 284
+    .line 286
     :cond_4
     const-string v8, "t9write_chinese_version"
 
@@ -680,14 +687,14 @@
 
     if-eqz v8, :cond_0
 
-    .line 286
+    .line 288
     sget-object v8, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->WriteChinese:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {v6, v8, v2}, Ljava/util/EnumMap;->put(Ljava/lang/Enum;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
-    .line 290
+    .line 292
     .end local v0    # "arr$":[Ljava/lang/String;
     .end local v1    # "coreName":Ljava/lang/String;
     .end local v2    # "coreVersion":Ljava/lang/String;
@@ -711,10 +718,10 @@
     .param p1, "filePath"    # Ljava/lang/String;
 
     .prologue
-    .line 120
+    .line 122
     invoke-static {p0, p1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->setApplicationContext(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 121
+    .line 123
     return-void
 .end method
 
@@ -724,14 +731,14 @@
     .locals 6
 
     .prologue
-    .line 189
+    .line 191
     const-string v4, "SwypeCore"
 
     invoke-static {v4}, Ljava/lang/System;->mapLibraryName(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 191
+    .line 193
     .local v1, "libName":Ljava/lang/String;
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -763,7 +770,7 @@
 
     move-result-object v2
 
-    .line 192
+    .line 194
     .local v2, "libpath":Ljava/lang/String;
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -779,7 +786,7 @@
 
     move-result-object v3
 
-    .line 193
+    .line 195
     .local v3, "syspath":Ljava/lang/String;
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -807,7 +814,7 @@
 
     move-result-object v0
 
-    .line 195
+    .line 197
     .local v0, "dicpath":Ljava/lang/String;
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -821,7 +828,7 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 196
+    .line 198
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "Japanese OpenWnnEngine syspath = "
@@ -834,7 +841,7 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 197
+    .line 199
     new-instance v4, Ljava/lang/StringBuilder;
 
     const-string v5, "Japanese OpenWnnEngine dicpath = "
@@ -847,7 +854,7 @@
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 199
+    .line 201
     new-instance v4, Ljp/co/omronsoft/openwnn/JAJP/OpenWnnEngineJAJP;
 
     invoke-direct {v4, v2, v3, v0}, Ljp/co/omronsoft/openwnn/JAJP/OpenWnnEngineJAJP;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -859,7 +866,7 @@
     .locals 1
 
     .prologue
-    .line 141
+    .line 143
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$AlphaCoreSingletonHolder;->access$000()Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     move-result-object v0
@@ -871,7 +878,7 @@
     .locals 1
 
     .prologue
-    .line 145
+    .line 147
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$ChineseCoreSingletonHolder;->access$100()Lcom/nuance/input/swypecorelib/XT9CoreChineseInput;
 
     move-result-object v0
@@ -883,7 +890,7 @@
     .locals 1
 
     .prologue
-    .line 153
+    .line 155
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$JapaneseCoreSingletonHolder;->access$300()Lcom/nuance/input/swypecorelib/XT9CoreJapaneseInput;
 
     move-result-object v0
@@ -895,7 +902,7 @@
     .locals 1
 
     .prologue
-    .line 149
+    .line 151
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$KoreanCoreSingletonHolder;->access$200()Lcom/nuance/input/swypecorelib/XT9CoreKoreanInput;
 
     move-result-object v0
@@ -903,11 +910,21 @@
     return-object v0
 .end method
 
+.method public getRunningState()I
+    .locals 1
+
+    .prologue
+    .line 314
+    iget v0, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->runningState:I
+
+    return v0
+.end method
+
 .method public getT9TraceVersion()Ljava/lang/String;
     .locals 1
 
     .prologue
-    .line 233
+    .line 235
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->Trace:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getVersion(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;)Ljava/lang/String;
@@ -921,7 +938,7 @@
     .locals 1
 
     .prologue
-    .line 237
+    .line 239
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->WriteAlpha:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getVersion(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;)Ljava/lang/String;
@@ -935,7 +952,7 @@
     .locals 1
 
     .prologue
-    .line 173
+    .line 175
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteAlphaSingletonHolder;->access$400()Lcom/nuance/input/swypecorelib/T9WriteAlpha;
 
     move-result-object v0
@@ -947,7 +964,7 @@
     .locals 1
 
     .prologue
-    .line 242
+    .line 244
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->WriteChinese:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getVersion(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;)Ljava/lang/String;
@@ -961,7 +978,7 @@
     .locals 1
 
     .prologue
-    .line 177
+    .line 179
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteChineseSingletonHolder;->access$500()Lcom/nuance/input/swypecorelib/T9WriteChinese;
 
     move-result-object v0
@@ -973,7 +990,7 @@
     .locals 1
 
     .prologue
-    .line 185
+    .line 187
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteJapaneseSingletonHolder;->access$700()Lcom/nuance/input/swypecorelib/T9WriteJapanese;
 
     move-result-object v0
@@ -985,7 +1002,7 @@
     .locals 1
 
     .prologue
-    .line 181
+    .line 183
     invoke-static {}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteKoreanSingletonHolder;->access$600()Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     move-result-object v0
@@ -998,7 +1015,7 @@
     .param p1, "core"    # Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     .prologue
-    .line 294
+    .line 296
     iget-object v0, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->versions:Ljava/util/EnumMap;
 
     invoke-virtual {v0, p1}, Ljava/util/EnumMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1014,7 +1031,7 @@
     .locals 1
 
     .prologue
-    .line 229
+    .line 231
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->XT9BuildID:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getVersion(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;)Ljava/lang/String;
@@ -1028,7 +1045,7 @@
     .locals 1
 
     .prologue
-    .line 225
+    .line 227
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;->XT9:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->getVersion(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Core;)Ljava/lang/String;
@@ -1042,7 +1059,7 @@
     .locals 1
 
     .prologue
-    .line 210
+    .line 212
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->ChineseInput:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->isEnabled(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;)Z
@@ -1057,7 +1074,7 @@
     .param p1, "feature"    # Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     .prologue
-    .line 298
+    .line 300
     iget-object v0, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->enabled:Ljava/util/EnumSet;
 
     invoke-virtual {v0, p1}, Ljava/util/EnumSet;->contains(Ljava/lang/Object;)Z
@@ -1071,7 +1088,7 @@
     .locals 1
 
     .prologue
-    .line 206
+    .line 208
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->Trace:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->isEnabled(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;)Z
@@ -1085,7 +1102,7 @@
     .locals 1
 
     .prologue
-    .line 214
+    .line 216
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->WriteAlpha:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->isEnabled(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;)Z
@@ -1099,7 +1116,7 @@
     .locals 1
 
     .prologue
-    .line 218
+    .line 220
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->WriteChinese:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->isEnabled(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;)Z
@@ -1113,7 +1130,7 @@
     .locals 1
 
     .prologue
-    .line 221
+    .line 223
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;->WriteJapanese:Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;
 
     invoke-virtual {p0, v0}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->isEnabled(Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$Feature;)Z
@@ -1128,10 +1145,10 @@
     .param p1, "configFile"    # Ljava/lang/String;
 
     .prologue
-    .line 302
+    .line 304
     invoke-static {p1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->refresh_dbconfig(Ljava/lang/String;)V
 
-    .line 303
+    .line 305
     return-void
 .end method
 
@@ -1140,9 +1157,12 @@
     .param p1, "runningState"    # I
 
     .prologue
-    .line 312
+    .line 318
+    iput p1, p0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->runningState:I
+
+    .line 319
     invoke-static {p1}, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->nativeSetRunningState(I)V
 
-    .line 313
+    .line 320
     return-void
 .end method

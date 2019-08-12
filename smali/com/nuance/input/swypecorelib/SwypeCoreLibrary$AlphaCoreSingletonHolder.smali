@@ -23,7 +23,7 @@
     .locals 1
 
     .prologue
-    .line 125
+    .line 127
     new-instance v0, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-direct {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;-><init>()V
@@ -37,7 +37,7 @@
     .locals 0
 
     .prologue
-    .line 124
+    .line 126
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +47,7 @@
     .locals 1
 
     .prologue
-    .line 124
+    .line 126
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$AlphaCoreSingletonHolder;->ALPHA_INSTANCE:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     return-object v0

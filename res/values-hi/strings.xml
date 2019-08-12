@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">साइन इन करें ताकि Facebook खाते से संपर्क नाम आपके निजी शब्दकोश में जोड़े जा सकें</string>
     <string name="sns_twitter_sign_on">साइन इन करें ताकि आपकी सार्वजनिक Twitter फ़ीड से उपयोगकर्ता नाम और नए शब्द आपके निजी शब्दकोश में जोड़े जा सकें</string>
     <string name="sns_gmail_sign_on">साइन इन करें ताकि उन लोगों के नाम आपके निजी शब्दकोश में जोड़े जा सकें जिन्हें आपने ईमेल भेजी है</string>
-    <string name="sns_personalizing">आपके अनुभव को व्यक्तिकृत करना…</string>
+    <string name="sns_personalizing">आपके अनुभव को व्यक्तिकृत करना</string>
     <string name="sns_personalize_finished">अंतिम अद्यतन %s को किया गया। ताज़ा करने के लिए टैप करें। ताज़ा करने के लिए टैप करें।</string>
     <string name="dismiss_button">ख़ारिज करें</string>
     <string name="canceling">रद्द करना जारी है</string>
@@ -434,7 +434,7 @@ DragonGo डाउनलोड और स्थापित करने के 
     <string name="pref_delete_account_desc">सभी डिवाइसेस का पंजीकरण निरस्त करें और Swype Connect से अपना खाता हटाएँ। यह इस डिवाइस पर आपका व्यक्तिगत भाषा डेटा या आपके शब्दों को नहीं हटाएगा।</string>
     <string name="pref_sync_now_title">अब सिंक करें</string>
     <string name="pref_devices_title">डिवाइसेस</string>
-    <string name="pref_personalize_your_experience_title">आपके अनुभव को व्यक्तिकृत करना…</string>
+    <string name="pref_personalize_your_experience_title">आपके अनुभव को व्यक्तिकृत करना</string>
     <string name="pref_clear_lang_data_dialog">आपका संपूर्ण भाषा डेटा हटा दिया जाएगा और इस डिवाइस के लिए बैकअप और सिंक भी अक्षम कर दिया जाएगा। क्या आप वाकई जारी रखना चाहते हैं?</string>
     <string name="startup_choose_lang">अपनी भाषा चुनें</string>
     <string name="startup_choose_lang_toast">जारी रखने के लिए आपको एक भाषा डाउनलोड करनी होगी</string>
@@ -480,7 +480,7 @@ DragonGo डाउनलोड और स्थापित करने के 
     <string name="max_function_item_count_title">अधिकतम संख्या सीमा</string>
     <string name="functionbar_hwtoggle_toast_on">कुंजीपटल पर हस्तलेख सक्षम</string>
     <string name="functionbar_hwtoggle_toast_off">कुंजीपटल पर हस्तलेख अक्षम</string>
-    <string name="pref_personalization_personalize_experience">आपके अनुभव को व्यक्तिकृत करना…</string>
+    <string name="pref_personalization_personalize_experience">आपके अनुभव को व्यक्तिकृत करना</string>
     <string name="personalization_settings_title">निजीकरण</string>
     <string name="theme_name_frost">उत्तर ध्रुवीय</string>
     <string name="theme_name_classic">उत्कृष्ट</string>

@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 738
+    .line 735
     iput-object p1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,22 +41,22 @@
     .param p1, "msg"    # Landroid/os/Message;
 
     .prologue
-    .line 740
+    .line 737
     iget v0, p1, Landroid/os/Message;->what:I
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 755
+    .line 752
     :goto_0
     const/4 v0, 0x1
 
     return v0
 
-    .line 742
+    .line 739
     :sswitch_0
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
+    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
+    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
 
     move-result-object v0
 
@@ -74,14 +74,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 743
+    .line 740
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->showHowToUseToast()V
 
     goto :goto_0
 
-    .line 745
+    .line 742
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
@@ -95,7 +95,7 @@
 
     goto :goto_0
 
-    .line 750
+    .line 747
     :sswitch_1
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
@@ -113,25 +113,25 @@
 
     if-eqz v0, :cond_1
 
-    .line 751
+    .line 748
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->flushCurrentActiveWord()V
 
-    .line 753
+    .line 750
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
+    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$600(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
 
-    .line 754
+    .line 751
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$2;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->resumeSpeech()V
 
     goto :goto_0
 
-    .line 740
+    .line 737
     nop
 
     :sswitch_data_0

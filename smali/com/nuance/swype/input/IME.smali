@@ -392,49 +392,49 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->pendingHibernateState:Ljava/lang/Runnable;
 
-    .line 1599
+    .line 1612
     new-instance v0, Lcom/nuance/swype/input/IME$3;
 
     invoke-direct {v0, p0}, Lcom/nuance/swype/input/IME$3;-><init>(Lcom/nuance/swype/input/IME;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->finishInputViewRunnable:Ljava/lang/Runnable;
 
-    .line 1814
+    .line 1827
     new-instance v0, Lcom/nuance/swype/input/IME$4;
 
     invoke-direct {v0, p0}, Lcom/nuance/swype/input/IME$4;-><init>(Lcom/nuance/swype/input/IME;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->checkPackageUpdateRunnable:Ljava/lang/Runnable;
 
-    .line 1976
+    .line 1989
     const/4 v0, 0x2
 
     new-array v0, v0, [I
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->posTemp:[I
 
-    .line 2965
+    .line 2978
     new-instance v0, Lcom/nuance/swype/input/IME$7;
 
     invoke-direct {v0, p0}, Lcom/nuance/swype/input/IME$7;-><init>(Lcom/nuance/swype/input/IME;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
-    .line 3160
+    .line 3175
     new-instance v0, Lcom/nuance/swype/input/IME$8;
 
     invoke-direct {v0, p0}, Lcom/nuance/swype/input/IME$8;-><init>(Lcom/nuance/swype/input/IME;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->closeRunnable:Ljava/lang/Runnable;
 
-    .line 3398
+    .line 3413
     new-instance v0, Lcom/nuance/swype/input/IME$13;
 
     invoke-direct {v0, p0}, Lcom/nuance/swype/input/IME$13;-><init>(Lcom/nuance/swype/input/IME;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->handlerCallback:Landroid/os/Handler$Callback;
 
-    .line 3550
+    .line 3570
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->handlerCallback:Landroid/os/Handler$Callback;
 
     invoke-static {v0}, Landroid/support/v4/app/ActivityCompatHoneycomb;->create(Landroid/os/Handler$Callback;)Landroid/os/Handler;
@@ -443,13 +443,13 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
-    .line 3949
+    .line 3969
     iput-boolean v2, p0, Lcom/nuance/swype/input/IME;->initializeCoreNeeded:Z
 
-    .line 4231
+    .line 4251
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->languageUpdateNotificationRunnable1:Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
-    .line 4232
+    .line 4252
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->languageUpdateNotificationRunnable2:Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
     .line 308
@@ -659,10 +659,10 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 4235
+    .line 4255
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 4236
+    .line 4256
     sget-object v2, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "checkForLanguageUpdateRunnable: "
@@ -671,7 +671,7 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4238
+    .line 4258
     invoke-static {p0}, Lcom/nuance/swype/connect/Connect;->from(Landroid/content/Context;)Lcom/nuance/swype/connect/Connect;
 
     move-result-object v2
@@ -680,7 +680,7 @@
 
     move-result-object v0
 
-    .line 4239
+    .line 4259
     .local v0, "sdkMgr":Lcom/nuance/swype/connect/SDKDownloadManager;
     invoke-virtual {v0, p1}, Lcom/nuance/swype/connect/SDKDownloadManager;->isLanguageAvailableForUpdate(Lcom/nuance/swype/input/InputMethods$Language;)Z
 
@@ -688,7 +688,7 @@
 
     if-nez v2, :cond_1
 
-    .line 4240
+    .line 4260
     sget-object v2, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "checkForLanguageUpdateRunnable: "
@@ -699,23 +699,23 @@
 
     invoke-virtual {v2, v3, v4, v5}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4243
+    .line 4263
     if-eqz p2, :cond_0
 
-    .line 4244
+    .line 4264
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v2, p2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 4246
+    .line 4266
     :cond_0
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 4263
+    .line 4283
     :goto_0
     return-object v1
 
-    .line 4250
+    .line 4270
     :cond_1
     if-eqz p2, :cond_2
 
@@ -739,7 +739,7 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 4251
+    .line 4271
     sget-object v1, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "checkForLanguageUpdateRunnable: "
@@ -750,31 +750,31 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4252
+    .line 4272
     sget-object v1, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
     move-object v1, p2
 
-    .line 4253
+    .line 4273
     goto :goto_0
 
-    .line 4256
+    .line 4276
     :cond_2
     if-eqz p2, :cond_3
 
-    .line 4257
+    .line 4277
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v2, p2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 4260
+    .line 4280
     :cond_3
     new-instance p2, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
     .end local p2    # "runnable":Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
     invoke-direct {p2, p1, v0, v1}, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;-><init>(Lcom/nuance/swype/input/InputMethods$Language;Lcom/nuance/swype/connect/SDKDownloadManager;Lcom/nuance/swype/input/IME$1;)V
 
-    .line 4261
+    .line 4281
     .restart local p2    # "runnable":Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
@@ -782,12 +782,12 @@
 
     invoke-virtual {v1, p2, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 4262
+    .line 4282
     sget-object v1, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
     move-object v1, p2
 
-    .line 4263
+    .line 4283
     goto :goto_0
 .end method
 
@@ -796,7 +796,7 @@
     .param p1, "currentLanguage"    # Lcom/nuance/swype/input/InputMethods$Language;
 
     .prologue
-    .line 4267
+    .line 4287
     sget-object v4, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v5, "checkForLanguageUpgrade: "
@@ -805,7 +805,7 @@
 
     invoke-virtual {v4, v5, v6}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4268
+    .line 4288
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v4
@@ -814,13 +814,13 @@
 
     move-result-object v0
 
-    .line 4269
+    .line 4289
     .local v0, "appPref":Lcom/nuance/swype/input/AppPreferences;
     invoke-static {p0}, Lcom/nuance/swype/input/BuildInfo;->from(Landroid/content/Context;)Lcom/nuance/swype/input/BuildInfo;
 
     move-result-object v4
 
-    .line 4270
+    .line 4290
     invoke-virtual {v4}, Lcom/nuance/swype/input/BuildInfo;->isDTCbuild()Z
 
     move-result v4
@@ -833,12 +833,12 @@
 
     if-nez v4, :cond_1
 
-    .line 4291
+    .line 4311
     :cond_0
     :goto_0
     return-void
 
-    .line 4273
+    .line 4293
     :cond_1
     instance-of v4, p1, Lcom/nuance/swype/input/BilingualLanguage;
 
@@ -846,10 +846,10 @@
 
     move-object v1, p1
 
-    .line 4274
+    .line 4294
     check-cast v1, Lcom/nuance/swype/input/BilingualLanguage;
 
-    .line 4275
+    .line 4295
     .local v1, "bi":Lcom/nuance/swype/input/BilingualLanguage;
     invoke-virtual {v1}, Lcom/nuance/swype/input/BilingualLanguage;->getFirstLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -857,7 +857,7 @@
 
     iget v2, v4, Lcom/nuance/swype/input/InputMethods$Language;->mCoreLanguageId:I
 
-    .line 4276
+    .line 4296
     .local v2, "firstLangId":I
     invoke-virtual {v1}, Lcom/nuance/swype/input/BilingualLanguage;->getSecondLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -865,7 +865,7 @@
 
     iget v3, v4, Lcom/nuance/swype/input/InputMethods$Language;->mCoreLanguageId:I
 
-    .line 4277
+    .line 4297
     .local v3, "secondLangId":I
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
@@ -883,7 +883,7 @@
 
     if-gez v4, :cond_3
 
-    .line 4279
+    .line 4299
     :cond_2
     invoke-virtual {v1}, Lcom/nuance/swype/input/BilingualLanguage;->getFirstLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -897,7 +897,7 @@
 
     iput-object v4, p0, Lcom/nuance/swype/input/IME;->languageUpdateNotificationRunnable1:Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
-    .line 4282
+    .line 4302
     :cond_3
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
@@ -915,7 +915,7 @@
 
     if-gez v4, :cond_0
 
-    .line 4284
+    .line 4304
     :cond_4
     invoke-virtual {v1}, Lcom/nuance/swype/input/BilingualLanguage;->getSecondLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -931,7 +931,7 @@
 
     goto :goto_0
 
-    .line 4288
+    .line 4308
     .end local v1    # "bi":Lcom/nuance/swype/input/BilingualLanguage;
     .end local v2    # "firstLangId":I
     .end local v3    # "secondLangId":I
@@ -952,14 +952,14 @@
     .param p1, "attribute"    # Landroid/view/inputmethod/EditorInfo;
 
     .prologue
-    .line 1267
+    .line 1274
     if-eqz p1, :cond_1
 
     iget-object v1, p1, Landroid/view/inputmethod/EditorInfo;->privateImeOptions:Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 1273
+    .line 1280
     iget-object v1, p1, Landroid/view/inputmethod/EditorInfo;->privateImeOptions:Ljava/lang/String;
 
     const-string v2, "com.nuance.swype.type=edit_dictionary"
@@ -968,32 +968,32 @@
 
     move-result v0
 
-    .line 1274
+    .line 1281
     .local v0, "reloadKeyboard":Z
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/IME;->emojiKeyWasHidden:Z
 
-    .line 1280
+    .line 1287
     :goto_0
     if-eqz v0, :cond_0
 
-    .line 1281
+    .line 1288
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->reloadKeyboard()V
 
-    .line 1282
+    .line 1289
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->refreshKeyboard()V
 
-    .line 1285
+    .line 1292
     :cond_0
     return-void
 
-    .line 1276
+    .line 1283
     .end local v0    # "reloadKeyboard":Z
     :cond_1
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->emojiKeyWasHidden:Z
 
-    .line 1277
+    .line 1284
     .restart local v0    # "reloadKeyboard":Z
     const/4 v1, 0x0
 
@@ -1078,12 +1078,12 @@
     .param p2, "startScan"    # Z
 
     .prologue
-    .line 1607
+    .line 1620
     const/4 v2, 0x0
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/IME;->setImeInUse(Z)V
 
-    .line 1608
+    .line 1621
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardInputInflater;->isEmpty()Z
@@ -1092,46 +1092,46 @@
 
     if-eqz v2, :cond_0
 
-    .line 1609
+    .line 1622
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1635
+    .line 1648
     :goto_0
     return-void
 
-    .line 1613
+    .line 1626
     :cond_0
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
     invoke-virtual {v2, p1}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->onFinishInputView(Z)V
 
-    .line 1614
+    .line 1627
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->closeDialogs()V
 
-    .line 1615
+    .line 1628
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->removeAllPendingMsgs()V
 
-    .line 1616
+    .line 1629
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v1
 
-    .line 1617
+    .line 1630
     .local v1, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v1, :cond_1
 
-    .line 1618
+    .line 1631
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->savedKeyboardState:Lcom/nuance/swype/input/IME$KeyboardState;
 
     invoke-virtual {p0, p1, v1, v2}, Lcom/nuance/swype/input/IME;->onFinishInputViewProjectOverride(ZLcom/nuance/swype/input/InputView;Lcom/nuance/swype/input/IME$KeyboardState;)V
 
-    .line 1620
+    .line 1633
     :cond_1
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
 
-    .line 1621
+    .line 1634
     .local v0, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->hasActiveIMEManagerInstance()Z
 
@@ -1139,21 +1139,21 @@
 
     if-eqz v2, :cond_2
 
-    .line 1622
+    .line 1635
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 1623
+    .line 1636
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v2
 
     invoke-virtual {v2, p1}, Lcom/nuance/swype/input/IMEHandler;->onFinishInputView(Z)V
 
-    .line 1627
+    .line 1640
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
@@ -1161,7 +1161,7 @@
 
     if-eqz v2, :cond_3
 
-    .line 1628
+    .line 1641
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
     move-result-object v2
@@ -1172,14 +1172,14 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->notifyKeyboardClose(Landroid/content/Context;)V
 
-    .line 1631
+    .line 1644
     :cond_3
     if-eqz p2, :cond_4
 
-    .line 1632
+    .line 1645
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->startPendingScanning()V
 
-    .line 1634
+    .line 1647
     :cond_4
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
@@ -1192,12 +1192,12 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 4206
+    .line 4226
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->recaptureWhenSwitching:Z
 
     if-eqz v0, :cond_1
 
-    .line 4207
+    .line 4227
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     if-eqz v0, :cond_0
@@ -1206,16 +1206,16 @@
 
     if-nez v0, :cond_0
 
-    .line 4208
+    .line 4228
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/RecaptureHandler;->onSingleTap(Z)Z
 
-    .line 4210
+    .line 4230
     :cond_0
     iput-boolean v1, p0, Lcom/nuance/swype/input/IME;->recaptureWhenSwitching:Z
 
-    .line 4212
+    .line 4232
     :cond_1
     return-void
 .end method
@@ -1246,27 +1246,27 @@
     .locals 2
 
     .prologue
-    .line 1228
+    .line 1235
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->updateFullscreenMode()V
 
-    .line 1229
+    .line 1236
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAccessibilityInfo()Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mAccessibilityInfo:Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
-    .line 1230
+    .line 1237
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mAccessibilityInfo:Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
     if-eqz v0, :cond_0
 
-    .line 1231
+    .line 1238
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mAccessibilityInfo:Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/accessibility/AccessibilityInfo;->syncWithDeviceAccessiblityState()V
 
-    .line 1233
+    .line 1240
     :cond_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1274,20 +1274,20 @@
 
     iput-wide v0, p0, Lcom/nuance/swype/input/IME;->localyticsStartPointTime:J
 
-    .line 1234
+    .line 1241
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->detectAccessibilityChange()V
 
-    .line 1236
+    .line 1243
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
     if-eqz v0, :cond_1
 
-    .line 1237
+    .line 1244
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputMethods;->detectLocaleChange()V
 
-    .line 1239
+    .line 1246
     :cond_1
     return-void
 .end method
@@ -1299,7 +1299,7 @@
     .end annotation
 
     .prologue
-    .line 3547
+    .line 3567
     const v0, 0x10008000
 
     return v0
@@ -1363,7 +1363,7 @@
     .param p1, "bucket"    # Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;
 
     .prologue
-    .line 4014
+    .line 4034
     const/4 v0, 0x1
 
     return v0
@@ -1384,7 +1384,7 @@
 
     const-wide/16 v2, 0xa
 
-    .line 1480
+    .line 1487
     const-wide/16 v0, 0x0
 
     cmp-long v0, p1, v0
@@ -1395,14 +1395,14 @@
 
     if-gtz v0, :cond_0
 
-    .line 1481
+    .line 1488
     const-string v0, "0-10ms"
 
-    .line 1495
+    .line 1502
     :goto_0
     return-object v0
 
-    .line 1482
+    .line 1489
     :cond_0
     cmp-long v0, p1, v2
 
@@ -1412,12 +1412,12 @@
 
     if-gtz v0, :cond_1
 
-    .line 1483
+    .line 1490
     const-string v0, "10-20ms"
 
     goto :goto_0
 
-    .line 1484
+    .line 1491
     :cond_1
     cmp-long v0, p1, v4
 
@@ -1427,12 +1427,12 @@
 
     if-gtz v0, :cond_2
 
-    .line 1485
+    .line 1492
     const-string v0, "20-100ms"
 
     goto :goto_0
 
-    .line 1486
+    .line 1493
     :cond_2
     cmp-long v0, p1, v6
 
@@ -1442,12 +1442,12 @@
 
     if-gtz v0, :cond_3
 
-    .line 1487
+    .line 1494
     const-string v0, "100-200ms"
 
     goto :goto_0
 
-    .line 1488
+    .line 1495
     :cond_3
     cmp-long v0, p1, v8
 
@@ -1457,12 +1457,12 @@
 
     if-gtz v0, :cond_4
 
-    .line 1489
+    .line 1496
     const-string v0, "200-500ms"
 
     goto :goto_0
 
-    .line 1490
+    .line 1497
     :cond_4
     cmp-long v0, p1, v10
 
@@ -1474,12 +1474,12 @@
 
     if-gtz v0, :cond_5
 
-    .line 1491
+    .line 1498
     const-string v0, "500-1000ms"
 
     goto :goto_0
 
-    .line 1492
+    .line 1499
     :cond_5
     const-wide/16 v0, 0x3e8
 
@@ -1487,12 +1487,12 @@
 
     if-lez v0, :cond_6
 
-    .line 1493
+    .line 1500
     const-string v0, "1000ms +"
 
     goto :goto_0
 
-    .line 1495
+    .line 1502
     :cond_6
     const-string v0, "0-10ms"
 
@@ -1504,12 +1504,12 @@
     .param p1, "repeatedCount"    # I
 
     .prologue
-    .line 2682
+    .line 2695
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 2683
+    .line 2696
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
@@ -1523,11 +1523,11 @@
 
     if-eqz v1, :cond_0
 
-    .line 2690
+    .line 2703
     :goto_0
     return-void
 
-    .line 2689
+    .line 2702
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->sendBackspace(I)V
 
@@ -1542,12 +1542,12 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2714
+    .line 2727
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 2715
+    .line 2728
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
@@ -1557,11 +1557,11 @@
 
     if-eqz v1, :cond_0
 
-    .line 2721
+    .line 2734
     :goto_0
     return-void
 
-    .line 2720
+    .line 2733
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/nuance/swype/input/IME;->sendLeftRightKey(II)V
 
@@ -1573,17 +1573,17 @@
     .param p1, "bucket"    # Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;
 
     .prologue
-    .line 3958
+    .line 3978
     iget v0, p1, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->wordHandler:I
 
     if-eqz v0, :cond_1
 
-    .line 3982
+    .line 4002
     :cond_0
     :goto_0
     return-void
 
-    .line 3961
+    .line 3981
     :cond_1
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -1591,67 +1591,67 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3962
+    .line 3982
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isImeInUse()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3963
+    .line 3983
     invoke-virtual {p1}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_3
 
-    .line 3964
+    .line 3984
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->initializeCoreNeeded:Z
 
     if-eqz v0, :cond_2
 
-    .line 3965
+    .line 3985
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->initializedCore()V
 
-    .line 3966
+    .line 3986
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->initializeCoreNeeded:Z
 
-    .line 3969
+    .line 3989
     :cond_2
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->alphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v0, :cond_0
 
-    .line 3971
+    .line 3991
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/IME;->getMaxItemToScan(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;)I
 
     move-result v0
 
     invoke-direct {p0, p1, v0}, Lcom/nuance/swype/input/IME;->scan(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;I)V
 
-    .line 3973
+    .line 3993
     invoke-virtual {p1}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3974
+    .line 3994
     const-wide/16 v0, 0x7d0
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/nuance/swype/input/IME;->sendDelayNewWordsScanning(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;J)V
 
     goto :goto_0
 
-    .line 3978
+    .line 3998
     :cond_3
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->initializeCoreNeeded:Z
 
-    .line 3979
+    .line 3999
     const-wide/16 v0, 0x2710
 
     invoke-virtual {p0, p1, v0, v1}, Lcom/nuance/swype/input/IME;->sendDelayNewWordsScanning(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;J)V
@@ -1665,12 +1665,12 @@
     .param p2, "repeatedCount"    # I
 
     .prologue
-    .line 2693
+    .line 2706
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 2694
+    .line 2707
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_1
 
@@ -1682,19 +1682,19 @@
 
     if-eqz v2, :cond_1
 
-    .line 2697
+    .line 2710
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->isAutoReturnToEditorDefaultLayerEnabled()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2702
+    .line 2715
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->getKeyboardSwitcher()Lcom/nuance/swype/input/KeyboardSwitcher;
 
     move-result-object v1
 
-    .line 2703
+    .line 2716
     .local v1, "switcher":Lcom/nuance/swype/input/KeyboardSwitcher;
     invoke-virtual {v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->getDefaultLayer()Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
@@ -1704,16 +1704,16 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 2704
+    .line 2717
     invoke-virtual {v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->returnToDefaultLayer()V
 
-    .line 2711
+    .line 2724
     .end local v1    # "switcher":Lcom/nuance/swype/input/KeyboardSwitcher;
     :cond_0
     :goto_0
     return-void
 
-    .line 2710
+    .line 2723
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->sendSpace()V
 
@@ -1724,19 +1724,19 @@
     .locals 3
 
     .prologue
-    .line 4020
+    .line 4040
     sget-object v1, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "initializedCore()"
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 4022
+    .line 4042
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getInputMethods()Lcom/nuance/swype/input/InputMethods;
 
     move-result-object v0
 
-    .line 4023
+    .line 4043
     .local v0, "im":Lcom/nuance/swype/input/InputMethods;
     if-eqz v0, :cond_0
 
@@ -1750,7 +1750,7 @@
 
     if-nez v1, :cond_0
 
-    .line 4024
+    .line 4044
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -1765,7 +1765,7 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->alphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
-    .line 4025
+    .line 4045
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputMethods;->getCurrentInputLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
     move-result-object v1
@@ -1774,11 +1774,11 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/input/InputMethods$Language;->setLanguage(Lcom/nuance/input/swypecorelib/XT9CoreInput;)Lcom/nuance/input/swypecorelib/XT9Status;
 
-    .line 4029
+    .line 4049
     :goto_0
     return-void
 
-    .line 4027
+    .line 4047
     :cond_0
     const/4 v1, 0x0
 
@@ -1801,7 +1801,7 @@
     .locals 2
 
     .prologue
-    .line 4063
+    .line 4083
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
     move-result-object v0
@@ -1819,7 +1819,7 @@
     .locals 1
 
     .prologue
-    .line 1898
+    .line 1911
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
     return v0
@@ -1829,7 +1829,7 @@
     .locals 1
 
     .prologue
-    .line 3622
+    .line 3642
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mBuildInfo:Lcom/nuance/swype/input/BuildInfo;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/BuildInfo;->isTrialPeriodExpired()Z
@@ -1843,19 +1843,19 @@
     .locals 4
 
     .prologue
-    .line 1822
+    .line 1835
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
-    .line 1823
+    .line 1836
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->checkPackageUpdateRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1824
+    .line 1837
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->checkPackageUpdateRunnable:Ljava/lang/Runnable;
@@ -1864,7 +1864,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1826
+    .line 1839
     :cond_0
     return-void
 .end method
@@ -1875,7 +1875,7 @@
     .prologue
     const/16 v4, 0x77
 
-    .line 1449
+    .line 1456
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     if-eqz v1, :cond_2
@@ -1888,19 +1888,19 @@
 
     if-lez v1, :cond_2
 
-    .line 1450
+    .line 1457
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     instance-of v1, v1, Lcom/nuance/swype/input/BilingualLanguage;
 
     if-eqz v1, :cond_1
 
-    .line 1451
+    .line 1458
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     check-cast v0, Lcom/nuance/swype/input/BilingualLanguage;
 
-    .line 1452
+    .line 1459
     .local v0, "bi":Lcom/nuance/swype/input/BilingualLanguage;
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
@@ -1930,13 +1930,13 @@
 
     if-ltz v1, :cond_2
 
-    .line 1467
+    .line 1474
     .end local v0    # "bi":Lcom/nuance/swype/input/BilingualLanguage;
     :cond_0
     :goto_0
     return-void
 
-    .line 1457
+    .line 1464
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
@@ -1950,7 +1950,7 @@
 
     if-gez v1, :cond_0
 
-    .line 1463
+    .line 1470
     :cond_2
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
@@ -1960,12 +1960,12 @@
 
     if-eqz v1, :cond_3
 
-    .line 1464
+    .line 1471
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1466
+    .line 1473
     :cond_3
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
@@ -1980,19 +1980,19 @@
     .locals 1
 
     .prologue
-    .line 3552
+    .line 3572
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3553
+    .line 3573
     .local v0, "currentInputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 3554
+    .line 3574
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->resumeEmojiInput()V
 
-    .line 3556
+    .line 3576
     :cond_0
     return-void
 .end method
@@ -2007,7 +2007,7 @@
 
     const/4 v4, 0x0
 
-    .line 3985
+    .line 4005
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "scan() itemsToScan = "
@@ -2018,16 +2018,16 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 3987
+    .line 4007
     const/4 v6, 0x0
 
-    .line 3988
+    .line 4008
     .local v6, "itemScanned":I
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->alphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {p1, v0}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->setScanContext(Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;)V
 
-    .line 3990
+    .line 4010
     :goto_0
     if-ge v6, p2, :cond_3
 
@@ -2038,10 +2038,10 @@
     .local v8, "words":Ljava/lang/String;
     if-eqz v8, :cond_3
 
-    .line 3991
+    .line 4011
     add-int/lit8 v6, v6, 0x1
 
-    .line 3993
+    .line 4013
     invoke-virtual {p1}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isBigramDlm()Z
 
     move-result v0
@@ -2056,14 +2056,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 3994
+    .line 4014
     const-string v0, ","
 
     invoke-virtual {v8, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v7
 
-    .line 3995
+    .line 4015
     .local v7, "names":[Ljava/lang/String;
     if-eqz v7, :cond_0
 
@@ -2083,7 +2083,7 @@
 
     if-nez v0, :cond_0
 
-    .line 3996
+    .line 4016
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->alphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     aget-object v1, v7, v4
@@ -2096,7 +2096,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmImplicitScanBuf(Ljava/lang/String;IZZLjava/lang/String;)Z
 
-    .line 3999
+    .line 4019
     :cond_0
     invoke-virtual {p1}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
 
@@ -2104,21 +2104,21 @@
 
     if-eqz v0, :cond_1
 
-    .line 4000
+    .line 4020
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "scan mls over"
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 4001
+    .line 4021
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v0
 
     invoke-virtual {v0, v9}, Lcom/nuance/swype/input/UserPreferences;->setMlsHotWordsImportedOver(Z)V
 
-    .line 4007
+    .line 4027
     .end local v7    # "names":[Ljava/lang/String;
     :cond_1
     :goto_1
@@ -2130,7 +2130,7 @@
 
     goto :goto_0
 
-    .line 4004
+    .line 4024
     :cond_2
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->alphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -2146,7 +2146,7 @@
 
     goto :goto_1
 
-    .line 4009
+    .line 4029
     .end local v8    # "words":Ljava/lang/String;
     :cond_3
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
@@ -2159,7 +2159,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4010
+    .line 4030
     return-void
 .end method
 
@@ -2400,7 +2400,7 @@
     .locals 4
 
     .prologue
-    .line 3320
+    .line 3335
     iget-boolean v1, p0, Lcom/nuance/swype/input/IME;->upgrade:Z
 
     if-nez v1, :cond_1
@@ -2411,7 +2411,7 @@
 
     if-nez v1, :cond_1
 
-    .line 3322
+    .line 3337
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v1
@@ -2428,21 +2428,21 @@
 
     if-eqz v1, :cond_0
 
-    .line 3323
+    .line 3338
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->showNonLicenseAppDialog()V
 
-    .line 3352
+    .line 3367
     :cond_0
     :goto_0
     return-void
 
-    .line 3327
+    .line 3342
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
     if-nez v1, :cond_2
 
-    .line 3328
+    .line 3343
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -2453,7 +2453,7 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
-    .line 3330
+    .line 3345
     :cond_2
     iget v1, p0, Lcom/nuance/swype/input/IME;->trialCheckCount:I
 
@@ -2461,12 +2461,12 @@
 
     if-lt v1, v2, :cond_3
 
-    .line 3333
+    .line 3348
     const/4 v1, 0x0
 
     iput v1, p0, Lcom/nuance/swype/input/IME;->trialCheckCount:I
 
-    .line 3334
+    .line 3349
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
@@ -2483,7 +2483,7 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;->checkAndShowTrialExpired(Landroid/os/IBinder;)V
 
-    .line 3338
+    .line 3353
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
@@ -2505,7 +2505,7 @@
 
     if-nez v1, :cond_0
 
-    .line 3340
+    .line 3355
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     if-eqz v1, :cond_5
@@ -2534,13 +2534,13 @@
 
     if-nez v1, :cond_5
 
-    .line 3342
+    .line 3357
     :cond_4
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v0
 
-    .line 3343
+    .line 3358
     .local v0, "prefs":Lcom/nuance/swype/input/UserPreferences;
     invoke-virtual {v0}, Lcom/nuance/swype/input/UserPreferences;->getNetworkAgreement()Z
 
@@ -2554,7 +2554,7 @@
 
     if-nez v1, :cond_5
 
-    .line 3344
+    .line 3359
     const/4 v1, 0x0
 
     invoke-static {p0, v1}, Lcom/nuance/swype/input/ChinaNetworkNotificationDialog;->create(Landroid/content/Context;Lcom/nuance/swype/input/ChinaNetworkNotificationDialog$ChinaNetworkNotificationDialogListener;)Landroid/app/AlertDialog;
@@ -2563,17 +2563,17 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->mNetworkPromptMessage:Landroid/app/AlertDialog;
 
-    .line 3345
+    .line 3360
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mNetworkPromptMessage:Landroid/app/AlertDialog;
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/IME;->attachDialog(Landroid/app/Dialog;)V
 
-    .line 3346
+    .line 3361
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mNetworkPromptMessage:Landroid/app/AlertDialog;
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
 
-    .line 3350
+    .line 3365
     .end local v0    # "prefs":Lcom/nuance/swype/input/UserPreferences;
     :cond_5
     const/4 v1, 0x1
@@ -2587,7 +2587,7 @@
     .locals 6
 
     .prologue
-    .line 3635
+    .line 3655
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     if-eqz v3, :cond_0
@@ -2600,12 +2600,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 3636
+    .line 3656
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v3}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3639
+    .line 3659
     :cond_0
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
@@ -2615,7 +2615,7 @@
 
     invoke-direct {v0, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 3640
+    .line 3660
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
     const/4 v3, 0x1
 
@@ -2649,14 +2649,14 @@
 
     invoke-virtual {v3, v4, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 3646
+    .line 3666
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v3
 
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
-    .line 3648
+    .line 3668
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
@@ -2671,23 +2671,23 @@
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog;->setMessage(Ljava/lang/CharSequence;)V
 
-    .line 3649
+    .line 3669
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v3}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
 
     move-result-object v2
 
-    .line 3651
+    .line 3671
     .local v2, "window":Landroid/view/Window;
     if-eqz v2, :cond_1
 
-    .line 3653
+    .line 3673
     invoke-virtual {v2}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v1
 
-    .line 3655
+    .line 3675
     .local v1, "lp":Landroid/view/WindowManager$LayoutParams;
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
@@ -2703,27 +2703,27 @@
 
     iput-object v3, v1, Landroid/view/WindowManager$LayoutParams;->token:Landroid/os/IBinder;
 
-    .line 3656
+    .line 3676
     const/16 v3, 0x3eb
 
     iput v3, v1, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    .line 3658
+    .line 3678
     invoke-virtual {v2, v1}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
-    .line 3659
+    .line 3679
     const/high16 v3, 0x20000
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->addFlags(I)V
 
-    .line 3662
+    .line 3682
     .end local v1    # "lp":Landroid/view/WindowManager$LayoutParams;
     :cond_1
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v3}, Landroid/app/AlertDialog;->show()V
 
-    .line 3663
+    .line 3683
     return-void
 .end method
 
@@ -2731,19 +2731,19 @@
     .locals 3
 
     .prologue
-    .line 3794
+    .line 3814
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v1
 
     if-nez v1, :cond_2
 
-    .line 3795
+    .line 3815
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
     if-nez v1, :cond_0
 
-    .line 3796
+    .line 3816
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -2754,7 +2754,7 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
-    .line 3799
+    .line 3819
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
@@ -2768,10 +2768,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 3800
+    .line 3820
     const/4 v0, 0x0
 
-    .line 3802
+    .line 3822
     .local v0, "needToClearPreviousTask":Z
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getPackageName()Ljava/lang/String;
 
@@ -2789,10 +2789,10 @@
 
     if-nez v1, :cond_1
 
-    .line 3803
+    .line 3823
     const/4 v0, 0x1
 
-    .line 3805
+    .line 3825
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
@@ -2800,7 +2800,7 @@
 
     move-result v1
 
-    .line 3809
+    .line 3829
     .end local v0    # "needToClearPreviousTask":Z
     :goto_0
     return v1
@@ -2817,26 +2817,26 @@
     .prologue
     const/16 v1, 0x6d
 
-    .line 3787
+    .line 3807
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3788
+    .line 3808
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3789
+    .line 3809
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     const-wide/16 v2, 0xf
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 3791
+    .line 3811
     :cond_0
     return-void
 .end method
@@ -2847,7 +2847,7 @@
     .param p2, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 3741
+    .line 3761
     const/high16 v0, 0x10000000
 
     const/4 v1, 0x0
@@ -2869,32 +2869,32 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 3745
+    .line 3765
     if-nez p1, :cond_1
 
-    .line 3779
+    .line 3799
     :cond_0
     :goto_0
     return v5
 
-    .line 3752
+    .line 3772
     :cond_1
     if-nez p2, :cond_4
 
-    .line 3753
+    .line 3773
     new-instance v3, Landroid/content/Intent;
 
     const-string v6, "android.intent.action.MAIN"
 
     invoke-direct {v3, v6}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 3754
+    .line 3774
     .local v3, "intent":Landroid/content/Intent;
     const-string v6, "android.intent.category.LAUNCHER"
 
     invoke-virtual {v3, v6}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3755
+    .line 3775
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v6
@@ -2903,7 +2903,7 @@
 
     move-result-object v4
 
-    .line 3762
+    .line 3782
     .local v4, "list":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
     :goto_1
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2924,7 +2924,7 @@
 
     check-cast v2, Landroid/content/pm/ResolveInfo;
 
-    .line 3763
+    .line 3783
     .local v2, "info":Landroid/content/pm/ResolveInfo;
     iget-object v6, v2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
@@ -2936,39 +2936,39 @@
 
     if-eqz v6, :cond_2
 
-    .line 3765
+    .line 3785
     iget-object v5, v2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     iget-object v5, v5, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
 
     invoke-virtual {v3, p1, v5}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 3766
+    .line 3786
     invoke-virtual {v3, p3}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 3767
+    .line 3787
     if-eqz p4, :cond_3
 
-    .line 3768
+    .line 3788
     invoke-interface {p4, v3}, Lcom/nuance/swype/input/IME$IntentDecorator;->decorate(Landroid/content/Intent;)V
 
-    .line 3771
+    .line 3791
     :cond_3
     :try_start_0
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/IME;->startActivity(Landroid/content/Intent;)V
 
-    .line 3772
+    .line 3792
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->hideWindow()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3776
+    .line 3796
     :goto_2
     const/4 v5, 0x1
 
     goto :goto_0
 
-    .line 3757
+    .line 3777
     .end local v1    # "i$":Ljava/util/Iterator;
     .end local v2    # "info":Landroid/content/pm/ResolveInfo;
     .end local v3    # "intent":Landroid/content/Intent;
@@ -2980,7 +2980,7 @@
 
     invoke-direct {v3, v6, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 3758
+    .line 3778
     .restart local v3    # "intent":Landroid/content/Intent;
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -2995,13 +2995,13 @@
     .restart local v4    # "list":Ljava/util/List;, "Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
     goto :goto_1
 
-    .line 3773
+    .line 3793
     .restart local v1    # "i$":Ljava/util/Iterator;
     .restart local v2    # "info":Landroid/content/pm/ResolveInfo;
     :catch_0
     move-exception v0
 
-    .line 3774
+    .line 3794
     .local v0, "ex":Ljava/lang/Exception;
     sget-object v5, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -3014,7 +3014,7 @@
     .locals 7
 
     .prologue
-    .line 3898
+    .line 3918
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v5
@@ -3027,7 +3027,7 @@
 
     move-result-object v0
 
-    .line 3899
+    .line 3919
     .local v0, "buckets":[Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;
     const/4 v1, 0x0
 
@@ -3037,23 +3037,23 @@
 
     if-ge v1, v5, :cond_0
 
-    .line 3900
+    .line 3920
     aget-object v5, v0, v1
 
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->startDelayScanning(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;)V
 
-    .line 3899
+    .line 3919
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 3904
+    .line 3924
     :cond_0
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v4
 
-    .line 3905
+    .line 3925
     .local v4, "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     const-string v5, "mls_hot_words_left_num"
 
@@ -3063,7 +3063,7 @@
 
     move-result v3
 
-    .line 3906
+    .line 3926
     .local v3, "leftNum":I
     sget-boolean v5, Lcom/nuance/swype/input/ThemeManager;->isInAppPurchaseEnabled:Z
 
@@ -3083,12 +3083,12 @@
 
     if-lez v3, :cond_1
 
-    .line 3908
+    .line 3928
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v2
 
-    .line 3909
+    .line 3929
     .local v2, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -3102,21 +3102,21 @@
 
     move-result-object v5
 
-    .line 3912
+    .line 3932
     invoke-virtual {v5}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    .line 3914
+    .line 3934
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->getThemeManager()Lcom/nuance/swype/input/ThemeManager;
 
     move-result-object v5
 
     invoke-virtual {v5, p0, v3}, Lcom/nuance/swype/input/ThemeManager;->importMls(Landroid/content/Context;I)V
 
-    .line 3917
+    .line 3937
     .end local v2    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
     :cond_1
     return-void
@@ -3126,7 +3126,7 @@
     .locals 4
 
     .prologue
-    .line 3860
+    .line 3880
     const-string v2, "input_method"
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/IME;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -3135,7 +3135,7 @@
 
     check-cast v1, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 3862
+    .line 3882
     .local v1, "imm":Landroid/view/inputmethod/InputMethodManager;
     :try_start_0
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->myInputMethodImpl:Lcom/nuance/swype/input/IME$SwypeInputMethodImpl;
@@ -3148,15 +3148,15 @@
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3868
+    .line 3888
     :goto_0
     return-void
 
-    .line 3863
+    .line 3883
     :catch_0
     move-exception v0
 
-    .line 3866
+    .line 3886
     .local v0, "ex":Ljava/lang/IllegalArgumentException;
     sget-object v2, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -3176,7 +3176,7 @@
     .param p1, "lang"    # Ljava/lang/String;
 
     .prologue
-    .line 3300
+    .line 3315
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     if-eqz v1, :cond_0
@@ -3189,12 +3189,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3307
+    .line 3322
     :cond_0
     :goto_0
     return-void
 
-    .line 3303
+    .line 3318
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
@@ -3210,7 +3210,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 3304
+    .line 3319
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods;->getAllLanguages()Ljava/util/Map;
@@ -3223,7 +3223,7 @@
 
     check-cast v0, Lcom/nuance/swype/input/InputMethods$Language;
 
-    .line 3305
+    .line 3320
     .local v0, "language":Lcom/nuance/swype/input/InputMethods$Language;
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->languageAdapter:Lcom/nuance/swype/input/LanguageListAdapter;
 
@@ -3237,18 +3237,18 @@
     .param p1, "dialog"    # Landroid/app/Dialog;
 
     .prologue
-    .line 3310
+    .line 3325
     invoke-virtual {p1}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
-    .line 3311
+    .line 3326
     .local v1, "window":Landroid/view/Window;
     invoke-virtual {v1}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v0
 
-    .line 3312
+    .line 3327
     .local v0, "lp":Landroid/view/WindowManager$LayoutParams;
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
@@ -3264,20 +3264,20 @@
 
     iput-object v2, v0, Landroid/view/WindowManager$LayoutParams;->token:Landroid/os/IBinder;
 
-    .line 3313
+    .line 3328
     const/16 v2, 0x3eb
 
     iput v2, v0, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    .line 3314
+    .line 3329
     invoke-virtual {v1, v0}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
-    .line 3315
+    .line 3330
     const/high16 v2, 0x20000
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->addFlags(I)V
 
-    .line 3316
+    .line 3331
     return-void
 .end method
 
@@ -3285,7 +3285,7 @@
     .locals 1
 
     .prologue
-    .line 3614
+    .line 3634
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isLicenseValid()Z
 
     move-result v0
@@ -3303,10 +3303,10 @@
     :goto_0
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->mValidBulid:Z
 
-    .line 3615
+    .line 3635
     return-void
 
-    .line 3614
+    .line 3634
     :cond_0
     const/4 v0, 0x0
 
@@ -3319,25 +3319,25 @@
     .param p2, "add"    # Z
 
     .prologue
-    .line 1470
+    .line 1477
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
     if-eqz v0, :cond_0
 
-    .line 1471
+    .line 1478
     if-eqz p2, :cond_1
 
-    .line 1472
+    .line 1479
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
     invoke-virtual {v0, p1, p1}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 1477
+    .line 1484
     :cond_0
     :goto_0
     return-void
 
-    .line 1474
+    .line 1481
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->checkedLanguageUpdateList:Landroid/util/SparseIntArray;
 
@@ -3350,26 +3350,26 @@
     .locals 2
 
     .prologue
-    .line 3126
+    .line 3139
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3127
+    .line 3140
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3128
+    .line 3141
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 3129
+    .line 3142
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->cleanupAccessibility()V
 
-    .line 3132
+    .line 3145
     .end local v0    # "inputView":Lcom/nuance/swype/input/InputView;
     :cond_0
     return-void
@@ -3379,12 +3379,12 @@
     .locals 1
 
     .prologue
-    .line 1638
+    .line 1651
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->savedKeyboardState:Lcom/nuance/swype/input/IME$KeyboardState;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/IME$KeyboardState;->clear()V
 
-    .line 1639
+    .line 1652
     return-void
 .end method
 
@@ -3392,12 +3392,12 @@
     .locals 1
 
     .prologue
-    .line 3198
+    .line 3213
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/IME;->requestHideSelf(I)V
 
-    .line 3199
+    .line 3214
     return-void
 .end method
 
@@ -3407,7 +3407,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 3092
+    .line 3105
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -3418,27 +3418,27 @@
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/ToolTips;->dimissTip()V
 
-    .line 3094
+    .line 3107
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     const/16 v2, 0x6d
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3095
+    .line 3108
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
     if-eqz v1, :cond_0
 
-    .line 3096
+    .line 3109
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;->dismiss()V
 
-    .line 3097
+    .line 3110
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->mShowFirstTimeStartupMessages:Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
 
-    .line 3100
+    .line 3113
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
@@ -3452,15 +3452,15 @@
 
     if-eqz v1, :cond_1
 
-    .line 3101
+    .line 3114
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3102
+    .line 3115
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->mAlertMessageDialog:Landroid/app/AlertDialog;
 
-    .line 3105
+    .line 3118
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
@@ -3474,15 +3474,15 @@
 
     if-eqz v1, :cond_2
 
-    .line 3106
+    .line 3119
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3107
+    .line 3120
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
-    .line 3110
+    .line 3123
     :cond_2
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
@@ -3496,25 +3496,25 @@
 
     if-eqz v1, :cond_3
 
-    .line 3111
+    .line 3124
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     invoke-virtual {v1}, Lcom/nuance/swype/widget/PopupLanguageList;->dismiss()V
 
-    .line 3114
+    .line 3127
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3115
+    .line 3128
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_4
 
-    .line 3116
+    .line 3129
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->closeDialogs()V
 
-    .line 3118
+    .line 3131
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
@@ -3540,15 +3540,15 @@
 
     if-eqz v1, :cond_5
 
-    .line 3120
+    .line 3133
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mNetworkPromptMessage:Landroid/app/AlertDialog;
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3121
+    .line 3134
     iput-object v3, p0, Lcom/nuance/swype/input/IME;->mNetworkPromptMessage:Landroid/app/AlertDialog;
 
-    .line 3123
+    .line 3136
     :cond_5
     return-void
 .end method
@@ -3557,7 +3557,7 @@
     .locals 1
 
     .prologue
-    .line 3154
+    .line 3167
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     if-eqz v0, :cond_0
@@ -3570,17 +3570,39 @@
 
     if-eqz v0, :cond_0
 
-    .line 3155
+    iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/ListView;->getAdapter()Landroid/widget/ListAdapter;
+
+    move-result-object v0
+
+    instance-of v0, v0, Lcom/nuance/speech/dragon/DragonDictationLanguageListAdapter;
+
+    if-eqz v0, :cond_0
+
+    .line 3170
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3156
+    .line 3171
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
-    .line 3158
+    .line 3173
     :cond_0
     return-void
 .end method
@@ -3589,7 +3611,7 @@
     .locals 1
 
     .prologue
-    .line 4196
+    .line 4216
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     if-eqz v0, :cond_0
@@ -3602,12 +3624,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4197
+    .line 4217
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     invoke-virtual {v0}, Lcom/nuance/swype/widget/PopupLanguageList;->dismiss()V
 
-    .line 4199
+    .line 4219
     :cond_0
     return-void
 .end method
@@ -3931,7 +3953,7 @@
     .locals 1
 
     .prologue
-    .line 4447
+    .line 4467
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     if-eqz v0, :cond_0
@@ -3959,7 +3981,7 @@
     .locals 1
 
     .prologue
-    .line 4353
+    .line 4373
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     if-eqz v0, :cond_0
@@ -3986,15 +4008,15 @@
     .prologue
     const/4 v9, 0x0
 
-    .line 3693
+    .line 3713
     if-nez p1, :cond_1
 
-    .line 3734
+    .line 3754
     :cond_0
     :goto_0
     return-void
 
-    .line 3697
+    .line 3717
     :cond_1
     new-instance v6, Landroid/view/inputmethod/ExtractedTextRequest;
 
@@ -4004,7 +4026,7 @@
 
     move-result-object v2
 
-    .line 3698
+    .line 3718
     .local v2, "eText":Landroid/view/inputmethod/ExtractedText;
     if-eqz v2, :cond_0
 
@@ -4016,7 +4038,7 @@
 
     if-nez v6, :cond_0
 
-    .line 3700
+    .line 3720
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v6
@@ -4025,7 +4047,7 @@
 
     move-result-object v1
 
-    .line 3709
+    .line 3729
     .local v1, "charUtils":Lcom/nuance/swype/util/CharacterUtilities;
     iget v6, v2, Landroid/view/inputmethod/ExtractedText;->selectionStart:I
 
@@ -4035,7 +4057,7 @@
 
     move-result v3
 
-    .line 3710
+    .line 3730
     .local v3, "searchStart":I
     iget-object v6, v2, Landroid/view/inputmethod/ExtractedText;->text:Ljava/lang/CharSequence;
 
@@ -4045,7 +4067,7 @@
 
     move-result v0
 
-    .line 3711
+    .line 3731
     .local v0, "ch":C
     invoke-static {v0}, Ljava/lang/Character;->isWhitespace(C)Z
 
@@ -4059,11 +4081,11 @@
 
     if-eqz v6, :cond_3
 
-    .line 3712
+    .line 3732
     :cond_2
     add-int/lit8 v3, v3, -0x1
 
-    .line 3716
+    .line 3736
     :cond_3
     move v5, v3
 
@@ -4071,7 +4093,7 @@
     :goto_1
     if-lez v5, :cond_4
 
-    .line 3718
+    .line 3738
     iget-object v6, v2, Landroid/view/inputmethod/ExtractedText;->text:Ljava/lang/CharSequence;
 
     add-int/lit8 v7, v5, -0x1
@@ -4080,7 +4102,7 @@
 
     move-result v0
 
-    .line 3721
+    .line 3741
     invoke-static {v0}, Ljava/lang/Character;->isWhitespace(C)Z
 
     move-result v6
@@ -4093,22 +4115,22 @@
 
     if-nez v6, :cond_4
 
-    .line 3722
+    .line 3742
     add-int/lit8 v5, v5, -0x1
 
     goto :goto_1
 
-    .line 3726
+    .line 3746
     :cond_4
     invoke-static {p0}, Lcom/nuance/swype/stats/UsageManager;->from(Landroid/content/Context;)Lcom/nuance/swype/stats/UsageManager;
 
     move-result-object v4
 
-    .line 3727
+    .line 3747
     .local v4, "usageMgr":Lcom/nuance/swype/stats/UsageManager;
     if-eqz v4, :cond_5
 
-    .line 3728
+    .line 3748
     invoke-virtual {v4}, Lcom/nuance/swype/stats/UsageManager;->getKeyboardUsageScribe()Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
 
     move-result-object v6
@@ -4133,7 +4155,7 @@
 
     invoke-interface {v6, v7}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordDeletedWord(Ljava/lang/String;)V
 
-    .line 3732
+    .line 3752
     :cond_5
     iget v6, v2, Landroid/view/inputmethod/ExtractedText;->selectionStart:I
 
@@ -4148,7 +4170,7 @@
     .locals 2
 
     .prologue
-    .line 4119
+    .line 4139
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->lastAccessibility:Z
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
@@ -4157,19 +4179,19 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 4121
+    .line 4141
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->isAccessibilityChanged:Z
 
-    .line 4122
+    .line 4142
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->lastAccessibility:Z
 
-    .line 4124
+    .line 4144
     :cond_0
     return-void
 .end method
@@ -4178,19 +4200,19 @@
     .locals 1
 
     .prologue
-    .line 2518
+    .line 2531
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isLangPopupMenuShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2519
+    .line 2532
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     invoke-virtual {v0}, Lcom/nuance/swype/widget/PopupLanguageList;->dismiss()V
 
-    .line 2521
+    .line 2534
     :cond_0
     return-void
 .end method
@@ -4253,17 +4275,17 @@
     .param p1, "lock"    # Z
 
     .prologue
-    .line 4366
+    .line 4386
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     if-eqz v0, :cond_0
 
-    .line 4367
+    .line 4387
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/view/InputContainerView;->dragLock(Z)V
 
-    .line 4369
+    .line 4389
     :cond_0
     return-void
 .end method
@@ -4296,31 +4318,31 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 4083
+    .line 4103
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
 
-    .line 4084
+    .line 4104
     .local v1, "imeApplication":Lcom/nuance/swype/input/IMEApplication;
     if-nez v1, :cond_1
 
-    .line 4093
+    .line 4113
     :cond_0
     :goto_0
     return-object v2
 
-    .line 4088
+    .line 4108
     :cond_1
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->getAppPreferences()Lcom/nuance/swype/input/AppPreferences;
 
     move-result-object v0
 
-    .line 4089
+    .line 4109
     .local v0, "appPref":Lcom/nuance/swype/input/AppPreferences;
     if-eqz v0, :cond_0
 
-    .line 4093
+    .line 4113
     invoke-virtual {v0}, Lcom/nuance/swype/input/AppPreferences;->getAccessibilityInfo()Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
     move-result-object v2
@@ -4355,7 +4377,7 @@
     .locals 1
 
     .prologue
-    .line 3689
+    .line 3709
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
     return-object v0
@@ -4394,16 +4416,16 @@
     .param p1, "inputView"    # Lcom/nuance/swype/input/InputView;
 
     .prologue
-    .line 4187
+    .line 4207
     const/4 v1, 0x2
 
     new-array v0, v1, [I
 
-    .line 4188
+    .line 4208
     .local v0, "winOffset":[I
     invoke-virtual {p1, v0}, Lcom/nuance/swype/input/InputView;->getLocationInWindow([I)V
 
-    .line 4189
+    .line 4209
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getWindow()Landroid/app/Dialog;
 
     move-result-object v1
@@ -4416,12 +4438,12 @@
 
     move-result-object v1
 
-    .line 4190
+    .line 4210
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v1
 
-    .line 4191
+    .line 4211
     invoke-virtual {p1}, Lcom/nuance/swype/input/InputView;->getHeight()I
 
     move-result v2
@@ -4434,7 +4456,7 @@
 
     sub-int/2addr v1, v2
 
-    .line 4192
+    .line 4212
     return v1
 .end method
 
@@ -4501,35 +4523,35 @@
     .locals 3
 
     .prologue
-    .line 4036
+    .line 4056
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
     if-eqz v2, :cond_0
 
-    .line 4037
+    .line 4057
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v1
 
-    .line 4038
+    .line 4058
     .local v1, "view":Lcom/nuance/swype/input/InputView;
     if-eqz v1, :cond_0
 
-    .line 4039
+    .line 4059
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputView;->getXT9CoreInput()Lcom/nuance/input/swypecorelib/XT9CoreInput;
 
     move-result-object v0
 
-    .line 4040
+    .line 4060
     .local v0, "coreInput":Lcom/nuance/input/swypecorelib/XT9CoreInput;
     if-eqz v0, :cond_0
 
-    .line 4041
+    .line 4061
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreInput;->getInputCoreCategory()I
 
     move-result v2
 
-    .line 4045
+    .line 4065
     .end local v0    # "coreInput":Lcom/nuance/input/swypecorelib/XT9CoreInput;
     .end local v1    # "view":Lcom/nuance/swype/input/InputView;
     :goto_0
@@ -4703,7 +4725,7 @@
     .param p2, "view"    # Landroid/view/View;
 
     .prologue
-    .line 4079
+    .line 4099
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->extendedPointTracker:Lcom/nuance/swype/input/accessibility/ExtendedPointTracker;
 
     invoke-virtual {v0, p1, p2}, Lcom/nuance/swype/input/accessibility/ExtendedPointTracker;->getExtendedEventForView(Landroid/view/MotionEvent;Landroid/view/View;)Landroid/view/MotionEvent;
@@ -4717,7 +4739,7 @@
     .locals 1
 
     .prologue
-    .line 4075
+    .line 4095
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->extendedPointTracker:Lcom/nuance/swype/input/accessibility/ExtendedPointTracker;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/accessibility/ExtendedPointTracker;->getExtendedPoint()Landroid/graphics/Point;
@@ -4731,7 +4753,7 @@
     .locals 1
 
     .prologue
-    .line 3570
+    .line 3590
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     return-object v0
@@ -4751,7 +4773,7 @@
     .locals 1
 
     .prologue
-    .line 1721
+    .line 1734
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     return-object v0
@@ -4784,7 +4806,7 @@
     .locals 1
 
     .prologue
-    .line 3577
+    .line 3597
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getWindow()Landroid/app/Dialog;
 
     move-result-object v0
@@ -4796,7 +4818,7 @@
     .locals 1
 
     .prologue
-    .line 1972
+    .line 1985
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
@@ -4834,17 +4856,17 @@
     .locals 4
 
     .prologue
-    .line 3190
+    .line 3205
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->closeDialogs()V
 
-    .line 3192
+    .line 3207
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->closeRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 3194
+    .line 3209
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->closeRunnable:Ljava/lang/Runnable;
@@ -4853,7 +4875,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 3195
+    .line 3210
     return-void
 .end method
 
@@ -4861,21 +4883,21 @@
     .locals 2
 
     .prologue
-    .line 4053
+    .line 4073
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
     if-eqz v1, :cond_0
 
-    .line 4054
+    .line 4074
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 4055
+    .line 4075
     .local v0, "view":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 4056
+    .line 4076
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->getXT9CoreInput()Lcom/nuance/input/swypecorelib/XT9CoreInput;
 
     move-result-object v1
@@ -4884,7 +4906,7 @@
 
     move-result v1
 
-    .line 4059
+    .line 4079
     .end local v0    # "view":Lcom/nuance/swype/input/InputView;
     :goto_0
     return v1
@@ -4899,7 +4921,7 @@
     .locals 3
 
     .prologue
-    .line 3920
+    .line 3940
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v2
@@ -4912,7 +4934,7 @@
 
     move-result-object v0
 
-    .line 3921
+    .line 3941
     .local v0, "buckets":[Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;
     const/4 v1, 0x0
 
@@ -4922,7 +4944,7 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 3922
+    .line 3942
     aget-object v2, v0, v1
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
@@ -4931,20 +4953,20 @@
 
     if-nez v2, :cond_0
 
-    .line 3923
+    .line 3943
     const/4 v2, 0x1
 
-    .line 3926
+    .line 3946
     :goto_1
     return v2
 
-    .line 3921
+    .line 3941
     :cond_0
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 3926
+    .line 3946
     :cond_1
     const/4 v2, 0x0
 
@@ -4955,7 +4977,7 @@
     .locals 1
 
     .prologue
-    .line 3272
+    .line 3287
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     if-eqz v0, :cond_0
@@ -4968,7 +4990,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 3273
+    .line 3288
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
@@ -4983,17 +5005,17 @@
 
     if-eqz v0, :cond_0
 
-    .line 3276
+    .line 3291
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 3277
+    .line 3292
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
-    .line 3280
+    .line 3295
     :cond_0
     return-void
 .end method
@@ -5002,25 +5024,25 @@
     .locals 3
 
     .prologue
-    .line 1795
+    .line 1808
     invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->hideWindow()V
 
-    .line 1796
+    .line 1809
     const/4 v1, 0x0
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/IME;->setHardKeyboardAttached(Z)V
 
-    .line 1797
+    .line 1810
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->handleClose()V
 
-    .line 1798
+    .line 1811
     invoke-static {p0}, Lcom/nuance/android/compat/LocalyticsCompat;->isLocalyticsClassExistingAndContributionaAllowed(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 1800
+    .line 1813
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
@@ -5039,26 +5061,26 @@
 
     invoke-static {v1, v2}, Lcom/nuance/android/compat/LocalyticsCompat;->createLocalyticsSession(Landroid/content/Context;Ljava/lang/String;)Lcom/nuance/swype/stats/LocalyticsUtils;
 
-    .line 1802
+    .line 1815
     invoke-static {}, Lcom/nuance/android/compat/LocalyticsCompat;->open()V
 
-    .line 1803
+    .line 1816
     const-string v1, "Session Start"
 
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
 
     invoke-static {v1, v2}, Lcom/nuance/android/compat/LocalyticsCompat;->tagEvent(Ljava/lang/String;Ljava/util/Map;)V
 
-    .line 1804
+    .line 1817
     invoke-static {p0}, Lcom/nuance/android/compat/LocalyticsCompat;->upload(Landroid/content/Context;)V
 
-    .line 1806
+    .line 1819
     :cond_0
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v0
 
-    .line 1807
+    .line 1820
     .local v0, "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     invoke-virtual {v0}, Lcom/nuance/swype/input/UserPreferences;->hasCheckedPackageUpdate()Z
 
@@ -5066,15 +5088,15 @@
 
     if-nez v1, :cond_1
 
-    .line 1809
+    .line 1822
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->postBackgroundCheckPackageUpdate()V
 
-    .line 1810
+    .line 1823
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/UserPreferences;->setCheckPackageUpdate(Z)V
 
-    .line 1812
+    .line 1825
     :cond_1
     return-void
 .end method
@@ -5295,7 +5317,7 @@
     .locals 1
 
     .prologue
-    .line 4443
+    .line 4463
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->isOrientationChanged:Z
 
     return v0
@@ -5374,14 +5396,14 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 4097
+    .line 4117
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 4100
+    .line 4120
     :cond_0
     :goto_0
     return v0
@@ -5404,7 +5426,7 @@
     .locals 1
 
     .prologue
-    .line 4298
+    .line 4318
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->isHardKeyboardAttached:Z
 
     if-eqz v0, :cond_0
@@ -5428,7 +5450,7 @@
     .locals 1
 
     .prologue
-    .line 4294
+    .line 4314
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->isHardkeyboardEnabled:Z
 
     return v0
@@ -5438,7 +5460,7 @@
     .locals 1
 
     .prologue
-    .line 3882
+    .line 3902
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     return v0
@@ -5448,7 +5470,7 @@
     .locals 1
 
     .prologue
-    .line 3873
+    .line 3893
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
@@ -5482,15 +5504,15 @@
     .locals 1
 
     .prologue
-    .line 4067
+    .line 4087
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mLicenseManager:Lcom/nuance/swype/input/LVLLicenseManager;
 
     if-nez v0, :cond_0
 
-    .line 4068
+    .line 4088
     const/4 v0, 0x1
 
-    .line 4070
+    .line 4090
     :goto_0
     return v0
 
@@ -5508,7 +5530,7 @@
     .locals 1
 
     .prologue
-    .line 2514
+    .line 2527
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     if-eqz v0, :cond_0
@@ -5536,7 +5558,7 @@
     .locals 1
 
     .prologue
-    .line 3626
+    .line 3646
     invoke-static {p0}, Lcom/nuance/swype/connect/Connect;->from(Landroid/content/Context;)Lcom/nuance/swype/connect/Connect;
 
     move-result-object v0
@@ -5567,11 +5589,11 @@
 
     if-eqz v0, :cond_1
 
-    .line 3628
+    .line 3648
     :cond_0
     const/4 v0, 0x0
 
-    .line 3630
+    .line 3650
     :goto_0
     return v0
 
@@ -5585,7 +5607,7 @@
     .locals 1
 
     .prologue
-    .line 2671
+    .line 2684
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->needRrefreshKeyboard:Z
 
     return v0
@@ -5597,36 +5619,36 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 4323
+    .line 4343
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v2
 
-    .line 4324
+    .line 4344
     .local v2, "imeApplication":Lcom/nuance/swype/input/IMEApplication;
     if-nez v2, :cond_1
 
-    .line 4338
+    .line 4358
     :cond_0
     :goto_0
     return v3
 
-    .line 4328
+    .line 4348
     :cond_1
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->getAppPreferences()Lcom/nuance/swype/input/AppPreferences;
 
     move-result-object v1
 
-    .line 4329
+    .line 4349
     .local v1, "appPref":Lcom/nuance/swype/input/AppPreferences;
     if-eqz v1, :cond_0
 
-    .line 4333
+    .line 4353
     invoke-virtual {v1}, Lcom/nuance/swype/input/AppPreferences;->getAccessibilityInfo()Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
 
     move-result-object v0
 
-    .line 4335
+    .line 4355
     .local v0, "ai":Lcom/nuance/swype/input/accessibility/AccessibilityInfo;
     if-eqz v0, :cond_0
 
@@ -5636,7 +5658,7 @@
 
     if-eqz v4, :cond_0
 
-    .line 4336
+    .line 4356
     const/4 v3, 0x1
 
     goto :goto_0
@@ -5646,7 +5668,7 @@
     .locals 1
 
     .prologue
-    .line 4349
+    .line 4369
     const/4 v0, 0x0
 
     return v0
@@ -5656,7 +5678,7 @@
     .locals 1
 
     .prologue
-    .line 3618
+    .line 3638
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->mValidBulid:Z
 
     return v0
@@ -5666,7 +5688,7 @@
     .locals 1
 
     .prologue
-    .line 3878
+    .line 3898
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
@@ -5686,28 +5708,28 @@
     .locals 2
 
     .prologue
-    .line 3203
+    .line 3218
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3204
+    .line 3219
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
 
-    .line 3205
+    .line 3220
     .local v0, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     const-string v1, "swypekey"
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IMEApplication;->recordEntryPoints(Ljava/lang/String;)V
 
-    .line 3206
+    .line 3221
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->showSettings()V
 
-    .line 3208
+    .line 3223
     .end local v0    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
     :cond_0
     return-void
@@ -5717,12 +5739,12 @@
     .locals 2
 
     .prologue
-    .line 3212
+    .line 3227
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v0
 
-    .line 3213
+    .line 3228
     .local v0, "settings":Lcom/nuance/swype/input/UserPreferences;
     invoke-virtual {v0}, Lcom/nuance/swype/input/UserPreferences;->isVibrateOn()Z
 
@@ -5730,14 +5752,14 @@
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/IME;->vibrateOn:Z
 
-    .line 3214
+    .line 3229
     invoke-virtual {v0}, Lcom/nuance/swype/input/UserPreferences;->isKeySoundOn()Z
 
     move-result v1
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/IME;->keySoundOn:Z
 
-    .line 3215
+    .line 3230
     return-void
 .end method
 
@@ -5746,15 +5768,15 @@
     .param p1, "outInsets"    # Landroid/inputmethodservice/InputMethodService$Insets;
 
     .prologue
-    .line 1982
+    .line 1995
     invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onComputeInsets(Landroid/inputmethodservice/InputMethodService$Insets;)V
 
-    .line 1984
+    .line 1997
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
 
-    .line 1985
+    .line 1998
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_0
 
@@ -5764,12 +5786,12 @@
 
     if-nez v4, :cond_1
 
-    .line 2034
+    .line 2047
     :cond_0
     :goto_0
     return-void
 
-    .line 1991
+    .line 2004
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getWindow()Landroid/app/Dialog;
 
@@ -5783,7 +5805,7 @@
 
     move-result-object v1
 
-    .line 1993
+    .line 2006
     .local v1, "decor":Landroid/view/View;
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->isFullAppAreaMode()Z
 
@@ -5791,35 +5813,35 @@
 
     if-eqz v4, :cond_4
 
-    .line 1996
+    .line 2009
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->getVisibleWindowRect()Landroid/graphics/Rect;
 
     move-result-object v3
 
-    .line 1997
+    .line 2010
     .local v3, "rect":Landroid/graphics/Rect;
     invoke-static {p1, v3}, Lcom/nuance/android/compat/InputMethodServiceCompat;->setTouchableRegion(Landroid/inputmethodservice/InputMethodService$Insets;Landroid/graphics/Rect;)Z
 
-    .line 1998
+    .line 2011
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mTouchableRegionRect:Landroid/graphics/Rect;
 
     invoke-virtual {v4, v3}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
-    .line 2000
+    .line 2013
     sget-object v4, Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;->NONE:Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;
 
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->dragInsetAdjustMode:Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;
 
     if-ne v4, v5, :cond_2
 
-    .line 2002
+    .line 2015
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v4
 
     iput v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->contentTopInsets:I
 
-    .line 2003
+    .line 2016
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v4
@@ -5828,27 +5850,27 @@
 
     goto :goto_0
 
-    .line 2005
+    .line 2018
     :cond_2
     iget v4, v3, Landroid/graphics/Rect;->top:I
 
     iput v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->visibleTopInsets:I
 
-    .line 2006
+    .line 2019
     sget-object v4, Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;->ALL_INSETS:Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;
 
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->dragInsetAdjustMode:Lcom/nuance/swype/input/IME$DragKeyboardInsetAdjustMode;
 
     if-ne v4, v5, :cond_3
 
-    .line 2008
+    .line 2021
     iget v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->visibleTopInsets:I
 
     iput v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->contentTopInsets:I
 
     goto :goto_0
 
-    .line 2011
+    .line 2024
     :cond_3
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
@@ -5858,27 +5880,27 @@
 
     goto :goto_0
 
-    .line 2016
+    .line 2029
     .end local v3    # "rect":Landroid/graphics/Rect;
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v2
 
-    .line 2017
+    .line 2030
     .local v2, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v2, :cond_5
 
-    .line 2018
+    .line 2031
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputView;->updateEmojiKeyboardPosition()V
 
-    .line 2021
+    .line 2034
     :cond_5
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->posTemp:[I
 
     invoke-virtual {v0, v4}, Lcom/nuance/swype/input/view/InputContainerView;->getVisibleTopInWindow([I)V
 
-    .line 2022
+    .line 2035
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->posTemp:[I
 
     const/4 v5, 0x1
@@ -5887,21 +5909,21 @@
 
     iput v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->visibleTopInsets:I
 
-    .line 2023
+    .line 2036
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isFullscreenMode()Z
 
     move-result v4
 
     if-eqz v4, :cond_6
 
-    .line 2024
+    .line 2037
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
     move-result v4
 
     iput v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->contentTopInsets:I
 
-    .line 2029
+    .line 2042
     :goto_1
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mTouchableRegionRect:Landroid/graphics/Rect;
 
@@ -5919,14 +5941,14 @@
 
     invoke-virtual {v4, v5, v6, v7, v8}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 2030
+    .line 2043
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mTouchableRegionRect:Landroid/graphics/Rect;
 
     invoke-static {p1, v4}, Lcom/nuance/android/compat/InputMethodServiceCompat;->setTouchableRegion(Landroid/inputmethodservice/InputMethodService$Insets;Landroid/graphics/Rect;)Z
 
     goto :goto_0
 
-    .line 2026
+    .line 2039
     :cond_6
     iget v4, p1, Landroid/inputmethodservice/InputMethodService$Insets;->visibleTopInsets:I
 
@@ -5944,36 +5966,36 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1946
+    .line 1959
     iget-boolean v1, p0, Lcom/nuance/swype/input/IME;->startupActivityShown:Z
 
     if-eqz v1, :cond_0
 
-    .line 1948
+    .line 1961
     invoke-virtual {p1}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v0
 
-    .line 1949
+    .line 1962
     .local v0, "lp":Landroid/view/WindowManager$LayoutParams;
     iput v2, v0, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    .line 1950
+    .line 1963
     invoke-virtual {p1, v0}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
-    .line 1951
+    .line 1964
     iput-boolean v2, p0, Lcom/nuance/swype/input/IME;->startupActivityShown:Z
 
-    .line 1956
+    .line 1969
     .end local v0    # "lp":Landroid/view/WindowManager$LayoutParams;
     :goto_0
     return-void
 
-    .line 1953
+    .line 1966
     :cond_0
     invoke-super {p0, p1, p2, p3}, Landroid/inputmethodservice/InputMethodService;->onConfigureWindow(Landroid/view/Window;ZZ)V
 
-    .line 1954
+    .line 1967
     iput-boolean v2, p0, Lcom/nuance/swype/input/IME;->isStartupActivityShown:Z
 
     goto :goto_0
@@ -6673,19 +6695,19 @@
     .param p1, "completions"    # [Landroid/view/inputmethod/CompletionInfo;
 
     .prologue
-    .line 1837
+    .line 1850
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 1838
+    .line 1851
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 1839
+    .line 1852
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/InputView;->displayCompletions([Landroid/view/inputmethod/CompletionInfo;)V
 
-    .line 1841
+    .line 1854
     :cond_0
     return-void
 .end method
@@ -6695,10 +6717,10 @@
     .param p1, "PrimaryCode"    # I
 
     .prologue
-    .line 2920
+    .line 2933
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->vibrate()V
 
-    .line 2922
+    .line 2935
     return-void
 .end method
 
@@ -6706,7 +6728,7 @@
     .locals 3
 
     .prologue
-    .line 1964
+    .line 1977
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -6725,13 +6747,13 @@
 
     move-result v0
 
-    .line 1966
+    .line 1979
     .local v0, "isMiniFloatingKeyboardSupported":Z
     invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onEvaluateFullscreenMode()Z
 
     move-result v1
 
-    .line 1967
+    .line 1980
     if-eqz v1, :cond_0
 
     if-nez v0, :cond_0
@@ -6761,7 +6783,7 @@
     .locals 1
 
     .prologue
-    .line 1925
+    .line 1938
     const/4 v0, 0x1
 
     return v0
@@ -6772,25 +6794,25 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 4432
+    .line 4452
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 4433
+    .line 4453
     .local v0, "iv":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 4434
+    .line 4454
     invoke-static {}, Lcom/nuance/swype/input/accessibility/statemachine/WordSelectionState;->getInstance()Lcom/nuance/swype/input/accessibility/statemachine/WordSelectionState;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/InputView;->addCandidateListener(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;)V
 
-    .line 4436
+    .line 4456
     :cond_0
     return-void
 .end method
@@ -6799,17 +6821,17 @@
     .locals 1
 
     .prologue
-    .line 1845
+    .line 1858
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     if-eqz v0, :cond_0
 
-    .line 1846
+    .line 1859
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/AbstractTapDetector;->onExtractedTextClicked()V
 
-    .line 1848
+    .line 1861
     :cond_0
     return-void
 .end method
@@ -6820,21 +6842,21 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 1644
+    .line 1657
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1645
+    .line 1658
     iput-boolean v3, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
 
-    .line 1646
+    .line 1659
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/IME;->setCandidatesViewShown(Z)V
 
-    .line 1647
+    .line 1660
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
 
-    .line 1649
+    .line 1662
     .local v1, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->hasActiveHardKeyIMEHandlerInstance()Z
 
@@ -6842,14 +6864,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 1650
+    .line 1663
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->getHardKeyIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEHandler;->onFinishInput()V
 
-    .line 1653
+    .line 1666
     :cond_0
     if-eqz v1, :cond_1
 
@@ -6859,19 +6881,19 @@
 
     if-eqz v2, :cond_1
 
-    .line 1654
+    .line 1667
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->getEmojiInputViewController()Lcom/nuance/swype/input/emoji/EmojiInputController;
 
     move-result-object v0
 
-    .line 1655
+    .line 1668
     .local v0, "emojiInputController":Lcom/nuance/swype/input/emoji/EmojiInputController;
     if-eqz v0, :cond_1
 
-    .line 1656
+    .line 1669
     invoke-virtual {v0}, Lcom/nuance/swype/input/emoji/EmojiInputController;->hide()V
 
-    .line 1661
+    .line 1674
     .end local v0    # "emojiInputController":Lcom/nuance/swype/input/emoji/EmojiInputController;
     :cond_1
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->hasActiveIMEManagerInstance()Z
@@ -6880,25 +6902,25 @@
 
     if-eqz v2, :cond_2
 
-    .line 1662
+    .line 1675
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 1663
+    .line 1676
     invoke-virtual {v1}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEHandler;->onFinishInput()V
 
-    .line 1666
+    .line 1679
     :cond_2
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1667
+    .line 1680
     return-void
 .end method
 
@@ -6911,19 +6933,19 @@
 
     const/16 v2, 0x7b
 
-    .line 1580
+    .line 1593
     if-eqz p1, :cond_0
 
-    .line 1584
+    .line 1597
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/nuance/swype/input/IME;->doFinishInputView(ZZ)V
 
-    .line 1597
+    .line 1610
     :goto_0
     return-void
 
-    .line 1590
+    .line 1603
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
@@ -6931,19 +6953,19 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1592
+    .line 1605
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->finishInputViewRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1593
+    .line 1606
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1594
+    .line 1607
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2, v4, v5}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
@@ -6958,42 +6980,42 @@
     .param p3, "savedState"    # Lcom/nuance/swype/input/IME$KeyboardState;
 
     .prologue
-    .line 1552
+    .line 1565
     sget-object v0, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1556
+    .line 1569
     iget-object v0, p2, Lcom/nuance/swype/input/InputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     if-eqz v0, :cond_0
 
-    .line 1557
+    .line 1570
     iget-object v0, p2, Lcom/nuance/swype/input/InputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/KeyboardSwitcher;->resetLayerState()V
 
-    .line 1561
+    .line 1574
     :cond_0
     invoke-virtual {p2}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 1569
+    .line 1582
     const/4 v0, 0x0
 
     invoke-virtual {p2, v0}, Lcom/nuance/swype/input/InputView;->setOnKeyboardActionListener(Lcom/nuance/swype/input/IME;)V
 
-    .line 1570
+    .line 1583
     if-eqz p1, :cond_1
 
-    .line 1571
+    .line 1584
     invoke-virtual {p3}, Lcom/nuance/swype/input/IME$KeyboardState;->clear()V
 
-    .line 1575
+    .line 1588
     :goto_0
     sget-object v0, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1576
+    .line 1589
     return-void
 
-    .line 1573
+    .line 1586
     :cond_1
     invoke-virtual {p3, p2}, Lcom/nuance/swype/input/IME$KeyboardState;->save(Lcom/nuance/swype/input/InputView;)V
 
@@ -7004,26 +7026,26 @@
     .locals 3
 
     .prologue
-    .line 4358
+    .line 4378
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 4359
+    .line 4379
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 4360
+    .line 4380
     sget-object v1, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "cursor onClearActiveWord"
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 4361
+    .line 4381
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->selectDefaultCompostingText()V
 
-    .line 4363
+    .line 4383
     :cond_0
     return-void
 .end method
@@ -7034,7 +7056,7 @@
     .param p2, "hasFocus"    # Z
 
     .prologue
-    .line 3574
+    .line 3594
     return-void
 .end method
 
@@ -7044,22 +7066,22 @@
     .param p2, "event"    # Landroid/view/KeyEvent;
 
     .prologue
-    .line 2524
+    .line 2537
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isLangPopupMenuShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2525
+    .line 2538
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/widget/PopupLanguageList;->onHardKeyUp$4765ad2(I)Z
 
-    .line 2526
+    .line 2539
     const/4 v0, 0x1
 
-    .line 2528
+    .line 2541
     :goto_0
     return v0
 
@@ -7075,7 +7097,7 @@
     .param p2, "keyCodes"    # [I
 
     .prologue
-    .line 2172
+    .line 2185
     return-void
 .end method
 
@@ -7396,19 +7418,19 @@
     .param p5, "eventTime"    # J
 
     .prologue
-    .line 2177
+    .line 2190
     move-object/from16 v0, p0
 
     iget-boolean v5, v0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v5, :cond_1
 
-    .line 2511
+    .line 2524
     :cond_0
     :goto_0
     return-void
 
-    .line 2181
+    .line 2194
     :cond_1
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->isLVLLicenseValid()Z
 
@@ -7416,7 +7438,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 2186
+    .line 2199
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
 
     move-result v5
@@ -7435,17 +7457,17 @@
 
     if-eq v0, v5, :cond_0
 
-    .line 2192
+    .line 2205
     :cond_2
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v4
 
-    .line 2194
+    .line 2207
     .local v4, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v4, :cond_0
 
-    .line 2198
+    .line 2211
     move/from16 v0, p2
 
     invoke-virtual {v4, v0}, Lcom/nuance/swype/input/InputView;->shouldDisableInput(I)Z
@@ -7454,12 +7476,12 @@
 
     if-nez v5, :cond_0
 
-    .line 2202
+    .line 2215
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v26
 
-    .line 2204
+    .line 2217
     .local v26, "when":J
     move-object/from16 v0, p0
 
@@ -7488,14 +7510,14 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mQuickPressed:Z
 
-    .line 2205
+    .line 2218
     move-wide/from16 v0, v26
 
     move-object/from16 v2, p0
 
     iput-wide v0, v2, Lcom/nuance/swype/input/IME;->mLastKeyTime:J
 
-    .line 2206
+    .line 2219
     move-object/from16 v0, p0
 
     iget v5, v0, Lcom/nuance/swype/input/IME;->mLastKey:I
@@ -7504,14 +7526,14 @@
 
     if-eq v0, v5, :cond_3
 
-    .line 2207
+    .line 2220
     const/4 v5, 0x0
 
     move-object/from16 v0, p0
 
     iput v5, v0, Lcom/nuance/swype/input/IME;->mRepeatedKeyCount:I
 
-    .line 2209
+    .line 2222
     :cond_3
     move/from16 v0, p2
 
@@ -7519,7 +7541,7 @@
 
     iput v0, v1, Lcom/nuance/swype/input/IME;->mLastKey:I
 
-    .line 2211
+    .line 2224
     move-object/from16 v0, p0
 
     iget v5, v0, Lcom/nuance/swype/input/IME;->mRepeatedKeyCount:I
@@ -7530,12 +7552,12 @@
 
     iput v5, v0, Lcom/nuance/swype/input/IME;->mRepeatedKeyCount:I
 
-    .line 2212
+    .line 2225
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getAppSpecificInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v15
 
-    .line 2214
+    .line 2227
     .local v15, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     move-object/from16 v0, p0
 
@@ -7559,14 +7581,14 @@
 
     if-nez v5, :cond_0
 
-    .line 2218
+    .line 2231
     :cond_4
     if-eqz v15, :cond_5
 
-    .line 2219
+    .line 2232
     invoke-virtual {v15}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->beginBatchEdit()Z
 
-    .line 2222
+    .line 2235
     :cond_5
     move-object/from16 v0, p0
 
@@ -7574,18 +7596,18 @@
 
     if-nez v5, :cond_6
 
-    .line 2223
+    .line 2236
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getEditState()Lcom/nuance/swype/input/EditState;
 
-    .line 2227
+    .line 2240
     :cond_6
     sparse-switch p2, :sswitch_data_0
 
-    .line 2465
+    .line 2478
     :goto_2
     if-eqz v15, :cond_b
 
-    .line 2468
+    .line 2481
     const/4 v5, 0x0
 
     const/4 v6, 0x1
@@ -7598,10 +7620,10 @@
 
     if-nez v5, :cond_b
 
-    .line 2470
+    .line 2483
     const/4 v14, 0x0
 
-    .line 2471
+    .line 2484
     .local v14, "handled":Z
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -7611,11 +7633,11 @@
 
     move-result-object v16
 
-    .line 2472
+    .line 2485
     .local v16, "imeHandler":Lcom/nuance/swype/input/IMEHandler;
     if-eqz v16, :cond_7
 
-    .line 2473
+    .line 2486
     move-object/from16 v0, v16
 
     move-object/from16 v1, p1
@@ -7628,13 +7650,13 @@
 
     move-result v14
 
-    .line 2476
+    .line 2489
     :cond_7
     if-ltz p2, :cond_b
 
     if-nez v14, :cond_b
 
-    .line 2477
+    .line 2490
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->isPopupKeyboardShowing()Z
 
     move-result v5
@@ -7653,18 +7675,18 @@
 
     if-eq v0, v5, :cond_9
 
-    .line 2482
+    .line 2495
     :cond_8
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->reconstructWord()V
 
-    .line 2483
+    .line 2496
     const/4 v5, 0x0
 
     move-object/from16 v0, p0
 
     invoke-direct {v0, v5}, Lcom/nuance/swype/input/IME;->handleBackspace(I)V
 
-    .line 2485
+    .line 2498
     :cond_9
     move-object/from16 v0, p0
 
@@ -7672,7 +7694,7 @@
 
     if-eqz v5, :cond_a
 
-    .line 2486
+    .line 2499
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
@@ -7683,7 +7705,7 @@
 
     invoke-virtual {v5, v6}, Lcom/nuance/swype/input/RecaptureHandler;->onCharKey(C)V
 
-    .line 2488
+    .line 2501
     :cond_a
     if-eqz p4, :cond_1b
 
@@ -7697,7 +7719,7 @@
 
     move-result v23
 
-    .line 2490
+    .line 2503
     .local v23, "supportsTapCoords":Z
     :goto_3
     move-object/from16 v0, p0
@@ -7716,7 +7738,7 @@
 
     if-nez v5, :cond_1d
 
-    .line 2491
+    .line 2504
     if-eqz v23, :cond_1c
 
     move-object/from16 v5, p1
@@ -7730,7 +7752,7 @@
 
     invoke-virtual/range {v4 .. v9}, Lcom/nuance/swype/input/InputView;->handleCharKey(Landroid/graphics/Point;I[IJ)V
 
-    .line 2502
+    .line 2515
     .end local v14    # "handled":Z
     .end local v16    # "imeHandler":Lcom/nuance/swype/input/IMEHandler;
     .end local v23    # "supportsTapCoords":Z
@@ -7738,10 +7760,10 @@
     :goto_5
     if-eqz v15, :cond_c
 
-    .line 2503
+    .line 2516
     invoke-virtual {v15}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->endBatchEdit()Z
 
-    .line 2506
+    .line 2519
     :cond_c
     move-object/from16 v0, p0
 
@@ -7759,7 +7781,7 @@
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/InputFieldInfo;->isLongMessageField()Z
 
-    .line 2510
+    .line 2523
     :cond_d
     move-object/from16 v0, p1
 
@@ -7769,14 +7791,14 @@
 
     goto/16 :goto_0
 
-    .line 2204
+    .line 2217
     .end local v15    # "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     :cond_e
     const/4 v5, 0x0
 
     goto/16 :goto_1
 
-    .line 2229
+    .line 2242
     .restart local v15    # "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     :sswitch_0
     move-object/from16 v0, p0
@@ -7787,16 +7809,16 @@
 
     goto :goto_5
 
-    .line 2233
+    .line 2246
     :sswitch_1
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->close()V
 
-    .line 2234
+    .line 2247
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->launchSettings()V
 
     goto :goto_5
 
-    .line 2238
+    .line 2251
     :sswitch_2
     move-object/from16 v0, p0
 
@@ -7808,7 +7830,7 @@
 
     goto :goto_5
 
-    .line 2242
+    .line 2255
     :sswitch_3
     const/4 v5, 0x0
 
@@ -7818,15 +7840,15 @@
 
     invoke-virtual {v4, v0, v5, v6}, Lcom/nuance/swype/input/InputView;->handleKey(IZI)Z
 
-    .line 2243
+    .line 2256
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2244
+    .line 2257
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterResize()V
 
     goto :goto_5
 
-    .line 2255
+    .line 2268
     :sswitch_4
     const/4 v5, 0x0
 
@@ -7838,44 +7860,44 @@
 
     goto :goto_5
 
-    .line 2262
+    .line 2275
     :sswitch_5
     move/from16 v0, p2
 
     invoke-virtual {v4, v0}, Lcom/nuance/swype/input/InputView;->handleUniversalKeyboardResize(I)V
 
-    .line 2263
+    .line 2276
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2264
+    .line 2277
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterUniversalKeyboardResize(Z)V
 
     goto :goto_5
 
-    .line 2269
+    .line 2282
     :sswitch_6
     const/4 v11, 0x0
 
-    .line 2270
+    .line 2283
     .local v11, "currentWord":Ljava/lang/String;
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->getCurrentDefaultWord()Ljava/lang/CharSequence;
 
     move-result-object v12
 
-    .line 2271
+    .line 2284
     .local v12, "defaultWord":Ljava/lang/CharSequence;
     if-eqz v4, :cond_f
 
     if-eqz v12, :cond_f
 
-    .line 2272
+    .line 2285
     invoke-interface {v12}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v11
 
-    .line 2274
+    .line 2287
     :cond_f
     move-object/from16 v0, p0
 
@@ -7889,7 +7911,7 @@
 
     invoke-direct {v0, v5, v6}, Lcom/nuance/swype/input/IME;->handleSpace(ZI)V
 
-    .line 2275
+    .line 2288
     if-eqz v11, :cond_b
 
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -7898,14 +7920,14 @@
 
     if-ge v5, v6, :cond_b
 
-    .line 2276
+    .line 2289
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v5
 
     if-eqz v5, :cond_b
 
-    .line 2277
+    .line 2290
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
     move-result-object v5
@@ -7918,7 +7940,7 @@
 
     goto/16 :goto_5
 
-    .line 2283
+    .line 2296
     .end local v11    # "currentWord":Ljava/lang/String;
     .end local v12    # "defaultWord":Ljava/lang/CharSequence;
     :sswitch_7
@@ -7930,18 +7952,18 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/nuance/swype/input/InputView;->handleKey(IZI)Z
 
-    .line 2284
+    .line 2297
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setSpaceKeyAsLanguageSwitchKey()V
 
     goto/16 :goto_5
 
-    .line 2289
+    .line 2302
     :sswitch_8
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->getCurrentWordCandiatesSource()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-result-object v22
 
-    .line 2290
+    .line 2303
     .local v22, "src":Lcom/nuance/input/swypecorelib/Candidates$Source;
     sget-object v5, Lcom/nuance/input/swypecorelib/Candidates$Source;->CAPS_EDIT:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -7961,18 +7983,18 @@
 
     if-ne v0, v5, :cond_12
 
-    .line 2292
+    .line 2305
     :cond_10
     sget-object v5, Lcom/nuance/input/swypecorelib/Candidates$Source;->INVALID:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     sput-object v5, Lcom/nuance/swype/input/IME;->mLastShownCandidatesSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 2293
+    .line 2306
     const/4 v5, 0x0
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->setLastActiveWord(Ljava/lang/CharSequence;)V
 
-    .line 2298
+    .line 2311
     :goto_6
     move-object/from16 v0, p0
 
@@ -7994,11 +8016,11 @@
 
     if-eqz v5, :cond_13
 
-    .line 2301
+    .line 2314
     :cond_11
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->flushCurrentActiveWord()V
 
-    .line 2305
+    .line 2318
     :goto_7
     move-object/from16 v0, p0
 
@@ -8008,7 +8030,7 @@
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2306
+    .line 2319
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -8021,7 +8043,7 @@
 
     goto/16 :goto_5
 
-    .line 2295
+    .line 2308
     :cond_12
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->getCurrentWordCandiatesSource()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -8029,7 +8051,7 @@
 
     sput-object v5, Lcom/nuance/swype/input/IME;->mLastShownCandidatesSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 2296
+    .line 2309
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->getCurrentExactWord()Ljava/lang/CharSequence;
 
     move-result-object v5
@@ -8038,13 +8060,13 @@
 
     goto :goto_6
 
-    .line 2303
+    .line 2316
     :cond_13
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->clearCurrentActiveWord()V
 
     goto :goto_7
 
-    .line 2310
+    .line 2323
     .end local v22    # "src":Lcom/nuance/input/swypecorelib/Candidates$Source;
     :sswitch_9
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
@@ -8057,7 +8079,7 @@
 
     if-nez v5, :cond_b
 
-    .line 2313
+    .line 2326
     new-instance v20, Lcom/nuance/swype/input/IME$5;
 
     move-object/from16 v0, v20
@@ -8066,7 +8088,7 @@
 
     invoke-direct {v0, v1}, Lcom/nuance/swype/input/IME$5;-><init>(Lcom/nuance/swype/input/IME;)V
 
-    .line 2319
+    .line 2332
     .local v20, "putExtras":Lcom/nuance/swype/input/IME$IntentDecorator;
     const-string v5, "com.nuance.balerion"
 
@@ -8082,7 +8104,7 @@
 
     goto/16 :goto_5
 
-    .line 2326
+    .line 2339
     .end local v20    # "putExtras":Lcom/nuance/swype/input/IME$IntentDecorator;
     :sswitch_a
     const/16 v5, 0x193f
@@ -8099,7 +8121,7 @@
 
     goto/16 :goto_5
 
-    .line 2330
+    .line 2343
     :sswitch_b
     const/16 v5, 0xfea
 
@@ -8115,7 +8137,7 @@
 
     goto/16 :goto_5
 
-    .line 2336
+    .line 2349
     :sswitch_c
     move-object/from16 v0, p0
 
@@ -8125,12 +8147,12 @@
 
     if-le v5, v6, :cond_14
 
-    .line 2337
+    .line 2350
     move/from16 v0, p2
 
     invoke-virtual {v4, v0}, Lcom/nuance/swype/input/InputView;->handleKeyWithModifiers(I)V
 
-    .line 2339
+    .line 2352
     :cond_14
     move/from16 v0, p2
 
@@ -8138,7 +8160,7 @@
 
     goto/16 :goto_5
 
-    .line 2342
+    .line 2355
     :sswitch_d
     const/4 v5, 0x1
 
@@ -8146,7 +8168,7 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 2343
+    .line 2356
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getInputFieldInfo()Lcom/nuance/swype/input/InputFieldInfo;
 
     move-result-object v5
@@ -8157,7 +8179,7 @@
 
     if-nez v5, :cond_b
 
-    .line 2344
+    .line 2357
     if-eqz v15, :cond_b
 
     invoke-virtual {v15}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->hasSelection()Z
@@ -8166,17 +8188,17 @@
 
     if-eqz v5, :cond_b
 
-    .line 2345
+    .line 2358
     const v5, 0x1020020
 
     invoke-virtual {v15, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->performContextMenuAction(I)Z
 
-    .line 2346
+    .line 2359
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->clearCurrentActiveWord()V
 
     goto/16 :goto_5
 
-    .line 2351
+    .line 2364
     :sswitch_e
     const/4 v5, 0x1
 
@@ -8184,7 +8206,7 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 2352
+    .line 2365
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getInputFieldInfo()Lcom/nuance/swype/input/InputFieldInfo;
 
     move-result-object v5
@@ -8195,7 +8217,7 @@
 
     if-nez v5, :cond_b
 
-    .line 2353
+    .line 2366
     if-eqz v15, :cond_b
 
     invoke-virtual {v15}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->hasSelection()Z
@@ -8204,14 +8226,14 @@
 
     if-eqz v5, :cond_b
 
-    .line 2354
+    .line 2367
     const v5, 0x1020021
 
     invoke-virtual {v15, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->performContextMenuAction(I)Z
 
     goto/16 :goto_5
 
-    .line 2359
+    .line 2372
     :sswitch_f
     const/4 v5, 0x1
 
@@ -8219,17 +8241,17 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 2360
+    .line 2373
     if-eqz v15, :cond_b
 
-    .line 2361
+    .line 2374
     const v5, 0x1020022
 
     invoke-virtual {v15, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->performContextMenuAction(I)Z
 
     goto/16 :goto_5
 
-    .line 2365
+    .line 2378
     :sswitch_10
     const/4 v5, 0x1
 
@@ -8237,15 +8259,15 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 2366
+    .line 2379
     if-eqz v15, :cond_b
 
-    .line 2367
+    .line 2380
     invoke-static {v15}, Lcom/nuance/swype/util/InputConnectionUtils;->selectAll(Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;)V
 
     goto/16 :goto_5
 
-    .line 2371
+    .line 2384
     :sswitch_11
     move-object/from16 v0, p0
 
@@ -8253,18 +8275,18 @@
 
     goto/16 :goto_5
 
-    .line 2374
+    .line 2387
     :sswitch_12
     sget-object v5, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_EDIT:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2375
+    .line 2388
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v10
 
-    .line 2376
+    .line 2389
     .local v10, "app":Lcom/nuance/swype/input/IMEApplication;
     move-object/from16 v0, p0
 
@@ -8282,21 +8304,21 @@
 
     if-eqz v5, :cond_16
 
-    .line 2377
+    .line 2390
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v5
 
     if-nez v5, :cond_15
 
-    .line 2378
+    .line 2391
     invoke-virtual {v10}, Lcom/nuance/swype/input/IMEApplication;->getToolTips()Lcom/nuance/swype/input/ToolTips;
 
     move-result-object v5
 
     invoke-virtual {v5, v4}, Lcom/nuance/swype/input/ToolTips;->triggerEditGestureTip(Landroid/view/View;)V
 
-    .line 2380
+    .line 2393
     :cond_15
     const/4 v5, 0x0
 
@@ -8304,60 +8326,60 @@
 
     iput-boolean v5, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 2382
+    .line 2395
     :cond_16
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->doRecaptureWhenSwitching()V
 
-    .line 2383
+    .line 2396
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2384
+    .line 2397
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterUniversalKeyboardResize(Z)V
 
     goto/16 :goto_5
 
-    .line 2387
+    .line 2400
     .end local v10    # "app":Lcom/nuance/swype/input/IMEApplication;
     :sswitch_13
     sget-object v5, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_NUM:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2388
+    .line 2401
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->doRecaptureWhenSwitching()V
 
-    .line 2389
+    .line 2402
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2390
+    .line 2403
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterUniversalKeyboardResize(Z)V
 
     goto/16 :goto_5
 
-    .line 2393
+    .line 2406
     :sswitch_14
     sget-object v5, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_SYMBOLS:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2394
+    .line 2407
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->doRecaptureWhenSwitching()V
 
-    .line 2395
+    .line 2408
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2396
+    .line 2409
     const/4 v5, 0x0
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterUniversalKeyboardResize(Z)V
 
     goto/16 :goto_5
 
-    .line 2399
+    .line 2412
     :sswitch_15
     move-object/from16 v0, p0
 
@@ -8369,7 +8391,7 @@
 
     if-eqz v5, :cond_17
 
-    .line 2400
+    .line 2413
     move-object/from16 v0, p1
 
     move/from16 v1, p2
@@ -8378,26 +8400,26 @@
 
     goto/16 :goto_0
 
-    .line 2403
+    .line 2416
     :cond_17
     sget-object v5, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_TEXT:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2404
+    .line 2417
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->doRecaptureWhenSwitching()V
 
-    .line 2405
+    .line 2418
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->setModeForInputContainerView()V
 
-    .line 2406
+    .line 2419
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/input/InputView;->handlePossibleActionAfterUniversalKeyboardResize(Z)V
 
     goto/16 :goto_5
 
-    .line 2409
+    .line 2422
     :sswitch_16
     const/16 v5, 0x2c
 
@@ -8407,7 +8429,7 @@
 
     goto/16 :goto_5
 
-    .line 2412
+    .line 2425
     :sswitch_17
     const/16 v5, 0x3b
 
@@ -8417,18 +8439,18 @@
 
     goto/16 :goto_5
 
-    .line 2415
+    .line 2428
     :sswitch_18
     if-nez v15, :cond_19
 
     const/16 v21, 0x0
 
-    .line 2416
+    .line 2429
     .local v21, "selectedText":Ljava/lang/String;
     :goto_8
     const-string v13, "geo:0,0"
 
-    .line 2417
+    .line 2430
     .local v13, "geoUrl":Ljava/lang/String;
     if-eqz v21, :cond_18
 
@@ -8438,7 +8460,7 @@
 
     if-lez v5, :cond_18
 
-    .line 2418
+    .line 2431
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -8465,7 +8487,7 @@
 
     move-result-object v13
 
-    .line 2420
+    .line 2433
     :cond_18
     const-string v5, "com.google.android.apps.maps"
 
@@ -8479,7 +8501,7 @@
 
     goto/16 :goto_5
 
-    .line 2415
+    .line 2428
     .end local v13    # "geoUrl":Ljava/lang/String;
     .end local v21    # "selectedText":Ljava/lang/String;
     :cond_19
@@ -8493,13 +8515,13 @@
 
     goto :goto_8
 
-    .line 2423
+    .line 2436
     :sswitch_19
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->hideWindow()V
 
     goto/16 :goto_0
 
-    .line 2427
+    .line 2440
     :sswitch_1a
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
@@ -8511,7 +8533,7 @@
 
     invoke-virtual {v5, v6, v0, v1}, Lcom/nuance/swype/input/InputView;->onText(Ljava/lang/CharSequence;J)V
 
-    .line 2428
+    .line 2441
     const-string v5, "."
 
     const/4 v6, 0x1
@@ -8520,7 +8542,7 @@
 
     goto/16 :goto_5
 
-    .line 2431
+    .line 2444
     :sswitch_1b
     move-object/from16 v0, p0
 
@@ -8534,7 +8556,7 @@
 
     goto/16 :goto_5
 
-    .line 2434
+    .line 2447
     :sswitch_1c
     move-object/from16 v0, p0
 
@@ -8548,7 +8570,7 @@
 
     goto/16 :goto_5
 
-    .line 2437
+    .line 2450
     :sswitch_1d
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getInputMethods()Lcom/nuance/swype/input/InputMethods;
 
@@ -8558,11 +8580,11 @@
 
     move-result-object v19
 
-    .line 2438
+    .line 2451
     .local v19, "lastLanguage":Lcom/nuance/swype/input/InputMethods$Language;
     if-eqz v19, :cond_b
 
-    .line 2439
+    .line 2452
     new-instance v5, Lcom/nuance/swype/input/LangSwitchAction;
 
     const/4 v6, 0x5
@@ -8579,14 +8601,14 @@
 
     goto/16 :goto_5
 
-    .line 2443
+    .line 2456
     .end local v19    # "lastLanguage":Lcom/nuance/swype/input/InputMethods$Language;
     :sswitch_1e
     if-nez v15, :cond_1a
 
     const/16 v24, 0x0
 
-    .line 2444
+    .line 2457
     .local v24, "term":Ljava/lang/String;
     :goto_9
     invoke-static/range {v24 .. v24}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -8595,7 +8617,7 @@
 
     if-nez v5, :cond_b
 
-    .line 2445
+    .line 2458
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/nuance/swype/input/IME;->mEditState:Lcom/nuance/swype/input/EditState;
@@ -8604,7 +8626,7 @@
 
     invoke-virtual {v5, v0}, Lcom/nuance/swype/input/EditState;->runSearch(Ljava/lang/String;)V
 
-    .line 2446
+    .line 2459
     new-instance v18, Landroid/content/Intent;
 
     const-string v5, "android.intent.action.WEB_SEARCH"
@@ -8613,7 +8635,7 @@
 
     invoke-direct {v0, v5}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 2447
+    .line 2460
     .local v18, "intent":Landroid/content/Intent;
     const/high16 v5, 0x10000000
 
@@ -8621,7 +8643,7 @@
 
     invoke-virtual {v0, v5}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 2448
+    .line 2461
     const-string v5, "query"
 
     move-object/from16 v0, v18
@@ -8630,7 +8652,7 @@
 
     invoke-virtual {v0, v5, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 2449
+    .line 2462
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v5
@@ -8645,7 +8667,7 @@
 
     move-result-object v17
 
-    .line 2450
+    .line 2463
     .local v17, "info":Landroid/content/pm/ActivityInfo;
     if-eqz v17, :cond_b
 
@@ -8655,7 +8677,7 @@
 
     if-eqz v5, :cond_b
 
-    .line 2451
+    .line 2464
     move-object/from16 v0, p0
 
     move-object/from16 v1, v18
@@ -8664,7 +8686,7 @@
 
     goto/16 :goto_5
 
-    .line 2443
+    .line 2456
     .end local v17    # "info":Landroid/content/pm/ActivityInfo;
     .end local v18    # "intent":Landroid/content/Intent;
     .end local v24    # "term":Ljava/lang/String;
@@ -8679,7 +8701,7 @@
 
     goto :goto_9
 
-    .line 2462
+    .line 2475
     :sswitch_1f
     move-object/from16 v0, p0
 
@@ -8689,7 +8711,7 @@
 
     goto/16 :goto_2
 
-    .line 2488
+    .line 2501
     .restart local v14    # "handled":Z
     .restart local v16    # "imeHandler":Lcom/nuance/swype/input/IMEHandler;
     :cond_1b
@@ -8697,7 +8719,7 @@
 
     goto/16 :goto_3
 
-    .line 2491
+    .line 2504
     .restart local v23    # "supportsTapCoords":Z
     :cond_1c
     const/4 v5, 0x0
@@ -8713,12 +8735,12 @@
 
     move-wide/from16 v8, p5
 
-    .line 2494
+    .line 2507
     invoke-virtual/range {v4 .. v9}, Lcom/nuance/swype/input/InputView;->handleCharKey(Landroid/graphics/Point;I[IJ)V
 
     goto/16 :goto_5
 
-    .line 2227
+    .line 2240
     nop
 
     :sswitch_data_0
@@ -8790,7 +8812,7 @@
 
     const/4 v5, 0x1
 
-    .line 2044
+    .line 2057
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardEnabled()Z
 
     move-result v6
@@ -8809,17 +8831,17 @@
 
     if-ne v6, v5, :cond_1
 
-    .line 2046
+    .line 2059
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v4
 
-    .line 2141
+    .line 2154
     :cond_0
     :goto_0
     return v4
 
-    .line 2048
+    .line 2061
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
 
@@ -8873,7 +8895,7 @@
 
     if-le p1, v6, :cond_3
 
-    .line 2054
+    .line 2067
     :cond_2
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -8881,7 +8903,7 @@
 
     goto :goto_0
 
-    .line 2057
+    .line 2070
     :cond_3
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -8893,29 +8915,29 @@
 
     check-cast v0, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
 
-    .line 2059
+    .line 2072
     .local v0, "hardKeyHandler":Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
     if-eqz v0, :cond_0
 
-    .line 2060
+    .line 2073
     invoke-virtual {v0, p0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->setIME(Lcom/nuance/swype/input/IME;)V
 
-    .line 2064
+    .line 2077
     invoke-virtual {v0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->isValidInputField()Z
 
     move-result v6
 
     if-eqz v6, :cond_0
 
-    .line 2068
+    .line 2081
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->setImeInUse(Z)V
 
-    .line 2070
+    .line 2083
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     if-eqz v6, :cond_7
 
-    .line 2072
+    .line 2085
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     if-eqz v6, :cond_0
@@ -8928,12 +8950,12 @@
 
     if-nez v6, :cond_0
 
-    .line 2075
+    .line 2088
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v3
 
-    .line 2076
+    .line 2089
     .local v3, "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     invoke-virtual {v0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->isLanguageSupportedByHardKeyboard()Z
 
@@ -8941,7 +8963,7 @@
 
     if-nez v6, :cond_5
 
-    .line 2077
+    .line 2090
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -8970,7 +8992,7 @@
 
     if-nez v6, :cond_4
 
-    .line 2079
+    .line 2092
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -8995,7 +9017,7 @@
 
     invoke-virtual {v3, v6, v5}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2081
+    .line 2094
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
@@ -9008,7 +9030,7 @@
 
     invoke-static {p0, v5, v4}, Lcom/nuance/swype/input/InputMethodToast;->show(Landroid/content/Context;Ljava/lang/CharSequence;I)V
 
-    .line 2085
+    .line 2098
     :cond_4
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -9016,7 +9038,7 @@
 
     goto/16 :goto_0
 
-    .line 2087
+    .line 2100
     :cond_5
     invoke-virtual {v0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->isInputModeSupportedByHardKeyboard()Z
 
@@ -9024,14 +9046,14 @@
 
     if-nez v6, :cond_6
 
-    .line 2088
+    .line 2101
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v4
 
     goto/16 :goto_0
 
-    .line 2091
+    .line 2104
     :cond_6
     const-string v6, "SETTINGS_HKB"
 
@@ -9041,12 +9063,12 @@
 
     if-nez v6, :cond_7
 
-    .line 2092
+    .line 2105
     const-string v6, "SETTINGS_HKB"
 
     invoke-virtual {v3, v6, v5}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2093
+    .line 2106
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
@@ -9059,7 +9081,7 @@
 
     invoke-static {p0, v6, v4}, Lcom/nuance/swype/input/InputMethodToast;->show(Landroid/content/Context;Ljava/lang/CharSequence;I)V
 
-    .line 2100
+    .line 2113
     .end local v3    # "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isInputViewShown()Z
@@ -9074,7 +9096,7 @@
 
     if-nez v6, :cond_9
 
-    .line 2101
+    .line 2114
     const-string v6, "input_method"
 
     invoke-virtual {p0, v6}, Lcom/nuance/swype/input/IME;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -9083,7 +9105,7 @@
 
     check-cast v1, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 2102
+    .line 2115
     .local v1, "imm":Landroid/view/inputmethod/InputMethodManager;
     if-eqz v1, :cond_9
 
@@ -9093,40 +9115,40 @@
 
     if-eqz v6, :cond_9
 
-    .line 2104
+    .line 2117
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getToken()Landroid/os/IBinder;
 
     move-result-object v6
 
     invoke-virtual {v1, v6, v4}, Landroid/view/inputmethod/InputMethodManager;->showSoftInputFromInputMethod(Landroid/os/IBinder;I)V
 
-    .line 2105
+    .line 2118
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->setHardKeyboardAttached(Z)V
 
-    .line 2106
+    .line 2119
     iput-boolean v5, p0, Lcom/nuance/swype/input/IME;->isCandidateViewOpening:Z
 
-    .line 2107
+    .line 2120
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     if-eqz v4, :cond_8
 
-    .line 2109
+    .line 2122
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v4, v9}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2110
+    .line 2123
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v4, v9, v10, v11}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 2111
+    .line 2124
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v4, v8}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2112
+    .line 2125
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -9142,22 +9164,22 @@
     :cond_8
     move v4, v5
 
-    .line 2116
+    .line 2129
     goto/16 :goto_0
 
-    .line 2120
+    .line 2133
     .end local v1    # "imm":Landroid/view/inputmethod/InputMethodManager;
     :cond_9
     iget-boolean v6, p0, Lcom/nuance/swype/input/IME;->isCandidateViewOpening:Z
 
     if-eqz v6, :cond_a
 
-    .line 2121
+    .line 2134
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     if-eqz v6, :cond_a
 
-    .line 2123
+    .line 2136
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v7, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -9170,14 +9192,14 @@
 
     move v4, v5
 
-    .line 2125
+    .line 2138
     goto/16 :goto_0
 
-    .line 2129
+    .line 2142
     :cond_a
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->setHardKeyboardAttached(Z)V
 
-    .line 2130
+    .line 2143
     invoke-virtual {v0, p1, p2}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v4
@@ -9186,16 +9208,16 @@
 
     move v4, v5
 
-    .line 2131
+    .line 2144
     goto/16 :goto_0
 
-    .line 2134
+    .line 2147
     :cond_b
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v2
 
-    .line 2137
+    .line 2150
     .local v2, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v2, :cond_c
 
@@ -9207,10 +9229,10 @@
 
     move v4, v5
 
-    .line 2138
+    .line 2151
     goto/16 :goto_0
 
-    .line 2141
+    .line 2154
     :cond_c
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -9226,21 +9248,21 @@
     .param p3, "event"    # Landroid/view/KeyEvent;
 
     .prologue
-    .line 2037
+    .line 2050
     const/16 v0, 0x3f2
 
     if-ne p2, v0, :cond_0
 
-    .line 2038
+    .line 2051
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->isCandidateViewOpening:Z
 
-    .line 2040
+    .line 2053
     :cond_0
     invoke-virtual {p0, p1, p3}, Lcom/nuance/swype/input/IME;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
-    .line 2041
+    .line 2054
     return-void
 .end method
 
@@ -9252,7 +9274,7 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 2146
+    .line 2159
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardEnabled()Z
 
     move-result v0
@@ -9271,16 +9293,16 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2148
+    .line 2161
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
-    .line 2166
+    .line 2179
     :goto_0
     return v0
 
-    .line 2150
+    .line 2163
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
 
@@ -9334,7 +9356,7 @@
 
     if-le p1, v0, :cond_2
 
-    .line 2156
+    .line 2169
     :cond_1
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
@@ -9342,7 +9364,7 @@
 
     goto :goto_0
 
-    .line 2160
+    .line 2173
     :cond_2
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -9354,7 +9376,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 2161
+    .line 2174
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
@@ -9373,10 +9395,10 @@
 
     move v0, v1
 
-    .line 2163
+    .line 2176
     goto :goto_0
 
-    .line 2166
+    .line 2179
     :cond_3
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
@@ -9389,7 +9411,7 @@
     .locals 0
 
     .prologue
-    .line 1243
+    .line 1250
     return-void
 .end method
 
@@ -9397,14 +9419,14 @@
     .locals 1
 
     .prologue
-    .line 2946
+    .line 2959
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->onMultitapTimeout()V
 
-    .line 2947
+    .line 2960
     return-void
 .end method
 
@@ -9414,17 +9436,17 @@
     .param p2, "packageName"    # Ljava/lang/String;
 
     .prologue
-    .line 4104
+    .line 4124
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
     if-eqz v0, :cond_0
 
-    .line 4105
+    .line 4125
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
     invoke-virtual {v0, p1, p2}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->onPackageChanged(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 4107
+    .line 4127
     :cond_0
     return-void
 .end method
@@ -9434,21 +9456,21 @@
     .param p1, "primaryCode"    # I
 
     .prologue
-    .line 2925
+    .line 2938
     if-nez p1, :cond_0
 
-    .line 2937
+    .line 2950
     :goto_0
     return-void
 
-    .line 2929
+    .line 2942
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->vibrate()V
 
-    .line 2930
+    .line 2943
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->playKeyClick(I)V
 
-    .line 2936
+    .line 2949
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nuance/swype/input/IME;->mRepeatedKeyCount:I
@@ -9461,19 +9483,19 @@
     .param p1, "primaryCode"    # I
 
     .prologue
-    .line 2940
+    .line 2953
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     if-eqz v0, :cond_0
 
-    .line 2941
+    .line 2954
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     iget v1, p0, Lcom/nuance/swype/input/IME;->mRepeatedKeyCount:I
 
     invoke-virtual {v0, p1, v1}, Lcom/nuance/swype/input/RecaptureHandler;->onRelease(II)V
 
-    .line 2943
+    .line 2956
     :cond_0
     return-void
 .end method
@@ -9483,7 +9505,7 @@
     .param p1, "shown"    # Z
 
     .prologue
-    .line 1909
+    .line 1922
     if-nez p1, :cond_0
 
     invoke-static {}, Lcom/nuance/swype/input/accessibility/SettingsChangeListener;->isScreenMagnificationOn()Z
@@ -9498,10 +9520,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1910
+    .line 1923
     const/4 p1, 0x1
 
-    .line 1912
+    .line 1925
     :cond_0
     if-eqz p1, :cond_1
 
@@ -9532,18 +9554,18 @@
 
     const/4 v1, 0x1
 
-    .line 1854
+    .line 1867
     iget-boolean v2, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
 
     if-eqz v2, :cond_0
 
-    .line 1855
+    .line 1868
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->doStartInputInternal()V
 
-    .line 1856
+    .line 1869
     iput-boolean v3, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
 
-    .line 1858
+    .line 1871
     :cond_0
     invoke-direct {p0}, Lcom/nuance/swype/input/IME;->showStartupActivity()Z
 
@@ -9551,37 +9573,37 @@
 
     if-eqz v2, :cond_2
 
-    .line 1861
+    .line 1874
     iput-boolean v3, p0, Lcom/nuance/swype/input/IME;->mWantToast:Z
 
-    .line 1862
+    .line 1875
     iput-boolean v1, p0, Lcom/nuance/swype/input/IME;->startupActivityShown:Z
 
     move v0, v1
 
-    .line 1881
+    .line 1894
     :cond_1
     :goto_0
     return v0
 
-    .line 1865
+    .line 1878
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     if-eqz v2, :cond_3
 
-    .line 1866
+    .line 1879
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
     invoke-virtual {v2, p1, p2}, Lcom/nuance/swype/input/AbstractTapDetector;->onShowInputRequested(IZ)V
 
-    .line 1868
+    .line 1881
     :cond_3
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onShowInputRequested(IZ)Z
 
     move-result v0
 
-    .line 1869
+    .line 1882
     .local v0, "showWindow":Z
     if-nez v0, :cond_1
 
@@ -9589,7 +9611,7 @@
 
     if-nez v2, :cond_1
 
-    .line 1870
+    .line 1883
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -9598,144 +9620,203 @@
 
     move-result-object v2
 
-    .line 1871
+    .line 1884
     iget v2, v2, Landroid/content/res/Configuration;->keyboard:I
 
     if-eq v2, v1, :cond_1
 
-    .line 1878
+    .line 1891
     const/4 v0, 0x1
 
     goto :goto_0
 .end method
 
 .method public onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
-    .locals 7
+    .locals 8
     .param p1, "attribute"    # Landroid/view/inputmethod/EditorInfo;
     .param p2, "restarting"    # Z
 
     .prologue
-    const/4 v4, 0x0
+    const/4 v5, 0x0
 
-    const/4 v3, 0x1
+    const/4 v4, 0x1
 
     .line 1201
-    sget-object v5, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
-
-    .line 1202
-    iput-boolean v3, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
+    sget-object v6, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
     .line 1203
-    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
+
+    if-nez v6, :cond_1
+
+    if-eqz p1, :cond_0
+
+    move v2, v4
 
     .line 1204
-    invoke-direct {p0, p1}, Lcom/nuance/swype/input/IME;->checkKeyboardReloadForEmojiKey(Landroid/view/inputmethod/EditorInfo;)V
+    .local v2, "isEditorAttributeChanged":Z
+    :goto_0
+    invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldSkipWrongStartInputView()Z
+
+    move-result v6
+
+    if-eqz v6, :cond_3
+
+    if-nez v2, :cond_3
+
+    if-eqz p2, :cond_3
 
     .line 1205
-    iget-object v5, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
+    sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    if-eqz v5, :cond_0
+    .line 1232
+    :goto_1
+    return-void
 
-    .line 1206
-    iget-object v5, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
+    .end local v2    # "isEditorAttributeChanged":Z
+    :cond_0
+    move v2, v5
 
-    invoke-virtual {v5}, Lcom/nuance/swype/input/AbstractTapDetector;->onStartInput()V
+    .line 1203
+    goto :goto_0
+
+    :cond_1
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
+
+    invoke-virtual {v6, p1}, Lcom/nuance/swype/input/InputFieldInfo;->isEquivalentTo(Landroid/view/inputmethod/EditorInfo;)Z
+
+    move-result v6
+
+    if-nez v6, :cond_2
+
+    move v2, v4
+
+    goto :goto_0
+
+    :cond_2
+    move v2, v5
+
+    goto :goto_0
 
     .line 1209
-    :cond_0
+    .restart local v2    # "isEditorAttributeChanged":Z
+    :cond_3
+    iput-boolean v4, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
+
+    .line 1210
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
+
+    .line 1211
+    invoke-direct {p0, p1}, Lcom/nuance/swype/input/IME;->checkKeyboardReloadForEmojiKey(Landroid/view/inputmethod/EditorInfo;)V
+
+    .line 1212
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
+
+    if-eqz v6, :cond_4
+
+    .line 1213
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
+
+    invoke-virtual {v6}, Lcom/nuance/swype/input/AbstractTapDetector;->onStartInput()V
+
+    .line 1216
+    :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v5}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v6}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v0
 
-    .line 1210
+    .line 1217
     .local v0, "config":Landroid/content/res/Configuration;
-    iget v5, v0, Landroid/content/res/Configuration;->keyboard:I
+    iget v6, v0, Landroid/content/res/Configuration;->keyboard:I
 
-    if-eq v5, v3, :cond_1
+    if-eq v6, v4, :cond_5
 
-    iget v5, v0, Landroid/content/res/Configuration;->hardKeyboardHidden:I
+    iget v6, v0, Landroid/content/res/Configuration;->hardKeyboardHidden:I
 
-    const/4 v6, 0x2
+    const/4 v7, 0x2
 
-    if-ne v5, v6, :cond_3
+    if-ne v6, v7, :cond_7
 
-    :cond_1
-    move v2, v3
+    :cond_5
+    move v3, v4
 
-    .line 1211
-    .local v2, "noHardwardKeyboard":Z
-    :goto_0
-    if-nez v2, :cond_4
+    .line 1218
+    .local v3, "noHardwardKeyboard":Z
+    :goto_2
+    if-nez v3, :cond_8
 
-    :goto_1
-    invoke-virtual {p0, v3}, Lcom/nuance/swype/input/IME;->setHardKeyboardAttached(Z)V
+    :goto_3
+    invoke-virtual {p0, v4}, Lcom/nuance/swype/input/IME;->setHardKeyboardAttached(Z)V
 
-    .line 1212
+    .line 1219
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
 
-    move-result v3
+    move-result v4
 
-    if-eqz v3, :cond_2
+    if-eqz v4, :cond_6
 
-    .line 1213
+    .line 1220
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
-    move-result-object v3
+    move-result-object v4
 
-    invoke-virtual {v3}, Lcom/nuance/swype/input/IMEApplication;->getHardKeyIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
+    invoke-virtual {v4}, Lcom/nuance/swype/input/IMEApplication;->getHardKeyIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
     move-result-object v1
 
     check-cast v1, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
 
-    .line 1215
+    .line 1222
     .local v1, "hardKeyHandler":Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
-    if-eqz v1, :cond_2
-
-    .line 1216
-    invoke-virtual {v1, p0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->setIME(Lcom/nuance/swype/input/IME;)V
-
-    .line 1217
-    invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Lcom/nuance/swype/input/IMEApplication;->getHardKeyIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
-
-    move-result-object v3
-
-    invoke-virtual {v3, p1, p2}, Lcom/nuance/swype/input/IMEHandler;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
+    if-eqz v1, :cond_6
 
     .line 1223
-    .end local v1    # "hardKeyHandler":Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
-    :cond_2
-    iget-object v3, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
-
-    invoke-virtual {v3, p1, p2}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
+    invoke-virtual {v1, p0}, Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;->setIME(Lcom/nuance/swype/input/IME;)V
 
     .line 1224
-    sget-object v3, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
+    invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
-    .line 1225
-    return-void
+    move-result-object v4
 
-    .end local v2    # "noHardwardKeyboard":Z
-    :cond_3
-    move v2, v4
+    invoke-virtual {v4}, Lcom/nuance/swype/input/IMEApplication;->getHardKeyIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
-    .line 1210
-    goto :goto_0
+    move-result-object v4
 
-    .restart local v2    # "noHardwardKeyboard":Z
-    :cond_4
-    move v3, v4
+    invoke-virtual {v4, p1, p2}, Lcom/nuance/swype/input/IMEHandler;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
 
-    .line 1211
+    .line 1230
+    .end local v1    # "hardKeyHandler":Lcom/nuance/swype/input/hardkey/HardKeyIMEHandler;
+    :cond_6
+    iget-object v4, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
+
+    invoke-virtual {v4, p1, p2}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
+
+    .line 1231
+    sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
+
     goto :goto_1
+
+    .end local v3    # "noHardwardKeyboard":Z
+    :cond_7
+    move v3, v5
+
+    .line 1217
+    goto :goto_2
+
+    .restart local v3    # "noHardwardKeyboard":Z
+    :cond_8
+    move v4, v5
+
+    .line 1218
+    goto :goto_3
 .end method
 
 .method public onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
@@ -9746,77 +9827,108 @@
     .prologue
     const/16 v8, 0x7b
 
-    const/4 v5, 0x1
+    const/4 v4, 0x1
 
-    const/4 v4, 0x0
-
-    .line 1500
-    sget-object v6, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
-
-    .line 1501
-    iget-boolean v6, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
-
-    if-eqz v6, :cond_0
-
-    .line 1502
-    invoke-direct {p0}, Lcom/nuance/swype/input/IME;->doStartInputInternal()V
-
-    .line 1503
-    iput-boolean v4, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
-
-    .line 1505
-    :cond_0
-    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
-
-    invoke-virtual {v6, v8}, Landroid/os/Handler;->hasMessages(I)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_1
-
-    .line 1506
-    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
-
-    iget-object v7, p0, Lcom/nuance/swype/input/IME;->closeRunnable:Ljava/lang/Runnable;
-
-    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    const/4 v5, 0x0
 
     .line 1507
-    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
-
-    iget-object v7, p0, Lcom/nuance/swype/input/IME;->finishInputViewRunnable:Ljava/lang/Runnable;
-
-    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
-
-    .line 1508
-    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
-
-    invoke-virtual {v6, v8}, Landroid/os/Handler;->removeMessages(I)V
+    sget-object v6, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
     .line 1509
-    invoke-direct {p0, v4, v4}, Lcom/nuance/swype/input/IME;->doFinishInputView(ZZ)V
-
-    .line 1512
-    :cond_1
-    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
-
-    .line 1514
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v6, p1}, Lcom/nuance/swype/input/InputFieldInfo;->isEquivalentTo(Landroid/view/inputmethod/EditorInfo;)Z
 
     move-result v6
 
-    if-nez v6, :cond_8
+    if-nez v6, :cond_0
 
-    move v3, v5
+    move v3, v4
 
-    .line 1516
+    .line 1511
     .local v3, "isEditorAttributeChanged":Z
     :goto_0
-    if-eqz p2, :cond_2
+    invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
-    if-nez v3, :cond_2
+    move-result-object v6
+
+    invoke-virtual {v6}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldSkipWrongStartInputView()Z
+
+    move-result v6
+
+    if-eqz v6, :cond_1
+
+    if-nez v3, :cond_1
+
+    if-eqz p2, :cond_1
+
+    .line 1512
+    sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
+
+    .line 1561
+    :goto_1
+    return-void
+
+    .end local v3    # "isEditorAttributeChanged":Z
+    :cond_0
+    move v3, v5
+
+    .line 1509
+    goto :goto_0
+
+    .line 1516
+    .restart local v3    # "isEditorAttributeChanged":Z
+    :cond_1
+    iget-boolean v6, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
+
+    if-eqz v6, :cond_2
+
+    .line 1517
+    invoke-direct {p0}, Lcom/nuance/swype/input/IME;->doStartInputInternal()V
+
+    .line 1518
+    iput-boolean v5, p0, Lcom/nuance/swype/input/IME;->isStartInputPending:Z
+
+    .line 1520
+    :cond_2
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
+
+    invoke-virtual {v6, v8}, Landroid/os/Handler;->hasMessages(I)Z
+
+    move-result v6
+
+    if-eqz v6, :cond_3
+
+    .line 1521
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
+
+    iget-object v7, p0, Lcom/nuance/swype/input/IME;->closeRunnable:Ljava/lang/Runnable;
+
+    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    .line 1522
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
+
+    iget-object v7, p0, Lcom/nuance/swype/input/IME;->finishInputViewRunnable:Ljava/lang/Runnable;
+
+    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    .line 1523
+    iget-object v6, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
+
+    invoke-virtual {v6, v8}, Landroid/os/Handler;->removeMessages(I)V
+
+    .line 1524
+    invoke-direct {p0, v5, v5}, Lcom/nuance/swype/input/IME;->doFinishInputView(ZZ)V
+
+    .line 1527
+    :cond_3
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
+
+    .line 1529
+    if-eqz p2, :cond_4
+
+    if-nez v3, :cond_4
 
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->appSpecificBehavior:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
@@ -9824,14 +9936,14 @@
 
     move-result v6
 
-    if-eqz v6, :cond_2
+    if-eqz v6, :cond_4
 
-    .line 1517
+    .line 1530
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v0
 
-    .line 1518
+    .line 1531
     .local v0, "currentTimestamp":J
     iget-wide v6, p0, Lcom/nuance/swype/input/IME;->lastAllowedTime:J
 
@@ -9841,54 +9953,54 @@
 
     cmp-long v6, v6, v8
 
-    if-lez v6, :cond_9
+    if-lez v6, :cond_a
 
-    .line 1519
-    :goto_1
-    if-eqz v5, :cond_a
+    .line 1532
+    :goto_2
+    if-eqz v4, :cond_b
 
-    .line 1520
+    .line 1533
     iput-wide v0, p0, Lcom/nuance/swype/input/IME;->lastAllowedTime:J
 
-    .line 1527
+    .line 1540
     .end local v0    # "currentTimestamp":J
-    :cond_2
+    :cond_4
     invoke-virtual {p0, p1, p2}, Lcom/nuance/swype/input/IME;->onStartInputViewCommon(Landroid/view/inputmethod/EditorInfo;Z)V
 
-    .line 1528
-    invoke-virtual {p0, v4}, Lcom/nuance/swype/input/IME;->setEmojiExtraRegion(I)V
+    .line 1541
+    invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->setEmojiExtraRegion(I)V
 
-    .line 1530
+    .line 1543
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v2
 
-    .line 1531
+    .line 1544
     .local v2, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->hasActiveIMEManagerInstance()Z
 
-    move-result v5
+    move-result v4
 
-    if-eqz v5, :cond_3
+    if-eqz v4, :cond_5
 
-    .line 1532
+    .line 1545
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
-    move-result-object v5
+    move-result-object v4
 
-    if-eqz v5, :cond_3
+    if-eqz v4, :cond_5
 
-    .line 1533
+    .line 1546
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerInstance()Lcom/nuance/swype/input/IMEHandler;
 
-    move-result-object v5
+    move-result-object v4
 
-    invoke-virtual {v5, p1, p2}, Lcom/nuance/swype/input/IMEHandler;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
+    invoke-virtual {v4, p1, p2}, Lcom/nuance/swype/input/IMEHandler;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
 
-    .line 1534
+    .line 1547
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerManager()Lcom/nuance/swype/input/IMEHandlerManager;
 
-    move-result-object v5
+    move-result-object v4
 
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -9896,92 +10008,82 @@
 
     move-result-object v7
 
-    invoke-virtual {v5, v6, v7}, Lcom/nuance/swype/input/IMEHandlerManager;->toggleLanguageOrRestore(Lcom/nuance/swype/input/InputFieldInfo;Lcom/nuance/swype/input/InputView;)V
+    invoke-virtual {v4, v6, v7}, Lcom/nuance/swype/input/IMEHandlerManager;->toggleLanguageOrRestore(Lcom/nuance/swype/input/InputFieldInfo;Lcom/nuance/swype/input/InputView;)V
 
-    .line 1538
-    :cond_3
-    iget-object v5, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
+    .line 1551
+    :cond_5
+    iget-object v4, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
-    if-eqz v5, :cond_7
+    if-eqz v4, :cond_9
 
-    .line 1541
-    iget-object v5, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
+    .line 1554
+    iget-object v4, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
-    iget-object v6, v5, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
+    iget-object v6, v4, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
 
-    if-eqz v6, :cond_4
+    if-eqz v6, :cond_6
 
-    iget-object v4, v5, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
+    iget-object v4, v4, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
 
     invoke-interface {v4}, Lcom/google/android/voiceime/Trigger;->hasRecognitionResultToCommit()Z
 
-    move-result v4
+    move-result v5
 
-    :cond_4
-    if-eqz v4, :cond_5
+    :cond_6
+    if-eqz v5, :cond_7
 
-    .line 1542
+    .line 1555
     sget-object v4, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v5, "cursor onStartInputView"
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1543
+    .line 1556
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v4
 
     invoke-virtual {v4}, Lcom/nuance/swype/input/InputView;->flushCurrentActiveWord()V
 
-    .line 1545
-    :cond_5
+    .line 1558
+    :cond_7
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
     iget-object v5, v4, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
 
-    if-eqz v5, :cond_6
+    if-eqz v5, :cond_8
 
     iget-object v5, v4, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
 
     invoke-interface {v5}, Lcom/google/android/voiceime/Trigger;->onStartInputView()V
 
-    :cond_6
+    :cond_8
     invoke-virtual {v4}, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->getTrigger()Lcom/google/android/voiceime/Trigger;
 
     move-result-object v5
 
     iput-object v5, v4, Lcom/google/android/voiceime/VoiceRecognitionTrigger;->mTrigger:Lcom/google/android/voiceime/Trigger;
 
-    .line 1547
-    :cond_7
-    sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
-
-    .line 1548
-    .end local v2    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
-    :goto_2
-    return-void
-
-    .end local v3    # "isEditorAttributeChanged":Z
-    :cond_8
-    move v3, v4
-
-    .line 1514
-    goto :goto_0
-
-    .restart local v0    # "currentTimestamp":J
-    .restart local v3    # "isEditorAttributeChanged":Z
+    .line 1560
     :cond_9
-    move v5, v4
-
-    .line 1518
-    goto :goto_1
-
-    .line 1522
-    :cond_a
     sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
+    goto/16 :goto_1
+
+    .end local v2    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
+    .restart local v0    # "currentTimestamp":J
+    :cond_a
+    move v4, v5
+
+    .line 1531
     goto :goto_2
+
+    .line 1535
+    :cond_b
+    sget-object v4, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
+
+    goto/16 :goto_1
 .end method
 
 .method public onStartInputViewCommon(Landroid/view/inputmethod/EditorInfo;Z)V
@@ -9990,7 +10092,7 @@
     .param p2, "restarting"    # Z
 
     .prologue
-    .line 1292
+    .line 1299
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
@@ -10005,12 +10107,12 @@
 
     const/4 v13, 0x1
 
-    .line 1294
+    .line 1301
     .local v13, "isEditorAttributeChanged":Z
     :goto_0
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1295
+    .line 1302
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/connect/Connect;->from(Landroid/content/Context;)Lcom/nuance/swype/connect/Connect;
 
     move-result-object v2
@@ -10021,12 +10123,12 @@
 
     invoke-virtual {v2, v0, v1}, Lcom/nuance/swype/connect/Connect;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
 
-    .line 1296
+    .line 1303
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v12
 
-    .line 1297
+    .line 1304
     .local v12, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     move-object/from16 v0, p1
 
@@ -10034,27 +10136,27 @@
 
     invoke-virtual {v12, v2}, Lcom/nuance/swype/input/IMEApplication;->setCurrentFieldInfo(I)V
 
-    .line 1298
+    .line 1305
     move-object/from16 v0, p1
 
     iget-object v2, v0, Landroid/view/inputmethod/EditorInfo;->packageName:Ljava/lang/String;
 
     invoke-virtual {v12, v2}, Lcom/nuance/swype/input/IMEApplication;->setCurrentApplicationName(Ljava/lang/String;)V
 
-    .line 1300
+    .line 1307
     invoke-virtual/range {p0 .. p1}, Lcom/nuance/swype/input/IME;->setInputFieldInfo(Landroid/view/inputmethod/EditorInfo;)V
 
-    .line 1301
+    .line 1308
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->loadSettings()V
 
-    .line 1303
+    .line 1310
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->tapFilter:Lcom/nuance/swype/input/tweaks/TapFilter;
 
     if-eqz v2, :cond_0
 
-    .line 1304
+    .line 1311
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->tapFilter:Lcom/nuance/swype/input/tweaks/TapFilter;
@@ -10063,7 +10165,7 @@
 
     invoke-virtual {v2, v0}, Lcom/nuance/swype/input/tweaks/TapFilter;->onEditorUpdate(Landroid/view/inputmethod/EditorInfo;)V
 
-    .line 1307
+    .line 1314
     :cond_0
     const/4 v2, 0x1
 
@@ -10071,7 +10173,7 @@
 
     invoke-virtual {v0, v2}, Lcom/nuance/swype/input/IME;->setImeInUse(Z)V
 
-    .line 1308
+    .line 1315
     move-object/from16 v0, p0
 
     iget-boolean v2, v0, Lcom/nuance/swype/input/IME;->isOrientationChanged:Z
@@ -10084,7 +10186,7 @@
 
     move-result v18
 
-    .line 1314
+    .line 1321
     .local v18, "restoreLayer":Z
     if-nez v13, :cond_1
 
@@ -10094,11 +10196,11 @@
 
     if-eqz v2, :cond_2
 
-    .line 1315
+    .line 1322
     :cond_1
     const/16 p2, 0x0
 
-    .line 1319
+    .line 1326
     :cond_2
     sget v2, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary;->RUNNING_STATE_FOREGROUND_UI:I
 
@@ -10106,14 +10208,14 @@
 
     invoke-direct {v0, v2}, Lcom/nuance/swype/input/IME;->setRunningState(I)V
 
-    .line 1320
+    .line 1327
     const/4 v2, 0x1
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v2}, Lcom/nuance/swype/input/IME;->setImeInUse(Z)V
 
-    .line 1321
+    .line 1328
     if-eqz p2, :cond_3
 
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
@@ -10122,7 +10224,7 @@
 
     if-nez v2, :cond_5
 
-    .line 1322
+    .line 1329
     :cond_3
     const/4 v2, 0x0
 
@@ -10130,14 +10232,14 @@
 
     iput-boolean v2, v0, Lcom/nuance/swype/input/IME;->mUsedEditLayer:Z
 
-    .line 1323
+    .line 1330
     move-object/from16 v0, p0
 
     move/from16 v1, p2
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IME;->switchInputView(Z)V
 
-    .line 1328
+    .line 1335
     :goto_1
     move-object/from16 v0, p0
 
@@ -10149,21 +10251,21 @@
 
     if-eqz v2, :cond_6
 
-    .line 1329
+    .line 1336
     sget-object v2, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "onStartInput(): no input view"
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1330
+    .line 1337
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
-    .line 1446
+    .line 1453
     :goto_2
     return-void
 
-    .line 1292
+    .line 1299
     .end local v12    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
     .end local v13    # "isEditorAttributeChanged":Z
     .end local v18    # "restoreLayer":Z
@@ -10172,7 +10274,7 @@
 
     goto/16 :goto_0
 
-    .line 1325
+    .line 1332
     .restart local v12    # "imeApp":Lcom/nuance/swype/input/IMEApplication;
     .restart local v13    # "isEditorAttributeChanged":Z
     .restart local v18    # "restoreLayer":Z
@@ -10191,13 +10293,13 @@
 
     goto :goto_1
 
-    .line 1334
+    .line 1341
     :cond_6
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v9
 
-    .line 1336
+    .line 1343
     .local v9, "currentInputView":Lcom/nuance/swype/input/InputView;
     move-object/from16 v0, p0
 
@@ -10209,7 +10311,7 @@
 
     if-eqz v2, :cond_7
 
-    .line 1337
+    .line 1344
     sget-object v2, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "onStartInput(): no input view"
@@ -10218,11 +10320,11 @@
 
     goto :goto_2
 
-    .line 1341
+    .line 1348
     :cond_7
     if-eqz v18, :cond_14
 
-    .line 1342
+    .line 1349
     move-object/from16 v0, p0
 
     iget-object v3, v0, Lcom/nuance/swype/input/IME;->savedKeyboardState:Lcom/nuance/swype/input/IME$KeyboardState;
@@ -10245,7 +10347,7 @@
     :goto_3
     invoke-virtual {v3, v9, v2}, Lcom/nuance/swype/input/IME$KeyboardState;->restore(Lcom/nuance/swype/input/InputView;Z)V
 
-    .line 1348
+    .line 1355
     :cond_9
     :goto_4
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getApplicationContext()Landroid/content/Context;
@@ -10258,7 +10360,7 @@
 
     if-eqz v2, :cond_b
 
-    .line 1349
+    .line 1356
     new-instance v2, Ljava/util/HashMap;
 
     invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
@@ -10267,7 +10369,7 @@
 
     iput-object v2, v0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
 
-    .line 1350
+    .line 1357
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
@@ -10282,7 +10384,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1353
+    .line 1360
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -10311,7 +10413,7 @@
 
     if-eqz v2, :cond_15
 
-    .line 1356
+    .line 1363
     :cond_a
     move-object/from16 v0, p0
 
@@ -10323,7 +10425,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1360
+    .line 1367
     :goto_5
     move-object/from16 v0, p0
 
@@ -10337,7 +10439,7 @@
 
     move-result-object v16
 
-    .line 1361
+    .line 1368
     .local v16, "modeName":Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -10357,7 +10459,7 @@
 
     invoke-interface {v2, v3, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1363
+    .line 1370
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -10368,7 +10470,7 @@
 
     sub-long v14, v2, v4
 
-    .line 1364
+    .line 1371
     .local v14, "interval":J
     move-object/from16 v0, p0
 
@@ -10384,7 +10486,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1365
+    .line 1372
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
@@ -10401,7 +10503,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1366
+    .line 1373
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -10414,7 +10516,7 @@
 
     move/from16 v17, v0
 
-    .line 1367
+    .line 1374
     .local v17, "orientation":I
     const/4 v2, 0x1
 
@@ -10422,7 +10524,7 @@
 
     if-ne v2, v0, :cond_17
 
-    .line 1368
+    .line 1375
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
@@ -10433,7 +10535,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1372
+    .line 1379
     :goto_7
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
@@ -10445,7 +10547,7 @@
 
     move-result-object v10
 
-    .line 1374
+    .line 1381
     .local v10, "currentMode":Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
     move-object/from16 v0, p0
 
@@ -10459,14 +10561,14 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1375
+    .line 1382
     invoke-virtual {v12}, Lcom/nuance/swype/input/IMEApplication;->isScreenLayoutTablet()Z
 
     move-result v2
 
     if-eqz v2, :cond_18
 
-    .line 1376
+    .line 1383
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
@@ -10477,7 +10579,7 @@
 
     invoke-interface {v2, v3, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 1382
+    .line 1389
     .end local v10    # "currentMode":Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
     .end local v14    # "interval":J
     .end local v17    # "orientation":I
@@ -10489,14 +10591,14 @@
 
     if-nez v2, :cond_19
 
-    .line 1383
+    .line 1390
     move-object/from16 v0, p0
 
     move/from16 v1, p2
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IME;->recaptureOnSingleTap(Z)V
 
-    .line 1388
+    .line 1395
     :goto_9
     const/4 v2, 0x0
 
@@ -10504,28 +10606,28 @@
 
     iput-boolean v2, v0, Lcom/nuance/swype/input/IME;->simulateTapOnPostOrientationChangePending:Z
 
-    .line 1390
+    .line 1397
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->showStartupMessage()V
 
-    .line 1392
+    .line 1399
     move-object/from16 v0, p0
 
     iget-boolean v2, v0, Lcom/nuance/swype/input/IME;->isOrientationChanged:Z
 
     if-eqz v2, :cond_e
 
-    .line 1394
+    .line 1401
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v8
 
-    .line 1395
+    .line 1402
     .local v8, "curInputView":Lcom/nuance/swype/input/InputView;
     invoke-static/range {p0 .. p0}, Lcom/nuance/swype/stats/StatisticsManager;->from(Landroid/content/Context;)Lcom/nuance/swype/stats/StatisticsManager;
 
     move-result-object v20
 
-    .line 1396
+    .line 1403
     .local v20, "stats":Lcom/nuance/swype/stats/StatisticsManager;
     if-eqz v8, :cond_c
 
@@ -10543,12 +10645,12 @@
 
     if-eqz v2, :cond_c
 
-    .line 1398
+    .line 1405
     new-instance v19, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v19 .. v19}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1399
+    .line 1406
     .local v19, "size":Ljava/lang/StringBuilder;
     invoke-virtual {v8}, Lcom/nuance/swype/input/InputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
@@ -10562,14 +10664,14 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 1400
+    .line 1407
     const/16 v2, 0x78
 
     move-object/from16 v0, v19
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 1401
+    .line 1408
     invoke-virtual {v8}, Lcom/nuance/swype/input/InputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v2
@@ -10582,7 +10684,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 1403
+    .line 1410
     invoke-virtual/range {v20 .. v20}, Lcom/nuance/swype/stats/StatisticsManager;->getSessionStatsScribe()Lcom/nuance/swype/stats/StatisticsManager$SessionStatsScribe;
 
     move-result-object v2
@@ -10593,7 +10695,7 @@
 
     invoke-interface {v2, v3}, Lcom/nuance/swype/stats/StatisticsManager$SessionStatsScribe;->recordKeyboardSizeChange(Ljava/lang/String;)V
 
-    .line 1406
+    .line 1413
     .end local v19    # "size":Ljava/lang/StringBuilder;
     :cond_c
     move-object/from16 v0, p0
@@ -10602,17 +10704,17 @@
 
     if-eqz v2, :cond_e
 
-    .line 1407
+    .line 1414
     if-eqz v8, :cond_d
 
-    .line 1408
+    .line 1415
     move-object/from16 v0, p0
 
     iget v2, v0, Lcom/nuance/swype/input/IME;->prevLastInput:I
 
     invoke-virtual {v8, v2}, Lcom/nuance/swype/input/InputView;->setLastInput(I)V
 
-    .line 1410
+    .line 1417
     :cond_d
     const/4 v2, 0x0
 
@@ -10620,7 +10722,7 @@
 
     iput v2, v0, Lcom/nuance/swype/input/IME;->prevLastInput:I
 
-    .line 1414
+    .line 1421
     .end local v8    # "curInputView":Lcom/nuance/swype/input/InputView;
     .end local v20    # "stats":Lcom/nuance/swype/stats/StatisticsManager;
     :cond_e
@@ -10632,23 +10734,23 @@
 
     if-eqz v18, :cond_f
 
-    .line 1415
+    .line 1422
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->getHandler()Landroid/os/Handler;
 
     move-result-object v11
 
-    .line 1416
+    .line 1423
     .local v11, "handler":Landroid/os/Handler;
     if-eqz v11, :cond_f
 
-    .line 1417
+    .line 1424
     const/16 v2, 0x79
 
     const-wide/16 v4, 0xa
 
     invoke-virtual {v11, v2, v4, v5}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 1421
+    .line 1428
     .end local v11    # "handler":Landroid/os/Handler;
     :cond_f
     const/4 v2, 0x0
@@ -10657,14 +10759,14 @@
 
     iput-boolean v2, v0, Lcom/nuance/swype/input/IME;->isOrientationChanged:Z
 
-    .line 1422
+    .line 1429
     const/4 v2, 0x0
 
     move-object/from16 v0, p0
 
     iput-boolean v2, v0, Lcom/nuance/swype/input/IME;->isAccessibilityChanged:Z
 
-    .line 1428
+    .line 1435
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v2
@@ -10673,10 +10775,10 @@
 
     if-eqz v9, :cond_11
 
-    .line 1429
+    .line 1436
     const/4 v7, 0x0
 
-    .line 1430
+    .line 1437
     .local v7, "languageInfo":Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -10684,7 +10786,7 @@
 
     if-eqz v2, :cond_10
 
-    .line 1431
+    .line 1438
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -10693,14 +10795,14 @@
 
     move-result-object v7
 
-    .line 1432
+    .line 1439
     const/4 v2, 0x0
 
     move-object/from16 v0, p0
 
     iput-boolean v2, v0, Lcom/nuance/swype/input/IME;->mNeedLanguageInToast:Z
 
-    .line 1434
+    .line 1441
     :cond_10
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
@@ -10730,7 +10832,7 @@
 
     invoke-virtual/range {v2 .. v7}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->notifyKeyboardOpen(Landroid/content/Context;ILcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;Lcom/nuance/input/swypecorelib/Shift$ShiftState;Ljava/lang/String;)V
 
-    .line 1439
+    .line 1446
     .end local v7    # "languageInfo":Ljava/lang/String;
     :cond_11
     invoke-static {}, Lcom/nuance/swype/input/accessibility/SettingsChangeListener;->isScreenMagnificationOn()Z
@@ -10739,29 +10841,29 @@
 
     if-eqz v2, :cond_12
 
-    .line 1440
+    .line 1447
     const/4 v2, 0x1
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v2}, Lcom/nuance/swype/input/IME;->setCandidatesViewShown(Z)V
 
-    .line 1443
+    .line 1450
     :cond_12
     invoke-direct/range {p0 .. p0}, Lcom/nuance/swype/input/IME;->postDelayCheckLanguageUpdateMessage()V
 
-    .line 1445
+    .line 1452
     sget-object v2, Lcom/nuance/swype/input/IME;->trace:Lcom/nuance/swype/util/LogManager$Trace;
 
     goto/16 :goto_2
 
-    .line 1342
+    .line 1349
     :cond_13
     const/4 v2, 0x0
 
     goto/16 :goto_3
 
-    .line 1343
+    .line 1350
     :cond_14
     invoke-virtual {v12}, Lcom/nuance/swype/input/IMEApplication;->hasActiveIMEManagerInstance()Z
 
@@ -10769,7 +10871,7 @@
 
     if-eqz v2, :cond_9
 
-    .line 1344
+    .line 1351
     invoke-virtual {v12}, Lcom/nuance/swype/input/IMEApplication;->getIMEHandlerManager()Lcom/nuance/swype/input/IMEHandlerManager;
 
     move-result-object v2
@@ -10786,7 +10888,7 @@
 
     goto/16 :goto_4
 
-    .line 1358
+    .line 1365
     :cond_15
     move-object/from16 v0, p0
 
@@ -10800,14 +10902,14 @@
 
     goto/16 :goto_5
 
-    .line 1361
+    .line 1368
     .restart local v16    # "modeName":Ljava/lang/String;
     :cond_16
     const-string v16, "invalidMode"
 
     goto/16 :goto_6
 
-    .line 1370
+    .line 1377
     .end local v16    # "modeName":Ljava/lang/String;
     .restart local v14    # "interval":J
     .restart local v17    # "orientation":I
@@ -10824,7 +10926,7 @@
 
     goto/16 :goto_7
 
-    .line 1378
+    .line 1385
     .restart local v10    # "currentMode":Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
     :cond_18
     move-object/from16 v0, p0
@@ -10839,7 +10941,7 @@
 
     goto/16 :goto_8
 
-    .line 1385
+    .line 1392
     .end local v10    # "currentMode":Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
     .end local v14    # "interval":J
     .end local v17    # "orientation":I
@@ -10860,10 +10962,10 @@
     .param p3, "orientation"    # Z
 
     .prologue
-    .line 1247
+    .line 1254
     const/4 v0, 0x0
 
-    .line 1248
+    .line 1255
     .local v0, "restoreLayer":Z
     if-nez p1, :cond_0
 
@@ -10871,10 +10973,10 @@
 
     if-eqz p3, :cond_0
 
-    .line 1249
+    .line 1256
     const/4 v0, 0x1
 
-    .line 1252
+    .line 1259
     :cond_0
     return v0
 .end method
@@ -10885,17 +10987,17 @@
     .param p2, "eventTime"    # J
 
     .prologue
-    .line 2724
+    .line 2737
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v0, :cond_1
 
-    .line 2735
+    .line 2748
     :cond_0
     :goto_0
     return-void
 
-    .line 2727
+    .line 2740
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
@@ -10909,17 +11011,17 @@
 
     if-nez v0, :cond_0
 
-    .line 2730
+    .line 2743
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     if-eqz v0, :cond_2
 
-    .line 2731
+    .line 2744
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/RecaptureHandler;->onText(Ljava/lang/CharSequence;)V
 
-    .line 2734
+    .line 2747
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
@@ -10943,17 +11045,17 @@
     .param p1, "trace"    # Lcom/nuance/swype/input/KeyboardViewEx$TracePoints;
 
     .prologue
-    .line 2950
+    .line 2963
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v0, :cond_1
 
-    .line 2963
+    .line 2976
     :cond_0
     :goto_0
     return-void
 
-    .line 2954
+    .line 2967
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isLVLLicenseValid()Z
 
@@ -10961,14 +11063,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2958
+    .line 2971
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2962
+    .line 2975
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
@@ -11041,10 +11143,10 @@
     .param p2, "text"    # Landroid/view/inputmethod/ExtractedText;
 
     .prologue
-    .line 1886
+    .line 1899
     invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onUpdateExtractedText(ILandroid/view/inputmethod/ExtractedText;)V
 
-    .line 1888
+    .line 1901
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-eqz v0, :cond_0
@@ -11057,7 +11159,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 1889
+    .line 1902
     :cond_0
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -11065,11 +11167,11 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1895
+    .line 1908
     :goto_0
     return-void
 
-    .line 1894
+    .line 1907
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
@@ -11090,10 +11192,10 @@
     .param p6, "candidatesEnd"    # I
 
     .prologue
-    .line 1761
+    .line 1774
     invoke-super/range {p0 .. p6}, Landroid/inputmethodservice/InputMethodService;->onUpdateSelection(IIIIII)V
 
-    .line 1764
+    .line 1777
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -11162,22 +11264,22 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1766
+    .line 1779
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->ignoreFirstUpdateSelectionPostOrientationChange:Z
 
     if-eqz v0, :cond_1
 
-    .line 1767
+    .line 1780
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->ignoreFirstUpdateSelectionPostOrientationChange:Z
 
-    .line 1791
+    .line 1804
     :cond_0
     :goto_0
     return-void
 
-    .line 1771
+    .line 1784
     :cond_1
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
@@ -11197,7 +11299,7 @@
 
     if-nez v0, :cond_3
 
-    .line 1772
+    .line 1785
     :cond_2
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -11207,7 +11309,7 @@
 
     goto :goto_0
 
-    .line 1780
+    .line 1793
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
@@ -11227,7 +11329,7 @@
 
     invoke-virtual/range {v0 .. v6}, Lcom/nuance/swype/input/InputView;->updateSelection(IIIIII)V
 
-    .line 1783
+    .line 1796
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     if-eqz v0, :cond_0
@@ -11236,14 +11338,14 @@
 
     if-nez v0, :cond_0
 
-    .line 1784
+    .line 1797
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->recordStartTimeDisplaySelection()V
 
-    .line 1785
+    .line 1798
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     move v1, p1
@@ -11260,14 +11362,14 @@
 
     invoke-virtual/range {v0 .. v6}, Lcom/nuance/swype/input/RecaptureHandler;->onUpdateSelection(IIIIII)V
 
-    .line 1787
+    .line 1800
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 1788
+    .line 1801
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
@@ -11334,18 +11436,18 @@
     .end annotation
 
     .prologue
-    .line 3583
+    .line 3603
     .local p1, "write":Ljava/util/List;, "Ljava/util/List<Landroid/graphics/Point;>;"
     iget-boolean v1, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v1, :cond_1
 
-    .line 3599
+    .line 3619
     :cond_0
     :goto_0
     return-void
 
-    .line 3587
+    .line 3607
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isLVLLicenseValid()Z
 
@@ -11353,19 +11455,19 @@
 
     if-eqz v1, :cond_0
 
-    .line 3591
+    .line 3611
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 3595
+    .line 3615
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3596
+    .line 3616
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
@@ -11375,7 +11477,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 3597
+    .line 3617
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/InputView;->handleWrite(Ljava/util/List;)V
 
     goto :goto_0
@@ -11385,7 +11487,7 @@
     .locals 2
 
     .prologue
-    .line 3135
+    .line 3148
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -11394,18 +11496,18 @@
 
     move-result-object v0
 
-    .line 3138
+    .line 3151
     .local v0, "spw":Lcom/nuance/swype/input/SpeechWrapper;
     if-eqz v0, :cond_0
 
-    .line 3139
+    .line 3152
     invoke-virtual {v0}, Lcom/nuance/swype/input/SpeechWrapper;->pauseSpeech()V
 
-    .line 3141
+    .line 3154
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->closeDictationLanguageMenu()V
 
-    .line 3142
+    .line 3155
     return-void
 .end method
 
@@ -11415,30 +11517,30 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 2741
+    .line 2754
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v3}, Lcom/nuance/swype/input/InputFieldInfo;->getActionId()I
 
     move-result v1
 
-    .line 2742
+    .line 2755
     .local v1, "idAction":I
     if-eq v1, v2, :cond_1
 
-    .line 2743
+    .line 2756
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputConnection()Landroid/view/inputmethod/InputConnection;
 
     move-result-object v0
 
-    .line 2744
+    .line 2757
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_0
 
-    .line 2745
+    .line 2758
     invoke-interface {v0, v1}, Landroid/view/inputmethod/InputConnection;->performEditorAction(I)Z
 
-    .line 2749
+    .line 2762
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_0
     :goto_0
@@ -11455,12 +11557,12 @@
     .param p1, "primaryCode"    # I
 
     .prologue
-    .line 3044
+    .line 3057
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->audioManager:Landroid/media/AudioManager;
 
     if-nez v1, :cond_0
 
-    .line 3045
+    .line 3058
     const-string v1, "audio"
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/IME;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -11471,7 +11573,7 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->audioManager:Landroid/media/AudioManager;
 
-    .line 3047
+    .line 3060
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isKeySoundAllowed()Z
 
@@ -11479,14 +11581,14 @@
 
     if-eqz v1, :cond_1
 
-    .line 3048
+    .line 3061
     const/4 v0, 0x5
 
-    .line 3049
+    .line 3062
     .local v0, "sound":I
     sparse-switch p1, :sswitch_data_0
 
-    .line 3062
+    .line 3075
     :goto_0
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->audioManager:Landroid/media/AudioManager;
 
@@ -11494,33 +11596,33 @@
 
     invoke-virtual {v1, v0, v2}, Landroid/media/AudioManager;->playSoundEffect(IF)V
 
-    .line 3064
+    .line 3077
     .end local v0    # "sound":I
     :cond_1
     return-void
 
-    .line 3051
+    .line 3064
     .restart local v0    # "sound":I
     :sswitch_0
     const/4 v0, 0x7
 
-    .line 3052
+    .line 3065
     goto :goto_0
 
-    .line 3054
+    .line 3067
     :sswitch_1
     const/16 v0, 0x8
 
-    .line 3055
+    .line 3068
     goto :goto_0
 
-    .line 3057
+    .line 3070
     :sswitch_2
     const/4 v0, 0x6
 
     goto :goto_0
 
-    .line 3049
+    .line 3062
     nop
 
     :sswitch_data_0
@@ -11536,17 +11638,17 @@
     .param p1, "restarting"    # Z
 
     .prologue
-    .line 1256
+    .line 1263
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     if-eqz v0, :cond_1
 
-    .line 1257
+    .line 1264
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/RecaptureHandler;->onStartInputView()V
 
-    .line 1258
+    .line 1265
     if-nez p1, :cond_1
 
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->isOrientationChanged:Z
@@ -11557,7 +11659,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 1259
+    .line 1266
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
@@ -11565,7 +11667,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/RecaptureHandler;->onSingleTap(Z)Z
 
-    .line 1263
+    .line 1270
     :cond_1
     return-void
 .end method
@@ -11574,27 +11676,27 @@
     .locals 2
 
     .prologue
-    .line 2649
+    .line 2662
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 2650
+    .line 2663
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 2651
+    .line 2664
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->setCurrentInputLanguage()Z
 
-    .line 2652
+    .line 2665
     const/4 v1, 0x1
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/IME;->setupInputView(Z)V
 
-    .line 2653
+    .line 2666
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->invalidate()V
 
-    .line 2654
+    .line 2667
     return-void
 .end method
 
@@ -11604,19 +11706,19 @@
     .prologue
     const/16 v2, 0x65
 
-    .line 2675
+    .line 2688
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "refreshKeyboard()"
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 2676
+    .line 2689
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2677
+    .line 2690
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -11629,7 +11731,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 2679
+    .line 2692
     return-void
 .end method
 
@@ -11639,22 +11741,22 @@
     .param p2, "view"    # Lcom/nuance/swype/input/KeyboardViewEx;
 
     .prologue
-    .line 1732
+    .line 1745
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
     if-eqz v4, :cond_0
 
-    .line 1733
+    .line 1746
     instance-of v4, p1, Lcom/nuance/swype/input/XT9Keyboard;
 
     if-eqz v4, :cond_0
 
     move-object v3, p1
 
-    .line 1734
+    .line 1747
     check-cast v3, Lcom/nuance/swype/input/XT9Keyboard;
 
-    .line 1735
+    .line 1748
     .local v3, "xt9Keyboard":Lcom/nuance/swype/input/XT9Keyboard;
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
@@ -11662,7 +11764,7 @@
 
     move-result-object v2
 
-    .line 1736
+    .line 1749
     .local v2, "language":Lcom/nuance/swype/input/InputMethods$Language;
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
 
@@ -11674,7 +11776,7 @@
 
     move-result-object v4
 
-    .line 1738
+    .line 1751
     invoke-interface {v4}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -11693,13 +11795,13 @@
 
     check-cast v1, Lcom/nuance/swype/input/KeyboardEx$Key;
 
-    .line 1739
+    .line 1752
     .local v1, "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     invoke-virtual {p2, v1}, Lcom/nuance/swype/input/KeyboardViewEx;->invalidateKey(Lcom/nuance/swype/input/KeyboardEx$Key;)V
 
     goto :goto_0
 
-    .line 1743
+    .line 1756
     .end local v0    # "i$":Ljava/util/Iterator;
     .end local v1    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     .end local v2    # "language":Lcom/nuance/swype/input/InputMethods$Language;
@@ -11712,7 +11814,7 @@
     .locals 3
 
     .prologue
-    .line 3026
+    .line 3039
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v1, Landroid/content/IntentFilter;
@@ -11723,7 +11825,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/IME;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 3029
+    .line 3042
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v1, Landroid/content/IntentFilter;
@@ -11734,7 +11836,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/IME;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 3032
+    .line 3045
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v1, Landroid/content/IntentFilter;
@@ -11745,7 +11847,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/IME;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 3034
+    .line 3047
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v1, Landroid/content/IntentFilter;
@@ -11756,7 +11858,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/IME;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 3036
+    .line 3049
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mReceiver:Landroid/content/BroadcastReceiver;
 
     new-instance v1, Landroid/content/IntentFilter;
@@ -11767,7 +11869,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/IME;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    .line 3038
+    .line 3051
     return-void
 .end method
 
@@ -11777,16 +11879,16 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 2657
+    .line 2670
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mEditState:Lcom/nuance/swype/input/EditState;
 
-    .line 2658
+    .line 2671
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->recaptureHandler:Lcom/nuance/swype/input/RecaptureHandler;
 
-    .line 2659
+    .line 2672
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->tapDetector:Lcom/nuance/swype/input/AbstractTapDetector;
 
-    .line 2660
+    .line 2673
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->savedKeyboardState:Lcom/nuance/swype/input/IME$KeyboardState;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
@@ -11795,7 +11897,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IME$KeyboardState;->save(Lcom/nuance/swype/input/InputView;)V
 
-    .line 2661
+    .line 2674
     const-string v0, "NO_VIEW"
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mCurrentInputViewName:Ljava/lang/String;
@@ -11806,7 +11908,7 @@
 
     if-nez v0, :cond_0
 
-    .line 2663
+    .line 2676
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
@@ -11817,17 +11919,17 @@
 
     if-nez v0, :cond_0
 
-    .line 2664
+    .line 2677
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/KeyboardInputInflater;->reset()V
 
-    .line 2665
+    .line 2678
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/IME;->switchInputView(Z)V
 
-    .line 2668
+    .line 2681
     :cond_0
     return-void
 .end method
@@ -11836,7 +11938,7 @@
     .locals 2
 
     .prologue
-    .line 3365
+    .line 3380
     const/16 v0, 0x65
 
     .local v0, "msg":I
@@ -11845,17 +11947,17 @@
 
     if-gt v0, v1, :cond_0
 
-    .line 3366
+    .line 3381
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3365
+    .line 3380
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 3368
+    .line 3383
     :cond_0
     return-void
 .end method
@@ -11864,15 +11966,15 @@
     .locals 1
 
     .prologue
-    .line 3684
+    .line 3704
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->currentLicense:Lcom/nuance/swype/input/License;
 
-    .line 3685
+    .line 3705
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->runLicenseCheck()V
 
-    .line 3686
+    .line 3706
     return-void
 .end method
 
@@ -11881,7 +11983,7 @@
     .param p1, "newLicense"    # Ljava/io/File;
 
     .prologue
-    .line 3674
+    .line 3694
     new-instance v0, Ljava/io/File;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getFilesDir()Ljava/io/File;
@@ -11892,7 +11994,7 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 3675
+    .line 3695
     .local v0, "oldFile":Ljava/io/File;
     invoke-virtual {p1, v0}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
@@ -11900,18 +12002,18 @@
 
     if-eqz v1, :cond_0
 
-    .line 3676
+    .line 3696
     const/4 v1, 0x0
 
     iput-object v1, p0, Lcom/nuance/swype/input/IME;->currentLicense:Lcom/nuance/swype/input/License;
 
-    .line 3677
+    .line 3697
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->runLicenseCheck()V
 
-    .line 3678
+    .line 3698
     const/4 v1, 0x1
 
-    .line 3680
+    .line 3700
     :goto_0
     return v1
 
@@ -12225,26 +12327,26 @@
     .locals 1
 
     .prologue
-    .line 3666
+    .line 3686
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 3667
+    .line 3687
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->currentLicense:Lcom/nuance/swype/input/License;
 
     if-nez v0, :cond_0
 
-    .line 3668
+    .line 3688
     invoke-static {p0}, Lcom/nuance/swype/input/License;->getLicense(Landroid/content/Context;)Lcom/nuance/swype/input/License;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->currentLicense:Lcom/nuance/swype/input/License;
 
-    .line 3671
+    .line 3691
     :cond_0
     return-void
 .end method
@@ -12262,21 +12364,21 @@
 
     const/4 v10, 0x0
 
-    .line 2831
+    .line 2844
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v2
 
-    .line 2832
+    .line 2845
     .local v2, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     if-nez v2, :cond_1
 
-    .line 2894
+    .line 2907
     :cond_0
     :goto_0
     return-void
 
-    .line 2835
+    .line 2848
     :cond_1
     const/16 v11, 0x14
 
@@ -12284,7 +12386,7 @@
 
     move v0, v8
 
-    .line 2837
+    .line 2850
     .local v0, "deleteCount":I
     :goto_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
@@ -12318,11 +12420,11 @@
     :cond_2
     move v11, v9
 
-    .line 2840
+    .line 2853
     :goto_2
     if-eqz v11, :cond_a
 
-    .line 2841
+    .line 2854
     new-instance v11, Landroid/view/inputmethod/ExtractedTextRequest;
 
     invoke-direct {v11}, Landroid/view/inputmethod/ExtractedTextRequest;-><init>()V
@@ -12331,12 +12433,12 @@
 
     move-result-object v11
 
-    .line 2842
+    .line 2855
     invoke-static {v11}, Lcom/nuance/swype/util/InputConnectionUtils;->getSelection(Landroid/view/inputmethod/ExtractedText;)[I
 
     move-result-object v5
 
-    .line 2843
+    .line 2856
     .local v5, "selection":[I
     if-eqz v5, :cond_5
 
@@ -12346,15 +12448,15 @@
 
     if-eq v11, v12, :cond_5
 
-    .line 2845
+    .line 2858
     invoke-virtual {v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->beginBatchEdit()Z
 
-    .line 2846
+    .line 2859
     const-string v8, ""
 
     invoke-virtual {v2, v8, v10}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2847
+    .line 2860
     invoke-virtual {v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->endBatchEdit()Z
 
     goto :goto_0
@@ -12364,17 +12466,17 @@
     :cond_3
     move v0, v9
 
-    .line 2835
+    .line 2848
     goto :goto_1
 
     .restart local v0    # "deleteCount":I
     :cond_4
     move v11, v10
 
-    .line 2837
+    .line 2850
     goto :goto_2
 
-    .line 2849
+    .line 2862
     .restart local v5    # "selection":[I
     :cond_5
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
@@ -12383,14 +12485,14 @@
 
     if-eqz v11, :cond_6
 
-    .line 2850
+    .line 2863
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v11
 
     invoke-virtual {v11}, Lcom/nuance/swype/input/InputView;->playSoundIfTextIsEmpty()V
 
-    .line 2853
+    .line 2866
     :cond_6
     invoke-virtual {p0, v13}, Lcom/nuance/swype/input/IME;->shouldSendKeyAsKeyEvent(I)Z
 
@@ -12398,7 +12500,7 @@
 
     if-nez v11, :cond_a
 
-    .line 2854
+    .line 2867
     new-instance v11, Landroid/view/inputmethod/ExtractedTextRequest;
 
     invoke-direct {v11}, Landroid/view/inputmethod/ExtractedTextRequest;-><init>()V
@@ -12407,7 +12509,7 @@
 
     move-result-object v1
 
-    .line 2858
+    .line 2871
     .local v1, "eText":Landroid/view/inputmethod/ExtractedText;
     if-eqz v1, :cond_9
 
@@ -12419,12 +12521,12 @@
 
     if-eqz v11, :cond_9
 
-    .line 2859
+    .line 2872
     aget v11, v5, v10
 
     if-lt v11, v8, :cond_9
 
-    .line 2860
+    .line 2873
     iget-object v8, v1, Landroid/view/inputmethod/ExtractedText;->text:Ljava/lang/CharSequence;
 
     aget v11, v5, v10
@@ -12437,22 +12539,22 @@
 
     move-result-object v8
 
-    .line 2861
+    .line 2874
     invoke-static {v8}, Lcom/nuance/swype/util/CharacterUtilities;->isEmoji(Ljava/lang/CharSequence;)Z
 
     move-result v8
 
     if-eqz v8, :cond_7
 
-    .line 2862
+    .line 2875
     invoke-virtual {p0, v13, v0}, Lcom/nuance/swype/input/IME;->sendKeyUpDownEvents(II)V
 
-    .line 2863
+    .line 2876
     invoke-virtual {v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->reSyncFromEditor()V
 
     goto/16 :goto_0
 
-    .line 2867
+    .line 2880
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
@@ -12464,7 +12566,7 @@
 
     if-eqz v8, :cond_9
 
-    .line 2868
+    .line 2881
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v8
@@ -12473,7 +12575,7 @@
 
     move-result-object v7
 
-    .line 2869
+    .line 2882
     .local v7, "utility":Lcom/nuance/swype/util/CharacterUtilities;
     aget v8, v5, v10
 
@@ -12487,7 +12589,7 @@
 
     sub-int v6, v8, v11
 
-    .line 2871
+    .line 2884
     .local v6, "start":I
     :goto_3
     iget-object v8, v1, Landroid/view/inputmethod/ExtractedText;->text:Ljava/lang/CharSequence;
@@ -12502,7 +12604,7 @@
 
     move-result-object v4
 
-    .line 2872
+    .line 2885
     .local v4, "lastEmiley":Ljava/lang/String;
     invoke-virtual {v7, v4}, Lcom/nuance/swype/util/CharacterUtilities;->isSmiley(Ljava/lang/String;)Z
 
@@ -12510,7 +12612,7 @@
 
     if-eqz v8, :cond_9
 
-    .line 2873
+    .line 2886
     invoke-virtual {p0, v13, v0}, Lcom/nuance/swype/input/IME;->sendKeyUpDownEvents(II)V
 
     goto/16 :goto_0
@@ -12520,20 +12622,20 @@
     :cond_8
     move v6, v10
 
-    .line 2869
+    .line 2882
     goto :goto_3
 
-    .line 2879
+    .line 2892
     .end local v7    # "utility":Lcom/nuance/swype/util/CharacterUtilities;
     :cond_9
     invoke-virtual {v2, v0, v10}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->deleteSurroundingText(II)Z
 
-    .line 2885
+    .line 2898
     invoke-virtual {v2, v9, v10}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->getTextBeforeCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v3
 
-    .line 2886
+    .line 2899
     .local v3, "lastChar":Ljava/lang/CharSequence;
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -12551,12 +12653,12 @@
 
     if-eqz v8, :cond_0
 
-    .line 2887
+    .line 2900
     invoke-virtual {v2, v9, v10}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->deleteSurroundingText(II)Z
 
     goto/16 :goto_0
 
-    .line 2892
+    .line 2905
     .end local v1    # "eText":Landroid/view/inputmethod/ExtractedText;
     .end local v3    # "lastChar":Ljava/lang/CharSequence;
     .end local v5    # "selection":[I
@@ -12575,31 +12677,31 @@
 
     const/4 v3, 0x0
 
-    .line 2804
+    .line 2817
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputConnection()Landroid/view/inputmethod/InputConnection;
 
     move-result-object v0
 
-    .line 2805
+    .line 2818
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_0
 
-    .line 2806
+    .line 2819
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->shouldSendCharAsKeyEvent(C)Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 2807
+    .line 2820
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->sendKeyChar(C)V
 
-    .line 2813
+    .line 2826
     :cond_0
     :goto_0
     return-void
 
-    .line 2809
+    .line 2822
     :cond_1
     new-instance v1, Ljava/lang/String;
 
@@ -12609,7 +12711,7 @@
 
     invoke-direct {v1, v2, v3, v4}, Ljava/lang/String;-><init>([III)V
 
-    .line 2810
+    .line 2823
     .local v1, "text":Ljava/lang/String;
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 
@@ -12625,7 +12727,7 @@
     .param p1, "charCode"    # C
 
     .prologue
-    .line 2756
+    .line 2769
     const/16 v0, 0xa
 
     if-ne v0, p1, :cond_0
@@ -12636,11 +12738,11 @@
 
     if-eqz v0, :cond_0
 
-    .line 2760
+    .line 2773
     :goto_0
     return-void
 
-    .line 2759
+    .line 2772
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->sendChar(C)V
 
@@ -12655,7 +12757,7 @@
     .prologue
     const/16 v2, 0x71
 
-    .line 3943
+    .line 3963
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->hasMessages(I)Z
@@ -12664,12 +12766,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 3944
+    .line 3964
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3946
+    .line 3966
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
@@ -12681,7 +12783,7 @@
 
     invoke-virtual {v0, v1, p2, p3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 3947
+    .line 3967
     return-void
 .end method
 
@@ -12691,7 +12793,7 @@
     .param p2, "count"    # I
 
     .prologue
-    .line 2825
+    .line 2838
     move v0, p2
 
     .end local p2    # "count":I
@@ -12703,7 +12805,7 @@
     .restart local p2    # "count":I
     if-lez v0, :cond_0
 
-    .line 2826
+    .line 2839
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->sendDownUpKeyEvents(I)V
 
     move v0, p2
@@ -12712,7 +12814,7 @@
     .restart local v0    # "count":I
     goto :goto_0
 
-    .line 2828
+    .line 2841
     .end local v0    # "count":I
     .restart local p2    # "count":I
     :cond_0
@@ -12725,20 +12827,20 @@
     .param p2, "repeatedCount"    # I
 
     .prologue
-    .line 2897
+    .line 2910
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->sendDownUpKeyEvents(I)V
 
-    .line 2898
+    .line 2911
     const/16 v0, 0x14
 
     if-le p2, v0, :cond_0
 
-    .line 2899
+    .line 2912
     const/16 v0, 0x43
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/IME;->sendDownUpKeyEvents(I)V
 
-    .line 2901
+    .line 2914
     :cond_0
     return-void
 .end method
@@ -12747,12 +12849,12 @@
     .locals 1
 
     .prologue
-    .line 2816
+    .line 2829
     const/16 v0, 0x20
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/IME;->sendChar(C)V
 
-    .line 2817
+    .line 2830
     return-void
 .end method
 
@@ -12761,14 +12863,14 @@
     .param p1, "view"    # Landroid/view/View;
 
     .prologue
-    .line 1918
+    .line 1931
     sget-object v0, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "setCandidatesView(): ignoring (shouldn\'t be called)"
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1919
+    .line 1932
     return-void
 .end method
 
@@ -12777,22 +12879,22 @@
     .param p1, "shown"    # Z
 
     .prologue
-    .line 1931
+    .line 1944
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/IME;->onSetCandidatesViewShown(Z)Z
 
     move-result p1
 
-    .line 1932
+    .line 1945
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     if-eqz v0, :cond_0
 
-    .line 1933
+    .line 1946
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/view/InputContainerView;->showCandidates(Z)V
 
-    .line 1940
+    .line 1953
     :cond_0
     return-void
 .end method
@@ -12845,10 +12947,10 @@
     .param p1, "extraRegion"    # I
 
     .prologue
-    .line 4458
+    .line 4478
     iput p1, p0, Lcom/nuance/swype/input/IME;->emojiExtraRegion:I
 
-    .line 4459
+    .line 4479
     return-void
 .end method
 
@@ -12857,20 +12959,20 @@
     .param p1, "attached"    # Z
 
     .prologue
-    .line 4303
+    .line 4323
     iget-boolean v1, p0, Lcom/nuance/swype/input/IME;->isHardKeyboardAttached:Z
 
     if-eq v1, p1, :cond_1
 
-    .line 4304
+    .line 4324
     iput-boolean p1, p0, Lcom/nuance/swype/input/IME;->isHardKeyboardAttached:Z
 
-    .line 4306
+    .line 4326
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     if-eqz v1, :cond_1
 
-    .line 4308
+    .line 4328
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->inputContainerView:Lcom/nuance/swype/input/view/InputContainerView;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
@@ -12884,34 +12986,34 @@
     :goto_0
     invoke-virtual {v2, v1}, Lcom/nuance/swype/input/view/InputContainerView;->showInputArea(Z)V
 
-    .line 4309
+    .line 4329
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 4310
+    .line 4330
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_1
 
-    .line 4311
+    .line 4331
     if-eqz p1, :cond_0
 
-    .line 4312
+    .line 4332
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->refreshBTAutoCorrection()V
 
-    .line 4314
+    .line 4334
     :cond_0
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->dismissPopupKeyboard()V
 
-    .line 4315
+    .line 4335
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->dismissLangPopupMenu()V
 
-    .line 4319
+    .line 4339
     .end local v0    # "inputView":Lcom/nuance/swype/input/InputView;
     :cond_1
     return-void
 
-    .line 4308
+    .line 4328
     :cond_2
     const/4 v1, 0x0
 
@@ -12923,35 +13025,35 @@
     .param p1, "use"    # Z
 
     .prologue
-    .line 3886
+    .line 3906
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 3887
+    .line 3907
     iget v0, p0, Lcom/nuance/swype/input/IME;->trialCheckCount:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lcom/nuance/swype/input/IME;->trialCheckCount:I
 
-    .line 3889
+    .line 3909
     :cond_0
     iput-boolean p1, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
-    .line 3890
+    .line 3910
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME;->inUse:Z
 
     if-nez v0, :cond_1
 
-    .line 3891
+    .line 3911
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
-    .line 3893
+    .line 3913
     :cond_1
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -12961,7 +13063,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IMEApplication;->onImeInUse(Z)V
 
-    .line 3894
+    .line 3914
     return-void
 .end method
 
@@ -12974,12 +13076,12 @@
 
     const/4 v7, 0x0
 
-    .line 1670
+    .line 1683
     iget-object v8, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v8, p1}, Lcom/nuance/swype/input/InputFieldInfo;->setEditorInfo(Landroid/view/inputmethod/EditorInfo;)V
 
-    .line 1671
+    .line 1684
     iget-object v8, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/InputFieldInfo;->isEditDictionaryField()Z
@@ -12988,15 +13090,15 @@
 
     if-eqz v8, :cond_1
 
-    .line 1672
+    .line 1685
     iput-boolean v7, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
-    .line 1718
+    .line 1731
     :cond_0
     :goto_0
     return-void
 
-    .line 1673
+    .line 1686
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
 
@@ -13020,50 +13122,50 @@
 
     if-nez v8, :cond_2
 
-    .line 1675
+    .line 1688
     iput-boolean v7, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
     goto :goto_0
 
-    .line 1677
+    .line 1690
     :cond_2
     iput-boolean v6, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
-    .line 1678
+    .line 1691
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isFullscreenMode()Z
 
     move-result v8
 
     if-nez v8, :cond_0
 
-    .line 1679
+    .line 1692
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 1680
+    .line 1693
     .local v1, "res":Landroid/content/res/Resources;
     invoke-virtual {v1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v0
 
-    .line 1682
+    .line 1695
     .local v0, "config":Landroid/content/res/Configuration;
     if-eqz v0, :cond_0
 
-    .line 1689
+    .line 1702
     iget v8, v0, Landroid/content/res/Configuration;->orientation:I
 
     if-ne v8, v6, :cond_4
 
-    .line 1690
+    .line 1703
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v6}, Lcom/nuance/swype/input/InputFieldInfo;->getPackageName()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 1691
+    .line 1704
     .local v5, "what":Ljava/lang/String;
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->portraitCandidatesViewFilter:Lcom/nuance/swype/input/Whitelist;
 
@@ -13073,10 +13175,10 @@
 
     if-nez v6, :cond_3
 
-    .line 1692
+    .line 1705
     iput-boolean v7, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
-    .line 1694
+    .line 1707
     :cond_3
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -13084,7 +13186,7 @@
 
     move-result-object v4
 
-    .line 1695
+    .line 1708
     .local v4, "type":Ljava/lang/String;
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -13092,7 +13194,7 @@
 
     if-nez v6, :cond_0
 
-    .line 1696
+    .line 1709
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->portraitCandidatesViewFilter:Lcom/nuance/swype/input/Whitelist;
 
     new-instance v8, Ljava/lang/StringBuilder;
@@ -13123,12 +13225,12 @@
 
     if-nez v6, :cond_0
 
-    .line 1697
+    .line 1710
     iput-boolean v7, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
     goto :goto_0
 
-    .line 1700
+    .line 1713
     .end local v4    # "type":Ljava/lang/String;
     .end local v5    # "what":Ljava/lang/String;
     :cond_4
@@ -13140,14 +13242,14 @@
 
     if-eqz v8, :cond_0
 
-    .line 1701
+    .line 1714
     sget v8, Lcom/nuance/swype/input/R$dimen;->landscape_candidates_sw_threshold:I
 
     invoke-virtual {v1, v8}, Landroid/content/res/Resources;->getDimension(I)F
 
     move-result v3
 
-    .line 1702
+    .line 1715
     .local v3, "swThreshold":F
     const/4 v8, 0x0
 
@@ -13155,7 +13257,7 @@
 
     if-lez v8, :cond_0
 
-    .line 1703
+    .line 1716
     invoke-virtual {v1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     move-result-object v8
@@ -13164,12 +13266,12 @@
 
     div-float/2addr v3, v8
 
-    .line 1704
+    .line 1717
     invoke-static {v0}, Lcom/nuance/android/compat/ConfigurationCompat;->getSmallestScreenWidthDp(Landroid/content/res/Configuration;)I
 
     move-result v2
 
-    .line 1705
+    .line 1718
     .local v2, "smallestScreenWidthDp":I
     if-lez v2, :cond_0
 
@@ -13179,7 +13281,7 @@
 
     if-gez v8, :cond_0
 
-    .line 1707
+    .line 1720
     iget-object v8, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/InputFieldInfo;->isCompletionField()Z
@@ -13204,11 +13306,11 @@
 
     if-nez v8, :cond_5
 
-    .line 1709
+    .line 1722
     :goto_1
     if-nez v6, :cond_0
 
-    .line 1710
+    .line 1723
     iput-boolean v7, p0, Lcom/nuance/swype/input/IME;->allowCandidateViewShown:Z
 
     goto/16 :goto_0
@@ -13216,7 +13318,7 @@
     :cond_5
     move v6, v7
 
-    .line 1707
+    .line 1720
     goto :goto_1
 .end method
 
@@ -13440,10 +13542,10 @@
     .param p1, "recapture"    # Z
 
     .prologue
-    .line 4202
+    .line 4222
     iput-boolean p1, p0, Lcom/nuance/swype/input/IME;->recaptureWhenSwitching:Z
 
-    .line 4203
+    .line 4223
     return-void
 .end method
 
@@ -13451,23 +13553,23 @@
     .locals 2
 
     .prologue
-    .line 1725
+    .line 1738
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 1726
+    .line 1739
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
-    .line 1727
+    .line 1740
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v1
 
     invoke-virtual {p0, v1, v0}, Lcom/nuance/swype/input/IME;->refreshLanguageOnSpaceKey(Lcom/nuance/swype/input/KeyboardEx;Lcom/nuance/swype/input/KeyboardViewEx;)V
 
-    .line 1729
+    .line 1742
     :cond_0
     return-void
 .end method
@@ -13544,7 +13646,7 @@
     .locals 2
 
     .prologue
-    .line 2774
+    .line 2787
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     if-eqz v0, :cond_0
@@ -13584,12 +13686,12 @@
     .param p1, "charCode"    # C
 
     .prologue
-    .line 2788
+    .line 2801
     const/16 v0, 0xa
 
     if-ne v0, p1, :cond_2
 
-    .line 2789
+    .line 2802
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
 
     move-result-object v0
@@ -13598,7 +13700,7 @@
 
     move-result v0
 
-    .line 2790
+    .line 2803
     if-nez v0, :cond_0
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->shouldSendCharAsKeyEvent()Z
@@ -13610,17 +13712,17 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 2792
+    .line 2805
     :goto_0
     return v0
 
-    .line 2790
+    .line 2803
     :cond_1
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 2792
+    .line 2805
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->shouldSendCharAsKeyEvent()Z
 
@@ -13634,7 +13736,7 @@
     .param p1, "keyCode"    # I
 
     .prologue
-    .line 2797
+    .line 2810
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->shouldSendCharAsKeyEvent()Z
 
     move-result v0
@@ -13649,22 +13751,22 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 3602
+    .line 3622
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
-    .line 3610
+    .line 3630
     :goto_0
     return-void
 
-    .line 3605
+    .line 3625
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 3606
+    .line 3626
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -13679,7 +13781,7 @@
 
     goto :goto_0
 
-    .line 3608
+    .line 3628
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getResources()Landroid/content/res/Resources;
 
@@ -13702,14 +13804,14 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1747
+    .line 1760
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->getDisplayName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1748
+    .line 1761
     .local v0, "langName":Ljava/lang/String;
     if-eqz v0, :cond_1
 
@@ -13727,21 +13829,21 @@
 
     if-eqz v1, :cond_1
 
-    .line 1750
+    .line 1763
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isExploreByTouchOn()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 1751
+    .line 1764
     invoke-static {p0, v0, v2}, Lcom/nuance/swype/input/InputMethodToast;->show(Landroid/content/Context;Ljava/lang/CharSequence;I)V
 
-    .line 1754
+    .line 1767
     :cond_0
     iput-boolean v2, p0, Lcom/nuance/swype/input/IME;->mWantToast:Z
 
-    .line 1756
+    .line 1769
     :cond_1
     return-void
 .end method
@@ -13750,7 +13852,7 @@
     .locals 6
 
     .prologue
-    .line 3218
+    .line 3233
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     if-eqz v4, :cond_1
@@ -13763,23 +13865,23 @@
 
     if-eqz v4, :cond_1
 
-    .line 3270
+    .line 3285
     :cond_0
     :goto_0
     return-void
 
-    .line 3221
+    .line 3236
     :cond_1
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v4
 
-    .line 3222
+    .line 3237
     invoke-virtual {v4}, Lcom/nuance/swype/input/IMEApplication;->getSpeechWrapper()Lcom/nuance/swype/input/SpeechWrapper;
 
     move-result-object v3
 
-    .line 3223
+    .line 3238
     .local v3, "spw":Lcom/nuance/swype/input/SpeechWrapper;
     if-eqz v3, :cond_0
 
@@ -13789,18 +13891,18 @@
 
     if-eqz v4, :cond_0
 
-    .line 3226
+    .line 3241
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 3227
+    .line 3242
     .local v1, "ctx":Landroid/content/Context;
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 3228
+    .line 3243
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
     new-instance v4, Lcom/nuance/speech/dragon/DragonDictationLanguageListAdapter;
 
@@ -13808,24 +13910,24 @@
 
     iput-object v4, p0, Lcom/nuance/swype/input/IME;->dictationLanguageAdapter:Lcom/nuance/speech/dragon/DragonDictationLanguageListAdapter;
 
-    .line 3229
+    .line 3244
     const/4 v4, 0x1
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
-    .line 3230
+    .line 3245
     new-instance v4, Lcom/nuance/swype/input/IME$9;
 
     invoke-direct {v4, p0, v3}, Lcom/nuance/swype/input/IME$9;-><init>(Lcom/nuance/swype/input/IME;Lcom/nuance/swype/input/SpeechWrapper;)V
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 3242
+    .line 3257
     sget v4, Lcom/nuance/swype/input/R$drawable;->swype_logo:I
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
-    .line 3243
+    .line 3258
     sget v4, Lcom/nuance/swype/input/R$string;->cancel_button:I
 
     new-instance v5, Lcom/nuance/swype/input/IME$10;
@@ -13834,7 +13936,7 @@
 
     invoke-virtual {v0, v4, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 3249
+    .line 3264
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->dictationLanguageAdapter:Lcom/nuance/speech/dragon/DragonDictationLanguageListAdapter;
 
     new-instance v5, Lcom/nuance/swype/input/IME$11;
@@ -13843,7 +13945,7 @@
 
     invoke-virtual {v0, v4, v5}, Landroid/app/AlertDialog$Builder;->setAdapter(Landroid/widget/ListAdapter;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 3256
+    .line 3271
     sget v4, Lcom/nuance/swype/input/R$string;->voice_lang_title:I
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/IME;->getString(I)Ljava/lang/String;
@@ -13852,26 +13954,26 @@
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 3258
+    .line 3273
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v4
 
     iput-object v4, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
-    .line 3259
+    .line 3274
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/IME;->attachDialog(Landroid/app/Dialog;)V
 
-    .line 3262
+    .line 3277
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v4}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
 
     move-result-object v2
 
-    .line 3263
+    .line 3278
     .local v2, "listView":Landroid/widget/ListView;
     new-instance v4, Lcom/nuance/swype/input/IME$12;
 
@@ -13879,7 +13981,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/ListView;->post(Ljava/lang/Runnable;)Z
 
-    .line 3269
+    .line 3284
     iget-object v4, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v4}, Landroid/app/AlertDialog;->show()V
@@ -13893,23 +13995,23 @@
     .prologue
     const/16 v4, 0x7a
 
-    .line 3559
+    .line 3579
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     if-nez v1, :cond_1
 
-    .line 3568
+    .line 3588
     :cond_0
     :goto_0
     return-void
 
-    .line 3563
+    .line 3583
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3564
+    .line 3584
     .local v0, "currentInputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_0
 
@@ -13917,12 +14019,12 @@
 
     if-nez v1, :cond_0
 
-    .line 3565
+    .line 3585
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3566
+    .line 3586
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     const-wide/16 v2, 0xf
@@ -13936,7 +14038,7 @@
     .locals 7
 
     .prologue
-    .line 4128
+    .line 4148
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     if-eqz v5, :cond_0
@@ -13949,35 +14051,35 @@
 
     if-eqz v5, :cond_0
 
-    .line 4181
+    .line 4201
     :goto_0
     return-void
 
-    .line 4131
+    .line 4151
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 4132
+    .line 4152
     .local v1, "ctx":Landroid/content/Context;
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 4133
+    .line 4153
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
     invoke-static {p0}, Lcom/nuance/swype/input/InputMethods;->from(Landroid/content/Context;)Lcom/nuance/swype/input/InputMethods;
 
     move-result-object v2
 
-    .line 4134
+    .line 4154
     .local v2, "inputMethods":Lcom/nuance/swype/input/InputMethods;
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputMethods;->getInputLanguages()Ljava/util/List;
 
     move-result-object v3
 
-    .line 4135
+    .line 4155
     .local v3, "languageList":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/swype/input/InputMethods$Language;>;"
     new-instance v5, Lcom/nuance/swype/input/LanguageListAdapter;
 
@@ -13989,31 +14091,31 @@
 
     iput-object v5, p0, Lcom/nuance/swype/input/IME;->languageAdapter:Lcom/nuance/swype/input/LanguageListAdapter;
 
-    .line 4137
+    .line 4157
     const/4 v5, 0x1
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
-    .line 4138
+    .line 4158
     new-instance v5, Lcom/nuance/swype/input/IME$14;
 
     invoke-direct {v5, p0}, Lcom/nuance/swype/input/IME$14;-><init>(Lcom/nuance/swype/input/IME;)V
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 4147
+    .line 4167
     sget v5, Lcom/nuance/swype/input/R$drawable;->swype_logo:I
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
-    .line 4148
+    .line 4168
     sget v5, Lcom/nuance/swype/input/R$string;->cancel_button:I
 
     const/4 v6, 0x0
 
     invoke-virtual {v0, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 4150
+    .line 4170
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->languageAdapter:Lcom/nuance/swype/input/LanguageListAdapter;
 
     new-instance v6, Lcom/nuance/swype/input/IME$15;
@@ -14022,7 +14124,7 @@
 
     invoke-virtual {v0, v5, v6}, Landroid/app/AlertDialog$Builder;->setAdapter(Landroid/widget/ListAdapter;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 4167
+    .line 4187
     sget v5, Lcom/nuance/swype/input/R$string;->language_category_title:I
 
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->getString(I)Ljava/lang/String;
@@ -14031,26 +14133,26 @@
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
-    .line 4169
+    .line 4189
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v5
 
     iput-object v5, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
-    .line 4170
+    .line 4190
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/IME;->attachDialog(Landroid/app/Dialog;)V
 
-    .line 4173
+    .line 4193
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v5}, Landroid/app/AlertDialog;->getListView()Landroid/widget/ListView;
 
     move-result-object v4
 
-    .line 4174
+    .line 4194
     .local v4, "listView":Landroid/widget/ListView;
     new-instance v5, Lcom/nuance/swype/input/IME$16;
 
@@ -14058,7 +14160,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/ListView;->post(Ljava/lang/Runnable;)Z
 
-    .line 4180
+    .line 4200
     iget-object v5, p0, Lcom/nuance/swype/input/IME;->mOptionsDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v5}, Landroid/app/AlertDialog;->show()V
@@ -14077,7 +14179,7 @@
 
     const/4 v8, 0x1
 
-    .line 2532
+    .line 2545
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     if-eqz v6, :cond_0
@@ -14098,13 +14200,13 @@
 
     if-nez v6, :cond_1
 
-    .line 2535
+    .line 2548
     :cond_0
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v0
 
-    .line 2536
+    .line 2549
     .local v0, "app":Lcom/nuance/swype/input/IMEApplication;
     invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
@@ -14114,7 +14216,7 @@
 
     move-result-object v1
 
-    .line 2537
+    .line 2550
     .local v1, "inflater":Landroid/view/LayoutInflater;
     new-instance v6, Lcom/nuance/swype/widget/PopupLanguageList;
 
@@ -14126,7 +14228,7 @@
 
     iput-object v6, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
-    .line 2539
+    .line 2552
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
     new-instance v7, Lcom/nuance/swype/input/IME$6;
@@ -14135,7 +14237,7 @@
 
     invoke-virtual {v6, v7}, Lcom/nuance/swype/widget/PopupLanguageList;->setListener(Lcom/nuance/swype/widget/PopupLanguageList$PopupLanguageListener;)V
 
-    .line 2597
+    .line 2610
     .end local v0    # "app":Lcom/nuance/swype/input/IMEApplication;
     .end local v1    # "inflater":Landroid/view/LayoutInflater;
     :cond_1
@@ -14151,32 +14253,32 @@
 
     invoke-virtual {v6, v7}, Lcom/nuance/swype/widget/PopupLanguageList;->setLanguages(Ljava/util/List;)V
 
-    .line 2600
+    .line 2613
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v6
 
     if-nez v6, :cond_3
 
-    .line 2601
+    .line 2614
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v2
 
-    .line 2602
+    .line 2615
     .local v2, "inputView":Lcom/nuance/swype/input/InputView;
     const/4 v6, 0x2
 
     new-array v4, v6, [I
 
-    .line 2603
+    .line 2616
     .local v4, "pos":[I
     if-eqz p1, :cond_4
 
-    .line 2605
+    .line 2618
     invoke-virtual {v2, p1, v4}, Lcom/nuance/swype/input/InputView;->calcKeyTopCenterInWindow(Lcom/nuance/swype/input/KeyboardEx$Key;[I)[I
 
-    .line 2611
+    .line 2624
     :goto_0
     aget v6, v4, v8
 
@@ -14188,7 +14290,7 @@
 
     aput v6, v4, v8
 
-    .line 2621
+    .line 2634
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getWindow()Landroid/app/Dialog;
 
     move-result-object v6
@@ -14201,7 +14303,7 @@
 
     move-result-object v5
 
-    .line 2622
+    .line 2635
     .local v5, "rootView":Landroid/view/View;
     aget v6, v4, v9
 
@@ -14215,7 +14317,7 @@
 
     aput v6, v4, v9
 
-    .line 2623
+    .line 2636
     invoke-virtual {v5}, Landroid/view/View;->getHeight()I
 
     move-result v6
@@ -14226,10 +14328,10 @@
 
     aput v6, v4, v8
 
-    .line 2627
+    .line 2640
     if-nez p1, :cond_5
 
-    .line 2629
+    .line 2642
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v6
@@ -14238,11 +14340,11 @@
 
     move-result-object v3
 
-    .line 2630
+    .line 2643
     .local v3, "keys":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/swype/input/KeyboardEx$Key;>;"
     if-eqz v3, :cond_2
 
-    .line 2631
+    .line 2644
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v6
@@ -14253,7 +14355,7 @@
 
     move-result-object p1
 
-    .line 2634
+    .line 2647
     :cond_2
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
 
@@ -14265,7 +14367,7 @@
 
     invoke-virtual {v6, v2, v10, v7, v8}, Lcom/nuance/swype/widget/PopupLanguageList;->showAtLocation(Landroid/view/View;III)V
 
-    .line 2642
+    .line 2655
     .end local v2    # "inputView":Lcom/nuance/swype/input/InputView;
     .end local v3    # "keys":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/swype/input/KeyboardEx$Key;>;"
     .end local v4    # "pos":[I
@@ -14274,7 +14376,7 @@
     :goto_1
     return-void
 
-    .line 2608
+    .line 2621
     .restart local v2    # "inputView":Lcom/nuance/swype/input/InputView;
     .restart local v4    # "pos":[I
     :cond_4
@@ -14284,7 +14386,7 @@
 
     goto :goto_0
 
-    .line 2639
+    .line 2652
     .restart local v5    # "rootView":Landroid/view/View;
     :cond_5
     iget-object v6, p0, Lcom/nuance/swype/input/IME;->popupLanguageList:Lcom/nuance/swype/widget/PopupLanguageList;
@@ -14308,7 +14410,7 @@
     .locals 3
 
     .prologue
-    .line 4376
+    .line 4396
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -14319,19 +14421,19 @@
 
     if-eqz v0, :cond_1
 
-    .line 4377
+    .line 4397
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
-    .line 4378
+    .line 4398
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
 
-    .line 4380
+    .line 4400
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->localyticsMap:Ljava/util/Map;
 
@@ -14341,7 +14443,7 @@
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4384
+    .line 4404
     :cond_1
     return-void
 .end method
@@ -14351,7 +14453,7 @@
     .param p1, "bucket"    # Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;
 
     .prologue
-    .line 3931
+    .line 3951
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -14360,13 +14462,13 @@
 
     move-result-object v0
 
-    .line 3932
+    .line 3952
     .local v0, "appPref":Lcom/nuance/swype/input/AppPreferences;
     invoke-static {p0}, Lcom/nuance/swype/input/BuildInfo;->from(Landroid/content/Context;)Lcom/nuance/swype/input/BuildInfo;
 
     move-result-object v1
 
-    .line 3933
+    .line 3953
     invoke-virtual {v1}, Lcom/nuance/swype/input/BuildInfo;->isDTCbuild()Z
 
     move-result v1
@@ -14379,12 +14481,12 @@
 
     if-nez v1, :cond_1
 
-    .line 3940
+    .line 3960
     :cond_0
     :goto_0
     return-void
 
-    .line 3936
+    .line 3956
     :cond_1
     sget-object v1, Lcom/nuance/swype/input/IME;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -14392,14 +14494,14 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3937
+    .line 3957
     invoke-virtual {p1}, Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;->isEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 3938
+    .line 3958
     const-wide/16 v2, 0x1388
 
     invoke-virtual {p0, p1, v2, v3}, Lcom/nuance/swype/input/IME;->sendDelayNewWordsScanning(Lcom/nuance/swype/input/udb/NewWordsBucketFactory$NewWordsBucket;J)V
@@ -14412,19 +14514,19 @@
     .param p1, "language"    # Ljava/lang/String;
 
     .prologue
-    .line 4109
+    .line 4129
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
     if-nez v0, :cond_0
 
-    .line 4110
+    .line 4130
     new-instance v0, Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
     invoke-direct {v0, p0}, Lcom/google/android/voiceime/VoiceRecognitionTrigger;-><init>(Landroid/inputmethodservice/InputMethodService;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
-    .line 4112
+    .line 4132
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mVoiceRecognitionTrigger:Lcom/google/android/voiceime/VoiceRecognitionTrigger;
 
@@ -14436,7 +14538,7 @@
 
     invoke-interface {v0, p1}, Lcom/google/android/voiceime/Trigger;->startVoiceRecognition(Ljava/lang/String;)V
 
-    .line 4113
+    .line 4133
     :cond_1
     return-void
 .end method
@@ -14445,7 +14547,7 @@
     .locals 2
 
     .prologue
-    .line 3145
+    .line 3158
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
     move-result-object v1
@@ -14454,18 +14556,18 @@
 
     move-result-object v0
 
-    .line 3148
+    .line 3161
     .local v0, "spw":Lcom/nuance/swype/input/SpeechWrapper;
     if-eqz v0, :cond_0
 
-    .line 3149
+    .line 3162
     invoke-virtual {v0}, Lcom/nuance/swype/input/SpeechWrapper;->stopSpeech()V
 
-    .line 3151
+    .line 3164
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->closeDictationLanguageMenu()V
 
-    .line 3152
+    .line 3165
     return-void
 .end method
 
@@ -14473,10 +14575,10 @@
     .locals 0
 
     .prologue
-    .line 2911
+    .line 2924
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->close()V
 
-    .line 2912
+    .line 2925
     return-void
 .end method
 
@@ -14484,7 +14586,7 @@
     .locals 0
 
     .prologue
-    .line 2908
+    .line 2921
     return-void
 .end method
 
@@ -14492,7 +14594,7 @@
     .locals 0
 
     .prologue
-    .line 2904
+    .line 2917
     return-void
 .end method
 
@@ -14500,7 +14602,7 @@
     .locals 0
 
     .prologue
-    .line 2916
+    .line 2929
     return-void
 .end method
 
@@ -14603,12 +14705,12 @@
     .locals 1
 
     .prologue
-    .line 3296
+    .line 3311
     const/16 v0, 0xa
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/IME;->switchInputViewAsync(I)V
 
-    .line 3297
+    .line 3312
     return-void
 .end method
 
@@ -14619,12 +14721,12 @@
     .prologue
     const/16 v2, 0x64
 
-    .line 3291
+    .line 3306
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3292
+    .line 3307
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -14637,7 +14739,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 3293
+    .line 3308
     return-void
 .end method
 
@@ -14646,12 +14748,12 @@
     .param p1, "info"    # Lcom/nuance/swype/input/LangSwitchAction;
 
     .prologue
-    .line 3287
+    .line 3302
     const/16 v0, 0xa
 
     invoke-virtual {p0, p1, v0}, Lcom/nuance/swype/input/IME;->switchLanguageAsync(Lcom/nuance/swype/input/LangSwitchAction;I)V
 
-    .line 3288
+    .line 3303
     return-void
 .end method
 
@@ -14663,12 +14765,12 @@
     .prologue
     const/16 v2, 0x6f
 
-    .line 3282
+    .line 3297
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 3283
+    .line 3298
     iget-object v0, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME;->mHandler:Landroid/os/Handler;
@@ -14681,7 +14783,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 3284
+    .line 3299
     return-void
 .end method
 
@@ -14689,14 +14791,14 @@
     .locals 4
 
     .prologue
-    .line 3355
+    .line 3370
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputMethods$Language;->getCurrentInputMode()Lcom/nuance/swype/input/InputMethods$InputMode;
 
     move-result-object v0
 
-    .line 3356
+    .line 3371
     .local v0, "currentInputMode":Lcom/nuance/swype/input/InputMethods$InputMode;
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -14704,7 +14806,7 @@
 
     move-result-object v1
 
-    .line 3358
+    .line 3373
     .local v1, "nextInputMode":Lcom/nuance/swype/input/InputMethods$InputMode;
     if-eqz v1, :cond_0
 
@@ -14714,7 +14816,7 @@
 
     if-nez v2, :cond_0
 
-    .line 3359
+    .line 3374
     iget-object v2, p0, Lcom/nuance/swype/input/IME;->keyboardInputInflater:Lcom/nuance/swype/input/KeyboardInputInflater;
 
     iget-object v3, p0, Lcom/nuance/swype/input/IME;->mCurrentInputViewName:Ljava/lang/String;
@@ -14725,12 +14827,12 @@
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 3360
+    .line 3375
     const/16 v2, 0x32
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/IME;->switchInputViewAsync(I)V
 
-    .line 3362
+    .line 3377
     :cond_0
     return-void
 .end method
@@ -14779,25 +14881,25 @@
     .prologue
     const/4 v3, 0x3
 
-    .line 3067
+    .line 3080
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->isVibrateAllowed()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 3088
+    .line 3101
     :cond_0
     :goto_0
     return-void
 
-    .line 3070
+    .line 3083
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 3071
+    .line 3084
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
@@ -14809,28 +14911,28 @@
 
     if-nez v2, :cond_2
 
-    .line 3072
+    .line 3085
     if-eqz v0, :cond_0
 
     iget-boolean v2, p0, Lcom/nuance/swype/input/IME;->vibrateOn:Z
 
     if-eqz v2, :cond_0
 
-    .line 3073
+    .line 3086
     invoke-virtual {v0, v3, v3}, Lcom/nuance/swype/input/InputView;->performHapticFeedback(II)Z
 
     goto :goto_0
 
-    .line 3079
+    .line 3092
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 3080
+    .line 3093
     const/4 v2, 0x0
 
     invoke-virtual {v0, v2}, Lcom/nuance/swype/input/InputView;->setHapticFeedbackEnabled(Z)V
 
-    .line 3082
+    .line 3095
     :cond_3
     invoke-static {p0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
 
@@ -14844,11 +14946,11 @@
 
     move-result-object v1
 
-    .line 3083
+    .line 3096
     .local v1, "vibrator":Landroid/os/Vibrator;
     if-eqz v1, :cond_0
 
-    .line 3084
+    .line 3097
     invoke-static {p0}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v2

@@ -28,7 +28,7 @@
     .locals 0
 
     .prologue
-    .line 3263
+    .line 3278
     iput-object p1, p0, Lcom/nuance/swype/input/IME$12;->this$0:Lcom/nuance/swype/input/IME;
 
     iput-object p2, p0, Lcom/nuance/swype/input/IME$12;->val$listView:Landroid/widget/ListView;
@@ -44,7 +44,7 @@
     .locals 2
 
     .prologue
-    .line 3265
+    .line 3280
     iget-object v0, p0, Lcom/nuance/swype/input/IME$12;->val$listView:Landroid/widget/ListView;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME$12;->this$0:Lcom/nuance/swype/input/IME;
@@ -59,6 +59,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setSelection(I)V
 
-    .line 3266
+    .line 3281
     return-void
 .end method

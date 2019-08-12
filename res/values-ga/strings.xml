@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">"Sínigh isteach chun ainmneacha do chuid teagmhálaithe ar Facebook a chur le d'fhoclóir pearsanta"</string>
     <string name="sns_twitter_sign_on">"Sínigh isteach chun ainmneacha ó d'fhotha poiblí ar Twitter a chur le d'fhoclóir pearsanta"</string>
     <string name="sns_gmail_sign_on">"Sínigh isteach chun ainmneacha na ndaoine a bhfuil teachtaireachtaí ríomhphoist seolta agat chucu a chur le d'fhoclóir pearsanta"</string>
-    <string name="sns_personalizing">"D'eispéireas a phearsantú…"</string>
+    <string name="sns_personalizing">"D'eispéireas a phearsantú"</string>
     <string name="sns_personalize_finished">Nuashonraithe ar an %s. Tapáil chun athnuachan.</string>
     <string name="dismiss_button">Ruaig</string>
     <string name="canceling">Á Chealú</string>
@@ -434,7 +434,7 @@ Suiteáilte. Tapáil le lainseáil."</string>
     <string name="pref_delete_account_desc">Díchláraigh gach gléas agus scrios do shonraí cuntais ó Swype Connect. Ní dhéanfaidh sé seo do shonraí pearsanta teanga, do chuid focal san áireamh, a scriosadh ar an ngléas seo.</string>
     <string name="pref_sync_now_title">Sioncronaigh anois</string>
     <string name="pref_devices_title">Gléasanna</string>
-    <string name="pref_personalize_your_experience_title">"D'eispéireas a phearsantú…"</string>
+    <string name="pref_personalize_your_experience_title">"D'eispéireas a phearsantú"</string>
     <string name="pref_clear_lang_data_dialog">Scriosfar do shonraí teanga ar fad agus déanfar an Cúltacú agus an Sioncronú a dhíchumasú ar an ngléas seo. Cinnte gur mian leat leanúint?</string>
     <string name="startup_choose_lang">Roghnaigh do theanga</string>
     <string name="startup_choose_lang_toast">Ní foláir duit teanga a íoslódáil le leanúint ar aghaidh</string>
@@ -480,7 +480,7 @@ Suiteáilte. Tapáil le lainseáil."</string>
     <string name="max_function_item_count_title">Uaslíon</string>
     <string name="functionbar_hwtoggle_toast_on">Lámhscríbhneoireacht ar an méarchlár ar siúl</string>
     <string name="functionbar_hwtoggle_toast_off">Lámhscríbhneoireacht ar an méarchlár díchumasaithe</string>
-    <string name="pref_personalization_personalize_experience">"D'eispéireas a phearsantú…"</string>
+    <string name="pref_personalization_personalize_experience">"D'eispéireas a phearsantú"</string>
     <string name="personalization_settings_title">Saincheapadh</string>
     <string name="theme_name_frost">An tArtach</string>
     <string name="theme_name_classic">Stíl chlasaiceach</string>

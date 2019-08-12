@@ -59,7 +59,7 @@ Vill du fortsätta?"</string>
     <string name="sns_facebook_sign_on">Logga in så att kontakter från ditt Facebook-konto läggs till din personliga ordbok</string>
     <string name="sns_twitter_sign_on">Logga in så att användarnamn och nya ord från din offentliga Twitter-ström läggs till i din ordbok</string>
     <string name="sns_gmail_sign_on">Logga in så att namn på personer som du har skickat e-post till läggs till din personliga ordbok</string>
-    <string name="sns_personalizing">Gör din upplevelse personligare…</string>
+    <string name="sns_personalizing">Gör din upplevelse personligare</string>
     <string name="sns_personalize_finished">Senast uppdaterad den %s. Knacka för att uppdatera.</string>
     <string name="dismiss_button">Avfärda</string>
     <string name="canceling">Avbryter</string>
@@ -436,7 +436,7 @@ Installerad. Knacka för att öppna."</string>
     <string name="pref_delete_account_desc">Avregistrera alla enheter och ta bort dina kontodata från Swype Connect. Det här tar inte bort dina personliga språkdata eller dina ord på den här enheten.</string>
     <string name="pref_sync_now_title">Synka nu</string>
     <string name="pref_devices_title">Enheter</string>
-    <string name="pref_personalize_your_experience_title">Gör din upplevelse personligare…</string>
+    <string name="pref_personalize_your_experience_title">Gör din upplevelse personligare</string>
     <string name="pref_clear_lang_data_dialog">Alla dina språkdata kommer att tas bort och säkerhetskopiering och synk kommer att stängas av för denna enhet. Är du säker på att du vill fortsätta?</string>
     <string name="startup_choose_lang">Välj språk</string>
     <string name="startup_choose_lang_toast">Du måste ladda ned ett språk för att fortsätta</string>
@@ -482,7 +482,7 @@ Installerad. Knacka för att öppna."</string>
     <string name="max_function_item_count_title">Max.antal</string>
     <string name="functionbar_hwtoggle_toast_on">Handskrift på tangentbord aktiverad</string>
     <string name="functionbar_hwtoggle_toast_off">Handskrift på tangentbord avaktiverad</string>
-    <string name="pref_personalization_personalize_experience">Gör din upplevelse personligare…</string>
+    <string name="pref_personalization_personalize_experience">Gör din upplevelse personligare</string>
     <string name="personalization_settings_title">Personanpassning</string>
     <string name="theme_name_frost">Aktisk</string>
     <string name="theme_name_classic">Klassisk</string>

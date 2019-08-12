@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Log ind, så kontaktnavne fra din Facebook-konto føjes til din personlige ordbog</string>
     <string name="sns_twitter_sign_on">Log ind, så brugernavne og nye ord fra din offentlige Twitter-feed tilføjes til din personlige ordbog</string>
     <string name="sns_gmail_sign_on">Log ind, så navne på folk, der har sendt dig en e-mail, føjes til din personlige ordbog</string>
-    <string name="sns_personalizing">Tilpas din oplevelse personligt…</string>
+    <string name="sns_personalizing">Tilpas din oplevelse personligt</string>
     <string name="sns_personalize_finished">Sidst opdateret på %s. Tryk for at opdatere.</string>
     <string name="dismiss_button">Afvis</string>
     <string name="canceling">Annullerer</string>
@@ -436,7 +436,7 @@ Installeret. Tryk for at starte."</string>
     <string name="pref_delete_account_desc">Afregistrer alle enheder og slet din kontos data fra Swype Connect. Det vil ikke slette dine personlige sprogdata eller dine ord på denne enhed.</string>
     <string name="pref_sync_now_title">Synkroniser nu</string>
     <string name="pref_devices_title">Enheder</string>
-    <string name="pref_personalize_your_experience_title">Tilpas din oplevelse personligt…</string>
+    <string name="pref_personalize_your_experience_title">Tilpas din oplevelse personligt</string>
     <string name="pref_clear_lang_data_dialog">Alle dine sprogdata vil blive slettet, og sikkerhedskopiering og synkronisering vil blive deaktiveret for denne enhed. Er du sikker på, at du vil fortsætte?</string>
     <string name="startup_choose_lang">Vælg dit sprog</string>
     <string name="startup_choose_lang_toast">Du skal downloade et sprog for at kunne fortsætte</string>
@@ -482,7 +482,7 @@ Installeret. Tryk for at starte."</string>
     <string name="max_function_item_count_title">Maks. tællegrænse</string>
     <string name="functionbar_hwtoggle_toast_on">Håndskrift på tastatur slået til</string>
     <string name="functionbar_hwtoggle_toast_off">Håndskrift på tastatur slået fra</string>
-    <string name="pref_personalization_personalize_experience">Tilpas din oplevelse personligt…</string>
+    <string name="pref_personalization_personalize_experience">Tilpas din oplevelse personligt</string>
     <string name="personalization_settings_title">Personlige indstillinger</string>
     <string name="theme_name_frost">Arktis</string>
     <string name="theme_name_classic">Klassisk</string>

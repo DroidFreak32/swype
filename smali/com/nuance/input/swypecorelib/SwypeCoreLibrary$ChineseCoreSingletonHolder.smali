@@ -23,7 +23,7 @@
     .locals 1
 
     .prologue
-    .line 129
+    .line 131
     new-instance v0, Lcom/nuance/input/swypecorelib/XT9CoreChineseInput;
 
     invoke-direct {v0}, Lcom/nuance/input/swypecorelib/XT9CoreChineseInput;-><init>()V
@@ -37,7 +37,7 @@
     .locals 0
 
     .prologue
-    .line 128
+    .line 130
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +47,7 @@
     .locals 1
 
     .prologue
-    .line 128
+    .line 130
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$ChineseCoreSingletonHolder;->CHINESE_INSTANCE:Lcom/nuance/input/swypecorelib/XT9CoreChineseInput;
 
     return-object v0

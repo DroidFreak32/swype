@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">سائن ان ہوں تاکہ آپ کے Facebook اکاؤنٹ سے رابطہ نام آپکی ذاتی لغت میں شامل کیے جائیں</string>
     <string name="sns_twitter_sign_on">سائن ان ہوں تاکہ Twitter پبلک فیڈ سے نئے الفاظ اور نام آپکی ذاتی لغت میں شامل کیے جائیں</string>
     <string name="sns_gmail_sign_on">سائن ان ہوں تاکہ آپ کی بھیجی گئی ای میل سے لوگوں کے نام آپکی ذاتی لغت میں شامل کیے جائیں</string>
-    <string name="sns_personalizing">اپنے تجربے کو ذاتی بنانا…</string>
+    <string name="sns_personalizing">اپنے تجربے کو ذاتی بنانا</string>
     <string name="sns_personalize_finished">آخری بار %s کو اپ ڈیٹ کیا گیا۔ تازہ کرنے کے لیے ٹیپ کریں۔ تازہ کرنے کے لیے ٹیپ کریں۔</string>
     <string name="dismiss_button">رد کریں</string>
     <string name="canceling">منسوخ ہورہا ہے</string>
@@ -99,7 +99,7 @@
     <string name="pref_show_tips_title">مددگار ہدایات دکھائیں</string>
     <string name="tips_hwcl_swype_key">سیٹنگز کے لیے %%swype_key_icon%% دبا کر رکھیں</string>
     <string name="tips_hwcl_no_match">برائے مہربانی دوبارہ کوشش کریں</string>
-    <string name="pref_header_basic">بنیادی سیٹنگز</string>
+    <string name="pref_header_basic">بنیادی ترتیبات</string>
     <string name="pref_header_advanced">اعلی سیٹنگز</string>
     <string name="pref_show_complete_trace_title">مکمل خاکہ دکھائیں</string>
     <string name="pref_show_chars_on_keypress_title">بٹن دبانے پر پاپ-اپ</string>
@@ -135,7 +135,7 @@
     <string name="pref_remove_languages_dialog_title">رکیں!</string>
     <string name="pref_remove_languages_dialog_desc">کیا آپ کو یقین ہے کہ آپ %s ختم کرنا چاہتے؟</string>
     <string name="notification_upgrade_insufficient_space">اوہ! Swype کو اپ گریڈ کرنے کے لیےخالی جگہ ناکافی ہے۔</string>
-    <string name="pref_connect_settings">ترتيبات</string>
+    <string name="pref_connect_settings">ترتیبات</string>
     <string name="pref_connect_addons">ایڈ-آن</string>
     <string name="pref_connect_usage_data_desc">"کیا آپ گمنام استعمال ڈیٹا Swype کو بھیجنا چاہتے ہیں؟
 
@@ -434,7 +434,7 @@
     <string name="pref_delete_account_desc">تمام آلات کی رجسٹریشن کو ختم کریں اور Swype کنیکٹ سے اپنا اکاؤنٹ ڈیٹا حذف کریں۔ یہ اس آلے پر آپ کا زبان کا ذاتی ڈيٹا یا آپکے الفاظ حذف نہیں کرے گا۔</string>
     <string name="pref_sync_now_title">اب ہم وقت کریں</string>
     <string name="pref_devices_title">آلات</string>
-    <string name="pref_personalize_your_experience_title">اپنے تجربے کو ذاتی بنانا…</string>
+    <string name="pref_personalize_your_experience_title">اپنے تجربے کو ذاتی بنانا</string>
     <string name="pref_clear_lang_data_dialog">آپ کا زبان کا تمام ڈیٹا حذف کیا جائے گا اور اس آلے کے لئے بیک اپ اور ہم وقت بھی نااہل بنائے جائیں گے۔ کیا آپ واقعی جاری رکھنا چاہتے ہیں؟</string>
     <string name="startup_choose_lang">اپنی زبان منتخب کریں</string>
     <string name="startup_choose_lang_toast">جاری رکھنے کے لئے آپ کے لیے ایک زبان ڈاؤن لوڈ کرنا ضروری ہے</string>
@@ -480,7 +480,7 @@
     <string name="max_function_item_count_title">زیادہ سے زیادہ گننے کی حد</string>
     <string name="functionbar_hwtoggle_toast_on">کی-بورڈ پر دستی تحریر فعال ہے</string>
     <string name="functionbar_hwtoggle_toast_off">کی-بورڈ پر دستی تحریر غیر فعال ہے</string>
-    <string name="pref_personalization_personalize_experience">اپنے تجربے کو ذاتی بنانا…</string>
+    <string name="pref_personalization_personalize_experience">اپنے تجربے کو ذاتی بنانا</string>
     <string name="personalization_settings_title">ذاتی بنانا</string>
     <string name="theme_name_frost">قطب شمالی</string>
     <string name="theme_name_classic">کلاسک</string>
@@ -528,7 +528,7 @@
     <string name="pref_word_choice_title">انتخاب لفظ میں خط حجم کی فہرست</string>
     <string name="pref_word_choice_desc">انتخاب لفظ کی فہرست میں خط کے حجم کو تبدیل کریں</string>
     <string name="pref_vibration_title">ارتعاش کا دورانیہ</string>
-    <string name="pref_long_press_title">دبا کر رکھیں تاخیر</string>
+    <string name="pref_long_press_title">تاخیرکےلیےدباہیں</string>
     <string name="pref_long_press_desc">متبادل حروف منتخب کرنے کے لئے درکار وقت</string>
     <string name="accessibility_enter">داخل کریں</string>
     <string name="space_key">وقفہ</string>

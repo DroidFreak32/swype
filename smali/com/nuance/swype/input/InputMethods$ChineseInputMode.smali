@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2877
+    .line 2876
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$InputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2878
+    .line 2877
     return-void
 .end method
 
@@ -35,7 +35,7 @@
     .locals 3
 
     .prologue
-    .line 2882
+    .line 2881
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$ChineseInputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -76,13 +76,13 @@
     .param p1, "enabled"    # Z
 
     .prologue
-    .line 2888
+    .line 2887
     if-eqz p1, :cond_0
 
-    .line 2889
+    .line 2888
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$ChineseInputMode;->ensureAtleastOneLayoutIsEnabled()V
 
-    .line 2892
+    .line 2891
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$ChineseInputMode;->getContext()Landroid/content/Context;
 
@@ -96,6 +96,6 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2893
+    .line 2892
     return-void
 .end method

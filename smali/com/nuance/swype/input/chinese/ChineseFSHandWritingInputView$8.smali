@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 2273
+    .line 2270
     iput-object p1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$8;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 1
 
     .prologue
-    .line 2283
+    .line 2280
     const/4 v0, 0x0
 
     return v0
@@ -50,12 +50,12 @@
     .locals 1
 
     .prologue
-    .line 2277
+    .line 2274
     iget-object v0, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$8;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$2400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
+    invoke-static {v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$2500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
 
-    .line 2278
+    .line 2275
     const/4 v0, 0x0
 
     return v0

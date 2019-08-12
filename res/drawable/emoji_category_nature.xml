@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_active="true" android:drawable="@drawable/emoji_category_nature_active" />
-    <item android:state_active="false" android:drawable="@drawable/emoji_category_nature_inactive" />
+    <item android:state_selected="true" android:drawable="@drawable/emoji_category_nature_active" />
+    <item android:state_selected="false" android:drawable="@drawable/emoji_category_nature_inactive" />
 </selector>

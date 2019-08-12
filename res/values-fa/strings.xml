@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">به سیستم وارد شوید تا اسامی مخاطبین از حساب Facebook شما به فرهنگ لغت شخصی افزوده شوند</string>
     <string name="sns_twitter_sign_on">وارد Twitter شوید تا اسامی کاربری و کلمات جدید از پست های عمومی Twitter به فرهنگ لغت شخصی شما افزوده شوند</string>
     <string name="sns_gmail_sign_on">وارد شوید تا اسامی افرادی که به آنها ایمیل فرستاده اید به فرهنگ لغت شخصی شما افزوده شوند</string>
-    <string name="sns_personalizing">تجربه خود را شخصی سازی کنید…</string>
+    <string name="sns_personalizing">تجربه خود را شخصی سازی کنید</string>
     <string name="sns_personalize_finished">آخرین به روزآوری در %s. برای نوسازی ضربه بزنید. برای نوسازی ضربه بزنید.</string>
     <string name="dismiss_button">لغو</string>
     <string name="canceling">در حال لغو کردن</string>
@@ -436,7 +436,7 @@
     <string name="pref_delete_account_desc">ثبت تمام دستگاه های خود را لغو کرده و داده های حساب خود را از Swype Connect حذف کنید. با این کار، داده های شخصی زبان یا کله های شما از این دستگاه حذف نخواهد شد.</string>
     <string name="pref_sync_now_title">اکنون همگام سازی کنید</string>
     <string name="pref_devices_title">دستگاه ها</string>
-    <string name="pref_personalize_your_experience_title">تجربه خود را شخصی سازی کنید…</string>
+    <string name="pref_personalize_your_experience_title">تجربه خود را شخصی سازی کنید</string>
     <string name="pref_clear_lang_data_dialog">تمامی داده های زبان شما حذف خواهد شد، قابلیت تهیه نسخه پشتیبان و همگام سازی نیز برای این دستگاه غیرفعال می شود. آیا مطمئن هستید که می خواهید ادامه دهید؟</string>
     <string name="startup_choose_lang">زبان خود را انتخاب کنید</string>
     <string name="startup_choose_lang_toast">برای ادامه، باید زبانی را دانلود کنید</string>
@@ -482,7 +482,7 @@
     <string name="max_function_item_count_title">حداکثر محدودیت شمردن</string>
     <string name="functionbar_hwtoggle_toast_on">فعال سازی دست نویس روی صفحه کلید</string>
     <string name="functionbar_hwtoggle_toast_off">غیر فعال سازی دست نویس روی صفحه کلید</string>
-    <string name="pref_personalization_personalize_experience">تجربه خود را شخصی سازی کنید…</string>
+    <string name="pref_personalization_personalize_experience">تجربه خود را شخصی سازی کنید</string>
     <string name="personalization_settings_title">شخصی سازی</string>
     <string name="theme_name_frost">شمالی</string>
     <string name="theme_name_classic">کلاسیک</string>

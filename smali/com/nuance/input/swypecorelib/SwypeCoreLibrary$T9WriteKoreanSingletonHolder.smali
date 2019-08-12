@@ -23,7 +23,7 @@
     .locals 1
 
     .prologue
-    .line 165
+    .line 167
     new-instance v0, Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     invoke-direct {v0}, Lcom/nuance/input/swypecorelib/T9WriteKorean;-><init>()V
@@ -37,7 +37,7 @@
     .locals 0
 
     .prologue
-    .line 164
+    .line 166
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +47,7 @@
     .locals 1
 
     .prologue
-    .line 164
+    .line 166
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteKoreanSingletonHolder;->T9WRITIE_KOREAN_INSTANCE:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     return-object v0

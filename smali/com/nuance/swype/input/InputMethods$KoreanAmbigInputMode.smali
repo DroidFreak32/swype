@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2814
+    .line 2813
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$InputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2816
+    .line 2815
     return-void
 .end method
 
@@ -35,27 +35,27 @@
     .locals 5
 
     .prologue
-    .line 2827
+    .line 2826
     iget-object v2, p0, Lcom/nuance/swype/input/InputMethods$KoreanAmbigInputMode;->mParent:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputMethods$Language;->getHandwritingMode()Lcom/nuance/swype/input/InputMethods$InputMode;
 
     move-result-object v1
 
-    .line 2828
+    .line 2827
     .local v1, "hwrInputMode":Lcom/nuance/swype/input/InputMethods$InputMode;
     const/4 v0, 0x0
 
-    .line 2829
+    .line 2828
     .local v0, "hwrEnabled":Z
     if-eqz v1, :cond_0
 
-    .line 2830
+    .line 2829
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$InputMode;->isEnabled()Z
 
     move-result v0
 
-    .line 2833
+    .line 2832
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$KoreanAmbigInputMode;->getContext()Landroid/content/Context;
 
@@ -94,15 +94,15 @@
 
     const/4 v2, 0x1
 
-    .line 2836
+    .line 2835
     :goto_0
     return v2
 
-    .line 2833
+    .line 2832
     :cond_2
     const/4 v2, 0x0
 
-    .line 2836
+    .line 2835
     goto :goto_0
 .end method
 
@@ -111,16 +111,16 @@
     .param p1, "enabled"    # Z
 
     .prologue
-    .line 2842
+    .line 2841
     if-eqz p1, :cond_0
 
-    .line 2843
+    .line 2842
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$KoreanAmbigInputMode;->ensureAtleastOneLayoutIsEnabled()V
 
-    .line 2846
+    .line 2845
     :cond_0
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputMethods$InputMode;->setEnabled(Z)V
 
-    .line 2847
+    .line 2846
     return-void
 .end method

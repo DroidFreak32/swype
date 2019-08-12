@@ -59,7 +59,7 @@ Vreți să continuați?"</string>
     <string name="sns_facebook_sign_on">Conectați-vă pentru a adăuga numele contactelor din contul dumneavoastră Facebook în dicționarul dvs. personal.</string>
     <string name="sns_twitter_sign_on">Conectați-vă pentru a adăuga numele contactelor și noi cuvinte din fluxul public Twitter în dicționarul dumnea personal</string>
     <string name="sns_gmail_sign_on">Conectați-vă pentru a adăuga numele persoanelor care v-au trimis e-mailuri în dicționarul dvs. personal</string>
-    <string name="sns_personalizing">Se personalizează experiența…</string>
+    <string name="sns_personalizing">Se personalizează experiența</string>
     <string name="sns_personalize_finished">Ultima actualizare în %s. Apăsați pentru reîmprospătare.</string>
     <string name="dismiss_button">Anulare</string>
     <string name="canceling">Se anulează</string>
@@ -436,7 +436,7 @@ Instalat. Apăsați pentru lansare."</string>
     <string name="pref_delete_account_desc">Anulați înregistrarea tuturor dispozitivelor și ștergeți datele contului dumneavoastră de la Swype Connect. Această acțiune nu va șterge datele lingvistice personale sau cuvintele dumneavoastră de pe acest dispozitiv.</string>
     <string name="pref_sync_now_title">Sincronizați acum</string>
     <string name="pref_devices_title">Dispozitive</string>
-    <string name="pref_personalize_your_experience_title">Se personalizează experiența…</string>
+    <string name="pref_personalize_your_experience_title">Se personalizează experiența</string>
     <string name="pref_clear_lang_data_dialog">Toate datele lingvistice vor fi șterse. În plus, copierea de rezervă și sincronizarea se vor dezactiva pentru acest dispozitiv. Sigur doriți să continuați?</string>
     <string name="startup_choose_lang">Alegeți limba</string>
     <string name="startup_choose_lang_toast">Trebuie să descărcați o limbă pentru a continua</string>
@@ -482,7 +482,7 @@ Instalat. Apăsați pentru lansare."</string>
     <string name="max_function_item_count_title">Limita maximă de numărare</string>
     <string name="functionbar_hwtoggle_toast_on">Scrisul de mână pe tastatură este activat</string>
     <string name="functionbar_hwtoggle_toast_off">Scrisul de mână pe tastatură este dezactivat</string>
-    <string name="pref_personalization_personalize_experience">Se personalizează experiența…</string>
+    <string name="pref_personalization_personalize_experience">Se personalizează experiența</string>
     <string name="personalization_settings_title">Personalizare</string>
     <string name="theme_name_frost">Arctic</string>
     <string name="theme_name_classic">Clasic</string>

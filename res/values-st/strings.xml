@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">Ingodise o kene e le hore mabitso a metswalle ho tswa akhaontong ya hao ya Facebook a tlatselletswe Dikshenaring ya hao</string>
     <string name="sns_twitter_sign_on">Kena e le hore di-user name tsa hao le mantswe a matjha ho tswa ho phepelo ya Twitter ya setjhaba a kenyeletswe ho Dikshenari ya hao</string>
     <string name="sns_gmail_sign_on">Ingodise hore mabitso a batho bao o ba romelletseng imeile a kenngwe Dikshenaring ya hao</string>
-    <string name="sns_personalizing">Etsa boiphihlelo e be ba hao…</string>
+    <string name="sns_personalizing">Etsa boiphihlelo e be ba hao</string>
     <string name="sns_personalize_finished">Apodeiti ya ho qetela e ka la %s. Thepa ho qala botjha</string>
     <string name="dismiss_button">Lokolla</string>
     <string name="canceling">E ntse e Khansela</string>
@@ -434,7 +434,7 @@ E instotse Penya ho e kgakola"</string>
     <string name="pref_delete_account_desc">Disebediswa kaofela tse sa ngodiswang, ebile o hlakole akhaonto ya datha Kgokahanyong ya Swype Hona ha ho ke ke ha Khansela datha ya hao ya puo, ho kenyelleditswe le mantswe sesebedisweng sena</string>
     <string name="pref_sync_now_title">Ha jwale Sinka</string>
     <string name="pref_devices_title">Disebediswa</string>
-    <string name="pref_personalize_your_experience_title">Etsa boiphihlelo e be ba hao…</string>
+    <string name="pref_personalize_your_experience_title">Etsa boiphihlelo e be ba hao</string>
     <string name="pref_clear_lang_data_dialog">Datha ya hao ya puo e tla hlakolwa, mme Bekapo le Sinki e ke ke ya sebetsa bakeng sa sesebediswa sena Na o na le bonnete o batla ho tswelapele?</string>
     <string name="startup_choose_lang">Kgetha puo ya hao</string>
     <string name="startup_choose_lang_toast">O lokela ho downloada puo ho tswelapele</string>
@@ -480,7 +480,7 @@ E instotse Penya ho e kgakola"</string>
     <string name="max_function_item_count_title">Moedi wa ho bala</string>
     <string name="functionbar_hwtoggle_toast_on">Mongolo wa letsoho khibotong oa sebetsa</string>
     <string name="functionbar_hwtoggle_toast_off">Mongolo wa letsoho khibotong ha o sebetse</string>
-    <string name="pref_personalization_personalize_experience">Etsa boiphihlelo e be ba hao…</string>
+    <string name="pref_personalization_personalize_experience">Etsa boiphihlelo e be ba hao</string>
     <string name="personalization_settings_title">Etsa ya hao</string>
     <string name="theme_name_frost">Akthiki</string>
     <string name="theme_name_classic">Tlelasiki</string>

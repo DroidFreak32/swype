@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">ਸਾਇਨ ਇਨ ਕਰੋ ਤਾਂ ਜੋ ਤੁਹਾਡੇ Facebook ਖਾਤੇ ਦੇ ਨਾਂਵਾਂ ਨੂੰ ਤੁਹਾਡੇ ਵਿਅਕਤੀਗਤ ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ</string>
     <string name="sns_twitter_sign_on">ਸਾਇਨ ਇਨ ਕਰੋ ਤਾਂ ਜੋ ਤੁਹਾਡੀ Twitter ਦੀ ਜਨਤਕ ਫੀਡ ਦੇ ਯੂਜ਼ਰਨੇਮ ਅਤੇ ਨਵੇਂ ਸ਼ਬਦਾਂ ਨੂੰ ਤੁਹਾਡੀ ਵਿਅਕਤੀਗਤ ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਜੋੜਿਆ ਜਾ ਸਕੇ</string>
     <string name="sns_gmail_sign_on">ਸਾਇਨ ਇਨ ਕਰੋ ਤਾਂ ਜੋ ਉਹ ਵਿਅਕਤੀ ਦੇ ਨਾਂਵਾਂ ਨੂੰ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਈਮੇਲ ਭੇਜੀ ਹੈ ਤੁਹਾਡੇ ਵਿਅਕਤੀਗਤ ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਜੋੜਿਆ ਜਾ ਸਕੇ</string>
-    <string name="sns_personalizing">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ…</string>
+    <string name="sns_personalizing">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ</string>
     <string name="sns_personalize_finished">%s ਨੂੰ ਆਖਰੀ ਵਾਰ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ ਰੀਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ।</string>
     <string name="dismiss_button">ਹਟਾ ਦਿਓ</string>
     <string name="canceling">ਰੱਦ ਕਰ ਰਿਹਾ ਹੈ</string>
@@ -432,7 +432,7 @@ DragonGo ਨੂੰ ਡਾਊਨਲੋਡ ਅਤੇ ਸਥਾਪਤ ਕਰਨ ਲ
     <string name="pref_delete_account_desc">Swype Connect ਤੋਂ ਸਾਰੀਆਂ ਡਿਵਾਇਸਾਂ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਖਤਮ ਕਰੋ ਅਤੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਹਟਾਓ। ਇਹ ਇਸ ਡਿਵਾਇਸ ਤੋਂ ਤੁਹਾਡੇ ਵਿਅਕਤੀਗਤ ਭਾਸ਼ਾਈ ਡਾਟਾ ਜਾਂ ਤੁਹਾਡੇ ਸ਼ਬਦਾਂ ਨੂੰ ਨਹੀਂ ਹਟਾਏਗਾ।</string>
     <string name="pref_sync_now_title">ਹੁਣ ਸਿੰਕ ਕਰੋ</string>
     <string name="pref_devices_title">ਡਿਵਾਇਸਾਂ</string>
-    <string name="pref_personalize_your_experience_title">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ…</string>
+    <string name="pref_personalize_your_experience_title">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ</string>
     <string name="pref_clear_lang_data_dialog">ਤੁਹਾਡਾ ਸਾਰਾ ਭਾਸ਼ਾਈ ਡਾਟਾ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ ਅਤੇ ਇਸ ਡਿਵਾਇਸ ਲਈ ਬੈਕਅੱਪ ਅਤੇ ਸਿੰਕ ਨੂੰ ਵੀ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਕੀ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="startup_choose_lang">ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
     <string name="startup_choose_lang_toast">ਜਾਰੀ ਰਹਿਣ ਲਈ ਤੁਹਾਨੂੰ ਕਿਸੇ ਭਾਸ਼ਾ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੈ</string>
@@ -478,7 +478,7 @@ DragonGo ਨੂੰ ਡਾਊਨਲੋਡ ਅਤੇ ਸਥਾਪਤ ਕਰਨ ਲ
     <string name="max_function_item_count_title">ਅਧਿਕਤਮ ਗਿਣਤੀ ਸੀਮਾ</string>
     <string name="functionbar_hwtoggle_toast_on">ਕੀਬੋਰਡ ਤੇ ਲਿਖਾਈ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਹੋਇਆ ਹੈ</string>
     <string name="functionbar_hwtoggle_toast_off">ਕੀਬੋਰਡ ਤੇ ਲਿਖਾਈ ਨੂੰ ਅਸਮਰੱਥ ਕੀਤਾ ਹੋਇਆ ਹੈ</string>
-    <string name="pref_personalization_personalize_experience">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ…</string>
+    <string name="pref_personalization_personalize_experience">ਆਪਣਾ ਤਜ਼ਰਬਾ ਆਪਣੇ ਅਨੁਸਾਰ ਢੁੱਕਵਾਂ ਬਣਾਓ</string>
     <string name="personalization_settings_title">ਨਿਜੀ ਰੂਪ ਦੇਣਾ</string>
     <string name="theme_name_frost">ਆਰਕਟਿਕ</string>
     <string name="theme_name_classic">ਪਰੰਪਰਾਗਤ</string>

@@ -59,7 +59,7 @@ Nais mo bang magpatuloy?"</string>
     <string name="sns_facebook_sign_on">Mag-sign in upang ang mga pangalan ng kontak mula sa iyong Facebook account ay maidagdag sa iyong personal na diksiyonaryo</string>
     <string name="sns_twitter_sign_on">Mag-sign in upang ang mga user name at bagong mga salita mula sa iyong pampublikong Twitter feed ay maidagdag sa iyong personal na diksiyonaryo</string>
     <string name="sns_gmail_sign_on">Mag-sign in upang ang mga pangalan ng mga taong pinadalhan mo ng email ay maidagdag sa iyong personal na diksiyonaryo</string>
-    <string name="sns_personalizing">Pagsasapersonal ng iyong karanasan…</string>
+    <string name="sns_personalizing">Pagsasapersonal ng iyong karanasan</string>
     <string name="sns_personalize_finished">Huling in-update noong %s. Tapikin upang i-refresh.</string>
     <string name="dismiss_button">Alisin</string>
     <string name="canceling">Nagkansel</string>
@@ -436,7 +436,7 @@ Naka-install. I-tap upang ilunsad."</string>
     <string name="pref_delete_account_desc">Alisin sa pagkakarehistro ang lahat ng mga kagamitan at burahin ang datos ng iyong account mula sa Swype Connect. Hindi nito buburahin ang iyong personal na datos ng wika o ang iyong mga salita sa kagamitan na ito.</string>
     <string name="pref_sync_now_title">I-sync ngayon</string>
     <string name="pref_devices_title">Mga Kagamitan</string>
-    <string name="pref_personalize_your_experience_title">Pagsasapersonal ng iyong karanasan…</string>
+    <string name="pref_personalize_your_experience_title">Pagsasapersonal ng iyong karanasan</string>
     <string name="pref_clear_lang_data_dialog">Ang lahat ng datos ng iyong wika ay buburahin at ang Pag-backup at Pag-sync ay hindi rin pagaganahin para sa kagamitan na ito. Sigurado ka bang gusto mong magpatuloy?</string>
     <string name="startup_choose_lang">Pumili ng iyong wika</string>
     <string name="startup_choose_lang_toast">Dapat kang mag-download ng isang wika para magpatuloy</string>
@@ -482,7 +482,7 @@ Naka-install. I-tap upang ilunsad."</string>
     <string name="max_function_item_count_title">Pinakamataas na Limitasyon ng Bilang</string>
     <string name="functionbar_hwtoggle_toast_on">Ang Sulat-kamay sa keyboard ay pinagana</string>
     <string name="functionbar_hwtoggle_toast_off">Ang Sulat-kamay sa keyboard ay hindi pinagana</string>
-    <string name="pref_personalization_personalize_experience">Pagsasapersonal ng iyong karanasan…</string>
+    <string name="pref_personalization_personalize_experience">Pagsasapersonal ng iyong karanasan</string>
     <string name="personalization_settings_title">Personalisasyon</string>
     <string name="theme_name_frost">Arktiko</string>
     <string name="theme_name_classic">Klasiko</string>

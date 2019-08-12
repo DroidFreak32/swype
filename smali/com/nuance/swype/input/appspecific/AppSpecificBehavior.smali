@@ -73,6 +73,10 @@
     .end annotation
 .end field
 
+.field private mInputFieldImeOptions:I
+
+.field private mInputFieldInputType:I
+
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -80,10 +84,24 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 54
+    .line 57
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    .line 55
+    .line 45
+    const/4 v4, 0x0
+
+    move-object/from16 v0, p0
+
+    iput v4, v0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldImeOptions:I
+
+    .line 46
+    const/4 v4, 0x0
+
+    move-object/from16 v0, p0
+
+    iput v4, v0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldInputType:I
+
+    .line 58
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
@@ -92,7 +110,7 @@
 
     iput-object v4, v0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->behavior_map:Ljava/util/Map;
 
-    .line 58
+    .line 61
     :try_start_0
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -106,11 +124,11 @@
 
     move-result-object v24
 
-    .line 59
+    .line 62
     .local v24, "xmlparser":Landroid/content/res/XmlResourceParser;
     const/4 v14, 0x0
 
-    .line 60
+    .line 63
     .local v14, "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
     :try_end_0
@@ -119,18 +137,18 @@
 
     move-result-object v21
 
-    .line 61
+    .line 64
     .local v21, "pm":Landroid/content/pm/PackageManager;
     const/16 v20, 0x0
 
-    .line 63
+    .line 66
     .local v20, "packageInfo":Landroid/content/pm/PackageInfo;
     const/4 v11, 0x0
 
     .local v11, "appNameString":Ljava/lang/String;
     move-object v15, v14
 
-    .line 65
+    .line 68
     .end local v14    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .local v15, "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     :goto_0
@@ -146,19 +164,19 @@
 
     if-eq v0, v4, :cond_8
 
-    .line 66
+    .line 69
     const/4 v4, 0x2
 
     move/from16 v0, v16
 
     if-ne v0, v4, :cond_4
 
-    .line 67
+    .line 70
     invoke-interface/range {v24 .. v24}, Landroid/content/res/XmlResourceParser;->getName()Ljava/lang/String;
 
     move-result-object v23
 
-    .line 68
+    .line 71
     .local v23, "tag":Ljava/lang/String;
     const-string v4, "application"
 
@@ -170,7 +188,7 @@
 
     if-eqz v4, :cond_2
 
-    .line 69
+    .line 72
     const/4 v4, 0x0
 
     const-string v25, "name"
@@ -183,14 +201,14 @@
 
     move-result-object v11
 
-    .line 70
+    .line 73
     new-instance v14, Ljava/util/HashMap;
 
     invoke-direct {v14}, Ljava/util/HashMap;-><init>()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 92
+    .line 95
     .end local v15    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .end local v23    # "tag":Ljava/lang/String;
     .restart local v14    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
@@ -201,13 +219,13 @@
 
     if-ne v0, v4, :cond_9
 
-    .line 93
+    .line 96
     :try_start_2
     invoke-interface/range {v24 .. v24}, Landroid/content/res/XmlResourceParser;->getName()Ljava/lang/String;
 
     move-result-object v23
 
-    .line 94
+    .line 97
     .restart local v23    # "tag":Ljava/lang/String;
     const-string v4, "application"
 
@@ -221,14 +239,14 @@
 
     if-eqz v14, :cond_7
 
-    .line 95
+    .line 98
     const-string v4, ";"
 
     invoke-virtual {v11, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v12
 
-    .line 96
+    .line 99
     .local v12, "arr$":[Ljava/lang/String;
     array-length v0, v12
 
@@ -251,14 +269,14 @@
 
     aget-object v4, v12, v18
 
-    .line 97
+    .line 100
     invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     move-result-object v10
 
-    .line 99
+    .line 102
     .local v10, "appName":Ljava/lang/String;
     const/4 v4, 0x0
 
@@ -272,11 +290,11 @@
 
     move-result-object v20
 
-    .line 104
+    .line 107
     :goto_3
     if-eqz v20, :cond_5
 
-    .line 105
+    .line 108
     :try_start_4
     invoke-interface {v14}, Ljava/util/Map;->values()Ljava/util/Collection;
 
@@ -301,7 +319,7 @@
 
     check-cast v4, Lcom/nuance/swype/input/appspecific/BehaviorInfo;
 
-    .line 106
+    .line 109
     move-object/from16 v0, v20
 
     iget v0, v0, Landroid/content/pm/PackageInfo;->versionCode:I
@@ -316,7 +334,7 @@
 
     goto :goto_4
 
-    .line 116
+    .line 119
     .end local v10    # "appName":Ljava/lang/String;
     .end local v12    # "arr$":[Ljava/lang/String;
     .end local v17    # "i$":Ljava/util/Iterator;
@@ -329,7 +347,7 @@
     :goto_5
     if-eqz v24, :cond_0
 
-    .line 117
+    .line 120
     :try_start_5
     invoke-interface/range {v24 .. v24}, Landroid/content/res/XmlResourceParser;->close()V
 
@@ -339,7 +357,7 @@
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_5 .. :try_end_5} :catch_0
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_2
 
-    .line 124
+    .line 127
     .end local v11    # "appNameString":Ljava/lang/String;
     .end local v14    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .end local v20    # "packageInfo":Landroid/content/pm/PackageInfo;
@@ -348,12 +366,12 @@
     :catch_0
     move-exception v4
 
-    .line 125
+    .line 128
     :cond_1
     :goto_6
     return-void
 
-    .line 71
+    .line 74
     .restart local v11    # "appNameString":Ljava/lang/String;
     .restart local v15    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .restart local v16    # "event":I
@@ -373,7 +391,7 @@
 
     if-eqz v4, :cond_4
 
-    .line 72
+    .line 75
     const/4 v4, 0x0
 
     const-string v25, "behavior"
@@ -386,7 +404,7 @@
 
     move-result-object v13
 
-    .line 73
+    .line 76
     .local v13, "behavior":Ljava/lang/String;
     const/4 v4, 0x0
 
@@ -400,7 +418,7 @@
 
     move-result-object v22
 
-    .line 74
+    .line 77
     .local v22, "stringValue":Ljava/lang/String;
     const/4 v4, 0x0
 
@@ -414,7 +432,7 @@
 
     move-result-object v7
 
-    .line 75
+    .line 78
     .local v7, "brand":Ljava/lang/String;
     const/4 v4, 0x0
 
@@ -432,7 +450,7 @@
 
     move-result v5
 
-    .line 77
+    .line 80
     .local v5, "minVersion":I
     const/4 v4, 0x0
 
@@ -450,7 +468,7 @@
 
     move-result v6
 
-    .line 79
+    .line 82
     .local v6, "maxVersion":I
     const/4 v4, 0x0
 
@@ -468,7 +486,7 @@
 
     move-result v8
 
-    .line 80
+    .line 83
     .local v8, "minSdk":I
     const/4 v4, 0x0
 
@@ -486,11 +504,11 @@
 
     move-result v9
 
-    .line 81
+    .line 84
     .local v9, "maxSdk":I
     if-eqz v15, :cond_4
 
-    .line 83
+    .line 86
     if-eqz v7, :cond_3
 
     sget-object v4, Landroid/os/Build;->BRAND:Ljava/lang/String;
@@ -509,7 +527,7 @@
 
     if-eqz v4, :cond_4
 
-    .line 85
+    .line 88
     :cond_3
     new-instance v3, Lcom/nuance/swype/input/appspecific/BehaviorInfo;
 
@@ -523,7 +541,7 @@
 
     invoke-direct/range {v3 .. v9}, Lcom/nuance/swype/input/appspecific/BehaviorInfo;-><init>(Ljava/lang/Object;IILjava/lang/String;II)V
 
-    .line 87
+    .line 90
     .local v3, "behaviorInfo":Lcom/nuance/swype/input/appspecific/BehaviorInfo;
     invoke-interface {v15, v13, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_6
@@ -545,7 +563,7 @@
     .restart local v14    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     goto/16 :goto_1
 
-    .line 102
+    .line 105
     .restart local v10    # "appName":Ljava/lang/String;
     .restart local v12    # "arr$":[Ljava/lang/String;
     .restart local v18    # "i$":I
@@ -558,7 +576,7 @@
 
     goto/16 :goto_3
 
-    .line 109
+    .line 112
     .end local v18    # "i$":I
     :cond_5
     :try_start_7
@@ -570,7 +588,7 @@
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
-    .line 96
+    .line 99
     add-int/lit8 v17, v18, 0x1
 
     .local v17, "i$":I
@@ -580,7 +598,7 @@
     .restart local v18    # "i$":I
     goto/16 :goto_2
 
-    .line 111
+    .line 114
     .end local v10    # "appName":Ljava/lang/String;
     :cond_6
     const/4 v14, 0x0
@@ -591,17 +609,17 @@
     :cond_7
     move-object v15, v14
 
-    .line 113
+    .line 116
     .end local v14    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .restart local v15    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     goto/16 :goto_0
 
-    .line 116
+    .line 119
     .end local v23    # "tag":Ljava/lang/String;
     :cond_8
     if-eqz v24, :cond_1
 
-    .line 117
+    .line 120
     :try_start_8
     invoke-interface/range {v24 .. v24}, Landroid/content/res/XmlResourceParser;->close()V
     :try_end_8
@@ -610,7 +628,7 @@
 
     goto/16 :goto_6
 
-    .line 125
+    .line 128
     .end local v11    # "appNameString":Ljava/lang/String;
     .end local v15    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .end local v16    # "event":I
@@ -622,7 +640,7 @@
 
     goto/16 :goto_6
 
-    .line 116
+    .line 119
     .restart local v11    # "appNameString":Ljava/lang/String;
     .restart local v15    # "currentEntry":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .restart local v20    # "packageInfo":Landroid/content/pm/PackageInfo;
@@ -652,16 +670,16 @@
     .param p2, "defaultValue"    # Ljava/lang/Object;
 
     .prologue
-    .line 294
+    .line 304
     const/4 v0, 0x0
 
-    .line 295
+    .line 305
     .local v0, "behavior":Lcom/nuance/swype/input/appspecific/BehaviorInfo;
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->currentBehaviorOverride:Ljava/util/Map;
 
     if-eqz v2, :cond_0
 
-    .line 296
+    .line 306
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->currentBehaviorOverride:Ljava/util/Map;
 
     invoke-interface {v2, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -671,7 +689,7 @@
     .end local v0    # "behavior":Lcom/nuance/swype/input/appspecific/BehaviorInfo;
     check-cast v0, Lcom/nuance/swype/input/appspecific/BehaviorInfo;
 
-    .line 298
+    .line 308
     .restart local v0    # "behavior":Lcom/nuance/swype/input/appspecific/BehaviorInfo;
     :cond_0
     if-eqz v0, :cond_1
@@ -680,7 +698,7 @@
 
     move-result-object v1
 
-    .line 299
+    .line 309
     .local v1, "value":Ljava/lang/Object;
     :goto_0
     if-eqz v1, :cond_2
@@ -692,14 +710,14 @@
     :cond_1
     move-object v1, p2
 
-    .line 298
+    .line 308
     goto :goto_0
 
     .restart local v1    # "value":Ljava/lang/Object;
     :cond_2
     move-object v1, p2
 
-    .line 299
+    .line 309
     goto :goto_1
 .end method
 
@@ -709,7 +727,7 @@
     .locals 2
 
     .prologue
-    .line 186
+    .line 196
     const-string v0, "forceTypeNullForBackspace"
 
     const/4 v1, 0x0
@@ -735,7 +753,7 @@
     .locals 2
 
     .prologue
-    .line 178
+    .line 188
     const-string v0, "ignoreTypeNullCheckForBackspace"
 
     const/4 v1, 0x0
@@ -761,7 +779,7 @@
     .locals 2
 
     .prologue
-    .line 284
+    .line 294
     const-string v0, "noContextMenuEditing"
 
     const/4 v1, 0x0
@@ -787,7 +805,7 @@
     .locals 2
 
     .prologue
-    .line 268
+    .line 278
     const-string v0, "noReplacingReselectedWordWhenMatching"
 
     const/4 v1, 0x0
@@ -813,7 +831,7 @@
     .locals 2
 
     .prologue
-    .line 289
+    .line 299
     const-string v0, "noSetSelection"
 
     const/4 v1, 0x0
@@ -840,12 +858,20 @@
     .param p1, "finishingInput"    # Z
 
     .prologue
-    .line 162
+    .line 170
+    invoke-virtual {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldEnablePredictionForPassword()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 171
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->currentBehaviorOverride:Ljava/util/Map;
 
-    .line 163
+    .line 173
+    :cond_0
     return-void
 .end method
 
@@ -855,7 +881,7 @@
     .param p2, "packageName"    # Ljava/lang/String;
 
     .prologue
-    .line 130
+    .line 133
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -869,7 +895,7 @@
 
     move-result-object v2
 
-    .line 136
+    .line 139
     .local v2, "packageInfo":Landroid/content/pm/PackageInfo;
     iget-object v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->behavior_map:Ljava/util/Map;
 
@@ -879,11 +905,11 @@
 
     check-cast v0, Ljava/util/Map;
 
-    .line 137
+    .line 140
     .local v0, "behaviors":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     if-eqz v0, :cond_0
 
-    .line 138
+    .line 141
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v3
@@ -906,21 +932,21 @@
 
     check-cast v3, Lcom/nuance/swype/input/appspecific/BehaviorInfo;
 
-    .line 139
+    .line 142
     iget v4, v2, Landroid/content/pm/PackageInfo;->versionCode:I
 
     invoke-virtual {v3, v4}, Lcom/nuance/swype/input/appspecific/BehaviorInfo;->updateEnabled(I)V
 
     goto :goto_0
 
-    .line 133
+    .line 136
     .end local v0    # "behaviors":Ljava/util/Map;, "Ljava/util/Map<Ljava/lang/String;Lcom/nuance/swype/input/appspecific/BehaviorInfo;>;"
     .end local v1    # "i$":Ljava/util/Iterator;
     .end local v2    # "packageInfo":Landroid/content/pm/PackageInfo;
     :catch_0
     move-exception v3
 
-    .line 142
+    .line 145
     :cond_0
     return-void
 .end method
@@ -931,12 +957,12 @@
     .param p2, "restarting"    # Z
 
     .prologue
-    .line 151
+    .line 154
     iget-object v0, p1, Landroid/view/inputmethod/EditorInfo;->packageName:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    .line 152
+    .line 155
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->behavior_map:Ljava/util/Map;
 
     iget-object v1, p1, Landroid/view/inputmethod/EditorInfo;->packageName:Ljava/lang/String;
@@ -949,8 +975,18 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->currentBehaviorOverride:Ljava/util/Map;
 
-    .line 154
+    .line 158
     :cond_0
+    iget v0, p1, Landroid/view/inputmethod/EditorInfo;->imeOptions:I
+
+    iput v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldImeOptions:I
+
+    .line 159
+    iget v0, p1, Landroid/view/inputmethod/EditorInfo;->inputType:I
+
+    iput v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldInputType:I
+
+    .line 160
     return-void
 .end method
 
@@ -958,7 +994,7 @@
     .locals 2
 
     .prologue
-    .line 238
+    .line 248
     const-string v0, "selectTextToReplace"
 
     const/4 v1, 0x0
@@ -984,7 +1020,7 @@
     .locals 2
 
     .prologue
-    .line 193
+    .line 203
     const-string v0, "shouldAutoSpaceInUrlField"
 
     const/4 v1, 0x0
@@ -1010,7 +1046,7 @@
     .locals 2
 
     .prologue
-    .line 169
+    .line 179
     const-string v0, "shouldAutoSpaceOnTextExtractFailure"
 
     const/4 v1, 0x0
@@ -1036,7 +1072,7 @@
     .locals 2
 
     .prologue
-    .line 259
+    .line 269
     const-string v0, "shouldAvoidSetComposingRegion"
 
     const/4 v1, 0x0
@@ -1062,7 +1098,7 @@
     .locals 2
 
     .prologue
-    .line 233
+    .line 243
     const-string v0, "shouldByPassInternalCache"
 
     const/4 v1, 0x0
@@ -1088,7 +1124,7 @@
     .locals 2
 
     .prologue
-    .line 225
+    .line 235
     const-string v0, "shouldCheckCurrentCursor"
 
     const/4 v1, 0x0
@@ -1114,7 +1150,7 @@
     .locals 2
 
     .prologue
-    .line 375
+    .line 385
     const-string v0, "shouldCheckSmileyWhenDeleting"
 
     const/4 v1, 0x0
@@ -1140,7 +1176,7 @@
     .locals 2
 
     .prologue
-    .line 274
+    .line 284
     const-string v0, "shouldClearComposingAddDeleteSpace"
 
     const/4 v1, 0x0
@@ -1166,7 +1202,7 @@
     .locals 2
 
     .prologue
-    .line 323
+    .line 333
     const-string v0, "shouldDeleteSurroundingBeforeTextCharByChar"
 
     const/4 v1, 0x0
@@ -1192,7 +1228,7 @@
     .locals 2
 
     .prologue
-    .line 315
+    .line 325
     const-string v0, "shouldDeleteSurroundingTextUsingKeyEvent"
 
     const/4 v1, 0x0
@@ -1218,7 +1254,7 @@
     .locals 2
 
     .prologue
-    .line 209
+    .line 219
     const-string v0, "shouldDisableCandidatesList"
 
     const/4 v1, 0x0
@@ -1241,11 +1277,54 @@
 .end method
 
 .method public shouldDisableRecapture()Z
+    .locals 3
+
+    .prologue
+    const/4 v1, 0x0
+
+    .line 211
+    const-string v0, "shouldDisableRecapture"
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    invoke-direct {p0, v0, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->getAppBehavior(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldSkipWrongStartInputView()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_1
+    move v0, v1
+
+    goto :goto_0
+.end method
+
+.method public shouldEnablePredictionForPassword()Z
     .locals 2
 
     .prologue
-    .line 201
-    const-string v0, "shouldDisableRecapture"
+    .line 395
+    const-string v0, "shouldEnablePredictionForPassword"
 
     const/4 v1, 0x0
 
@@ -1270,7 +1349,7 @@
     .locals 2
 
     .prologue
-    .line 246
+    .line 256
     const-string v0, "shouldFilterInputViewRestarts"
 
     const/4 v1, 0x0
@@ -1296,7 +1375,7 @@
     .locals 2
 
     .prologue
-    .line 217
+    .line 227
     const-string v0, "shouldIgnoreLostComposingText"
 
     const/4 v1, 0x0
@@ -1322,7 +1401,7 @@
     .locals 2
 
     .prologue
-    .line 341
+    .line 351
     const-string v0, "shouldRemoveUpdateWCLMessage"
 
     const/4 v1, 0x0
@@ -1348,7 +1427,7 @@
     .locals 2
 
     .prologue
-    .line 331
+    .line 341
     const-string v0, "shouldSendBackSpaceToDeleteBreakLine"
 
     const/4 v1, 0x0
@@ -1374,7 +1453,7 @@
     .locals 2
 
     .prologue
-    .line 311
+    .line 321
     const-string v0, "shouldSendReturnAsKeyEvent"
 
     const/4 v1, 0x0
@@ -1400,7 +1479,7 @@
     .locals 2
 
     .prologue
-    .line 279
+    .line 289
     const-string v0, "shouldSetComposingSpan"
 
     const/4 v1, 0x0
@@ -1426,7 +1505,7 @@
     .locals 2
 
     .prologue
-    .line 363
+    .line 373
     const-string v0, "shouldSkipInvalidFieldIdEditor"
 
     const/4 v1, 0x0
@@ -1448,11 +1527,59 @@
     return v0
 .end method
 
+.method public shouldSkipWrongStartInputView()Z
+    .locals 3
+
+    .prologue
+    const/4 v1, 0x0
+
+    .line 400
+    const-string v0, "shouldSkipWrongStartInputView"
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    invoke-direct {p0, v0, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->getAppBehavior(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldImeOptions:I
+
+    const v2, 0x44000006    # 512.00037f
+
+    if-ne v0, v2, :cond_0
+
+    iget v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->mInputFieldInputType:I
+
+    const v2, 0x20001
+
+    if-ne v0, v2, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_0
+    move v0, v1
+
+    goto :goto_0
+.end method
+
 .method public shouldTreatEditTextAsInvalidField()Z
     .locals 2
 
     .prologue
-    .line 351
+    .line 361
     const-string v0, "shouldTreatEditTextAsInvalidField"
 
     const/4 v1, 0x0
@@ -1478,7 +1605,7 @@
     .locals 2
 
     .prologue
-    .line 254
+    .line 264
     const-string v0, "shouldUseSearchRecognizerTypeForUrl"
 
     const/4 v1, 0x0
@@ -1504,7 +1631,7 @@
     .locals 2
 
     .prologue
-    .line 307
+    .line 317
     const-string v0, "supportsGetTextWithStyles"
 
     const/4 v1, 0x1

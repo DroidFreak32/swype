@@ -113,7 +113,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2546
+    .line 2548
     invoke-direct {p0, p1, p2}, Lcom/nuance/swype/input/InputView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 87
@@ -181,7 +181,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mPreTraceShiftedState:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
-    .line 2991
+    .line 2993
     new-instance v0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;
 
     const/4 v1, 0x0
@@ -190,7 +190,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->promptForAddingOOVCandidate:Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;
 
-    .line 2547
+    .line 2549
     return-void
 .end method
 
@@ -203,7 +203,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2550
+    .line 2552
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 87
@@ -271,7 +271,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mPreTraceShiftedState:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
-    .line 2991
+    .line 2993
     new-instance v0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;
 
     const/4 v1, 0x0
@@ -280,7 +280,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->promptForAddingOOVCandidate:Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;
 
-    .line 2551
+    .line 2553
     return-void
 .end method
 
@@ -350,19 +350,19 @@
 
     const/4 v3, 0x1
 
-    .line 2516
+    .line 2518
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isExploreByTouchOn()Z
 
     move-result v4
 
     if-nez v4, :cond_1
 
-    .line 2528
+    .line 2530
     :cond_0
     :goto_0
     return v2
 
-    .line 2519
+    .line 2521
     :cond_1
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
@@ -372,17 +372,17 @@
 
     if-eqz v4, :cond_0
 
-    .line 2520
+    .line 2522
     iput-boolean v3, p0, Lcom/nuance/swype/input/AlphaInputView;->isLongPressed:Z
 
-    .line 2521
+    .line 2523
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     move-result-object v1
 
-    .line 2522
+    .line 2524
     .local v1, "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     invoke-static {}, Lcom/nuance/swype/input/accessibility/KeyboardModel;->getInstance()Lcom/nuance/swype/input/accessibility/KeyboardModel;
 
@@ -402,11 +402,11 @@
 
     move-result-object v0
 
-    .line 2523
+    .line 2525
     .local v0, "accessibilityLabel":Ljava/lang/CharSequence;
     if-eqz v0, :cond_2
 
-    .line 2524
+    .line 2526
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
     move-result-object v2
@@ -424,7 +424,7 @@
     :cond_2
     move v2, v3
 
-    .line 2526
+    .line 2528
     goto :goto_0
 .end method
 
@@ -434,29 +434,29 @@
     .param p2, "userExplicitPick"    # Z
 
     .prologue
-    .line 1583
+    .line 1585
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmCount()I
 
     move-result v2
 
-    .line 1585
+    .line 1587
     .local v2, "udbCountBefore":I
     invoke-direct {p0, p1, p2}, Lcom/nuance/swype/input/AlphaInputView;->noteWordChanged(Ljava/lang/String;Z)V
 
-    .line 1591
+    .line 1593
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmCount()I
 
     move-result v1
 
-    .line 1592
+    .line 1594
     .local v1, "udbCountAfter":I
     if-eq v2, v1, :cond_0
 
-    .line 1593
+    .line 1595
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v3
@@ -469,11 +469,11 @@
 
     move-result-object v0
 
-    .line 1595
+    .line 1597
     .local v0, "spw":Lcom/nuance/swype/input/SpeechWrapper;
     if-eqz v0, :cond_0
 
-    .line 1598
+    .line 1600
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -488,7 +488,7 @@
 
     invoke-virtual {v0, v3, v4, p1}, Lcom/nuance/swype/input/SpeechWrapper;->addCustomWord(Lcom/nuance/swype/input/udb/UserDictionaryIterator;Lcom/nuance/swype/input/InputFieldInfo;Ljava/lang/String;)V
 
-    .line 1601
+    .line 1603
     .end local v0    # "spw":Lcom/nuance/swype/input/SpeechWrapper;
     :cond_0
     return-void
@@ -499,7 +499,7 @@
     .param p1, "ic"    # Landroid/view/inputmethod/InputConnection;
 
     .prologue
-    .line 1959
+    .line 1961
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     if-eqz v0, :cond_0
@@ -512,22 +512,22 @@
 
     if-lez v0, :cond_0
 
-    .line 1960
+    .line 1962
     if-eqz p1, :cond_0
 
-    .line 1961
+    .line 1963
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v0}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 1962
+    .line 1964
     const-string v0, ""
 
     const/4 v1, 0x1
 
     invoke-interface {p1, v0, v1}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1965
+    .line 1967
     :cond_0
     return-void
 .end method
@@ -613,29 +613,29 @@
     .param p2, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 1881
+    .line 1883
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v2, 0x9
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1882
+    .line 1884
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->INVALID:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     iput-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 1883
+    .line 1885
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 1884
+    .line 1886
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 1885
+    .line 1887
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {p2}, Lcom/nuance/input/swypecorelib/Candidates;->getExactCandidateString()Ljava/lang/CharSequence;
@@ -644,7 +644,7 @@
 
     invoke-virtual {v1, v2}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
-    .line 1886
+    .line 1888
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
@@ -653,31 +653,31 @@
 
     if-lez v1, :cond_3
 
-    .line 1887
+    .line 1889
     if-eqz p1, :cond_1
 
-    .line 1888
+    .line 1890
     invoke-interface {p1}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 1889
+    .line 1891
     iget-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mTextInputPredictionOn:Z
 
     if-eqz v1, :cond_4
 
-    .line 1891
+    .line 1893
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 1892
+    .line 1894
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getWordDecorator()Lcom/nuance/swype/util/WordDecorator;
 
     move-result-object v1
 
-    .line 1893
+    .line 1895
     if-nez v1, :cond_0
 
-    .line 1894
+    .line 1896
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->toString()Ljava/lang/String;
@@ -694,7 +694,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 1898
+    .line 1900
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
@@ -707,7 +707,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 1907
+    .line 1909
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mWordComposeSpan:Landroid/text/style/UnderlineSpan;
@@ -724,23 +724,23 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 1911
+    .line 1913
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-static {p1, v1}, Lcom/nuance/swype/util/InputConnectionUtils;->setComposingText(Landroid/view/inputmethod/InputConnection;Ljava/lang/CharSequence;)V
 
-    .line 1920
+    .line 1922
     :goto_0
     invoke-interface {p1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
-    .line 1923
+    .line 1925
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/EditState;->composeWordCandidate()V
 
-    .line 1925
+    .line 1927
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -749,11 +749,11 @@
 
     move-result-object v0
 
-    .line 1927
+    .line 1929
     .local v0, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v0, :cond_2
 
-    .line 1928
+    .line 1930
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->toString()Ljava/lang/String;
@@ -762,7 +762,7 @@
 
     invoke-interface {v0, v1}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordInlineText(Ljava/lang/String;)V
 
-    .line 1931
+    .line 1933
     :cond_2
     invoke-virtual {p2}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -772,17 +772,17 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 1932
+    .line 1934
     const/4 v1, 0x2
 
     iput v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 1935
+    .line 1937
     .end local v0    # "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     :cond_3
     return-void
 
-    .line 1912
+    .line 1914
     :cond_4
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -792,14 +792,14 @@
 
     if-eqz v1, :cond_5
 
-    .line 1914
+    .line 1916
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->sendTextAsKeys(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
-    .line 1916
+    .line 1918
     :cond_5
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -807,14 +807,14 @@
 
     invoke-interface {p1, v1, v2}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1917
+    .line 1919
     sget-object v1, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "cursor displayDefaultCandidateAsInline"
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1918
+    .line 1920
     invoke-interface {p1}, Landroid/view/inputmethod/InputConnection;->finishComposingText()Z
 
     goto :goto_0
@@ -827,43 +827,43 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 1855
+    .line 1857
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v3, 0x9
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1856
+    .line 1858
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->INVALID:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     iput-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 1857
+    .line 1859
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->exactType:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->getExactType(Ljava/lang/StringBuilder;)V
 
-    .line 1858
+    .line 1860
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 1859
+    .line 1861
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 1860
+    .line 1862
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->exactType:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v3}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
-    .line 1861
+    .line 1863
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mWordComposeSpan:Landroid/text/style/UnderlineSpan;
@@ -878,7 +878,7 @@
 
     invoke-virtual {v2, v3, v6, v4, v5}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 1864
+    .line 1866
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -887,11 +887,11 @@
 
     move-result-object v0
 
-    .line 1866
+    .line 1868
     .local v0, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v0, :cond_0
 
-    .line 1867
+    .line 1869
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->toString()Ljava/lang/String;
@@ -900,13 +900,13 @@
 
     invoke-interface {v0, v2}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordInlineText(Ljava/lang/String;)V
 
-    .line 1871
+    .line 1873
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getWordDecorator()Lcom/nuance/swype/util/WordDecorator;
 
     move-result-object v1
 
-    .line 1872
+    .line 1874
     .local v1, "wd":Lcom/nuance/swype/util/WordDecorator;
     if-eqz v1, :cond_1
 
@@ -924,12 +924,12 @@
 
     if-nez v2, :cond_1
 
-    .line 1873
+    .line 1875
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v1, v2, v6}, Lcom/nuance/swype/util/WordDecorator;->decorateUnrecognizedWord(Ljava/lang/CharSequence;Z)Ljava/lang/CharSequence;
 
-    .line 1876
+    .line 1878
     :cond_1
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -937,7 +937,7 @@
 
     invoke-interface {p1, v2, v3}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
-    .line 1878
+    .line 1880
     return-void
 .end method
 
@@ -951,7 +951,7 @@
 
     const/4 v3, 0x0
 
-    .line 2260
+    .line 2262
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v4, :cond_0
@@ -967,12 +967,12 @@
     :cond_0
     move v2, v3
 
-    .line 2399
+    .line 2401
     :cond_1
     :goto_0
     return v2
 
-    .line 2266
+    .line 2268
     :cond_2
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mStarted:Z
 
@@ -980,14 +980,14 @@
 
     move v2, v3
 
-    .line 2267
+    .line 2269
     goto :goto_0
 
-    .line 2269
+    .line 2271
     :cond_3
     const/4 v2, 0x0
 
-    .line 2270
+    .line 2272
     .local v2, "wordCandidatesCount":I
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -995,7 +995,7 @@
 
     move-result-object v0
 
-    .line 2272
+    .line 2274
     .local v0, "candidates":Lcom/nuance/input/swypecorelib/Candidates;
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mPreferExplicit:Z
 
@@ -1011,64 +1011,64 @@
 
     if-eq v4, v5, :cond_4
 
-    .line 2274
+    .line 2276
     invoke-virtual {v0, v3}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 2275
+    .line 2277
     invoke-virtual {v0, v3}, Lcom/nuance/input/swypecorelib/Candidates;->setExactIndex(I)V
 
-    .line 2278
+    .line 2280
     :cond_4
     if-eqz v0, :cond_5
 
-    .line 2279
+    .line 2281
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->count()I
 
     move-result v2
 
-    .line 2282
+    .line 2284
     :cond_5
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 2283
+    .line 2285
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v1, :cond_6
 
-    .line 2284
+    .line 2286
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 2287
+    .line 2289
     :cond_6
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mTextInputPredictionOn:Z
 
     if-eqz v4, :cond_7
 
-    .line 2288
+    .line 2290
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->getWordListFormat(Lcom/nuance/input/swypecorelib/Candidates;)Lcom/nuance/swype/input/CandidatesListView$Format;
 
     move-result-object v4
 
     invoke-virtual {p0, p0, v0, v4}, Lcom/nuance/swype/input/AlphaInputView;->setSuggestions(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;Lcom/nuance/input/swypecorelib/Candidates;Lcom/nuance/swype/input/CandidatesListView$Format;)V
 
-    .line 2291
+    .line 2293
     :cond_7
     if-eqz p2, :cond_8
 
-    .line 2292
+    .line 2294
     if-eqz v1, :cond_1
 
-    .line 2293
+    .line 2295
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto :goto_0
 
-    .line 2298
+    .line 2300
     :cond_8
     if-lez v2, :cond_13
 
-    .line 2304
+    .line 2306
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->length()I
@@ -1090,17 +1090,17 @@
 
     if-lez v4, :cond_a
 
-    .line 2305
+    .line 2307
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 2306
+    .line 2308
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 2307
+    .line 2309
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->getExactCandidateString()Ljava/lang/CharSequence;
@@ -1109,7 +1109,7 @@
 
     invoke-virtual {v4, v5}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
-    .line 2313
+    .line 2315
     :cond_a
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -1119,7 +1119,7 @@
 
     if-lez v4, :cond_f
 
-    .line 2318
+    .line 2320
     sget-object v4, Lcom/nuance/input/swypecorelib/Candidates$Source;->TRACE:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-eq p1, v4, :cond_b
@@ -1144,12 +1144,12 @@
 
     if-nez v4, :cond_b
 
-    .line 2322
+    .line 2324
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 2323
+    .line 2325
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mBKWordErrorSpan:Landroid/text/style/BackgroundColorSpan;
@@ -1162,7 +1162,7 @@
 
     invoke-virtual {v4, v5, v3, v6, v7}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 2325
+    .line 2327
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mFGWordErrorSpan:Landroid/text/style/ForegroundColorSpan;
@@ -1175,29 +1175,29 @@
 
     invoke-virtual {v4, v5, v3, v6, v7}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 2329
+    .line 2331
     :cond_b
     if-eqz v1, :cond_e
 
-    .line 2330
+    .line 2332
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 2331
+    .line 2333
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mTextInputPredictionOn:Z
 
     if-eqz v4, :cond_11
 
-    .line 2333
+    .line 2335
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 2334
+    .line 2336
     sget-object v4, Lcom/nuance/input/swypecorelib/Candidates$Source;->TRACE:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-eq p1, v4, :cond_c
 
-    .line 2335
+    .line 2337
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mWordComposeSpan:Landroid/text/style/UnderlineSpan;
@@ -1210,21 +1210,21 @@
 
     invoke-virtual {v4, v5, v3, v6, v7}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 2338
+    .line 2340
     :cond_c
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getWordDecorator()Lcom/nuance/swype/util/WordDecorator;
 
     move-result-object v4
 
-    .line 2339
+    .line 2341
     if-eqz v4, :cond_10
 
-    .line 2340
+    .line 2342
     sget-object v3, Lcom/nuance/input/swypecorelib/Candidates$Source;->TRACE:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-eq p1, v3, :cond_d
 
-    .line 2341
+    .line 2343
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -1237,24 +1237,24 @@
 
     invoke-virtual {v3, v4}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->isKnownWord(Ljava/lang/String;)Z
 
-    .line 2361
+    .line 2363
     :cond_d
     :goto_1
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-static {v1, v3}, Lcom/nuance/swype/util/InputConnectionUtils;->setComposingText(Landroid/view/inputmethod/InputConnection;Ljava/lang/CharSequence;)V
 
-    .line 2373
+    .line 2375
     :goto_2
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
-    .line 2376
+    .line 2378
     :cond_e
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v3}, Lcom/nuance/swype/input/EditState;->composeWordCandidate()V
 
-    .line 2378
+    .line 2380
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-result-object v3
@@ -1263,22 +1263,22 @@
 
     if-ne v3, v4, :cond_f
 
-    .line 2379
+    .line 2381
     const/4 v3, 0x2
 
     iput v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 2396
+    .line 2398
     :cond_f
     :goto_3
     if-eqz v1, :cond_1
 
-    .line 2397
+    .line 2399
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
 
-    .line 2344
+    .line 2346
     :cond_10
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -1296,7 +1296,7 @@
 
     invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 2348
+    .line 2350
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v4}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
@@ -1309,7 +1309,7 @@
 
     if-eqz v4, :cond_d
 
-    .line 2357
+    .line 2359
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mWordComposeSpan:Landroid/text/style/UnderlineSpan;
@@ -1324,7 +1324,7 @@
 
     goto :goto_1
 
-    .line 2364
+    .line 2366
     :cond_11
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -1334,14 +1334,14 @@
 
     if-eqz v3, :cond_12
 
-    .line 2366
+    .line 2368
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/AlphaInputView;->sendTextAsKeys(Ljava/lang/CharSequence;)V
 
     goto :goto_2
 
-    .line 2369
+    .line 2371
     :cond_12
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -1349,33 +1349,33 @@
 
     invoke-interface {v1, v3, v4}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2370
+    .line 2372
     sget-object v3, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v4, "cursor displaySuggestions"
 
     invoke-virtual {v3, v4}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 2371
+    .line 2373
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->finishComposingText()Z
 
     goto :goto_2
 
-    .line 2386
+    .line 2388
     :cond_13
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 2389
+    .line 2391
     sget-object v3, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-eq p1, v3, :cond_f
 
-    .line 2390
+    .line 2392
     sget-object v3, Lcom/nuance/input/swypecorelib/Candidates$Source;->TRACE:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-ne p1, v3, :cond_f
 
-    .line 2391
+    .line 2393
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->setNotMatchToolTipSuggestion()V
 
     goto :goto_3
@@ -1391,7 +1391,7 @@
 
     const/4 v7, -0x1
 
-    .line 4142
+    .line 4144
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHshPointers:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1404,27 +1404,27 @@
 
     check-cast v2, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;
 
-    .line 4144
+    .line 4146
     .local v2, "pointer":Lcom/nuance/swype/input/KeyboardViewEx$Pointer;
     if-nez v2, :cond_0
 
-    .line 4179
+    .line 4181
     :goto_0
     return-void
 
-    .line 4148
+    .line 4150
     :cond_0
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;->getCurrentKeyIndex()I
 
     move-result v1
 
-    .line 4149
+    .line 4151
     .local v1, "keyIndex":I
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;->getCurrentLocation()Landroid/graphics/Point;
 
     move-result-object v3
 
-    .line 4151
+    .line 4153
     .local v3, "pt":Landroid/graphics/Point;
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHandler:Landroid/os/Handler;
 
@@ -1432,47 +1432,47 @@
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4152
+    .line 4154
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHandler:Landroid/os/Handler;
 
     const/16 v6, 0x3eb
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4153
+    .line 4155
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHandler:Landroid/os/Handler;
 
     const/16 v6, 0x68
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4154
+    .line 4156
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHandler:Landroid/os/Handler;
 
     const/16 v6, 0x3ed
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4155
+    .line 4157
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mHandler:Landroid/os/Handler;
 
     const/16 v6, 0x3ef
 
     invoke-virtual {v5, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 4157
+    .line 4159
     invoke-virtual {p0, v7, v7}, Lcom/nuance/swype/input/AlphaInputView;->showPreviewKey(II)V
 
-    .line 4159
+    .line 4161
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;->reset()V
 
-    .line 4160
+    .line 4162
     iput-wide p2, v2, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;->eventTime:J
 
-    .line 4162
+    .line 4164
     const/4 v0, 0x0
 
-    .line 4163
+    .line 4165
     .local v0, "keyCode":I
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeys:[Lcom/nuance/swype/input/KeyboardEx$Key;
 
@@ -1480,7 +1480,7 @@
 
     if-ge v1, v5, :cond_1
 
-    .line 4164
+    .line 4166
     if-eq v1, v7, :cond_4
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeys:[Lcom/nuance/swype/input/KeyboardEx$Key;
@@ -1491,19 +1491,19 @@
 
     aget v0, v5, v4
 
-    .line 4168
+    .line 4170
     :cond_1
     :goto_1
     if-eqz v3, :cond_2
 
-    .line 4169
+    .line 4171
     iget v5, v3, Landroid/graphics/Point;->x:I
 
     iget v6, v3, Landroid/graphics/Point;->y:I
 
     invoke-virtual {p0, v5, v6, p2, p3}, Lcom/nuance/swype/input/AlphaInputView;->detectAndSendKey(IIJ)V
 
-    .line 4171
+    .line 4173
     :cond_2
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardActionListener:Lcom/nuance/swype/input/KeyboardViewEx$OnKeyboardActionListener;
 
@@ -1511,25 +1511,25 @@
 
     if-eq v1, v7, :cond_3
 
-    .line 4172
+    .line 4174
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardActionListener:Lcom/nuance/swype/input/KeyboardViewEx$OnKeyboardActionListener;
 
     invoke-interface {v5, v0}, Lcom/nuance/swype/input/KeyboardViewEx$OnKeyboardActionListener;->onRelease(I)V
 
-    .line 4174
+    .line 4176
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->dismissSingleAltCharPopup()V
 
-    .line 4175
+    .line 4177
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->hideKeyPreview(I)V
 
-    .line 4176
+    .line 4178
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->resetTrace()V
 
-    .line 4177
+    .line 4179
     iput v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mRepeatKeyIndex:I
 
-    .line 4178
+    .line 4180
     iput-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyRepeated:Z
 
     goto :goto_0
@@ -1537,7 +1537,7 @@
     :cond_4
     move v0, v4
 
-    .line 4164
+    .line 4166
     goto :goto_1
 .end method
 
@@ -1579,17 +1579,17 @@
 
     const/4 v3, 0x0
 
-    .line 3250
+    .line 3252
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->backspaceRevertHandler:Lcom/nuance/swype/input/BackspaceRevertHandler;
 
     if-nez v0, :cond_1
 
-    .line 3267
+    .line 3269
     :cond_0
     :goto_0
     return-void
 
-    .line 3254
+    .line 3256
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->charUtils:Lcom/nuance/swype/util/CharacterUtilities;
 
@@ -1609,7 +1609,7 @@
 
     move v7, v6
 
-    .line 3255
+    .line 3257
     .local v7, "isAcceptRevert":Z
     :goto_1
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
@@ -1630,18 +1630,18 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3256
+    .line 3258
     if-eqz v7, :cond_0
 
-    .line 3261
+    .line 3263
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->handleOverrideCacheAddSelectedCandidate(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 3263
+    .line 3265
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->processDeferredSuggestionUpdates()Z
 
-    .line 3264
+    .line 3266
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -1664,7 +1664,7 @@
     :cond_2
     move v7, v3
 
-    .line 3254
+    .line 3256
     goto :goto_1
 .end method
 
@@ -1718,17 +1718,17 @@
     .param p1, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 3292
+    .line 3294
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectOverrideWords:Lcom/nuance/swype/util/LruWordCache;
 
     if-nez v1, :cond_1
 
-    .line 3309
+    .line 3311
     :cond_0
     :goto_0
     return-void
 
-    .line 3298
+    .line 3300
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -1748,7 +1748,7 @@
 
     if-nez v1, :cond_2
 
-    .line 3300
+    .line 3302
     sget-object v1, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1771,7 +1771,7 @@
 
     goto :goto_0
 
-    .line 3304
+    .line 3306
     :cond_2
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -1783,7 +1783,7 @@
 
     move-result-object v0
 
-    .line 3305
+    .line 3307
     .local v0, "word":Ljava/lang/String;
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -1793,7 +1793,7 @@
 
     if-nez v1, :cond_0
 
-    .line 3306
+    .line 3308
     sget-object v1, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1812,7 +1812,7 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3307
+    .line 3309
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectOverrideWords:Lcom/nuance/swype/util/LruWordCache;
 
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
@@ -1835,17 +1835,17 @@
     .param p1, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 3274
+    .line 3276
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectOverrideWords:Lcom/nuance/swype/util/LruWordCache;
 
     if-nez v1, :cond_1
 
-    .line 3286
+    .line 3288
     :cond_0
     :goto_0
     return-void
 
-    .line 3279
+    .line 3281
     :cond_1
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -1859,7 +1859,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 3280
+    .line 3282
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/Candidates;->getExactCandidateString()Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -1868,7 +1868,7 @@
 
     move-result-object v0
 
-    .line 3281
+    .line 3283
     .local v0, "cand":Ljava/lang/String;
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectOverrideWords:Lcom/nuance/swype/util/LruWordCache;
 
@@ -1884,14 +1884,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 3282
+    .line 3284
     sget-object v1, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "setSuggestions(): setting default to exact (word cache)"
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3283
+    .line 3285
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/Candidates;->getExactCandidateIndex()I
 
     move-result v1
@@ -1908,12 +1908,12 @@
     .param p3, "eventTime"    # J
 
     .prologue
-    .line 1802
+    .line 1804
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 1804
+    .line 1806
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v1, :cond_0
 
@@ -1921,25 +1921,25 @@
 
     if-nez v2, :cond_1
 
-    .line 1851
+    .line 1853
     :cond_0
     :goto_0
     return-void
 
-    .line 1808
+    .line 1810
     :cond_1
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v2, :cond_0
 
-    .line 1809
+    .line 1811
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isComposingText()Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
-    .line 1810
+    .line 1812
     iget-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
 
     if-eqz v2, :cond_2
@@ -1952,14 +1952,14 @@
 
     if-eqz v2, :cond_2
 
-    .line 1811
+    .line 1813
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->triggerCapitalizationGestureTip()V
 
-    .line 1813
+    .line 1815
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateWordContext()V
 
-    .line 1817
+    .line 1819
     :cond_3
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -1973,15 +1973,15 @@
 
     if-le v2, v3, :cond_4
 
-    .line 1818
+    .line 1820
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 1819
+    .line 1821
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
-    .line 1822
+    .line 1824
     :cond_4
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/nuance/swype/input/AlphaInputView;->processKeyCodeDetectCapsSupport(Landroid/graphics/Point;IJ)Z
 
@@ -1989,7 +1989,7 @@
 
     if-eqz v2, :cond_8
 
-    .line 1824
+    .line 1826
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->isAlphabetMode()Z
@@ -1998,12 +1998,12 @@
 
     if-eqz v2, :cond_5
 
-    .line 1825
+    .line 1827
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v0
 
-    .line 1826
+    .line 1828
     .local v0, "editorInfo":Landroid/view/inputmethod/EditorInfo;
     if-eqz v0, :cond_7
 
@@ -2013,12 +2013,12 @@
 
     if-eqz v2, :cond_7
 
-    .line 1827
+    .line 1829
     sget-object v2, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->LOCKED:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 1833
+    .line 1835
     .end local v0    # "editorInfo":Landroid/view/inputmethod/EditorInfo;
     :cond_5
     :goto_1
@@ -2028,12 +2028,12 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/input/EditState;->characterTyped(C)V
 
-    .line 1835
+    .line 1837
     const/4 v2, 0x0
 
     iput-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->isHypenInput:Z
 
-    .line 1836
+    .line 1838
     int-to-char v2, p2
 
     const/16 v3, 0x2d
@@ -2046,23 +2046,23 @@
 
     if-eqz v2, :cond_6
 
-    .line 1837
+    .line 1839
     const/4 v2, 0x1
 
     iput-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->isHypenInput:Z
 
-    .line 1840
+    .line 1842
     :cond_6
     invoke-direct {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->displayExactTypeAsInline(Landroid/view/inputmethod/InputConnection;)V
 
-    .line 1843
+    .line 1845
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->updateSuggestions(Lcom/nuance/input/swypecorelib/Candidates$Source;)I
 
     goto :goto_0
 
-    .line 1828
+    .line 1830
     .restart local v0    # "editorInfo":Landroid/view/inputmethod/EditorInfo;
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -2073,14 +2073,14 @@
 
     if-ne v2, v3, :cond_5
 
-    .line 1829
+    .line 1831
     sget-object v2, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
     goto :goto_1
 
-    .line 1848
+    .line 1850
     .end local v0    # "editorInfo":Landroid/view/inputmethod/EditorInfo;
     :cond_8
     int-to-char v2, p2
@@ -2103,39 +2103,39 @@
 
     const/4 v4, 0x0
 
-    .line 1968
+    .line 1970
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v2
 
-    .line 1969
+    .line 1971
     if-eqz v2, :cond_0
 
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-nez v2, :cond_1
 
-    .line 2066
+    .line 2068
     :cond_0
     :goto_0
     return-void
 
-    .line 1973
+    .line 1975
     :cond_1
     const/16 v2, 0x20
 
     if-ne p1, v2, :cond_2
 
-    .line 1974
+    .line 1976
     invoke-virtual {p0, v4, v5}, Lcom/nuance/swype/input/AlphaInputView;->handleSpace(ZI)Z
 
     goto :goto_0
 
-    .line 1978
+    .line 1980
     :cond_2
     const/4 v0, 0x0
 
-    .line 1981
+    .line 1983
     .local v0, "symbolUsedInSelectWord":Ljava/lang/StringBuilder;
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isEmptyCandidateList()Z
 
@@ -2143,14 +2143,14 @@
 
     if-nez v2, :cond_9
 
-    .line 1982
+    .line 1984
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-result-object v1
 
-    .line 1984
+    .line 1986
     .local v1, "wlSource":Lcom/nuance/input/swypecorelib/Candidates$Source;
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->RECAPTURE_BY_TEXT_SELECTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -2168,7 +2168,7 @@
 
     if-eq v1, v2, :cond_8
 
-    .line 1989
+    .line 1991
     int-to-char v2, p1
 
     invoke-static {v2}, Ljava/lang/Character;->isWhitespace(C)Z
@@ -2177,17 +2177,17 @@
 
     if-nez v3, :cond_3
 
-    .line 1990
+    .line 1992
     new-instance v0, Ljava/lang/StringBuilder;
 
     .end local v0    # "symbolUsedInSelectWord":Ljava/lang/StringBuilder;
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 1991
+    .line 1993
     .restart local v0    # "symbolUsedInSelectWord":Ljava/lang/StringBuilder;
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 1996
+    .line 1998
     :cond_3
     if-eqz v0, :cond_7
 
@@ -2221,7 +2221,7 @@
 
     if-nez v2, :cond_7
 
-    .line 2004
+    .line 2006
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -2232,7 +2232,7 @@
 
     invoke-direct {p0, v2, v7, v3}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 2005
+    .line 2007
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->charAt(I)C
 
     move-result v2
@@ -2241,27 +2241,27 @@
 
     invoke-direct {p0, v2, v3}, Lcom/nuance/swype/input/AlphaInputView;->promotingTermPunctOrSingleLetter(CLcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2021
+    .line 2023
     .end local v1    # "wlSource":Lcom/nuance/input/swypecorelib/Candidates$Source;
     :cond_4
     :goto_1
     if-ne p1, v6, :cond_5
 
-    .line 2022
+    .line 2024
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v2, v7}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setContext([C)V
 
-    .line 2025
+    .line 2027
     :cond_5
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/EditState;->punctuationOrSymbols()V
 
-    .line 2027
+    .line 2029
     if-nez v0, :cond_6
 
-    .line 2028
+    .line 2030
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
@@ -2270,17 +2270,17 @@
 
     if-eqz v2, :cond_a
 
-    .line 2029
+    .line 2031
     int-to-char v2, p1
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->sendHardKeyChar(C)V
 
-    .line 2042
+    .line 2044
     :cond_6
     :goto_2
     invoke-virtual {p0, v5}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 2044
+    .line 2046
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v2, :cond_c
@@ -2293,17 +2293,17 @@
 
     if-eqz v2, :cond_c
 
-    .line 2047
+    .line 2049
     if-ne p1, v6, :cond_0
 
-    .line 2048
+    .line 2050
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
     goto/16 :goto_0
 
-    .line 2007
+    .line 2009
     .restart local v1    # "wlSource":Lcom/nuance/input/swypecorelib/Candidates$Source;
     :cond_7
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -2318,28 +2318,28 @@
 
     goto :goto_1
 
-    .line 2011
+    .line 2013
     :cond_8
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-eq v1, v2, :cond_4
 
-    .line 2012
+    .line 2014
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     goto :goto_1
 
-    .line 2016
+    .line 2018
     .end local v1    # "wlSource":Lcom/nuance/input/swypecorelib/Candidates$Source;
     :cond_9
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 2017
+    .line 2019
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     goto :goto_1
 
-    .line 2034
+    .line 2036
     :cond_a
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->terminalPunct:Ljava/lang/String;
 
@@ -2357,7 +2357,7 @@
 
     if-eq v2, v3, :cond_b
 
-    .line 2035
+    .line 2037
     int-to-char v2, p1
 
     sget-object v3, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -2366,7 +2366,7 @@
 
     goto :goto_2
 
-    .line 2037
+    .line 2039
     :cond_b
     int-to-char v2, p1
 
@@ -2374,7 +2374,7 @@
 
     goto :goto_2
 
-    .line 2051
+    .line 2053
     :cond_c
     iget-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mNextWordPredictionOn:Z
 
@@ -2386,7 +2386,7 @@
 
     if-nez v2, :cond_0
 
-    .line 2054
+    .line 2056
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->charUtils:Lcom/nuance/swype/util/CharacterUtilities;
 
     invoke-virtual {v2, p1}, Lcom/nuance/swype/util/CharacterUtilities;->isTerminalPunctuation(I)Z
@@ -2403,35 +2403,35 @@
 
     if-eqz v2, :cond_e
 
-    .line 2055
+    .line 2057
     :cond_d
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2056
+    .line 2058
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
-    .line 2057
+    .line 2059
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateWordContext()V
 
-    .line 2058
+    .line 2060
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->updateSuggestions(Lcom/nuance/input/swypecorelib/Candidates$Source;)I
 
     goto/16 :goto_0
 
-    .line 2060
+    .line 2062
     :cond_e
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2061
+    .line 2063
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
-    .line 2062
+    .line 2064
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     goto/16 :goto_0
@@ -2445,19 +2445,19 @@
 
     const/4 v0, 0x0
 
-    .line 2532
+    .line 2534
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->currentLanguageSupportsCapitalization()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 2542
+    .line 2544
     :cond_0
     :goto_0
     return v0
 
-    .line 2535
+    .line 2537
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isExploreByTouchOn()Z
 
@@ -2465,14 +2465,14 @@
 
     if-eqz v2, :cond_2
 
-    .line 2537
+    .line 2539
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->announceToggleCapsLock()Z
 
     move-result v0
 
     goto :goto_0
 
-    .line 2538
+    .line 2540
     :cond_2
     invoke-direct {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->toggleCapsLock(Z)Z
 
@@ -2480,12 +2480,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 2539
+    .line 2541
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
     move v0, v1
 
-    .line 2540
+    .line 2542
     goto :goto_0
 .end method
 
@@ -2494,23 +2494,23 @@
     .param p1, "primaryCode"    # I
 
     .prologue
-    .line 1949
+    .line 1951
     const/16 v0, 0x20
 
     if-ne p1, v0, :cond_0
 
-    .line 1950
+    .line 1952
     const/4 v0, 0x0
 
     const/4 v1, 0x1
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->handleSpace(ZI)Z
 
-    .line 1956
+    .line 1958
     :goto_0
     return-void
 
-    .line 1955
+    .line 1957
     :cond_0
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handlePunctOrSymbol(I)V
 
@@ -2521,7 +2521,7 @@
     .locals 1
 
     .prologue
-    .line 3982
+    .line 3984
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v0, :cond_0
@@ -2647,16 +2647,16 @@
     .param p1, "mode"    # Ljava/lang/String;
 
     .prologue
-    .line 4231
+    .line 4233
     const-string v0, ""
 
-    .line 4232
+    .line 4234
     .local v0, "currentInputMode":Ljava/lang/String;
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     if-eqz v1, :cond_0
 
-    .line 4233
+    .line 4235
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->getCurrentInputMode()Lcom/nuance/swype/input/InputMethods$InputMode;
@@ -2665,7 +2665,7 @@
 
     iget-object v0, v1, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
-    .line 4235
+    .line 4237
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->isVietnameseLanguage()Z
@@ -2674,14 +2674,14 @@
 
     if-nez v1, :cond_0
 
-    .line 4236
+    .line 4238
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     instance-of v1, v1, Lcom/nuance/swype/input/BilingualLanguage;
 
     if-eqz v1, :cond_0
 
-    .line 4237
+    .line 4239
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     check-cast v1, Lcom/nuance/swype/input/BilingualLanguage;
@@ -2690,7 +2690,7 @@
 
     move-result-object v1
 
-    .line 4239
+    .line 4241
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->isVietnameseLanguage()Z
 
     move-result v1
@@ -2705,10 +2705,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 4242
+    .line 4244
     const-string v0, "telex"
 
-    .line 4247
+    .line 4249
     :cond_0
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2722,12 +2722,12 @@
     .param p1, "ch"    # C
 
     .prologue
-    .line 2080
+    .line 2082
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->terminalPunct:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 2081
+    .line 2083
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->getTerminalPunct()Ljava/lang/String;
@@ -2736,7 +2736,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->terminalPunct:Ljava/lang/String;
 
-    .line 2083
+    .line 2085
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->terminalPunct:Ljava/lang/String;
 
@@ -2770,7 +2770,7 @@
 
     const/4 v8, 0x0
 
-    .line 3696
+    .line 3698
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v9, :cond_0
@@ -2791,18 +2791,18 @@
 
     if-gtz v9, :cond_2
 
-    .line 3698
+    .line 3700
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     move v7, v8
 
-    .line 3754
+    .line 3756
     :cond_1
     :goto_0
     return v7
 
-    .line 3702
+    .line 3704
     :cond_2
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -2810,20 +2810,20 @@
 
     move-result v5
 
-    .line 3703
+    .line 3705
     .local v5, "wordCandidatesCount":I
     const/4 v3, 0x0
 
-    .line 3704
+    .line 3706
     .local v3, "isRight":Z
     const/16 v9, 0x16
 
     if-ne p1, v9, :cond_3
 
-    .line 3705
+    .line 3707
     const/4 v3, 0x1
 
-    .line 3707
+    .line 3709
     :cond_3
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -2831,30 +2831,30 @@
 
     move-result v1
 
-    .line 3709
+    .line 3711
     .local v1, "index":I
     if-eqz v3, :cond_7
 
-    .line 3710
+    .line 3712
     add-int/lit8 v1, v1, 0x1
 
-    .line 3715
+    .line 3717
     :goto_1
     if-eqz v3, :cond_8
 
     if-lt v1, v5, :cond_8
 
-    .line 3716
+    .line 3718
     add-int/lit8 v1, v5, -0x1
 
-    .line 3721
+    .line 3723
     :cond_4
     :goto_2
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v9, v1}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 3722
+    .line 3724
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     iget-object v10, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -2865,10 +2865,10 @@
 
     invoke-virtual {v9, v1, v10}, Lcom/nuance/swype/input/CandidatesListView;->touchWord(ILcom/nuance/input/swypecorelib/WordCandidate;)V
 
-    .line 3723
+    .line 3725
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 3724
+    .line 3726
     if-eqz v3, :cond_9
 
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
@@ -2879,12 +2879,12 @@
 
     if-eqz v9, :cond_9
 
-    .line 3725
+    .line 3727
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v9}, Lcom/nuance/swype/input/CandidatesListView;->scrollNext()V
 
-    .line 3730
+    .line 3732
     :cond_5
     :goto_3
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -2903,7 +2903,7 @@
 
     if-eqz v9, :cond_1
 
-    .line 3735
+    .line 3737
     :cond_6
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
@@ -2911,18 +2911,18 @@
 
     if-eqz v9, :cond_1
 
-    .line 3736
+    .line 3738
     new-instance v2, Landroid/text/SpannableStringBuilder;
 
     invoke-direct {v2}, Landroid/text/SpannableStringBuilder;-><init>()V
 
-    .line 3737
+    .line 3739
     .local v2, "inlineword":Landroid/text/SpannableStringBuilder;
     new-instance v4, Landroid/text/style/UnderlineSpan;
 
     invoke-direct {v4}, Landroid/text/style/UnderlineSpan;-><init>()V
 
-    .line 3738
+    .line 3740
     .local v4, "span":Landroid/text/style/UnderlineSpan;
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -2930,26 +2930,19 @@
 
     move-result-object v6
 
-    .line 3739
+    .line 3741
     .local v6, "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3740
+    .line 3742
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3741
+    .line 3743
     invoke-virtual {v6}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v9
 
     invoke-virtual {v2, v9}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
-
-    .line 3742
-    invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->length()I
-
-    move-result v9
-
-    invoke-virtual {v2, v4, v8, v9, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3744
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->length()I
@@ -2959,26 +2952,33 @@
     invoke-virtual {v2, v4, v8, v9, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3746
+    invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v9
+
+    invoke-virtual {v2, v4, v8, v9, v11}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+
+    .line 3748
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3747
+    .line 3749
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_1
 
-    .line 3748
+    .line 3750
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3749
+    .line 3751
     invoke-static {v0, v2}, Lcom/nuance/swype/util/InputConnectionUtils;->setComposingText(Landroid/view/inputmethod/InputConnection;Ljava/lang/CharSequence;)V
 
-    .line 3750
+    .line 3752
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
 
-    .line 3712
+    .line 3714
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     .end local v2    # "inlineword":Landroid/text/SpannableStringBuilder;
     .end local v4    # "span":Landroid/text/style/UnderlineSpan;
@@ -2988,18 +2988,18 @@
 
     goto :goto_1
 
-    .line 3717
+    .line 3719
     :cond_8
     if-nez v3, :cond_4
 
     if-gez v1, :cond_4
 
-    .line 3718
+    .line 3720
     const/4 v1, 0x0
 
     goto :goto_2
 
-    .line 3726
+    .line 3728
     :cond_9
     if-nez v3, :cond_5
 
@@ -3011,7 +3011,7 @@
 
     if-eqz v9, :cond_5
 
-    .line 3727
+    .line 3729
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v9}, Lcom/nuance/swype/input/CandidatesListView;->scrollPrev()V
@@ -3030,7 +3030,7 @@
 
     const/4 v6, 0x1
 
-    .line 3819
+    .line 3821
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v8, :cond_0
@@ -3051,18 +3051,18 @@
 
     if-gtz v8, :cond_2
 
-    .line 3821
+    .line 3823
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     move v6, v7
 
-    .line 3880
+    .line 3882
     :cond_1
     :goto_0
     return v6
 
-    .line 3825
+    .line 3827
     :cond_2
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -3070,20 +3070,20 @@
 
     move-result v4
 
-    .line 3826
+    .line 3828
     .local v4, "wordCandidatesCount":I
     const/4 v2, 0x0
 
-    .line 3827
+    .line 3829
     .local v2, "isRight":Z
     const/16 v8, 0x16
 
     if-ne p1, v8, :cond_3
 
-    .line 3828
+    .line 3830
     const/4 v2, 0x1
 
-    .line 3830
+    .line 3832
     :cond_3
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -3091,35 +3091,35 @@
 
     move-result v1
 
-    .line 3832
+    .line 3834
     .local v1, "index":I
     if-eqz v2, :cond_7
 
-    .line 3833
+    .line 3835
     add-int/lit8 v1, v1, 0x1
 
-    .line 3838
+    .line 3840
     :goto_1
     if-eqz v2, :cond_8
 
     if-lt v1, v4, :cond_8
 
-    .line 3839
+    .line 3841
     add-int/lit8 v1, v4, -0x1
 
-    .line 3844
+    .line 3846
     :cond_4
     :goto_2
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v8, v1}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 3845
+    .line 3847
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8, v6}, Lcom/nuance/swype/input/CandidatesListView;->setHardwareKeyboardUsed(Z)V
 
-    .line 3846
+    .line 3848
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -3130,10 +3130,10 @@
 
     invoke-virtual {v8, v1, v9}, Lcom/nuance/swype/input/CandidatesListView;->touchWord(ILcom/nuance/input/swypecorelib/WordCandidate;)V
 
-    .line 3847
+    .line 3849
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 3848
+    .line 3850
     if-eqz v2, :cond_9
 
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
@@ -3144,12 +3144,12 @@
 
     if-eqz v8, :cond_9
 
-    .line 3849
+    .line 3851
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/CandidatesListView;->scrollNext()V
 
-    .line 3854
+    .line 3856
     :cond_5
     :goto_3
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -3168,7 +3168,7 @@
 
     if-eqz v8, :cond_1
 
-    .line 3859
+    .line 3861
     :cond_6
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -3186,25 +3186,25 @@
 
     if-nez v8, :cond_1
 
-    .line 3861
+    .line 3863
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/CandidatesListView;->getCurrentSelectedCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
 
     move-result-object v5
 
-    .line 3862
+    .line 3864
     .local v5, "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3863
+    .line 3865
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3864
+    .line 3866
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v5}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
@@ -3213,12 +3213,12 @@
 
     invoke-virtual {v8, v9}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
-    .line 3865
+    .line 3867
     new-instance v3, Landroid/text/style/UnderlineSpan;
 
     invoke-direct {v3}, Landroid/text/style/UnderlineSpan;-><init>()V
 
-    .line 3866
+    .line 3868
     .local v3, "span":Landroid/text/style/UnderlineSpan;
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -3230,7 +3230,7 @@
 
     invoke-virtual {v8, v3, v7, v9, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3868
+    .line 3870
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
@@ -3241,29 +3241,29 @@
 
     invoke-virtual {v8, v3, v7, v9, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3871
+    .line 3873
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3873
+    .line 3875
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_1
 
-    .line 3874
+    .line 3876
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3875
+    .line 3877
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-interface {v0, v7, v6}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
-    .line 3876
+    .line 3878
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
 
-    .line 3835
+    .line 3837
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     .end local v3    # "span":Landroid/text/style/UnderlineSpan;
     .end local v5    # "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -3272,18 +3272,18 @@
 
     goto/16 :goto_1
 
-    .line 3840
+    .line 3842
     :cond_8
     if-nez v2, :cond_4
 
     if-gez v1, :cond_4
 
-    .line 3841
+    .line 3843
     const/4 v1, 0x0
 
     goto/16 :goto_2
 
-    .line 3850
+    .line 3852
     :cond_9
     if-nez v2, :cond_5
 
@@ -3295,7 +3295,7 @@
 
     if-eqz v8, :cond_5
 
-    .line 3851
+    .line 3853
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/CandidatesListView;->scrollPrev()V
@@ -3314,7 +3314,7 @@
 
     const/4 v6, 0x1
 
-    .line 3762
+    .line 3764
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v8, :cond_0
@@ -3335,35 +3335,35 @@
 
     if-gtz v8, :cond_2
 
-    .line 3764
+    .line 3766
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     move v6, v7
 
-    .line 3813
+    .line 3815
     :cond_1
     :goto_0
     return v6
 
-    .line 3768
+    .line 3770
     :cond_2
     const/4 v2, 0x0
 
-    .line 3769
+    .line 3771
     .local v2, "isDown":Z
     const/16 v8, 0x14
 
     if-ne p1, v8, :cond_3
 
-    .line 3770
+    .line 3772
     const/4 v2, 0x1
 
-    .line 3773
+    .line 3775
     :cond_3
     const/4 v1, 0x0
 
-    .line 3774
+    .line 3776
     .local v1, "index":I
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -3371,38 +3371,38 @@
 
     move-result v4
 
-    .line 3776
+    .line 3778
     .local v4, "wordCandidatesCount":I
     if-eqz v2, :cond_4
 
-    .line 3777
+    .line 3779
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/CandidatesListView;->getCenterCandidateIndex()I
 
     move-result v1
 
-    .line 3778
+    .line 3780
     const/4 v8, -0x1
 
     if-eq v1, v8, :cond_1
 
-    .line 3781
+    .line 3783
     if-ltz v1, :cond_4
 
     if-ge v1, v4, :cond_4
 
-    .line 3782
+    .line 3784
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v8, v1}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 3783
+    .line 3785
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8, v6}, Lcom/nuance/swype/input/CandidatesListView;->setHardwareKeyboardUsed(Z)V
 
-    .line 3784
+    .line 3786
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -3413,10 +3413,10 @@
 
     invoke-virtual {v8, v1, v9}, Lcom/nuance/swype/input/CandidatesListView;->touchWord(ILcom/nuance/input/swypecorelib/WordCandidate;)V
 
-    .line 3785
+    .line 3787
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 3789
+    .line 3791
     :cond_4
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -3434,7 +3434,7 @@
 
     if-eqz v8, :cond_1
 
-    .line 3793
+    .line 3795
     :cond_5
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -3452,25 +3452,25 @@
 
     if-nez v8, :cond_1
 
-    .line 3795
+    .line 3797
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v8}, Lcom/nuance/swype/input/CandidatesListView;->getCurrentSelectedCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
 
     move-result-object v5
 
-    .line 3796
+    .line 3798
     .local v5, "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3797
+    .line 3799
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v8}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3798
+    .line 3800
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v5}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
@@ -3479,12 +3479,12 @@
 
     invoke-virtual {v8, v9}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
 
-    .line 3799
+    .line 3801
     new-instance v3, Landroid/text/style/UnderlineSpan;
 
     invoke-direct {v3}, Landroid/text/style/UnderlineSpan;-><init>()V
 
-    .line 3800
+    .line 3802
     .local v3, "span":Landroid/text/style/UnderlineSpan;
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -3496,7 +3496,7 @@
 
     invoke-virtual {v8, v3, v7, v9, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3802
+    .line 3804
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
@@ -3507,24 +3507,24 @@
 
     invoke-virtual {v8, v3, v7, v9, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3805
+    .line 3807
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3807
+    .line 3809
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_1
 
-    .line 3808
+    .line 3810
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3809
+    .line 3811
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-interface {v0, v7, v6}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
-    .line 3810
+    .line 3812
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
@@ -3538,16 +3538,16 @@
     .prologue
     const/4 v7, 0x0
 
-    .line 1606
+    .line 1608
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 1607
+    .line 1609
     .local v1, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     if-eqz v1, :cond_1
 
-    .line 1608
+    .line 1610
     new-instance v6, Landroid/view/inputmethod/ExtractedTextRequest;
 
     invoke-direct {v6}, Landroid/view/inputmethod/ExtractedTextRequest;-><init>()V
@@ -3556,7 +3556,7 @@
 
     move-result-object v0
 
-    .line 1609
+    .line 1611
     .local v0, "eText":Landroid/view/inputmethod/ExtractedText;
     if-eqz v0, :cond_1
 
@@ -3568,16 +3568,16 @@
 
     if-nez v6, :cond_1
 
-    .line 1613
+    .line 1615
     iget v4, v0, Landroid/view/inputmethod/ExtractedText;->selectionEnd:I
 
-    .line 1614
+    .line 1616
     .local v4, "selectionEnd":I
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     move-result v2
 
-    .line 1615
+    .line 1617
     .local v2, "newWordLength":I
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->recaptureEditWord:Lcom/nuance/swype/input/RecaptureEditWord;
 
@@ -3585,7 +3585,7 @@
 
     move-result-object v3
 
-    .line 1617
+    .line 1619
     .local v3, "oldWord":Ljava/lang/String;
     if-eqz p2, :cond_3
 
@@ -3595,14 +3595,14 @@
 
     if-lez v6, :cond_3
 
-    .line 1618
+    .line 1620
     sub-int v6, v4, v2
 
     invoke-static {v7, v6}, Ljava/lang/Math;->max(II)I
 
     move-result v5
 
-    .line 1625
+    .line 1627
     .local v5, "startOfNewWord":I
     if-eqz v5, :cond_0
 
@@ -3620,7 +3620,7 @@
 
     if-eqz v6, :cond_2
 
-    .line 1627
+    .line 1629
     :cond_0
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -3632,14 +3632,14 @@
 
     invoke-virtual {v6, v7, v5, v2, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->noteWordWordChanged(Ljava/lang/String;IILjava/lang/String;)Z
 
-    .line 1636
+    .line 1638
     .end local v5    # "startOfNewWord":I
     :goto_0
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->recaptureEditWord:Lcom/nuance/swype/input/RecaptureEditWord;
 
     invoke-virtual {v6}, Lcom/nuance/swype/input/RecaptureEditWord;->clear()V
 
-    .line 1639
+    .line 1641
     .end local v0    # "eText":Landroid/view/inputmethod/ExtractedText;
     .end local v2    # "newWordLength":I
     .end local v3    # "oldWord":Ljava/lang/String;
@@ -3647,7 +3647,7 @@
     :cond_1
     return-void
 
-    .line 1630
+    .line 1632
     .restart local v0    # "eText":Landroid/view/inputmethod/ExtractedText;
     .restart local v2    # "newWordLength":I
     .restart local v3    # "oldWord":Ljava/lang/String;
@@ -3666,7 +3666,7 @@
 
     goto :goto_0
 
-    .line 1633
+    .line 1635
     .end local v5    # "startOfNewWord":I
     :cond_3
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -3739,7 +3739,7 @@
     .prologue
     const/16 v1, 0x9
 
-    .line 1938
+    .line 1940
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->hasMessages(I)Z
@@ -3748,12 +3748,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 1939
+    .line 1941
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1940
+    .line 1942
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
@@ -3764,15 +3764,15 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
-    .line 1941
+    .line 1943
     sget-object v0, Lcom/nuance/input/swypecorelib/Candidates$Source;->INVALID:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 1942
+    .line 1944
     const/4 v0, 0x1
 
-    .line 1945
+    .line 1947
     :goto_0
     return v0
 
@@ -3792,7 +3792,7 @@
 
     const/4 v3, 0x1
 
-    .line 2071
+    .line 2073
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     new-array v1, v3, [C
@@ -3801,7 +3801,7 @@
 
     invoke-virtual {v0, v1, v3, p2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->addExplicit([CILcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 2072
+    .line 2074
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
@@ -3810,7 +3810,7 @@
 
     move-result-object v6
 
-    .line 2073
+    .line 2075
     .local v6, "candidates":Lcom/nuance/input/swypecorelib/Candidates;
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -3828,7 +3828,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/nuance/swype/input/AlphaInputView;->selectWord(Lcom/nuance/input/swypecorelib/XT9CoreInput;IIIZ)V
 
-    .line 2075
+    .line 2077
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
@@ -3843,12 +3843,12 @@
 
     invoke-virtual {v0, v1, v3}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2076
+    .line 2078
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
-    .line 2077
+    .line 2079
     return-void
 .end method
 
@@ -3859,7 +3859,7 @@
     .prologue
     const/high16 v6, -0x10000
 
-    .line 2624
+    .line 2626
     sget v4, Lcom/nuance/swype/input/R$style;->InlineStringAlpha:I
 
     sget-object v5, Lcom/nuance/swype/input/R$styleable;->InlineStringAlpha:[I
@@ -3868,13 +3868,13 @@
 
     move-result-object v0
 
-    .line 2627
+    .line 2629
     .local v0, "a":Landroid/content/res/TypedArray;
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->getIndexCount()I
 
     move-result v3
 
-    .line 2629
+    .line 2631
     .local v3, "n":I
     const/4 v2, 0x0
 
@@ -3882,18 +3882,18 @@
     :goto_0
     if-ge v2, v3, :cond_4
 
-    .line 2630
+    .line 2632
     invoke-virtual {v0, v2}, Landroid/content/res/TypedArray;->getIndex(I)I
 
     move-result v1
 
-    .line 2632
+    .line 2634
     .local v1, "attr":I
     sget v4, Lcom/nuance/swype/input/R$styleable;->InlineStringAlpha_wordErrorForegroundColor:I
 
     if-ne v1, v4, :cond_1
 
-    .line 2633
+    .line 2635
     new-instance v4, Landroid/text/style/ForegroundColorSpan;
 
     invoke-virtual {v0, v1, v6}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -3904,20 +3904,20 @@
 
     iput-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mFGWordErrorSpan:Landroid/text/style/ForegroundColorSpan;
 
-    .line 2629
+    .line 2631
     :cond_0
     :goto_1
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 2634
+    .line 2636
     :cond_1
     sget v4, Lcom/nuance/swype/input/R$styleable;->InlineStringAlpha_wordErrorBackgroundColor:I
 
     if-ne v1, v4, :cond_2
 
-    .line 2635
+    .line 2637
     new-instance v4, Landroid/text/style/BackgroundColorSpan;
 
     const/4 v5, 0x0
@@ -3932,13 +3932,13 @@
 
     goto :goto_1
 
-    .line 2636
+    .line 2638
     :cond_2
     sget v4, Lcom/nuance/swype/input/R$styleable;->InlineStringAlpha_multitapForegroundColor:I
 
     if-ne v1, v4, :cond_3
 
-    .line 2637
+    .line 2639
     new-instance v4, Landroid/text/style/ForegroundColorSpan;
 
     const/4 v5, -0x1
@@ -3953,13 +3953,13 @@
 
     goto :goto_1
 
-    .line 2639
+    .line 2641
     :cond_3
     sget v4, Lcom/nuance/swype/input/R$styleable;->InlineStringAlpha_multitapBackgroundColor:I
 
     if-ne v1, v4, :cond_0
 
-    .line 2640
+    .line 2642
     new-instance v4, Landroid/text/style/BackgroundColorSpan;
 
     invoke-virtual {v0, v1, v6}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -3972,12 +3972,12 @@
 
     goto :goto_1
 
-    .line 2644
+    .line 2646
     .end local v1    # "attr":I
     :cond_4
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 2645
+    .line 2647
     return-void
 .end method
 
@@ -4048,7 +4048,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 1642
+    .line 1644
     const/4 v4, 0x0
 
     move-object v0, p0
@@ -4063,7 +4063,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;ZZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;Z)V
 
-    .line 1643
+    .line 1645
     return-void
 .end method
 
@@ -4077,7 +4077,7 @@
     .param p6, "allowAddWordPrompt"    # Z
 
     .prologue
-    .line 1477
+    .line 1479
     sget-object v2, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -4122,19 +4122,19 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1479
+    .line 1481
     move-object/from16 v0, p0
 
     move-object/from16 v1, p5
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->setDefaultWordType(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 1480
+    .line 1482
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v8
 
-    .line 1481
+    .line 1483
     .local v8, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     if-eqz v8, :cond_0
 
@@ -4144,16 +4144,16 @@
 
     if-eqz v2, :cond_1
 
-    .line 1580
+    .line 1582
     :cond_0
     :goto_0
     return-void
 
-    .line 1485
+    .line 1487
     :cond_1
     const/4 v10, 0x0
 
-    .line 1488
+    .line 1490
     .local v10, "isNewWord":Z
     move-object/from16 v0, p0
 
@@ -4161,7 +4161,7 @@
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->setExplicitPromptState()V
 
-    .line 1490
+    .line 1492
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -4170,7 +4170,7 @@
 
     move-result-object v11
 
-    .line 1491
+    .line 1493
     .local v11, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v11, :cond_2
 
@@ -4180,7 +4180,7 @@
 
     if-eqz v2, :cond_2
 
-    .line 1492
+    .line 1494
     const/16 v2, 0x100
 
     move-object/from16 v0, p0
@@ -4189,11 +4189,11 @@
 
     move-result-object v12
 
-    .line 1493
+    .line 1495
     .local v12, "textBeforeCursor":Ljava/lang/CharSequence;
     if-eqz v12, :cond_2
 
-    .line 1494
+    .line 1496
     invoke-interface {v12}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -4202,7 +4202,7 @@
 
     invoke-interface {v11, v0, v2}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordSelectionListContext(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/String;)V
 
-    .line 1498
+    .line 1500
     .end local v12    # "textBeforeCursor":Ljava/lang/CharSequence;
     :cond_2
     move-object/from16 v0, p0
@@ -4223,12 +4223,12 @@
 
     invoke-virtual {v2, v3, v5}, Lcom/nuance/swype/input/EditState;->selectWord(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
 
-    .line 1505
+    .line 1507
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->id()I
 
     move-result v4
 
-    .line 1507
+    .line 1509
     .local v4, "index":I
     move-object/from16 v0, p0
 
@@ -4242,7 +4242,7 @@
 
     if-ne v2, v3, :cond_4
 
-    .line 1508
+    .line 1510
     move-object/from16 v0, p0
 
     iget-boolean v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mCompletionOn:Z
@@ -4263,7 +4263,7 @@
 
     if-eqz p3, :cond_3
 
-    .line 1509
+    .line 1511
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mCompletions:Lcom/nuance/swype/input/Completions;
@@ -4274,15 +4274,15 @@
 
     invoke-virtual {v8, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitCompletion(Landroid/view/inputmethod/CompletionInfo;)Z
 
-    .line 1558
+    .line 1560
     :cond_3
     :goto_1
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 1561
+    .line 1563
     if-eqz p6, :cond_0
 
-    .line 1562
+    .line 1564
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -4309,7 +4309,7 @@
 
     if-nez v2, :cond_f
 
-    .line 1563
+    .line 1565
     new-instance v2, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidateForNonSpaceDelimeteredLanguage;
 
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
@@ -4326,7 +4326,7 @@
 
     goto/16 :goto_0
 
-    .line 1511
+    .line 1513
     :cond_4
     move-object/from16 v0, p0
 
@@ -4340,10 +4340,10 @@
 
     if-ne v2, v3, :cond_6
 
-    .line 1512
+    .line 1514
     if-eqz p3, :cond_5
 
-    .line 1513
+    .line 1515
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -4352,7 +4352,7 @@
 
     invoke-virtual {v8, v2, v3}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1515
+    .line 1517
     :cond_5
     move-object/from16 v0, p0
 
@@ -4360,7 +4360,7 @@
 
     goto :goto_1
 
-    .line 1517
+    .line 1519
     :cond_6
     move-object/from16 v0, p0
 
@@ -4372,7 +4372,7 @@
 
     if-eqz p3, :cond_7
 
-    .line 1519
+    .line 1521
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->backspaceRevertHandler:Lcom/nuance/swype/input/BackspaceRevertHandler;
@@ -4389,7 +4389,7 @@
 
     move-result p4
 
-    .line 1522
+    .line 1524
     :cond_7
     move-object/from16 v0, p0
 
@@ -4405,7 +4405,7 @@
 
     invoke-virtual/range {v2 .. v7}, Lcom/nuance/swype/input/AlphaInputView;->selectWord(Lcom/nuance/input/swypecorelib/XT9CoreInput;IIIZ)V
 
-    .line 1525
+    .line 1527
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -4418,13 +4418,13 @@
 
     move-result v9
 
-    .line 1526
+    .line 1528
     .local v9, "isKnownWord":Z
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v15
 
-    .line 1527
+    .line 1529
     .local v15, "wordSelected":Ljava/lang/String;
     sget-object v2, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -4456,21 +4456,21 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1529
+    .line 1531
     if-nez v9, :cond_c
 
     const/4 v10, 0x1
 
-    .line 1530
+    .line 1532
     :goto_2
     if-eqz p3, :cond_9
 
-    .line 1531
+    .line 1533
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->getWordDecorator()Lcom/nuance/swype/util/WordDecorator;
 
     move-result-object v14
 
-    .line 1532
+    .line 1534
     .local v14, "wd":Lcom/nuance/swype/util/WordDecorator;
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->contextPredictLength()I
 
@@ -4478,27 +4478,27 @@
 
     if-eqz v2, :cond_8
 
-    .line 1533
+    .line 1535
     const-string v2, ""
 
     const/4 v3, 0x1
 
     invoke-virtual {v8, v2, v3}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1534
+    .line 1536
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v2, v8}, Lcom/nuance/swype/input/IME;->deleteWord(Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;)V
 
-    .line 1536
+    .line 1538
     :cond_8
     if-nez v9, :cond_e
 
     if-eqz v14, :cond_e
 
-    .line 1537
+    .line 1539
     if-nez p4, :cond_d
 
     const/4 v2, 0x1
@@ -4512,23 +4512,23 @@
 
     invoke-virtual {v8, v2, v3}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1544
+    .line 1546
     .end local v14    # "wd":Lcom/nuance/swype/util/WordDecorator;
     :cond_9
     :goto_4
     if-eqz p2, :cond_b
 
-    .line 1545
+    .line 1547
     if-eqz p3, :cond_a
 
-    .line 1546
+    .line 1548
     const/4 v2, 0x1
 
     move-object/from16 v0, p2
 
     invoke-virtual {v8, v0, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1552
+    .line 1554
     :cond_a
     move-object/from16 v0, p0
 
@@ -4538,7 +4538,7 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setContext([C)V
 
-    .line 1555
+    .line 1557
     :cond_b
     invoke-virtual/range {p1 .. p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
@@ -4552,20 +4552,20 @@
 
     goto/16 :goto_1
 
-    .line 1529
+    .line 1531
     :cond_c
     const/4 v10, 0x0
 
     goto :goto_2
 
-    .line 1537
+    .line 1539
     .restart local v14    # "wd":Lcom/nuance/swype/util/WordDecorator;
     :cond_d
     const/4 v2, 0x0
 
     goto :goto_3
 
-    .line 1539
+    .line 1541
     :cond_e
     const/4 v2, 0x1
 
@@ -4573,7 +4573,7 @@
 
     goto :goto_4
 
-    .line 1566
+    .line 1568
     .end local v9    # "isKnownWord":Z
     .end local v14    # "wd":Lcom/nuance/swype/util/WordDecorator;
     .end local v15    # "wordSelected":Ljava/lang/String;
@@ -4588,7 +4588,7 @@
 
     if-eqz v2, :cond_10
 
-    .line 1567
+    .line 1569
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
@@ -4597,7 +4597,7 @@
 
     move-result-object v13
 
-    .line 1568
+    .line 1570
     .local v13, "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     const-string v2, "DICTIONARY_HKB"
 
@@ -4609,14 +4609,14 @@
 
     if-nez v2, :cond_10
 
-    .line 1569
+    .line 1571
     const-string v2, "DICTIONARY_HKB"
 
     const/4 v3, 0x1
 
     invoke-virtual {v13, v2, v3}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 1570
+    .line 1572
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
@@ -4635,7 +4635,7 @@
 
     invoke-static {v2, v3, v5}, Lcom/nuance/swype/input/InputMethodToast;->show(Landroid/content/Context;Ljava/lang/CharSequence;I)V
 
-    .line 1577
+    .line 1579
     .end local v13    # "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     :cond_10
     move-object/from16 v0, p0
@@ -4652,28 +4652,28 @@
     .param p1, "ch"    # C
 
     .prologue
-    .line 1793
+    .line 1795
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 1794
+    .line 1796
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isShifted()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1795
+    .line 1797
     invoke-static {p1}, Ljava/lang/Character;->toUpperCase(C)C
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyChar(C)V
 
-    .line 1799
+    .line 1801
     :goto_0
     return-void
 
-    .line 1797
+    .line 1799
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyChar(C)V
 
@@ -4687,12 +4687,12 @@
     .prologue
     const/16 v2, 0x64
 
-    .line 1763
+    .line 1765
     iget-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardInputSuggestionOn:Z
 
     if-eqz v0, :cond_0
 
-    .line 1764
+    .line 1766
     const-string v0, "multitap"
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -4701,19 +4701,19 @@
 
     if-eqz v0, :cond_1
 
-    .line 1766
+    .line 1768
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v2, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setAttribute(II)Z
 
-    .line 1774
+    .line 1776
     :cond_0
     :goto_0
     return-void
 
-    .line 1769
+    .line 1771
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -4721,7 +4721,7 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setAttribute(II)Z
 
-    .line 1770
+    .line 1772
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/16 v1, 0x65
@@ -4737,7 +4737,7 @@
     .locals 2
 
     .prologue
-    .line 1749
+    .line 1751
     iget v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardLayoutId:I
 
     const/16 v1, 0x900
@@ -4758,7 +4758,7 @@
 
     if-nez v0, :cond_0
 
-    .line 1753
+    .line 1755
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -4775,20 +4775,20 @@
 
     if-eqz v0, :cond_1
 
-    .line 1754
+    .line 1756
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->toggleAmbigMode()V
 
-    .line 1755
+    .line 1757
     const-string v0, "multitap"
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->setCorrectionLevel(Ljava/lang/String;)V
 
-    .line 1760
+    .line 1762
     :cond_0
     :goto_0
     return-void
 
-    .line 1757
+    .line 1759
     :cond_1
     const/4 v0, 0x0
 
@@ -4802,21 +4802,21 @@
     .param p1, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 2707
+    .line 2709
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->backspaceRevertHandler:Lcom/nuance/swype/input/BackspaceRevertHandler;
 
     if-eqz v0, :cond_0
 
-    .line 2708
+    .line 2710
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->backspaceRevertHandler:Lcom/nuance/swype/input/BackspaceRevertHandler;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/BackspaceRevertHandler;->onSetSuggestions(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 2712
+    .line 2714
     :cond_0
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handleOverrideCacheFilterSuggestions(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 2714
+    .line 2716
     return-void
 .end method
 
@@ -5168,7 +5168,7 @@
     .param p1, "overrideKeyLockableFlag"    # Z
 
     .prologue
-    .line 2492
+    .line 2494
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->isAlphabetMode()Z
@@ -5177,29 +5177,29 @@
 
     if-eqz v2, :cond_2
 
-    .line 2493
+    .line 2495
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     move-result-object v2
 
-    .line 2495
+    .line 2497
     sget-object v3, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->LOCKED:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     if-ne v2, v3, :cond_1
 
-    .line 2496
+    .line 2498
     sget-object v0, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
-    .line 2500
+    .line 2502
     .local v0, "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     :goto_0
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2, v0, p1}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;Z)Z
 
-    .line 2502
+    .line 2504
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -5208,11 +5208,11 @@
 
     move-result-object v1
 
-    .line 2503
+    .line 2505
     .local v1, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v1, :cond_0
 
-    .line 2504
+    .line 2506
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -5221,27 +5221,27 @@
 
     invoke-interface {v1, v2}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2507
+    .line 2509
     :cond_0
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateNWP()V
 
-    .line 2508
+    .line 2510
     const/4 v2, 0x1
 
-    .line 2510
+    .line 2512
     .end local v0    # "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     .end local v1    # "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     :goto_1
     return v2
 
-    .line 2498
+    .line 2500
     :cond_1
     sget-object v0, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->LOCKED:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     .restart local v0    # "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     goto :goto_0
 
-    .line 2510
+    .line 2512
     .end local v0    # "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     :cond_2
     const/4 v2, 0x0
@@ -5253,7 +5253,7 @@
     .locals 1
 
     .prologue
-    .line 2649
+    .line 2651
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->shouldShowTips()Z
 
     move-result v0
@@ -5264,7 +5264,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 2650
+    .line 2652
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -5275,7 +5275,7 @@
 
     invoke-virtual {v0, p0}, Lcom/nuance/swype/input/ToolTips;->triggerAutoSpaceTip(Landroid/view/View;)V
 
-    .line 2652
+    .line 2654
     :cond_0
     return-void
 .end method
@@ -5284,7 +5284,7 @@
     .locals 1
 
     .prologue
-    .line 2661
+    .line 2663
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->shouldShowTips()Z
 
     move-result v0
@@ -5297,7 +5297,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 2662
+    .line 2664
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -5308,7 +5308,7 @@
 
     invoke-virtual {v0, p0}, Lcom/nuance/swype/input/ToolTips;->triggerCaptitalizationGestureTip(Landroid/view/View;)V
 
-    .line 2664
+    .line 2666
     :cond_0
     return-void
 .end method
@@ -5317,14 +5317,14 @@
     .locals 1
 
     .prologue
-    .line 2655
+    .line 2657
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->shouldShowTips()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2656
+    .line 2658
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -5335,7 +5335,7 @@
 
     invoke-virtual {v0, p0}, Lcom/nuance/swype/input/ToolTips;->triggerDoubleLettersGestureTip(Landroid/view/View;)V
 
-    .line 2658
+    .line 2660
     :cond_0
     return-void
 .end method
@@ -5344,7 +5344,7 @@
     .locals 2
 
     .prologue
-    .line 2437
+    .line 2439
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     if-eqz v0, :cond_0
@@ -5366,13 +5366,13 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 2441
+    .line 2443
     :cond_1
     sget-object v0, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->updateSuggestions(Lcom/nuance/input/swypecorelib/Candidates$Source;)I
 
-    .line 2443
+    .line 2445
     :cond_2
     return-void
 .end method
@@ -5382,7 +5382,7 @@
     .param p1, "attr"    # Landroid/view/inputmethod/EditorInfo;
 
     .prologue
-    .line 2420
+    .line 2422
     if-eqz p1, :cond_2
 
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
@@ -5393,22 +5393,22 @@
 
     if-eqz v4, :cond_2
 
-    .line 2421
+    .line 2423
     const/4 v0, 0x0
 
-    .line 2422
+    .line 2424
     .local v0, "caps":I
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v2
 
-    .line 2423
+    .line 2425
     .local v2, "ei":Landroid/view/inputmethod/EditorInfo;
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v3
 
-    .line 2424
+    .line 2426
     .local v3, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAutoCap:Z
 
@@ -5420,12 +5420,12 @@
 
     if-eqz v4, :cond_0
 
-    .line 2425
+    .line 2427
     invoke-static {v3, p1}, Lcom/nuance/swype/util/InputConnectionUtils;->getCapsMode(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)I
 
     move-result v0
 
-    .line 2428
+    .line 2430
     :cond_0
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
@@ -5433,22 +5433,22 @@
 
     move-result-object v1
 
-    .line 2429
+    .line 2431
     .local v1, "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     sget-object v4, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->LOCKED:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     if-eq v1, v4, :cond_1
 
-    .line 2430
+    .line 2432
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->capsModeToShiftState(I)Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     move-result-object v1
 
-    .line 2432
+    .line 2434
     :cond_1
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 2434
+    .line 2436
     .end local v0    # "caps":I
     .end local v1    # "currentShiftState":Lcom/nuance/input/swypecorelib/Shift$ShiftState;
     .end local v2    # "ei":Landroid/view/inputmethod/EditorInfo;
@@ -5463,12 +5463,12 @@
     .locals 1
 
     .prologue
-    .line 3520
+    .line 3522
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/CandidatesListView;->trySelect()V
 
-    .line 3521
+    .line 3523
     const/4 v0, 0x1
 
     return v0
@@ -5478,33 +5478,33 @@
     .locals 1
 
     .prologue
-    .line 2404
+    .line 2406
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v0}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 2405
+    .line 2407
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v0}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 2407
+    .line 2409
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v0, :cond_0
 
-    .line 2408
+    .line 2410
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->clearAllKeys()Z
 
-    .line 2411
+    .line 2413
     :cond_0
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 2412
+    .line 2414
     return-void
 .end method
 
@@ -5530,14 +5530,14 @@
     .locals 2
 
     .prologue
-    .line 2787
+    .line 2789
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v1, 0x9
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2788
+    .line 2790
     return-void
 .end method
 
@@ -5546,7 +5546,7 @@
     .param p1, "pt"    # Landroid/graphics/Point;
 
     .prologue
-    .line 2767
+    .line 2769
     iget v0, p1, Landroid/graphics/Point;->x:I
 
     if-lez v0, :cond_0
@@ -5556,10 +5556,10 @@
     :goto_0
     iput v0, p1, Landroid/graphics/Point;->x:I
 
-    .line 2768
+    .line 2770
     return-void
 
-    .line 2767
+    .line 2769
     :cond_0
     const/4 v0, 0x0
 
@@ -5570,10 +5570,10 @@
     .locals 0
 
     .prologue
-    .line 2777
+    .line 2779
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->dimissRemoveUdbWordDialog()V
 
-    .line 2778
+    .line 2780
     return-void
 .end method
 
@@ -5877,12 +5877,12 @@
 
     const/4 v5, 0x1
 
-    .line 2942
+    .line 2944
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getWordDecorator()Lcom/nuance/swype/util/WordDecorator;
 
     move-result-object v3
 
-    .line 2943
+    .line 2945
     .local v3, "wd":Lcom/nuance/swype/util/WordDecorator;
     if-eqz v3, :cond_2
 
@@ -5892,12 +5892,12 @@
 
     if-nez v4, :cond_2
 
-    .line 2944
+    .line 2946
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 2949
+    .line 2951
     .local v1, "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     if-eqz v1, :cond_2
 
@@ -5954,10 +5954,10 @@
     :goto_0
     if-nez v4, :cond_2
 
-    .line 2950
+    .line 2952
     invoke-virtual {v1}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->beginBatchEdit()Z
 
-    .line 2951
+    .line 2953
     invoke-virtual {v1}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->hasSelection()Z
 
     move-result v4
@@ -5972,50 +5972,50 @@
 
     if-eqz v4, :cond_4
 
-    .line 2954
+    .line 2956
     :cond_0
     invoke-virtual {v1, p1, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2967
+    .line 2969
     :cond_1
     :goto_1
     invoke-virtual {v1}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->endBatchEdit()Z
 
-    .line 2971
+    .line 2973
     .end local v1    # "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearComposingTextAndSelection()V
 
-    .line 2978
+    .line 2980
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2980
+    .line 2982
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 2981
+    .line 2983
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->showNextWordPrediction()V
 
-    .line 2982
+    .line 2984
     const/4 v4, 0x4
 
     iput v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 2985
+    .line 2987
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v4, v5, v5}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->delayWordReorder(II)V
 
-    .line 2990
+    .line 2992
     return-void
 
     .restart local v1    # "ic":Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
     :cond_3
     move v4, v6
 
-    .line 2949
+    .line 2951
     goto :goto_0
 
-    .line 2957
+    .line 2959
     :cond_4
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
@@ -6027,7 +6027,7 @@
 
     move-result-object v0
 
-    .line 2959
+    .line 2961
     .local v0, "charUtils":Lcom/nuance/swype/util/CharacterUtilities;
     const/4 v4, 0x2
 
@@ -6035,16 +6035,16 @@
 
     move-result v2
 
-    .line 2961
+    .line 2963
     .local v2, "resetPoint":I
     const/4 v4, -0x1
 
     if-eq v2, v4, :cond_1
 
-    .line 2963
+    .line 2965
     invoke-virtual {v1, p1, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2964
+    .line 2966
     invoke-virtual {v1, v2, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->setSelection(II)Z
 
     goto :goto_1
@@ -6146,10 +6146,10 @@
     .locals 1
 
     .prologue
-    .line 4252
+    .line 4254
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->processDeferredSuggestionUpdates()Z
 
-    .line 4253
+    .line 4255
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->getCurrentDefaultWord()Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -6161,10 +6161,10 @@
     .locals 1
 
     .prologue
-    .line 4258
+    .line 4260
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->processDeferredSuggestionUpdates()Z
 
-    .line 4259
+    .line 4261
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->getCurrentExactWord()Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -6176,7 +6176,7 @@
     .locals 1
 
     .prologue
-    .line 2772
+    .line 2774
     iget v0, p0, Lcom/nuance/swype/input/AlphaInputView;->shiftGestureOffset:I
 
     return v0
@@ -6190,7 +6190,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2667
+    .line 2669
     if-eqz p1, :cond_0
 
     invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
@@ -6203,12 +6203,12 @@
 
     if-nez v0, :cond_1
 
-    .line 2687
+    .line 2689
     :cond_0
     :goto_0
     return-void
 
-    .line 2672
+    .line 2674
     :cond_1
     if-eqz p2, :cond_2
 
@@ -6220,12 +6220,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 2673
+    .line 2675
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->showRemoveUdbWordDialog(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 2679
+    .line 2681
     :cond_2
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -6235,17 +6235,17 @@
 
     if-eqz v0, :cond_3
 
-    .line 2680
+    .line 2682
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0, p1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->isKnownWord(Ljava/lang/String;)Z
 
     move-result v0
 
-    .line 2681
+    .line 2683
     if-nez v0, :cond_0
 
-    .line 2682
+    .line 2684
     new-instance v0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWordFromSelectedText;
 
     invoke-direct {v0, p0, p1, v1}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWordFromSelectedText;-><init>(Lcom/nuance/swype/input/AlphaInputView;Ljava/lang/String;Lcom/nuance/swype/input/AlphaInputView$1;)V
@@ -6254,7 +6254,7 @@
 
     goto :goto_0
 
-    .line 2685
+    .line 2687
     :cond_3
     new-instance v0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWordFromSelectedText;
 
@@ -7027,26 +7027,26 @@
     .locals 2
 
     .prologue
-    .line 1388
+    .line 1390
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->dimissRemoveUdbWordDialog()V
 
-    .line 1399
+    .line 1401
     const/4 v0, 0x0
 
     sget-object v1, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(ZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 1400
+    .line 1402
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 1401
+    .line 1403
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->removeAllMessages()V
 
-    .line 1402
+    .line 1404
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->handleClose()V
 
-    .line 1403
+    .line 1405
     return-void
 .end method
 
@@ -7089,19 +7089,19 @@
 
     const/4 v5, 0x1
 
-    .line 2208
+    .line 2210
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/Candidates;->count()I
 
     move-result v6
 
     if-lez v6, :cond_7
 
-    .line 2209
+    .line 2211
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
 
     move-result-object v0
 
-    .line 2210
+    .line 2212
     .local v0, "defaultCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/WordCandidate;->source()Lcom/nuance/input/swypecorelib/WordCandidate$Source;
 
@@ -7111,12 +7111,12 @@
 
     if-ne v6, v7, :cond_7
 
-    .line 2211
+    .line 2213
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 2212
+    .line 2214
     .local v4, "word":Ljava/lang/String;
     const/4 v6, 0x0
 
@@ -7124,7 +7124,7 @@
 
     move-result v1
 
-    .line 2213
+    .line 2215
     .local v1, "firstChar":C
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
@@ -7151,11 +7151,11 @@
 
     if-ne v6, v9, :cond_7
 
-    .line 2216
+    .line 2218
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 2218
+    .line 2220
     invoke-direct {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->isTerminalPunctuation(C)Z
 
     move-result v6
@@ -7170,7 +7170,7 @@
 
     if-eqz v6, :cond_2
 
-    .line 2219
+    .line 2221
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v6
@@ -7179,7 +7179,7 @@
 
     invoke-virtual {v6, v7, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2222
+    .line 2224
     :cond_2
     invoke-direct {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->isTerminalPunctuation(C)Z
 
@@ -7197,20 +7197,20 @@
 
     move-result v1
 
-    .line 2225
+    .line 2227
     :cond_3
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->mPreTraceShiftedState:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-direct {p0, v1, v6}, Lcom/nuance/swype/input/AlphaInputView;->promotingTermPunctOrSingleLetter(CLcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2227
+    .line 2229
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
     move-result v6
 
     if-ne v6, v8, :cond_4
 
-    .line 2228
+    .line 2230
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v6
@@ -7219,15 +7219,15 @@
 
     invoke-virtual {v6, v7, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 2231
+    .line 2233
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->autospaceHandler:Lcom/nuance/swype/input/AutospaceHandler;
 
     invoke-virtual {v6, v9}, Lcom/nuance/swype/input/AutospaceHandler;->onKey(I)Z
 
-    .line 2232
+    .line 2234
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2233
+    .line 2235
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -7236,7 +7236,7 @@
 
     invoke-virtual {v6, v7}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2238
+    .line 2240
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
@@ -7246,11 +7246,11 @@
 
     move-result-object v3
 
-    .line 2239
+    .line 2241
     .local v3, "usageMgr":Lcom/nuance/swype/stats/UsageManager;
     if-eqz v3, :cond_5
 
-    .line 2240
+    .line 2242
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->charUtils:Lcom/nuance/swype/util/CharacterUtilities;
 
     invoke-virtual {v6, v4}, Lcom/nuance/swype/util/CharacterUtilities;->isPunctSpace(Ljava/lang/CharSequence;)Z
@@ -7259,10 +7259,10 @@
 
     if-eqz v6, :cond_6
 
-    .line 2242
+    .line 2244
     const-string v2, "punct-space gesture"
 
-    .line 2243
+    .line 2245
     .local v2, "type":Ljava/lang/String;
     invoke-virtual {v3}, Lcom/nuance/swype/stats/UsageManager;->getKeyboardUsageScribe()Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
 
@@ -7292,13 +7292,13 @@
 
     invoke-interface {v6, v7}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordGestureType(Ljava/lang/String;)V
 
-    .line 2249
+    .line 2251
     .end local v2    # "type":Ljava/lang/String;
     :cond_5
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->showNextWordPrediction()V
 
-    .line 2256
+    .line 2258
     .end local v0    # "defaultCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     .end local v1    # "firstChar":C
     .end local v3    # "usageMgr":Lcom/nuance/swype/stats/UsageManager;
@@ -7306,7 +7306,7 @@
     :goto_1
     return v5
 
-    .line 2244
+    .line 2246
     .restart local v0    # "defaultCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     .restart local v1    # "firstChar":C
     .restart local v3    # "usageMgr":Lcom/nuance/swype/stats/UsageManager;
@@ -7320,10 +7320,10 @@
 
     if-eqz v6, :cond_5
 
-    .line 2245
+    .line 2247
     const-string v2, "single-word gesture"
 
-    .line 2246
+    .line 2248
     .restart local v2    # "type":Ljava/lang/String;
     invoke-virtual {v3}, Lcom/nuance/swype/stats/UsageManager;->getKeyboardUsageScribe()Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
 
@@ -7333,7 +7333,7 @@
 
     goto :goto_0
 
-    .line 2256
+    .line 2258
     .end local v0    # "defaultCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     .end local v1    # "firstChar":C
     .end local v2    # "type":Ljava/lang/String;
@@ -7354,17 +7354,17 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 3583
+    .line 3585
     if-eqz p1, :cond_1
 
-    .line 3584
+    .line 3586
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     sget-object v1, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->LOCKED:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 3589
+    .line 3591
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
@@ -7374,20 +7374,20 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3590
+    .line 3592
     iput-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
 
-    .line 3593
+    .line 3595
     :cond_0
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateNWP()V
 
-    .line 3595
+    .line 3597
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
-    .line 3596
+    .line 3598
     return v2
 
-    .line 3586
+    .line 3588
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
@@ -7409,32 +7409,32 @@
 
     const/4 v1, 0x0
 
-    .line 3628
+    .line 3630
     iput-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->isAddToDictionaryTipHighlighted:Z
 
-    .line 3629
+    .line 3631
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     if-nez v2, :cond_0
 
-    .line 3630
+    .line 3632
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
-    .line 3690
+    .line 3692
     :goto_0
     return v0
 
-    .line 3634
+    .line 3636
     :cond_0
     packed-switch p1, :pswitch_data_0
 
     :cond_1
     move v0, v1
 
-    .line 3690
+    .line 3692
     goto :goto_0
 
-    .line 3637
+    .line 3639
     :pswitch_0
     sget-object v0, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -7444,7 +7444,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 3638
+    .line 3640
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/CandidatesListView;->getSelectedIndex()I
@@ -7461,23 +7461,23 @@
 
     if-eqz v0, :cond_2
 
-    .line 3639
+    .line 3641
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->moveHighlightToNearCandidateForNWP(I)Z
 
     move-result v0
 
     goto :goto_0
 
-    .line 3641
+    .line 3643
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     move v0, v1
 
-    .line 3642
+    .line 3644
     goto :goto_0
 
-    .line 3644
+    .line 3646
     :cond_3
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
@@ -7493,15 +7493,15 @@
 
     if-nez v0, :cond_4
 
-    .line 3645
+    .line 3647
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     move v0, v1
 
-    .line 3646
+    .line 3648
     goto :goto_0
 
-    .line 3648
+    .line 3650
     :cond_4
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->moveHighlightToNearCandidate(I)Z
 
@@ -7509,7 +7509,7 @@
 
     goto :goto_0
 
-    .line 3650
+    .line 3652
     :pswitch_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isShowingAddToDictionaryTip()Z
 
@@ -7517,22 +7517,22 @@
 
     if-eqz v2, :cond_5
 
-    .line 3651
+    .line 3653
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->isAddToDictionaryTipHighlighted:Z
 
-    .line 3652
+    .line 3654
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v1, v0}, Lcom/nuance/swype/input/CandidatesListView;->setHardwareKeyboardUsed(Z)V
 
-    .line 3653
+    .line 3655
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v1, v0}, Lcom/nuance/swype/input/CandidatesListView;->setHighlightAddtoDictionaryTip(Z)V
 
     goto :goto_0
 
-    .line 3656
+    .line 3658
     :cond_5
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
@@ -7540,20 +7540,20 @@
 
     if-eqz v2, :cond_6
 
-    .line 3657
+    .line 3659
     sget-object v0, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v1, v0}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(ZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 3658
+    .line 3660
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
     move v0, v1
 
-    .line 3659
+    .line 3661
     goto :goto_0
 
-    .line 3661
+    .line 3663
     :cond_6
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -7563,7 +7563,7 @@
 
     if-eqz v2, :cond_8
 
-    .line 3663
+    .line 3665
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/CandidatesListView;->getSelectedIndex()I
@@ -7580,23 +7580,23 @@
 
     if-nez v0, :cond_7
 
-    .line 3664
+    .line 3666
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->moveHightlightToCenter(I)Z
 
     move-result v0
 
     goto :goto_0
 
-    .line 3666
+    .line 3668
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearCurrentActiveWord()V
 
     move v0, v1
 
-    .line 3667
+    .line 3669
     goto/16 :goto_0
 
-    .line 3669
+    .line 3671
     :cond_8
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -7628,15 +7628,15 @@
 
     if-nez v2, :cond_9
 
-    .line 3671
+    .line 3673
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     move v0, v1
 
-    .line 3672
+    .line 3674
     goto/16 :goto_0
 
-    .line 3675
+    .line 3677
     :cond_9
     :pswitch_2
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
@@ -7645,20 +7645,20 @@
 
     if-eqz v2, :cond_a
 
-    .line 3676
+    .line 3678
     sget-object v0, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v1, v0}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(ZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 3677
+    .line 3679
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
     move v0, v1
 
-    .line 3678
+    .line 3680
     goto/16 :goto_0
 
-    .line 3680
+    .line 3682
     :cond_a
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -7668,12 +7668,12 @@
 
     if-eqz v2, :cond_b
 
-    .line 3682
+    .line 3684
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearCurrentActiveWord()V
 
     goto/16 :goto_0
 
-    .line 3684
+    .line 3686
     :cond_b
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
@@ -7705,15 +7705,15 @@
 
     if-nez v0, :cond_1
 
-    .line 3686
+    .line 3688
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     move v0, v1
 
-    .line 3687
+    .line 3689
     goto/16 :goto_0
 
-    .line 3634
+    .line 3636
     :pswitch_data_0
     .packed-switch 0x13
         :pswitch_2
@@ -7735,7 +7735,7 @@
 
     const/4 v6, 0x0
 
-    .line 3935
+    .line 3937
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v7, :cond_0
@@ -7752,18 +7752,18 @@
 
     if-gtz v7, :cond_2
 
-    .line 3937
+    .line 3939
     :cond_0
     invoke-virtual {p0, v9}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     move v5, v6
 
-    .line 3979
+    .line 3981
     :cond_1
     :goto_0
     return v5
 
-    .line 3941
+    .line 3943
     :cond_2
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -7799,13 +7799,13 @@
 
     if-ne v7, v8, :cond_4
 
-    .line 3945
+    .line 3947
     :cond_3
     invoke-virtual {p0, v9}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     goto :goto_0
 
-    .line 3949
+    .line 3951
     :cond_4
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -7815,7 +7815,7 @@
 
     add-int/lit8 v3, v7, -0x1
 
-    .line 3950
+    .line 3952
     .local v3, "wordCandidatesCount":I
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -7825,12 +7825,12 @@
 
     if-ge v7, v3, :cond_1
 
-    .line 3954
+    .line 3956
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v7, v3}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 3956
+    .line 3958
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     iget-object v8, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -7841,33 +7841,33 @@
 
     invoke-virtual {v7, v3, v8}, Lcom/nuance/swype/input/CandidatesListView;->touchWord(ILcom/nuance/input/swypecorelib/WordCandidate;)V
 
-    .line 3957
+    .line 3959
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v7}, Lcom/nuance/swype/input/CandidatesListView;->scrollEnd()V
 
-    .line 3958
+    .line 3960
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 3960
+    .line 3962
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
     move-result v7
 
     if-eqz v7, :cond_1
 
-    .line 3961
+    .line 3963
     new-instance v1, Landroid/text/SpannableStringBuilder;
 
     invoke-direct {v1}, Landroid/text/SpannableStringBuilder;-><init>()V
 
-    .line 3962
+    .line 3964
     .local v1, "inlineword":Landroid/text/SpannableStringBuilder;
     new-instance v2, Landroid/text/style/UnderlineSpan;
 
     invoke-direct {v2}, Landroid/text/style/UnderlineSpan;-><init>()V
 
-    .line 3963
+    .line 3965
     .local v2, "span":Landroid/text/style/UnderlineSpan;
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -7875,26 +7875,19 @@
 
     move-result-object v4
 
-    .line 3964
+    .line 3966
     .local v4, "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3965
+    .line 3967
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3966
+    .line 3968
     invoke-virtual {v4}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v7
 
     invoke-virtual {v1, v7}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
-
-    .line 3967
-    invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
-
-    move-result v7
-
-    invoke-virtual {v1, v2, v6, v7, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3969
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
@@ -7904,21 +7897,28 @@
     invoke-virtual {v1, v2, v6, v7, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3971
+    invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v7
+
+    invoke-virtual {v1, v2, v6, v7, v10}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+
+    .line 3973
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3972
+    .line 3974
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_1
 
-    .line 3973
+    .line 3975
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3974
+    .line 3976
     invoke-static {v0, v1}, Lcom/nuance/swype/util/InputConnectionUtils;->setComposingText(Landroid/view/inputmethod/InputConnection;Ljava/lang/CharSequence;)V
 
-    .line 3975
+    .line 3977
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
@@ -7928,17 +7928,17 @@
     .locals 1
 
     .prologue
-    .line 3619
+    .line 3621
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 3620
+    .line 3622
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearCurrentActiveWord()V
 
-    .line 3623
+    .line 3625
     :cond_0
     const/4 v0, 0x0
 
@@ -7957,7 +7957,7 @@
 
     const/4 v5, 0x0
 
-    .line 3886
+    .line 3888
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     if-eqz v6, :cond_0
@@ -7978,18 +7978,18 @@
 
     if-gtz v6, :cond_2
 
-    .line 3888
+    .line 3890
     :cond_0
     invoke-virtual {p0, v8}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     move v4, v5
 
-    .line 3929
+    .line 3931
     :cond_1
     :goto_0
     return v4
 
-    .line 3892
+    .line 3894
     :cond_2
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -8025,13 +8025,13 @@
 
     if-ne v6, v7, :cond_4
 
-    .line 3896
+    .line 3898
     :cond_3
     invoke-virtual {p0, v8}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     goto :goto_0
 
-    .line 3900
+    .line 3902
     :cond_4
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -8041,12 +8041,12 @@
 
     if-eqz v6, :cond_1
 
-    .line 3903
+    .line 3905
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v6, v5}, Lcom/nuance/input/swypecorelib/Candidates;->setDefaultIndex(I)V
 
-    .line 3906
+    .line 3908
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -8057,33 +8057,33 @@
 
     invoke-virtual {v6, v5, v7}, Lcom/nuance/swype/input/CandidatesListView;->touchWord(ILcom/nuance/input/swypecorelib/WordCandidate;)V
 
-    .line 3907
+    .line 3909
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
     invoke-virtual {v6}, Lcom/nuance/swype/input/CandidatesListView;->scrollHead()V
 
-    .line 3908
+    .line 3910
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 3910
+    .line 3912
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
     move-result v6
 
     if-eqz v6, :cond_1
 
-    .line 3911
+    .line 3913
     new-instance v1, Landroid/text/SpannableStringBuilder;
 
     invoke-direct {v1}, Landroid/text/SpannableStringBuilder;-><init>()V
 
-    .line 3912
+    .line 3914
     .local v1, "inlineword":Landroid/text/SpannableStringBuilder;
     new-instance v2, Landroid/text/style/UnderlineSpan;
 
     invoke-direct {v2}, Landroid/text/style/UnderlineSpan;-><init>()V
 
-    .line 3913
+    .line 3915
     .local v2, "span":Landroid/text/style/UnderlineSpan;
     iget-object v6, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
 
@@ -8091,26 +8091,19 @@
 
     move-result-object v3
 
-    .line 3914
+    .line 3916
     .local v3, "wordcandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3915
+    .line 3917
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3916
+    .line 3918
     invoke-virtual {v3}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v6
 
     invoke-virtual {v1, v6}, Landroid/text/SpannableStringBuilder;->append(Ljava/lang/CharSequence;)Landroid/text/SpannableStringBuilder;
-
-    .line 3917
-    invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
-
-    move-result v6
-
-    invoke-virtual {v1, v2, v5, v6, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3919
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
@@ -8120,21 +8113,28 @@
     invoke-virtual {v1, v2, v5, v6, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 3921
+    invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->length()I
+
+    move-result v6
+
+    invoke-virtual {v1, v2, v5, v6, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
+
+    .line 3923
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3922
+    .line 3924
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_1
 
-    .line 3923
+    .line 3925
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3924
+    .line 3926
     invoke-static {v0, v1}, Lcom/nuance/swype/util/InputConnectionUtils;->setComposingText(Landroid/view/inputmethod/InputConnection;Ljava/lang/CharSequence;)V
 
-    .line 3925
+    .line 3927
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto/16 :goto_0
@@ -8145,7 +8145,7 @@
     .param p1, "repeatedCount"    # I
 
     .prologue
-    .line 3428
+    .line 3430
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handleBackspace(I)Z
 
     move-result v0
@@ -8168,22 +8168,22 @@
 
     const/4 v7, 0x1
 
-    .line 3315
+    .line 3317
     if-eqz p2, :cond_7
 
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getEventTime()J
 
     move-result-wide v2
 
-    .line 3316
+    .line 3318
     .local v2, "eventTime":J
     :goto_0
     invoke-super {p0, v10, p1, v2, v3}, Lcom/nuance/swype/input/InputView;->handleCharKey(Landroid/graphics/Point;IJ)V
 
-    .line 3318
+    .line 3320
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->setReconstructWord(I)V
 
-    .line 3320
+    .line 3322
     sget-object v4, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->isShowingCandidatesFor(Lcom/nuance/input/swypecorelib/Candidates$Source;)Z
@@ -8192,10 +8192,10 @@
 
     if-eqz v4, :cond_0
 
-    .line 3321
+    .line 3323
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 3327
+    .line 3329
     :cond_0
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -8211,16 +8211,16 @@
 
     if-eqz v4, :cond_b
 
-    .line 3328
+    .line 3330
     :cond_1
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v4}, Lcom/nuance/swype/input/EditState;->end()V
 
-    .line 3330
+    .line 3332
     int-to-char v0, p1
 
-    .line 3332
+    .line 3334
     .local v0, "ch":C
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mMiniKeyboardOnScreen:Z
 
@@ -8236,18 +8236,18 @@
 
     move-result-object v4
 
-    .line 3334
+    .line 3336
     :goto_1
     sget-object v5, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     if-eq v4, v5, :cond_9
 
-    .line 3335
+    .line 3337
     invoke-static {v0}, Ljava/lang/Character;->toUpperCase(C)C
 
     move-result v0
 
-    .line 3340
+    .line 3342
     :cond_2
     :goto_2
     iget-boolean v4, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
@@ -8262,12 +8262,12 @@
 
     if-ne v4, v5, :cond_3
 
-    .line 3341
+    .line 3343
     sget-object v4, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 3344
+    .line 3346
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isMultitapping()Z
 
@@ -8275,10 +8275,10 @@
 
     if-nez v4, :cond_a
 
-    .line 3345
+    .line 3347
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyChar(C)V
 
-    .line 3412
+    .line 3414
     .end local v0    # "ch":C
     :cond_4
     :goto_3
@@ -8318,20 +8318,20 @@
 
     if-eqz v4, :cond_5
 
-    .line 3414
+    .line 3416
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->processDeferredSuggestionUpdates()Z
 
-    .line 3415
+    .line 3417
     sget-object v4, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 3416
+    .line 3418
     sget-object v4, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_TEXT:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 3419
+    .line 3421
     :cond_5
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isMultitapping()Z
 
@@ -8339,24 +8339,24 @@
 
     if-eqz v4, :cond_6
 
-    .line 3420
+    .line 3422
     invoke-virtual {p0, v7}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 3423
+    .line 3425
     :cond_6
     iput v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 3424
+    .line 3426
     return-void
 
-    .line 3315
+    .line 3317
     .end local v2    # "eventTime":J
     :cond_7
     const-wide/16 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 3332
+    .line 3334
     .restart local v0    # "ch":C
     .restart local v2    # "eventTime":J
     :cond_8
@@ -8366,7 +8366,7 @@
 
     goto :goto_1
 
-    .line 3336
+    .line 3338
     :cond_9
     const/16 v4, 0x41
 
@@ -8376,30 +8376,30 @@
 
     if-gt v0, v4, :cond_2
 
-    .line 3337
+    .line 3339
     invoke-static {v0}, Ljava/lang/Character;->toLowerCase(C)C
 
     move-result v0
 
     goto :goto_2
 
-    .line 3348
+    .line 3350
     :cond_a
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 3349
+    .line 3351
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 3350
+    .line 3352
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4, v0}, Landroid/text/SpannableStringBuilder;->append(C)Landroid/text/SpannableStringBuilder;
 
-    .line 3352
+    .line 3354
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mBKMultiptappingCharSpan:Landroid/text/style/BackgroundColorSpan;
@@ -8412,7 +8412,7 @@
 
     invoke-virtual {v4, v5, v8, v6, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3354
+    .line 3356
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mFGMultiptappingCharSpan:Landroid/text/style/ForegroundColorSpan;
@@ -8425,23 +8425,23 @@
 
     invoke-virtual {v4, v5, v8, v6, v9}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
-    .line 3357
+    .line 3359
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 3359
+    .line 3361
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v1, :cond_4
 
-    .line 3360
+    .line 3362
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-interface {v1, v4, v7}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
     goto/16 :goto_3
 
-    .line 3366
+    .line 3368
     .end local v0    # "ch":C
     .end local v1    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_b
@@ -8455,10 +8455,10 @@
 
     if-eqz v4, :cond_d
 
-    .line 3367
+    .line 3369
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 3376
+    .line 3378
     :cond_c
     :goto_4
     int-to-char v4, p1
@@ -8469,12 +8469,12 @@
 
     if-eqz v5, :cond_f
 
-    .line 3378
+    .line 3380
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handleWhiteSpaces(I)V
 
     goto/16 :goto_3
 
-    .line 3368
+    .line 3370
     :cond_d
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isEmptyCandidateList()Z
 
@@ -8505,17 +8505,17 @@
 
     if-eqz v4, :cond_c
 
-    .line 3371
+    .line 3373
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->processDeferredSuggestionUpdates()Z
 
-    .line 3373
+    .line 3375
     sget-object v4, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
     goto :goto_4
 
-    .line 3379
+    .line 3381
     :cond_f
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isMultitapping()Z
 
@@ -8523,7 +8523,7 @@
 
     if-nez v5, :cond_12
 
-    .line 3384
+    .line 3386
     invoke-static {v4}, Lcom/nuance/swype/util/CharacterUtilities;->isDigit(I)Z
 
     move-result v5
@@ -8548,7 +8548,7 @@
 
     if-eq v5, v6, :cond_12
 
-    .line 3392
+    .line 3394
     :cond_10
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->charUtils:Lcom/nuance/swype/util/CharacterUtilities;
 
@@ -8572,16 +8572,16 @@
 
     if-nez v4, :cond_12
 
-    .line 3405
+    .line 3407
     :cond_11
     invoke-virtual {p0, v7}, Lcom/nuance/swype/input/AlphaInputView;->useKDBHardkey(Z)V
 
-    .line 3406
+    .line 3408
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handlePunctOrSymbol(I)V
 
     goto/16 :goto_3
 
-    .line 3408
+    .line 3410
     :cond_12
     invoke-direct {p0, v10, p1, v2, v3}, Lcom/nuance/swype/input/AlphaInputView;->handlePrediction(Landroid/graphics/Point;IJ)V
 
@@ -8597,12 +8597,12 @@
 
     const/4 v4, 0x1
 
-    .line 3456
+    .line 3458
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 3458
+    .line 3460
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -8610,16 +8610,16 @@
 
     if-nez v1, :cond_2
 
-    .line 3459
+    .line 3461
     :cond_0
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->sendBackspace(I)V
 
-    .line 3502
+    .line 3504
     :cond_1
     :goto_0
     return v4
 
-    .line 3467
+    .line 3469
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -8645,7 +8645,7 @@
 
     if-nez v2, :cond_5
 
-    .line 3469
+    .line 3471
     :cond_3
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -8655,14 +8655,14 @@
 
     if-lez v2, :cond_4
 
-    .line 3470
+    .line 3472
     invoke-direct {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->clearCurrentInline(Landroid/view/inputmethod/InputConnection;)V
 
-    .line 3472
+    .line 3474
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 3475
+    .line 3477
     :cond_5
     const-string v2, "multitap"
 
@@ -8690,42 +8690,42 @@
 
     if-eqz v2, :cond_6
 
-    .line 3478
+    .line 3480
     invoke-interface {v1, v4, v5}, Landroid/view/inputmethod/InputConnection;->getTextAfterCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    .line 3479
+    .line 3481
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 3480
+    .line 3482
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3481
+    .line 3483
     invoke-interface {v1, v5, v4}, Landroid/view/inputmethod/InputConnection;->deleteSurroundingText(II)Z
 
-    .line 3482
+    .line 3484
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto :goto_0
 
-    .line 3487
+    .line 3489
     :cond_6
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
-    .line 3488
+    .line 3490
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 3491
+    .line 3493
     invoke-interface {v1, v4, v5}, Landroid/view/inputmethod/InputConnection;->getTextAfterCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 3492
+    .line 3494
     .local v0, "cSeqAfter":Ljava/lang/CharSequence;
     if-eqz v0, :cond_7
 
@@ -8735,16 +8735,16 @@
 
     if-lez v2, :cond_7
 
-    .line 3493
+    .line 3495
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3494
+    .line 3496
     invoke-interface {v1, v5, v4}, Landroid/view/inputmethod/InputConnection;->deleteSurroundingText(II)Z
 
-    .line 3495
+    .line 3497
     invoke-interface {v1}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
-    .line 3497
+    .line 3499
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
@@ -8752,17 +8752,17 @@
 
     invoke-direct {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState(Landroid/view/inputmethod/EditorInfo;)V
 
-    .line 3498
+    .line 3500
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearAllKeys()V
 
-    .line 3499
+    .line 3501
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setContext([C)V
 
-    .line 3500
+    .line 3502
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/EditState;->backSpace()V
@@ -8778,33 +8778,33 @@
 
     const/4 v4, 0x1
 
-    .line 3526
+    .line 3528
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3528
+    .line 3530
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     const/4 v1, 0x0
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->isAddToDictionaryTipHighlighted:Z
 
-    .line 3529
+    .line 3531
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v1, :cond_0
 
     if-nez v0, :cond_1
 
-    .line 3530
+    .line 3532
     :cond_0
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
-    .line 3576
+    .line 3578
     :goto_0
     return v4
 
-    .line 3534
+    .line 3536
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -8830,46 +8830,46 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 3537
+    .line 3539
     :cond_2
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
     goto :goto_0
 
-    .line 3541
+    .line 3543
     :cond_3
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 3544
+    .line 3546
     invoke-static {v0}, Lcom/nuance/swype/util/InputConnectionUtils;->isComposingTextSelected(Landroid/view/inputmethod/InputConnection;)Z
 
     move-result v1
 
     if-eqz v1, :cond_5
 
-    .line 3545
+    .line 3547
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 3546
+    .line 3548
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearAllKeys()V
 
-    .line 3569
+    .line 3571
     :cond_4
     :goto_1
     invoke-virtual {p0, v3}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyToApplication(I)V
 
-    .line 3571
+    .line 3573
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 3572
+    .line 3574
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 3574
+    .line 3576
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto :goto_0
 
-    .line 3547
+    .line 3549
     :cond_5
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->composingWordCandidates()Z
 
@@ -8903,7 +8903,7 @@
 
     if-ne v1, v2, :cond_8
 
-    .line 3550
+    .line 3552
     :cond_6
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -8917,29 +8917,29 @@
 
     invoke-direct {p0, v1, v2, v3}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 3556
+    .line 3558
     iget v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
     const/4 v2, 0x2
 
     if-ne v1, v2, :cond_7
 
-    .line 3557
+    .line 3559
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->triggerAutoSpaceTip()V
 
-    .line 3559
+    .line 3561
     :cond_7
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 3560
+    .line 3562
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 3562
+    .line 3564
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
     goto :goto_0
 
-    .line 3564
+    .line 3566
     :cond_8
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -8955,7 +8955,7 @@
 
     if-eq v1, v2, :cond_4
 
-    .line 3566
+    .line 3568
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
     goto :goto_1
@@ -8968,7 +8968,7 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 3601
+    .line 3603
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/KeyboardSwitcher;->isAlphabetMode()Z
@@ -8977,12 +8977,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 3602
+    .line 3604
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 3604
+    .line 3606
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     move-result-object v0
@@ -8991,17 +8991,17 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 3605
+    .line 3607
     iput-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
 
-    .line 3608
+    .line 3610
     :cond_0
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateNWP()V
 
-    .line 3610
+    .line 3612
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
-    .line 3612
+    .line 3614
     :cond_1
     return v2
 .end method
@@ -9016,19 +9016,19 @@
 
     const/4 v5, 0x0
 
-    .line 3433
+    .line 3435
     iput-boolean v5, p0, Lcom/nuance/swype/input/AlphaInputView;->isAddToDictionaryTipHighlighted:Z
 
-    .line 3434
+    .line 3436
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3436
+    .line 3438
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_0
 
-    .line 3437
+    .line 3439
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v3}, Landroid/text/SpannableStringBuilder;->length()I
@@ -9051,14 +9051,14 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 3439
+    .line 3441
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v3}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
 
     move-result-object v1
 
-    .line 3440
+    .line 3442
     .local v1, "selectedCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     if-eqz v1, :cond_0
 
@@ -9074,12 +9074,12 @@
 
     if-lez v3, :cond_0
 
-    .line 3442
+    .line 3444
     invoke-interface {v0, v6, v5}, Landroid/view/inputmethod/InputConnection;->getTextBeforeCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    .line 3443
+    .line 3445
     .local v2, "seq":Ljava/lang/CharSequence;
     if-eqz v2, :cond_0
 
@@ -9113,12 +9113,12 @@
 
     if-eq v3, v4, :cond_0
 
-    .line 3446
+    .line 3448
     const/4 v3, 0x1
 
     invoke-interface {v0, v3, v5}, Landroid/view/inputmethod/InputConnection;->deleteSurroundingText(II)Z
 
-    .line 3451
+    .line 3453
     .end local v1    # "selectedCandidate":Lcom/nuance/input/swypecorelib/WordCandidate;
     .end local v2    # "seq":Ljava/lang/CharSequence;
     :cond_0
@@ -9509,7 +9509,7 @@
 
     const/4 v1, 0x0
 
-    .line 2556
+    .line 2558
     iget-object v2, p1, Lcom/nuance/swype/input/KeyboardEx$Key;->codes:[I
 
     aget v2, v2, v1
@@ -9526,12 +9526,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 2564
+    .line 2566
     :cond_0
     :goto_0
     return v0
 
-    .line 2558
+    .line 2560
     :cond_1
     const/16 v2, 0x8
 
@@ -9541,14 +9541,14 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 2559
+    .line 2561
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/AlphaInputView;->handleDeleteWordBack(Lcom/nuance/swype/input/KeyboardEx$Key;)Z
 
     move-result v0
 
     goto :goto_0
 
-    .line 2560
+    .line 2562
     :cond_2
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->handleLongPress(Lcom/nuance/swype/input/KeyboardEx$Key;)Z
 
@@ -9558,7 +9558,7 @@
 
     move v0, v1
 
-    .line 2564
+    .line 2566
     goto :goto_0
 .end method
 
@@ -9566,26 +9566,26 @@
     .locals 3
 
     .prologue
-    .line 1693
+    .line 1695
     iget-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardInputSuggestionOn:Z
 
     if-eqz v1, :cond_0
 
-    .line 1694
+    .line 1696
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->toggleAmbigMode()V
 
-    .line 1695
+    .line 1697
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentInputMode()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1696
+    .line 1698
     .local v0, "inputMode":Ljava/lang/String;
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->setCorrectionLevel(Ljava/lang/String;)V
 
-    .line 1697
+    .line 1699
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -9602,17 +9602,17 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/input/AppPreferences;->setMultitapMode(Z)V
 
-    .line 1703
+    .line 1705
     sget-object v1, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->MULTITAP_TOGGLE:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 1705
+    .line 1707
     const/4 v1, 0x1
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 1707
+    .line 1709
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
@@ -9621,7 +9621,7 @@
 
     invoke-virtual {v1, v2, p0}, Lcom/nuance/swype/input/IME;->refreshLanguageOnSpaceKey(Lcom/nuance/swype/input/KeyboardEx;Lcom/nuance/swype/input/KeyboardViewEx;)V
 
-    .line 1709
+    .line 1711
     .end local v0    # "inputMode":Ljava/lang/String;
     :cond_0
     return-void
@@ -9631,7 +9631,7 @@
     .locals 1
 
     .prologue
-    .line 4284
+    .line 4286
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputFieldInfo;->isPasswordField()Z
@@ -9640,12 +9640,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4285
+    .line 4287
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->setCandidatesViewShown(Z)V
 
-    .line 4287
+    .line 4289
     :cond_0
     return-void
 .end method
@@ -9655,7 +9655,7 @@
     .param p1, "hideSymbolView"    # Z
 
     .prologue
-    .line 4264
+    .line 4266
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputFieldInfo;->isPasswordField()Z
@@ -9664,12 +9664,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 4265
+    .line 4267
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->setCandidatesViewShown(Z)V
 
-    .line 4267
+    .line 4269
     :cond_0
     return-void
 .end method
@@ -9762,7 +9762,7 @@
     .prologue
     const/4 v5, 0x1
 
-    .line 2447
+    .line 2449
     iget-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->isLongPressed:Z
 
     if-eqz v1, :cond_3
@@ -9773,15 +9773,15 @@
 
     if-eqz v1, :cond_3
 
-    .line 2448
+    .line 2450
     invoke-direct {p0, v5}, Lcom/nuance/swype/input/AlphaInputView;->toggleCapsLock(Z)Z
 
-    .line 2449
+    .line 2451
     const/4 v1, 0x0
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->isLongPressed:Z
 
-    .line 2455
+    .line 2457
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isExploreByTouchOn()Z
 
@@ -9789,7 +9789,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 2456
+    .line 2458
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
     move-result-object v1
@@ -9808,7 +9808,7 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->speakShiftState(Landroid/content/Context;Lcom/nuance/input/swypecorelib/Shift$ShiftState;Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2459
+    .line 2461
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
@@ -9818,11 +9818,11 @@
 
     move-result-object v0
 
-    .line 2460
+    .line 2462
     .local v0, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v0, :cond_1
 
-    .line 2461
+    .line 2463
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -9831,7 +9831,7 @@
 
     invoke-interface {v0, v1}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2464
+    .line 2466
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
@@ -9841,20 +9841,20 @@
 
     if-ne v1, v2, :cond_2
 
-    .line 2465
+    .line 2467
     iput-boolean v5, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
 
-    .line 2469
+    .line 2471
     :cond_2
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateNWP()V
 
-    .line 2471
+    .line 2473
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
-    .line 2472
+    .line 2474
     return-void
 
-    .line 2451
+    .line 2453
     .end local v0    # "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     :cond_3
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
@@ -9902,7 +9902,7 @@
     .line 1248
     const/4 v1, 0x1
 
-    .line 1383
+    .line 1385
     :goto_0
     return v1
 
@@ -10082,6 +10082,16 @@
 
     .line 1348
     .local v10, "cSeqBefore":Ljava/lang/CharSequence;
+    move-object/from16 v0, p0
+
+    iget-object v1, v0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
+
+    invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->getTerminalPunctuation()Ljava/lang/CharSequence;
+
+    move-result-object v8
+
+    .line 1350
+    .local v8, "autopunct":Ljava/lang/CharSequence;
     if-eqz v10, :cond_6
 
     invoke-interface {v10}, Ljava/lang/CharSequence;->length()I
@@ -10132,34 +10142,38 @@
 
     if-nez v1, :cond_6
 
-    .line 1352
+    const/4 v1, 0x0
+
+    invoke-interface {v8, v1}, Ljava/lang/CharSequence;->charAt(I)C
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    invoke-interface {v10, v2}, Ljava/lang/CharSequence;->charAt(I)C
+
+    move-result v2
+
+    if-eq v1, v2, :cond_6
+
+    .line 1355
     const/4 v1, 0x1
 
     const/4 v2, 0x0
 
     invoke-virtual {v12, v1, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->deleteSurroundingText(II)Z
 
-    .line 1354
-    move-object/from16 v0, p0
-
-    iget-object v1, v0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
-
-    invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->getTerminalPunctuation()Ljava/lang/CharSequence;
-
-    move-result-object v8
-
-    .line 1355
-    .local v8, "autopunct":Ljava/lang/CharSequence;
+    .line 1357
     const/4 v1, 0x1
 
     invoke-virtual {v12, v8, v1}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1356
+    .line 1358
     move-object/from16 v0, p0
 
     iget-boolean v11, v0, Lcom/nuance/swype/input/AlphaInputView;->mNextWordPredictionOn:Z
 
-    .line 1360
+    .line 1362
     .end local v8    # "autopunct":Ljava/lang/CharSequence;
     .end local v10    # "cSeqBefore":Ljava/lang/CharSequence;
     :cond_6
@@ -10169,21 +10183,21 @@
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/EditState;->spaceKey()V
 
-    .line 1361
+    .line 1363
     const/16 v1, 0x20
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->sendKeyChar(C)V
 
-    .line 1362
+    .line 1364
     const/4 v1, 0x1
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->updateMultitapDeadkey(Z)V
 
-    .line 1365
+    .line 1367
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->UDB_EDIT:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-object/from16 v0, p0
@@ -10194,13 +10208,13 @@
 
     if-nez v1, :cond_7
 
-    .line 1366
+    .line 1368
     if-eqz v11, :cond_f
 
-    .line 1367
+    .line 1369
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 1368
+    .line 1370
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -10211,22 +10225,22 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 1369
+    .line 1371
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->updateWordContext()V
 
-    .line 1370
+    .line 1372
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->updateSuggestions(Lcom/nuance/input/swypecorelib/Candidates$Source;)I
 
-    .line 1381
+    .line 1383
     :cond_7
     :goto_3
     invoke-virtual {v12}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->endBatchEdit()Z
 
-    .line 1383
+    .line 1385
     const/4 v1, 0x1
 
     goto/16 :goto_0
@@ -10494,7 +10508,7 @@
 
     goto/16 :goto_2
 
-    .line 1371
+    .line 1373
     .end local v13    # "isKnown":Z
     :cond_f
     move-object/from16 v0, p0
@@ -10525,14 +10539,14 @@
 
     if-ne v1, v2, :cond_7
 
-    .line 1374
+    .line 1376
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     move-result-object v1
 
     if-eq v15, v1, :cond_7
 
-    .line 1375
+    .line 1377
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -10543,7 +10557,7 @@
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 1376
+    .line 1378
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-object/from16 v0, p0
@@ -10862,7 +10876,7 @@
     .locals 2
 
     .prologue
-    .line 2782
+    .line 2784
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v1, 0x9
@@ -10878,7 +10892,7 @@
     .locals 1
 
     .prologue
-    .line 3515
+    .line 3517
     iget-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->isAddToDictionaryTipHighlighted:Z
 
     return v0
@@ -10930,7 +10944,7 @@
     .locals 1
 
     .prologue
-    .line 4227
+    .line 4229
     const-string v0, "national"
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->isModeUsing(Ljava/lang/String;)Z
@@ -10948,7 +10962,7 @@
 
     const/4 v3, 0x0
 
-    .line 3507
+    .line 3509
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     if-eqz v4, :cond_0
@@ -10977,7 +10991,7 @@
 
     move v1, v2
 
-    .line 3509
+    .line 3511
     .local v1, "oneCandidate":Z
     :goto_0
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->candidatesListView:Lcom/nuance/swype/input/CandidatesListView;
@@ -10986,7 +11000,7 @@
 
     move-result-object v0
 
-    .line 3510
+    .line 3512
     .local v0, "listener":Lcom/nuance/swype/input/CandidatesListView$CandidateListener;
     if-eqz v1, :cond_1
 
@@ -11004,7 +11018,7 @@
     :cond_0
     move v1, v3
 
-    .line 3507
+    .line 3509
     goto :goto_0
 
     .restart local v0    # "listener":Lcom/nuance/swype/input/CandidatesListView$CandidateListener;
@@ -11012,7 +11026,7 @@
     :cond_1
     move v2, v3
 
-    .line 3510
+    .line 3512
     goto :goto_1
 .end method
 
@@ -11020,7 +11034,7 @@
     .locals 1
 
     .prologue
-    .line 4218
+    .line 4220
     const-string v0, "telex"
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->isModeUsing(Ljava/lang/String;)Z
@@ -11034,7 +11048,7 @@
     .locals 1
 
     .prologue
-    .line 2570
+    .line 2572
     iget-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->isTraceEnabledOnKeyboard:Z
 
     return v0
@@ -11047,7 +11061,7 @@
     .param p3, "time"    # J
 
     .prologue
-    .line 2742
+    .line 2744
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getKeyboardLayer()Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     move-result-object v0
@@ -11056,7 +11070,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 2745
+    .line 2747
     iget-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->shiftGestureOn:Z
 
     if-eqz v0, :cond_1
@@ -11065,22 +11079,22 @@
 
     if-ltz v0, :cond_1
 
-    .line 2746
+    .line 2748
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     sget-object v1, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 2747
+    .line 2749
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->shiftGestureOn:Z
 
-    .line 2748
+    .line 2750
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
-    .line 2759
+    .line 2761
     :cond_0
     :goto_0
     invoke-super {p0, p1, p2, p3, p4}, Lcom/nuance/swype/input/InputView;->movePointer(Lcom/nuance/swype/input/KeyboardViewEx$Pointer;Landroid/graphics/Point;J)Z
@@ -11089,7 +11103,7 @@
 
     return v0
 
-    .line 2750
+    .line 2752
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
@@ -11113,19 +11127,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 2753
+    .line 2755
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     sget-object v1, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->ON:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 2754
+    .line 2756
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->shiftGestureOn:Z
 
-    .line 2755
+    .line 2757
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
     goto :goto_0
@@ -11135,16 +11149,16 @@
     .locals 0
 
     .prologue
-    .line 2588
+    .line 2590
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->onApplicationUnbind()V
 
-    .line 2590
+    .line 2592
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->dimissRemoveUdbWordDialog()V
 
-    .line 2596
+    .line 2598
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
-    .line 2597
+    .line 2599
     return-void
 .end method
 
@@ -11165,27 +11179,27 @@
     .param p1, "word"    # Ljava/lang/String;
 
     .prologue
-    .line 1420
+    .line 1422
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearCurrentActiveWord()V
 
-    .line 1422
+    .line 1424
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearComposingTextAndSelection()V
 
-    .line 1424
+    .line 1426
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     if-eqz v0, :cond_0
 
-    .line 1425
+    .line 1427
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0, p1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmDelete(Ljava/lang/String;)Z
 
-    .line 1427
+    .line 1429
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->showNextWordPrediction()V
 
-    .line 1428
+    .line 1430
     return-void
 .end method
 
@@ -11196,7 +11210,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 4034
+    .line 4036
     if-eqz p1, :cond_1
 
     invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
@@ -11205,33 +11219,33 @@
 
     if-lez v1, :cond_1
 
-    .line 4035
+    .line 4037
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isComposingText()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 4036
+    .line 4038
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 4037
+    .line 4039
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->beginBatchEdit()Z
 
-    .line 4038
+    .line 4040
     const-string v1, ""
 
     const/4 v2, 0x1
 
     invoke-interface {v0, v1, v2}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 4039
+    .line 4041
     invoke-interface {v0}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
-    .line 4041
+    .line 4043
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_0
     invoke-interface {p1, v3}, Ljava/lang/CharSequence;->charAt(I)C
@@ -11242,7 +11256,7 @@
 
     invoke-virtual {p0, v1, v2, v3}, Lcom/nuance/swype/input/AlphaInputView;->handleHardkeyCharKey(ILandroid/view/KeyEvent;Z)V
 
-    .line 4043
+    .line 4045
     :cond_1
     return-void
 .end method
@@ -11253,20 +11267,20 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 1713
+    .line 1715
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 1715
+    .line 1717
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     if-nez v1, :cond_0
 
-    .line 1746
+    .line 1748
     :goto_0
     return-void
 
-    .line 1720
+    .line 1722
     :cond_0
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -11286,33 +11300,33 @@
 
     if-nez v4, :cond_3
 
-    .line 1721
+    .line 1723
     :cond_1
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v4}, Landroid/text/SpannableStringBuilder;->clearSpans()V
 
-    .line 1722
+    .line 1724
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-interface {v1, v4, v3}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 1723
+    .line 1725
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v3}, Landroid/text/SpannableStringBuilder;->clear()V
 
-    .line 1744
+    .line 1746
     :cond_2
     :goto_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 1745
+    .line 1747
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKeyboardImage()V
 
     goto :goto_0
 
-    .line 1725
+    .line 1727
     :cond_3
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -11322,26 +11336,26 @@
 
     if-lez v4, :cond_4
 
-    .line 1726
+    .line 1728
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mBKMultiptappingCharSpan:Landroid/text/style/BackgroundColorSpan;
 
     invoke-virtual {v4, v5}, Landroid/text/SpannableStringBuilder;->removeSpan(Ljava/lang/Object;)V
 
-    .line 1727
+    .line 1729
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     iget-object v5, p0, Lcom/nuance/swype/input/AlphaInputView;->mFGMultiptappingCharSpan:Landroid/text/style/ForegroundColorSpan;
 
     invoke-virtual {v4, v5}, Landroid/text/SpannableStringBuilder;->removeSpan(Ljava/lang/Object;)V
 
-    .line 1728
+    .line 1730
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-interface {v1, v4, v3}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
-    .line 1731
+    .line 1733
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isEmptyCandidateList()Z
 
@@ -11349,14 +11363,14 @@
 
     if-nez v4, :cond_2
 
-    .line 1732
+    .line 1734
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v4}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidateString()Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 1733
+    .line 1735
     .local v0, "candidate":Ljava/lang/CharSequence;
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -11368,7 +11382,7 @@
 
     move-result v2
 
-    .line 1734
+    .line 1736
     .local v2, "lastSymbol":C
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView;->charUtils:Lcom/nuance/swype/util/CharacterUtilities;
 
@@ -11392,12 +11406,12 @@
 
     if-eqz v4, :cond_6
 
-    .line 1737
+    .line 1739
     :cond_5
     :goto_2
     if-eqz v3, :cond_2
 
-    .line 1738
+    .line 1740
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v3}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -11410,14 +11424,14 @@
 
     invoke-direct {p0, v3, v4, v5}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 1739
+    .line 1741
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     invoke-virtual {v3}, Lcom/nuance/swype/input/EditState;->punctuationOrSymbols()V
 
     goto :goto_1
 
-    .line 1734
+    .line 1736
     :cond_6
     const/4 v3, 0x0
 
@@ -11430,27 +11444,27 @@
     .param p2, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 1408
+    .line 1410
     if-eqz p1, :cond_0
 
-    .line 1409
+    .line 1411
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->isRemovable()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1410
+    .line 1412
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->showRemoveUdbWordDialog(Ljava/lang/String;)V
 
-    .line 1411
+    .line 1413
     const/4 v0, 0x1
 
-    .line 1415
+    .line 1417
     :goto_0
     return v0
 
@@ -11468,7 +11482,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 1432
+    .line 1434
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -11487,29 +11501,29 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1433
+    .line 1435
     iput-object p2, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
-    .line 1434
+    .line 1436
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     move-result-object v9
 
-    .line 1435
+    .line 1437
     .local v9, "source":Lcom/nuance/input/swypecorelib/Candidates$Source;
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 1436
+    .line 1438
     if-eqz v0, :cond_4
 
-    .line 1437
+    .line 1439
     if-eqz p2, :cond_0
 
-    .line 1438
+    .line 1440
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->autospaceHandler:Lcom/nuance/swype/input/AutospaceHandler;
 
     invoke-virtual {p2}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
@@ -11524,13 +11538,13 @@
 
     invoke-virtual {v0, v1, v2, p1, v4}, Lcom/nuance/swype/input/AutospaceHandler;->onSelectCandidate(Lcom/nuance/input/swypecorelib/Candidates$Source;Lcom/nuance/input/swypecorelib/WordCandidate;Lcom/nuance/input/swypecorelib/WordCandidate;I)V
 
-    .line 1441
+    .line 1443
     :cond_0
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->composingWordCandidates()Z
 
     move-result v7
 
-    .line 1442
+    .line 1444
     .local v7, "composingWordList":Z
     invoke-virtual {p2}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
 
@@ -11556,7 +11570,7 @@
 
     move v8, v3
 
-    .line 1444
+    .line 1446
     .local v8, "isSelectRevertedWord":Z
     :goto_0
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
@@ -11577,15 +11591,15 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 1445
+    .line 1447
     if-eqz v8, :cond_1
 
-    .line 1446
+    .line 1448
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->handleOverrideCacheAddSelectedCandidate(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 1448
+    .line 1450
     :cond_1
     const/4 v2, 0x0
 
@@ -11601,20 +11615,20 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;ZZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;Z)V
 
-    .line 1450
+    .line 1452
     if-eqz v7, :cond_2
 
-    .line 1451
+    .line 1453
     invoke-virtual {p1}, Lcom/nuance/input/swypecorelib/WordCandidate;->isDefault()Z
 
     move-result v0
 
     if-eqz v0, :cond_6
 
-    .line 1452
+    .line 1454
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->triggerAutoDefaultCandidateAcceptTip()V
 
-    .line 1462
+    .line 1464
     :cond_2
     :goto_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
@@ -11639,11 +11653,11 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 1464
+    .line 1466
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 1465
+    .line 1467
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
@@ -11652,10 +11666,10 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 1466
+    .line 1468
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->showNextWordPrediction()V
 
-    .line 1469
+    .line 1471
     .end local v7    # "composingWordList":Z
     .end local v8    # "isSelectRevertedWord":Z
     :cond_4
@@ -11668,17 +11682,17 @@
     :goto_2
     iput v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 1471
+    .line 1473
     return v3
 
-    .line 1442
+    .line 1444
     .restart local v7    # "composingWordList":Z
     :cond_5
     const/4 v8, 0x0
 
     goto :goto_0
 
-    .line 1453
+    .line 1455
     .restart local v8    # "isSelectRevertedWord":Z
     :cond_6
     invoke-virtual {p2}, Lcom/nuance/input/swypecorelib/Candidates;->source()Lcom/nuance/input/swypecorelib/Candidates$Source;
@@ -11695,12 +11709,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 1455
+    .line 1457
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->triggerDoubleLettersGestureTip()V
 
     goto :goto_1
 
-    .line 1469
+    .line 1471
     .end local v7    # "composingWordList":Z
     .end local v8    # "isSelectRevertedWord":Z
     :cond_7
@@ -11714,10 +11728,10 @@
     .param p1, "shouldResyncCache"    # Z
 
     .prologue
-    .line 2476
+    .line 2478
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2477
+    .line 2479
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->onSingleTap(Z)Z
 
     move-result v0
@@ -11729,20 +11743,20 @@
     .locals 1
 
     .prologue
-    .line 4067
+    .line 4069
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->onSpeechViewDismissed()V
 
-    .line 4068
+    .line 4070
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isEmptyCandidateList()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4069
+    .line 4071
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->showNextWordPrediction()V
 
-    .line 4071
+    .line 4073
     :cond_0
     return-void
 .end method
@@ -12351,10 +12365,10 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 2799
+    .line 2801
     invoke-super {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputView;->onUpdateSpeechText(Ljava/lang/CharSequence;ZZ)V
 
-    .line 2801
+    .line 2803
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "onUpdateSpeechText: isFinal = "
@@ -12365,12 +12379,12 @@
 
     invoke-virtual {v0, v1, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2804
+    .line 2806
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0, v2, v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->delayWordReorder(II)V
 
-    .line 2807
+    .line 2809
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "onUpdateSpeechText: dlm update, buffer len = "
@@ -12385,7 +12399,7 @@
 
     invoke-virtual {v0, v1, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 2809
+    .line 2811
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
@@ -12400,14 +12414,14 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmImplicitScanBuf(Ljava/lang/String;IZZLjava/lang/String;)Z
 
-    .line 2814
+    .line 2816
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->dlmCount()I
 
     move-result v8
 
-    .line 2816
+    .line 2818
     .local v8, "udbCurrentCount":I
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
@@ -12421,22 +12435,22 @@
 
     move-result v9
 
-    .line 2818
+    .line 2820
     .local v9, "udbServerCount":I
     if-eq v8, v9, :cond_0
 
-    .line 2819
+    .line 2821
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mSpeechWrapper:Lcom/nuance/swype/input/SpeechWrapper;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/SpeechWrapper;->getCurrentDictation()Lcom/nuance/speech/Dictation;
 
     move-result-object v7
 
-    .line 2820
+    .line 2822
     .local v7, "dictation":Lcom/nuance/speech/Dictation;
     if-eqz v7, :cond_0
 
-    .line 2821
+    .line 2823
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputLanguage()Lcom/nuance/swype/input/InputMethods$Language;
@@ -12453,18 +12467,18 @@
 
     move-result-object v6
 
-    .line 2822
+    .line 2824
     .local v6, "cws":Lcom/nuance/speech/CustomWordSynchronizer;
     if-eqz v6, :cond_0
 
-    .line 2823
+    .line 2825
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getInputFieldInfo()Lcom/nuance/swype/input/InputFieldInfo;
 
     move-result-object v0
 
     invoke-virtual {v6, v0}, Lcom/nuance/speech/CustomWordSynchronizer;->resyncAllUserWords(Lcom/nuance/swype/input/InputFieldInfo;)V
 
-    .line 2827
+    .line 2829
     .end local v6    # "cws":Lcom/nuance/speech/CustomWordSynchronizer;
     .end local v7    # "dictation":Lcom/nuance/speech/Dictation;
     :cond_0
@@ -12475,18 +12489,18 @@
     .locals 4
 
     .prologue
-    .line 4075
+    .line 4077
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->isAddSpaceRequired()Z
 
     move-result v1
 
-    .line 4076
+    .line 4078
     .local v1, "useSpace":Z
     sget-object v2, Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;->GENERIC:Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 4084
+    .line 4086
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isExploreByTouchOn()Z
 
     move-result v2
@@ -12495,23 +12509,23 @@
 
     if-eqz v1, :cond_0
 
-    .line 4085
+    .line 4087
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 4086
+    .line 4088
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_0
 
-    .line 4087
+    .line 4089
     const-string v2, " "
 
     const/4 v3, 0x1
 
     invoke-interface {v0, v2, v3}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 4090
+    .line 4092
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_0
     return-void
@@ -12521,17 +12535,17 @@
     .locals 4
 
     .prologue
-    .line 4193
+    .line 4195
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearAllKeys()V
 
-    .line 4194
+    .line 4196
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setVietInputMode(I)Z
 
-    .line 4195
+    .line 4197
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mReconstructWord:Ljava/lang/String;
@@ -12550,21 +12564,21 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->reconstructWord([CIZ)Z
 
-    .line 4196
+    .line 4198
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isTelexUsing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 4197
+    .line 4199
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/4 v1, 0x2
 
     invoke-virtual {v0, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setVietInputMode(I)Z
 
-    .line 4199
+    .line 4201
     :cond_0
     return-void
 .end method
@@ -12573,10 +12587,10 @@
     .locals 3
 
     .prologue
-    .line 2937
+    .line 2939
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->refreshBTAutoCorrection()V
 
-    .line 2938
+    .line 2940
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/16 v1, 0x63
@@ -12585,7 +12599,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setAttribute(IZ)Z
 
-    .line 2939
+    .line 2941
     return-void
 .end method
 
@@ -12598,18 +12612,18 @@
 
     const/4 v1, 0x0
 
-    .line 4270
+    .line 4272
     if-eqz p1, :cond_2
 
-    .line 4271
+    .line 4273
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->resetAutoSpace()V
 
-    .line 4272
+    .line 4274
     iget-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAutoSpace:Z
 
     if-nez v2, :cond_1
 
-    .line 4273
+    .line 4275
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->autospaceHandler:Lcom/nuance/swype/input/AutospaceHandler;
 
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -12623,17 +12637,17 @@
     :goto_0
     invoke-virtual {v2, v1, v0}, Lcom/nuance/swype/input/AutospaceHandler;->setEnabled(ZZ)V
 
-    .line 4280
+    .line 4282
     :goto_1
     return-void
 
     :cond_0
     move v0, v1
 
-    .line 4273
+    .line 4275
     goto :goto_0
 
-    .line 4275
+    .line 4277
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->autospaceHandler:Lcom/nuance/swype/input/AutospaceHandler;
 
@@ -12643,7 +12657,7 @@
 
     goto :goto_1
 
-    .line 4278
+    .line 4280
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->autospaceHandler:Lcom/nuance/swype/input/AutospaceHandler;
 
@@ -12671,12 +12685,12 @@
     .param p1, "selectionType"    # Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     .prologue
-    .line 2736
+    .line 2738
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/AlphaInputView;->selectDefaultSuggestion(ZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 2737
+    .line 2739
     return-void
 .end method
 
@@ -12686,14 +12700,14 @@
     .param p2, "selectionType"    # Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     .prologue
-    .line 2726
+    .line 2728
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->shouldSelectDefaultCandidate()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2727
+    .line 2729
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -12714,11 +12728,11 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/nuance/swype/input/AlphaInputView;->selectCandidate(Lcom/nuance/input/swypecorelib/WordCandidate;Ljava/lang/CharSequence;ZZLcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;Z)V
 
-    .line 2732
+    .line 2734
     :goto_0
     return-void
 
-    .line 2730
+    .line 2732
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->flushCurrentActiveWord()V
 
@@ -12730,7 +12744,7 @@
     .param p1, "repeatedCount"    # I
 
     .prologue
-    .line 2691
+    .line 2693
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->backspaceRevertHandler:Lcom/nuance/swype/input/BackspaceRevertHandler;
 
     if-eqz v0, :cond_0
@@ -12743,19 +12757,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 2693
+    .line 2695
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 2697
+    .line 2699
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2698
+    .line 2700
     return-void
 
-    .line 2695
+    .line 2697
     :cond_0
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->sendBackspace(I)V
 
@@ -12769,38 +12783,38 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 3987
+    .line 3989
     packed-switch p1, :pswitch_data_0
 
-    .line 3994
+    .line 3996
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 3995
+    .line 3997
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     if-eqz v0, :cond_0
 
-    .line 3996
+    .line 3998
     invoke-static {p1}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-interface {v0, v1, v3}, Landroid/view/inputmethod/InputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 4001
+    .line 4003
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_0
     :goto_0
     iput v3, p0, Lcom/nuance/swype/input/AlphaInputView;->mLastInput:I
 
-    .line 4002
+    .line 4004
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 4003
+    .line 4005
     return-void
 
-    .line 3989
+    .line 3991
     :pswitch_0
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
@@ -12814,7 +12828,7 @@
 
     if-nez v1, :cond_0
 
-    .line 3990
+    .line 3992
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     const/16 v2, 0x42
@@ -12823,7 +12837,7 @@
 
     goto :goto_0
 
-    .line 3987
+    .line 3989
     nop
 
     :pswitch_data_0
@@ -12837,13 +12851,13 @@
     .param p1, "character"    # C
 
     .prologue
-    .line 2702
+    .line 2704
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->sendKeyChar(C)V
 
-    .line 2703
+    .line 2705
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
-    .line 2704
+    .line 2706
     return-void
 .end method
 
@@ -12965,7 +12979,7 @@
     .param p1, "type"    # Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;
 
     .prologue
-    .line 2792
+    .line 2794
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     if-eqz v0, :cond_0
@@ -12976,14 +12990,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 2793
+    .line 2795
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mEditState:Lcom/nuance/swype/input/EditState;
 
     check-cast v0, Lcom/nuance/swype/stats/StatisticsEnabledEditState;
 
     invoke-virtual {v0, p1}, Lcom/nuance/swype/stats/StatisticsEnabledEditState;->setDefaultWordType(Lcom/nuance/swype/stats/StatisticsEnabledEditState$DefaultSelectionType;)V
 
-    .line 2795
+    .line 2797
     :cond_0
     return-void
 .end method
@@ -12998,7 +13012,7 @@
 
     const/4 v7, 0x0
 
-    .line 4007
+    .line 4009
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-static {v9}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
@@ -13009,50 +13023,50 @@
 
     move-result-object v6
 
-    .line 4008
+    .line 4010
     .local v6, "sysState":Lcom/nuance/swype/input/SystemState;
     invoke-virtual {v6}, Lcom/nuance/swype/input/SystemState;->autoCapsValue()I
 
     move-result v3
 
-    .line 4009
+    .line 4011
     .local v3, "capsValue":I
     invoke-virtual {v6}, Lcom/nuance/swype/input/SystemState;->autoPunctuateValue()I
 
     move-result v4
 
-    .line 4010
+    .line 4012
     .local v4, "punctuateValue":I
     invoke-virtual {v6}, Lcom/nuance/swype/input/SystemState;->autoReplaceValue()I
 
     move-result v5
 
-    .line 4011
+    .line 4013
     .local v5, "replaceValue":I
     if-lez v3, :cond_5
 
     move v0, v8
 
-    .line 4012
+    .line 4014
     .local v0, "autoCaps":Z
     :goto_0
     if-lez v4, :cond_6
 
     move v1, v8
 
-    .line 4013
+    .line 4015
     .local v1, "autoPunctuate":Z
     :goto_1
     if-lez v5, :cond_7
 
     move v2, v8
 
-    .line 4014
+    .line 4016
     .local v2, "autoReplace":Z
     :goto_2
     if-eq v3, v10, :cond_0
 
-    .line 4015
+    .line 4017
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v9}, Lcom/nuance/swype/input/InputMethods$Language;->isCapitalizationSupported()Z
@@ -13061,18 +13075,18 @@
 
     if-nez v9, :cond_8
 
-    .line 4016
+    .line 4018
     iput-boolean v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mAutoCap:Z
 
-    .line 4021
+    .line 4023
     :cond_0
     :goto_3
     if-eq v5, v10, :cond_3
 
-    .line 4022
+    .line 4024
     iput-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectionEnabled:Z
 
-    .line 4023
+    .line 4025
     iget-boolean v9, p0, Lcom/nuance/swype/input/AlphaInputView;->autoCorrectionEnabled:Z
 
     if-nez v9, :cond_1
@@ -13087,7 +13101,7 @@
     :cond_2
     iput-boolean v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardInputSuggestionOn:Z
 
-    .line 4025
+    .line 4027
     iget-object v7, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/16 v8, 0x63
@@ -13096,14 +13110,14 @@
 
     invoke-virtual {v7, v8, v9}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setAttribute(IZ)Z
 
-    .line 4027
+    .line 4029
     :cond_3
     if-eq v4, v10, :cond_4
 
-    .line 4028
+    .line 4030
     iput-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAutoPunctuationOn:Z
 
-    .line 4030
+    .line 4032
     :cond_4
     return-void
 
@@ -13113,24 +13127,24 @@
     :cond_5
     move v0, v7
 
-    .line 4011
+    .line 4013
     goto :goto_0
 
     .restart local v0    # "autoCaps":Z
     :cond_6
     move v1, v7
 
-    .line 4012
+    .line 4014
     goto :goto_1
 
     .restart local v1    # "autoPunctuate":Z
     :cond_7
     move v2, v7
 
-    .line 4013
+    .line 4015
     goto :goto_2
 
-    .line 4018
+    .line 4020
     .restart local v2    # "autoReplace":Z
     :cond_8
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mAutoCap:Z
@@ -13143,23 +13157,23 @@
     .param p1, "keyboard"    # Lcom/nuance/swype/input/KeyboardEx;
 
     .prologue
-    .line 2575
+    .line 2577
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->setKeyboard(Lcom/nuance/swype/input/KeyboardEx;)V
 
-    .line 2576
+    .line 2578
     if-nez p1, :cond_1
 
-    .line 2579
+    .line 2581
     :cond_0
     const/4 v0, 0x0
 
     :goto_0
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->isTraceEnabledOnKeyboard:Z
 
-    .line 2584
+    .line 2586
     return-void
 
-    .line 2579
+    .line 2581
     :cond_1
     iget-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mTraceInputSuggestionOn:Z
 
@@ -13222,25 +13236,25 @@
     .param p1, "keyboardLayer"    # Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     .prologue
-    .line 2602
+    .line 2604
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getKeyboardLayer()Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     move-result-object v0
 
     if-ne v0, p1, :cond_0
 
-    .line 2621
+    .line 2623
     :goto_0
     return-void
 
-    .line 2606
+    .line 2608
     :cond_0
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2608
+    .line 2610
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->dismissPopupKeyboard()V
 
-    .line 2610
+    .line 2612
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
@@ -13253,14 +13267,14 @@
 
     invoke-virtual {v0, p1, v1, v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->createKeyboardForTextInput(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;Lcom/nuance/swype/input/InputFieldInfo;Lcom/nuance/swype/input/InputMethods$InputMode;)Lcom/nuance/swype/input/XT9Keyboard;
 
-    .line 2612
+    .line 2614
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isExploreByTouchOn()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 2613
+    .line 2615
     invoke-static {}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->getInstance()Lcom/nuance/swype/input/accessibility/AccessibilityNotification;
 
     move-result-object v0
@@ -13271,18 +13285,18 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/accessibility/AccessibilityNotification;->speakKeyboardLayer(Landroid/content/Context;Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 2616
+    .line 2618
     :cond_1
     sget-object v0, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_TEXT:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     if-ne p1, v0, :cond_2
 
-    .line 2617
+    .line 2619
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState()V
 
     goto :goto_0
 
-    .line 2619
+    .line 2621
     :cond_2
     sget-object v0, Lcom/nuance/input/swypecorelib/Shift$ShiftState;->OFF:Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
@@ -13296,7 +13310,7 @@
     .param p1, "primaryCode"    # I
 
     .prologue
-    .line 4106
+    .line 4108
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -13323,7 +13337,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mReconstructWord:Ljava/lang/String;
 
-    .line 4107
+    .line 4109
     return-void
 .end method
 
@@ -13332,10 +13346,10 @@
     .param p1, "word"    # Ljava/lang/String;
 
     .prologue
-    .line 4188
+    .line 4190
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView;->mReconstructWord:Ljava/lang/String;
 
-    .line 4189
+    .line 4191
     return-void
 .end method
 
@@ -13344,12 +13358,12 @@
     .param p1, "shiftState"    # Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
     .prologue
-    .line 2482
+    .line 2484
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/AlphaInputView;->isManualShift:Z
 
-    .line 2483
+    .line 2485
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
     move-result v0
@@ -13364,13 +13378,13 @@
     .param p3, "format"    # Lcom/nuance/swype/input/CandidatesListView$Format;
 
     .prologue
-    .line 2717
+    .line 2719
     invoke-direct {p0, p2}, Lcom/nuance/swype/input/AlphaInputView;->setSuggestionsHelper(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 2718
+    .line 2720
     invoke-super {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputView;->setSuggestions(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;Lcom/nuance/input/swypecorelib/Candidates;Lcom/nuance/swype/input/CandidatesListView$Format;)V
 
-    .line 2719
+    .line 2721
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -13379,16 +13393,16 @@
 
     move-result-object v0
 
-    .line 2720
+    .line 2722
     .local v0, "keyboardScribe":Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;
     if-eqz v0, :cond_0
 
-    .line 2721
+    .line 2723
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-interface {v0, v1}, Lcom/nuance/swype/stats/UsageManager$KeyboardUsageScribe;->recordSelectionListOptions(Lcom/nuance/input/swypecorelib/Candidates;)V
 
-    .line 2723
+    .line 2725
     :cond_0
     return-void
 .end method
@@ -13397,15 +13411,15 @@
     .locals 3
 
     .prologue
-    .line 4202
+    .line 4204
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isTelexUsing()Z
 
     move-result v1
 
-    .line 4204
+    .line 4206
     if-eqz v1, :cond_0
 
-    .line 4205
+    .line 4207
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
     const/4 v2, 0x2
@@ -13414,12 +13428,12 @@
 
     move-result v0
 
-    .line 4209
+    .line 4211
     .local v0, "isSuccess":Z
     :goto_0
     return v0
 
-    .line 4207
+    .line 4209
     .end local v0    # "isSuccess":Z
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -13439,17 +13453,17 @@
     .param p1, "keyCode"    # I
 
     .prologue
-    .line 4049
+    .line 4051
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->showHardKeyPopupKeyboard(I)V
 
-    .line 4050
+    .line 4052
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result v1
 
-    .line 4051
+    .line 4053
     .local v1, "len":I
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mInlineWord:Landroid/text/SpannableStringBuilder;
 
@@ -13463,12 +13477,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 4052
+    .line 4054
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v0
 
-    .line 4053
+    .line 4055
     .local v0, "ic":Landroid/view/inputmethod/InputConnection;
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -13476,13 +13490,13 @@
 
     if-nez v0, :cond_1
 
-    .line 4063
+    .line 4065
     .end local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_0
     :goto_0
     return-void
 
-    .line 4057
+    .line 4059
     .restart local v0    # "ic":Landroid/view/inputmethod/InputConnection;
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isComposingText()Z
@@ -13491,7 +13505,7 @@
 
     if-eqz v2, :cond_2
 
-    .line 4058
+    .line 4060
     sget-object v2, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     const/4 v3, 0x1
@@ -13500,7 +13514,7 @@
 
     goto :goto_0
 
-    .line 4060
+    .line 4062
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->clearSuggestions()V
 
@@ -13511,23 +13525,23 @@
     .locals 3
 
     .prologue
-    .line 4093
+    .line 4095
     iget-boolean v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mNextWordPredictionOn:Z
 
     if-nez v1, :cond_1
 
-    .line 4102
+    .line 4104
     :cond_0
     :goto_0
     return-void
 
-    .line 4096
+    .line 4098
     :cond_1
     invoke-static {}, Lcom/nuance/swype/input/IME;->getLastSavedActiveWord()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4097
+    .line 4099
     .local v0, "lastWord":Ljava/lang/String;
     if-eqz v0, :cond_2
 
@@ -13537,11 +13551,11 @@
 
     if-gtz v1, :cond_0
 
-    .line 4100
+    .line 4102
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->updateWordContext()V
 
-    .line 4101
+    .line 4103
     sget-object v1, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     const/4 v2, 0x1
@@ -13842,24 +13856,24 @@
 
     const/4 v4, -0x1
 
-    .line 4125
+    .line 4127
     iget v1, p0, Lcom/nuance/swype/input/AlphaInputView;->prevPointerId:I
 
     if-ne v1, v4, :cond_0
 
-    .line 4127
+    .line 4129
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 4128
+    .line 4130
     const/16 v2, 0x400
 
     invoke-interface {v1, v2, v5}, Landroid/view/inputmethod/InputConnection;->getTextBeforeCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 4129
+    .line 4131
     .local v0, "cs":Ljava/lang/CharSequence;
     if-eqz v0, :cond_2
 
@@ -13870,7 +13884,7 @@
     :goto_0
     iput v1, p0, Lcom/nuance/swype/input/AlphaInputView;->textLenthBeforeCursor:I
 
-    .line 4130
+    .line 4132
     sget-object v1, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v2, "subHandleTouchDown...textLenthBeforeCursor: "
@@ -13883,7 +13897,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4132
+    .line 4134
     .end local v0    # "cs":Ljava/lang/CharSequence;
     :cond_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
@@ -13896,7 +13910,7 @@
 
     if-eq v1, v4, :cond_1
 
-    .line 4133
+    .line 4135
     iget v1, p0, Lcom/nuance/swype/input/AlphaInputView;->prevPointerId:I
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getEventTime()J
@@ -13905,19 +13919,19 @@
 
     invoke-direct {p0, v1, v2, v3}, Lcom/nuance/swype/input/AlphaInputView;->doFakeUp(IJ)V
 
-    .line 4135
+    .line 4137
     :cond_1
     invoke-super {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputView;->subHandleTouchDown(Landroid/view/MotionEvent;Lcom/nuance/swype/input/KeyboardViewEx$Pointer;I)V
 
-    .line 4136
+    .line 4138
     iget v1, p2, Lcom/nuance/swype/input/KeyboardViewEx$Pointer;->pointerId:I
 
     iput v1, p0, Lcom/nuance/swype/input/AlphaInputView;->prevPointerId:I
 
-    .line 4137
+    .line 4139
     return-void
 
-    .line 4129
+    .line 4131
     .restart local v0    # "cs":Ljava/lang/CharSequence;
     :cond_2
     const/4 v1, 0x0
@@ -13932,15 +13946,15 @@
     .param p3, "action"    # I
 
     .prologue
-    .line 4183
+    .line 4185
     invoke-super {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputView;->subHandleTouchUp(Landroid/view/MotionEvent;Lcom/nuance/swype/input/KeyboardViewEx$Pointer;I)V
 
-    .line 4184
+    .line 4186
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/nuance/swype/input/AlphaInputView;->prevPointerId:I
 
-    .line 4185
+    .line 4187
     return-void
 .end method
 
@@ -13952,15 +13966,15 @@
 
     const/4 v9, -0x1
 
-    .line 4110
+    .line 4112
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->swipeDown()V
 
-    .line 4112
+    .line 4114
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
 
     move-result-object v1
 
-    .line 4113
+    .line 4115
     .local v1, "ic":Landroid/view/inputmethod/InputConnection;
     const/16 v4, 0x400
 
@@ -13970,7 +13984,7 @@
 
     move-result-object v0
 
-    .line 4114
+    .line 4116
     .local v0, "cs":Ljava/lang/CharSequence;
     if-eqz v0, :cond_1
 
@@ -13978,7 +13992,7 @@
 
     move-result v2
 
-    .line 4115
+    .line 4117
     .local v2, "length":I
     :goto_0
     sget-object v4, Lcom/nuance/swype/input/AlphaInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
@@ -13999,7 +14013,7 @@
 
     invoke-virtual {v4, v5, v6, v7, v8}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 4116
+    .line 4118
     iget v4, p0, Lcom/nuance/swype/input/AlphaInputView;->textLenthBeforeCursor:I
 
     if-le v2, v4, :cond_0
@@ -14008,28 +14022,28 @@
 
     if-eq v4, v9, :cond_0
 
-    .line 4117
+    .line 4119
     iget v4, p0, Lcom/nuance/swype/input/AlphaInputView;->textLenthBeforeCursor:I
 
     sub-int v4, v2, v4
 
     invoke-interface {v1, v4, v3}, Landroid/view/inputmethod/InputConnection;->deleteSurroundingText(II)Z
 
-    .line 4119
+    .line 4121
     :cond_0
     iput v9, p0, Lcom/nuance/swype/input/AlphaInputView;->textLenthBeforeCursor:I
 
-    .line 4120
+    .line 4122
     iput v9, p0, Lcom/nuance/swype/input/AlphaInputView;->prevPointerId:I
 
-    .line 4121
+    .line 4123
     return-void
 
     .end local v2    # "length":I
     :cond_1
     move v2, v3
 
-    .line 4114
+    .line 4116
     goto :goto_0
 .end method
 
@@ -14037,7 +14051,7 @@
     .locals 4
 
     .prologue
-    .line 1780
+    .line 1782
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/KeyboardSwitcher;->isKeypadInput()Z
@@ -14046,14 +14060,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1781
+    .line 1783
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/KeyboardSwitcher;->getCurrentInputMode()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1782
+    .line 1784
     const-string v1, "multitap"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -14062,7 +14076,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 1783
+    .line 1785
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
@@ -14079,12 +14093,12 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/swype/input/KeyboardSwitcher;->createKeyboardForTextInput(Lcom/nuance/swype/input/InputFieldInfo;Lcom/nuance/swype/input/InputMethods$InputMode;)Lcom/nuance/swype/input/XT9Keyboard;
 
-    .line 1790
+    .line 1792
     :cond_0
     :goto_0
     return-void
 
-    .line 1786
+    .line 1788
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
@@ -14114,7 +14128,7 @@
 
     const/4 v4, 0x0
 
-    .line 1647
+    .line 1649
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     if-eqz v2, :cond_0
@@ -14125,12 +14139,12 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 1689
+    .line 1691
     :cond_0
     :goto_0
     return-void
 
-    .line 1651
+    .line 1653
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
@@ -14138,44 +14152,44 @@
 
     check-cast v1, Lcom/nuance/swype/input/XT9Keyboard;
 
-    .line 1653
+    .line 1655
     .local v1, "keyboard":Lcom/nuance/swype/input/XT9Keyboard;
     if-eqz v1, :cond_0
 
-    .line 1659
+    .line 1661
     iget-boolean v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardInputSuggestionOn:Z
 
     if-nez v2, :cond_3
 
-    .line 1660
+    .line 1662
     const/4 v2, -0x1
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/input/XT9Keyboard;->setXT9KeyState(I)Lcom/nuance/swype/input/KeyboardEx$Key;
 
     move-result-object v0
 
-    .line 1661
+    .line 1663
     .local v0, "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     if-eqz v0, :cond_2
 
-    .line 1663
+    .line 1665
     iget-object v2, v0, Lcom/nuance/swype/input/KeyboardEx$Key;->codes:[I
 
     aput v6, v2, v4
 
-    .line 1686
+    .line 1688
     :cond_2
     :goto_1
     if-eqz v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    .line 1687
+    .line 1689
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->invalidateKey(Lcom/nuance/swype/input/KeyboardEx$Key;)V
 
     goto :goto_0
 
-    .line 1666
+    .line 1668
     .end local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     :cond_3
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
@@ -14192,50 +14206,50 @@
 
     if-eqz v2, :cond_5
 
-    .line 1667
+    .line 1669
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->isComposingText()Z
 
     move-result v2
 
     if-eqz v2, :cond_4
 
-    .line 1668
+    .line 1670
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Lcom/nuance/swype/input/XT9Keyboard;->setXT9KeyState(I)Lcom/nuance/swype/input/KeyboardEx$Key;
 
     move-result-object v0
 
-    .line 1669
+    .line 1671
     .restart local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     if-eqz v0, :cond_2
 
-    .line 1670
+    .line 1672
     iget-object v2, v0, Lcom/nuance/swype/input/KeyboardEx$Key;->codes:[I
 
     aput v6, v2, v4
 
     goto :goto_1
 
-    .line 1673
+    .line 1675
     .end local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     :cond_4
     invoke-virtual {v1, v4}, Lcom/nuance/swype/input/XT9Keyboard;->setXT9KeyState(I)Lcom/nuance/swype/input/KeyboardEx$Key;
 
     move-result-object v0
 
-    .line 1674
+    .line 1676
     .restart local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     if-eqz v0, :cond_2
 
-    .line 1675
+    .line 1677
     iget-object v2, v0, Lcom/nuance/swype/input/KeyboardEx$Key;->codes:[I
 
     aput v5, v2, v4
 
     goto :goto_1
 
-    .line 1679
+    .line 1681
     .end local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     :cond_5
     const/4 v2, 0x1
@@ -14244,11 +14258,11 @@
 
     move-result-object v0
 
-    .line 1680
+    .line 1682
     .restart local v0    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     if-eqz v0, :cond_2
 
-    .line 1681
+    .line 1683
     iget-object v2, v0, Lcom/nuance/swype/input/KeyboardEx$Key;->codes:[I
 
     aput v5, v2, v4
@@ -14429,14 +14443,14 @@
     .locals 1
 
     .prologue
-    .line 2416
+    .line 2418
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/nuance/swype/input/AlphaInputView;->updateShiftKeyState(Landroid/view/inputmethod/EditorInfo;)V
 
-    .line 2417
+    .line 2419
     return-void
 .end method
 
@@ -14446,28 +14460,28 @@
     .param p2, "noComposingText"    # Z
 
     .prologue
-    .line 2088
+    .line 2090
     const/4 v5, 0x0
 
-    .line 2089
+    .line 2091
     .local v5, "suggestionCount":I
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->NEXT_WORD_PREDICTION:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-ne p1, v9, :cond_4
 
-    .line 2097
+    .line 2099
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
     if-nez v9, :cond_0
 
-    .line 2098
+    .line 2100
     const/4 v9, 0x0
 
-    .line 2201
+    .line 2203
     :goto_0
     return v9
 
-    .line 2100
+    .line 2102
     :cond_0
     iget-object v10, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInput:Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
 
@@ -14486,19 +14500,19 @@
     :goto_1
     invoke-virtual {v10, v9}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)V
 
-    .line 2104
+    .line 2106
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0x9
 
     invoke-virtual {v9, v10}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2105
+    .line 2107
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->INVALID:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     iput-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 2108
+    .line 2110
     iget-object v10, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     iget-object v11, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
@@ -14520,10 +14534,10 @@
 
     invoke-virtual {v10, v9, v12, v13}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 2110
+    .line 2112
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
-    .line 2111
+    .line 2113
     invoke-direct {p0}, Lcom/nuance/swype/input/AlphaInputView;->hasInputQueue()Z
 
     move-result v9
@@ -14538,7 +14552,7 @@
 
     if-nez v9, :cond_1
 
-    .line 2113
+    .line 2115
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v9}, Lcom/nuance/swype/input/IME;->isHardKeyboardActive()Z
@@ -14547,14 +14561,14 @@
 
     if-eqz v9, :cond_1
 
-    .line 2115
+    .line 2117
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-static {v9}, Lcom/nuance/swype/input/UserPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/UserPreferences;
 
     move-result-object v8
 
-    .line 2116
+    .line 2118
     .local v8, "userPrefs":Lcom/nuance/swype/input/UserPreferences;
     const-string v9, "NWP_HKB"
 
@@ -14566,14 +14580,14 @@
 
     if-nez v9, :cond_1
 
-    .line 2117
+    .line 2119
     const-string v9, "NWP_HKB"
 
     const/4 v10, 0x1
 
     invoke-virtual {v8, v9, v10}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2118
+    .line 2120
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getResources()Landroid/content/res/Resources;
@@ -14595,10 +14609,10 @@
     :goto_3
     move v9, v5
 
-    .line 2201
+    .line 2203
     goto :goto_0
 
-    .line 2100
+    .line 2102
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getShiftState()Lcom/nuance/input/swypecorelib/Shift$ShiftState;
 
@@ -14606,19 +14620,19 @@
 
     goto :goto_1
 
-    .line 2108
+    .line 2110
     :cond_3
     const/4 v9, 0x0
 
     goto :goto_2
 
-    .line 2126
+    .line 2128
     :cond_4
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->CAPS_EDIT:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-ne p1, v9, :cond_a
 
-    .line 2127
+    .line 2129
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0x9
@@ -14627,7 +14641,7 @@
 
     move-result v1
 
-    .line 2128
+    .line 2130
     .local v1, "hasPendingUpdates":Z
     if-nez v1, :cond_9
 
@@ -14637,7 +14651,7 @@
 
     if-nez v9, :cond_9
 
-    .line 2129
+    .line 2131
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->suggestionCandidates:Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-virtual {v9}, Lcom/nuance/input/swypecorelib/Candidates;->getDefaultCandidate()Lcom/nuance/input/swypecorelib/WordCandidate;
@@ -14648,7 +14662,7 @@
 
     move-result-object v0
 
-    .line 2130
+    .line 2132
     .local v0, "candidate":Ljava/lang/String;
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -14656,24 +14670,24 @@
 
     if-lez v9, :cond_1
 
-    .line 2132
+    .line 2134
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 2133
+    .line 2135
     .local v2, "lower":Ljava/lang/String;
     invoke-virtual {v0}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 2136
+    .line 2138
     .local v7, "upper":Ljava/lang/String;
     invoke-virtual {v2}, Ljava/lang/String;->toCharArray()[C
 
     move-result-object v4
 
-    .line 2137
+    .line 2139
     .local v4, "shiftedChars":[C
     const/4 v9, 0x0
 
@@ -14687,18 +14701,18 @@
 
     aput-char v10, v4, v9
 
-    .line 2138
+    .line 2140
     new-instance v3, Ljava/lang/String;
 
     invoke-direct {v3, v4}, Ljava/lang/String;-><init>([C)V
 
-    .line 2141
+    .line 2143
     .local v3, "shifted":Ljava/lang/String;
     new-instance v6, Ljava/util/ArrayList;
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2143
+    .line 2145
     .local v6, "suggestions":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/CharSequence;>;"
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
@@ -14710,20 +14724,20 @@
 
     if-eqz v9, :cond_7
 
-    .line 2144
+    .line 2146
     invoke-virtual {v6, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2145
+    .line 2147
     invoke-virtual {v3, v2}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v9
 
     if-nez v9, :cond_5
 
-    .line 2146
+    .line 2148
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2150
+    .line 2152
     :cond_5
     invoke-virtual {v3, v7}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
@@ -14737,10 +14751,10 @@
 
     if-nez v9, :cond_6
 
-    .line 2151
+    .line 2153
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2167
+    .line 2169
     :cond_6
     :goto_4
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
@@ -14751,33 +14765,33 @@
 
     if-le v9, v10, :cond_1
 
-    .line 2168
+    .line 2170
     const/4 v9, 0x0
 
     invoke-virtual {p0, p0, v6, v9, p1}, Lcom/nuance/swype/input/AlphaInputView;->setSuggestions(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;Ljava/util/List;ILcom/nuance/input/swypecorelib/Candidates$Source;)V
 
-    .line 2169
+    .line 2171
     invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
     move-result v5
 
     goto/16 :goto_3
 
-    .line 2154
+    .line 2156
     :cond_7
     invoke-virtual {v6, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2157
+    .line 2159
     invoke-virtual {v2, v7}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     move-result v9
 
     if-nez v9, :cond_8
 
-    .line 2158
+    .line 2160
     invoke-virtual {v6, v7}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 2162
+    .line 2164
     :cond_8
     invoke-virtual {v2, v3}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
@@ -14791,12 +14805,12 @@
 
     if-nez v9, :cond_6
 
-    .line 2163
+    .line 2165
     invoke-virtual {v6, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_4
 
-    .line 2172
+    .line 2174
     .end local v0    # "candidate":Ljava/lang/String;
     .end local v2    # "lower":Ljava/lang/String;
     .end local v3    # "shifted":Ljava/lang/String;
@@ -14806,14 +14820,14 @@
     :cond_9
     if-eqz v1, :cond_1
 
-    .line 2174
+    .line 2176
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0xd
 
     invoke-virtual {v9, v10}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2175
+    .line 2177
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0xd
@@ -14822,21 +14836,21 @@
 
     invoke-virtual {v9, v10, v12, v13}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 2176
+    .line 2178
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->CAPS_EDIT:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     iput-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     goto/16 :goto_3
 
-    .line 2179
+    .line 2181
     .end local v1    # "hasPendingUpdates":Z
     :cond_a
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-ne p1, v9, :cond_d
 
-    .line 2180
+    .line 2182
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0x9
@@ -14847,14 +14861,14 @@
 
     if-eqz v9, :cond_b
 
-    .line 2181
+    .line 2183
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     const/16 v10, 0x9
 
     invoke-virtual {v9, v10}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2185
+    .line 2187
     :cond_b
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mIme:Lcom/nuance/swype/input/IME;
 
@@ -14864,7 +14878,7 @@
 
     if-eqz v9, :cond_c
 
-    .line 2186
+    .line 2188
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     iget-object v10, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
@@ -14883,7 +14897,7 @@
 
     invoke-virtual {v9, v10, v12, v13}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 2192
+    .line 2194
     :goto_5
     sget-object v9, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
@@ -14891,7 +14905,7 @@
 
     goto/16 :goto_3
 
-    .line 2189
+    .line 2191
     :cond_c
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
@@ -14913,7 +14927,7 @@
 
     goto :goto_5
 
-    .line 2195
+    .line 2197
     :cond_d
     iget-object v9, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
@@ -14921,7 +14935,7 @@
 
     invoke-virtual {v9, v10}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2196
+    .line 2198
     iget-object v10, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
 
     iget-object v11, p0, Lcom/nuance/swype/input/AlphaInputView;->mAlphaInputViewHandler:Landroid/os/Handler;
@@ -14943,12 +14957,12 @@
 
     invoke-virtual {v10, v9, v12, v13}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 2198
+    .line 2200
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView;->pendingCandidateSource:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     goto/16 :goto_3
 
-    .line 2196
+    .line 2198
     :cond_e
     const/4 v9, 0x0
 

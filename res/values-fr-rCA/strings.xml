@@ -58,7 +58,7 @@ Voulez-vous continuer?"</string>
     <string name="sns_facebook_sign_on">Connectez-vous afin que les noms de vos contacts Facebook soient ajoutés à votre dictionnaire personnel</string>
     <string name="sns_twitter_sign_on">Connectez-vous afin que les noms de vos contacts et les nouveaux mots provenants de vos tweets soient ajoutés à votre dictionnaire personnel</string>
     <string name="sns_gmail_sign_on">Connectez-vous afin que les noms des gens à qui vous avez envoyés des courriers électroniques soient ajoutés à votre dictionnaire personnel</string>
-    <string name="sns_personalizing">Personnalisation de votre expérience…</string>
+    <string name="sns_personalizing">Personnalisation de votre expérience</string>
     <string name="sns_personalize_finished">Dernière mise à jour le %s. Appuyer pour rafraîchir.</string>
     <string name="dismiss_button">Supprimer</string>
     <string name="canceling">Annulation</string>
@@ -435,7 +435,7 @@ Installé. Appuyer pour lancer l'application."</string>
     <string name="pref_delete_account_desc">Supprimer tous les appareils de la base de registres et les données de votre compte de Swype Connect. Cette action ne supprimera pas vos données personnelles de langue ou vos mots sur cet appareil.</string>
     <string name="pref_sync_now_title">Synchroniser maintenant</string>
     <string name="pref_devices_title">Appareils</string>
-    <string name="pref_personalize_your_experience_title">Personnalisation de votre expérience…</string>
+    <string name="pref_personalize_your_experience_title">Personnalisation de votre expérience</string>
     <string name="pref_clear_lang_data_dialog">Toutes vos données de langue seront supprimées et la fonction Sauvegarde et Synchronisation sera désactivée sur cet appareil. Êtes-vous sûr(e) de vouloir continuer?</string>
     <string name="startup_choose_lang">Choisir votre langue</string>
     <string name="startup_choose_lang_toast">Vous devez télécharger une langue pour continuer</string>
@@ -481,7 +481,7 @@ Installé. Appuyer pour lancer l'application."</string>
     <string name="max_function_item_count_title">Limite de comptage max</string>
     <string name="functionbar_hwtoggle_toast_on">Écriture sur le clavier activée</string>
     <string name="functionbar_hwtoggle_toast_off">Écriture sur le clavier désactivée</string>
-    <string name="pref_personalization_personalize_experience">Personnalisation de votre expérience…</string>
+    <string name="pref_personalization_personalize_experience">Personnalisation de votre expérience</string>
     <string name="personalization_settings_title">Personnalisation</string>
     <string name="theme_name_frost">Arctique</string>
     <string name="theme_name_classic">Classique</string>

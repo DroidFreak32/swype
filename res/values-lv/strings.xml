@@ -59,7 +59,7 @@ Vai vēlaties turpināt?"</string>
     <string name="sns_facebook_sign_on">Pierakstīties, lai jūsu personiskā vārdnīca tiktu papildināta ar kontaktpersonu vārdiem no jūsu Facebook profila</string>
     <string name="sns_twitter_sign_on">Pierakstīties, lai jūsu personiskā vārdnīca tiktu papildināta ar lietotājvārdiem un jauniem vārdiem no jūsu publiskās Twitter plūsmas</string>
     <string name="sns_gmail_sign_on">Pierakstīties, lai jūsu personiskā vārdnīca tiktu papildināta ar to cilvēku vārdiem, kuriem jūs esat nosūtījuši e-pasta ziņojumus</string>
-    <string name="sns_personalizing">Individuālās pieredzes personalizēšana…</string>
+    <string name="sns_personalizing">Individuālās pieredzes personalizēšana</string>
     <string name="sns_personalize_finished">Pēdējo reizi atjaunināta %s. Pieskarieties, lai atsvaidzinātu.</string>
     <string name="dismiss_button">Izbeigt</string>
     <string name="canceling">Atceļ</string>
@@ -436,7 +436,7 @@ Instalēts. Skariet, lai palaistu."</string>
     <string name="pref_delete_account_desc">Dzēsiet visu ierīču reģistrāciju un sava konta informāciju no Swype Connect. Šī darbība neizdzēsīs personiskos valodas datus un jūsu vārdus šajā ierīcē.</string>
     <string name="pref_sync_now_title">Sinhronizēt tagad</string>
     <string name="pref_devices_title">Ierīces</string>
-    <string name="pref_personalize_your_experience_title">Individuālās pieredzes personalizēšana…</string>
+    <string name="pref_personalize_your_experience_title">Individuālās pieredzes personalizēšana</string>
     <string name="pref_clear_lang_data_dialog">Tiks dzēsti visi jūsu valodas dati, un šai ierīcei būs atspējota dublēšana un sinhronizēšana. Vai patiešām vēlaties turpināt?</string>
     <string name="startup_choose_lang">Izvēlieties valodu</string>
     <string name="startup_choose_lang_toast">Lai turpinātu, jāveic valodas lejupielāde</string>
@@ -482,7 +482,7 @@ Instalēts. Skariet, lai palaistu."</string>
     <string name="max_function_item_count_title">Maksimālais skaita ierobežojums</string>
     <string name="functionbar_hwtoggle_toast_on">Rokraksta režīms tastatūrā iespējots</string>
     <string name="functionbar_hwtoggle_toast_off">Rokraksta režīms tastatūrā atspējots</string>
-    <string name="pref_personalization_personalize_experience">Individuālās pieredzes personalizēšana…</string>
+    <string name="pref_personalization_personalize_experience">Individuālās pieredzes personalizēšana</string>
     <string name="personalization_settings_title">Personalizēšana</string>
     <string name="theme_name_frost">Arktika</string>
     <string name="theme_name_classic">Klasika</string>

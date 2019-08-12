@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: com.nuance.swype.oppo-03ef5b79205fc4ced5ac43a3021f6cd6.apk
+apkFileName: 3de9b321bdbd51594129105113090446.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -1490,4 +1490,4 @@ usesFramework:
 version: 2.4.0
 versionInfo:
   versionCode: '1081600'
-  versionName: 1.8.16.1081600.38724
+  versionName: 1.8.16.1081600.40345

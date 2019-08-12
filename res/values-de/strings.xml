@@ -59,7 +59,7 @@ Fortfahren?"</string>
     <string name="sns_facebook_sign_on">Melden Sie sich an, um Kontaktnamen von Ihrem Facebook-Konto in Ihr persönliches Wörterbuch aufzunehmen</string>
     <string name="sns_twitter_sign_on">Melden Sie sich an, um Benutzernamen und neue Wörter aus Ihrem öffentlichen Twitter-Feed in Ihr persönliches Wörterbuch aufzunehmen</string>
     <string name="sns_gmail_sign_on">Melden Sie sich an, um Namen von Leuten, denen Sie E-Mail gesendet haben, in Ihr persönliches Wörterbuch aufzunehmen</string>
-    <string name="sns_personalizing">Persönliche Anpassung…</string>
+    <string name="sns_personalizing">Persönliche Anpassung</string>
     <string name="sns_personalize_finished">Letzte Aktualisierung am %s. Zum Aktualisieren tippen.</string>
     <string name="dismiss_button">Ausblenden</string>
     <string name="canceling">Abbrechen</string>
@@ -436,7 +436,7 @@ Installiert. Zum Starten tippen."</string>
     <string name="pref_delete_account_desc">Registrierung aller Geräte aufheben und Ihre Kontodaten aus Swype Connect löschen. Ihre persönlichen Sprachdaten und Ihre Wörter auf diesem Gerät werden nicht gelöscht.</string>
     <string name="pref_sync_now_title">Jetzt synchronisieren</string>
     <string name="pref_devices_title">Geräte</string>
-    <string name="pref_personalize_your_experience_title">Persönliche Anpassung…</string>
+    <string name="pref_personalize_your_experience_title">Persönliche Anpassung</string>
     <string name="pref_clear_lang_data_dialog">All Ihre Sprachdaten werden gelöscht, und die Sicherung und Synchronisierung werden für dieses Gerät deaktiviert. Möchten Sie wirklich fortfahren?</string>
     <string name="startup_choose_lang">Wählen Sie Ihre Sprache</string>
     <string name="startup_choose_lang_toast">Sie müssen eine Sprache herunterladen, um fortzufahren</string>
@@ -482,7 +482,7 @@ Installiert. Zum Starten tippen."</string>
     <string name="max_function_item_count_title">Max. Grenzwert</string>
     <string name="functionbar_hwtoggle_toast_on">Handschrift auf Tastatur aktiviert</string>
     <string name="functionbar_hwtoggle_toast_off">Handschrift auf Tastatur deaktiviert</string>
-    <string name="pref_personalization_personalize_experience">Persönliche Anpassung…</string>
+    <string name="pref_personalization_personalize_experience">Persönliche Anpassung</string>
     <string name="personalization_settings_title">Personalisierung</string>
     <string name="theme_name_frost">Arktis</string>
     <string name="theme_name_classic">Klassisch</string>

@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Увійдіть у систему, щоб додати імена ваших контактів з Facebook до вашого особистого словника</string>
     <string name="sns_twitter_sign_on">Увійдіть у систему, щоб додати імена користувачів та нові слова зі свого публічного каналу Twitter до вашого особистого словника</string>
     <string name="sns_gmail_sign_on">Увійдіть у систему, щоб додати до вашого особистого словника імена людей, яким ви відправляли електронні листи</string>
-    <string name="sns_personalizing">Персоналізація досвіду…</string>
+    <string name="sns_personalizing">Персоналізація досвіду</string>
     <string name="sns_personalize_finished">Останнє оновлення %s. Торкніться, щоб оновити. Торкніться, щоб оновити.</string>
     <string name="dismiss_button">Скасувати</string>
     <string name="canceling">Скасування</string>
@@ -436,7 +436,7 @@
     <string name="pref_delete_account_desc">Відмінити реєстрацію всіх пристроїв та видалити дані вашого облікового запису зі Swype Connect. Це не призведе до видалення ваших персональних мовних даних чи ваших слів з даного пристрою.</string>
     <string name="pref_sync_now_title">Синхронізувати зараз</string>
     <string name="pref_devices_title">Пристрої</string>
-    <string name="pref_personalize_your_experience_title">Персоналізація досвіду…</string>
+    <string name="pref_personalize_your_experience_title">Персоналізація досвіду</string>
     <string name="pref_clear_lang_data_dialog">Всі ваші мовні дані буде видалено, резервне копіювання та синхронізацію на цьому пристрої також буде вимкнено. Ви впевнені, що хочете продовжувати?</string>
     <string name="startup_choose_lang">Оберіть вашу мову</string>
     <string name="startup_choose_lang_toast">Щоб продовжити, завантажте мову</string>
@@ -482,7 +482,7 @@
     <string name="max_function_item_count_title">Максимальне значення</string>
     <string name="functionbar_hwtoggle_toast_on">Рукописний набір на клавіатурі увімкнено</string>
     <string name="functionbar_hwtoggle_toast_off">Рукописний набір на клавіатурі вимкнено</string>
-    <string name="pref_personalization_personalize_experience">Персоналізація досвіду…</string>
+    <string name="pref_personalization_personalize_experience">Персоналізація досвіду</string>
     <string name="personalization_settings_title">Персоналізація</string>
     <string name="theme_name_frost">Арктика</string>
     <string name="theme_name_classic">Класика</string>

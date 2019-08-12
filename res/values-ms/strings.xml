@@ -59,7 +59,7 @@ Adakah anda mahu meneruskan?"</string>
     <string name="sns_facebook_sign_on">Daftar masuk agar nama kenalan dari akaun Facebook anda ditambah ke dalam kamus peribadi anda</string>
     <string name="sns_twitter_sign_on">Daftar masuk agar nama pengguna dan perkataan baru dari suapan Twitter umum anda ditambah ke dalam kamus peribadi anda</string>
     <string name="sns_gmail_sign_on">Daftar masuk agar nama penerima e-mel anda ditambah pada kamus peribadi anda</string>
-    <string name="sns_personalizing">Memperibadikan pengalaman anda…</string>
+    <string name="sns_personalizing">Memperibadikan pengalaman anda</string>
     <string name="sns_personalize_finished">Kemas kini terakhir pada %s. Ketik untuk menyegarkan semula.</string>
     <string name="dismiss_button">Buang</string>
     <string name="canceling">Membatalkan</string>
@@ -104,7 +104,7 @@ Adakah anda mahu memuat turun sekarang?"</string>
     <string name="pref_header_basic">Tetapan asas</string>
     <string name="pref_header_advanced">Tetapan lanjut</string>
     <string name="pref_show_complete_trace_title">Tunjuk surihan penuh</string>
-    <string name="pref_show_chars_on_keypress_title">Pop-up muncul semasa kekunci ditekan</string>
+    <string name="pref_show_chars_on_keypress_title">Pop-up semasa kekunci ditekan</string>
     <string name="pref_enable_handwriting_title">Hidupkan ciri tulisan tangan</string>
     <string name="prefs_language_current_language_title">Semasa</string>
     <string name="prefs_language_recent_languages_title">Baru digunakan</string>
@@ -436,7 +436,7 @@ Dipasang. Ketik untuk melancarkan."</string>
     <string name="pref_delete_account_desc">Nyahdaftar semua peranti dan padam data akaun anda daripada Swype Connect. Ini tidak akan memadamkan data bahasa peribadi atau perkataan anda di peranti ini.</string>
     <string name="pref_sync_now_title">Segerakkan sekarang</string>
     <string name="pref_devices_title">Peranti</string>
-    <string name="pref_personalize_your_experience_title">Memperibadikan pengalaman anda…</string>
+    <string name="pref_personalize_your_experience_title">Memperibadikan pengalaman anda</string>
     <string name="pref_clear_lang_data_dialog">Semua data bahasa anda akan dipadamkan dan Sandaran &amp; Penyegerakan juga akan dilumpuhkan untuk peranti ini. Adakah anda pasti mahu meneruskan?</string>
     <string name="startup_choose_lang">Pilih bahasa anda</string>
     <string name="startup_choose_lang_toast">Anda mesti memuat turun bahasa untuk meneruskan</string>
@@ -482,7 +482,7 @@ Dipasang. Ketik untuk melancarkan."</string>
     <string name="max_function_item_count_title">Had Kiraan Maksimum</string>
     <string name="functionbar_hwtoggle_toast_on">Tulisan tangan pada papan kekunci didayakan</string>
     <string name="functionbar_hwtoggle_toast_off">Tulisan tangan pada papan kekunci dinyahdayakan</string>
-    <string name="pref_personalization_personalize_experience">Memperibadikan pengalaman anda…</string>
+    <string name="pref_personalization_personalize_experience">Memperibadikan pengalaman anda</string>
     <string name="personalization_settings_title">Pemperibadian</string>
     <string name="theme_name_frost">Artik</string>
     <string name="theme_name_classic">Klasik</string>

@@ -59,7 +59,7 @@ Dëshiron të vazhdosh?"</string>
     <string name="sns_facebook_sign_on">Lidhu që emrat e kontakteve nga llogaria e Facebook-ut të të shtohen në fjalorin personal</string>
     <string name="sns_twitter_sign_on">Lidhuni në mënyrë që emrat e përdoruesve dhe fjalët e reja nga transmetimi juaj në Twitter të shtohen në fjalorin tuaj personal</string>
     <string name="sns_gmail_sign_on">Lidhu që emrat e personave që u ke dërguar email të shtohen në fjalorin personal</string>
-    <string name="sns_personalizing">Duke personaliz. përvojën tënde…</string>
+    <string name="sns_personalizing">Duke personaliz. përvojën tënde</string>
     <string name="sns_personalize_finished">Përditësimi i fundit më %s. Godit për të rifreskuar.</string>
     <string name="dismiss_button">Liro</string>
     <string name="canceling">Duke anuluar</string>
@@ -436,7 +436,7 @@ U instalua. Prek për ta hapur."</string>
     <string name="pref_delete_account_desc">"Çregjistro të gjitha pajisjet dhe fshi të dhënat e llogarisë nga Swype Connect. Kjo nuk do t'i fshijë të dhënat personale të gjuhës ose fjalët e tua në këtë pajisje."</string>
     <string name="pref_sync_now_title">Sinkronizo tani</string>
     <string name="pref_devices_title">Pajisjet</string>
-    <string name="pref_personalize_your_experience_title">Duke personaliz. përvojën tënde…</string>
+    <string name="pref_personalize_your_experience_title">Duke personaliz. përvojën tënde</string>
     <string name="pref_clear_lang_data_dialog">Të gjitha të dhënat e gjuhës do të fshihen dhe për këtë pajisje do të çaktivizohet edhe rezervimi e sinkronizimi. Je i sigurt që do të vazhdosh?</string>
     <string name="startup_choose_lang">Zgjidh gjuhën</string>
     <string name="startup_choose_lang_toast">Për të vazhduar, duhet të shkarkosh një gjuhë</string>
@@ -482,7 +482,7 @@ U instalua. Prek për ta hapur."</string>
     <string name="max_function_item_count_title">Kufiri maksimal i numërimit</string>
     <string name="functionbar_hwtoggle_toast_on">Shkrimi me dorë mbi tastierë i aktivizuar</string>
     <string name="functionbar_hwtoggle_toast_off">Shkrimi me dorë mbi tastierë i çaktivizuar</string>
-    <string name="pref_personalization_personalize_experience">Duke personaliz. përvojën tënde…</string>
+    <string name="pref_personalization_personalize_experience">Duke personaliz. përvojën tënde</string>
     <string name="personalization_settings_title">Personalizimi</string>
     <string name="theme_name_frost">Ngjyrë akulli</string>
     <string name="theme_name_classic">Ngjyrë klasike</string>

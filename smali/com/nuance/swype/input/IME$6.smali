@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 2539
+    .line 2552
     iput-object p1, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .param p1, "languageId"    # Ljava/lang/String;
 
     .prologue
-    .line 2573
+    .line 2586
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     iget-object v3, v3, Lcom/nuance/swype/input/IME;->mInputMethods:Lcom/nuance/swype/input/InputMethods;
@@ -50,7 +50,7 @@
 
     move-result-object v2
 
-    .line 2574
+    .line 2587
     .local v2, "language":Lcom/nuance/swype/input/InputMethods$Language;
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -58,28 +58,28 @@
 
     invoke-virtual {v3, p1}, Lcom/nuance/swype/input/InputMethods;->setCurrentLanguage(Ljava/lang/String;)V
 
-    .line 2575
+    .line 2588
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     const/4 v4, 0x1
 
     iput-boolean v4, v3, Lcom/nuance/swype/input/IME;->mWantToast:Z
 
-    .line 2578
+    .line 2591
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v3}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v1
 
-    .line 2579
+    .line 2592
     .local v1, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v1, :cond_0
 
-    .line 2580
+    .line 2593
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 2583
+    .line 2596
     :cond_0
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    .line 2585
+    .line 2598
     .local v0, "app":Lcom/nuance/swype/input/IMEApplication;
     if-eqz v0, :cond_1
 
@@ -97,7 +97,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 2586
+    .line 2599
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->getIME()Lcom/nuance/swype/input/IME;
 
     move-result-object v3
@@ -106,7 +106,7 @@
 
     invoke-virtual {v3, v4}, Lcom/nuance/swype/input/IME;->switchHardInputView(Z)V
 
-    .line 2591
+    .line 2604
     :cond_1
     iget-object v3, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -118,7 +118,7 @@
 
     invoke-virtual {v3, v2, v4}, Lcom/nuance/swype/connect/Connect;->setCurrentLanguage(Lcom/nuance/swype/input/InputMethods$Language;I)V
 
-    .line 2593
+    .line 2606
     return-void
 .end method
 
@@ -131,18 +131,18 @@
 
     const/4 v3, 0x1
 
-    .line 2548
+    .line 2561
     invoke-static {}, Lcom/nuance/android/compat/ActivityManagerCompat;->isUserAMonkey()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 2569
+    .line 2582
     :goto_0
     return-void
 
-    .line 2552
+    .line 2565
     :cond_0
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    .line 2553
+    .line 2566
     .local v1, "language":Lcom/nuance/swype/input/InputMethods$Language;
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -160,26 +160,26 @@
 
     invoke-virtual {v2, p1}, Lcom/nuance/swype/input/InputMethods;->setCurrentLanguage(Ljava/lang/String;)V
 
-    .line 2554
+    .line 2567
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     iput-boolean v3, v2, Lcom/nuance/swype/input/IME;->mWantToast:Z
 
-    .line 2557
+    .line 2570
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/IME;->getCurrentInputView()Lcom/nuance/swype/input/InputView;
 
     move-result-object v0
 
-    .line 2558
+    .line 2571
     .local v0, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v0, :cond_1
 
-    .line 2559
+    .line 2572
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 2561
+    .line 2574
     :cond_1
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -189,7 +189,7 @@
 
     invoke-virtual {v2, v6}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 2562
+    .line 2575
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v2}, Lcom/nuance/swype/input/IME;->access$200(Lcom/nuance/swype/input/IME;)Landroid/os/Handler;
@@ -200,12 +200,12 @@
 
     invoke-virtual {v2, v6, v4, v5}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 2563
+    .line 2576
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     iput-boolean v3, v2, Lcom/nuance/swype/input/IME;->recaptureWhenSwitching:Z
 
-    .line 2567
+    .line 2580
     iget-object v2, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v2}, Lcom/nuance/swype/connect/Connect;->from(Landroid/content/Context;)Lcom/nuance/swype/connect/Connect;
@@ -223,12 +223,12 @@
     .locals 1
 
     .prologue
-    .line 2542
+    .line 2555
     iget-object v0, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/IME;->close()V
 
-    .line 2543
+    .line 2556
     iget-object v0, p0, Lcom/nuance/swype/input/IME$6;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
@@ -237,6 +237,6 @@
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->showLanguages()V
 
-    .line 2544
+    .line 2557
     return-void
 .end method

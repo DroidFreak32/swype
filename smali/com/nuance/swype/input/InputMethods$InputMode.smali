@@ -811,7 +811,7 @@
     .param p1, "orientation"    # I
 
     .prologue
-    .line 2530
+    .line 2529
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "keyboard_layout."
@@ -839,12 +839,12 @@
     .param p2, "defaulKeyboardtLayoutId"    # I
 
     .prologue
-    .line 2492
+    .line 2491
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/InputMethods$InputMode;->composeKeyForKeyboardLayout(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 2493
+    .line 2492
     .local v0, "key":Ljava/lang/String;
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
@@ -862,7 +862,7 @@
 
     move-result-object v1
 
-    .line 2494
+    .line 2493
     invoke-static {v1}, Ljava/lang/Integer;->decode(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v1
@@ -878,17 +878,17 @@
     .locals 1
 
     .prologue
-    .line 2664
+    .line 2663
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->isMultitapMode()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2665
+    .line 2664
     const-string v0, "multitap"
 
-    .line 2668
+    .line 2667
     :goto_0
     return-object v0
 
@@ -903,21 +903,21 @@
     .param p1, "currentLayout"    # Lcom/nuance/swype/input/InputMethods$Layout;
 
     .prologue
-    .line 2451
+    .line 2450
     iget-object v3, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
     invoke-interface {v3, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v2
 
-    .line 2452
+    .line 2451
     .local v2, "start":I
     if-gez v2, :cond_0
 
-    .line 2453
+    .line 2452
     const/4 v2, 0x0
 
-    .line 2457
+    .line 2456
     :cond_0
     iget-object v3, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
@@ -925,14 +925,14 @@
 
     move-result v0
 
-    .line 2460
+    .line 2459
     .local v0, "count":I
     :cond_1
     add-int/lit8 v3, v2, 0x1
 
     rem-int v2, v3, v0
 
-    .line 2461
+    .line 2460
     iget-object v3, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -941,7 +941,7 @@
 
     check-cast v1, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2462
+    .line 2461
     .local v1, "nextLayout":Lcom/nuance/swype/input/InputMethods$Layout;
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Layout;->isEnabled()Z
 
@@ -955,11 +955,11 @@
 
     if-eqz v3, :cond_1
 
-    .line 2464
+    .line 2463
     :cond_2
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Layout;->saveAsCurrent()V
 
-    .line 2465
+    .line 2464
     return-object v1
 .end method
 
@@ -1030,34 +1030,34 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 2597
+    .line 2596
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->isAtLeastOneLayoutIsEnabled()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 2598
+    .line 2597
     iget v1, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mDefaultLayoutId:I
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/InputMethods$InputMode;->findLayout(I)Lcom/nuance/swype/input/InputMethods$Layout;
 
     move-result-object v0
 
-    .line 2599
+    .line 2598
     .local v0, "defaultLayout":Lcom/nuance/swype/input/InputMethods$Layout;
     if-eqz v0, :cond_1
 
-    .line 2600
+    .line 2599
     invoke-virtual {v0, v3}, Lcom/nuance/swype/input/InputMethods$Layout;->setEnabled(Z)V
 
-    .line 2605
+    .line 2604
     .end local v0    # "defaultLayout":Lcom/nuance/swype/input/InputMethods$Layout;
     :cond_0
     :goto_0
     return-void
 
-    .line 2602
+    .line 2601
     .restart local v0    # "defaultLayout":Lcom/nuance/swype/input/InputMethods$Layout;
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
@@ -1082,17 +1082,17 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2574
+    .line 2573
     instance-of v2, p1, Lcom/nuance/swype/input/InputMethods$InputMode;
 
     if-eqz v2, :cond_0
 
     move-object v0, p1
 
-    .line 2575
+    .line 2574
     check-cast v0, Lcom/nuance/swype/input/InputMethods$InputMode;
 
-    .line 2576
+    .line 2575
     .local v0, "inputMode":Lcom/nuance/swype/input/InputMethods$InputMode;
     iget-object v2, v0, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
@@ -1116,7 +1116,7 @@
 
     const/4 v1, 0x1
 
-    .line 2579
+    .line 2578
     .end local v0    # "inputMode":Lcom/nuance/swype/input/InputMethods$InputMode;
     :cond_0
     return v1
@@ -1127,7 +1127,7 @@
     .param p1, "layoutId"    # I
 
     .prologue
-    .line 2534
+    .line 2533
     iget-object v2, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -1148,13 +1148,13 @@
 
     check-cast v1, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2535
+    .line 2534
     .local v1, "layout":Lcom/nuance/swype/input/InputMethods$Layout;
     iget v2, v1, Lcom/nuance/swype/input/InputMethods$Layout;->mLayoutId:I
 
     if-ne v2, p1, :cond_0
 
-    .line 2540
+    .line 2539
     .end local v1    # "layout":Lcom/nuance/swype/input/InputMethods$Layout;
     :goto_0
     return-object v1
@@ -1169,7 +1169,7 @@
     .locals 2
 
     .prologue
-    .line 2384
+    .line 2383
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1197,7 +1197,7 @@
     .locals 2
 
     .prologue
-    .line 2376
+    .line 2375
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1225,7 +1225,7 @@
     .locals 1
 
     .prologue
-    .line 2557
+    .line 2556
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mParent:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/InputMethods$Language;->getContext()Landroid/content/Context;
@@ -1239,7 +1239,7 @@
     .locals 3
 
     .prologue
-    .line 2399
+    .line 2398
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1277,7 +1277,7 @@
     .locals 2
 
     .prologue
-    .line 2388
+    .line 2387
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1551,7 +1551,7 @@
     .locals 5
 
     .prologue
-    .line 2484
+    .line 2483
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1572,7 +1572,7 @@
 
     move-result v0
 
-    .line 2488
+    .line 2487
     return v0
 .end method
 
@@ -1580,7 +1580,7 @@
     .locals 5
 
     .prologue
-    .line 2475
+    .line 2474
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1601,7 +1601,7 @@
 
     move-result v0
 
-    .line 2479
+    .line 2478
     return v0
 .end method
 
@@ -1725,7 +1725,7 @@
     .locals 3
 
     .prologue
-    .line 2410
+    .line 2409
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -1755,7 +1755,7 @@
     .locals 1
 
     .prologue
-    .line 2406
+    .line 2405
     sget-object v0, Lcom/nuance/swype/input/InputMethods$InputMode;->HANDWRITING_INPUT_AREA:Ljava/lang/String;
 
     return-object v0
@@ -1765,12 +1765,12 @@
     .locals 4
 
     .prologue
-    .line 2772
+    .line 2771
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getCurrentLayoutForCJK()Lcom/nuance/swype/input/InputMethods$Layout;
 
     move-result-object v0
 
-    .line 2773
+    .line 2772
     .local v0, "lt":Lcom/nuance/swype/input/InputMethods$Layout;
     if-eqz v0, :cond_2
 
@@ -1780,7 +1780,7 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 2774
+    .line 2773
     iget-object v2, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
     const-string v3, "pinyin_qwerty"
@@ -1811,11 +1811,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 2777
+    .line 2776
     :cond_0
     const-string v1, "hwrTrace."
 
-    .line 2784
+    .line 2783
     .local v1, "str":Ljava/lang/String;
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1838,7 +1838,7 @@
 
     return-object v2
 
-    .line 2779
+    .line 2778
     .end local v1    # "str":Ljava/lang/String;
     :cond_1
     const-string v1, "hwrOnly."
@@ -1846,7 +1846,7 @@
     .restart local v1    # "str":Ljava/lang/String;
     goto :goto_0
 
-    .line 2782
+    .line 2781
     .end local v1    # "str":Ljava/lang/String;
     :cond_2
     const-string v1, "hwrOnly."
@@ -1868,12 +1868,12 @@
     .end annotation
 
     .prologue
-    .line 2544
+    .line 2543
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2545
+    .line 2544
     .local v2, "layouts":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/swype/input/InputMethods$Layout;>;"
     iget-object v3, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
@@ -1896,7 +1896,7 @@
 
     check-cast v1, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2546
+    .line 2545
     .local v1, "layout":Lcom/nuance/swype/input/InputMethods$Layout;
     iget v3, v1, Lcom/nuance/swype/input/InputMethods$Layout;->mLayoutId:I
 
@@ -1916,13 +1916,13 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 2549
+    .line 2548
     :cond_1
     invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 2553
+    .line 2552
     .end local v1    # "layout":Lcom/nuance/swype/input/InputMethods$Layout;
     :cond_2
     return-object v2
@@ -1956,7 +1956,7 @@
     .locals 1
 
     .prologue
-    .line 2498
+    .line 2497
     const-string v0, "mix_letter_and_symbol"
 
     return-object v0
@@ -1966,7 +1966,7 @@
     .locals 2
 
     .prologue
-    .line 2608
+    .line 2607
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1994,7 +1994,7 @@
     .locals 2
 
     .prologue
-    .line 2627
+    .line 2626
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2022,7 +2022,7 @@
     .locals 1
 
     .prologue
-    .line 2518
+    .line 2517
     const-string v0, "mix_letter_digit"
 
     return-object v0
@@ -2032,7 +2032,7 @@
     .locals 2
 
     .prologue
-    .line 2617
+    .line 2616
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2060,7 +2060,7 @@
     .locals 2
 
     .prologue
-    .line 2762
+    .line 2761
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2088,7 +2088,7 @@
     .locals 2
 
     .prologue
-    .line 2637
+    .line 2636
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2116,7 +2116,7 @@
     .locals 1
 
     .prologue
-    .line 2508
+    .line 2507
     const-string v0, "mix_letter_punctuation"
 
     return-object v0
@@ -2126,7 +2126,7 @@
     .locals 1
 
     .prologue
-    .line 2470
+    .line 2469
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getCurrentLayoutForCJK()Lcom/nuance/swype/input/InputMethods$Layout;
 
     move-result-object v0
@@ -2170,7 +2170,7 @@
     .locals 3
 
     .prologue
-    .line 2526
+    .line 2525
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getLanguageId()Ljava/lang/String;
 
     move-result-object v0
@@ -2190,7 +2190,7 @@
     .locals 3
 
     .prologue
-    .line 2522
+    .line 2521
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getLanguageId()Ljava/lang/String;
 
     move-result-object v0
@@ -2238,7 +2238,7 @@
     .locals 1
 
     .prologue
-    .line 2565
+    .line 2564
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mParent:Lcom/nuance/swype/input/InputMethods$Language;
 
     if-eqz v0, :cond_0
@@ -2251,10 +2251,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 2566
+    .line 2565
     const/4 v0, 0x1
 
-    .line 2568
+    .line 2567
     :goto_0
     return v0
 
@@ -2280,7 +2280,7 @@
     .locals 2
 
     .prologue
-    .line 2440
+    .line 2439
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2308,7 +2308,7 @@
     .locals 2
 
     .prologue
-    .line 2431
+    .line 2430
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2336,12 +2336,12 @@
     .locals 4
 
     .prologue
-    .line 2789
+    .line 2788
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getCurrentLayoutForCJK()Lcom/nuance/swype/input/InputMethods$Layout;
 
     move-result-object v0
 
-    .line 2790
+    .line 2789
     .local v0, "lt":Lcom/nuance/swype/input/InputMethods$Layout;
     if-eqz v0, :cond_2
 
@@ -2351,7 +2351,7 @@
 
     if-ne v2, v3, :cond_2
 
-    .line 2791
+    .line 2790
     iget-object v2, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
     const-string v3, "pinyin_qwerty"
@@ -2382,11 +2382,11 @@
 
     if-eqz v2, :cond_1
 
-    .line 2794
+    .line 2793
     :cond_0
     const-string v1, "hwrTrace."
 
-    .line 2801
+    .line 2800
     .local v1, "str":Ljava/lang/String;
     :goto_0
     new-instance v2, Ljava/lang/StringBuilder;
@@ -2409,7 +2409,7 @@
 
     return-object v2
 
-    .line 2796
+    .line 2795
     .end local v1    # "str":Ljava/lang/String;
     :cond_1
     const-string v1, "hwrOnly."
@@ -2417,7 +2417,7 @@
     .restart local v1    # "str":Ljava/lang/String;
     goto :goto_0
 
-    .line 2799
+    .line 2798
     .end local v1    # "str":Ljava/lang/String;
     :cond_2
     const-string v1, "hwrOnly."
@@ -2430,7 +2430,7 @@
     .locals 3
 
     .prologue
-    .line 2420
+    .line 2419
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2468,7 +2468,7 @@
     .locals 2
 
     .prologue
-    .line 2414
+    .line 2413
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2496,7 +2496,7 @@
     .locals 1
 
     .prologue
-    .line 2806
+    .line 2805
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
@@ -2510,7 +2510,7 @@
     .locals 2
 
     .prologue
-    .line 2583
+    .line 2582
     iget-object v1, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mLayouts:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -2531,17 +2531,17 @@
 
     check-cast v1, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2584
+    .line 2583
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Layout;->isEnabled()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2585
+    .line 2584
     const/4 v1, 0x1
 
-    .line 2588
+    .line 2587
     :goto_0
     return v1
 
@@ -2555,7 +2555,7 @@
     .locals 3
 
     .prologue
-    .line 2380
+    .line 2379
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2771,7 +2771,7 @@
     .locals 3
 
     .prologue
-    .line 2612
+    .line 2611
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2792,7 +2792,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndABC:Z
 
-    .line 2613
+    .line 2612
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndABC:Z
 
     return v0
@@ -2802,7 +2802,7 @@
     .locals 3
 
     .prologue
-    .line 2631
+    .line 2630
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2823,7 +2823,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitChinese:Z
 
-    .line 2633
+    .line 2632
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitChinese:Z
 
     return v0
@@ -2833,7 +2833,7 @@
     .locals 3
 
     .prologue
-    .line 2621
+    .line 2620
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2854,7 +2854,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitEnglish:Z
 
-    .line 2623
+    .line 2622
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitEnglish:Z
 
     return v0
@@ -2864,7 +2864,7 @@
     .locals 3
 
     .prologue
-    .line 2766
+    .line 2765
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2885,7 +2885,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitJapanese:Z
 
-    .line 2767
+    .line 2766
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndDigitJapanese:Z
 
     return v0
@@ -2895,7 +2895,7 @@
     .locals 3
 
     .prologue
-    .line 2641
+    .line 2640
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2916,7 +2916,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndIntegrated:Z
 
-    .line 2643
+    .line 2642
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndIntegrated:Z
 
     return v0
@@ -2926,7 +2926,7 @@
     .locals 3
 
     .prologue
-    .line 2512
+    .line 2511
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2947,7 +2947,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndPunctuation:Z
 
-    .line 2514
+    .line 2513
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndPunctuation:Z
 
     return v0
@@ -2957,7 +2957,7 @@
     .locals 3
 
     .prologue
-    .line 2502
+    .line 2501
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2978,7 +2978,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndSymbol:Z
 
-    .line 2504
+    .line 2503
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mMixLetterAndSymbol:Z
 
     return v0
@@ -3001,7 +3001,7 @@
 .end method
 
 .method public isNextWordPredictionEnabled()Z
-    .locals 3
+    .locals 1
 
     .prologue
     .line 2371
@@ -3013,13 +3013,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getNextWordPredictionPrefKey()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    invoke-virtual {v0, v1, v2}, Lcom/nuance/swype/input/UserPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-virtual {v0}, Lcom/nuance/swype/input/UserPreferences;->isNextWordPredictionEnabled()Z
 
     move-result v0
 
@@ -3088,7 +3082,7 @@
     .locals 3
 
     .prologue
-    .line 2444
+    .line 2443
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -3109,7 +3103,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mTraceAutoAccept:Z
 
-    .line 2445
+    .line 2444
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mTraceAutoAccept:Z
 
     return v0
@@ -3119,7 +3113,7 @@
     .locals 3
 
     .prologue
-    .line 2435
+    .line 2434
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -3140,7 +3134,7 @@
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mEnabledTrace:Z
 
-    .line 2436
+    .line 2435
     iget-boolean v0, p0, Lcom/nuance/swype/input/InputMethods$InputMode;->mEnabledTrace:Z
 
     if-eqz v0, :cond_0
@@ -3169,59 +3163,59 @@
     .param p1, "editor"    # Landroid/content/SharedPreferences$Editor;
 
     .prologue
-    .line 2647
+    .line 2646
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getMixLetterAndIntegratedEnabledPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2648
+    .line 2647
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getMixLetterAndABCEnabledPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2649
+    .line 2648
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getMixLetterAndPunctuationEnabledPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2650
+    .line 2649
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getLetterAndSymbolEnabledPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2651
+    .line 2650
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getMixLetterAndDigitChineseEnabledPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2652
+    .line 2651
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getPortaitLayoutOptionsPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2653
+    .line 2652
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getPortaitKeypadOptionsPrefKey()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-interface {p1, v0}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 2654
+    .line 2653
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 2655
+    .line 2654
     return-void
 .end method
 
@@ -3300,7 +3294,7 @@
     .param p1, "value"    # I
 
     .prologue
-    .line 2427
+    .line 2426
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$InputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -3319,6 +3313,6 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/swype/input/UserPreferences;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2428
+    .line 2427
     return-void
 .end method

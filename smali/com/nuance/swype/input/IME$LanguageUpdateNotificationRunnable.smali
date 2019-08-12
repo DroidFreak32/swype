@@ -32,16 +32,16 @@
     .param p2, "sdkMgr"    # Lcom/nuance/swype/connect/SDKDownloadManager;
 
     .prologue
-    .line 4219
+    .line 4239
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4220
+    .line 4240
     iput-object p1, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->language:Lcom/nuance/swype/input/InputMethods$Language;
 
-    .line 4221
+    .line 4241
     iput-object p2, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->sdkMgr:Lcom/nuance/swype/connect/SDKDownloadManager;
 
-    .line 4222
+    .line 4242
     return-void
 .end method
 
@@ -52,7 +52,7 @@
     .param p3, "x2"    # Lcom/nuance/swype/input/IME$1;
 
     .prologue
-    .line 4214
+    .line 4234
     invoke-direct {p0, p1, p2}, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;-><init>(Lcom/nuance/swype/input/InputMethods$Language;Lcom/nuance/swype/connect/SDKDownloadManager;)V
 
     return-void
@@ -63,7 +63,7 @@
     .param p0, "x0"    # Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
     .prologue
-    .line 4214
+    .line 4234
     iget-boolean v0, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->notificationPosted:Z
 
     return v0
@@ -74,7 +74,7 @@
     .param p0, "x0"    # Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;
 
     .prologue
-    .line 4214
+    .line 4234
     iget-object v0, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->language:Lcom/nuance/swype/input/InputMethods$Language;
 
     return-object v0
@@ -86,18 +86,18 @@
     .locals 2
 
     .prologue
-    .line 4226
+    .line 4246
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->notificationPosted:Z
 
-    .line 4227
+    .line 4247
     iget-object v0, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->sdkMgr:Lcom/nuance/swype/connect/SDKDownloadManager;
 
     iget-object v1, p0, Lcom/nuance/swype/input/IME$LanguageUpdateNotificationRunnable;->language:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/connect/SDKDownloadManager;->postLanguageUpdateNotification(Lcom/nuance/swype/input/InputMethods$Language;)V
 
-    .line 4228
+    .line 4248
     return-void
 .end method

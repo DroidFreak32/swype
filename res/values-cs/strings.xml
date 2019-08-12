@@ -59,7 +59,7 @@ Chcete pokračovat?"</string>
     <string name="sns_facebook_sign_on">Abyste mohli přidávat do svého osobního slovníku jména kontaktů ze svého účtu na Facebooku, přihlaste se</string>
     <string name="sns_twitter_sign_on">Abyste mohli přidávat do svého osobního slovníku jména uživatelů a nová slova ze svých veřejných příspěvků ve službě Twitter, přihlaste se</string>
     <string name="sns_gmail_sign_on">Abyste mohli přidávat do svého osobního slovníku jména lidí, kteří vám poslali e-mail, přihlaste se</string>
-    <string name="sns_personalizing">Probíhá přizpůsobení možností…</string>
+    <string name="sns_personalizing">Probíhá přizpůsobení možností</string>
     <string name="sns_personalize_finished">Naposledy aktualizováno dne %s. Pro obnovení poklepejte.</string>
     <string name="dismiss_button">Zamítnout</string>
     <string name="canceling">Stornování</string>
@@ -436,7 +436,7 @@ Nainstalováno. Poklepem aplikaci spusťte."</string>
     <string name="pref_delete_account_desc">Zrušit registraci všech zařízení a odstranit údaje o vašem účtu ze Swype Connect. Tímto nedojde k odstranění vašich osobních jazykových dat nebo vašich slov v tomto zařízení.</string>
     <string name="pref_sync_now_title">Synchronizovat nyní</string>
     <string name="pref_devices_title">Zařízení</string>
-    <string name="pref_personalize_your_experience_title">Probíhá přizpůsobení možností…</string>
+    <string name="pref_personalize_your_experience_title">Probíhá přizpůsobení možností</string>
     <string name="pref_clear_lang_data_dialog">Všechna vaše jazyková data budou odstraněna a bude rovněž zakázáno zálohování a synchronizace pro toto zařízení. Opravdu chcete pokračovat?</string>
     <string name="startup_choose_lang">Vyberte si jazyk</string>
     <string name="startup_choose_lang_toast">Chcete-li pokračovat, musíte stáhnout nějaký jazyk</string>
@@ -482,7 +482,7 @@ Nainstalováno. Poklepem aplikaci spusťte."</string>
     <string name="max_function_item_count_title">Omezení maximálního počtu</string>
     <string name="functionbar_hwtoggle_toast_on">Psaní rukou na klávesnici zapnuto</string>
     <string name="functionbar_hwtoggle_toast_off">Psaní rukou na klávesnici vypnuto</string>
-    <string name="pref_personalization_personalize_experience">Probíhá přizpůsobení možností…</string>
+    <string name="pref_personalization_personalize_experience">Probíhá přizpůsobení možností</string>
     <string name="personalization_settings_title">Přizpůsobení</string>
     <string name="theme_name_frost">Arktida</string>
     <string name="theme_name_classic">Klasický</string>

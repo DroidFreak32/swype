@@ -88,6 +88,7 @@
         <override behavior="shouldSendReturnAsKeyEvent" value="true" />
         <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" />
         <override behavior="shouldCheckSmileyWhenDeleting" value="true" />
+        <override behavior="shouldSkipWrongStartInputView" value="true" />
     </application>
     <application name="com.sdu.didi.psnger">
         <override behavior="shouldFilterInputViewRestarts" value="true" />
@@ -126,5 +127,8 @@
     </application>
     <application name="com.sec.android.app.sbrowser">
         <override behavior="shouldSkipInvalidFieldIdEditor" value="true" />
+    </application>
+    <application name="com.supercell.clashofclans">
+        <override behavior="shouldEnablePredictionForPassword" value="true" />
     </application>
 </app-specific-behavior>

@@ -833,7 +833,7 @@
     .param p0, "value"    # I
 
     .prologue
-    .line 3239
+    .line 3238
     invoke-static {p0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     move-result-object v0
@@ -848,7 +848,7 @@
     .param p2, "orientation"    # I
 
     .prologue
-    .line 3149
+    .line 3148
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -895,7 +895,7 @@
     .param p2, "orientation"    # I
 
     .prologue
-    .line 3159
+    .line 3158
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -948,7 +948,7 @@
     .param p2, "orientation"    # I
 
     .prologue
-    .line 3154
+    .line 3153
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1543,12 +1543,12 @@
     .param p4, "defaulKeyboardtLayoutId"    # I
 
     .prologue
-    .line 3124
+    .line 3123
     invoke-static {p1, p2, p3}, Lcom/nuance/swype/input/InputMethods;->composeKeyForKeyboardLayout(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3125
+    .line 3124
     .local v0, "key":Ljava/lang/String;
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
@@ -1582,12 +1582,12 @@
     .param p4, "defaulPortaitKeypadOptionsId"    # I
 
     .prologue
-    .line 3136
+    .line 3135
     invoke-static {p1, p2, p3}, Lcom/nuance/swype/input/InputMethods;->composeKeyForPortraitKeypadOptions(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3137
+    .line 3136
     .local v0, "key":Ljava/lang/String;
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
@@ -1621,12 +1621,12 @@
     .param p4, "defaulPortaitLayoutOptionsId"    # I
 
     .prologue
-    .line 3130
+    .line 3129
     invoke-static {p1, p2, p3}, Lcom/nuance/swype/input/InputMethods;->composeKeyForPortraitLayoutOptions(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3131
+    .line 3130
     .local v0, "key":Ljava/lang/String;
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
@@ -1657,12 +1657,12 @@
     .param p1, "defaultLangId"    # Ljava/lang/String;
 
     .prologue
-    .line 3207
+    .line 3206
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
     if-nez v4, :cond_0
 
-    .line 3208
+    .line 3207
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
     move-result-object v4
@@ -1675,7 +1675,7 @@
 
     move-result-object v2
 
-    .line 3209
+    .line 3208
     .local v2, "languageSetting":Ljava/lang/String;
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -1695,7 +1695,7 @@
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3210
+    .line 3209
     const-string v4, ","
 
     invoke-virtual {v2, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
@@ -1704,7 +1704,7 @@
 
     sput-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
-    .line 3211
+    .line 3210
     const/4 v0, 0x0
 
     .local v0, "i":I
@@ -1715,24 +1715,24 @@
 
     if-ge v0, v4, :cond_0
 
-    .line 3212
+    .line 3211
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
     aget-object v1, v4, v0
 
-    .line 3213
+    .line 3212
     .local v1, "langID":Ljava/lang/String;
     invoke-static {p0, v1}, Lcom/nuance/swype/input/DatabaseConfig;->mockDeprecatedLanguageID(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 3214
+    .line 3213
     .local v3, "supportedId":Ljava/lang/String;
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
     aput-object v3, v4, v0
 
-    .line 3215
+    .line 3214
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1761,12 +1761,12 @@
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 3211
+    .line 3210
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 3218
+    .line 3217
     .end local v0    # "i":I
     .end local v1    # "langID":Ljava/lang/String;
     .end local v2    # "languageSetting":Ljava/lang/String;
@@ -1784,7 +1784,7 @@
     .param p2, "defaultInputMode"    # Ljava/lang/String;
 
     .prologue
-    .line 3107
+    .line 3106
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1809,7 +1809,7 @@
 
     move-result-object v0
 
-    .line 3108
+    .line 3107
     .local v0, "handwritingMode":Ljava/lang/String;
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -1817,7 +1817,7 @@
 
     if-lez v1, :cond_0
 
-    .line 3112
+    .line 3111
     .end local v0    # "handwritingMode":Ljava/lang/String;
     :goto_0
     return-object v0
@@ -1838,7 +1838,7 @@
     .param p2, "defaultInputMode"    # Ljava/lang/String;
 
     .prologue
-    .line 3117
+    .line 3116
     invoke-interface {p0, p1, p2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -1852,12 +1852,12 @@
     .param p1, "defaultLangId"    # Ljava/lang/String;
 
     .prologue
-    .line 3163
+    .line 3162
     invoke-static {p0, p1}, Lcom/nuance/swype/input/InputMethods;->getRecentLanguages(Landroid/content/Context;Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3164
+    .line 3163
     .local v0, "recentLanguages":[Ljava/lang/String;
     array-length v1, v0
 
@@ -2577,24 +2577,24 @@
     .param p2, "inputMode"    # Lcom/nuance/swype/input/InputMethods$InputMode;
 
     .prologue
-    .line 3088
+    .line 3087
     invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
-    .line 3091
+    .line 3090
     .local v0, "edit":Landroid/content/SharedPreferences$Editor;
     invoke-virtual {p2}, Lcom/nuance/swype/input/InputMethods$InputMode;->isHandwriting()Z
 
     move-result v2
 
-    .line 3092
+    .line 3091
     .local v2, "isHandwriting":Z
     if-eqz v2, :cond_1
 
     iget-object v1, p2, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
-    .line 3093
+    .line 3092
     .local v1, "handwritingMode":Ljava/lang/String;
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
@@ -2617,22 +2617,22 @@
 
     invoke-interface {v0, v3, v1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 3096
+    .line 3095
     if-nez v2, :cond_0
 
-    .line 3097
+    .line 3096
     iget-object v3, p2, Lcom/nuance/swype/input/InputMethods$InputMode;->mInputMode:Ljava/lang/String;
 
     invoke-interface {v0, p1, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 3099
+    .line 3098
     :cond_0
     invoke-static {v0}, Lcom/nuance/android/compat/SharedPreferencesEditorCompat;->apply(Landroid/content/SharedPreferences$Editor;)V
 
-    .line 3100
+    .line 3099
     return-void
 
-    .line 3092
+    .line 3091
     .end local v1    # "handwritingMode":Ljava/lang/String;
     :cond_1
     const-string v1, ""
@@ -2649,12 +2649,12 @@
     .param p4, "KeyboardLayoutId"    # I
 
     .prologue
-    .line 3142
+    .line 3141
     invoke-static {p1, p2, p3}, Lcom/nuance/swype/input/InputMethods;->composeKeyForKeyboardLayout(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3143
+    .line 3142
     .local v0, "key":Ljava/lang/String;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -2674,7 +2674,7 @@
 
     move-result-object v1
 
-    .line 3144
+    .line 3143
     .local v1, "value":Ljava/lang/String;
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
@@ -2682,7 +2682,7 @@
 
     invoke-virtual {v2, v0, v1}, Lcom/nuance/swype/input/AppPreferences;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3145
+    .line 3144
     return-void
 .end method
 
@@ -2692,15 +2692,15 @@
     .param p1, "languageId"    # Ljava/lang/String;
 
     .prologue
-    .line 3168
+    .line 3167
     const/4 v0, 0x0
 
     invoke-static {p0, p1, v0}, Lcom/nuance/swype/input/InputMethods;->saveLanguageAt(Landroid/content/Context;Ljava/lang/String;I)V
 
-    .line 3169
+    .line 3168
     sput-object p1, Lcom/nuance/swype/input/InputMethods;->mCurrentLanguageId:Ljava/lang/String;
 
-    .line 3170
+    .line 3169
     return-void
 .end method
 
@@ -2713,34 +2713,34 @@
     .prologue
     const/4 v9, 0x4
 
-    .line 3174
+    .line 3173
     if-le p2, v9, :cond_0
 
-    .line 3204
+    .line 3203
     :goto_0
     return-void
 
-    .line 3179
+    .line 3178
     :cond_0
     invoke-static {p0, p1}, Lcom/nuance/swype/input/InputMethods;->getRecentLanguages(Landroid/content/Context;Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v7
 
-    .line 3180
+    .line 3179
     .local v7, "recentLanguageList":[Ljava/lang/String;
     array-length v5, v7
 
-    .line 3182
+    .line 3181
     .local v5, "recentCount":I
     new-instance v4, Ljava/util/ArrayList;
 
     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
-    .line 3184
+    .line 3183
     .local v4, "newRecentLanguages":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     const/4 v0, 0x0
 
-    .line 3185
+    .line 3184
     .local v0, "added":Z
     const/4 v1, 0x0
 
@@ -2750,7 +2750,7 @@
     .local v3, "newRecentCount":I
     move v2, v1
 
-    .line 3186
+    .line 3185
     .end local v1    # "i":I
     .local v2, "i":I
     :goto_1
@@ -2758,25 +2758,25 @@
 
     if-gt v3, v9, :cond_3
 
-    .line 3187
+    .line 3186
     if-ne v3, p2, :cond_2
 
-    .line 3188
+    .line 3187
     move-object v6, p1
 
-    .line 3189
+    .line 3188
     .local v6, "recentLanguage":Ljava/lang/String;
     const/4 v0, 0x1
 
     move v1, v2
 
-    .line 3193
+    .line 3192
     .end local v2    # "i":I
     .restart local v1    # "i":I
     :cond_1
     invoke-interface {v4, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3198
+    .line 3197
     add-int/lit8 v3, v3, 0x1
 
     move v2, v1
@@ -2785,7 +2785,7 @@
     .restart local v2    # "i":I
     goto :goto_1
 
-    .line 3191
+    .line 3190
     .end local v6    # "recentLanguage":Ljava/lang/String;
     :cond_2
     add-int/lit8 v1, v2, 0x1
@@ -2794,7 +2794,7 @@
     .restart local v1    # "i":I
     aget-object v6, v7, v2
 
-    .line 3192
+    .line 3191
     .restart local v6    # "recentLanguage":Ljava/lang/String;
     invoke-virtual {v6, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2808,15 +2808,15 @@
     .restart local v2    # "i":I
     goto :goto_1
 
-    .line 3200
+    .line 3199
     .end local v6    # "recentLanguage":Ljava/lang/String;
     :cond_3
     if-nez v0, :cond_4
 
-    .line 3201
+    .line 3200
     invoke-interface {v4, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3203
+    .line 3202
     :cond_4
     invoke-static {p0, v4}, Lcom/nuance/swype/input/InputMethods;->setRecentLanguages(Landroid/content/Context;Ljava/util/List;)V
 
@@ -2901,13 +2901,13 @@
     .end annotation
 
     .prologue
-    .line 3222
+    .line 3221
     .local p1, "languageIds":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 3223
+    .line 3222
     .local v2, "newRecentLanguages":Ljava/lang/StringBuilder;
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -2927,18 +2927,18 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 3224
+    .line 3223
     .local v1, "langId":Ljava/lang/String;
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 3225
+    .line 3224
     const-string v4, ","
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 3227
+    .line 3226
     .end local v1    # "langId":Ljava/lang/String;
     :cond_0
     invoke-static {p0}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
@@ -2953,12 +2953,12 @@
 
     invoke-virtual {v4, v5, v6}, Lcom/nuance/swype/input/AppPreferences;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3231
+    .line 3230
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v3
 
-    .line 3232
+    .line 3231
     .local v3, "size":I
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
@@ -2970,13 +2970,13 @@
 
     if-le v4, v3, :cond_2
 
-    .line 3233
+    .line 3232
     :cond_1
     new-array v4, v3, [Ljava/lang/String;
 
     sput-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
-    .line 3235
+    .line 3234
     :cond_2
     sget-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
@@ -2988,7 +2988,7 @@
 
     sput-object v4, Lcom/nuance/swype/input/InputMethods;->recentLanguageCache:[Ljava/lang/String;
 
-    .line 3236
+    .line 3235
     return-void
 .end method
 

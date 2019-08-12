@@ -38,12 +38,12 @@
     .locals 1
 
     .prologue
-    .line 2993
+    .line 2995
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2995
+    .line 2997
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -59,7 +59,7 @@
     .param p2, "x1"    # Lcom/nuance/swype/input/AlphaInputView$1;
 
     .prologue
-    .line 2993
+    .line 2995
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;-><init>(Lcom/nuance/swype/input/AlphaInputView;)V
 
     return-void
@@ -74,12 +74,12 @@
     .locals 1
 
     .prologue
-    .line 3005
+    .line 3007
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->oovLearningWords:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    .line 3006
+    .line 3008
     return-void
 .end method
 
@@ -91,7 +91,7 @@
     .param p1, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 3037
+    .line 3039
     return-void
 .end method
 
@@ -101,7 +101,7 @@
     .param p2, "candidates"    # Lcom/nuance/input/swypecorelib/Candidates;
 
     .prologue
-    .line 3032
+    .line 3034
     const/4 v0, 0x0
 
     return v0
@@ -115,7 +115,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 3023
+    .line 3025
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->access$600(Lcom/nuance/swype/input/AlphaInputView;)Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -124,10 +124,10 @@
 
     invoke-virtual {v0, v1, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->delayWordReorder(II)V
 
-    .line 3025
+    .line 3027
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->addOOVWord()V
 
-    .line 3026
+    .line 3028
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->getSelectedText()Ljava/lang/String;
@@ -136,7 +136,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/AlphaInputView;->doAddWord(Ljava/lang/String;)V
 
-    .line 3027
+    .line 3029
     const/4 v0, 0x1
 
     return v0
@@ -150,7 +150,7 @@
     .param p1, "prompt"    # Ljava/lang/String;
 
     .prologue
-    .line 3009
+    .line 3011
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/AlphaInputView;->getContext()Landroid/content/Context;
@@ -161,14 +161,14 @@
 
     move-result-object v2
 
-    .line 3010
+    .line 3012
     sget v3, Lcom/nuance/swype/input/R$attr;->hwclAddIcon:I
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/input/IMEApplication;->getThemedDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 3012
+    .line 3014
     .local v0, "addIcon":Landroid/graphics/drawable/Drawable;
     new-instance v1, Lcom/nuance/input/swypecorelib/Candidates;
 
@@ -176,44 +176,44 @@
 
     invoke-direct {v1, v2}, Lcom/nuance/input/swypecorelib/Candidates;-><init>(Lcom/nuance/input/swypecorelib/Candidates$Source;)V
 
-    .line 3013
+    .line 3015
     .local v1, "candidates":Lcom/nuance/input/swypecorelib/Candidates;
     const/4 v2, 0x1
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/Candidates;->addAttribute(I)V
 
-    .line 3014
+    .line 3016
     const/4 v2, 0x2
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/Candidates;->addAttribute(I)V
 
-    .line 3015
+    .line 3017
     new-instance v2, Lcom/nuance/swype/input/DrawableCandidate;
 
     invoke-direct {v2, v0}, Lcom/nuance/swype/input/DrawableCandidate;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/Candidates;->add(Lcom/nuance/input/swypecorelib/WordCandidate;)Z
 
-    .line 3016
+    .line 3018
     new-instance v2, Lcom/nuance/input/swypecorelib/WordCandidate;
 
     invoke-direct {v2, p1}, Lcom/nuance/input/swypecorelib/WordCandidate;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {v1, v2}, Lcom/nuance/input/swypecorelib/Candidates;->add(Lcom/nuance/input/swypecorelib/WordCandidate;)Z
 
-    .line 3017
+    .line 3019
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     sget-object v3, Lcom/nuance/swype/input/CandidatesListView$Format;->DEFAULT:Lcom/nuance/swype/input/CandidatesListView$Format;
 
     invoke-virtual {v2, p0, v1, v3}, Lcom/nuance/swype/input/AlphaInputView;->setSuggestions(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;Lcom/nuance/input/swypecorelib/Candidates;Lcom/nuance/swype/input/CandidatesListView$Format;)V
 
-    .line 3018
+    .line 3020
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVWord;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-virtual {v2, p0}, Lcom/nuance/swype/input/AlphaInputView;->setCandidateListener(Lcom/nuance/swype/input/CandidatesListView$CandidateListener;)V
 
-    .line 3019
+    .line 3021
     return-void
 .end method
 

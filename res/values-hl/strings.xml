@@ -58,7 +58,7 @@ Do you want to continue?"</string>
     <string name="sns_facebook_sign_on">Sign in so contact names from your Facebook account are added to your personal dictionary</string>
     <string name="sns_twitter_sign_on">Sign in so user names and new words from your public Twitter feeds are added to your personal dictionary</string>
     <string name="sns_gmail_sign_on">Sign in so names of people you have sent email to are added to your personal dictionary</string>
-    <string name="sns_personalizing">Personalizing your experience…</string>
+    <string name="sns_personalizing">Personalizing your experience</string>
     <string name="sns_personalize_finished">Last updated on %s. Tap to refresh.</string>
     <string name="dismiss_button">Dismiss</string>
     <string name="canceling">Canceling</string>
@@ -435,7 +435,7 @@ Installed. Tap to launch."</string>
     <string name="pref_delete_account_desc">Unregister all devices and delete your account data from Swype Connect. This will not delete your personal language data, including your words on this device.</string>
     <string name="pref_sync_now_title">Sync now</string>
     <string name="pref_devices_title">Devices</string>
-    <string name="pref_personalize_your_experience_title">Personalizing your experience…</string>
+    <string name="pref_personalize_your_experience_title">Personalizing your experience</string>
     <string name="pref_clear_lang_data_dialog">All your language data will be deleted and Backup &amp; Sync will also be disabled for this device. Are you sure you want to continue?</string>
     <string name="startup_choose_lang">Choose your language</string>
     <string name="startup_choose_lang_toast">You must download a language to continue</string>
@@ -481,7 +481,7 @@ Installed. Tap to launch."</string>
     <string name="max_function_item_count_title">Max Count Limit</string>
     <string name="functionbar_hwtoggle_toast_on">Handwriting on keyboard enabled</string>
     <string name="functionbar_hwtoggle_toast_off">Handwriting on keyboard disabled</string>
-    <string name="pref_personalization_personalize_experience">Personalizing your experience…</string>
+    <string name="pref_personalization_personalize_experience">Personalizing your experience</string>
     <string name="personalization_settings_title">Personalization</string>
     <string name="theme_name_frost">Arctic</string>
     <string name="theme_name_classic">Classic</string>

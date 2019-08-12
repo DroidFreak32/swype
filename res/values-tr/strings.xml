@@ -59,7 +59,7 @@ Devam etmek istiyor musunuz?"</string>
     <string name="sns_facebook_sign_on">Oturum açın ve böylece Facebook hesabınızdaki kişi adları, kişisel sözlüğünüze eklensin</string>
     <string name="sns_twitter_sign_on">Oturum açın ve böylece genel Twitter akışınızdaki kullanıcı adları ve yeni kelimeler, kişisel sözlüğünüze eklensin</string>
     <string name="sns_gmail_sign_on">Oturum açın ve böylece e-posta gönderdiğiniz kişilerin adları, kişisel sözlüğünüze eklensin</string>
-    <string name="sns_personalizing">Deneyiminiz kișiselleștiriliyor…</string>
+    <string name="sns_personalizing">Deneyiminiz kișiselleștiriliyor</string>
     <string name="sns_personalize_finished">Son güncelleme tarihi: %s. Yenilemek için dokunun.</string>
     <string name="dismiss_button">Son ver</string>
     <string name="canceling">İptal ediliyor</string>
@@ -436,7 +436,7 @@ Yüklendi. Başlatmak için dokunun."</string>
     <string name="pref_delete_account_desc">"Tüm cihazların kaydını kaldır ve hesap verilerini Swype Connect'ten sil. Bu ișlem, bu cihazdaki kișisel dil verilerinizi ya da kelimelerinizi silmeyecek."</string>
     <string name="pref_sync_now_title">Șimdi senkronize et</string>
     <string name="pref_devices_title">Cihazlar</string>
-    <string name="pref_personalize_your_experience_title">Deneyiminiz kișiselleștiriliyor…</string>
+    <string name="pref_personalize_your_experience_title">Deneyiminiz kișiselleștiriliyor</string>
     <string name="pref_clear_lang_data_dialog">Tüm dil verileriniz silinecek ve Yedekleme &amp; Senkronize Etme ișlevi de bu cihazda devre dıșı bırakılacak. Devam etmek istediğinizden emin misiniz?</string>
     <string name="startup_choose_lang">Dili değiștir</string>
     <string name="startup_choose_lang_toast">Devam etmek için bir dil indirmelisiniz</string>
@@ -482,7 +482,7 @@ Yüklendi. Başlatmak için dokunun."</string>
     <string name="max_function_item_count_title">Maks. Sayı Sınırı</string>
     <string name="functionbar_hwtoggle_toast_on">Klavyede el yazısı etkin</string>
     <string name="functionbar_hwtoggle_toast_off">Klavyede el yazısı devre dışı</string>
-    <string name="pref_personalization_personalize_experience">Deneyiminiz kișiselleștiriliyor…</string>
+    <string name="pref_personalization_personalize_experience">Deneyiminiz kișiselleștiriliyor</string>
     <string name="personalization_settings_title">Kişiselleştirme</string>
     <string name="theme_name_frost">Kutup</string>
     <string name="theme_name_classic">Klasik</string>

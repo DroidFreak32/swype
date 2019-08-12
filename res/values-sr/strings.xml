@@ -59,7 +59,7 @@ Da li hoćete da nastavite?"</string>
     <string name="sns_facebook_sign_on">Prijavite se tako da se kontakt imena sa vašeg Facebook naloga mogu dodati vašem ličnom rečniku</string>
     <string name="sns_twitter_sign_on">Prijavite se tako da se korisnička imena i nove reči sa vaše javne Twitter objave se dodaju vašem ličnom rečniku</string>
     <string name="sns_gmail_sign_on">Prijavite se tako da se imena ljudi koji su vam poslali e-poštu mogu dodati vašem ličnom rečniku</string>
-    <string name="sns_personalizing">Personalizujte svoje iskustvo…</string>
+    <string name="sns_personalizing">Personalizujte svoje iskustvo</string>
     <string name="sns_personalize_finished">Poslednje ažuriranje na %s. Dotaknite da osvežite.</string>
     <string name="dismiss_button">Odbacite</string>
     <string name="canceling">Otkazivanje</string>
@@ -436,7 +436,7 @@ Instaliran. Pritisnite da ga pokrenete."</string>
     <string name="pref_delete_account_desc">Otkažete registraciju svih uređaja i izbrišete informacije o podacima vašeg naloga Swype Connect. Ovo neće izbrisati vaše lične jezičke podatke ili vaše reči sa ovog uređaja.</string>
     <string name="pref_sync_now_title">Sinhronizujte sad</string>
     <string name="pref_devices_title">Uređaji</string>
-    <string name="pref_personalize_your_experience_title">Personalizujte svoje iskustvo…</string>
+    <string name="pref_personalize_your_experience_title">Personalizujte svoje iskustvo</string>
     <string name="pref_clear_lang_data_dialog">Svi vaši jezički podaci će biti izbrisani i pravljenje rezervne kopije i sinhronizacija će biti onemogućeni za ovaj uređaj. Da li ste sigurni da želite da nastavite?</string>
     <string name="startup_choose_lang">Izaberite vaš jezik</string>
     <string name="startup_choose_lang_toast">Morate preuzeti jezik da nastavite</string>
@@ -482,7 +482,7 @@ Instaliran. Pritisnite da ga pokrenete."</string>
     <string name="max_function_item_count_title">Limit maksimalnog broja</string>
     <string name="functionbar_hwtoggle_toast_on">Rukopis omogućen na tastaturi</string>
     <string name="functionbar_hwtoggle_toast_off">Rukopis onemogućen na tastaturi</string>
-    <string name="pref_personalization_personalize_experience">Personalizujte svoje iskustvo…</string>
+    <string name="pref_personalization_personalize_experience">Personalizujte svoje iskustvo</string>
     <string name="personalization_settings_title">Personalizovanje</string>
     <string name="theme_name_frost">Artik</string>
     <string name="theme_name_classic">Klasično</string>

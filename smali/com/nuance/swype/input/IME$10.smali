@@ -28,7 +28,7 @@
     .locals 0
 
     .prologue
-    .line 3243
+    .line 3258
     iput-object p1, p0, Lcom/nuance/swype/input/IME$10;->this$0:Lcom/nuance/swype/input/IME;
 
     iput-object p2, p0, Lcom/nuance/swype/input/IME$10;->val$spw:Lcom/nuance/swype/input/SpeechWrapper;
@@ -46,11 +46,11 @@
     .param p2, "position"    # I
 
     .prologue
-    .line 3245
+    .line 3260
     iget-object v0, p0, Lcom/nuance/swype/input/IME$10;->val$spw:Lcom/nuance/swype/input/SpeechWrapper;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/SpeechWrapper;->restartDictation()V
 
-    .line 3246
+    .line 3261
     return-void
 .end method

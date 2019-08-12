@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">Bhalisa ukuze amagama okuxhumana akwi-akhawunti yakho ka-Facebook ongezelelwe kwisichazimazwi sakho soqobo</string>
     <string name="sns_twitter_sign_on">Sayina ukungena ukuze amagama abasebenzisi namagama amasha ukusuka kwi-Twitter yakho kawonke-wonke ongezelelwe kwisichazimazwi sakho soqobo</string>
     <string name="sns_gmail_sign_on">Bhalisa ukuze amagama abantu obathumelele i-imeyile ongezelelwe kwisichazimazwi sakho soqobo</string>
-    <string name="sns_personalizing">Ukwenza okoqobo ulwazi lwakho…</string>
+    <string name="sns_personalizing">Ukwenza okoqobo ulwazi lwakho</string>
     <string name="sns_personalize_finished">Kuthuthukiswe okokugcina nge %s. Thinta ukuqala kabusha.</string>
     <string name="dismiss_button">Mukisa</string>
     <string name="canceling">Cima/Sula</string>
@@ -434,7 +434,7 @@ Kufakelwe Thinta ukuqalisa"</string>
     <string name="pref_delete_account_desc">Cima ukubhaliswa kwezinsiza zonke futhi ucime/usule imininingwane ye-akhawunti yakho kusixhumanisi se-Swype. Lokhu akuzucima/akuzusula imininingwane yakho yolimi/yolwimi yoqobo, kufakelela namagama akho kule nsiza.</string>
     <string name="pref_sync_now_title">Vumelanisa manje</string>
     <string name="pref_devices_title">Izinsiza</string>
-    <string name="pref_personalize_your_experience_title">Ukwenza okoqobo ulwazi lwakho…</string>
+    <string name="pref_personalize_your_experience_title">Ukwenza okoqobo ulwazi lwakho</string>
     <string name="pref_clear_lang_data_dialog">Yonke imininingwane yolimi/yolwimi lwakho izocinywa/izosulwa futhi nesiLondolozi nesiVumelanisi sizokhubazwa kule nsiza. Uqinisekile ufuna ukuqhubeka?</string>
     <string name="startup_choose_lang">Khetha ulimi/ulwimi lwakho</string>
     <string name="startup_choose_lang_toast">Kufanele ulayishe phansi ulimi/ulwimi ukuze uqhubeke</string>
@@ -480,7 +480,7 @@ Kufakelwe Thinta ukuqalisa"</string>
     <string name="max_function_item_count_title">Umugqaesiphelele esibekiwe samagama</string>
     <string name="functionbar_hwtoggle_toast_on">Umbhalo wesandla kwikhibhodi uvunyelwe</string>
     <string name="functionbar_hwtoggle_toast_off">Umbhalo wesandla kwikhibhodi umisiwe</string>
-    <string name="pref_personalization_personalize_experience">Ukwenza okoqobo ulwazi lwakho…</string>
+    <string name="pref_personalization_personalize_experience">Ukwenza okoqobo ulwazi lwakho</string>
     <string name="personalization_settings_title">Ukwenza into ibe ngeyakho wedwa</string>
     <string name="theme_name_frost">I-Athiki</string>
     <string name="theme_name_classic">Qhamile</string>

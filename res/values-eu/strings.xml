@@ -59,7 +59,7 @@ Jarraitu nahi duzu?"</string>
     <string name="sns_facebook_sign_on">Hasi saioa Facebook kontuko kontaktuen izenak hiztegi pertsonalean gehitzeko</string>
     <string name="sns_twitter_sign_on">Hasi saioa erabiltzaile izenak eta Twitter-eko eguneratze publikoko hitz berriak hiztegi pertsonalean gehitzeko</string>
     <string name="sns_gmail_sign_on">Hasi saioa mezu elektroniko bat bidali diezun pertsonen izenak hiztegi pertsonalean gehitzeko</string>
-    <string name="sns_personalizing">Esperientzia pertsonalizatzen…</string>
+    <string name="sns_personalizing">Esperientzia pertsonalizatzen</string>
     <string name="sns_personalize_finished">Azken eguneratzea: %s. Punteatu freskatzeko.</string>
     <string name="dismiss_button">Baztertu</string>
     <string name="canceling">Uzten</string>
@@ -436,7 +436,7 @@ Instalatuta. Punteatu abiarazteko."</string>
     <string name="pref_delete_account_desc">Egin klik hemen gailu guztiak erregistrotik kentzeko eta zure kontua Swype Connect-etik ezabatzeko Honek ez du zure hizkuntzako datuak edo zure hitzak ezabatuko zure gailutik.</string>
     <string name="pref_sync_now_title">Sinkronizatu orain</string>
     <string name="pref_devices_title">Gailuak</string>
-    <string name="pref_personalize_your_experience_title">Esperientzia pertsonalizatzen…</string>
+    <string name="pref_personalize_your_experience_title">Esperientzia pertsonalizatzen</string>
     <string name="pref_clear_lang_data_dialog">Zure hizkuntzaren datu guztiak ezabatuko dira eta gorde eta sinkronizatu ere desgaituko da gailu honentzat. Ziur zaude jarraitu nahi duzula?</string>
     <string name="startup_choose_lang">Hautatu hizkuntza</string>
     <string name="startup_choose_lang_toast">Hizkuntza deskargatu behar duzu jarraitu aurretik</string>
@@ -482,7 +482,7 @@ Instalatuta. Punteatu abiarazteko."</string>
     <string name="max_function_item_count_title">Gehienezko kontaketa</string>
     <string name="functionbar_hwtoggle_toast_on">Teklatuko eskuzko idazketa gaitu da</string>
     <string name="functionbar_hwtoggle_toast_off">Teklatuko eskuzko idazketa desgaitu da</string>
-    <string name="pref_personalization_personalize_experience">Esperientzia pertsonalizatzen…</string>
+    <string name="pref_personalization_personalize_experience">Esperientzia pertsonalizatzen</string>
     <string name="personalization_settings_title">Pertsonalizazioa</string>
     <string name="theme_name_frost">Artikoa</string>
     <string name="theme_name_classic">Klasikoa</string>

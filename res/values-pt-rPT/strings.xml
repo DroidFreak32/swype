@@ -59,7 +59,7 @@ Pretende continuar?"</string>
     <string name="sns_facebook_sign_on">Inicie a sessão para que os nomes dos contatos da sua conta do Facebook sejam adicionados ao seu dicionário pessoal</string>
     <string name="sns_twitter_sign_on">Inicie a sessão para que os nomes de contatos e as novas palavras do seu feed no Twitter sejam adicionados ao seu dicionário pessoal</string>
     <string name="sns_gmail_sign_on">Inicie a sessão para que os nomes das pessoas que lhe enviaram e-mails sejam adicionados ao seu dicionário pessoal</string>
-    <string name="sns_personalizing">Personalizando a sua experiência…</string>
+    <string name="sns_personalizing">Personalizando a sua experiência</string>
     <string name="sns_personalize_finished">Última atualização em %s. Toque para atualizar.</string>
     <string name="dismiss_button">Ignorar</string>
     <string name="canceling">Cancelando</string>
@@ -434,7 +434,7 @@ Instalado. Toque para iniciar."</string>
     <string name="pref_delete_account_desc">Cancelar o registro de todos os dispositivos e excluir os dados de sua conta do Swype Connect. Esta ação não excluirá seus dados pessoais de idioma ou suas palavras neste dispositivo.</string>
     <string name="pref_sync_now_title">Sincronizar agora</string>
     <string name="pref_devices_title">Dispositivos</string>
-    <string name="pref_personalize_your_experience_title">Personalizando a sua experiência…</string>
+    <string name="pref_personalize_your_experience_title">Personalizando a sua experiência</string>
     <string name="pref_clear_lang_data_dialog">Todos os seus dados de idioma serão excluídos e o recurso Backup e Sincronização também será desativado neste dispositivo. Você tem certeza de que deseja continuar?</string>
     <string name="startup_choose_lang">Escolha seu idioma</string>
     <string name="startup_choose_lang_toast">Você precisa fazer o download de um idioma para continuar</string>
@@ -480,7 +480,7 @@ Instalado. Toque para iniciar."</string>
     <string name="max_function_item_count_title">Limite máximo de contagem</string>
     <string name="functionbar_hwtoggle_toast_on">Escrita manual no teclado activada</string>
     <string name="functionbar_hwtoggle_toast_off">Escrita manual no teclado desactivada</string>
-    <string name="pref_personalization_personalize_experience">Personalizando a sua experiência…</string>
+    <string name="pref_personalization_personalize_experience">Personalizando a sua experiência</string>
     <string name="personalization_settings_title">Personalização</string>
     <string name="theme_name_frost">Ártico</string>
     <string name="theme_name_classic">Clássico</string>

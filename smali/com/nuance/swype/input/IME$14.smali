@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 4138
+    .line 4158
     iput-object p1, p0, Lcom/nuance/swype/input/IME$14;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
     .param p3, "event"    # Landroid/view/KeyEvent;
 
     .prologue
-    .line 4140
+    .line 4160
     const/4 v0, 0x5
 
     if-ne p2, v0, :cond_0
@@ -56,10 +56,10 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 4141
+    .line 4161
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 4143
+    .line 4163
     :cond_0
     const/4 v0, 0x0
 

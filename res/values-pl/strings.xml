@@ -59,7 +59,7 @@ Chcesz kontynuować?"</string>
     <string name="sns_facebook_sign_on">Zarejestruj się, a do słownika użytkownika dodane zostaną kontakty z twojego konta na Facebooku</string>
     <string name="sns_twitter_sign_on">Zarejestruj się, a do słownika użytkownika dodane zostaną nazwy użytkownika oraz nowe słowa z Twojego konta Twitter</string>
     <string name="sns_gmail_sign_on">Zarejestruj się, a do słownika użytkownika dodane zostaną imiona osób, do których wysyłałeś wiadomość e-mail</string>
-    <string name="sns_personalizing">Personalizuję Twój profil użytkowania…</string>
+    <string name="sns_personalizing">Personalizuję Twój profil użytkowania</string>
     <string name="sns_personalize_finished">Ostatnia aktualizacja %s. Dotknij ekran, aby odświeżyć.</string>
     <string name="dismiss_button">Zwolnij</string>
     <string name="canceling">Anulowanie</string>
@@ -436,7 +436,7 @@ Zainstalowano. Dotknij, żeby uruchomić."</string>
     <string name="pref_delete_account_desc">Wyrejestruj wszystkie urządzenia i usuń dane swojego konta z systemu Swype Connect. Nie spowoduje to usunięcia osobistych danych językowych ani słów w tym urządzeniu.</string>
     <string name="pref_sync_now_title">Synchronizuj</string>
     <string name="pref_devices_title">Urządzenia</string>
-    <string name="pref_personalize_your_experience_title">Personalizuję Twój profil użytkowania…</string>
+    <string name="pref_personalize_your_experience_title">Personalizuję Twój profil użytkowania</string>
     <string name="pref_clear_lang_data_dialog">Wszystkie dane językowe użytkownika zostaną usunięte, a usługi tworzenia kopii zapasowej i synchronizacji w tym urządzeniu zostaną wyłączone. Na pewno chcesz kontynuować?</string>
     <string name="startup_choose_lang">Wybierz język</string>
     <string name="startup_choose_lang_toast">Aby kontynuować, należy pobrać język</string>
@@ -482,7 +482,7 @@ Zainstalowano. Dotknij, żeby uruchomić."</string>
     <string name="max_function_item_count_title">Maksymalna liczba</string>
     <string name="functionbar_hwtoggle_toast_on">Ręczne wprowadzanie z klawiatury zostało odblokowane</string>
     <string name="functionbar_hwtoggle_toast_off">Ręczne wprowadzanie z klawiatury zostało zablokowane</string>
-    <string name="pref_personalization_personalize_experience">Personalizuję Twój profil użytkowania…</string>
+    <string name="pref_personalization_personalize_experience">Personalizuję Twój profil użytkowania</string>
     <string name="personalization_settings_title">Personalizacja</string>
     <string name="theme_name_frost">Arktyczny</string>
     <string name="theme_name_classic">Klasyczny</string>

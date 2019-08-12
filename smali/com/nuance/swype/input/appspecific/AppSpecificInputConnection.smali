@@ -520,7 +520,7 @@
     .prologue
     const/4 v1, -0x1
 
-    .line 1004
+    .line 1007
     iget v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     if-eq v1, v0, :cond_0
@@ -535,24 +535,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 1006
+    .line 1009
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1012
+    .line 1015
     :goto_0
     return-object v0
 
-    .line 1008
+    .line 1011
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     if-eqz v0, :cond_1
 
-    .line 1009
+    .line 1012
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-static {v0}, Lcom/nuance/android/compat/InputConnectionCompat;->getSelectedTextString(Landroid/view/inputmethod/InputConnection;)Ljava/lang/String;
@@ -561,7 +561,7 @@
 
     goto :goto_0
 
-    .line 1012
+    .line 1015
     :cond_1
     const/4 v0, 0x0
 
@@ -572,7 +572,7 @@
     .locals 1
 
     .prologue
-    .line 1033
+    .line 1036
     iget-boolean v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheUpdatesReliable:Z
 
     if-eqz v0, :cond_0
@@ -995,24 +995,24 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 848
+    .line 851
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 849
+    .line 852
     iput v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorExtractedTextOffset:I
 
-    .line 850
+    .line 853
     iput v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
-    .line 851
+    .line 854
     iput v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
-    .line 852
+    .line 855
     iput-boolean v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isEditorTextRetrievable:Z
 
-    .line 853
+    .line 856
     return-void
 .end method
 
@@ -1023,31 +1023,31 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 681
+    .line 684
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 682
+    .line 685
     invoke-virtual {p1}, Landroid/view/inputmethod/CompletionInfo;->getText()Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    .line 684
+    .line 687
     .local v1, "text":Ljava/lang/CharSequence;
     if-nez v1, :cond_0
 
     const-string v1, ""
 
-    .line 685
+    .line 688
     :cond_0
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
-    .line 686
+    .line 689
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
@@ -1066,54 +1066,54 @@
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 687
+    .line 690
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 688
+    .line 691
     sget-object v2, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "cursor commitCompletion set cachedComposingText 0"
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 689
+    .line 692
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
 
-    .line 690
+    .line 693
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 691
+    .line 694
     const/4 v2, -0x1
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
-    .line 693
+    .line 696
     .end local v1    # "text":Ljava/lang/CharSequence;
     :cond_1
     const/4 v0, 0x1
 
-    .line 694
+    .line 697
     .local v0, "bVal":Z
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     if-eqz v2, :cond_2
 
-    .line 695
+    .line 698
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-interface {v2, p1}, Landroid/view/inputmethod/InputConnection;->commitCompletion(Landroid/view/inputmethod/CompletionInfo;)Z
 
     move-result v0
 
-    .line 698
+    .line 701
     :cond_2
     return v0
 .end method
@@ -1352,14 +1352,14 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 668
+    .line 671
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 669
+    .line 672
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
@@ -1368,32 +1368,32 @@
 
     if-lez v0, :cond_0
 
-    .line 670
+    .line 673
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
-    .line 671
+    .line 674
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 672
+    .line 675
     sget-object v0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v1, "cursor finishComposingText set cachedComposingText 0"
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 674
+    .line 677
     :cond_0
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
-    .line 676
+    .line 679
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
@@ -1409,25 +1409,25 @@
     .param p1, "attr"    # Landroid/view/inputmethod/EditorInfo;
 
     .prologue
-    .line 786
+    .line 789
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 787
+    .line 790
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-static {v1, p1}, Lcom/nuance/swype/util/InputConnectionUtils;->getCapsMode(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)I
 
     move-result v1
 
-    .line 801
+    .line 804
     :goto_0
     return v1
 
-    .line 790
+    .line 793
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
@@ -1437,14 +1437,14 @@
 
     if-nez v1, :cond_1
 
-    .line 792
+    .line 795
     iget v1, p1, Landroid/view/inputmethod/EditorInfo;->inputType:I
 
     and-int/lit16 v1, v1, 0x1000
 
     goto :goto_0
 
-    .line 794
+    .line 797
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
@@ -1458,7 +1458,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 795
+    .line 798
     const/16 v1, 0x400
 
     const/4 v2, 0x0
@@ -1467,7 +1467,7 @@
 
     move-result-object v0
 
-    .line 797
+    .line 800
     .local v0, "textBeforeCursor":Ljava/lang/CharSequence;
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1475,12 +1475,12 @@
 
     if-nez v1, :cond_2
 
-    .line 798
+    .line 801
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
-    .line 801
+    .line 804
     .end local v0    # "textBeforeCursor":Ljava/lang/CharSequence;
     :cond_2
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
@@ -1504,7 +1504,7 @@
     .locals 4
 
     .prologue
-    .line 897
+    .line 900
     iget-boolean v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->byPassCache:Z
 
     if-nez v0, :cond_1
@@ -1515,7 +1515,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 898
+    .line 901
     iget v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
     iget v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
@@ -1530,7 +1530,7 @@
 
     if-ltz v0, :cond_0
 
-    .line 899
+    .line 902
     const/4 v0, 0x2
 
     new-array v0, v0, [I
@@ -1559,17 +1559,17 @@
 
     aput v2, v0, v1
 
-    .line 906
+    .line 909
     :goto_0
     return-object v0
 
-    .line 904
+    .line 907
     :cond_0
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 906
+    .line 909
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
@@ -2989,17 +2989,17 @@
     .param p1, "info"    # Lcom/nuance/swype/input/InputFieldInfo;
 
     .prologue
-    .line 996
+    .line 999
     invoke-virtual {p1}, Lcom/nuance/swype/input/InputFieldInfo;->isPasswordField()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 997
+    .line 1000
     const/4 v0, 0x0
 
-    .line 1000
+    .line 1003
     :goto_0
     return-object v0
 
@@ -3019,7 +3019,7 @@
 
     const/4 v2, -0x1
 
-    .line 883
+    .line 886
     iget-boolean v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->byPassCache:Z
 
     if-nez v1, :cond_0
@@ -3038,7 +3038,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 885
+    .line 888
     const/4 v1, 0x2
 
     new-array v1, v1, [I
@@ -3053,17 +3053,17 @@
 
     aput v3, v1, v2
 
-    .line 892
+    .line 895
     :goto_0
     return-object v1
 
-    .line 890
+    .line 893
     :cond_0
     new-instance v0, Landroid/view/inputmethod/ExtractedTextRequest;
 
     invoke-direct {v0}, Landroid/view/inputmethod/ExtractedTextRequest;-><init>()V
 
-    .line 891
+    .line 894
     .local v0, "request":Landroid/view/inputmethod/ExtractedTextRequest;
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
@@ -3071,7 +3071,7 @@
 
     move-result-object v1
 
-    .line 892
+    .line 895
     invoke-static {v1}, Lcom/nuance/swype/util/InputConnectionUtils;->getSelection(Landroid/view/inputmethod/ExtractedText;)[I
 
     move-result-object v1
@@ -3085,21 +3085,21 @@
     .param p2, "flags"    # I
 
     .prologue
-    .line 830
+    .line 833
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    .line 831
+    .line 834
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedAfterCursorText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->length()I
 
     move-result v0
 
-    .line 832
+    .line 835
     .local v0, "cachedLength":I
     const/4 v1, -0x1
 
@@ -3107,10 +3107,10 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 833
+    .line 836
     if-le v0, p1, :cond_0
 
-    .line 834
+    .line 837
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedAfterCursorText:Ljava/lang/StringBuilder;
 
     const/4 v2, 0x0
@@ -3119,26 +3119,26 @@
 
     move-result-object v1
 
-    .line 844
+    .line 847
     .end local v0    # "cachedLength":I
     :goto_0
     return-object v1
 
-    .line 836
+    .line 839
     .restart local v0    # "cachedLength":I
     :cond_0
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedAfterCursorText:Ljava/lang/StringBuilder;
 
     goto :goto_0
 
-    .line 840
+    .line 843
     .end local v0    # "cachedLength":I
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     if-eqz v1, :cond_2
 
-    .line 841
+    .line 844
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-interface {v1, p1, p2}, Landroid/view/inputmethod/InputConnection;->getTextAfterCursor(II)Ljava/lang/CharSequence;
@@ -3147,7 +3147,7 @@
 
     goto :goto_0
 
-    .line 844
+    .line 847
     :cond_2
     const/4 v1, 0x0
 
@@ -3160,14 +3160,14 @@
     .param p2, "flags"    # I
 
     .prologue
-    .line 806
+    .line 809
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 807
+    .line 810
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
@@ -3182,7 +3182,7 @@
 
     add-int v0, v2, v3
 
-    .line 809
+    .line 812
     .local v0, "cachedLength":I
     const/4 v2, -0x1
 
@@ -3200,7 +3200,7 @@
 
     if-lt v0, v2, :cond_2
 
-    .line 811
+    .line 814
     :cond_0
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -3208,7 +3208,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/CharSequence;)V
 
-    .line 813
+    .line 816
     .local v1, "s":Ljava/lang/StringBuilder;
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
@@ -3218,30 +3218,30 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 814
+    .line 817
     if-le v0, p1, :cond_1
 
-    .line 815
+    .line 818
     const/4 v2, 0x0
 
     sub-int v3, v0, p1
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 825
+    .line 828
     .end local v0    # "cachedLength":I
     .end local v1    # "s":Ljava/lang/StringBuilder;
     :cond_1
     :goto_0
     return-object v1
 
-    .line 822
+    .line 825
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     if-eqz v2, :cond_3
 
-    .line 823
+    .line 826
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-interface {v2, p1, p2}, Landroid/view/inputmethod/InputConnection;->getTextBeforeCursor(II)Ljava/lang/CharSequence;
@@ -3250,7 +3250,7 @@
 
     goto :goto_0
 
-    .line 825
+    .line 828
     :cond_3
     const/4 v1, 0x0
 
@@ -3265,7 +3265,7 @@
 
     const/4 v1, 0x0
 
-    .line 921
+    .line 924
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v2
@@ -3276,14 +3276,14 @@
 
     if-nez v2, :cond_2
 
-    .line 922
+    .line 925
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
     iget v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
     if-eq v2, v3, :cond_1
 
-    .line 924
+    .line 927
     :cond_0
     :goto_0
     return v0
@@ -3291,10 +3291,10 @@
     :cond_1
     move v0, v1
 
-    .line 922
+    .line 925
     goto :goto_0
 
-    .line 924
+    .line 927
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
@@ -3313,7 +3313,7 @@
     .locals 2
 
     .prologue
-    .line 912
+    .line 915
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v0
@@ -3324,7 +3324,7 @@
 
     if-nez v0, :cond_1
 
-    .line 913
+    .line 916
     iget v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iget v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
@@ -3333,17 +3333,17 @@
 
     const/4 v0, 0x1
 
-    .line 915
+    .line 918
     :goto_0
     return v0
 
-    .line 913
+    .line 916
     :cond_0
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 915
+    .line 918
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
@@ -3366,30 +3366,30 @@
 
     const/4 v2, 0x0
 
-    .line 860
+    .line 863
     add-int v0, p2, p4
 
-    .line 861
+    .line 864
     .local v0, "sum":I
     invoke-static {p2, p4}, Ljava/lang/Math;->min(II)I
 
     move-result p2
 
-    .line 862
+    .line 865
     sub-int p4, v0, p2
 
-    .line 863
+    .line 866
     add-int v0, p1, p3
 
-    .line 864
+    .line 867
     invoke-static {p1, p3}, Ljava/lang/Math;->min(II)I
 
     move-result p1
 
-    .line 865
+    .line 868
     sub-int p3, v0, p1
 
-    .line 868
+    .line 871
     iget v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     if-ne v3, p2, :cond_1
@@ -3398,12 +3398,12 @@
 
     if-ne v3, p4, :cond_1
 
-    .line 879
+    .line 882
     :cond_0
     :goto_0
     return v1
 
-    .line 872
+    .line 875
     :cond_1
     iget v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
@@ -3421,10 +3421,10 @@
     :cond_3
     move v1, v2
 
-    .line 875
+    .line 878
     goto :goto_0
 
-    .line 879
+    .line 882
     :cond_4
     sub-int v3, p2, p1
 
@@ -3450,25 +3450,25 @@
 
     const/4 v2, 0x0
 
-    .line 1016
+    .line 1019
     invoke-virtual {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->hasComposing()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 1027
+    .line 1030
     :cond_0
     :goto_0
     return v2
 
-    .line 1020
+    .line 1023
     :cond_1
     invoke-virtual {p0, v3, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->getTextBeforeCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    .line 1022
+    .line 1025
     .local v1, "cSeqBefore":Ljava/lang/CharSequence;
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -3482,12 +3482,12 @@
 
     if-nez v4, :cond_0
 
-    .line 1023
+    .line 1026
     invoke-virtual {p0, v3, v2}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->getTextAfterCursor(II)Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 1024
+    .line 1027
     .local v0, "cSeqAfter":Ljava/lang/CharSequence;
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -3923,22 +3923,22 @@
     .param p3, "shouldSyncFromEditor"    # Z
 
     .prologue
-    .line 778
+    .line 781
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
     move-result v1
 
-    .line 779
+    .line 782
     .local v1, "start":I
     invoke-static {p1, p2}, Ljava/lang/Math;->max(II)I
 
     move-result v0
 
-    .line 781
+    .line 784
     .local v0, "end":I
     invoke-direct {p0, v1, v0, p3}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->rebuildInternalStrings(IIZ)V
 
-    .line 782
+    .line 785
     const/4 v2, 0x1
 
     return v2
@@ -3952,29 +3952,29 @@
     .end annotation
 
     .prologue
-    .line 764
+    .line 767
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0xb
 
     if-ge v0, v1, :cond_0
 
-    .line 765
+    .line 768
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->mSkipCacheChangeInSendKeyEvent:Z
 
-    .line 775
+    .line 778
     :goto_0
     return-void
 
-    .line 768
+    .line 771
     :cond_0
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v2
 
-    .line 769
+    .line 772
     .local v2, "eventTime":J
     new-instance v1, Landroid/view/KeyEvent;
 
@@ -3998,7 +3998,7 @@
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->sendKeyEvent(Landroid/view/KeyEvent;)Z
 
-    .line 772
+    .line 775
     new-instance v1, Landroid/view/KeyEvent;
 
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
@@ -4035,7 +4035,7 @@
 
     const/4 v1, 0x0
 
-    .line 703
+    .line 706
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v2
@@ -4052,21 +4052,21 @@
 
     if-nez v2, :cond_1
 
-    .line 704
+    .line 707
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v2
 
     sparse-switch v2, :sswitch_data_0
 
-    .line 738
+    .line 741
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getUnicodeChar()I
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 739
+    .line 742
     new-instance v0, Ljava/lang/String;
 
     new-array v2, v4, [I
@@ -4079,7 +4079,7 @@
 
     invoke-direct {v0, v2, v1, v4}, Ljava/lang/String;-><init>([III)V
 
-    .line 740
+    .line 743
     .local v0, "text":Ljava/lang/String;
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -4087,12 +4087,12 @@
 
     if-lez v2, :cond_0
 
-    .line 741
+    .line 744
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 742
+    .line 745
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
@@ -4103,17 +4103,17 @@
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 743
+    .line 746
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
 
-    .line 744
+    .line 747
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    .line 750
+    .line 753
     .end local v0    # "text":Ljava/lang/String;
     :cond_0
     :goto_0
@@ -4125,7 +4125,7 @@
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
-    .line 751
+    .line 754
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
     iget-object v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
@@ -4138,27 +4138,27 @@
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
-    .line 754
+    .line 757
     :cond_1
     iput-boolean v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->mSkipCacheChangeInSendKeyEvent:Z
 
-    .line 756
+    .line 759
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     if-eqz v2, :cond_2
 
-    .line 757
+    .line 760
     iget-object v1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-interface {v1, p1}, Landroid/view/inputmethod/InputConnection;->sendKeyEvent(Landroid/view/KeyEvent;)Z
 
     move-result v1
 
-    .line 759
+    .line 762
     :cond_2
     return v1
 
-    .line 706
+    .line 709
     :sswitch_0
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
@@ -4166,26 +4166,26 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 707
+    .line 710
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     add-int/lit8 v2, v2, 0x1
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 708
+    .line 711
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
 
-    .line 709
+    .line 712
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     goto :goto_0
 
-    .line 712
+    .line 715
     :sswitch_1
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
@@ -4195,7 +4195,7 @@
 
     if-nez v2, :cond_5
 
-    .line 713
+    .line 716
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->length()I
@@ -4204,7 +4204,7 @@
 
     if-lez v2, :cond_3
 
-    .line 714
+    .line 717
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     iget-object v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
@@ -4223,34 +4223,34 @@
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 723
+    .line 726
     :cond_3
     :goto_1
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     if-lez v2, :cond_4
 
-    .line 724
+    .line 727
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     add-int/lit8 v2, v2, -0x1
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 726
+    .line 729
     :cond_4
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
 
-    .line 727
+    .line 730
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     goto :goto_0
 
-    .line 719
+    .line 722
     :cond_5
     sget-object v2, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -4264,7 +4264,7 @@
 
     invoke-virtual {v2, v3, v4}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 720
+    .line 723
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     iget-object v3, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
@@ -4283,7 +4283,7 @@
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->delete(II)Ljava/lang/StringBuilder;
 
-    .line 721
+    .line 724
     sget-object v2, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v3, "cursor after sendKeyEvent cachedComposingText,"
@@ -4298,7 +4298,7 @@
 
     goto :goto_1
 
-    .line 730
+    .line 733
     :sswitch_2
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getCharacters()Ljava/lang/String;
 
@@ -4306,7 +4306,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 731
+    .line 734
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getCharacters()Ljava/lang/String;
@@ -4315,7 +4315,7 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 732
+    .line 735
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getCharacters()Ljava/lang/String;
@@ -4330,19 +4330,19 @@
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
-    .line 733
+    .line 736
     iget v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
 
-    .line 734
+    .line 737
     iget-object v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
     goto/16 :goto_0
 
-    .line 704
+    .line 707
     :sswitch_data_0
     .sparse-switch
         0x0 -> :sswitch_2
@@ -4356,10 +4356,10 @@
     .param p1, "bVal"    # Z
 
     .prologue
-    .line 1037
+    .line 1040
     iput-boolean p1, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->byPassCache:Z
 
-    .line 1038
+    .line 1041
     return-void
 .end method
 
@@ -4520,14 +4520,14 @@
 
     const/4 v4, -0x1
 
-    .line 950
+    .line 953
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v5
 
     if-eqz v5, :cond_6
 
-    .line 951
+    .line 954
     iget-object v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v5}, Ljava/lang/StringBuilder;->length()I
@@ -4536,12 +4536,12 @@
 
     if-nez v5, :cond_1
 
-    .line 992
+    .line 995
     :cond_0
     :goto_0
     return v4
 
-    .line 954
+    .line 957
     :cond_1
     iget v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
@@ -4552,7 +4552,7 @@
     .local v1, "end":I
     move v3, p3
 
-    .line 955
+    .line 958
     .end local p3    # "skipNonWordCharMax":I
     .local v3, "skipNonWordCharMax":I
     :goto_1
@@ -4562,7 +4562,7 @@
     .restart local p3    # "skipNonWordCharMax":I
     if-lez v3, :cond_2
 
-    .line 957
+    .line 960
     if-lez v1, :cond_2
 
     iget-object v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
@@ -4579,7 +4579,7 @@
 
     if-nez v5, :cond_2
 
-    .line 958
+    .line 961
     add-int/lit8 v1, v1, -0x1
 
     move v3, p3
@@ -4588,31 +4588,31 @@
     .restart local v3    # "skipNonWordCharMax":I
     goto :goto_1
 
-    .line 964
+    .line 967
     .end local v3    # "skipNonWordCharMax":I
     .restart local p3    # "skipNonWordCharMax":I
     :cond_2
     if-lez v1, :cond_0
 
-    .line 965
+    .line 968
     invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     move-result v5
 
     sub-int v0, v1, v5
 
-    .line 966
+    .line 969
     .local v0, "begin":I
     if-ltz v0, :cond_0
 
-    .line 967
+    .line 970
     iget-object v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCommittedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v5, v0, v1}, Ljava/lang/StringBuilder;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    .line 968
+    .line 971
     .local v2, "prev":Ljava/lang/CharSequence;
     invoke-virtual {v2, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -4620,17 +4620,17 @@
 
     if-eqz v5, :cond_5
 
-    .line 969
+    .line 972
     if-eqz p4, :cond_3
 
-    .line 971
+    .line 974
     iget v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     iget v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorExtractedTextOffset:I
 
     sub-int v1, v4, v5
 
-    .line 973
+    .line 976
     :cond_3
     iget v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorExtractedTextOffset:I
 
@@ -4646,17 +4646,17 @@
 
     if-nez v4, :cond_4
 
-    .line 975
+    .line 978
     sget-object v4, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v5, "setComposingRegionBeforeCursor(): setComposingRegion failed (alternate approach)"
 
     invoke-virtual {v4, v5}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;)V
 
-    .line 976
+    .line 979
     invoke-virtual {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->beginBatchEdit()Z
 
-    .line 977
+    .line 980
     iget v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorExtractedTextOffset:I
 
     add-int/2addr v4, v0
@@ -4667,24 +4667,24 @@
 
     invoke-virtual {p0, v4, v5}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->setSelection(II)Z
 
-    .line 978
+    .line 981
     const-string v4, ""
 
     invoke-virtual {p0, v4, v7}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->commitText(Ljava/lang/CharSequence;I)Z
 
-    .line 979
+    .line 982
     invoke-virtual {p0, p2, v7}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
 
-    .line 980
+    .line 983
     invoke-virtual {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->endBatchEdit()Z
 
-    .line 982
+    .line 985
     :cond_4
     iget v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     goto :goto_0
 
-    .line 984
+    .line 987
     :cond_5
     sget-object v5, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -4716,7 +4716,7 @@
 
     goto/16 :goto_0
 
-    .line 990
+    .line 993
     .end local v0    # "begin":I
     .end local v1    # "end":I
     .end local v2    # "prev":Ljava/lang/CharSequence;
@@ -4891,6 +4891,23 @@
     invoke-virtual {v7, v8, v9, v10, v11}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 652
+    const/4 v7, 0x1
+
+    invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    .line 653
+    .local v0, "bVal":Ljava/lang/Boolean;
+    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->appSpecific:Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
+
+    invoke-virtual {v7}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldSkipWrongStartInputView()Z
+
+    move-result v7
+
+    if-nez v7, :cond_1
+
+    .line 654
     iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->target:Landroid/view/inputmethod/InputConnection;
 
     invoke-interface {v7, p1, p2}, Landroid/view/inputmethod/InputConnection;->setComposingText(Ljava/lang/CharSequence;I)Z
@@ -4901,54 +4918,54 @@
 
     move-result-object v0
 
-    .line 653
-    .local v0, "bVal":Ljava/lang/Boolean;
+    .line 656
+    :cond_1
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v7
 
-    if-nez v7, :cond_1
+    if-nez v7, :cond_2
 
     invoke-direct {p0}, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->isCacheSyncedWithEditor()Z
 
     move-result v7
 
-    if-eqz v7, :cond_1
-
-    .line 654
-    iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
-
-    .line 655
-    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
-
-    invoke-virtual {v7, v12}, Ljava/lang/StringBuilder;->setLength(I)V
-
-    .line 656
-    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
-
-    invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz v7, :cond_2
 
     .line 657
-    iput v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
+    iput v2, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedCursorPosition:I
 
     .line 658
-    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
+    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v7, v12}, Ljava/lang/StringBuilder;->setLength(I)V
 
     .line 659
+    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedComposingText:Ljava/lang/StringBuilder;
+
+    invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 660
+    iput v4, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectionEnd:I
+
+    .line 661
+    iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
+
+    invoke-virtual {v7, v12}, Ljava/lang/StringBuilder;->setLength(I)V
+
+    .line 662
     iget-object v7, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->cachedSelectedText:Ljava/lang/StringBuilder;
 
     invoke-virtual {v7, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 660
+    .line 663
     iput v5, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingEnd:I
 
-    .line 661
+    .line 664
     iput v6, p0, Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;->editorComposingStart:I
 
-    .line 663
-    :cond_1
+    .line 666
+    :cond_2
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v7

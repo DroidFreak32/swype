@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">സൈൻ ഇൻ ചെയ്യുന്നതിലൂടെ, നിങ്ങളുടെ Facebook അക്കൗണ്ടിൽ നിന്നുള്ള കോൺടാക്റ്റ് പേരുകൾ നിങ്ങളുടെ വ്യക്തിഗത നിഘണ്ടുവിലേക്ക് ചേർക്കപ്പെടും</string>
     <string name="sns_twitter_sign_on">സൈൻ ഇൻ ചെയ്യുന്നതിലൂടെ, നിങ്ങളുടെ എല്ലാവർക്കും കാണാനാകുന്ന Twitter ഫീഡിൽ നിന്നുള്ള ഉപയോക്തൃ നാമങ്ങളും പുതിയ വാക്കുകളും നിങ്ങളുടെ വ്യക്തിഗത നിഘണ്ടുവിലേക്ക് ചേർക്കപ്പെടും</string>
     <string name="sns_gmail_sign_on">സൈൻ ഇൻ ചെയ്യുന്നതിലൂടെ, നിങ്ങൾ ഇമെയിൽ അയച്ച ആളുകളുടെ പേരുകൾ നിങ്ങളുടെ വ്യക്തിഗത നിഘണ്ടുവിലേക്ക് ചേർക്കപ്പെടും</string>
-    <string name="sns_personalizing">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ…</string>
+    <string name="sns_personalizing">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ</string>
     <string name="sns_personalize_finished">%s-ൽ അവസാനം സമന്വയിപ്പിച്ചു. പുതുക്കാൻ ടാപ്പുചെയ്യുക.</string>
     <string name="dismiss_button">പുറന്തള്ളുക</string>
     <string name="canceling">റദ്ദാക്കുന്നു</string>
@@ -432,7 +432,7 @@
     <string name="pref_delete_account_desc">Swype കണക്റ്റിൽ നിന്ന് എല്ലാ ഉപകരണങ്ങളും അൺരജിസ്റ്റർ ചെയ്യുകയും നിങ്ങളുടെ അക്കൗണ്ട് ഡാറ്റ ഇല്ലാതാക്കുകയും ചെയ്യുക. ഇത് ഈ ഉപകരണത്തിലെ നിങ്ങളുടെ വ്യക്തിപര ഭാഷ ഡാറ്റയോ വാക്കുകളോ ഇല്ലാതാക്കില്ല.</string>
     <string name="pref_sync_now_title">ഇപ്പോൾ സമന്വയിപ്പിക്കുക</string>
     <string name="pref_devices_title">ഉപകരണങ്ങൾ</string>
-    <string name="pref_personalize_your_experience_title">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ…</string>
+    <string name="pref_personalize_your_experience_title">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ</string>
     <string name="pref_clear_lang_data_dialog">ഈ ഉപകരണത്തിൽ, നിങ്ങളുടെ എല്ലാ ഭാഷ ഡാറ്റയും ഇല്ലാതാക്കപ്പെടുകയും ബാക്കപ്പുചെയ്യലും സമന്വയിപ്പിക്കലും കൂടി അപ്രാപ്തമാക്കപ്പെടുകയും ചെയ്യും. തുടരണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?</string>
     <string name="startup_choose_lang">നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക</string>
     <string name="startup_choose_lang_toast">തുടരുന്നതിനായി നിങ്ങൾ ഒരു ഭാഷ ഡൗൺലോഡുചെയ്യണം</string>
@@ -478,7 +478,7 @@
     <string name="max_function_item_count_title">പരമാവധി കൗണ്ട് പരിധി</string>
     <string name="functionbar_hwtoggle_toast_on">കീബോർഡിലെ ഹാൻഡ്റൈറ്റിംഗ് പ്രവര്ത്തനക്ഷമമാക്കി</string>
     <string name="functionbar_hwtoggle_toast_off">കീബോർഡിലെ ഹാൻഡ്റൈറ്റിംഗ് പ്രവര്ത്തനരഹിതമാക്കി</string>
-    <string name="pref_personalization_personalize_experience">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ…</string>
+    <string name="pref_personalization_personalize_experience">നിങ്ങളുടെ അനുഭവം വ്യക്തിപരമാക്കൽ</string>
     <string name="personalization_settings_title">വ്യക്തിപരമാക്കൽ</string>
     <string name="theme_name_frost">ആർട്ടിക്</string>
     <string name="theme_name_classic">ക്ലാസിക്</string>

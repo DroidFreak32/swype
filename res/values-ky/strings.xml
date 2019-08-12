@@ -58,7 +58,7 @@
     <string name="sns_facebook_sign_on">Facebook экаунтуңуздагы катыштарыңыздын аттары жеке сөздүгүңүзгө кошулушу үчүн кириңиз</string>
     <string name="sns_twitter_sign_on">Сиздин коомдук Twitter жарыяларыңыздан колдонуучу аттары жана жаңы сөздөр жеке сөздүгүңүзгө кошулсун үчүн кириңиз</string>
     <string name="sns_gmail_sign_on">Сиз имейл жөнөткөн кишилердин аттары жеке сөздүгүңүзгө кошулсун үчүн кириңиз</string>
-    <string name="sns_personalizing">Тажрыйбаңызды Жеке…</string>
+    <string name="sns_personalizing">Тажрыйбаңызды Жеке</string>
     <string name="sns_personalize_finished">Акыркы жолу %s жаңыртылган Жаңыртуу үчүн таптаңыз.</string>
     <string name="dismiss_button">Алып салуу</string>
     <string name="canceling">Токтотуу</string>
@@ -432,7 +432,7 @@ DragonGo түшүрүп алып орнотуу үчүн таптаңыз"</stri
     <string name="pref_delete_account_desc">Түзмөктөрүңүздүн баарын Swype Connect каттоосунан чыгарып, экаунт маалыматыңызды өчүрүңүз. Мында бул түзмөктөгү жеке тил берилмелериңиз же сөздөрүңүз өчпөйт.</string>
     <string name="pref_sync_now_title">Азыр синхте</string>
     <string name="pref_devices_title">Түзмөктөр</string>
-    <string name="pref_personalize_your_experience_title">Тажрыйбаңызды Жеке…</string>
+    <string name="pref_personalize_your_experience_title">Тажрыйбаңызды Жеке</string>
     <string name="pref_clear_lang_data_dialog">Тил берилмелериңиздин баары өчүрүлүп, Көчүрмөсүн сактоо жана Синхтөө да бул түзмөктө иштен чыгарылат. Чын эле уланткыңыз келеби?</string>
     <string name="startup_choose_lang">Тилиңизди тандаңыз</string>
     <string name="startup_choose_lang_toast">Улантыш үчүн тил жүктөп алышыңыз керек</string>
@@ -478,7 +478,7 @@ DragonGo түшүрүп алып орнотуу үчүн таптаңыз"</stri
     <string name="max_function_item_count_title">Эң чоң саноо чеги</string>
     <string name="functionbar_hwtoggle_toast_on">Клавиатурада кол жазма күйүк</string>
     <string name="functionbar_hwtoggle_toast_off">Клавиатурада кол жазма өчүк</string>
-    <string name="pref_personalization_personalize_experience">Тажрыйбаңызды Жеке…</string>
+    <string name="pref_personalization_personalize_experience">Тажрыйбаңызды Жеке</string>
     <string name="personalization_settings_title">Жекечелештирүү</string>
     <string name="theme_name_frost">Арктик</string>
     <string name="theme_name_classic">Классик</string>

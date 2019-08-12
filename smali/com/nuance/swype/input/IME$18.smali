@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 4405
+    .line 4425
     iput-object p1, p0, Lcom/nuance/swype/input/IME$18;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,11 +42,11 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 4407
+    .line 4427
     iget-object v0, p0, Lcom/nuance/swype/input/IME$18;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/IME;->close()V
 
-    .line 4408
+    .line 4428
     return-void
 .end method

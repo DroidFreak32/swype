@@ -59,7 +59,7 @@ Sampeyan pengin nglanjutake?"</string>
     <string name="sns_facebook_sign_on">Mlebu dhisik supaya jeneng kontak saka akun Facebook sampeyan bisa ditambahake menyang kamus personal sampeyan</string>
     <string name="sns_twitter_sign_on">Mlebu dhisik supaya jeneng pangguna lan tembung anyar saka feed Twitter publik sampeyan bisa ditambahake menyang kamus personal sampeyan</string>
     <string name="sns_gmail_sign_on">Mlebu dhisik supaya jeneng wong sing sampeyan kirimi email bisa ditambahake menyang kamus personal sampeyan</string>
-    <string name="sns_personalizing">Personalisasi pengalaman sampeyan…</string>
+    <string name="sns_personalizing">Personalisasi pengalaman sampeyan</string>
     <string name="sns_personalize_finished">Update paling anyar ana ing %s. Tutul kanggo refresh.</string>
     <string name="dismiss_button">Ilangi</string>
     <string name="canceling">Mbatalake</string>
@@ -434,7 +434,7 @@ Wis keinstal. Tutul kanggo njalanake."</string>
     <string name="pref_delete_account_desc">Cabut pendhaftaran kabeh perangkat lan busak data akun sampeyan saka Swype Connect. Iki bakal mbusak data basa personal utawa tembung sampeyan ana ing perangkat iki.</string>
     <string name="pref_sync_now_title">Sinkronisasi saiki</string>
     <string name="pref_devices_title">Perangkat</string>
-    <string name="pref_personalize_your_experience_title">Personalisasi pengalaman sampeyan…</string>
+    <string name="pref_personalize_your_experience_title">Personalisasi pengalaman sampeyan</string>
     <string name="pref_clear_lang_data_dialog">Kabeh data basa sampeyan bakal dibusak lan Gawe Cadangan &amp; Sinkronisasi uga bakal dinonaktifake kanggo perangkat iki. Sampeyan pengin nerusake?</string>
     <string name="startup_choose_lang">Pilih basa sampeyan</string>
     <string name="startup_choose_lang_toast">Sampeyan kudu ngundhuh salah siji basa kanggo nerusake</string>
@@ -480,7 +480,7 @@ Wis keinstal. Tutul kanggo njalanake."</string>
     <string name="max_function_item_count_title">Wates Jumlah Maksimal</string>
     <string name="functionbar_hwtoggle_toast_on">Tulisan Tangan ana ing keyboard aktif</string>
     <string name="functionbar_hwtoggle_toast_off">Tulisan Tangan ana ing keyboard ora aktif</string>
-    <string name="pref_personalization_personalize_experience">Personalisasi pengalaman sampeyan…</string>
+    <string name="pref_personalization_personalize_experience">Personalisasi pengalaman sampeyan</string>
     <string name="personalization_settings_title">Personalisasi</string>
     <string name="theme_name_frost">Arktik</string>
     <string name="theme_name_classic">Klasik</string>

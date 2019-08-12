@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 2313
+    .line 2326
     iput-object p1, p0, Lcom/nuance/swype/input/IME$5;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,13 +41,13 @@
     .param p1, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 2315
+    .line 2328
     const-string v0, "wakeup"
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 2316
+    .line 2329
     return-void
 .end method

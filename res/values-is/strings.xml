@@ -59,7 +59,7 @@ Viltu halda áfram?"</string>
     <string name="sns_facebook_sign_on">Skráðu þig inn svo nöfnum tengiliða af Facebook-reikningi þínum sé bætt við persónulega orðabók</string>
     <string name="sns_twitter_sign_on">Skráðu hig inn svo notandanöfnum og nýjum orðum af opinbera Twitter-straumnum sé bætt við persónulega orðabók</string>
     <string name="sns_gmail_sign_on">Skráðu þig inn svo nöfnum fólks, sem þú hefur sent tölvupóst, sé bætt við persónulega orðabók</string>
-    <string name="sns_personalizing">Persónubinda upplifun þína…</string>
+    <string name="sns_personalizing">Persónubinda upplifun þína</string>
     <string name="sns_personalize_finished">Síðast uppfært þann %s. Bankaðu til að endurglæða.</string>
     <string name="dismiss_button">Vísa á bug</string>
     <string name="canceling">Hættir við</string>
@@ -436,7 +436,7 @@ Uppsett. Bankaðu til að ræsa."</string>
     <string name="pref_delete_account_desc">Afskráðu allan búnað og eyddu reikningsgögnum þínum frá Swype Connect. Þetta mun ekki eyða persónulegu tungumálagögnum eða orðum þínum á þessum búnaði.</string>
     <string name="pref_sync_now_title">Samstilltu núna</string>
     <string name="pref_devices_title">Tæki</string>
-    <string name="pref_personalize_your_experience_title">Persónubinda upplifun þína…</string>
+    <string name="pref_personalize_your_experience_title">Persónubinda upplifun þína</string>
     <string name="pref_clear_lang_data_dialog">Öllum tungumálagögn verður eytt og öryggisafritun og samstilling verða gerð óvirk fyrir þetta tæki. Ertu viss um að þú viljir halda áfram?</string>
     <string name="startup_choose_lang">Veldu tungumál</string>
     <string name="startup_choose_lang_toast">Þú verður að hala niður tungumál til að halda áfram</string>
@@ -482,7 +482,7 @@ Uppsett. Bankaðu til að ræsa."</string>
     <string name="max_function_item_count_title">Hámark talningar</string>
     <string name="functionbar_hwtoggle_toast_on">Skrift á lyklaborði virk</string>
     <string name="functionbar_hwtoggle_toast_off">Skrift á lyklaborði óvirk</string>
-    <string name="pref_personalization_personalize_experience">Persónubinda upplifun þína…</string>
+    <string name="pref_personalization_personalize_experience">Persónubinda upplifun þína</string>
     <string name="personalization_settings_title">Persónubinding</string>
     <string name="theme_name_frost">Norðurheimsskaut</string>
     <string name="theme_name_classic">Klassísk</string>

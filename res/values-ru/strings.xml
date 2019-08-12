@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Войдите в систему, чтобы имена контактов с вашей учетной записи Facebook были добавлены в ваш личный словарь</string>
     <string name="sns_twitter_sign_on">Войдите в систему, чтобы имена пользователей и новые слова из публичных сообщений Twitter были добавлены в ваш личный словарь</string>
     <string name="sns_gmail_sign_on">Войдите в систему, чтобы имена людей, которым вы отправляли электронные письма, были добавлены в ваш личный словарь</string>
-    <string name="sns_personalizing">Персонализация опыта…</string>
+    <string name="sns_personalizing">Персонализация опыта</string>
     <string name="sns_personalize_finished">Последнее обновление %s. Нажмите для обновления.</string>
     <string name="dismiss_button">Закрыть</string>
     <string name="canceling">Отмена</string>
@@ -436,7 +436,7 @@
     <string name="pref_delete_account_desc">Отменить регистрацию всех устройств и удалить данные вашей учетной записи из Swype Connect. Ваши персональные языковые данные на данном устройстве не будут удалены.</string>
     <string name="pref_sync_now_title">Синхронизировать сейчас</string>
     <string name="pref_devices_title">Устройства</string>
-    <string name="pref_personalize_your_experience_title">Персонализация опыта…</string>
+    <string name="pref_personalize_your_experience_title">Персонализация опыта</string>
     <string name="pref_clear_lang_data_dialog">Все ваши языковые данные будут удалены. Сохранение и синхронизация для данного устройства также будут отключены. Вы уверены, что хотите продолжить?</string>
     <string name="startup_choose_lang">Выберите ваш язык</string>
     <string name="startup_choose_lang_toast">Чтобы продолжить, загрузите язык</string>
@@ -482,7 +482,7 @@
     <string name="max_function_item_count_title">Максимальное значение</string>
     <string name="functionbar_hwtoggle_toast_on">Рукописный ввод включен</string>
     <string name="functionbar_hwtoggle_toast_off">Рукописный ввод отключен</string>
-    <string name="pref_personalization_personalize_experience">Персонализация опыта…</string>
+    <string name="pref_personalization_personalize_experience">Персонализация опыта</string>
     <string name="personalization_settings_title">Персонализация</string>
     <string name="theme_name_frost">Арктика</string>
     <string name="theme_name_classic">Классика</string>

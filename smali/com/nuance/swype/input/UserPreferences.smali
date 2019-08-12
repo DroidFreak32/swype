@@ -340,7 +340,7 @@
     .locals 2
 
     .prologue
-    .line 403
+    .line 406
     const-string v0, "connect_use_cellular_data"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->connect_use_cellular_data:I
@@ -360,7 +360,7 @@
     .locals 2
 
     .prologue
-    .line 495
+    .line 498
     const-string v0, "addondictionaries"
 
     const/4 v1, 0x1
@@ -376,7 +376,7 @@
     .locals 3
 
     .prologue
-    .line 552
+    .line 555
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -389,7 +389,7 @@
 
     move-result-object v0
 
-    .line 553
+    .line 556
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -399,10 +399,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 554
+    .line 557
     const/4 v1, 0x0
 
-    .line 556
+    .line 559
     :goto_0
     return v1
 
@@ -576,7 +576,7 @@
     .locals 2
 
     .prologue
-    .line 499
+    .line 502
     const-string v0, "chinesesettings"
 
     const/4 v1, 0x1
@@ -592,7 +592,7 @@
     .locals 2
 
     .prologue
-    .line 632
+    .line 635
     const-string v0, "dictation.language"
 
     const-string v1, "default.automatic"
@@ -608,7 +608,7 @@
     .locals 2
 
     .prologue
-    .line 543
+    .line 546
     const-string v0, "swype.theme"
 
     const/4 v1, 0x0
@@ -624,7 +624,7 @@
     .locals 2
 
     .prologue
-    .line 479
+    .line 482
     const-string v0, "edit_layer"
 
     const/4 v1, 0x0
@@ -713,10 +713,10 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 355
+    .line 358
     const/4 v0, 0x0
 
-    .line 356
+    .line 359
     .local v0, "nFuzzy":I
     const-string v1, "fuzzy_pinyin_z_zh_c_ch_s_sh"
 
@@ -726,10 +726,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 357
+    .line 360
     const/4 v0, 0x7
 
-    .line 361
+    .line 364
     :cond_0
     const-string v1, "fuzzy_pinyin_n_ng"
 
@@ -739,10 +739,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 362
+    .line 365
     or-int/lit16 v0, v0, 0x1c0
 
-    .line 366
+    .line 369
     :cond_1
     const-string v1, "fuzzy_pinyin_n_l"
 
@@ -752,10 +752,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 367
+    .line 370
     or-int/lit8 v0, v0, 0x8
 
-    .line 369
+    .line 372
     :cond_2
     const-string v1, "fuzzy_pinyin_r_l"
 
@@ -765,10 +765,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 370
+    .line 373
     or-int/lit8 v0, v0, 0x10
 
-    .line 372
+    .line 375
     :cond_3
     const-string v1, "fuzzy_pinyin_f_h"
 
@@ -778,10 +778,10 @@
 
     if-eqz v1, :cond_4
 
-    .line 373
+    .line 376
     or-int/lit8 v0, v0, 0x20
 
-    .line 375
+    .line 378
     :cond_4
     return v0
 .end method
@@ -806,7 +806,7 @@
     .locals 2
 
     .prologue
-    .line 471
+    .line 474
     const-string v0, "inputmode"
 
     const/4 v1, 0x1
@@ -822,7 +822,7 @@
     .locals 4
 
     .prologue
-    .line 602
+    .line 605
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -835,7 +835,7 @@
 
     move-result-object v0
 
-    .line 603
+    .line 606
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -845,14 +845,14 @@
 
     if-eqz v2, :cond_0
 
-    .line 604
+    .line 607
     sget-object v2, Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;->DOCK_FULL:Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
 
-    .line 608
+    .line 611
     :goto_0
     return-object v2
 
-    .line 607
+    .line 610
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
@@ -868,7 +868,7 @@
 
     iget v1, v2, Landroid/content/res/Configuration;->orientation:I
 
-    .line 608
+    .line 611
     .local v1, "orientation":I
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -906,7 +906,7 @@
     .param p1, "orientation"    # I
 
     .prologue
-    .line 618
+    .line 621
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -919,7 +919,7 @@
 
     move-result-object v0
 
-    .line 619
+    .line 622
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -929,10 +929,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 620
+    .line 623
     sget-object v1, Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;->DOCK_FULL:Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
 
-    .line 623
+    .line 626
     :goto_0
     return-object v1
 
@@ -972,7 +972,7 @@
     .locals 2
 
     .prologue
-    .line 677
+    .line 680
     const-string v0, "keyboard_font_weight_bold"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->font_typeface_bold:I
@@ -992,7 +992,7 @@
     .locals 2
 
     .prologue
-    .line 594
+    .line 597
     const-string v0, "Keyboard_Scale_Landscape"
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -1008,7 +1008,7 @@
     .locals 2
 
     .prologue
-    .line 586
+    .line 589
     const-string v0, "Keyboard_Scale_Portrait"
 
     const/high16 v1, 0x3f800000    # 1.0f
@@ -1024,7 +1024,7 @@
     .locals 2
 
     .prologue
-    .line 463
+    .line 466
     const-string v0, "language_option"
 
     const/4 v1, 0x0
@@ -1040,7 +1040,7 @@
     .locals 5
 
     .prologue
-    .line 307
+    .line 310
     const-string v2, "long_press_delay"
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
@@ -1061,7 +1061,7 @@
 
     move-result v0
 
-    .line 308
+    .line 311
     .local v0, "delay":I
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
@@ -1075,7 +1075,7 @@
 
     move-result-object v1
 
-    .line 311
+    .line 314
     .local v1, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v1, :cond_0
 
@@ -1085,10 +1085,10 @@
 
     if-eqz v2, :cond_0
 
-    .line 312
+    .line 315
     mul-int/lit8 v0, v0, 0x3
 
-    .line 314
+    .line 317
     :cond_0
     return v0
 .end method
@@ -1113,7 +1113,7 @@
     .locals 2
 
     .prologue
-    .line 657
+    .line 660
     const-string v0, "agree_using_network"
 
     const/4 v1, 0x0
@@ -1129,7 +1129,7 @@
     .locals 2
 
     .prologue
-    .line 665
+    .line 668
     const-string v0, "agree_using_network_not_ask"
 
     const/4 v1, 0x0
@@ -1145,7 +1145,7 @@
     .locals 2
 
     .prologue
-    .line 483
+    .line 486
     const-string v0, "number_keyboard"
 
     const/4 v1, 0x0
@@ -1161,7 +1161,7 @@
     .locals 2
 
     .prologue
-    .line 475
+    .line 478
     const-string v0, "quicktoggle"
 
     const/4 v1, 0x1
@@ -1177,7 +1177,7 @@
     .locals 2
 
     .prologue
-    .line 467
+    .line 470
     const-string v0, "settings"
 
     const/4 v1, 0x0
@@ -1213,7 +1213,7 @@
     .locals 2
 
     .prologue
-    .line 487
+    .line 490
     const-string v0, "function_bar_display"
 
     const/4 v1, 0x1
@@ -1265,7 +1265,7 @@
     .locals 2
 
     .prologue
-    .line 491
+    .line 494
     const-string v0, "themes"
 
     const/4 v1, 0x0
@@ -1281,7 +1281,7 @@
     .locals 3
 
     .prologue
-    .line 303
+    .line 306
     const-string v0, "vibration_duration"
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
@@ -1309,7 +1309,7 @@
     .locals 2
 
     .prologue
-    .line 318
+    .line 321
     const-string v0, "word_completion_point"
 
     const/4 v1, 0x1
@@ -1341,7 +1341,7 @@
     .locals 2
 
     .prologue
-    .line 437
+    .line 440
     const-string v0, "activation_popup"
 
     const/4 v1, 0x0
@@ -1357,7 +1357,7 @@
     .locals 2
 
     .prologue
-    .line 640
+    .line 643
     const-string v0, "auto_default_layer_return"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->auto_default_layer_return_default:I
@@ -1377,7 +1377,7 @@
     .locals 2
 
     .prologue
-    .line 250
+    .line 253
     const-string v0, "backspace_revert"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->enable_backspace_revert:I
@@ -1397,7 +1397,7 @@
     .locals 2
 
     .prologue
-    .line 420
+    .line 423
     const-string v0, "connect_dlm_sync"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->connect_dlm_sync_default:I
@@ -1417,7 +1417,7 @@
     .locals 2
 
     .prologue
-    .line 412
+    .line 415
     const-string v0, "connect_living_language"
 
     const/4 v1, 0x0
@@ -1433,7 +1433,7 @@
     .locals 2
 
     .prologue
-    .line 395
+    .line 398
     const-string v0, "data_usage_accepted"
 
     const/4 v1, 0x0
@@ -1449,7 +1449,7 @@
     .locals 2
 
     .prologue
-    .line 391
+    .line 394
     const-string v0, "device_type_property"
 
     const/4 v1, 0x0
@@ -1465,7 +1465,7 @@
     .locals 3
 
     .prologue
-    .line 327
+    .line 330
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1478,7 +1478,7 @@
 
     move-result-object v0
 
-    .line 328
+    .line 331
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -1488,10 +1488,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 329
+    .line 332
     const/4 v1, 0x1
 
-    .line 332
+    .line 335
     :goto_0
     return v1
 
@@ -1517,7 +1517,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 565
+    .line 568
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1530,7 +1530,7 @@
 
     move-result-object v0
 
-    .line 566
+    .line 569
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_1
 
@@ -1540,12 +1540,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 581
+    .line 584
     :cond_0
     :goto_0
     return v1
 
-    .line 569
+    .line 572
     :cond_1
     iget-object v2, p0, Lcom/nuance/swype/input/UserPreferences;->buildInfo:Lcom/nuance/swype/input/BuildInfo;
 
@@ -1557,7 +1557,7 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 573
+    .line 576
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1576,12 +1576,12 @@
 
     if-eqz v2, :cond_2
 
-    .line 574
+    .line 577
     const/4 v1, 0x1
 
     goto :goto_0
 
-    .line 577
+    .line 580
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/UserPreferences;->buildInfo:Lcom/nuance/swype/input/BuildInfo;
 
@@ -1593,7 +1593,7 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 581
+    .line 584
     const-string v1, "enable_handwriting"
 
     sget v2, Lcom/nuance/swype/input/R$bool;->enable_handwriting_default:I
@@ -1614,7 +1614,7 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 650
+    .line 653
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -1633,7 +1633,7 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 654
+    .line 657
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -1667,7 +1667,7 @@
     .locals 3
 
     .prologue
-    .line 290
+    .line 293
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -1680,7 +1680,7 @@
 
     move-result-object v0
 
-    .line 292
+    .line 295
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -1690,10 +1690,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 293
+    .line 296
     const/4 v1, 0x0
 
-    .line 295
+    .line 298
     :goto_0
     return v1
 
@@ -1718,6 +1718,36 @@
 
     .prologue
     .line 245
+    invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/nuance/swype/input/IMEApplication;->getIME()Lcom/nuance/swype/input/IME;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/nuance/swype/input/IME;->getAppSpecificBehavior()Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/nuance/swype/input/appspecific/AppSpecificBehavior;->shouldSkipWrongStartInputView()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 246
+    const/4 v0, 0x0
+
+    .line 248
+    :goto_0
+    return v0
+
+    :cond_0
     const-string v0, "next_word_prediction"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->next_word_prediction_default:I
@@ -1730,14 +1760,14 @@
 
     move-result v0
 
-    return v0
+    goto :goto_0
 .end method
 
 .method public final isOptInUdbUploadAllowed()Z
     .locals 2
 
     .prologue
-    .line 445
+    .line 448
     const-string v0, "opt_in_anonymous_udb_upload"
 
     const/4 v1, 0x0
@@ -1753,18 +1783,18 @@
     .locals 3
 
     .prologue
-    .line 254
+    .line 257
     sget v2, Lcom/nuance/swype/input/R$bool;->show_pref_auto_correction:I
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
 
     move-result v1
 
-    .line 255
+    .line 258
     .local v1, "showAutoCorrection":Z
     if-eqz v1, :cond_0
 
-    .line 256
+    .line 259
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1777,7 +1807,7 @@
 
     move-result-object v0
 
-    .line 259
+    .line 262
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-eqz v0, :cond_0
 
@@ -1787,7 +1817,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 260
+    .line 263
     sget v2, Lcom/nuance/swype/input/R$bool;->enable_bt_auto_correction:I
 
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -1796,10 +1826,10 @@
 
     if-nez v2, :cond_0
 
-    .line 261
+    .line 264
     const/4 v1, 0x0
 
-    .line 265
+    .line 268
     .end local v0    # "ime":Lcom/nuance/swype/input/IME;
     .end local v1    # "showAutoCorrection":Z
     :cond_0
@@ -1810,7 +1840,7 @@
     .locals 1
 
     .prologue
-    .line 286
+    .line 289
     sget v0, Lcom/nuance/swype/input/R$bool;->show_preview_key:I
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -1824,7 +1854,7 @@
     .locals 1
 
     .prologue
-    .line 269
+    .line 272
     sget v0, Lcom/nuance/swype/input/R$bool;->show_enable_swyping:I
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -1838,7 +1868,7 @@
     .locals 1
 
     .prologue
-    .line 277
+    .line 280
     sget v0, Lcom/nuance/swype/input/R$bool;->keyboard_height_show_prefs:I
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -1856,22 +1886,22 @@
 
     const/4 v2, 0x0
 
-    .line 337
+    .line 340
     sget v4, Lcom/nuance/swype/input/R$bool;->dictation_enabled:I
 
     invoke-virtual {p0, v4}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
 
     move-result v4
 
-    .line 338
+    .line 341
     if-nez v4, :cond_1
 
-    .line 349
+    .line 352
     :cond_0
     :goto_0
     return v2
 
-    .line 342
+    .line 345
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
@@ -1885,22 +1915,22 @@
 
     move-result-object v0
 
-    .line 343
+    .line 346
     .local v0, "ime":Lcom/nuance/swype/input/IME;
     if-nez v0, :cond_2
 
     move v2, v3
 
-    .line 344
+    .line 347
     goto :goto_0
 
-    .line 346
+    .line 349
     :cond_2
     invoke-virtual {v0}, Lcom/nuance/swype/input/IME;->getInputFieldInfo()Lcom/nuance/swype/input/InputFieldInfo;
 
     move-result-object v1
 
-    .line 348
+    .line 351
     .local v1, "inputFieldInfo":Lcom/nuance/swype/input/InputFieldInfo;
     if-eqz v1, :cond_3
 
@@ -1912,7 +1942,7 @@
 
     move v4, v3
 
-    .line 349
+    .line 352
     :goto_1
     if-nez v4, :cond_0
 
@@ -1937,7 +1967,7 @@
     :cond_3
     move v4, v2
 
-    .line 348
+    .line 351
     goto :goto_1
 .end method
 
@@ -1945,7 +1975,7 @@
     .locals 1
 
     .prologue
-    .line 273
+    .line 276
     sget v0, Lcom/nuance/swype/input/R$bool;->word_choice_size_show_prefs:I
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -1959,7 +1989,7 @@
     .locals 2
 
     .prologue
-    .line 379
+    .line 382
     const-string v0, "statistics_collection"
 
     const/4 v1, 0x0
@@ -1975,7 +2005,7 @@
     .locals 2
 
     .prologue
-    .line 645
+    .line 648
     const-string v0, "enable_swyping"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->enable_swyping_default:I
@@ -1995,7 +2025,7 @@
     .locals 2
 
     .prologue
-    .line 322
+    .line 325
     const-string v0, "trace_auto_accept"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->auto_accept_trace_default:I
@@ -2015,7 +2045,7 @@
     .locals 1
 
     .prologue
-    .line 282
+    .line 285
     sget v0, Lcom/nuance/swype/input/R$bool;->enable_unrecognized_word_decoration:I
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->getDefaultBoolean(I)Z
@@ -2029,7 +2059,7 @@
     .locals 2
 
     .prologue
-    .line 429
+    .line 432
     const-string v0, "usage_collection"
 
     const/4 v1, 0x0
@@ -2045,7 +2075,7 @@
     .locals 2
 
     .prologue
-    .line 453
+    .line 456
     const-string v0, "usage_collection_opt_in_shown"
 
     const/4 v1, 0x0
@@ -2061,7 +2091,7 @@
     .locals 2
 
     .prologue
-    .line 299
+    .line 302
     const-string v0, "vibrate_on"
 
     sget v1, Lcom/nuance/swype/input/R$bool;->vibrate_on_keypress_default:I
@@ -2081,12 +2111,12 @@
     .locals 1
 
     .prologue
-    .line 416
+    .line 419
     const-string v0, "connect_living_language"
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/UserPreferences;->remove(Ljava/lang/String;)V
 
-    .line 417
+    .line 420
     return-void
 .end method
 
@@ -2095,12 +2125,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 441
+    .line 444
     const-string v0, "activation_popup"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 442
+    .line 445
     return-void
 .end method
 
@@ -2109,12 +2139,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 535
+    .line 538
     const-string v0, "addondictionaries"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 536
+    .line 539
     return-void
 .end method
 
@@ -2123,12 +2153,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 560
+    .line 563
     const-string v0, "ask_before_add"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 561
+    .line 564
     return-void
 .end method
 
@@ -2151,12 +2181,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 539
+    .line 542
     const-string v0, "chinesesettings"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 540
+    .line 543
     return-void
 .end method
 
@@ -2165,12 +2195,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 425
+    .line 428
     const-string v0, "connect_dlm_sync"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 426
+    .line 429
     return-void
 .end method
 
@@ -2179,12 +2209,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 408
+    .line 411
     const-string v0, "connect_use_cellular_data"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 409
+    .line 412
     return-void
 .end method
 
@@ -2193,12 +2223,12 @@
     .param p1, "langName"    # Ljava/lang/String;
 
     .prologue
-    .line 636
+    .line 639
     const-string v0, "dictation.language"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 637
+    .line 640
     return-void
 .end method
 
@@ -2207,12 +2237,12 @@
     .param p1, "themeId"    # Ljava/lang/String;
 
     .prologue
-    .line 547
+    .line 550
     const-string v0, "swype.theme"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 548
+    .line 551
     return-void
 .end method
 
@@ -2221,12 +2251,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 399
+    .line 402
     const-string v0, "data_usage_accepted"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 400
+    .line 403
     return-void
 .end method
 
@@ -2235,12 +2265,12 @@
     .param p1, "set"    # Z
 
     .prologue
-    .line 387
+    .line 390
     const-string v0, "device_type_property"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 388
+    .line 391
     return-void
 .end method
 
@@ -2249,12 +2279,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 519
+    .line 522
     const-string v0, "edit_layer"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 520
+    .line 523
     return-void
 .end method
 
@@ -2278,12 +2308,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 511
+    .line 514
     const-string v0, "inputmode"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 512
+    .line 515
     return-void
 .end method
 
@@ -2292,7 +2322,7 @@
     .param p1, "mode"    # Lcom/nuance/swype/input/KeyboardEx$KeyboardDockMode;
 
     .prologue
-    .line 613
+    .line 616
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2307,7 +2337,7 @@
 
     iget v0, v1, Landroid/content/res/Configuration;->orientation:I
 
-    .line 614
+    .line 617
     .local v0, "orientation":I
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2329,7 +2359,7 @@
 
     invoke-virtual {p0, v1, v2}, Lcom/nuance/swype/input/UserPreferences;->setInt(Ljava/lang/String;I)V
 
-    .line 615
+    .line 618
     return-void
 .end method
 
@@ -2339,7 +2369,7 @@
     .param p2, "orientation"    # I
 
     .prologue
-    .line 628
+    .line 631
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "keyboard.docking.mode"
@@ -2360,7 +2390,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/UserPreferences;->setInt(Ljava/lang/String;I)V
 
-    .line 629
+    .line 632
     return-void
 .end method
 
@@ -2369,12 +2399,12 @@
     .param p1, "bold"    # Z
 
     .prologue
-    .line 681
+    .line 684
     const-string v0, "keyboard_font_weight_bold"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 682
+    .line 685
     return-void
 .end method
 
@@ -2383,12 +2413,12 @@
     .param p1, "size"    # F
 
     .prologue
-    .line 598
+    .line 601
     const-string v0, "Keyboard_Scale_Landscape"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setFloat(Ljava/lang/String;F)V
 
-    .line 599
+    .line 602
     return-void
 .end method
 
@@ -2397,12 +2427,12 @@
     .param p1, "size"    # F
 
     .prologue
-    .line 590
+    .line 593
     const-string v0, "Keyboard_Scale_Portrait"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setFloat(Ljava/lang/String;F)V
 
-    .line 591
+    .line 594
     return-void
 .end method
 
@@ -2411,12 +2441,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 503
+    .line 506
     const-string v0, "language_option"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 504
+    .line 507
     return-void
 .end method
 
@@ -2454,12 +2484,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 661
+    .line 664
     const-string v0, "agree_using_network"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 662
+    .line 665
     return-void
 .end method
 
@@ -2468,12 +2498,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 669
+    .line 672
     const-string v0, "agree_using_network_not_ask"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 670
+    .line 673
     return-void
 .end method
 
@@ -2482,12 +2512,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 523
+    .line 526
     const-string v0, "number_keyboard"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 524
+    .line 527
     return-void
 .end method
 
@@ -2496,12 +2526,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 449
+    .line 452
     const-string v0, "opt_in_anonymous_udb_upload"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 450
+    .line 453
     return-void
 .end method
 
@@ -2510,12 +2540,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 515
+    .line 518
     const-string v0, "quicktoggle"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 516
+    .line 519
     return-void
 .end method
 
@@ -2524,12 +2554,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 507
+    .line 510
     const-string v0, "settings"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 508
+    .line 511
     return-void
 .end method
 
@@ -2538,12 +2568,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 527
+    .line 530
     const-string v0, "function_bar_display"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 528
+    .line 531
     return-void
 .end method
 
@@ -2552,12 +2582,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 383
+    .line 386
     const-string v0, "statistics_collection"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 384
+    .line 387
     return-void
 .end method
 
@@ -2566,12 +2596,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 531
+    .line 534
     const-string v0, "themes"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 532
+    .line 535
     return-void
 .end method
 
@@ -2580,12 +2610,12 @@
     .param p1, "value"    # Z
 
     .prologue
-    .line 433
+    .line 436
     const-string v0, "usage_collection"
 
     invoke-virtual {p0, v0, p1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 434
+    .line 437
     return-void
 .end method
 
@@ -2593,14 +2623,14 @@
     .locals 2
 
     .prologue
-    .line 457
+    .line 460
     const-string v0, "usage_collection_opt_in_shown"
 
     const/4 v1, 0x1
 
     invoke-virtual {p0, v0, v1}, Lcom/nuance/swype/input/UserPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 458
+    .line 461
     return-void
 .end method
 
@@ -2608,7 +2638,7 @@
     .locals 1
 
     .prologue
-    .line 673
+    .line 676
     invoke-virtual {p0}, Lcom/nuance/swype/input/UserPreferences;->getNetworkAgreement()Z
 
     move-result v0

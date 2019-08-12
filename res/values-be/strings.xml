@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Увайдзіце, каб кантакты з вашага акаўнта на Facebook былі даданы да вашага персанальнага слоўніка</string>
     <string name="sns_twitter_sign_on">Увайдзіце, каб кантакты і новыя словы з вашага твітара былі даданы да вашага персанальнага слоўніка</string>
     <string name="sns_gmail_sign_on">Увайдзіце, каб імёны тых, каму вы адпраўлялі электронну пошту,былі даданы да вашага персанальнага слоўніка</string>
-    <string name="sns_personalizing">Персаналізацыя перажывання…</string>
+    <string name="sns_personalizing">Персаналізацыя перажывання</string>
     <string name="sns_personalize_finished">Апошняе абнаўленне %s. Нацicнiце, каб абнавіць.</string>
     <string name="dismiss_button">Адключыць</string>
     <string name="canceling">Ідзе адмена</string>
@@ -434,7 +434,7 @@
     <string name="pref_delete_account_desc">Адмяніце рэгістрацыю ўсіх прыстасаванняў і выдаліце вашыя дадзеныя акаўнта са Swype Connect. Гэта не выдаліць вашыя персанальныя моўныя дадзеныя і вашыя словы з гэтага прыстасавання.</string>
     <string name="pref_sync_now_title">Сінхранізаваць зараз</string>
     <string name="pref_devices_title">Прыстасаванні</string>
-    <string name="pref_personalize_your_experience_title">Персаналізацыя перажывання…</string>
+    <string name="pref_personalize_your_experience_title">Персаналізацыя перажывання</string>
     <string name="pref_clear_lang_data_dialog">Усе моўныя дадзеныя на гэтым прыстасаванні будуць выдалены, а рэзервовая копія і сінхранізацыя будуць адключаны. Вы ўпэўнены, што жадаеце працягнуць?</string>
     <string name="startup_choose_lang">Выберыце вашую мову</string>
     <string name="startup_choose_lang_toast">Вам неабходна загрузіць мову, каб працягнуць</string>
@@ -480,7 +480,7 @@
     <string name="max_function_item_count_title">Максімальны ліміт</string>
     <string name="functionbar_hwtoggle_toast_on">Ручны ўвод на клавіятуры ўключаны</string>
     <string name="functionbar_hwtoggle_toast_off">Ручны ўвод на клавіятуры адключаны</string>
-    <string name="pref_personalization_personalize_experience">Персаналізацыя перажывання…</string>
+    <string name="pref_personalization_personalize_experience">Персаналізацыя перажывання</string>
     <string name="personalization_settings_title">Персаналізацыя</string>
     <string name="theme_name_frost">Арктыка</string>
     <string name="theme_name_classic">Класічны</string>

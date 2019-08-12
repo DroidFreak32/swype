@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2902
+    .line 2901
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$InputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2903
+    .line 2902
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/InputMethods$ChineseHandwritingInputMode;->mEnabledPrefKey:Ljava/lang/String;
 
-    .line 2904
+    .line 2903
     return-void
 .end method
 
@@ -60,7 +60,7 @@
     .locals 2
 
     .prologue
-    .line 2918
+    .line 2917
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$ChineseHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -73,7 +73,7 @@
 
     if-lez v0, :cond_0
 
-    .line 2919
+    .line 2918
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$ChineseHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -84,7 +84,7 @@
 
     check-cast v0, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2921
+    .line 2920
     :goto_0
     return-object v0
 
@@ -99,13 +99,13 @@
     .param p1, "enabled"    # Z
 
     .prologue
-    .line 2909
+    .line 2908
     if-eqz p1, :cond_0
 
-    .line 2910
+    .line 2909
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$ChineseHandwritingInputMode;->ensureAtleastOneLayoutIsEnabled()V
 
-    .line 2913
+    .line 2912
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$ChineseHandwritingInputMode;->getContext()Landroid/content/Context;
 
@@ -119,6 +119,6 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2914
+    .line 2913
     return-void
 .end method

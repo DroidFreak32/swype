@@ -221,7 +221,7 @@
 
     iput-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->delayShowingFullScreenHandlerCallback:Landroid/os/Handler$Callback;
 
-    .line 1016
+    .line 1018
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->delayShowingFullScreenHandlerCallback:Landroid/os/Handler$Callback;
 
     invoke-static {v0}, Landroid/support/v4/app/ActivityCompatHoneycomb;->create(Landroid/os/Handler$Callback;)Landroid/os/Handler;
@@ -330,7 +330,18 @@
     return-void
 .end method
 
-.method static synthetic access$1100(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/IME;
+.method static synthetic access$1100(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)V
+    .locals 0
+    .param p0, "x0"    # Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
+
+    .prologue
+    .line 57
+    invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->createEmojiInputView()V
+
+    return-void
+.end method
+
+.method static synthetic access$1200(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/IME;
     .locals 1
     .param p0, "x0"    # Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
 
@@ -341,7 +352,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$1200(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
+.method static synthetic access$1300(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
     .locals 1
     .param p0, "x0"    # Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
 
@@ -352,7 +363,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$1300(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
+.method static synthetic access$1400(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
     .locals 1
     .param p0, "x0"    # Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
     .param p1, "x1"    # Lcom/nuance/swype/input/emoji/EmojiInputController;
@@ -523,17 +534,17 @@
     .locals 1
 
     .prologue
-    .line 1462
+    .line 1464
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     if-eqz v0, :cond_0
 
-    .line 1463
+    .line 1465
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingView;->clearArcs()V
 
-    .line 1465
+    .line 1467
     :cond_0
     return-void
 .end method
@@ -872,7 +883,7 @@
     .prologue
     const/16 v1, 0xb
 
-    .line 1083
+    .line 1085
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->hasMessages(I)Z
@@ -881,12 +892,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 1084
+    .line 1086
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1086
+    .line 1088
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
@@ -894,7 +905,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 1087
+    .line 1089
     return-void
 .end method
 
@@ -902,7 +913,7 @@
     .locals 4
 
     .prologue
-    .line 1180
+    .line 1182
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mHwrHandler:Landroid/os/Handler;
 
     const/4 v1, 0x5
@@ -911,7 +922,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 1181
+    .line 1183
     return-void
 .end method
 
@@ -1185,10 +1196,10 @@
     .param p0, "wordListHeight"    # I
 
     .prologue
-    .line 1575
+    .line 1577
     sput p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
-    .line 1576
+    .line 1578
     return-void
 .end method
 
@@ -1196,23 +1207,23 @@
     .locals 1
 
     .prologue
-    .line 1320
+    .line 1322
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 1322
+    .line 1324
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showHandWritingView(Z)V
 
-    .line 1327
+    .line 1329
     :goto_0
     return-void
 
-    .line 1325
+    .line 1327
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingFullScreenMsg()V
 
@@ -1225,7 +1236,7 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 1272
+    .line 1274
     iget-object v7, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-static {v7}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
@@ -1246,7 +1257,7 @@
 
     move-result v4
 
-    .line 1274
+    .line 1276
     .local v4, "status_bar_height":I
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
@@ -1261,22 +1272,22 @@
 
     move-result-object v1
 
-    .line 1276
+    .line 1278
     .local v1, "display":Landroid/util/DisplayMetrics;
     iget v5, v1, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 1277
+    .line 1279
     .local v5, "w":I
     iget v7, v1, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 1278
+    .line 1280
     sub-int v3, v7, v4
 
-    .line 1279
+    .line 1281
     .local v3, "fullHandWritingScreenYOffset":I
     move v2, v3
 
-    .line 1280
+    .line 1282
     .local v2, "fullHandWritingScreenHeight":I
     sget-object v7, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
@@ -1288,7 +1299,7 @@
 
     invoke-virtual {v7, v8, v9}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1282
+    .line 1284
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v7
@@ -1315,35 +1326,35 @@
 
     if-eqz v7, :cond_5
 
-    .line 1284
+    .line 1286
     :cond_0
     iget-object v7, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     if-eqz v7, :cond_5
 
-    .line 1285
+    .line 1287
     iget-object v7, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v7}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
 
-    .line 1286
+    .line 1288
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_4
 
-    .line 1287
+    .line 1289
     iget-boolean v7, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isOnceAction:Z
 
     if-eqz v7, :cond_2
 
-    .line 1288
+    .line 1290
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingFullScreenMsg()V
 
-    .line 1289
+    .line 1291
     iput-boolean v6, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isOnceAction:Z
 
-    .line 1307
+    .line 1309
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :goto_1
     return-void
@@ -1356,10 +1367,10 @@
     :cond_1
     move v4, v6
 
-    .line 1272
+    .line 1274
     goto :goto_0
 
-    .line 1292
+    .line 1294
     .restart local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     .restart local v1    # "display":Landroid/util/DisplayMetrics;
     .restart local v2    # "fullHandWritingScreenHeight":I
@@ -1373,12 +1384,12 @@
 
     if-gtz v7, :cond_3
 
-    .line 1293
+    .line 1295
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingFullScreenMsg()V
 
     goto :goto_1
 
-    .line 1296
+    .line 1298
     :cond_3
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->getRootViewHeight()I
 
@@ -1386,7 +1397,7 @@
 
     sub-int v2, v3, v7
 
-    .line 1298
+    .line 1300
     sget-object v7, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->log:Lcom/nuance/swype/util/LogManager$Log;
 
     const-string v8, "showFullScreenHandWritingView...root view height: "
@@ -1401,7 +1412,7 @@
 
     invoke-virtual {v7, v8, v9}, Lcom/nuance/swype/util/LogManager$Log;->d(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 1300
+    .line 1302
     :cond_4
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
@@ -1413,14 +1424,14 @@
 
     sub-int/2addr v3, v7
 
-    .line 1304
+    .line 1306
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_5
     const/4 v7, 0x1
 
     invoke-virtual {p0, v7}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1305
+    .line 1307
     iget-object v7, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     neg-int v8, v3
@@ -1839,15 +1850,15 @@
     .param p1, "aFullScreen"    # Z
 
     .prologue
-    .line 1184
+    .line 1186
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v4
 
-    .line 1185
+    .line 1187
     if-eqz v4, :cond_3
 
-    .line 1186
+    .line 1188
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v4
@@ -1856,7 +1867,7 @@
 
     move-result-object v3
 
-    .line 1187
+    .line 1189
     .local v3, "keys":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/swype/input/KeyboardEx$Key;>;"
     const/4 v1, 0x0
 
@@ -1868,14 +1879,14 @@
 
     if-ge v1, v4, :cond_3
 
-    .line 1188
+    .line 1190
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/nuance/swype/input/KeyboardEx$Key;
 
-    .line 1189
+    .line 1191
     .local v2, "key":Lcom/nuance/swype/input/KeyboardEx$Key;
     iget v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altCode:I
 
@@ -1883,15 +1894,15 @@
 
     if-ne v4, v5, :cond_1
 
-    .line 1190
+    .line 1192
     if-eqz p1, :cond_2
 
-    .line 1191
+    .line 1193
     iget-object v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altIcon:Landroid/graphics/drawable/Drawable;
 
     if-eqz v4, :cond_0
 
-    .line 1192
+    .line 1194
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v4
@@ -1900,7 +1911,7 @@
 
     move-result-object v0
 
-    .line 1193
+    .line 1195
     .local v0, "app":Lcom/nuance/swype/input/IMEApplication;
     sget v4, Lcom/nuance/swype/input/R$attr;->cjkAltIconMinHwCommaKey:I
 
@@ -1910,7 +1921,7 @@
 
     iput-object v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altIcon:Landroid/graphics/drawable/Drawable;
 
-    .line 1194
+    .line 1196
     sget v4, Lcom/nuance/swype/input/R$attr;->cjkAltPreMinHwCommaKey:I
 
     invoke-virtual {v0, v4}, Lcom/nuance/swype/input/IMEApplication;->getThemedDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -1919,25 +1930,25 @@
 
     iput-object v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altPreviewIcon:Landroid/graphics/drawable/Drawable;
 
-    .line 1205
+    .line 1207
     .end local v0    # "app":Lcom/nuance/swype/input/IMEApplication;
     :cond_0
     :goto_1
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->invalidateKey(Lcom/nuance/swype/input/KeyboardEx$Key;)V
 
-    .line 1187
+    .line 1189
     :cond_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 1198
+    .line 1200
     :cond_2
     iget-object v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altIcon:Landroid/graphics/drawable/Drawable;
 
     if-eqz v4, :cond_0
 
-    .line 1199
+    .line 1201
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v4
@@ -1946,7 +1957,7 @@
 
     move-result-object v0
 
-    .line 1200
+    .line 1202
     .restart local v0    # "app":Lcom/nuance/swype/input/IMEApplication;
     sget v4, Lcom/nuance/swype/input/R$attr;->cjkAltIconMaxHwCommaKey:I
 
@@ -1956,7 +1967,7 @@
 
     iput-object v4, v2, Lcom/nuance/swype/input/KeyboardEx$Key;->altIcon:Landroid/graphics/drawable/Drawable;
 
-    .line 1201
+    .line 1203
     sget v4, Lcom/nuance/swype/input/R$attr;->cjkAltPreMaxHwCommaKey:I
 
     invoke-virtual {v0, v4}, Lcom/nuance/swype/input/IMEApplication;->getThemedDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -1967,7 +1978,7 @@
 
     goto :goto_1
 
-    .line 1210
+    .line 1212
     .end local v0    # "app":Lcom/nuance/swype/input/IMEApplication;
     .end local v1    # "i":I
     .end local v2    # "key":Lcom/nuance/swype/input/KeyboardEx$Key;
@@ -2302,63 +2313,63 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1106
+    .line 1108
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->finishInput()V
 
-    .line 1107
+    .line 1109
     iput-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mStarted:Z
 
-    .line 1109
+    .line 1111
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     if-eqz v0, :cond_0
 
-    .line 1110
+    .line 1112
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingView;->setNewSession(Z)V
 
-    .line 1112
+    .line 1114
     :cond_0
     iput-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isOnceAction:Z
 
-    .line 1113
+    .line 1115
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->dismissPopupKeyboard()V
 
-    .line 1114
+    .line 1116
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->hideFullScreenHandWritingView()V
 
-    .line 1115
+    .line 1117
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeAllPendingPopupMsg()V
 
-    .line 1116
+    .line 1118
     invoke-static {}, Lcom/nuance/swype/input/QuickToast;->hide()V
 
-    .line 1117
+    .line 1119
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->acceptCurrentDefaultWord()Z
 
-    .line 1118
+    .line 1120
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeAllPendingMsg()V
 
-    .line 1119
+    .line 1121
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->clearSuggestions()V
 
-    .line 1121
+    .line 1123
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->endArcsAddingSequence()V
 
-    .line 1122
+    .line 1124
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWriteKorean:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     invoke-virtual {v0, p0}, Lcom/nuance/input/swypecorelib/T9WriteKorean;->removeRecognizeListener(Lcom/nuance/input/swypecorelib/T9WriteRecognizerListener$OnWriteRecognizerListener;)V
 
-    .line 1123
+    .line 1125
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWriteKorean:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/T9WriteKorean;->finishSession()V
 
-    .line 1124
+    .line 1126
     return-void
 .end method
 
@@ -2377,7 +2388,7 @@
     .locals 3
 
     .prologue
-    .line 1475
+    .line 1477
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     if-eqz v0, :cond_0
@@ -2388,7 +2399,7 @@
 
     if-lez v0, :cond_0
 
-    .line 1476
+    .line 1478
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->wordListViewContainerCJK:Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;->getPaddingLeft()I
@@ -2413,7 +2424,7 @@
 
     move-result v0
 
-    .line 1478
+    .line 1480
     :goto_0
     return v0
 
@@ -2473,7 +2484,7 @@
     .locals 1
 
     .prologue
-    .line 1471
+    .line 1473
     const/4 v0, 0x0
 
     return v0
@@ -2484,17 +2495,17 @@
     .param p1, "me"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 1615
+    .line 1617
     iget-boolean v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v1, :cond_0
 
-    .line 1616
+    .line 1618
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v0
 
-    .line 1617
+    .line 1619
     .local v0, "keyboard":Lcom/nuance/swype/input/KeyboardEx;
     if-eqz v0, :cond_0
 
@@ -2506,7 +2517,7 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 1621
+    .line 1623
     .end local v0    # "keyboard":Lcom/nuance/swype/input/KeyboardEx;
     .end local p1    # "me":Landroid/view/MotionEvent;
     :goto_0
@@ -2526,7 +2537,7 @@
     .param p1, "language"    # I
 
     .prologue
-    .line 1369
+    .line 1371
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "fullscreen.enabled."
@@ -2625,7 +2636,7 @@
     .param p1, "language"    # I
 
     .prologue
-    .line 1379
+    .line 1381
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2725,42 +2736,42 @@
     .locals 2
 
     .prologue
-    .line 1091
+    .line 1093
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->handleClose()V
 
-    .line 1092
+    .line 1094
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mStarted:Z
 
-    .line 1094
+    .line 1096
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->dismissPopupKeyboard()V
 
-    .line 1095
+    .line 1097
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->hideFullScreenHandWritingView()V
 
-    .line 1096
+    .line 1098
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->acceptCurrentActiveWord()V
 
-    .line 1097
+    .line 1099
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeAllPendingMsg()V
 
-    .line 1098
+    .line 1100
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeAllPendingPopupMsg()V
 
-    .line 1099
+    .line 1101
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     if-eqz v0, :cond_0
 
-    .line 1100
+    .line 1102
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingView;->setNewSession(Z)V
 
-    .line 1102
+    .line 1104
     :cond_0
     return-void
 .end method
@@ -2835,19 +2846,19 @@
 
     const/16 v4, 0xe
 
-    .line 1147
+    .line 1149
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     if-eqz v1, :cond_3
 
-    .line 1148
+    .line 1150
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
 
-    .line 1149
+    .line 1151
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_1
 
@@ -2863,20 +2874,20 @@
 
     if-eqz v1, :cond_1
 
-    .line 1150
+    .line 1152
     :cond_0
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->requestLayout()V
 
-    .line 1151
+    .line 1153
     iput-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isOnceAction:Z
 
-    .line 1154
+    .line 1156
     :cond_1
     iget-boolean v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v1, :cond_4
 
-    .line 1155
+    .line 1157
     if-eqz v0, :cond_2
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isMiniKeyboardMode()Z
@@ -2885,32 +2896,32 @@
 
     if-eqz v1, :cond_2
 
-    .line 1156
+    .line 1158
     const/4 v1, 0x0
 
     invoke-virtual {v0, v2, v1}, Lcom/nuance/swype/input/view/InputContainerView;->setAllowedMovement(ZZ)V
 
-    .line 1158
+    .line 1160
     :cond_2
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->hideFullScreenHandWritingFrame()V
 
-    .line 1159
+    .line 1161
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->setFullScreenHandWritingFrame()V
 
-    .line 1160
+    .line 1162
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showFullScreenHandWritingView()V
 
-    .line 1168
+    .line 1170
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_3
     :goto_0
     return-void
 
-    .line 1162
+    .line 1164
     .restart local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_4
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
@@ -2921,12 +2932,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 1163
+    .line 1165
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1165
+    .line 1167
     :cond_5
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
@@ -2942,12 +2953,12 @@
     .param p1, "hideSymbolView"    # Z
 
     .prologue
-    .line 1172
+    .line 1174
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->hideFullScreenHandWritingFrame()V
 
-    .line 1173
+    .line 1175
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v0, :cond_0
@@ -2958,15 +2969,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 1174
+    .line 1176
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->setFullScreenHandWritingFrame()V
 
-    .line 1175
+    .line 1177
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showFullScreenHandWritingView()V
 
-    .line 1177
+    .line 1179
     :cond_0
     return-void
 .end method
@@ -3222,32 +3233,32 @@
     .locals 1
 
     .prologue
-    .line 1310
+    .line 1312
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
-    .line 1311
+    .line 1313
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1313
+    .line 1315
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->hideFullScreenHandWritingFrame()V
 
-    .line 1314
+    .line 1316
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mStarted:Z
 
     if-eqz v0, :cond_0
 
-    .line 1315
+    .line 1317
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->setNormalHandScreenWritingFrame()V
 
-    .line 1317
+    .line 1319
     :cond_0
     return-void
 .end method
@@ -3256,7 +3267,7 @@
     .locals 1
 
     .prologue
-    .line 1132
+    .line 1134
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     return v0
@@ -3266,7 +3277,7 @@
     .locals 1
 
     .prologue
-    .line 1137
+    .line 1139
     const/4 v0, 0x1
 
     return v0
@@ -3287,7 +3298,7 @@
     .param p1, "aSource"    # Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     .prologue
-    .line 1385
+    .line 1387
     const/4 v0, 0x0
 
     return v0
@@ -3297,7 +3308,7 @@
     .locals 1
 
     .prologue
-    .line 1580
+    .line 1582
     invoke-super {p0}, Lcom/nuance/swype/input/InputView;->isSpeechViewShowing()Z
 
     move-result v0
@@ -3309,7 +3320,7 @@
     .locals 1
 
     .prologue
-    .line 1635
+    .line 1637
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v0, :cond_0
@@ -3320,10 +3331,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1636
+    .line 1638
     const/4 v0, 0x1
 
-    .line 1638
+    .line 1640
     :goto_0
     return v0
 
@@ -3338,7 +3349,7 @@
     .param p1, "aSource"    # Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     .prologue
-    .line 1392
+    .line 1394
     return-void
 .end method
 
@@ -3364,7 +3375,7 @@
     .param p4, "aSource"    # Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     .prologue
-    .line 1404
+    .line 1406
     return-void
 .end method
 
@@ -3473,7 +3484,7 @@
     .locals 0
 
     .prologue
-    .line 1631
+    .line 1633
     return-void
 .end method
 
@@ -3625,7 +3636,7 @@
     .end annotation
 
     .prologue
-    .line 1409
+    .line 1411
     .local p1, "arc":Ljava/util/List;, "Ljava/util/List<Landroid/graphics/Point;>;"
     return-void
 .end method
@@ -3703,17 +3714,17 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 1414
+    .line 1416
     if-lez p1, :cond_0
 
     if-gtz p2, :cond_1
 
-    .line 1437
+    .line 1439
     :cond_0
     :goto_0
     return v4
 
-    .line 1417
+    .line 1419
     :cond_1
     iget-object v5, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
@@ -3735,14 +3746,14 @@
 
     move-result v3
 
-    .line 1420
+    .line 1422
     .local v3, "status_bar_height":I
     :goto_1
     sget v5, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
     if-nez v5, :cond_2
 
-    .line 1421
+    .line 1423
     iget-object v5, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/chinese/CJKCandidatesListView;->getMeasuredHeight()I
@@ -3751,7 +3762,7 @@
 
     sput v5, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
-    .line 1423
+    .line 1425
     :cond_2
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
@@ -3763,7 +3774,7 @@
 
     move-result v1
 
-    .line 1426
+    .line 1428
     .local v1, "keyboard_height":I
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
@@ -3775,7 +3786,7 @@
 
     iget v2, v5, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 1428
+    .line 1430
     .local v2, "screen_height":I
     iget-object v5, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->wordListViewContainerCJK:Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;
 
@@ -3785,7 +3796,7 @@
 
     if-eqz v5, :cond_4
 
-    .line 1429
+    .line 1431
     sget v5, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
     sub-int v5, v2, v5
@@ -3794,12 +3805,12 @@
 
     sub-int v0, v5, v3
 
-    .line 1434
+    .line 1436
     .local v0, "boundaryHandWritingScreenHeight":I
     :goto_2
     if-lt p2, v0, :cond_0
 
-    .line 1437
+    .line 1439
     const/4 v4, 0x1
 
     goto :goto_0
@@ -3811,10 +3822,10 @@
     :cond_3
     move v3, v4
 
-    .line 1417
+    .line 1419
     goto :goto_1
 
-    .line 1432
+    .line 1434
     .restart local v1    # "keyboard_height":I
     .restart local v2    # "screen_height":I
     .restart local v3    # "status_bar_height":I
@@ -3831,7 +3842,7 @@
     .locals 4
 
     .prologue
-    .line 1330
+    .line 1332
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mDelayShowingFullScreenHandler:Landroid/os/Handler;
 
     const/4 v1, 0x1
@@ -3840,7 +3851,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
-    .line 1332
+    .line 1334
     return-void
 .end method
 
@@ -3848,10 +3859,10 @@
     .locals 0
 
     .prologue
-    .line 1626
+    .line 1628
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->acceptCurrentActiveWord()V
 
-    .line 1627
+    .line 1629
     return-void
 .end method
 
@@ -3860,7 +3871,7 @@
     .param p1, "aSource"    # Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     .prologue
-    .line 1398
+    .line 1400
     return-void
 .end method
 
@@ -3868,14 +3879,14 @@
     .locals 2
 
     .prologue
-    .line 1335
+    .line 1337
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mDelayShowingFullScreenHandler:Landroid/os/Handler;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1337
+    .line 1339
     return-void
 .end method
 
@@ -3884,23 +3895,23 @@
     .param p1, "areaOption"    # I
 
     .prologue
-    .line 1453
+    .line 1455
     const/4 v0, -0x2
 
     if-ne p1, v0, :cond_0
 
-    .line 1454
+    .line 1456
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/nuance/swype/input/IME;->requestHideSelf(I)V
 
-    .line 1459
+    .line 1461
     :goto_0
     return-void
 
-    .line 1457
+    .line 1459
     :cond_0
     iput p1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionAreaOption:I
 
@@ -4010,10 +4021,10 @@
     .param p1, "container"    # Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     .prologue
-    .line 1127
+    .line 1129
     iput-object p1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
-    .line 1128
+    .line 1130
     return-void
 .end method
 
@@ -4021,17 +4032,17 @@
     .locals 1
 
     .prologue
-    .line 1141
+    .line 1143
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
-    .line 1142
+    .line 1144
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->setFullScreenHandWritingFrame()V
 
-    .line 1143
+    .line 1145
     return-void
 .end method
 
@@ -4068,13 +4079,13 @@
     .param p1, "keyboard"    # Lcom/nuance/swype/input/KeyboardEx;
 
     .prologue
-    .line 1601
+    .line 1603
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->updateDockModeForHandwriting(Lcom/nuance/swype/input/KeyboardEx;)V
 
-    .line 1602
+    .line 1604
     invoke-super {p0, p1}, Lcom/nuance/swype/input/InputView;->setKeyboard(Lcom/nuance/swype/input/KeyboardEx;)V
 
-    .line 1603
+    .line 1605
     return-void
 .end method
 
@@ -4253,7 +4264,7 @@
     .param p1, "fullscreen"    # Z
 
     .prologue
-    .line 1373
+    .line 1375
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -4274,7 +4285,7 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 1376
+    .line 1378
     return-void
 .end method
 
@@ -4282,22 +4293,22 @@
     .locals 1
 
     .prologue
-    .line 1213
+    .line 1215
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
-    .line 1214
+    .line 1216
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->hideFullScreenHandWritingFrame()V
 
-    .line 1215
+    .line 1217
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->setNormalHandScreenWritingFrame()V
 
-    .line 1216
+    .line 1218
     return-void
 .end method
 
@@ -4305,20 +4316,20 @@
     .locals 1
 
     .prologue
-    .line 1585
+    .line 1587
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 1586
+    .line 1588
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setCandidatesViewShown(Z)V
 
-    .line 1587
+    .line 1589
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/CJKCandidatesListView;->showNotMatchTootip()V
 
-    .line 1588
+    .line 1590
     return-void
 .end method
 
@@ -4326,25 +4337,25 @@
     .locals 1
 
     .prologue
-    .line 1592
+    .line 1594
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     if-eqz v0, :cond_0
 
-    .line 1593
+    .line 1595
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     invoke-virtual {v0}, Lcom/nuance/swype/input/chinese/CJKCandidatesListView;->showSwypeTooltip()V
 
-    .line 1594
+    .line 1596
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 1595
+    .line 1597
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setCandidatesViewShown(Z)V
 
-    .line 1597
+    .line 1599
     :cond_0
     return-void
 .end method
@@ -4355,27 +4366,23 @@
     .prologue
     const/4 v1, 0x2
 
-    .line 1643
+    .line 1645
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v0, :cond_0
 
-    .line 1644
+    .line 1646
     sget-object v0, Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;->KEYBOARD_EDIT:Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setKeyboardLayer(Lcom/nuance/swype/input/KeyboardEx$KeyboardLayerType;)V
 
-    .line 1646
-    :cond_0
-    iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mEmojiInputController:Lcom/nuance/swype/input/emoji/EmojiInputController;
-
-    if-nez v0, :cond_1
-
     .line 1647
-    invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->createEmojiInputView()V
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setCandidatesViewShown(Z)V
 
     .line 1650
-    :cond_1
+    :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mDelayShowingFullScreenHandler:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
@@ -4394,7 +4401,7 @@
     .param p1, "animation"    # Z
 
     .prologue
-    .line 1258
+    .line 1260
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSpeechWrapper:Lcom/nuance/swype/input/SpeechWrapper;
 
     if-eqz v0, :cond_0
@@ -4416,28 +4423,28 @@
 
     if-eqz v0, :cond_2
 
-    .line 1269
+    .line 1271
     :cond_1
     :goto_0
     return-void
 
-    .line 1262
+    .line 1264
     :cond_2
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1264
+    .line 1266
     iget-boolean v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v0, :cond_3
 
-    .line 1265
+    .line 1267
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showFullScreenHandWritingView()V
 
     goto :goto_0
 
-    .line 1267
+    .line 1269
     :cond_3
     iget-object v0, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
@@ -4576,7 +4583,7 @@
 
     const/16 v4, 0xe
 
-    .line 1340
+    .line 1342
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/InputMethods$Language;->getCoreLanguageId()I
@@ -4589,25 +4596,25 @@
 
     if-eqz v1, :cond_2
 
-    .line 1341
+    .line 1343
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setFullScreenHandWritingFrame()V
 
-    .line 1342
+    .line 1344
     invoke-virtual {p0, v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1343
+    .line 1345
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     if-eqz v1, :cond_1
 
-    .line 1344
+    .line 1346
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
 
-    .line 1345
+    .line 1347
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_1
 
@@ -4623,46 +4630,46 @@
 
     if-eqz v1, :cond_1
 
-    .line 1346
+    .line 1348
     :cond_0
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->requestLayout()V
 
-    .line 1347
+    .line 1349
     iput-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isOnceAction:Z
 
-    .line 1350
+    .line 1352
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingFullScreenMsg()V
 
-    .line 1366
+    .line 1368
     :goto_0
     return-void
 
-    .line 1352
+    .line 1354
     :cond_2
     iget-boolean v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1354
+    .line 1356
     iget-boolean v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-eqz v1, :cond_3
 
-    .line 1355
+    .line 1357
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setFullScreenHandWritingFrame()V
 
-    .line 1356
+    .line 1358
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingFullScreenMsg()V
 
     goto :goto_0
 
-    .line 1358
+    .line 1360
     :cond_3
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setNormalHandScreenWritingFrame()V
 
-    .line 1359
+    .line 1361
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->hasMessages(I)Z
@@ -4671,12 +4678,12 @@
 
     if-eqz v1, :cond_4
 
-    .line 1360
+    .line 1362
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
     invoke-virtual {v1, v4}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1362
+    .line 1364
     :cond_4
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mPopupViewHandler:Landroid/os/Handler;
 
@@ -4692,7 +4699,7 @@
     .param p1, "popupKey"    # Lcom/nuance/swype/input/KeyboardEx$Key;
 
     .prologue
-    .line 1220
+    .line 1222
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isFullScreenHandWritingView()Z
 
     move-result v0
@@ -4721,12 +4728,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 1223
+    .line 1225
     invoke-virtual {p0, p1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showStaticSelectPopup(Lcom/nuance/swype/input/KeyboardEx$Key;)Z
 
     move-result v0
 
-    .line 1225
+    .line 1227
     :goto_0
     return v0
 
@@ -4744,63 +4751,63 @@
     .param p2, "restarting"    # Z
 
     .prologue
-    .line 1021
+    .line 1023
     const/4 v2, 0x1
 
     iput-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mStarted:Z
 
-    .line 1023
+    .line 1025
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->dismissPopupKeyboard()V
 
-    .line 1024
+    .line 1026
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeDelayShowingFullScreenMsg()V
 
-    .line 1025
+    .line 1027
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->hideFullScreenHandWritingView()V
 
-    .line 1027
+    .line 1029
     invoke-super {p0, p1, p2}, Lcom/nuance/swype/input/InputView;->startInput(Lcom/nuance/swype/input/InputFieldInfo;Z)V
 
-    .line 1028
+    .line 1030
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     if-eqz v2, :cond_0
 
-    .line 1029
+    .line 1031
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/chinese/CJKCandidatesListView;->updateCandidatesSize()V
 
-    .line 1031
+    .line 1033
     :cond_0
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     if-eqz v2, :cond_1
 
-    .line 1032
+    .line 1034
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mContainer:Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingContainerView;->updateHandwritingPadSize()V
 
-    .line 1035
+    .line 1037
     :cond_1
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWriteKorean:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     invoke-virtual {v2, p0}, Lcom/nuance/input/swypecorelib/T9WriteKorean;->addRecognizeListener(Lcom/nuance/input/swypecorelib/T9WriteRecognizerListener$OnWriteRecognizerListener;)V
 
-    .line 1036
+    .line 1038
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->cancelCurrentDefaultWord()Z
 
-    .line 1037
+    .line 1039
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->endArcsAddingSequence()V
 
-    .line 1039
+    .line 1041
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->syncCandidateDisplayStyleToMode()V
 
-    .line 1041
+    .line 1043
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setKeyboardForTextEntry(Lcom/nuance/swype/input/InputFieldInfo;)V
 
-    .line 1043
+    .line 1045
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mComposition:Lcom/nuance/swype/input/Composition;
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getCurrentInputConnection()Lcom/nuance/swype/input/appspecific/AppSpecificInputConnection;
@@ -4809,7 +4816,7 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/input/Composition;->setInputConnection(Landroid/view/inputmethod/InputConnection;)V
 
-    .line 1045
+    .line 1047
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWriteKorean:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     iget-object v3, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
@@ -4820,7 +4827,7 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/input/swypecorelib/T9WriteKorean;->startSession(I)V
 
-    .line 1046
+    .line 1048
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -4829,7 +4836,7 @@
 
     move-result-object v1
 
-    .line 1047
+    .line 1049
     .local v1, "res":Landroid/content/res/Resources;
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getContext()Landroid/content/Context;
 
@@ -4851,16 +4858,16 @@
 
     move-result v0
 
-    .line 1052
+    .line 1054
     .local v0, "delay":I
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWriteKorean:Lcom/nuance/input/swypecorelib/T9WriteKorean;
 
     invoke-virtual {v2, v0}, Lcom/nuance/input/swypecorelib/T9WriteKorean;->setRecognizerDelay(I)V
 
-    .line 1054
+    .line 1056
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->clearArcs()V
 
-    .line 1056
+    .line 1058
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -4873,7 +4880,7 @@
 
     iput v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionHeight:I
 
-    .line 1057
+    .line 1059
     iget v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionHeight:I
 
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
@@ -4890,7 +4897,7 @@
 
     iput v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mKeyboardHeight:I
 
-    .line 1059
+    .line 1061
     invoke-virtual {p1}, Lcom/nuance/swype/input/InputFieldInfo;->getEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v2
@@ -4899,10 +4906,10 @@
 
     if-nez v2, :cond_2
 
-    .line 1060
+    .line 1062
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeDelayShowingFullScreenMsg()V
 
-    .line 1063
+    .line 1065
     :cond_2
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mKeyboardSwitcher:Lcom/nuance/swype/input/KeyboardSwitcher;
 
@@ -4910,10 +4917,10 @@
 
     invoke-virtual {v2, v3}, Lcom/nuance/swype/input/KeyboardSwitcher;->setShiftState(Lcom/nuance/input/swypecorelib/Shift$ShiftState;)Z
 
-    .line 1065
+    .line 1067
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->showLastSavedHandWritingScreen()V
 
-    .line 1067
+    .line 1069
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentInputLanguage:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputMethods$Language;->getCoreLanguageId()I
@@ -4926,21 +4933,21 @@
 
     if-eqz v2, :cond_3
 
-    .line 1068
+    .line 1070
     const/4 v2, 0x0
 
     invoke-direct {p0, v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->updateCandidatesList(Ljava/util/List;)V
 
-    .line 1071
+    .line 1073
     :cond_3
     iget v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingMode:I
 
     invoke-direct {p0, v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->toggleNextWritingMode(I)V
 
-    .line 1073
+    .line 1075
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->removeAllPendingPopupMsg()V
 
-    .line 1075
+    .line 1077
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/InputFieldInfo;->isPasswordField()Z
@@ -4949,17 +4956,17 @@
 
     if-nez v2, :cond_4
 
-    .line 1076
+    .line 1078
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayShowingStartOfWordCandidate()V
 
-    .line 1078
+    .line 1080
     :cond_4
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postHowToUseToastMsg()V
 
-    .line 1079
+    .line 1081
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postDelayResumeSpeech()V
 
-    .line 1080
+    .line 1082
     return-void
 .end method
 
@@ -4969,54 +4976,54 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 1230
+    .line 1232
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->dismissPopupKeyboard()V
 
-    .line 1232
+    .line 1234
     iget-boolean v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
     if-nez v2, :cond_0
 
-    .line 1233
+    .line 1235
     iput-boolean v3, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mFullScreenHandWriting:Z
 
-    .line 1235
+    .line 1237
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->handlePossibleActionAfterResize()V
 
-    .line 1247
+    .line 1249
     :goto_0
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->isFullScreenHandWritingView()Z
 
     move-result v1
 
-    .line 1249
+    .line 1251
     .local v1, "fullscreenMode":Z
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setLastFullScreenState(Z)V
 
-    .line 1251
+    .line 1253
     invoke-virtual {p0, v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->changeAltIconOfSwitchingLayout(Z)V
 
-    .line 1252
+    .line 1254
     invoke-direct {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->postHowToUseToastMsg()V
 
-    .line 1254
+    .line 1256
     return v1
 
-    .line 1238
+    .line 1240
     .end local v1    # "fullscreenMode":Z
     :cond_0
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     if-eqz v2, :cond_1
 
-    .line 1239
+    .line 1241
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v2}, Lcom/nuance/swype/input/IME;->getInputContainerView()Lcom/nuance/swype/input/view/InputContainerView;
 
     move-result-object v0
 
-    .line 1240
+    .line 1242
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_1
 
@@ -5026,10 +5033,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 1241
+    .line 1243
     invoke-virtual {v0, v3, v3}, Lcom/nuance/swype/input/view/InputContainerView;->setAllowedMovement(ZZ)V
 
-    .line 1244
+    .line 1246
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_1
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setNormalHandScreenWritingFrame()V
@@ -5042,12 +5049,12 @@
     .param p1, "me"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 1483
+    .line 1485
     sget v17, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
     if-nez v17, :cond_0
 
-    .line 1484
+    .line 1486
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->wordListViewContainerCJK:Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;
@@ -5060,7 +5067,7 @@
 
     sput v17, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mWordListHeight:I
 
-    .line 1486
+    .line 1488
     :cond_0
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
@@ -5072,7 +5079,7 @@
 
     move-result v12
 
-    .line 1489
+    .line 1491
     .local v12, "keyboard_height":I
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
@@ -5086,7 +5093,7 @@
 
     iget v14, v0, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    .line 1490
+    .line 1492
     .local v14, "screen_height":I
     invoke-virtual/range {p0 .. p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getResources()Landroid/content/res/Resources;
 
@@ -5100,11 +5107,11 @@
 
     iget v15, v0, Landroid/util/DisplayMetrics;->widthPixels:I
 
-    .line 1491
+    .line 1493
     .local v15, "screen_width":I
     const/16 v16, 0x0
 
-    .line 1492
+    .line 1494
     .local v16, "status_bar_height":I
     move-object/from16 v0, p0
 
@@ -5114,7 +5121,7 @@
 
     if-eqz v17, :cond_1
 
-    .line 1493
+    .line 1495
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mIme:Lcom/nuance/swype/input/IME;
@@ -5147,44 +5154,44 @@
 
     move-result v16
 
-    .line 1496
+    .line 1498
     :cond_1
     :goto_0
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getDownTime()J
 
     move-result-wide v2
 
-    .line 1497
+    .line 1499
     .local v2, "downTime":J
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getEventTime()J
 
     move-result-wide v4
 
-    .line 1498
+    .line 1500
     .local v4, "eventTime":J
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v6
 
-    .line 1499
+    .line 1501
     .local v6, "actionType":I
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v7
 
-    .line 1500
+    .line 1502
     .local v7, "posX":F
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v8
 
-    .line 1501
+    .line 1503
     .local v8, "posY":F
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getMetaState()I
 
     move-result v9
 
-    .line 1502
+    .line 1504
     .local v9, "mState":I
     int-to-float v0, v14
 
@@ -5200,7 +5207,7 @@
 
     sub-float v11, v17, v18
 
-    .line 1503
+    .line 1505
     .local v11, "heightToBottom":F
     int-to-float v0, v12
 
@@ -5233,11 +5240,11 @@
 
     if-nez v17, :cond_6
 
-    .line 1506
+    .line 1508
     :cond_3
     if-nez v6, :cond_4
 
-    .line 1507
+    .line 1509
     const/16 v17, 0x0
 
     move/from16 v0, v17
@@ -5246,7 +5253,7 @@
 
     iput v0, v1, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionAreaOption:I
 
-    .line 1509
+    .line 1511
     :cond_4
     int-to-float v0, v12
 
@@ -5254,29 +5261,29 @@
 
     sub-float v8, v17, v11
 
-    .line 1510
+    .line 1512
     invoke-static/range {v2 .. v9}, Landroid/view/MotionEvent;->obtain(JJIFFI)Landroid/view/MotionEvent;
 
     move-result-object v13
 
-    .line 1513
+    .line 1515
     .local v13, "motionEvent":Landroid/view/MotionEvent;
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v13}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 1514
+    .line 1516
     invoke-virtual {v13}, Landroid/view/MotionEvent;->recycle()V
 
-    .line 1516
+    .line 1518
     const/16 v17, 0x1
 
-    .line 1572
+    .line 1574
     .end local v13    # "motionEvent":Landroid/view/MotionEvent;
     :goto_1
     return v17
 
-    .line 1493
+    .line 1495
     .end local v2    # "downTime":J
     .end local v4    # "eventTime":J
     .end local v6    # "actionType":I
@@ -5289,7 +5296,7 @@
 
     goto :goto_0
 
-    .line 1518
+    .line 1520
     .restart local v2    # "downTime":J
     .restart local v4    # "eventTime":J
     .restart local v6    # "actionType":I
@@ -5306,7 +5313,7 @@
 
     sub-int v10, v17, v12
 
-    .line 1520
+    .line 1522
     .local v10, "boundarySize":I
     int-to-float v0, v10
 
@@ -5345,11 +5352,11 @@
 
     if-ne v0, v1, :cond_12
 
-    .line 1524
+    .line 1526
     :cond_8
     if-nez v6, :cond_9
 
-    .line 1525
+    .line 1527
     const/16 v17, 0x1
 
     move/from16 v0, v17
@@ -5358,7 +5365,7 @@
 
     iput v0, v1, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionAreaOption:I
 
-    .line 1527
+    .line 1529
     :cond_9
     int-to-float v0, v10
 
@@ -5366,7 +5373,7 @@
 
     sub-float v8, v8, v17
 
-    .line 1528
+    .line 1530
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->candidatesListViewCJK:Lcom/nuance/swype/input/chinese/CJKCandidatesListView;
@@ -5387,7 +5394,7 @@
 
     if-ltz v17, :cond_f
 
-    .line 1529
+    .line 1531
     int-to-float v0, v15
 
     move/from16 v17, v0
@@ -5410,7 +5417,7 @@
 
     if-ge v0, v15, :cond_c
 
-    .line 1531
+    .line 1533
     :cond_a
     move-object/from16 v0, p0
 
@@ -5430,12 +5437,12 @@
 
     sub-float v7, v7, v17
 
-    .line 1532
+    .line 1534
     invoke-static/range {v2 .. v9}, Landroid/view/MotionEvent;->obtain(JJIFFI)Landroid/view/MotionEvent;
 
     move-result-object v13
 
-    .line 1534
+    .line 1536
     .restart local v13    # "motionEvent":Landroid/view/MotionEvent;
     move-object/from16 v0, p0
 
@@ -5447,10 +5454,10 @@
 
     invoke-virtual {v0, v13}, Lcom/nuance/swype/input/chinese/CJKCandidatesListView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 1535
+    .line 1537
     invoke-virtual {v13}, Landroid/view/MotionEvent;->recycle()V
 
-    .line 1569
+    .line 1571
     .end local v13    # "motionEvent":Landroid/view/MotionEvent;
     :cond_b
     :goto_2
@@ -5458,16 +5465,16 @@
 
     goto/16 :goto_1
 
-    .line 1538
+    .line 1540
     :cond_c
     if-nez v6, :cond_d
 
-    .line 1539
+    .line 1541
     invoke-static/range {v2 .. v9}, Landroid/view/MotionEvent;->obtain(JJIFFI)Landroid/view/MotionEvent;
 
     move-result-object v13
 
-    .line 1541
+    .line 1543
     .restart local v13    # "motionEvent":Landroid/view/MotionEvent;
     move-object/from16 v0, p0
 
@@ -5479,10 +5486,10 @@
 
     invoke-virtual {v0, v13}, Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 1543
+    .line 1545
     invoke-virtual {v13}, Landroid/view/MotionEvent;->recycle()V
 
-    .line 1545
+    .line 1547
     .end local v13    # "motionEvent":Landroid/view/MotionEvent;
     :cond_d
     const/16 v17, 0x1
@@ -5497,7 +5504,7 @@
 
     if-ne v6, v0, :cond_b
 
-    .line 1547
+    .line 1549
     :cond_e
     const/16 v17, -0x1
 
@@ -5507,7 +5514,7 @@
 
     iput v0, v1, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionAreaOption:I
 
-    .line 1548
+    .line 1550
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
@@ -5520,16 +5527,16 @@
 
     goto :goto_2
 
-    .line 1555
+    .line 1557
     :cond_f
     if-nez v6, :cond_10
 
-    .line 1556
+    .line 1558
     invoke-static/range {v2 .. v9}, Landroid/view/MotionEvent;->obtain(JJIFFI)Landroid/view/MotionEvent;
 
     move-result-object v13
 
-    .line 1558
+    .line 1560
     .restart local v13    # "motionEvent":Landroid/view/MotionEvent;
     move-object/from16 v0, p0
 
@@ -5541,10 +5548,10 @@
 
     invoke-virtual {v0, v13}, Lcom/nuance/swype/input/chinese/CJKWordListViewContainer;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 1559
+    .line 1561
     invoke-virtual {v13}, Landroid/view/MotionEvent;->recycle()V
 
-    .line 1561
+    .line 1563
     .end local v13    # "motionEvent":Landroid/view/MotionEvent;
     :cond_10
     const/16 v17, 0x1
@@ -5559,7 +5566,7 @@
 
     if-ne v6, v0, :cond_b
 
-    .line 1563
+    .line 1565
     :cond_11
     const/16 v17, -0x1
 
@@ -5569,7 +5576,7 @@
 
     iput v0, v1, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mSelectionAreaOption:I
 
-    .line 1565
+    .line 1567
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->mCurrentWritingPad:Lcom/nuance/swype/input/korean/KoreanHandWritingView;
@@ -5582,7 +5589,7 @@
 
     goto :goto_2
 
-    .line 1572
+    .line 1574
     :cond_12
     const/16 v17, 0x0
 
@@ -5593,19 +5600,19 @@
     .locals 1
 
     .prologue
-    .line 1606
+    .line 1608
     invoke-virtual {p0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->getKeyboard()Lcom/nuance/swype/input/KeyboardEx;
 
     move-result-object v0
 
-    .line 1607
+    .line 1609
     .local v0, "keyboard":Lcom/nuance/swype/input/KeyboardEx;
     if-eqz v0, :cond_0
 
-    .line 1608
+    .line 1610
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->setKeyboard(Lcom/nuance/swype/input/KeyboardEx;)V
 
-    .line 1610
+    .line 1612
     :cond_0
     return-void
 .end method

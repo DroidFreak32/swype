@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1814
+    .line 1827
     iput-object p1, p0, Lcom/nuance/swype/input/IME$4;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,11 +40,11 @@
     .locals 1
 
     .prologue
-    .line 1817
+    .line 1830
     iget-object v0, p0, Lcom/nuance/swype/input/IME$4;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v0}, Lcom/nuance/swype/input/IME;->access$100(Lcom/nuance/swype/input/IME;)V
 
-    .line 1818
+    .line 1831
     return-void
 .end method

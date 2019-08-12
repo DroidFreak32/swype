@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="label_symbol_key">٣٢١؟</string>
     <string name="ime_settings">إعدادات Swype</string>
     <string name="about">حول</string>
     <string name="version">الإصدار</string>
@@ -59,7 +60,7 @@
     <string name="sns_facebook_sign_on">قم بتسجيل الدخول حتى تتم إضافة أسماء جهات الاتصال من حسابك على Facebook إلى قاموسك الشخصي</string>
     <string name="sns_twitter_sign_on">قم بتسجيل الدخول حتى تتم إضافة أسماء المستخدم و الكلمات الجديدة من الأخبار العامة على Twitter إلى قاموسك الشخصي</string>
     <string name="sns_gmail_sign_on">قم بتسجيل الدخول حتى تتم إضافة أسماء الأشخاص الذين أرسلت لهم بريد إلكتروني إلى قاموسك الشخصي</string>
-    <string name="sns_personalizing">تخصيص تجربتك…</string>
+    <string name="sns_personalizing">تخصيص تجربتك</string>
     <string name="sns_personalize_finished">أخر تحديث كان في %s. اضغط للتحديث. انقر للتحديث.</string>
     <string name="dismiss_button">رفض</string>
     <string name="canceling">إلغاء</string>
@@ -436,7 +437,7 @@
     <string name="pref_delete_account_desc">انقر هنا لإلغاء تسجيل جميع الأجهزة وحذف بيانات حسابك من Swype Connect. هذا لن يحذف البيانات الشخصية الخاصة بلغتك أو كلماتك على هذا الجهاز.</string>
     <string name="pref_sync_now_title">المزامنة الآن</string>
     <string name="pref_devices_title">الأجهزة</string>
-    <string name="pref_personalize_your_experience_title">تخصيص تجربتك…</string>
+    <string name="pref_personalize_your_experience_title">تخصيص تجربتك</string>
     <string name="pref_clear_lang_data_dialog">سيتم حذف جميع البيانات باللغة الخاصة بك وسيتم أيضا تعطيل النسخ الاحتياطي والمزامنة لهذا الجهاز. هل أنت متأكد من رغبتك في المتابعة؟</string>
     <string name="startup_choose_lang">اختر لغتك</string>
     <string name="startup_choose_lang_toast">يجب تنزيل لغة للمتابعة</string>
@@ -482,7 +483,7 @@
     <string name="max_function_item_count_title">حد أقصى عدد</string>
     <string name="functionbar_hwtoggle_toast_on">تمكين الكتابة بخط اليد على لوحة مفاتيح</string>
     <string name="functionbar_hwtoggle_toast_off">إبطال الكتابة بخط اليد على لوحة مفاتيح</string>
-    <string name="pref_personalization_personalize_experience">تخصيص تجربتك…</string>
+    <string name="pref_personalization_personalize_experience">تخصيص تجربتك</string>
     <string name="personalization_settings_title">التخصيص</string>
     <string name="theme_name_frost">قطبي شمالي</string>
     <string name="theme_name_classic">كلاسيكي</string>

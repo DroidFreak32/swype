@@ -59,7 +59,7 @@ Voleu continuar?"</string>
     <string name="sns_facebook_sign_on">"Inicieu la sessió per tal que els noms de contacte del vostre compte de Facebook s'afegeixin al vostre diccionari personal"</string>
     <string name="sns_twitter_sign_on">"Inicieu la sessió per tal que els noms de contacte i les paraules noves del vostre feed públic de Twitter s'afegeixin al vostre diccionari personal"</string>
     <string name="sns_gmail_sign_on">"Inicieu la sessió per tal que els noms de les persones a les quals heu enviat correus electrònics s'afegeixin al vostre diccionari personal"</string>
-    <string name="sns_personalizing">"Personalització de l'experiència…"</string>
+    <string name="sns_personalizing">"Personalització de l'experiència"</string>
     <string name="sns_personalize_finished">Darrera actualització %s. Puntegeu per actualitzar.</string>
     <string name="dismiss_button">Anulla</string>
     <string name="canceling">Cancellació</string>
@@ -436,7 +436,7 @@ Installat. Puntegeu per iniciar."</string>
     <string name="pref_delete_account_desc">"Cancella el registre de tots els dispositius i esborra les dades del compte de Swype Connect. Les dades personals d'idioma i les paraules no s'esborraran del dispositiu."</string>
     <string name="pref_sync_now_title">Sincronitza ara</string>
     <string name="pref_devices_title">Dispositius</string>
-    <string name="pref_personalize_your_experience_title">"Personalització de l'experiència…"</string>
+    <string name="pref_personalize_your_experience_title">"Personalització de l'experiència"</string>
     <string name="pref_clear_lang_data_dialog">"Totes les dades d'idioma s'esborraran i la Còpia de seguretat amb sincronització es desactivarà en aquest dispositiu. Esteu segur que voleu continuar?"</string>
     <string name="startup_choose_lang">"Selecciona l'idioma"</string>
     <string name="startup_choose_lang_toast">Cal baixar un idioma per continuar</string>
@@ -482,7 +482,7 @@ Installat. Puntegeu per iniciar."</string>
     <string name="max_function_item_count_title">Límit màxim</string>
     <string name="functionbar_hwtoggle_toast_on">Escriptura a mà al teclat activada</string>
     <string name="functionbar_hwtoggle_toast_off">Escriptura a mà al teclat desactivada</string>
-    <string name="pref_personalization_personalize_experience">"Personalització de l'experiència…"</string>
+    <string name="pref_personalization_personalize_experience">"Personalització de l'experiència"</string>
     <string name="personalization_settings_title">Personalització</string>
     <string name="theme_name_frost">Àrtic</string>
     <string name="theme_name_classic">Clàssic</string>

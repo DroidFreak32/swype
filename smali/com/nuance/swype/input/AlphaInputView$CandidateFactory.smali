@@ -41,22 +41,22 @@
     .param p1, "view"    # Lcom/nuance/swype/input/AlphaInputView;
 
     .prologue
-    .line 2850
+    .line 2852
     invoke-direct {p0}, Lcom/nuance/input/swypecorelib/XT9CoreInput$DefaultCandidateFactory;-><init>()V
 
-    .line 2848
+    .line 2850
     sget-object v0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;->SWAP:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->englishSubjectiveFirstPersonBehavior:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
-    .line 2851
+    .line 2853
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->parentView:Ljava/lang/ref/WeakReference;
 
-    .line 2852
+    .line 2854
     return-void
 .end method
 
@@ -86,15 +86,15 @@
 
     const/4 v5, 0x0
 
-    .line 2862
+    .line 2864
     if-nez p2, :cond_1
 
-    .line 2897
+    .line 2899
     :cond_0
     :goto_0
     return-object v2
 
-    .line 2866
+    .line 2868
     :cond_1
     iget-boolean v3, p1, Lcom/nuance/swype/input/InputView;->autoCorrectionEnabled:Z
 
@@ -114,14 +114,14 @@
 
     if-le v3, v4, :cond_0
 
-    .line 2869
+    .line 2871
     invoke-interface {p2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/nuance/input/swypecorelib/WordCandidate;
 
-    .line 2870
+    .line 2872
     .local v0, "first":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/WordCandidate;->isDefault()Z
 
@@ -147,14 +147,14 @@
 
     if-eqz v3, :cond_0
 
-    .line 2871
+    .line 2873
     invoke-interface {p2, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/nuance/input/swypecorelib/WordCandidate;
 
-    .line 2872
+    .line 2874
     .local v1, "second":Lcom/nuance/input/swypecorelib/WordCandidate;
     invoke-virtual {v1}, Lcom/nuance/input/swypecorelib/WordCandidate;->toString()Ljava/lang/String;
 
@@ -168,24 +168,24 @@
 
     if-eqz v3, :cond_0
 
-    .line 2875
+    .line 2877
     sget-object v3, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;->AUTO_CORRECTION:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
     iget-object v4, p0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->englishSubjectiveFirstPersonBehavior:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
     if-ne v3, v4, :cond_2
 
-    .line 2879
+    .line 2881
     invoke-static {p2}, Lcom/nuance/input/swypecorelib/XT9CoreInput;->ensureSecondIsDefault(Ljava/util/List;)V
 
-    .line 2880
+    .line 2882
     new-instance v2, Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-direct {v2, p2, p3}, Lcom/nuance/input/swypecorelib/Candidates;-><init>(Ljava/util/List;Lcom/nuance/input/swypecorelib/Candidates$Source;)V
 
     goto :goto_0
 
-    .line 2883
+    .line 2885
     :cond_2
     sget-object v3, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;->SWAP:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
@@ -193,13 +193,13 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 2889
+    .line 2891
     invoke-interface {p2, v5, v1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 2890
+    .line 2892
     invoke-interface {p2, v6, v0}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 2891
+    .line 2893
     new-instance v2, Lcom/nuance/input/swypecorelib/Candidates;
 
     invoke-direct {v2, p2, p3, v5, v5}, Lcom/nuance/input/swypecorelib/Candidates;-><init>(Ljava/util/List;Lcom/nuance/input/swypecorelib/Candidates$Source;II)V
@@ -213,25 +213,25 @@
     .param p1, "lang"    # Ljava/lang/String;
 
     .prologue
-    .line 2908
+    .line 2910
     const/16 v1, 0x2d
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(I)I
 
     move-result v0
 
-    .line 2909
+    .line 2911
     .local v0, "end":I
     const/4 v1, -0x1
 
     if-ne v1, v0, :cond_0
 
-    .line 2910
+    .line 2912
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
 
-    .line 2912
+    .line 2914
     :cond_0
     const/4 v1, 0x0
 
@@ -265,17 +265,17 @@
     .end annotation
 
     .prologue
-    .line 2917
+    .line 2919
     .local p1, "wordCandidates":Ljava/util/List;, "Ljava/util/List<Lcom/nuance/input/swypecorelib/WordCandidate;>;"
     const/4 v1, 0x0
 
-    .line 2918
+    .line 2920
     .local v1, "out":Lcom/nuance/input/swypecorelib/Candidates;
     sget-object v3, Lcom/nuance/input/swypecorelib/Candidates$Source;->TAP:Lcom/nuance/input/swypecorelib/Candidates$Source;
 
     if-ne p2, v3, :cond_0
 
-    .line 2919
+    .line 2921
     iget-object v3, p0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->parentView:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -284,16 +284,16 @@
 
     check-cast v2, Lcom/nuance/swype/input/AlphaInputView;
 
-    .line 2920
+    .line 2922
     .local v2, "view":Lcom/nuance/swype/input/AlphaInputView;
     if-eqz v2, :cond_0
 
-    .line 2921
+    .line 2923
     invoke-virtual {v2}, Lcom/nuance/swype/input/AlphaInputView;->getCurrentInputLanguage()Lcom/nuance/swype/input/InputMethods$Language;
 
     move-result-object v0
 
-    .line 2922
+    .line 2924
     .local v0, "lang":Lcom/nuance/swype/input/InputMethods$Language;
     if-eqz v0, :cond_0
 
@@ -307,23 +307,23 @@
 
     if-eqz v3, :cond_0
 
-    .line 2923
+    .line 2925
     invoke-direct {p0, v2, p1, p2}, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->createEnglishTapCandidates(Lcom/nuance/swype/input/InputView;Ljava/util/List;Lcom/nuance/input/swypecorelib/Candidates$Source;)Lcom/nuance/input/swypecorelib/Candidates;
 
     move-result-object v1
 
-    .line 2927
+    .line 2929
     .end local v0    # "lang":Lcom/nuance/swype/input/InputMethods$Language;
     .end local v2    # "view":Lcom/nuance/swype/input/AlphaInputView;
     :cond_0
     if-nez v1, :cond_1
 
-    .line 2928
+    .line 2930
     invoke-super {p0, p1, p2}, Lcom/nuance/input/swypecorelib/XT9CoreInput$DefaultCandidateFactory;->createCandidates(Ljava/util/List;Lcom/nuance/input/swypecorelib/Candidates$Source;)Lcom/nuance/input/swypecorelib/Candidates;
 
     move-result-object v1
 
-    .line 2930
+    .line 2932
     :cond_1
     return-object v1
 .end method
@@ -333,9 +333,9 @@
     .param p1, "behavior"    # Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
     .prologue
-    .line 2855
+    .line 2857
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView$CandidateFactory;->englishSubjectiveFirstPersonBehavior:Lcom/nuance/swype/input/AlphaInputView$CandidateFactory$CandidateBehavior;
 
-    .line 2856
+    .line 2858
     return-void
 .end method

@@ -23,7 +23,7 @@
     .locals 1
 
     .prologue
-    .line 157
+    .line 159
     new-instance v0, Lcom/nuance/input/swypecorelib/T9WriteAlpha;
 
     invoke-direct {v0}, Lcom/nuance/input/swypecorelib/T9WriteAlpha;-><init>()V
@@ -37,7 +37,7 @@
     .locals 0
 
     .prologue
-    .line 156
+    .line 158
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -47,7 +47,7 @@
     .locals 1
 
     .prologue
-    .line 156
+    .line 158
     sget-object v0, Lcom/nuance/input/swypecorelib/SwypeCoreLibrary$T9WriteAlphaSingletonHolder;->T9WRITE_ALPHA_INSTANCE:Lcom/nuance/input/swypecorelib/T9WriteAlpha;
 
     return-object v0

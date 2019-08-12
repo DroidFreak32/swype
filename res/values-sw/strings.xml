@@ -59,7 +59,7 @@ Je, ungetaka kuendelea?"</string>
     <string name="sns_facebook_sign_on">Ingia ili majina ya waasiliani kutoka kwenye akaunti yako ya Facebook yaongezwe kwenye kamusi yako ya kibinafsi</string>
     <string name="sns_twitter_sign_on">Ingia ili majina ya watumiaji na maneno mapya kutoka kwenye mlisho wako wa umma wa Twitter yaongezwe kwenye kamusi yako ya kibinafsi</string>
     <string name="sns_gmail_sign_on">Ingia ili majina ya watu uliowatumia barua pepe yaongezwe kwenye kamusi yako ya kibinafsi</string>
-    <string name="sns_personalizing">Kubinafsisha uzoefu wako…</string>
+    <string name="sns_personalizing">Kubinafsisha uzoefu wako</string>
     <string name="sns_personalize_finished">Ilisasishwa mwisho mnamo %s. Gonga ili kuonyesha upya.</string>
     <string name="dismiss_button">Tupilia mbali</string>
     <string name="canceling">Inaghairi</string>
@@ -434,7 +434,7 @@ Imesakinishwa. Gonga ili kuzindua."</string>
     <string name="pref_delete_account_desc">Batilisha usajili wa vifaa vyote na ufute data ya akaunti yako kutoka kwenye Swype Connect. Hii haitafuta data yako ya lugha ya kibinafsi au maneno yako kwenye kifaa hiki.</string>
     <string name="pref_sync_now_title">Landanisha sasa</string>
     <string name="pref_devices_title">Vifaa</string>
-    <string name="pref_personalize_your_experience_title">Kubinafsisha uzoefu wako…</string>
+    <string name="pref_personalize_your_experience_title">Kubinafsisha uzoefu wako</string>
     <string name="pref_clear_lang_data_dialog">Data yote ya lugha yako itafutwa na Uakibishaji &amp; Ulandanishi italemazwa pia kwa kifaa hiki. Je, una uhakika unataka kuendelea?</string>
     <string name="startup_choose_lang">Chagua lugha yako</string>
     <string name="startup_choose_lang_toast">Lazima upakue lugha ili kuendelea</string>
@@ -480,7 +480,7 @@ Imesakinishwa. Gonga ili kuzindua."</string>
     <string name="max_function_item_count_title">Upeo wa Juu wa Hesabu</string>
     <string name="functionbar_hwtoggle_toast_on">Mwandiko wa mkono kwenye kibodi umewezeshwa</string>
     <string name="functionbar_hwtoggle_toast_off">Mwandiko wa mkono kwenye kibodi umelemazwa</string>
-    <string name="pref_personalization_personalize_experience">Kubinafsisha uzoefu wako…</string>
+    <string name="pref_personalization_personalize_experience">Kubinafsisha uzoefu wako</string>
     <string name="personalization_settings_title">Ubinafsishaji</string>
     <string name="theme_name_frost">Aktiki</string>
     <string name="theme_name_classic">Ya jadi</string>

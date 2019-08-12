@@ -59,7 +59,7 @@ Hanca?"</string>
     <string name="sns_facebook_sign_on">Asup ngarah ngaran kontak ti akun Facebook ditambahkeun ka kamus pribados</string>
     <string name="sns_twitter_sign_on">Asup ngarah ngaran pamake jeun kecap anyar ti eupan Twitter umum ditambahkeun ka kamus pribadi</string>
     <string name="sns_gmail_sign_on">Asup ngarah ngaran jelema nu geus dikirim surélék ditambahkeun ka kamus pribadi</string>
-    <string name="sns_personalizing">Mribadoskeun pangalaman anjeun…</string>
+    <string name="sns_personalizing">Mribadoskeun pangalaman anjeun</string>
     <string name="sns_personalize_finished">Terakhir diapdét di %s. Ketok jang ngamuat ulang.</string>
     <string name="dismiss_button">Tutup</string>
     <string name="canceling">Ngabatalkeun</string>
@@ -434,7 +434,7 @@ Geus diinstal. Ketok jang muka."</string>
     <string name="pref_delete_account_desc">Pegatkeun kabéh alat jeung pupus data akun anjeun ti Swype Connéct. Ieu moal mupis data basa pribadi atawa kecap anjeun ti ieu alat.</string>
     <string name="pref_sync_now_title">Singkronkeun ayeuna</string>
     <string name="pref_devices_title">Alat</string>
-    <string name="pref_personalize_your_experience_title">Mribadoskeun pangalaman anjeun…</string>
+    <string name="pref_personalize_your_experience_title">Mribadoskeun pangalaman anjeun</string>
     <string name="pref_clear_lang_data_dialog">Kabéh data basa anjeun bakal dipupus tur Cadangan &amp; Singkron ogé bakal dinonaktipkeun jang ieu alat. Yakin rék neruskeun?</string>
     <string name="startup_choose_lang">Pilih basa anjeun</string>
     <string name="startup_choose_lang_toast">Basa kudu diundeur heula saméméh neruskeun</string>
@@ -480,7 +480,7 @@ Geus diinstal. Ketok jang muka."</string>
     <string name="max_function_item_count_title">Wates Étangan Maks</string>
     <string name="functionbar_hwtoggle_toast_on">Tulisan leungeun dina kibor diaktipkeun</string>
     <string name="functionbar_hwtoggle_toast_off">Tulisan leungeun dina kibor dinonaktipkeun</string>
-    <string name="pref_personalization_personalize_experience">Mribadoskeun pangalaman anjeun…</string>
+    <string name="pref_personalization_personalize_experience">Mribadoskeun pangalaman anjeun</string>
     <string name="personalization_settings_title">Mribadoskeun</string>
     <string name="theme_name_frost">Arktik</string>
     <string name="theme_name_classic">Klasik</string>

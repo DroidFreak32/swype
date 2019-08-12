@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 589
+    .line 590
     iput-object p1, p0, Lcom/nuance/swype/input/InputFieldInfo$LogCatDump;->this$0:Lcom/nuance/swype/input/InputFieldInfo;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .param p2, "x1"    # Lcom/nuance/swype/input/InputFieldInfo$1;
 
     .prologue
-    .line 589
+    .line 590
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/InputFieldInfo$LogCatDump;-><init>(Lcom/nuance/swype/input/InputFieldInfo;)V
 
     return-void
@@ -53,11 +53,11 @@
     .param p1, "x"    # Ljava/lang/String;
 
     .prologue
-    .line 592
+    .line 593
     const-string v0, "TEST"
 
     invoke-static {v0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 593
+    .line 594
     return-void
 .end method

@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2930
+    .line 2929
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$InputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2932
+    .line 2931
     invoke-static {p3}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     move-result-object v1
@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    .line 2934
+    .line 2933
     .local v0, "a":Landroid/content/res/TypedArray;
     sget v1, Lcom/nuance/swype/input/R$styleable;->XT9_enabled:I
 
@@ -48,7 +48,7 @@
 
     iput-boolean v1, p0, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->mDefaultEnabled:Z
 
-    .line 2935
+    .line 2934
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -63,10 +63,10 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2936
+    .line 2935
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 2937
+    .line 2936
     return-void
 .end method
 
@@ -76,7 +76,7 @@
     .locals 2
 
     .prologue
-    .line 2941
+    .line 2940
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -89,19 +89,19 @@
 
     move-result-object v0
 
-    .line 2942
+    .line 2941
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->getLanguageId()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v0, v1, p0}, Lcom/nuance/swype/input/InputMethods;->access$800(Landroid/content/SharedPreferences;Ljava/lang/String;Lcom/nuance/swype/input/InputMethods$InputMode;)V
 
-    .line 2943
+    .line 2942
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->mParent:Lcom/nuance/swype/input/InputMethods$Language;
 
     invoke-static {v0, p0}, Lcom/nuance/swype/input/InputMethods$Language;->access$1202(Lcom/nuance/swype/input/InputMethods$Language;Lcom/nuance/swype/input/InputMethods$InputMode;)Lcom/nuance/swype/input/InputMethods$InputMode;
 
-    .line 2944
+    .line 2943
     return-void
 .end method
 
@@ -110,7 +110,7 @@
     .param p1, "enabled"    # Z
 
     .prologue
-    .line 2948
+    .line 2947
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -123,6 +123,6 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2949
+    .line 2948
     return-void
 .end method

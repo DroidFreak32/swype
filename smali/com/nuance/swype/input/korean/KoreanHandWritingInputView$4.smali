@@ -46,10 +46,10 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 1010
+    .line 1012
     const/4 v1, 0x0
 
-    .line 1012
+    .line 1014
     :goto_0
     return v1
 
@@ -59,7 +59,7 @@
 
     invoke-static {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1000(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)V
 
-    .line 1012
+    .line 1014
     :goto_1
     const/4 v1, 0x1
 
@@ -69,7 +69,12 @@
     :pswitch_1
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView$4;->this$0:Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1100(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/IME;
+    invoke-static {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1100(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)V
+
+    .line 1008
+    iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView$4;->this$0:Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
+
+    invoke-static {v1}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1200(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/IME;
 
     move-result-object v1
 
@@ -77,21 +82,23 @@
 
     move-result-object v0
 
-    .line 1007
+    .line 1009
     .local v0, "rect":Landroid/graphics/Rect;
     iget-object v1, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView$4;->this$0:Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
 
     iget-object v2, p0, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView$4;->this$0:Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;
 
-    invoke-static {v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1200(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
+    invoke-static {v2}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1300(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
 
     move-result-object v2
 
-    invoke-static {v1, v2, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1300(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
+    invoke-static {v1, v2, v0}, Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;->access$1400(Lcom/nuance/swype/input/korean/KoreanHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
 
     goto :goto_1
 
     .line 1000
+    nop
+
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_0

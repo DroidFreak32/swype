@@ -59,7 +59,7 @@ Kas soovite jätkata?"</string>
     <string name="sns_facebook_sign_on">Logige sisse, et lisada isiklikku sõnastikku kontaktide nimed Facebooki kontolt</string>
     <string name="sns_twitter_sign_on">Logige sisse, et oma Twitteri avalikust voost nimed ja uued sõnad isiklikku sõnastikku lisada</string>
     <string name="sns_gmail_sign_on">Logige sisse, et lisada isiklikku sõnastikku nende inimeste nimed, kellele olete meile saatnud</string>
-    <string name="sns_personalizing">Oma kogemuse isikupäraseks muutmine…</string>
+    <string name="sns_personalizing">Oma kogemuse isikupäraseks muutmine</string>
     <string name="sns_personalize_finished">Viimati värskendatud %s. Koputage värskendamiseks.</string>
     <string name="dismiss_button">Loobu</string>
     <string name="canceling">Tühistamine</string>
@@ -436,7 +436,7 @@ Installitud. Koputage käivitamiseks."</string>
     <string name="pref_delete_account_desc">Tühistage kõigi seadmete registreeringud ja kustutage oma kontoandmed Swype Connectist. See ei kustuta teie isiklikke keeleandmeid ega teie sõnu selles seadmes.</string>
     <string name="pref_sync_now_title">Sünkrooni kohe</string>
     <string name="pref_devices_title">Seadmed</string>
-    <string name="pref_personalize_your_experience_title">Oma kogemuse isikupäraseks muutmine…</string>
+    <string name="pref_personalize_your_experience_title">Oma kogemuse isikupäraseks muutmine</string>
     <string name="pref_clear_lang_data_dialog">Kõik teie keeleandmed kustutatakse ning varundamine ja sünkroonimine keelatakse selle seadme puhul. Kas soovite kindlasti jätkata?</string>
     <string name="startup_choose_lang">Valige keel</string>
     <string name="startup_choose_lang_toast">Jätkamiseks peate laadima alla keele</string>
@@ -482,7 +482,7 @@ Installitud. Koputage käivitamiseks."</string>
     <string name="max_function_item_count_title">Maksimaalne piirmäär</string>
     <string name="functionbar_hwtoggle_toast_on">Käsitsi kirjutamine klaviatuuril on lubatud</string>
     <string name="functionbar_hwtoggle_toast_off">Käsitsi kirjutamine klaviatuuril on keelatud</string>
-    <string name="pref_personalization_personalize_experience">Oma kogemuse isikupäraseks muutmine…</string>
+    <string name="pref_personalization_personalize_experience">Oma kogemuse isikupäraseks muutmine</string>
     <string name="personalization_settings_title">Isikupäraseks muutmine</string>
     <string name="theme_name_frost">Arktika</string>
     <string name="theme_name_classic">Klassikaline</string>

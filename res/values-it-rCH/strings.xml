@@ -58,7 +58,7 @@ Continuare?"</string>
     <string name="sns_facebook_sign_on">Accedi in modo che i nomi dei contatti presi dal tuo account Facebook siano aggiunti al tuo dizionario personale</string>
     <string name="sns_twitter_sign_on">Accedi in modo che i nomi utente e le nuove parole dal tuo feed pubblico di Twitter siano aggiunte al tuo dizionario personale</string>
     <string name="sns_gmail_sign_on">Accedi in modo che i nomi delle persone alle quali hai inviato un’e-mail siano aggiunti al tuo dizionario personale</string>
-    <string name="sns_personalizing">Personalizza la tua esperienza…</string>
+    <string name="sns_personalizing">Personalizza la tua esperienza</string>
     <string name="sns_personalize_finished">Ultimo aggiornamento il %s. Tocca per aggiornare.</string>
     <string name="dismiss_button">Ignora</string>
     <string name="canceling">Annullamento</string>
@@ -435,7 +435,7 @@ Installato. Tocca per avviare."</string>
     <string name="pref_delete_account_desc">Annulla la registrazione di tutti i dispositivi e cancella i dati dell’account da Swype Connect. Non cancellerà i tuoi dati lingua personali o le tue parole da questo dispositivo.</string>
     <string name="pref_sync_now_title">Sincronizza ora</string>
     <string name="pref_devices_title">Dispositivi</string>
-    <string name="pref_personalize_your_experience_title">Personalizza la tua esperienza…</string>
+    <string name="pref_personalize_your_experience_title">Personalizza la tua esperienza</string>
     <string name="pref_clear_lang_data_dialog">Tutti i dati lingua verranno eliminati e per questo dispositivo anche la funzione Backup e Sincronizzazione verrà disabilitata. Desideri continuare?</string>
     <string name="startup_choose_lang">Cambia la tua lingua</string>
     <string name="startup_choose_lang_toast">Per continuare devi scaricare una lingua</string>
@@ -481,7 +481,7 @@ Installato. Tocca per avviare."</string>
     <string name="max_function_item_count_title">Limite massimo</string>
     <string name="functionbar_hwtoggle_toast_on">Grafia su tastiera abilitata</string>
     <string name="functionbar_hwtoggle_toast_off">Grafia su tastiera disabilitata</string>
-    <string name="pref_personalization_personalize_experience">Personalizza la tua esperienza…</string>
+    <string name="pref_personalization_personalize_experience">Personalizza la tua esperienza</string>
     <string name="personalization_settings_title">Personalizzazione</string>
     <string name="theme_name_frost">Artico</string>
     <string name="theme_name_classic">Classico</string>

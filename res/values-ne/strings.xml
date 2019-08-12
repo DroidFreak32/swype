@@ -56,7 +56,7 @@
     <string name="sns_facebook_sign_on">साइन इन गर्नुहोस् ता कि तपाईंको व्यक्तिगत शब्दकोशमा तपाईंको Facebook खाताहरूका सम्पर्क नामहरू थप गर्न सकियोस्</string>
     <string name="sns_twitter_sign_on">साइन इन गर्नुहोस् ता कि तपाइँको सार्वजनिक Twitter फिडको प्रयोगकर्ता नाम र नयाँ शब्दहरू तपाइँको निजि शब्दकोशमा थपियोस्</string>
     <string name="sns_gmail_sign_on">साइन इन गर्नुहोस् ता कि तपाईंको व्यक्तिगत शब्दकोषमा तपाईंले पठाउनु भएको मानिसको नामहरू थप गर्न सकियोस्</string>
-    <string name="sns_personalizing">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै…</string>
+    <string name="sns_personalizing">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै</string>
     <string name="sns_personalize_finished">%s को अन्तिम पटक अपडेट पुन ताजा गर्न ट्याप गर्नुहोस्</string>
     <string name="dismiss_button">खारेज गर्नुहोस्</string>
     <string name="canceling">रद्द गर्दै</string>
@@ -428,7 +428,7 @@
     <string name="pref_delete_account_desc">Swype कनेक्टबाट सबै यन्त्रहरूको दर्ता खारेज गर्नुहोस् र आफ्नो खाता तथ्याङ्क मेटाउनुहोस्। यसले यस यन्त्रमा भएको तपाईंको व्यक्तिगत भाषा तथ्याङ्क र शब्द मेटाउने छैन।</string>
     <string name="pref_sync_now_title">अहिले समक्रमण गर्नुहोस्</string>
     <string name="pref_devices_title">यन्त्रहरू</string>
-    <string name="pref_personalize_your_experience_title">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै…</string>
+    <string name="pref_personalize_your_experience_title">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै</string>
     <string name="pref_clear_lang_data_dialog">यो यन्त्रको लागि तपाईंको सबै भाषा डेटाहरू मेटिनेछन् र ब्याकअप र समक्रमण पनि असक्षम हुनेछन्। के तपाईं जारी राख्न चाहेको कुरामा यकिन हुनुहुन्छ?</string>
     <string name="startup_choose_lang">तपाइँको भाषा चयन गर्नुहोस्</string>
     <string name="startup_choose_lang_toast">जारी राख्नको लागि तपाइँले भाषा डाउनलोड गर्नुपर्छ</string>
@@ -474,7 +474,7 @@
     <string name="max_function_item_count_title">अधिकतम गणना सीमा</string>
     <string name="functionbar_hwtoggle_toast_on">किबोर्डमा हस्तलेखन सक्षम गरियो ।</string>
     <string name="functionbar_hwtoggle_toast_off">किबोर्डमा हस्तलेखनलाई अक्षम गरियो ।</string>
-    <string name="pref_personalization_personalize_experience">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै…</string>
+    <string name="pref_personalization_personalize_experience">तपाईँको अनुभवलाई व्याक्तिगतकरण गर्दै</string>
     <string name="personalization_settings_title">व्यक्तिगतकरण</string>
     <string name="theme_name_frost">उत्तरी ध्रुव</string>
     <string name="theme_name_classic">उत्कृष्ट</string>

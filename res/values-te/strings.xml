@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Facebook ఖాతా నుండి పరిచయ పేర్లు మీ వ్యక్తిగత నిఘంటువుకి చేర్చేలా సైన్ ఇన్ చెయ్యి</string>
     <string name="sns_twitter_sign_on">మీ పబ్లిక్ Twitter ఫీడ్ నుండి వాడేవారి పేర్లు మరియు కొత్త పదాలు మీ వ్యక్తిగత నిఘంటువుకి చేర్చేలా సైన్ ఇన్ చెయ్యి</string>
     <string name="sns_gmail_sign_on">మీరు ఈమెయిల్ పంపిన వారి పేర్లు మీ వ్యక్తిగత నిఘంటువుకి చేర్చేలా సైన్ ఇన్ చెయ్యి</string>
-    <string name="sns_personalizing">నీ అనుభవాన్ని వ్యక్తీకరించడం…</string>
+    <string name="sns_personalizing">నీ అనుభవాన్ని వ్యక్తీకరించడం</string>
     <string name="sns_personalize_finished">చివరిసారిగా %s న అప్^^డేట్ చేయబడింది. తాజాపరచడానికి తట్టండి.</string>
     <string name="dismiss_button">తిరస్కరించు</string>
     <string name="canceling">రద్దు చేస్తుంది</string>
@@ -434,7 +434,7 @@
     <string name="pref_delete_account_desc">Swype కనెక్ట్ నుండి అన్ని పరికరాలని నమోదు నుండి ఉపసంహరించండి మరియు మీ ఖాతా డేటాని తొలగించండి. ఇది ఈ పరికరంలో మీ వ్యక్తిగత భాషా డేటాని లేదా మీ పదాలని తొలగించదు</string>
     <string name="pref_sync_now_title">ఇపుడు సమకాలీకరణ చెయ్యి</string>
     <string name="pref_devices_title">పరికరాలు</string>
-    <string name="pref_personalize_your_experience_title">నీ అనుభవాన్ని వ్యక్తీకరించడం…</string>
+    <string name="pref_personalize_your_experience_title">నీ అనుభవాన్ని వ్యక్తీకరించడం</string>
     <string name="pref_clear_lang_data_dialog">మీ భాష డేటా అంతా తొలగించబడుతుంది మరియు ఈ పరికరానికి బ్యాకప్ మరియు సమకాలీకరణం కూడా నిర్వీర్యం చేయబడుతుంది. మీరు కొనసాగించాలనుకుంటున్నారా?</string>
     <string name="startup_choose_lang">మీ భాషని ఎంపిక చెయ్యి</string>
     <string name="startup_choose_lang_toast">కొనసాగించడానికి ఒక భాషని మీరు డౌనలోడ్ చెయ్యాలి</string>
@@ -480,7 +480,7 @@
     <string name="max_function_item_count_title">గరిష్ట లెక్క పరిమితి</string>
     <string name="functionbar_hwtoggle_toast_on">కీ బోర్డు మీద చేతరాత అనేబుల్ చేయబడింది</string>
     <string name="functionbar_hwtoggle_toast_off">కీ బోర్డు మీద చేతరాత డిసేబుల్ చేయబడింది</string>
-    <string name="pref_personalization_personalize_experience">నీ అనుభవాన్ని వ్యక్తీకరించడం…</string>
+    <string name="pref_personalization_personalize_experience">నీ అనుభవాన్ని వ్యక్తీకరించడం</string>
     <string name="personalization_settings_title">వ్యక్తిగతీకరణ</string>
     <string name="theme_name_frost">ఆర్కిటిక్</string>
     <string name="theme_name_classic">ప్రామాణిక</string>

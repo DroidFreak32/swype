@@ -57,7 +57,7 @@
     <string name="sns_facebook_sign_on">ลงทะเบียนเข้าเพื่อให้รายชื่อผู้ติดต่อจากบัญชี Facebook ของคุณถูกเพิ่มลงในพจนานุกรมส่วนตัวของคุณ</string>
     <string name="sns_twitter_sign_on">ลงทะเบียนเข้าสู่ระบบ และคำใหม่ๆ จากการฟีดใน Twitter ส่วนรวมของคุณจะถูกเพิ่มลงในพจนานุกรมส่วนตัวของคุณ</string>
     <string name="sns_gmail_sign_on">ลงทะเบียนเข้าเพื่อให้รายชื่อผู้คนที่ส่งอีเมลถูกเพิ่มไปยังพจนานุกรมส่วนตัวของคุณ</string>
-    <string name="sns_personalizing">กำลังสร้างประสบการณ์ส่วนตัวของคุณ…</string>
+    <string name="sns_personalizing">กำลังสร้างประสบการณ์ส่วนตัวของคุณ</string>
     <string name="sns_personalize_finished">ปรับปรุงล่าสุดเมื่อ %s สัมผัสเพื่อรีเฟรช</string>
     <string name="dismiss_button">ละเว้น</string>
     <string name="canceling">กำลังยกเลิก</string>
@@ -434,7 +434,7 @@
     <string name="pref_delete_account_desc">ยกเลิกการลงทะเบียนอุปกรณ์ทั้งหมดและลบข้อมูลบัญชีของคุณจาก Swype Connect การดำเนินการนี้จะไม่ลบข้อมูลภาษาส่วนบุคคลของคุณหรือเอกสารของคุณบนอุปกรณ์นี้</string>
     <string name="pref_sync_now_title">ซิงค์ตอนนี้</string>
     <string name="pref_devices_title">อุปกรณ์</string>
-    <string name="pref_personalize_your_experience_title">กำลังสร้างประสบการณ์ส่วนตัวของคุณ…</string>
+    <string name="pref_personalize_your_experience_title">กำลังสร้างประสบการณ์ส่วนตัวของคุณ</string>
     <string name="pref_clear_lang_data_dialog">ข้อมูลภาษาของคุณทั้งหมดจะถูกลบและการสำรองและซิงค์จะถูกปิดใช้งานสำหรับอุปกรณ์นี้ด้วย คุณแน่ใจหรือไม่ว่าคุณต้องการดำเนินการต่อ?</string>
     <string name="startup_choose_lang">เลือกภาษาของคุณ</string>
     <string name="startup_choose_lang_toast">คุณต้องดาวน์โหลดภาษาหนึ่งเพื่อดำเนินการต่อ</string>
@@ -480,7 +480,7 @@
     <string name="max_function_item_count_title">จำกัดจำนวนสูงสุง</string>
     <string name="functionbar_hwtoggle_toast_on">เปิดใช้งานคีย์บอร์ดลายมือ</string>
     <string name="functionbar_hwtoggle_toast_off">ปิดการใช้งานคีย์บอร์ดลายมือ</string>
-    <string name="pref_personalization_personalize_experience">กำลังสร้างประสบการณ์ส่วนตัวของคุณ…</string>
+    <string name="pref_personalization_personalize_experience">กำลังสร้างประสบการณ์ส่วนตัวของคุณ</string>
     <string name="personalization_settings_title">การตั้งค่าความเป็นส่วนตัว</string>
     <string name="theme_name_frost">อาร์กติก</string>
     <string name="theme_name_classic">คลาสสิค</string>

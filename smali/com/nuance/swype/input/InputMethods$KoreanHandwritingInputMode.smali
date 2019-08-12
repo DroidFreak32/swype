@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2857
+    .line 2856
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$InputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2858
+    .line 2857
     return-void
 .end method
 
@@ -35,7 +35,7 @@
     .locals 2
 
     .prologue
-    .line 2867
+    .line 2866
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$KoreanHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -48,7 +48,7 @@
 
     if-lez v0, :cond_0
 
-    .line 2868
+    .line 2867
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$KoreanHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -59,7 +59,7 @@
 
     check-cast v0, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2870
+    .line 2869
     :goto_0
     return-object v0
 
@@ -74,7 +74,7 @@
     .param p1, "enabled"    # Z
 
     .prologue
-    .line 2862
+    .line 2861
     invoke-virtual {p0}, Lcom/nuance/swype/input/InputMethods$KoreanHandwritingInputMode;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -87,6 +87,6 @@
 
     invoke-virtual {v0, v1, p1}, Lcom/nuance/swype/input/AppPreferences;->setBoolean(Ljava/lang/String;Z)V
 
-    .line 2863
+    .line 2862
     return-void
 .end method

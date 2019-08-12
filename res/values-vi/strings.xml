@@ -59,7 +59,7 @@ Bạn có muốn tiếp tục không?"</string>
     <string name="sns_facebook_sign_on">Đăng nhập vào để tên liên lạc từ tài khoản Facebook của bạn được thêm vào từ điển cá nhân của bạn</string>
     <string name="sns_twitter_sign_on">Đăng nhập vào để tên liên lạc và từ mới từ trong các bài đăng trên Twitter được thêm vào từ điển cá nhân của bạn</string>
     <string name="sns_gmail_sign_on">Đăng nhập vào để tên của những người bạn đã gửi email được thêm vào từ điển cá nhân của bạn</string>
-    <string name="sns_personalizing">Cá nhân hóa trải nghiệm của bạn…</string>
+    <string name="sns_personalizing">Cá nhân hóa trải nghiệm của bạn</string>
     <string name="sns_personalize_finished">Cập nhật lần cuối vào %s. Gõ để làm mới.</string>
     <string name="dismiss_button">Bỏ qua</string>
     <string name="canceling">Đang hủy</string>
@@ -436,7 +436,7 @@ Nhấn để tải xuống và cài đặt DragonGo"</string>
     <string name="pref_delete_account_desc">Hủy đăng ký toàn bộ thiết bị và xóa dữ liệu tài khoản của bạn ra khỏi Swype Connect. Thao tác này sẽ không xóa dữ liệu ngôn ngữ cá nhân hoặc các từ của bạn trên thiết bị này.</string>
     <string name="pref_sync_now_title">Đồng bộ bây giờ</string>
     <string name="pref_devices_title">Các thiết bị</string>
-    <string name="pref_personalize_your_experience_title">Cá nhân hóa trải nghiệm của bạn…</string>
+    <string name="pref_personalize_your_experience_title">Cá nhân hóa trải nghiệm của bạn</string>
     <string name="pref_clear_lang_data_dialog">Tất cả các dữ liệu ngôn ngữ của bạn sẽ bị xoá và Sao chép dự phòng &amp; đồng bộ cũng sẽ bị tắt ở thiết bị này. Bạn có chắc chắn muốn tiếp tục không?</string>
     <string name="startup_choose_lang">Chọn ngôn ngữ của bạn</string>
     <string name="startup_choose_lang_toast">Bạn phải tải xuống một ngôn ngữ để tiếp tục</string>
@@ -482,7 +482,7 @@ Nhấn để tải xuống và cài đặt DragonGo"</string>
     <string name="max_function_item_count_title">Năng lực quá có thể được</string>
     <string name="functionbar_hwtoggle_toast_on">Chữ viết tay trên bàn phím đã bật</string>
     <string name="functionbar_hwtoggle_toast_off">Chữ viết tay trên bàn phím đã tắt</string>
-    <string name="pref_personalization_personalize_experience">Cá nhân hóa trải nghiệm của bạn…</string>
+    <string name="pref_personalization_personalize_experience">Cá nhân hóa trải nghiệm của bạn</string>
     <string name="personalization_settings_title">Cá nhân hóa</string>
     <string name="theme_name_frost">Bắc cực</string>
     <string name="theme_name_classic">Cổ điển</string>

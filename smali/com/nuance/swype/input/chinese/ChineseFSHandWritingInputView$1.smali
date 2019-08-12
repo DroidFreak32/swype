@@ -37,132 +37,67 @@
 
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)Z
-    .locals 5
+    .locals 3
     .param p1, "msg"    # Landroid/os/Message;
 
     .prologue
     .line 139
-    iget v2, p1, Landroid/os/Message;->what:I
+    iget v1, p1, Landroid/os/Message;->what:I
 
-    packed-switch v2, :pswitch_data_0
+    packed-switch v1, :pswitch_data_0
 
-    .line 156
+    .line 153
     :cond_0
     :goto_0
-    const/4 v2, 0x1
+    const/4 v1, 0x1
 
-    return v2
+    return v1
 
     .line 141
     :pswitch_0
-    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
+    iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-virtual {v2}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->isShown()Z
+    invoke-virtual {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->isShown()Z
 
-    move-result v2
+    move-result v1
 
-    if-eqz v2, :cond_0
+    if-eqz v1, :cond_0
 
     .line 142
-    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
+    iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v2}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$000(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$000(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
 
     goto :goto_0
 
     .line 147
     :pswitch_1
-    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
+    iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v2}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$100(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$100(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
 
-    move-result-object v2
+    .line 149
+    iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-virtual {v2}, Lcom/nuance/swype/input/IME;->getSpeechPopupRectInWindowCoord()Landroid/graphics/Rect;
-
-    move-result-object v0
-
-    .line 148
-    .local v0, "rect":Landroid/graphics/Rect;
-    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
-
-    invoke-virtual {v2}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$200(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
 
     move-result-object v1
 
-    .line 149
-    .local v1, "res":Landroid/content/res/Resources;
-    iget v2, v0, Landroid/graphics/Rect;->bottom:I
+    invoke-virtual {v1}, Lcom/nuance/swype/input/IME;->getSpeechPopupRectInWindowCoord()Landroid/graphics/Rect;
 
-    int-to-float v2, v2
-
-    sget v3, Lcom/nuance/swype/input/R$dimen;->keyboard_forced_height:I
-
-    invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
-
-    move-result v3
-
-    sub-float/2addr v2, v3
-
-    sget v3, Lcom/nuance/swype/input/R$dimen;->candidates_list_height:I
-
-    invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
-
-    move-result v3
-
-    sub-float/2addr v2, v3
-
-    float-to-int v2, v2
-
-    iput v2, v0, Landroid/graphics/Rect;->top:I
+    move-result-object v0
 
     .line 150
-    invoke-virtual {v1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    .local v0, "rect":Landroid/graphics/Rect;
+    iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
+
+    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
+
+    invoke-static {v2}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$300(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
 
     move-result-object v2
 
-    iget v2, v2, Landroid/content/res/Configuration;->orientation:I
-
-    const/4 v3, 0x2
-
-    if-ne v2, v3, :cond_1
-
-    .line 151
-    iget v2, v0, Landroid/graphics/Rect;->top:I
-
-    int-to-float v2, v2
-
-    const/high16 v3, 0x40000000    # 2.0f
-
-    invoke-virtual {v1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
-
-    move-result-object v4
-
-    iget v4, v4, Landroid/util/DisplayMetrics;->density:F
-
-    mul-float/2addr v3, v4
-
-    sub-float/2addr v2, v3
-
-    float-to-int v2, v2
-
-    iput v2, v0, Landroid/graphics/Rect;->top:I
-
-    .line 153
-    :cond_1
-    iget-object v2, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
-
-    iget-object v3, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$1;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
-
-    invoke-static {v3}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$200(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/emoji/EmojiInputController;
-
-    move-result-object v3
-
-    invoke-static {v2, v3, v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$300(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
+    invoke-static {v1, v2, v0}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;Lcom/nuance/swype/input/emoji/EmojiInputController;Landroid/graphics/Rect;)Z
 
     goto :goto_0
 

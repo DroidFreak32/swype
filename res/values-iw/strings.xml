@@ -58,7 +58,7 @@
     <string name="sns_facebook_sign_on">התחבר כדי ששמות אנשי קשר ומילים חדשות מחשבון ה-Facebook שלך יתווספו למילון האישי שלך</string>
     <string name="sns_twitter_sign_on">התחבר כדי ששמות משתמשים ומילים חדשות מהזנת ה-Twitter הציבורית שלך יתווספו למילון האישי שלך</string>
     <string name="sns_gmail_sign_on">התחבר כדי ששמות של אנשים ששלחת אליהם דואר אלקטרוני יתווספו למילון האישי שלך</string>
-    <string name="sns_personalizing">התאמה אישית של החוויה שלך…</string>
+    <string name="sns_personalizing">התאמה אישית של החוויה שלך</string>
     <string name="sns_personalize_finished">עדכון אחרון ב-%s. הקש כדי לרענן. הקש כדי לרענן.</string>
     <string name="dismiss_button">התעלם</string>
     <string name="canceling">מבטל</string>
@@ -435,7 +435,7 @@
     <string name="pref_delete_account_desc">בטל רישום של כל ההתקנים ומחק את נתוני החשבון שלך מ-Swype Connect. פעולה זו לא תמחק את נתוני השפה האישיים שלך או את המילים שלך בהתקן זה.</string>
     <string name="pref_sync_now_title">סנכרן כעת</string>
     <string name="pref_devices_title">התקנים</string>
-    <string name="pref_personalize_your_experience_title">התאמה אישית של החוויה שלך…</string>
+    <string name="pref_personalize_your_experience_title">התאמה אישית של החוויה שלך</string>
     <string name="pref_clear_lang_data_dialog">כל נתוני השפה שלך יימחקו וגיבוי וסנכרון יבוטלו אף הם להתקן זה. האם אתה בטוח שברצונך להמשיך?</string>
     <string name="startup_choose_lang">בחר בשפה שלך</string>
     <string name="startup_choose_lang_toast">עליך להוריד שפה כדי להמשיך.</string>
@@ -481,7 +481,7 @@
     <string name="max_function_item_count_title">מגבלת ספירה מרבית</string>
     <string name="functionbar_hwtoggle_toast_on">כתב יד במקלדת מופעל</string>
     <string name="functionbar_hwtoggle_toast_off">כתב יד במקלדת מושבת</string>
-    <string name="pref_personalization_personalize_experience">התאמה אישית של החוויה שלך…</string>
+    <string name="pref_personalization_personalize_experience">התאמה אישית של החוויה שלך</string>
     <string name="personalization_settings_title">התאמה אישית</string>
     <string name="theme_name_frost">ארקטי</string>
     <string name="theme_name_classic">קלאסי</string>

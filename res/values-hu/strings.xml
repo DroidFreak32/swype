@@ -59,7 +59,7 @@ Biztosan folytatja?"</string>
     <string name="sns_facebook_sign_on">Jelentkezzen be ahhoz, hogy Facebookos ismerőseinek nevei bekerüljenek a személyes szótárába</string>
     <string name="sns_twitter_sign_on">Lépjen be ahhoz, hogy nyilvános Twitter hírcsatornájából a felhasználói nevek és új szavak a felhasználói szótárához hozzáadásra kerüljenek</string>
     <string name="sns_gmail_sign_on">Jelentkezzen be ahhoz, hogy azoknak az embereknek a neve, akiknek emailt küldött, bekerüljön a személyes szótárába</string>
-    <string name="sns_personalizing">Felhasználói élménye testreszabása…</string>
+    <string name="sns_personalizing">Felhasználói élménye testreszabása</string>
     <string name="sns_personalize_finished">Legutóbb frissítve %s Érintse meg a frissítéshez.</string>
     <string name="dismiss_button">Elutasít</string>
     <string name="canceling">Törlés folyamatban</string>
@@ -436,7 +436,7 @@ Telepítve. Érintse meg az indításhoz."</string>
     <string name="pref_delete_account_desc">Minden készülék regisztrációjának törölése, és a fiókadatok törlése a Swype Connectből. Ez nem törli a személyes nyelv adatokat vagy a szavakat erről az eszközről.</string>
     <string name="pref_sync_now_title">Szinkronizálás most</string>
     <string name="pref_devices_title">Eszközök</string>
-    <string name="pref_personalize_your_experience_title">Felhasználói élménye testreszabása…</string>
+    <string name="pref_personalize_your_experience_title">Felhasználói élménye testreszabása</string>
     <string name="pref_clear_lang_data_dialog">Minden nyelv adat törlésre kerül, a Biztonsági mentés és szinkronizálás pedig szintén le lesz tiltva ehhez az eszközhöz. Biztosan folytatja?</string>
     <string name="startup_choose_lang">Válassza ki a nyelvet</string>
     <string name="startup_choose_lang_toast">A továbblépéshez le kell töltenie egy nyelvet</string>
@@ -482,7 +482,7 @@ Telepítve. Érintse meg az indításhoz."</string>
     <string name="max_function_item_count_title">Max. szám</string>
     <string name="functionbar_hwtoggle_toast_on">Kézírás a billentyűzeten engedélyezve</string>
     <string name="functionbar_hwtoggle_toast_off">Kézírás a billentyűzeten letiltva</string>
-    <string name="pref_personalization_personalize_experience">Felhasználói élménye testreszabása…</string>
+    <string name="pref_personalization_personalize_experience">Felhasználói élménye testreszabása</string>
     <string name="personalization_settings_title">Személyreszabás</string>
     <string name="theme_name_frost">Sarkvidék</string>
     <string name="theme_name_classic">Klasszikus</string>

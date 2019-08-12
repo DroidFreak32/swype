@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 3160
+    .line 3175
     iput-object p1, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,14 +40,14 @@
     .locals 6
 
     .prologue
-    .line 3163
+    .line 3178
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/AppPreferences;->from(Landroid/content/Context;)Lcom/nuance/swype/input/AppPreferences;
 
     move-result-object v0
 
-    .line 3164
+    .line 3179
     .local v0, "appPref":Lcom/nuance/swype/input/AppPreferences;
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -55,7 +55,7 @@
 
     move-result-object v2
 
-    .line 3165
+    .line 3180
     .local v2, "imeApp":Lcom/nuance/swype/input/IMEApplication;
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -63,7 +63,7 @@
 
     move-result-object v5
 
-    .line 3166
+    .line 3181
     invoke-virtual {v5}, Lcom/nuance/swype/input/BuildInfo;->isDTCbuild()Z
 
     move-result v5
@@ -76,11 +76,11 @@
 
     if-eqz v5, :cond_1
 
-    .line 3167
+    .line 3182
     :cond_0
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->startScrapingServices()V
 
-    .line 3170
+    .line 3185
     :cond_1
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -88,14 +88,14 @@
 
     move-result-object v3
 
-    .line 3171
+    .line 3186
     .local v3, "inputView":Lcom/nuance/swype/input/InputView;
     if-eqz v3, :cond_2
 
-    .line 3172
+    .line 3187
     invoke-virtual {v3}, Lcom/nuance/swype/input/InputView;->handleClose()V
 
-    .line 3175
+    .line 3190
     :cond_2
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->isLowEndDeviceBuild()Z
 
@@ -103,18 +103,18 @@
 
     if-eqz v5, :cond_3
 
-    .line 3176
+    .line 3191
     invoke-virtual {v2}, Lcom/nuance/swype/input/IMEApplication;->releaseInstances()V
 
-    .line 3179
+    .line 3194
     :cond_3
     const/4 v4, 0x0
 
-    .line 3180
+    .line 3195
     .local v4, "text":Ljava/lang/String;
     const/4 v1, 0x0
 
-    .line 3181
+    .line 3196
     .local v1, "enterKeySelected":Z
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -134,7 +134,7 @@
 
     if-eqz v5, :cond_4
 
-    .line 3182
+    .line 3197
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->access$800(Lcom/nuance/swype/input/IME;)Lcom/nuance/swype/input/EditState;
@@ -147,7 +147,7 @@
 
     move-result-object v4
 
-    .line 3183
+    .line 3198
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->access$800(Lcom/nuance/swype/input/IME;)Lcom/nuance/swype/input/EditState;
@@ -160,7 +160,7 @@
 
     move-result v1
 
-    .line 3185
+    .line 3200
     :cond_4
     iget-object v5, p0, Lcom/nuance/swype/input/IME$8;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -170,6 +170,6 @@
 
     invoke-virtual {v5, v4, v1}, Lcom/nuance/swype/connect/Connect;->onFinishInput(Ljava/lang/String;Z)V
 
-    .line 3186
+    .line 3201
     return-void
 .end method

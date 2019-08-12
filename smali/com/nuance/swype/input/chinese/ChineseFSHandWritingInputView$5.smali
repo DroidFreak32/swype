@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1367
+    .line 1364
     iput-object p1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -45,38 +45,38 @@
 
     const/4 v3, -0x1
 
-    .line 1371
+    .line 1368
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     iget-object v1, v1, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->mContainer:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingContainerView;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingContainerView;->hidePopupCandidatesView()V
 
-    .line 1372
+    .line 1369
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     const/4 v2, 0x0
 
     iput-boolean v2, v1, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->gridCandidateTableVisible:Z
 
-    .line 1373
+    .line 1370
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
     invoke-virtual {v1, v4}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->setCandidatesViewShown(Z)V
 
-    .line 1374
+    .line 1371
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    .line 1375
+    .line 1372
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1600(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/IME;
 
     move-result-object v1
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    .line 1376
+    .line 1373
     .local v0, "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     if-eqz v0, :cond_1
 
@@ -104,46 +104,46 @@
 
     if-eqz v1, :cond_1
 
-    .line 1377
+    .line 1374
     :cond_0
     invoke-virtual {v0}, Lcom/nuance/swype/input/view/InputContainerView;->requestLayout()V
 
-    .line 1378
+    .line 1375
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1, v4}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1602(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;Z)Z
+    invoke-static {v1, v4}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1702(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;Z)Z
 
-    .line 1381
+    .line 1378
     .end local v0    # "containerView":Lcom/nuance/swype/input/view/InputContainerView;
     :cond_1
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1700(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1800(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)V
 
-    .line 1382
+    .line 1379
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1, v3}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1802(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;I)I
+    invoke-static {v1, v3}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$1902(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;I)I
 
-    .line 1383
+    .line 1380
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
 
     move-result-object v1
 
     if-eqz v1, :cond_2
 
-    .line 1384
+    .line 1381
     iget-object v1, p0, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView$5;->this$0:Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;
 
-    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$400(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
+    invoke-static {v1}, Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;->access$500(Lcom/nuance/swype/input/chinese/ChineseFSHandWritingInputView;)Lcom/nuance/swype/input/chinese/ChineseHandWritingView;
 
     move-result-object v1
 
     invoke-virtual {v1, v3}, Lcom/nuance/swype/input/chinese/ChineseHandWritingView;->setPointStatus(I)V
 
-    .line 1387
+    .line 1384
     :cond_2
     return-void
 .end method

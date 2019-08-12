@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 4396
+    .line 4416
     iput-object p1, p0, Lcom/nuance/swype/input/IME$17;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 4398
+    .line 4418
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "android.intent.action.VIEW"
@@ -73,17 +73,17 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 4400
+    .line 4420
     .local v0, "marketIntent":Landroid/content/Intent;
     const/high16 v1, 0x10000000
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 4401
+    .line 4421
     iget-object v1, p0, Lcom/nuance/swype/input/IME$17;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v1, v0}, Lcom/nuance/swype/input/IME;->startActivity(Landroid/content/Intent;)V
 
-    .line 4402
+    .line 4422
     return-void
 .end method

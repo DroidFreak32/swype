@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Кіріңіз, сонда Facebook тіркелгіңіздегі контакт аттары жеке сөздігіңізге қосылады</string>
     <string name="sns_twitter_sign_on">Кіріңіз, сонда хабарлар қабырғасынан алынған пайдаланушы аттары мен жаңа сөздер Twitter-ден жеке сөздігіңізге қосылады</string>
     <string name="sns_gmail_sign_on">Кіріңіз, сонда сіз оларға электрондық пошта жіберген адамдардың аттары жеке сөздігіңізге қосылады</string>
-    <string name="sns_personalizing">Тәжірибеңізді теңшеу…</string>
+    <string name="sns_personalizing">Тәжірибеңізді теңшеу</string>
     <string name="sns_personalize_finished">%s жаңартылды. Жаңарту үшін басыңыз. Жаңарту үшін басыңыз.</string>
     <string name="dismiss_button">Қабылдамау</string>
     <string name="canceling">Болдырмау</string>
@@ -436,7 +436,7 @@ DragonGo-ді жүктеу және орнату үшін, түртіңіз"</st
     <string name="pref_delete_account_desc">Барлық құрылғыларды тіркеуден шығарып тіркелгі мәліметтеріңізді Swype Connect-тен жойып тастаңыз. Бұл сіздің құрылғыңызда жеке тіл мәліметтеріңізді немесе сөздеріңізді жойып тастамайды.</string>
     <string name="pref_sync_now_title">Үндестіру</string>
     <string name="pref_devices_title">Құрылғылар</string>
-    <string name="pref_personalize_your_experience_title">Тәжірибеңізді теңшеу…</string>
+    <string name="pref_personalize_your_experience_title">Тәжірибеңізді теңшеу</string>
     <string name="pref_clear_lang_data_dialog">Барлық тіл мәліметтеріңіз жойылады және Сақтық көшірмелеу мен Үндестіру осы құрылғыға қол жеткізгісіз болады. Жалғастырғыңыз келеді ме?</string>
     <string name="startup_choose_lang">Тіліңізді таңдаңыз</string>
     <string name="startup_choose_lang_toast">Жалғастыру үшін сіз тілді жүктеп алуыңыз қажет</string>
@@ -482,7 +482,7 @@ DragonGo-ді жүктеу және орнату үшін, түртіңіз"</st
     <string name="max_function_item_count_title">Максималды Есеп Шегі</string>
     <string name="functionbar_hwtoggle_toast_on">Пернетақтадағы қолжазба қосулы</string>
     <string name="functionbar_hwtoggle_toast_off">Пернетақтадағы қолжазба өшірулі</string>
-    <string name="pref_personalization_personalize_experience">Тәжірибеңізді теңшеу…</string>
+    <string name="pref_personalization_personalize_experience">Тәжірибеңізді теңшеу</string>
     <string name="personalization_settings_title">Жеке теңшеулер</string>
     <string name="theme_name_frost">Арктикалық</string>
     <string name="theme_name_classic">Классикалық</string>

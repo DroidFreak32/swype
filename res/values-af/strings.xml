@@ -59,7 +59,7 @@ Wil jy voortgaan?"</string>
     <string name="sns_facebook_sign_on">Teken in sodat kontakte se name van jou Facebook-rekening by jou persoonlike woordeboek gevoeg kan word</string>
     <string name="sns_twitter_sign_on">Teken in sodat gebruikersname en nuwe woorde uit jou publieke Twitter byvoegings by jou persoonlike woordeboek gevoeg kan word</string>
     <string name="sns_gmail_sign_on">Teken in sodat name van mense aan wie jy e-posse gestuur het by jou persoonlike woordeboek gevoeg kan word</string>
-    <string name="sns_personalizing">Verpersoonlik jou ervaring…</string>
+    <string name="sns_personalizing">Verpersoonlik jou ervaring</string>
     <string name="sns_personalize_finished">Laaste opgedateer op %s. Tik om te verfris.</string>
     <string name="dismiss_button">Laat vaar</string>
     <string name="canceling">Besig om te kanselleer</string>
@@ -434,7 +434,7 @@ Geïnstalleer Iik om te loods"</string>
     <string name="pref_delete_account_desc">Deregistreer alle toestelle en verwyder jou rekeningdata van Swype Connect. Dit sal nie jou persoonlike taaldata of jou woorde op hierdie toestel verwyder nie.</string>
     <string name="pref_sync_now_title">Sinkroniseer nou</string>
     <string name="pref_devices_title">Toestelle</string>
-    <string name="pref_personalize_your_experience_title">Verpersoonlik jou ervaring…</string>
+    <string name="pref_personalize_your_experience_title">Verpersoonlik jou ervaring</string>
     <string name="pref_clear_lang_data_dialog">Al jou taaldata sal verwyder word en Rugsteun en Sinkronisasie sal ook afgeskakel word vir hierdie toestel. Is jy seker jy wil voortgaan?</string>
     <string name="startup_choose_lang">Kies jou taal</string>
     <string name="startup_choose_lang_toast">"Jy moet 'n taal aflaai om voort te gaan"</string>
@@ -480,7 +480,7 @@ Geïnstalleer Iik om te loods"</string>
     <string name="max_function_item_count_title">Maksimum aantal</string>
     <string name="functionbar_hwtoggle_toast_on">Handskrif op die sleutelbord is in staat gestel</string>
     <string name="functionbar_hwtoggle_toast_off">Handskrif op die sleutelbord is afgeskakel</string>
-    <string name="pref_personalization_personalize_experience">Verpersoonlik jou ervaring…</string>
+    <string name="pref_personalization_personalize_experience">Verpersoonlik jou ervaring</string>
     <string name="personalization_settings_title">Verpersoonliking</string>
     <string name="theme_name_frost">Arktiese</string>
     <string name="theme_name_classic">Klassiek</string>

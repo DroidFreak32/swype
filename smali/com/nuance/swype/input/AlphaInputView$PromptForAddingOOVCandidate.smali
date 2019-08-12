@@ -25,7 +25,7 @@
     .locals 1
 
     .prologue
-    .line 3041
+    .line 3043
     iput-object p1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     const/4 v0, 0x0
@@ -41,7 +41,7 @@
     .param p2, "x1"    # Lcom/nuance/swype/input/AlphaInputView$1;
 
     .prologue
-    .line 3041
+    .line 3043
     invoke-direct {p0, p1}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;-><init>(Lcom/nuance/swype/input/AlphaInputView;)V
 
     return-void
@@ -53,7 +53,7 @@
     .locals 1
 
     .prologue
-    .line 3067
+    .line 3069
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->access$600(Lcom/nuance/swype/input/AlphaInputView;)Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -62,7 +62,7 @@
 
     invoke-virtual {v0}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->explicitLearningAddLastWord()V
 
-    .line 3068
+    .line 3070
     return-void
 .end method
 
@@ -70,7 +70,7 @@
     .locals 1
 
     .prologue
-    .line 3099
+    .line 3101
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->word:Ljava/lang/String;
 
     return-object v0
@@ -82,12 +82,12 @@
     .param p2, "syncId"    # I
 
     .prologue
-    .line 3092
+    .line 3094
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->oovLearningWords:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 3095
+    .line 3097
     const/4 v0, 0x0
 
     return v0
@@ -97,7 +97,7 @@
     .locals 6
 
     .prologue
-    .line 3072
+    .line 3074
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->oovLearningWords:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
@@ -106,7 +106,7 @@
 
     if-nez v1, :cond_0
 
-    .line 3075
+    .line 3077
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->oovLearningWords:Ljava/util/List;
 
     iget-object v2, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->oovLearningWords:Ljava/util/List;
@@ -125,7 +125,7 @@
 
     iput-object v1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->word:Ljava/lang/String;
 
-    .line 3076
+    .line 3078
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-virtual {v1}, Lcom/nuance/swype/input/AlphaInputView;->getResources()Landroid/content/res/Resources;
@@ -148,16 +148,16 @@
 
     move-result-object v0
 
-    .line 3077
+    .line 3079
     .local v0, "prompt":Ljava/lang/String;
     iget-object v1, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->oovLearningWords:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 3078
+    .line 3080
     invoke-virtual {p0, v0}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->promptToAddNewWord(Ljava/lang/String;)V
 
-    .line 3080
+    .line 3082
     .end local v0    # "prompt":Ljava/lang/String;
     :cond_0
     return-void
@@ -173,13 +173,13 @@
 
     const/4 v1, 0x1
 
-    .line 3047
+    .line 3049
     invoke-virtual {p0}, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->clearOOVWords()V
 
-    .line 3048
+    .line 3050
     iput-object v3, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->word:Ljava/lang/String;
 
-    .line 3050
+    .line 3052
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     iget-object v0, v0, Lcom/nuance/swype/input/AlphaInputView;->mInputFieldInfo:Lcom/nuance/swype/input/InputFieldInfo;
@@ -200,7 +200,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 3052
+    .line 3054
     :cond_0
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
@@ -210,7 +210,7 @@
 
     invoke-virtual {v0, v1, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setExplicitLearning(ZZ)V
 
-    .line 3053
+    .line 3055
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->access$600(Lcom/nuance/swype/input/AlphaInputView;)Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -219,11 +219,11 @@
 
     invoke-virtual {v0, v3}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->registerExplicitLearningApprovalCallback(Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput$ExplicitLearningApprovalCallback;)V
 
-    .line 3062
+    .line 3064
     :goto_0
     return-void
 
-    .line 3054
+    .line 3056
     :cond_1
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
@@ -231,7 +231,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 3056
+    .line 3058
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->access$600(Lcom/nuance/swype/input/AlphaInputView;)Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -240,7 +240,7 @@
 
     invoke-virtual {v0, v1, v1}, Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;->setExplicitLearning(ZZ)V
 
-    .line 3057
+    .line 3059
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/AlphaInputView;->access$600(Lcom/nuance/swype/input/AlphaInputView;)Lcom/nuance/input/swypecorelib/XT9CoreAlphaInput;
@@ -251,7 +251,7 @@
 
     goto :goto_0
 
-    .line 3060
+    .line 3062
     :cond_2
     iget-object v0, p0, Lcom/nuance/swype/input/AlphaInputView$PromptForAddingOOVCandidate;->this$0:Lcom/nuance/swype/input/AlphaInputView;
 

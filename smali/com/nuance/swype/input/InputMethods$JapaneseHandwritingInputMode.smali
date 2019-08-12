@@ -22,10 +22,10 @@
     .param p3, "parser"    # Landroid/content/res/XmlResourceParser;
 
     .prologue
-    .line 2959
+    .line 2958
     invoke-direct {p0, p1, p2, p3}, Lcom/nuance/swype/input/InputMethods$JapaneseInputMode;-><init>(Landroid/content/res/Resources;Lcom/nuance/swype/input/InputMethods$Language;Landroid/content/res/XmlResourceParser;)V
 
-    .line 2961
+    .line 2960
     return-void
 .end method
 
@@ -35,7 +35,7 @@
     .locals 2
 
     .prologue
-    .line 2966
+    .line 2965
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$JapaneseHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     if-eqz v0, :cond_0
@@ -48,7 +48,7 @@
 
     if-lez v0, :cond_0
 
-    .line 2968
+    .line 2967
     iget-object v0, p0, Lcom/nuance/swype/input/InputMethods$JapaneseHandwritingInputMode;->mLayouts:Ljava/util/List;
 
     const/4 v1, 0x0
@@ -59,7 +59,7 @@
 
     check-cast v0, Lcom/nuance/swype/input/InputMethods$Layout;
 
-    .line 2970
+    .line 2969
     :goto_0
     return-object v0
 

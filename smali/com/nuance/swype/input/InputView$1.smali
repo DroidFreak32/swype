@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1638
+    .line 1635
     iput-object p1, p0, Lcom/nuance/swype/input/InputView$1;->this$0:Lcom/nuance/swype/input/InputView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,7 +40,7 @@
     .locals 1
 
     .prologue
-    .line 1648
+    .line 1645
     const/4 v0, 0x0
 
     return v0
@@ -50,12 +50,12 @@
     .locals 1
 
     .prologue
-    .line 1642
+    .line 1639
     iget-object v0, p0, Lcom/nuance/swype/input/InputView$1;->this$0:Lcom/nuance/swype/input/InputView;
 
     invoke-static {v0}, Lcom/nuance/swype/input/InputView;->access$000(Lcom/nuance/swype/input/InputView;)V
 
-    .line 1643
+    .line 1640
     const/4 v0, 0x0
 
     return v0

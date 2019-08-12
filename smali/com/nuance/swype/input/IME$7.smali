@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 2965
+    .line 2978
     iput-object p1, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -39,7 +39,7 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 2969
+    .line 2982
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v5
@@ -52,22 +52,22 @@
 
     if-eqz v5, :cond_1
 
-    .line 2970
+    .line 2983
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->cleanupAccessibility()V
 
-    .line 2971
+    .line 2984
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->onDestroy()V
 
-    .line 3021
+    .line 3034
     :cond_0
     :goto_0
     return-void
 
-    .line 2972
+    .line 2985
     :cond_1
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -81,17 +81,17 @@
 
     if-eqz v5, :cond_3
 
-    .line 2973
+    .line 2986
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->cleanupAccessibility()V
 
-    .line 2974
+    .line 2987
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->stopSpeech()V
 
-    .line 2975
+    .line 2988
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     const-string v6, "keyguard"
@@ -102,7 +102,7 @@
 
     check-cast v1, Landroid/app/KeyguardManager;
 
-    .line 2977
+    .line 2990
     .local v1, "kgm":Landroid/app/KeyguardManager;
     if-eqz v1, :cond_2
 
@@ -118,7 +118,7 @@
 
     if-eqz v5, :cond_2
 
-    .line 2979
+    .line 2992
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->access$400(Lcom/nuance/swype/input/IME;)Lcom/nuance/swype/input/IME$KeyboardState;
@@ -127,7 +127,7 @@
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME$KeyboardState;->clear()V
 
-    .line 2981
+    .line 2994
     :cond_2
     invoke-static {}, Lcom/nuance/swype/input/emoji/EmojiInputController;->isActive()Z
 
@@ -135,7 +135,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 2982
+    .line 2995
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IMEApplication;->from(Landroid/content/Context;)Lcom/nuance/swype/input/IMEApplication;
@@ -146,16 +146,16 @@
 
     move-result-object v0
 
-    .line 2983
+    .line 2996
     .local v0, "emojiInputController":Lcom/nuance/swype/input/emoji/EmojiInputController;
     if-eqz v0, :cond_0
 
-    .line 2984
+    .line 2997
     invoke-virtual {v0}, Lcom/nuance/swype/input/emoji/EmojiInputController;->switchStateToRecentCategory()V
 
     goto :goto_0
 
-    .line 2989
+    .line 3002
     .end local v0    # "emojiInputController":Lcom/nuance/swype/input/emoji/EmojiInputController;
     .end local v1    # "kgm":Landroid/app/KeyguardManager;
     :cond_3
@@ -171,14 +171,14 @@
 
     if-eqz v5, :cond_4
 
-    .line 2990
+    .line 3003
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->cleanupAccessibility()V
 
     goto :goto_0
 
-    .line 2991
+    .line 3004
     :cond_4
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -192,15 +192,15 @@
 
     if-eqz v5, :cond_6
 
-    .line 2992
+    .line 3005
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->cleanupAccessibility()V
 
-    .line 2993
+    .line 3006
     const/4 v4, 0x0
 
-    .line 2994
+    .line 3007
     .local v4, "wasShowingFirstTimeMessage":Z
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
@@ -210,7 +210,7 @@
 
     if-eqz v5, :cond_5
 
-    .line 2995
+    .line 3008
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->access$500(Lcom/nuance/swype/input/IME;)Lcom/nuance/swype/input/ShowFirstTimeStartupMessages;
@@ -221,23 +221,23 @@
 
     move-result v4
 
-    .line 2997
+    .line 3010
     :cond_5
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->closeDialogs()V
 
-    .line 3000
+    .line 3013
     if-eqz v4, :cond_0
 
-    .line 3001
+    .line 3014
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-static {v5}, Lcom/nuance/swype/input/IME;->access$600(Lcom/nuance/swype/input/IME;)V
 
     goto/16 :goto_0
 
-    .line 3003
+    .line 3016
     .end local v4    # "wasShowingFirstTimeMessage":Z
     :cond_6
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
@@ -252,7 +252,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 3004
+    .line 3017
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->isValidBuild()Z
@@ -261,7 +261,7 @@
 
     if-eqz v5, :cond_0
 
-    .line 3008
+    .line 3021
     const-string v5, "language.id"
 
     const/4 v6, 0x0
@@ -270,7 +270,7 @@
 
     move-result v2
 
-    .line 3010
+    .line 3023
     .local v2, "languageId":I
     new-instance v3, Landroid/content/Intent;
 
@@ -284,7 +284,7 @@
 
     invoke-direct {v3, v5, v6}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3011
+    .line 3024
     .local v3, "languageUpdateIntent":Landroid/content/Intent;
     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -292,30 +292,30 @@
 
     if-ge v5, v6, :cond_7
 
-    .line 3012
+    .line 3025
     const/high16 v5, 0x10000000
 
     invoke-virtual {v3, v5}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 3016
+    .line 3029
     :goto_1
     const-string v5, "language.id"
 
     invoke-virtual {v3, v5, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 3017
+    .line 3030
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5, v3}, Lcom/nuance/swype/input/IME;->startActivity(Landroid/content/Intent;)V
 
-    .line 3018
+    .line 3031
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 
     invoke-virtual {v5}, Lcom/nuance/swype/input/IME;->hideWindow()V
 
     goto/16 :goto_0
 
-    .line 3014
+    .line 3027
     :cond_7
     iget-object v5, p0, Lcom/nuance/swype/input/IME$7;->this$0:Lcom/nuance/swype/input/IME;
 

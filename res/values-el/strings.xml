@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Εισέλθετε, για να προστεθούν στο προσωπικό σας λεξικό τα ονόματα των επαφών σας από τον λογαριασμό του Facebook</string>
     <string name="sns_twitter_sign_on">Εισέλθετε, για να προστεθούν στο προσωπικό σας λεξικό τα ονόματα χρήστη και νέες λέξεις από την δημόσια ροή σας στο Twitter</string>
     <string name="sns_gmail_sign_on">Εισέλθετε, για να προστεθούν στο προσωπικό σας λεξικό τα ονόματα των ατόμων στα οποία έχετε στείλει email</string>
-    <string name="sns_personalizing">Εξατομίκευση της εμπειρίας σας…</string>
+    <string name="sns_personalizing">Εξατομίκευση της εμπειρίας σας</string>
     <string name="sns_personalize_finished">"Τελευταία ενημέρωση στις %s. Χτυπήστε το για ν' ανανεωθεί. Χτυπήστε το για ν' ανανεωθεί."</string>
     <string name="dismiss_button">Απόρριψη</string>
     <string name="canceling">Γίνεται ακύρωση</string>
@@ -436,7 +436,7 @@
     <string name="pref_delete_account_desc">Κατάργηση της καταχώρησης όλων των συσκευών και διαγραφή των στοιχείων του λογαριασμού σας από το Swype Connect. Αυτή η ενέργεια δεν θα διαγράψει τα προσωπικά σας δεδομένα γλώσσας ή τις λέξεις σας σε αυτή τη συσκευή.</string>
     <string name="pref_sync_now_title">Συγχρονισμός</string>
     <string name="pref_devices_title">Συσκευές</string>
-    <string name="pref_personalize_your_experience_title">Εξατομίκευση της εμπειρίας σας…</string>
+    <string name="pref_personalize_your_experience_title">Εξατομίκευση της εμπειρίας σας</string>
     <string name="pref_clear_lang_data_dialog">Όλα τα δεδομένα γλώσσας θα διαγραφούν και η δημιουργία αντιγράφων ασφαλείας και ο συγχρονισμός θα απενεργοποιηθούν σε αυτή τη συσκευή. Είστε σίγουροι ότι θέλετε να συνεχίσετε;</string>
     <string name="startup_choose_lang">Επιλέξτε την γλώσσα σας</string>
     <string name="startup_choose_lang_toast">Μπορείτε να κάνετε λήψη μιας γλώσσας για να συνεχίσετε</string>
@@ -482,7 +482,7 @@
     <string name="max_function_item_count_title">Μέγιστο όριο καταμέτρησης</string>
     <string name="functionbar_hwtoggle_toast_on">Η χειρογράφηση στο πληκτρολόγιο είναι ενεργοποιημένη</string>
     <string name="functionbar_hwtoggle_toast_off">Η χειρογράφηση στο πληκτρολόγιο είναι απενεργοποιημένη</string>
-    <string name="pref_personalization_personalize_experience">Εξατομίκευση της εμπειρίας σας…</string>
+    <string name="pref_personalization_personalize_experience">Εξατομίκευση της εμπειρίας σας</string>
     <string name="personalization_settings_title">Εξατομίκευση</string>
     <string name="theme_name_frost">Αρκτική</string>
     <string name="theme_name_classic">Κλασικό</string>

@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">შედით სისტემაში, რათა თქვენი Facebook-დან კონტაქტების სახელები დაემატოს თქვენს პირად ლექსიკონს</string>
     <string name="sns_twitter_sign_on">შედით სისტემაში, რომ მომხმარებლის სახელები და ახალი სიტყვები Twitter-ის საჯარო არხიდან დაემატოს თქვენს პირად ლექსიკონს</string>
     <string name="sns_gmail_sign_on">შედით სისტემაში, რომ იმ ადამიანების სახელები, ვისთანაც გაგზავნილი გაქვთ ელწერილი, დაემატოს თქვენს პირად ლექსიკონს</string>
-    <string name="sns_personalizing">მოაწყეთ თქვენი გამოცდილება…</string>
+    <string name="sns_personalizing">მოაწყეთ თქვენი გამოცდილება</string>
     <string name="sns_personalize_finished">ბოლო განახლების თარიღია %s. შეეხეთ, რომ განახლდეს. შეეხეთ, რომ განახლდეს.</string>
     <string name="dismiss_button">გათავისუფლება</string>
     <string name="canceling">გაუქმება</string>
@@ -436,7 +436,7 @@
     <string name="pref_delete_account_desc">გააუქმეთ ყველა აპარატის რეგისტრაცია და წაშალეთ თქვენი ანგარიშის მონაცემები Swype Connect–იდან. ამით თქვენს ენაზე არსებული მონაცემები, ან თქვენი სიტყვები, არ წაიშლება ამ აპარატიდან.</string>
     <string name="pref_sync_now_title">გააკეთეთ სინქრონიზაცია ახლავე</string>
     <string name="pref_devices_title">აპარატები</string>
-    <string name="pref_personalize_your_experience_title">მოაწყეთ თქვენი გამოცდილება…</string>
+    <string name="pref_personalize_your_experience_title">მოაწყეთ თქვენი გამოცდილება</string>
     <string name="pref_clear_lang_data_dialog">თქვენს ენაზე არსებული ყველა მონაცემი წაიშლება და დამარქაფება და სინქრონიზაციის ფუნქციაც გამოირთვება ამ აპარატში. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?</string>
     <string name="startup_choose_lang">აირჩიეთ თქვენი ენები</string>
     <string name="startup_choose_lang_toast">გაგრძელებისთვის უნდა ჩამოტვირთოთ ენა</string>
@@ -482,7 +482,7 @@
     <string name="max_function_item_count_title">მაქს. რაოდენობის ლიმიტი</string>
     <string name="functionbar_hwtoggle_toast_on">ხელნაწერი კლავიატურაზე ჩართულია</string>
     <string name="functionbar_hwtoggle_toast_off">ხელნაწერი კლავიატურაზე გამორთულია</string>
-    <string name="pref_personalization_personalize_experience">მოაწყეთ თქვენი გამოცდილება…</string>
+    <string name="pref_personalization_personalize_experience">მოაწყეთ თქვენი გამოცდილება</string>
     <string name="personalization_settings_title">საკუთარი გემოვნებით მოწყობა</string>
     <string name="theme_name_frost">არქტიკა</string>
     <string name="theme_name_classic">კლასიკა</string>

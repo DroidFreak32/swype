@@ -59,7 +59,7 @@
     <string name="sns_facebook_sign_on">Најавете се за да ги префрлите имињата на вашите контакти од вашата сметка на Facebook во вашиот личен речник</string>
     <string name="sns_twitter_sign_on">Пријавете се за да ги додадете корисничките имиња и новите зборови од вашиот јавен извор на вести на Twitter во вашиот личен речник</string>
     <string name="sns_gmail_sign_on">Најавете се за да ги додадете имињата во вашиот личен речник на луѓето на кои сте им пратиле е-писма</string>
-    <string name="sns_personalizing">Персонализирање на вашето искуство…</string>
+    <string name="sns_personalizing">Персонализирање на вашето искуство</string>
     <string name="sns_personalize_finished">Последен пат ажурирано на %s. Чукнете за освежување.</string>
     <string name="dismiss_button">Отфрли</string>
     <string name="canceling">Откажување</string>
@@ -434,7 +434,7 @@
     <string name="pref_delete_account_desc">Одрегистрирајте ги сите уреди и избришете ги податоците на вашата сметка од Swype Connect. Со ова нема да се избришат вашите лични јазични податоци или вашите зборови на овој уред.</string>
     <string name="pref_sync_now_title">Синхронизирај сега</string>
     <string name="pref_devices_title">Уреди</string>
-    <string name="pref_personalize_your_experience_title">Персонализирање на вашето искуство…</string>
+    <string name="pref_personalize_your_experience_title">Персонализирање на вашето искуство</string>
     <string name="pref_clear_lang_data_dialog">Сите ваши јазични податоци ќе бидат избришани, а правењето копии и синхронизирањето ќе биде деактивирано за овој уред. Сигурно сакате да продолжите?</string>
     <string name="startup_choose_lang">Изберете го вашиот јазик</string>
     <string name="startup_choose_lang_toast">Мора да преземете јазик за да продолжите</string>
@@ -480,7 +480,7 @@
     <string name="max_function_item_count_title">Ограничување на максималниот број</string>
     <string name="functionbar_hwtoggle_toast_on">Опцијата за ракописно пишување на тастатурата е активирана</string>
     <string name="functionbar_hwtoggle_toast_off">Опцијата за ракописно пишување на тастатурата е деактивирана</string>
-    <string name="pref_personalization_personalize_experience">Персонализирање на вашето искуство…</string>
+    <string name="pref_personalization_personalize_experience">Персонализирање на вашето искуство</string>
     <string name="personalization_settings_title">Персонализација</string>
     <string name="theme_name_frost">Арктик</string>
     <string name="theme_name_classic">Класично</string>

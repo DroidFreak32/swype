@@ -59,7 +59,7 @@ Norite tęsti?"</string>
     <string name="sns_facebook_sign_on">Prisijunkite, kad jūsų „Facebook“ kontaktų vardai būtų pridėti į asmeninį žodyną</string>
     <string name="sns_twitter_sign_on">Prisijunkite, kad vartotojų vardai bei nauji žodžiai iš jūsų viešo „Twitter“ srauto būtų pridėti į Jūsų asmeninį žodyną</string>
     <string name="sns_gmail_sign_on">Prisijunkite, kad žmonių, kuriems siuntėte elektroninius laiškus, vardai būtų įtraukti į jūsų asmeninį žodyną</string>
-    <string name="sns_personalizing">Programa individualizuojama…</string>
+    <string name="sns_personalizing">Programa individualizuojama</string>
     <string name="sns_personalize_finished">Paskutinįkart atnaujinta %s. Bakstelėkite ekraną, jei norite atnaujinti.</string>
     <string name="dismiss_button">Panaikinti</string>
     <string name="canceling">Atšaukiama</string>
@@ -436,7 +436,7 @@ Spustelėkite, kad atsisiųstumėte ir įdiegtumėte „DragonGo“"</string>
     <string name="pref_delete_account_desc">Išregistruokite visus prietaisus bei ištrinkite savo vartotojo duomenis ”Swype Connect\" Tai neištrins jūsų asmeninių kalbos duomenų bei žodžių šiame prietaise.</string>
     <string name="pref_sync_now_title">Sinchronizuoti dabar</string>
     <string name="pref_devices_title">Prietaisai</string>
-    <string name="pref_personalize_your_experience_title">Programa individualizuojama…</string>
+    <string name="pref_personalize_your_experience_title">Programa individualizuojama</string>
     <string name="pref_clear_lang_data_dialog">Visi jūsų kalbos duomenys bus ištrinti bei prietaiso atsarginė kopija ir sinchronizavimas bus išjungti. Ar tikrai norite tęsti?</string>
     <string name="startup_choose_lang">Pakeiskite kalbą</string>
     <string name="startup_choose_lang_toast">Privalote parsisiųsti kalbą, jei norite tęsti</string>
@@ -482,7 +482,7 @@ Spustelėkite, kad atsisiųstumėte ir įdiegtumėte „DragonGo“"</string>
     <string name="max_function_item_count_title">Maksimalaus skaičiaus riba</string>
     <string name="functionbar_hwtoggle_toast_on">Rašymas ranka klaviatūroje įjungtas</string>
     <string name="functionbar_hwtoggle_toast_off">Rašymas ranka klaviatūroje išjungtas</string>
-    <string name="pref_personalization_personalize_experience">Programa individualizuojama…</string>
+    <string name="pref_personalization_personalize_experience">Programa individualizuojama</string>
     <string name="personalization_settings_title">Asmeniniai nustatymai</string>
     <string name="theme_name_frost">Arktika</string>
     <string name="theme_name_classic">Klasikinė</string>

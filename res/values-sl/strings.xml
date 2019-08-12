@@ -59,7 +59,7 @@ Ali želiš nadaljevati?"</string>
     <string name="sns_facebook_sign_on">Prijavite se in kontakti z vašega Facebook računa bodo dodani v vaš osebni slovar</string>
     <string name="sns_twitter_sign_on">Vpišite se, tako bodo imena uporabnikov in nove besede iz toka Twitterja samodejno dodane v vaš osebni slovar</string>
     <string name="sns_gmail_sign_on">Prijavite se in imena prejemnikov vaših elektronskih sporočil bodo dodana v vaš osebni slovar</string>
-    <string name="sns_personalizing">Prilagojena izkušnja…</string>
+    <string name="sns_personalizing">Prilagojena izkušnja</string>
     <string name="sns_personalize_finished">Zadnjič posodobljeno %s. Dotakni se za osveževanje.</string>
     <string name="dismiss_button">Opusti</string>
     <string name="canceling">Preklic poteka</string>
@@ -436,7 +436,7 @@ Nameščeno. Tapnite za zagon."</string>
     <string name="pref_delete_account_desc">Odjavite vse naprave in izbrišite svoje podatke o računu s Swype Connect. To ne bo izbrisalo vaših osebnih jezikovnih podatkov ali besed na tej napravi.</string>
     <string name="pref_sync_now_title">Sinhroniziraj zdaj</string>
     <string name="pref_devices_title">Naprave</string>
-    <string name="pref_personalize_your_experience_title">Prilagojena izkušnja…</string>
+    <string name="pref_personalize_your_experience_title">Prilagojena izkušnja</string>
     <string name="pref_clear_lang_data_dialog">Vsi vaši jezikovni podatki se bodo izbrisali in Backup &amp; Sync bo za to napravo onemogočen. Ali ste prepričani, da želite nadaljevati?</string>
     <string name="startup_choose_lang">Izberite svoj jezik</string>
     <string name="startup_choose_lang_toast">Za nadaljevanje morate naložiti jezik</string>
@@ -482,7 +482,7 @@ Nameščeno. Tapnite za zagon."</string>
     <string name="max_function_item_count_title">Maks. omejitev štetja</string>
     <string name="functionbar_hwtoggle_toast_on">Rokopis na tipkovnici omogočen</string>
     <string name="functionbar_hwtoggle_toast_off">Rokopis na tipkovnici onemogočen</string>
-    <string name="pref_personalization_personalize_experience">Prilagojena izkušnja…</string>
+    <string name="pref_personalization_personalize_experience">Prilagojena izkušnja</string>
     <string name="personalization_settings_title">Prilagoditve</string>
     <string name="theme_name_frost">Arktika</string>
     <string name="theme_name_classic">Klasično</string>
