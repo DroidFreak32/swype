@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d palabras serán borradas</item>
+        <item quantity="one">Borrarase unha palabra.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">Fai %d días</item>
+        <item quantity="one">Fai %d día</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Fai %d horas</item>
+        <item quantity="one">Fai %d hora</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Fai %d minutos</item>
+        <item quantity="one">Fai %d minuto</item>
+    </plurals>
+</resources>

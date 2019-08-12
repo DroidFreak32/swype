@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="?startupDialogUnderlayColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:layout_gravity="center" android:background="?startupBackgroundColor" android:padding="?containerPadding" android:layout_width="?startupDialogWidth" android:layout_height="?startupDialogHeight">
+        <ImageView android:id="@id/swypeLogo" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_swype" android:layout_centerHorizontal="true" android:contentDescription="@string/swype" />
+        <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/pageDesc" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/swypeLogo" android:layout_centerHorizontal="true" android:textDirection="locale" />
+        <Button android:id="@id/startup_button_positive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?defaultButtonHeight" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/firstStartContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/startup_button_positive" android:layout_below="@id/pageDesc" />
+    </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+</LinearLayout>

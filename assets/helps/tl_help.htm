@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Salita</a></div>
+				<div><a href="#write">Sulat</a></div>
+				<div class="last"><a href="#tap">Tapikin</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Sa Swype, may kakayahan kang lumipat sa pagitan ng apat na iba’t ibang input mode – Mag&#45;Swype, Magsalita, Magsulat o Tapikin.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Ang Swype ay isang mas mabilis na paraan sa pagpasok ng teksto. Pinahihintulutan ka nitong mag&#45;type ng salita sa pamamagitan ng pagguhit sa mga letra. Ilagay ang daliri sa unang letra ng salita at gumuhit ng daanan mula sa isang letra hanggang sa susunod, itaas ito makalipas ang huling letra. Awtomatikong magsisingit ng espasyo kung saan kinakailangan.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Matuto pa <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Ang Swype Key
+									<div id="ul_1a" class="open">
+										<p>Ang Swype key ay ang key na may Swype logo dito. Pindutin nang matagal ang Swype key upang makuha ang mga Setting ng Swype.</p>
+										<p>Ginagamit din ang Swype key upang simulan ang maraming gesture ng Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Preview ng Keyboard
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Mga gesture ng Swype
+									<div id="ul_1b" class="closed">
+										<p>Ang Mga Swype Gesture ay mga shortcut sa keyboard upang madaling matapos ang mga karaniwang gawain. Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+										<ul>
+											<li><span class="gestures">Pagpunta sa Edit Keyboard</span> Upang makapunta sa Edit keyboard, mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa Symbols key (?123) sa keyboard.</li>
+											<li><span class="gestures">Pagpunta sa Keyboard ng Numero</span> Upang makapunta sa Number keyboard nang mabilis, mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa numero 5.</li>
+											<li><span class="gestures">Itinatago ang Keyboard</span> Upang madaling itago ang keyboard, mag&#45;Swype lang mula sa Swype key papunta sa backspace key.</li>
+
+											<li><span class="gestures">I&#45;off ang Awtomatikong Spacing</span> Pigilin ang kusang pag&#45;espasyo bago ang susunod na salita sa pamamagitan ng pag&#45;Swype mula sa Space key papunta sa Backspace key.</li>
+
+
+											<li><span class="gestures">Pagbago ng Laki ng Letra ng Salita</span> Palitan ang laki ng letra ng salita matapos mo ito ipasok sa pamamagitan ng pagtapik sa salita at saka pagsa&#45;swype mula <img src="img_swypekey.png" /> papunta sa Shift key <img src="img_shiftkey.png" /> . May Listahan ng Mapagpipiliang Salita na may mga opsyon sa pagsulat sa malaking letra na maipapakita, pahihintulutan kang pumili ng maliit na letra, malaking letra, o MALAKING LETRA LAHAT.</li>
+
+											<li><span class="gestures">Bantas</span> Isang simpleng paraan ng pagpasok ng bantas ay mag&#45;Swype mula sa tandang pananong, kuwit, tuldok, o iba pang bantas papunta sa Space key sa halip na pagtapik dito.</li>
+
+											<li><span class="gestures">Piliin ang Lahat, Putulin, Kopyahin at Idikit</span>
+												Piliin Lahat: Mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa &#39;a&#39;<br />
+												Putulin: Mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa &#39;x&#39;<br />
+												Kopyahin: Mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa &#39;c&#39;<br />
+												Idikit: Mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Mga shortcut ng application</span>Mga Mapa ng Google: Mag&#45;Swype mula sa <img src="img_swypekey.png" /> papunta sa &#39;g&#39;, saka sa &#39;m&#39;</li>
+											<li><span class="gestures">Maghanap</span>I&#45;highlight ang ilang teksto at i&#45;Swype mula sa <img src="img_swypekey.png" /> hanggang sa S upang gumawa ng mabilis na paghahanap sa internet.</li>
+											<li><span class="gestures">Paglipat sa huling ginamit na wika.</span>Kapag gumagamit ng maraming mga wika, ang mabilis na paraan upang balikan ang naunang wika ay ang pag&#45;Swype mula sa <img src="img_swypekey.png" /> hanggang sa key para sa Puwang.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Gumagawa ng mga dobleng letra
+									<div id="ul_1n" class="closed">
+										<p>Upang mapagbuti ang pagkaigsakto kapag nagpasok ng mga dobleng letra, gumuri nang bahagya o gumawa ng silo sa letra. Halimbawa, upang makuha ang &quot;oo&quot; sa &quot;noong&quot;, gumuri sa key na &quot;o&quot;. Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Pagpili ng salita
+									<div id="ul_1d" class="closed">
+										<p>Upang tanggapin ang iminungkahing dati nang naka&#45;set na salita sa Listahan ng Pagpipilian ng Salita, patuloy lang mag&#45;Swype. Sa halip, mag&#45;scroll sa listahan sa pamamagitan ng paghatak sa iyong daliri at pagpili ng salitang nais mo. Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+<p>Para pumili ng teksto mula sa isang listahan, galawin ang daliri mo sa pabilog na paggalaw para marining ang mga ipinasok sa listahan. Ang clockwise ay gumagalaw nang pasulong sa listahan; ang counter&#45;clockwise ay paatras sa listahan.  
+Ang pag&#45;angat ng daliri ay naglalabas sa huling sinalitang ipinasok sa listahan.
+Para pumili ng salita sa Talaan ng Piling Salita, idulas ang daliri mo pataas mula sa keyboard hanggang marinig ang unang salita sa listahan, pagkatapos simulan ang paikot na paggalaw.
+Ang tampok na ito ay magagamit lamang kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Pagsulat ng Mga Salita sa Malaking Letra
+									<div id="ul_1e" class="closed">
+										<p>Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+										<p>Gawing malaki ang unang letra ng salita habang nagsa&#45;Swype pa pamamagitan ng pagsalida sa daliri mo mula sa unang letra lagpas sa itaas ng keyboard, nang hindi itinataas, isalida ang daliri pabalik pababa sa susunod na letra ng salita.</p>
+										<p>Palitan ang laki ng letra ng salita matapos mo ito ipasok sa pamamagitan ng pagtapik sa salita at saka pagsa&#45;swype mula <img src="img_swypekey.png" /> papunta sa Shift key <img src="img_shiftkey.png" /> . May Listahan ng Mapagpipiliang Salita na may mga opsyon sa pagsulat sa malaking letra na maipapakita, pahihintulutan kang pumili ng maliit na letra, malaking letra, o MALAKING LETRA LAHAT.</p>
+										<p>Upang pumasok sa CAPS Lock mode, mag&#45;double&#45;tap lang sa Shift key <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Awtomatikong pag&#45;espasyo
+									<div id="ul_1f" class="closed">
+										<p>Awtomatikong nagsisingit ng espasyo sa pagitan ng mga salita kapag ikaw ay nag&#45;trace ng susunod na salita sa pangungusap. Maaari mong paganahin o hindi ang auto&#45;spacing feature sa Mga Setting ng Swype.</p>
+										<p>Maaaring hindi paganahin ang awtomatikong pag&#45;espasyo para sa isang salita sa pamamagitan ng pag&#45;Swype mula sa Space key papunta sa Backspace key.</p>
+										<p>Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Pagpalit ng salita
+									<div id="ul_1g" class="closed">
+										<p>Palitan ang salita sa pamamagitan ng pagtapik dito at piliin ang salitang nais mo mula sa Listahan ng Pagpipilian ng Salita, o i&#45;highlight lang ang salita at mag&#45;Swype ng bagong salita. Papalit ang bagong salita sa maling salita.</p>
+										<p>Maaaring i&#45;highlight ang isang salita sa pamamagitan ng pagtapik sa salita at pag&#45;hit sa <img src="img_swypekey.png" /> o dobleng pagtapik sa salita.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Nagba&#45;bounce sa pagitan ng mga letra
+									<div id="ul_1h" class="closed">
+										<p>Minsan ang pag&#45;iwas sa mga salita kapag nag&#45;Swype ka ay makakaseguro na makuha mo ang salitang nais mo sa unang pagkakataon.</p>
+										<p>Halimbawa, ang &quot;grupo&quot; at &quot;gripo&quot; ay maaaring maguhit sa parehong daanan &#45; ngunit pansinin, hindi ka kailangang lumipat&#45;lipat mula sa isang letra hanggang sa susunod nang nasa deretsong linya. Ang pag&#45;iwas sa &quot;u&quot; kapag isina&#45;swype ang daliri mo sa &quot;i&quot; ay magsisiguro na ang salitang &quot;gripo&quot; ay una sa Listahan ng Pagpipilian ng Salita.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Mga alternatibong character
+									<div id="ul_1i" class="closed">
+
+										<p>Pindutin at panatilihing nakadiin ang key upang lumabas ang listahan ng alternatibong mga character para sa key na iyon, gaya ng mga letra na may diin tulad ng é at à, mga simbolong tulad ng @ at %, at mga numero.</p>
+
+										<p>Tapikin ang Symbols key (?123) upang madala sa Symbols keyboard.</p>
+										<p>Tandaan na LAHAT ng mga character ay masa&#45;Swype mula sa pangunahing keyboard (makikita mo man ito o hindi). Maaari kang mag&#45;Swype gamit ang pananaw na ito sa keyboard, ngunit makukuha mo lang ang mga salita na may isang numero o simbolo man lamang.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Pagdagdag at pagbura ng mga salita
+									<div id="ul_1j" class="closed">
+										<p>Mahusay na idinadagdag ng Swype ang mga bagong salita na ginagamit mo sa iyong Personal na Diksiyonaryo.</p>
+										<p>Maaari ka ring magdagdag ng salita sa pamamagitan ng pagha&#45;highlight nito at pagtapik sa <img src="img_swypekey.png" /> . Tapikin ang hudyat na lalabas upang idagdag ang salita.</p>
+										<p>Upang burahin ang isang salita, pindutin at panatilihing nakadiin ang salita sa Talaan ng Pagpipilian ng Salita, at saka tapikin ang OK sa confirmation dialog. Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalisasyon
+									<div id="ul_1k" class="closed">
+										<p>Maaaring mabilisang maglagay ng salita ang Swype sa iyong diksiyonaryo mula sa Facebook, Twitter, at Gmail. Upang i&#45;personalize ang Swype:</p>
+										<ol>
+											<li>Pindutin at panatilihing nakadiin ang <img src="img_swypekey.png" /> .</li>
+											<li>Mula sa menu ng mga Setting ng Swype, piliin ang Personalisasyon.</li>
+											<li>Pumili mula sa mga opsiyon ng personalisasyon at ipasok ang iyong mga kredensiyal kung inutusan.</li>
+											<li>Maaari mong i&#45;personalize ang Swype mula sa isa o lahat ng mga source.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Salita</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Maaari kang magsalita upang ipasok ang text content sa lahat mula sa text at mga mensahe sa email papunta sa mga update ng Facebook at Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Matuto pa <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Bantas
+									<div id="ul_2a" class="open">
+										<p>Hindi na kailangang mano&#45;manong idagdag ang bantas. Sabihin lang ang bantas na nais mo at magpatuloy. Subukan ito:</p>
+										<ol>
+											<li>Pindutin ang voice key na at magsimula ng magsalita.</li>
+											<li>Ano sasabihin mo: <i>Masarap ang hapunan exclamation point</i></li>
+											<li>Ano makukuha mo: <i>Masarap ang hapunan!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ang voice input ay hindi available sa ilang mga keyboard</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Sulat</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Maaari mong gamitin ang iyong daliri sa pagguhit ng mga letra at salita at isasalin ito ng Swype sa text. Maaari kang magguhit ng mga letra mula kaliwa pakanan o sa ibabaw ng bawat isa. Pindutin ang ABC / 123 upang magpalipat&#45;lipat sa pagitan ng letra at symbol mode.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Matuto pa <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Paganahin ang sulat&#45;kamay
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Pindutin at i&#45;hold ang <img src="img_symkey.png" /> at i&#45;slide ang iyong daliri papunta sa icon para sa sulat&#45;kamay.</li>
+											<li>Magguhit ng mga letra gamit ang iyong daliri sa bahagi ng sulat&#45;kamay.</li>
+
+											<li>Tapikin ang space bar sa pagitan ng bawat salita</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Multi&#45;Touch Gesture
+									<div id="ul_3b" class="closed">
+										<p>Ang multi&#45;touch gesture ay nagpapahintulot sa iyo na kumpletuhin ang mga simpleng gawain, gaya ng paggamit ng pagka&#45;capitalize ng mga salita o letra.</p>
+										<ol>
+											<li>Magguhit ng ilang mga maliliit na letra sa pad na guhitan</li>
+											<li>Pagkatapos ipasok ang mga character, i&#45;slide ang dalawang daliri pataas sa bahaging sulatan</li>
+											<li>Ang feture ng sulat&#45;kamay ay kikilala sa multi&#45;touch gesture at gagamit ng malalaking letra</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Ang sulat&#45;kamay ay hindi available sa ilang mga keyboard.</i></p>
+									<p><i>Ang tampok na ito ay hindi magagamit kapag ang serbisyo para sa pagiging ma&#45;a&#45;access ng system na Explore&#45;by&#45;Touch ay naka&#45;on.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Tapikin</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradisyonal na uri ng mano&#45;manong keyboard input. Ang tap input sa Swype keyboard ay mas pinadali at mas pinahusay sa pamamagitan ng ilang nakakatulong na mga feature:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Matuto pa <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Pagtutuwid sa Maruming Pagta&#45;type
+									<div id="ul_4a" class="open">
+										<p>Hindi mo kailangang tapikin nang perpekto ang bawat letra. Gawin lang ang abot ng iyong makakaya at mahusay na magbibigay ang Swype ng mga mungkahing salita.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Pagkumpleto ng salita
+									<div id="ul_4b" class="closed">
+										<p>Maaari ring mahuhulaan ng Swype ang iyong salita kapag nagtapik ka lang ng iilang letra.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Mga wika</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Upang palitan ang mga wika mula sa keyboard: Pindutin at panatilihing nakadiin ang space bar. Piliin ang iyong nais na wika sa popup menu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Ang Swype Connect ay nagpapahintulot sa amin na ihatid ang mga update at ang makapangyarihang functionality sa iyong device! Kahit na ang Swype Connect ay gagana sa 3G, inirerekomenda namin palagi ang paghahanap ng WiFi connection.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Matuto pa <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Mga download ng mga wika
+									<div id="ul_6a" class="open">
+										<p>Madali ang paglalagay ng karagdagang mga wika sa Swype:</p>
+										<ol>
+											<li>Pindutin at i&#45;hold ang <img src="img_swypekey.png" /> at piliin ang Mga Wika.</li>
+											<li>Mula sa menu ng Mga Wika, piliin ang I&#45;download ang mga wika.</li>
+											<li>Mag&#45;click sa isang wika at kusang magsisimula ang iyong download.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ang Swype Connect ay hindi available sa lahat ng keyboard.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Karagdagang Tulong</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Para sa karagdagang tulong sa paggamit ng Swype, tingnan ang manwal ng Gumagamit ng Swype at Mga Tip at Video ng Swype sa <a href="http://www.swype.com">www.swype.com</a>, o tingnan ang Swype Forum online sa <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<speech_info ns:speech_result_mode="partial_default" ns:speech_cmd="nvc" ns:sync_custom_words="true" app_name="ANDROID_SWYPE_NMSPSDK_20111213" default_gateway_ip_addr="bi.nvc.enUS.nuancemobility.net" default_port_id="443" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <language lang_name="Arabic" lang_code="ara-XWW" lang_server="bi.nvc.araxww.nuancemobility.net" />
+    <language lang_name="English" lang_code="eng-USA" lang_server="bi.nvc.enUS.nuancemobility.net" />
+    <language lang_name="Spanish" lang_code="spa-ESP" lang_server="bi.nvc.eses.nuancemobility.net" />
+    <language lang_name="French_CA" lang_code="fra-CAN" lang_server="bi.nvc.frCA.nuancemobility.net" />
+    <language lang_name="Chinese_CN" lang_code="cmn-CHN" lang_server="bi.nvc.cmnchn.nuancemobility.net" display_name="普通话(中国)" />
+    <language lang_name="Dutch" lang_code="nld-NLD" lang_server="bi.nvc.nldnld.nuancemobility.net" />
+    <language lang_name="Dutch_BE" lang_code="nld-NLD" lang_server="bi.nvc.nldnld.nuancemobility.net" />
+    <language lang_name="Portuguese" lang_code="por-BRA" lang_server="bi.nvc.porbra.nuancemobility.net" />
+    <language lang_name="Portuguese_PT" lang_code="por-PRT" lang_server="bi.nvc.porpor.nuancemobility.net" />
+    <language lang_name="Swedish" lang_code="swe-SWE" lang_server="bi.nvc.sweswe.nuancemobility.net" />
+    <language lang_name="Norwegian" lang_code="nor-NOR" lang_server="bi.nvc.nornor.nuancemobility.net" />
+    <language lang_name="Russian" lang_code="rus-RUS" lang_server="bi.nvc.rusrus.nuancemobility.net" />
+    <language lang_name="Danish" lang_code="dan-DNK" lang_server="bi.nvc.dandan.nuancemobility.net" />
+    <language lang_name="Polish" lang_code="pol-POL" lang_server="bi.nvc.polpol.nuancemobility.net" />
+    <language lang_name="Finnish" lang_code="fin-FIN" lang_server="bi.nvc.finfin.nuancemobility.net" />
+    <language lang_name="Hungarian" lang_code="hun-HUN" lang_server="bi.nvc.hunhun.nuancemobility.net" />
+    <language lang_name="Indonesian" lang_code="ind-IDN" lang_server="bi.nvc.indind.nuancemobility.net" />
+    <language lang_name="Chinese_HK" lang_code="yue-CHN" lang_server="bi.nvc.chCN.nuancemobility.net" display_name="廣東話(香港)" />
+    <language lang_name="Chinese_TW" lang_code="cmn-TWN" lang_server="bi.nvc.cmntwn.nuancemobility.net" display_name="國語(台灣)" />
+    <language lang_name="Japanese" lang_code="jpn-JPN" lang_server="bi.nvc.jpjp.nuancemobility.net" />
+    <language lang_name="Korean" lang_code="kor-KOR" lang_server="bi.nvc.korkor.nuancemobility.net" />
+    <language lang_name="English_UK" lang_code="eng-GBR" lang_server="bi.nvc.enGB.nuancemobility.net" />
+    <language lang_name="French" lang_code="fra-FRA" lang_server="bi.nvc.frfr.nuancemobility.net" />
+    <language lang_name="French_CH" lang_code="fra-FRA" lang_server="bi.nvc.frfr.nuancemobility.net" />
+    <language lang_name="Italian" lang_code="ita-ITA" lang_server="bi.nvc.itit.nuancemobility.net" />
+    <language lang_name="German" lang_code="deu-DEU" lang_server="bi.nvc.dede.nuancemobility.net" />
+    <language lang_name="German_CH" lang_code="deu-DEU" lang_server="bi.nvc.dede.nuancemobility.net" />
+    <language lang_name="Czech" lang_code="ces-CZE" lang_server="bi.nvc.cescze.nuancemobility.net" />
+    <language lang_name="Greek" lang_code="ell-GRC" lang_server="bi.nvc.ellgrc.nuancemobility.net" />
+    <language lang_name="Malay" lang_code="zlm-MYS" lang_server="bi.nvc.zlmmys.nuancemobility.net" />
+    <language lang_name="Romanian" lang_code="ron-ROU" lang_server="bi.nvc.ronrou.nuancemobility.net" />
+    <language lang_name="Slovak" lang_code="slk-SVK" lang_server="bi.nvc.slksvk.nuancemobility.net" />
+    <language lang_name="Turkish" lang_code="tur-TUR" lang_server="bi.nvc.turtur.nuancemobility.net" />
+    <language lang_name="Vietnamese" lang_code="vie-VNM" lang_server="bi.nvc.vievnm.nuancemobility.net" />
+    <language lang_name="Hebrew" lang_code="heb-ISR" lang_server="bi.nvc.hebisr.nuancemobility.net" />
+    <language lang_name="Hindi" lang_code="hin-IND" lang_server="gj.nvc.hiin.nuancemobility.net" />
+    <language lang_name="Hinglish" lang_code="eng-IND" lang_server="gj.nvc.enin.nuancemobility.net" />
+    <language lang_name="Thai" lang_code="tha-THA" lang_server="bi.nvc.thatha.nuancemobility.net" />
+    <language lang_name="Croatian" lang_code="hrv-HRV" lang_server="bi.nvc.hrvhrv.nuancemobility.net" />
+    <language lang_name="Ukrainian" lang_code="ukr-UKR" lang_server="bi.nvc.ukrukr.nuancemobility.net" />
+    <language lang_name="Catalan" lang_code="cat-ESP" lang_server="bi.nvc.catesp.nuancemobility.net" />
+    <language lang_name="Spanish_XLA" lang_code="spa-XLA" lang_server="bi.nvc.spaxla.nuancemobility.net" display_name="Español (NA)" abbr_display_name="ES(NA)" />
+    <language lang_name="English_AU" lang_code="eng-AUS" lang_server="bi.nvc.engAUS.nuancemobility.net" display_name="English (AU)" abbr_display_name="EN(AU)" />
+</speech_info>

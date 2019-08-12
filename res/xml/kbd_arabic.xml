@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key1" ns:keyEdgeFlags="left" ns:keyLabel="ض" ns:altKeyLabel="$" ns:shiftedKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key2" ns:keyLabel="ص" ns:altKeyLabel="€" ns:shiftedKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key3" ns:keyLabel="ث" ns:altKeyLabel="£" ns:shiftedKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key4" ns:keyLabel="ق" ns:altKeyLabel="¢" ns:shiftedKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key5" ns:keyLabel="ف" ns:altKeyLabel="¥" ns:shiftedKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key6" ns:keyLabel="غ" ns:altKeyLabel="%" ns:shiftedKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key7" ns:keyLabel="ع" ns:altKeyLabel="‰" ns:shiftedKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key8" ns:keyLabel="ه" ns:altKeyLabel="¤" ns:shiftedKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key9" ns:keyLabel="خ" ns:altKeyLabel="±" ns:shiftedKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key10" ns:keyLabel="ح" ns:altKeyLabel="°" ns:shiftedKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key11" ns:keyLabel="ج" ns:altKeyLabel="&amp;" ns:shiftedKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_arabic_key12" ns:keyEdgeFlags="right" ns:keyLabel="د" ns:altKeyLabel="÷" ns:shiftedKeyLabel="=" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key13" ns:keyEdgeFlags="left" ns:keyLabel="ش" ns:altKeyLabel="\@" ns:shiftedKeyLabel="١" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key14" ns:keyLabel="س" ns:altKeyLabel="\#" ns:shiftedKeyLabel="٢" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key15" ns:keyLabel="ي" ns:altKeyLabel="&lt;" ns:shiftedKeyLabel="٣" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key16" ns:keyLabel="ب" ns:altKeyLabel=">" ns:shiftedKeyLabel="٤" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key17" ns:keyLabel="ل" ns:altKeyLabel="«" ns:shiftedKeyLabel="٥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key18" ns:keyLabel="ا" ns:altKeyLabel="»" ns:shiftedKeyLabel="٦" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key19" ns:keyLabel="ت" ns:altKeyLabel="^" ns:shiftedKeyLabel="٧" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key20" ns:keyLabel="ن" ns:altKeyLabel="~" ns:shiftedKeyLabel="٨" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key21" ns:keyLabel="م" ns:altKeyLabel="|" ns:shiftedKeyLabel="٩" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key22" ns:keyLabel="ك" ns:altKeyLabel="•" ns:shiftedKeyLabel="٠" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key23" ns:keyLabel="ط" ns:altKeyLabel="×" ns:shiftedKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_arabic_key24" ns:keyEdgeFlags="right" ns:keyLabel="ذ" ns:altKeyLabel="\\" ns:shiftedKeyLabel="/" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_9_12_key_width" ns:keyContentBaseline="@dimen/shift_key_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:shiftedPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_arabic_key25" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:shiftedOutputText=":-)" ns:keyLabel="ئ" ns:shiftedKeyIcon="@drawable/keyboard_emoticon" ns:shiftedPreviewIcon="?keyboardFeedbackEmoticonPrimary" ns:shiftTransition="drop_show" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key26" ns:keyLabel="ء" ns:altKeyLabel="¶" ns:shiftedKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key27" ns:keyLabel="ؤ" ns:altKeyLabel="[" ns:shiftedKeyLabel="(" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key28" ns:keyLabel="ر" ns:altKeyLabel="]" ns:shiftedKeyLabel=")" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key29" ns:keyLabel="ى" ns:altKeyLabel="{" ns:shiftedKeyLabel="'" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key30" ns:keyLabel="ة" ns:altKeyLabel="}" ns:shiftedKeyLabel="&quot;" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key31" ns:keyLabel="و" ns:altKeyLabel=";" ns:shiftedKeyLabel="؛" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key32" ns:keyLabel="ز" ns:altKeyLabel="…" ns:shiftedKeyLabel=":" />
+        <Key ns:popupCharacters="@string/alternates_for_arabic_key33" ns:keyLabel="ظ" ns:altKeyLabel="\?" ns:shiftedKeyLabel="؟" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_9_12_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_arabic" />
+</KeyboardEx>

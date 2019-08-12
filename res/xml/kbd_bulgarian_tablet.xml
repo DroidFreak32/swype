@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_я" ns:keyLabel="я" ns:altKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_в" ns:keyLabel="в" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_е" ns:keyLabel="е" ns:altKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_р" ns:keyLabel="р" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_т" ns:keyLabel="т" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_ъ" ns:keyLabel="ъ" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_у" ns:keyLabel="у" ns:altKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_и" ns:keyLabel="и" ns:altKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_о" ns:keyLabel="о" ns:altKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_п" ns:keyLabel="п" ns:altKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_bulgarian_ю" ns:keyLabel="ю" ns:altKeyLabel="~" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_а" ns:keyLabel="а" ns:altKeyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_с" ns:keyLabel="с" ns:altKeyLabel="=" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_д" ns:keyLabel="д" ns:altKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_ф" ns:keyLabel="ф" ns:altKeyLabel="_" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_г" ns:keyLabel="г" ns:altKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_х" ns:keyLabel="х" ns:altKeyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_й" ns:keyLabel="й" ns:altKeyLabel="ѝ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_к" ns:keyLabel="к" ns:altKeyLabel=":" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_л" ns:keyLabel="л" ns:altKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_ш" ns:keyLabel="ш" ns:altKeyLabel="„" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_bulgarian_щ" ns:keyLabel="щ" ns:altKeyLabel="”" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_11_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:altPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_bulgarian_з" ns:keyLabel="з" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticon" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_ь" ns:keyLabel="ь" ns:altKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_ц" ns:keyLabel="ц" ns:altKeyLabel="№" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_ж" ns:keyLabel="ж" ns:altKeyLabel="€" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_б" ns:keyLabel="б" ns:altKeyLabel="%" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_н" ns:keyLabel="н" ns:altKeyLabel="*" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_м" ns:keyLabel="м" ns:altKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_bulgarian_ч" ns:keyLabel="ч" ns:altKeyLabel="\?" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_11_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default_tablet" />
+</KeyboardEx>

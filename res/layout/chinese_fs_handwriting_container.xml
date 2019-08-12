@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.chinese.ChineseFSHandWritingContainerView android:orientation="vertical" android:id="@id/chinese_handwriting_container" android:background="?keyboardBackgroundHwr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chinese_handwriting_key_area" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.nuance.swype.input.chinese.ChineseFSHandWritingContainerView>

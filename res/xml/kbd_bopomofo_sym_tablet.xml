@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_10_key_tablet_width" ns:keyHeight="@dimen/bpmf_key_height" ns:horizontalGap="0.0px" ns:verticalGap="0.0px" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄅ" ns:keyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄉ" ns:keyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ˇ" ns:keyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ˋ" ns:keyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄓ" ns:keyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ˊ" ns:keyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_dot" ns:keyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄚ" ns:keyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄞ" ns:keyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄢ" ns:keyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄦ" ns:keyLabel="×" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_question_mark" ns:keyEdgeFlags="left" ns:keyLabel="？" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄆ" ns:keyLabel="!" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄊ" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄍ" ns:keyLabel="\#" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄐ" ns:keyLabel="$" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄔ" ns:keyLabel="%" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄗ" ns:keyLabel="^" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄧ" ns:keyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄛ" ns:keyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄟ" ns:keyLabel="（" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄣ" ns:keyLabel="）" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_exclamation_mark" ns:keyEdgeFlags="left" ns:keyLabel="！" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄇ" ns:keyLabel="©" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄋ" ns:keyLabel="¥" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄎ" ns:keyLabel="£" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄑ" ns:keyLabel="€" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄕ" ns:keyLabel="+" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄘ" ns:keyLabel="=" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄨ" ns:keyLabel="|" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄜ" ns:keyLabel="～" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄠ" ns:keyLabel="：" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄤ" ns:keyLabel="；" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:keyEdgeFlags="right" ns:keyLabel="…" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:keyEdgeFlags="left" ns:keyLabel="&quot;" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄈ" ns:keyLabel="_" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄌ" ns:keyLabel="°" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄏ" ns:keyLabel="、" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄒ" ns:keyLabel="［" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄖ" ns:keyLabel="］" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄙ" ns:keyLabel="-" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄩ" ns:keyLabel="／" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄝ" ns:keyLabel="—" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄡ" ns:keyLabel="「" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_bopomofo_ㄥ" ns:keyLabel="」" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:keyEdgeFlags="right" ns:keyLabel="'" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?tabletSymKeyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_chn_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_comma" ns:keyLabel="," />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom_space" ns:keyWidth="39.999996%p" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_ideographic_full_stop" ns:keyLabel="." />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?tabletSymKeyboardSpeech" ns:keyboardSettings="speech" ns:dependentKey="@integer/keycode_space" ns:altPreviewIcon="?symKeyboardFeedbackSpeech" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_keyboard_resize" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackCycleResize" ns:keyIcon="?tabletSymKeyboardCycleResize" ns:keyboardSettings="resizable" ns:dependentKey="@integer/keycode_space" />
+    </Row>
+</KeyboardEx>

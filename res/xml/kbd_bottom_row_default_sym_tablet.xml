@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?tabletSymKeyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_alpha_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_comma" ns:keyLabel="," />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="-" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom_space" ns:keyWidth="@fraction/space_key_tablet_width_sym" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="'" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_period" ns:keyLabel="." />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?tabletSymKeyboardSpeech" ns:keyboardSettings="speech" ns:dependentKey="@integer/keycode_space" ns:altPreviewIcon="?symKeyboardFeedbackSpeech" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_keyboard_resize" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackCycleResize" ns:keyIcon="?tabletSymKeyboardCycleResize" ns:keyboardSettings="resizable" />
+    </Row>
+</KeyboardEx>

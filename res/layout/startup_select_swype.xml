@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.widget.directional.DirectionalRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="4.0" android:layout_weight="1.0">
+            <Button android:textColor="#ffffa200" android:id="@id/select_swype_button" android:layout_width="0.0dip" android:layout_height="70.0dip" android:text="@string/label_go_key" android:layout_weight="3.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="bottom" android:id="@id/imageButton1" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step1_done" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_settings" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/imageButton2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step2_on" android:layout_weight="1.0" android:contentDescription="@string/select_input_method" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/imageButton3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step3_off" android:layout_weight="1.0" android:contentDescription="@string/accessibility_voice_input_language_selection" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/imageButton4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step4_off" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_title" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nuance.swype.widget.directional.DirectionalRelativeLayout>

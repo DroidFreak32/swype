@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d palavras serão excluídas</item>
+        <item quantity="one">Será apagada uma palavra.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">Há %d dias</item>
+        <item quantity="one">Há %d dia</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Há %d horas</item>
+        <item quantity="one">Há %d hora</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Há %d minutos</item>
+        <item quantity="one">Há %d minuto</item>
+    </plurals>
+</resources>

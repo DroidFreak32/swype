@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:keyTextSize="@dimen/key_text_size_small" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_q" ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="¦" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_w" ns:keyLabel="2" ns:shiftedKeyLabel="©" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_e" ns:keyLabel="3" ns:shiftedKeyLabel="_" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_r" ns:keyLabel="4" ns:shiftedKeyLabel="®" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_t" ns:keyLabel="5" ns:shiftedKeyLabel="™" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_y" ns:keyLabel="6" ns:shiftedKeyLabel="¥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_u" ns:keyLabel="7" ns:shiftedKeyLabel="•" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_i" ns:keyLabel="8" ns:shiftedKeyLabel="`" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_o" ns:keyLabel="9" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_p" ns:keyLabel="0" ns:shiftedKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_ü" ns:keyEdgeFlags="right" ns:keyLabel="%" ns:shiftedKeyLabel="…" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_a" ns:keyEdgeFlags="left" ns:keyLabel="\@" ns:shiftedKeyLabel="&lt;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_s" ns:keyLabel="$" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_d" ns:keyLabel="&amp;" ns:shiftedKeyLabel="«" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_f" ns:keyLabel="*" ns:shiftedKeyLabel="»" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_g" ns:keyLabel="€" ns:shiftedKeyLabel="£" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_h" ns:keyLabel=":" ns:shiftedKeyLabel="¤" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_j" ns:keyLabel=";" ns:shiftedKeyLabel="~" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_k" ns:keyLabel="(" ns:shiftedKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_l" ns:keyLabel=")" ns:shiftedKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_ä" ns:keyEdgeFlags="right" ns:keyLabel="&quot;" ns:shiftedKeyLabel="§" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_8_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?symKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¢" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_x" ns:keyLabel="!" ns:shiftedKeyLabel="|" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_c" ns:keyLabel="\#" ns:shiftedKeyLabel="^" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_v" ns:keyLabel="/" ns:shiftedKeyLabel="\\" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_b" ns:keyLabel="+" ns:shiftedKeyLabel="—" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_n" ns:keyLabel="=" ns:shiftedKeyLabel="°" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_m" ns:keyLabel="\?" ns:shiftedKeyLabel="½" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_qwertyet_õ" ns:keyLabel="ö" ns:shiftedKeyLabel="Ö" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_8_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default_sym" />
+</KeyboardEx>

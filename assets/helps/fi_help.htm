@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Puhe</a></div>
+				<div><a href="#write">Kirjoitus</a></div>
+				<div class="last"><a href="#tap">Kosketus</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swypen avulla voit vuorotella saumattomasti eri syöttötapojen kesken: Swype, Puhe, Kirjoitus tai Kosketus.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype on nopea tapa kirjoittaa. Voit kirjoittaa sanoja liikuttamalla sormeasi kirjaimelta toiselle. Laita sormesi sanan ensimmäisen kirjaimen päälle ja siirry kirjaimesta kirjaimeen nostamalla sormesi ylös viimeisen kirjaimen jälkeen. Swype lisää välilyöntejä tarvittaessa.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Lue lisää <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype&#45;näppäin
+									<div id="ul_1a" class="open">
+										<p>Swype&#45;näppäimessä on Swype&#45;logo. Voit avata Swypen asetukset pitämällä Swype&#45;näppäimen painettuna.</p>
+										<p>Swype&#45;näppäimen avulla voi käynnistää myös monia Swype&#45;eleitä.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Näppäimistön esikatselu
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype&#45;liikkeet
+									<div id="ul_1b" class="closed">
+										<p>Swype&#45;liikkeet ovat näppäimistöllä suoritettavia pikatoimintoja, joiden avulla voit suorittaa yleisimpiä tehtäviä nopeasti. Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+										<ul>
+											<li><span class="gestures">Muokkausnäppäimistöön siirtyminen</span> Muokkausnäppäimistö tulee näytölle, kun pyyhkäiset näppäimestä <img src="img_swypekey.png" /> Symbols&#45;näppäimeen (?123).</li>
+											<li><span class="gestures">Numeronäppäimistöön siirtyminen</span> Numeronäppäimistö tulee näytölle nopeasti, kun pyyhkäiset näppäimestä <img src="img_swypekey.png" /> näppäimeen ”5”.</li>
+											<li><span class="gestures">Näppäimistön piilottaminen</span> Voit piilottaa näppäimistön helposti pyyhkäisemällä Swype&#45;näppäimestä askelpalautinnäppäimeen.</li>
+
+											<li><span class="gestures">Automaattisten välilyöntien kytkeminen pois päältä</span> Voit poistaa automaattisen välilyönnin käytöstä ennen seuraavaa sanaa liu’uttamalla välinäppäimestä askelpalautinnäppäimeen.</li>
+
+
+											<li><span class="gestures">Sanan kirjainkoon muuttaminen</span> Voit muuttaa sanan kirjainkokoa sanan syöttämisen jälkeen tai tekstiä muokatessasi. Kosketa tekstin sanaa ja pyyhkäise näppäimestä <img src="img_swypekey.png" /> poispäin näppäimeen <img src="img_shiftkey.png" /> ennen kuin nostat sormesi. Sanavalikko ja kirjainkoon valinta ilmestyy näkyviin. Voit valita pienen kirjainkoon, ensimmäisen kirjaimen ison kirjainkoon tai kaikkien kirjainten ison kirjainkoon.</li>
+
+											<li><span class="gestures">Välimerkit</span> Välimerkin voi syöttää helposti pyyhkäisemällä kysymysmerkistä, pilkusta, pisteestä tai muusta välimerkistä välilyöntinäppäimeen sen sijaan, että napauttaisit välilyöntinäppäintä.</li>
+
+											<li><span class="gestures">Valitse Kaikki, Leikkaa, Kopioi ja Liitä</span>
+												Valitse kaikki: Pyyhkäise näppäimestä <img src="img_swypekey.png" /> kirjaimeen ”a”.<br />
+												Leikkaa: Pyyhkäise näppäimestä <img src="img_swypekey.png" /> kirjaimeen ”x”.<br />
+												Kopioi: Pyyhkäise näppäimestä <img src="img_swypekey.png" /> kirjaimeen ”c”.<br />
+												Liitä: Pyyhkäise näppäimestä <img src="img_swypekey.png" /> kirjaimeen ”v”.
+											</li>
+
+											<li><span class="gestures">Sovelluksen pikanäppäimet</span>Google Maps: Pyyhkäise näppäimestä <img src="img_swypekey.png" /> kirjaimeen ”v” ja siitä edelleen kirjaimeen ”m”.</li>
+											<li><span class="gestures">Haku</span>Tee nopea verkkohaku korostamalla teksti ja pyyhkäisemällä sitten näppäimestä <img src="img_swypekey.png" /> kirjaimeen S.</li>
+											<li><span class="gestures">Siirtyminen viimeksi käytettyyn kieleen.</span>Käytettäessä useita kieliä, nopea tapa siirtyä takaisin edelliseen kieleen on pyyhkäistä kohdasta <img src="img_swypekey.png" /> välilyöntinäppäimeen.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Kaksoiskirjainten kirjoittaminen
+									<div id="ul_1n" class="closed">
+										<p>Voit tehostaa kaksoiskirjaimien syöttötarkkuutta tuhertamalla hieman tai tekemällä kiemuran kirjaimen päällä. Voit esimerkiksi kirjoittaa &quot;aa&quot; sanaa &quot;maasto&quot; varten tuhertamalla näppäimen &quot;a&quot; päällä. Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Sanan valitseminen
+									<div id="ul_1d" class="closed">
+										<p>Voit hyväksyä sanaluettelossa ehdotetun sanan jatkamalla liu&#39;utusta tai napautusta. Muussa tapauksessa siirry luettelossa vetämällä sormeasi ja valitse haluamasi sana. Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+<p>Voit valita tekstiä luettelosta siirtämällä sormea ympyräliikkeellä kuullaksesi merkintöjen luettelon. Voit siirtyä eteenpäin luettelossa myötäpäivään tehdyllä liikkeellä ja taaksepäin vastapäivään tehdyllä liikkeellä.  
+Viimeisin puhuttu luettelon merkintä voidaan tuottaa nostamalla sormi.
+Voit valita sanan sanavalikosta liu’uttamalla sormea ylös näppäimistöltä, kunnes luettelon ensimmäinen sana kuullaan, ja aloittamalla sitten ympyräliikkeen.
+Tämä ominaisuus on käytettävissä vain, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Sanan kirjoittaminen isoin kirjaimin
+									<div id="ul_1e" class="closed">
+										<p>Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+										<p>Voit kirjoittaa sanan isoin kirjaimin pyyhkäisemällä sormeasi ensimmäisestä kirjaimesta ylös kohti näppäimistön yläosaa ja liu’uttamalla sormen takaisin sanan seuraavaan kirjaimeen sormea nostamatta.</p>
+										<p>Voit muuttaa sanan kirjainkokoa sanan syöttämisen jälkeen tai tekstiä muokatessasi. Kosketa tekstin sanaa ja pyyhkäise näppäimestä <img src="img_swypekey.png" /> poispäin näppäimeen <img src="img_shiftkey.png" /> ennen kuin nostat sormesi. Sanavalikko ja kirjainkoon valinta ilmestyy näkyviin. Voit valita pienen kirjainkoon, ensimmäisen kirjaimen ison kirjainkoon tai kaikkien kirjainten ison kirjainkoon.</p>
+										<p>Voit siirtyä CAPS Lock &#45;tilaan kaksoisnapauttamalla Shift&#45;näppäintä <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Autom. välilyönnit
+									<div id="ul_1f" class="closed">
+										<p>Swype lisää välilyönnin sanojen väliin automaattisesti, kun pyyhkäiset lauseen seuraavaa sanaa. Voit asettaa automaattisen välilyöntien lisäyksen päälle tai pois päältä kohdassa Swype&#45;asetukset.</p>
+										<p>Automaattinen välilyöntien lisäys voidaan asettaa pois päältä yhden sanan kohdalla liu&#39;uttamalla välilyöntinäppäimeltä askelpalautinnäppäimelle.</p>
+										<p>Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Sanan korvaaminen
+									<div id="ul_1g" class="closed">
+										<p>Voit korvata sanan koskettamalla sitä ja valitsemalla haluamasi sanan sanavalikosta tai yksinkertaisesti siten, että korostat sanan ja pyyhkäiset uuden sanan. Uusi sana korvaa virheellisen sanan.</p>
+										<p>Sanan korostus tapahtuu koskettamalla sanaa ja painamalla sen jälkeen <img src="img_swypekey.png" /> tai kaksoiskoskettamalla sanaa.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Hyppely kirjainten välillä
+									<div id="ul_1h" class="closed">
+										<p>Voit saada haluamasi sanan ensimmäisellä pyyhkäisyllä, jos vältät turhia kirjaimia pyyhkäisyjen aikana.</p>
+										<p>Esimerkiksi &quot;tuppi&quot; ja &quot;toppi&quot; voidaan pyyhkäistä samaa polkua käyttäen, mutta huomaa, että sinun ei tarvitse siirtyä kirjaimesta kirjaimeen suorassa linjassa. Kirjaimen &quot;u&quot; välttäminen liu’utettaessa sormea kirjaimeen &quot;o&quot; varmistaa, että sana &quot;toppi&quot; on ensimmäisenä sanavalikossa.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Vaihtoehtoiset merkit
+									<div id="ul_1i" class="closed">
+
+										<p>Paina näppäintä ja pidä se painettuna, jolloin näytölle ilmestyy kyseisen näppäimen vaihtoehtoisten merkkien luettelo, esim. erikoismerkit á ja ø, symbolit kuten @ ja % sekä numerot.</p>
+
+										<p>Voit siirtyä Symbolit&#45;näppäimistöön koskettamalla Symbolit&#45;näppäintä (?123).</p>
+										<p>Huomaa, että KAIKKI merkit voidaan pyyhkäistä päänäppäimistöltä (riippumatta siitä, ovatko ne näkyvissä). Voit pyyhkäistä tätä näppäimistönäkymää käyttämällä, mutta saat vain sanoja, joissa on vähintään yksi numero tai symboli.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Sanojen lisääminen ja poistaminen
+									<div id="ul_1j" class="closed">
+										<p>Swype lisää käyttämäsi uudet sanat älykkäästi henkilökohtaiseen sanakirjaasi.</p>
+										<p>Voit lisätä sanoja myös korostamalla niitä ja koskettamalla näppäintä <img src="img_swypekey.png" /> . Lisää sana koskettamalla näyttöön tulevaa kehotetta.</p>
+										<p>un haluat poistaa sanan, paina sanavalikossa näkyvää sanaa ja pidä se painettuna. Kosketa sitten vahvistusikkunan OK&#45;vaihtoehtoa. Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Mukauttaminen
+									<div id="ul_1k" class="closed">
+										<p>Swype pystyy lisäämään sanakirjaasi sanoja nopeasti aikaisemmista Facebook&#45;, Twitter&#45;, ja Gmail&#45;. Swypen mukauttaminen:</p>
+										<ol>
+											<li>Paina ja pidä <img src="img_swypekey.png" /> painettuna.</li>
+											<li>Valitse Swype&#45;asetukset&#45;valikon Personointi&#45;vaihtoehto.</li>
+											<li>Valitse haluamasi mukautusvalinnat ja syötä tietosi, jos järjestelmä pyytää niitä.</li>
+											<li>Voit mukauttaa Swypeä yhdestä tai jokaisesta lähteestä käsin.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Puhe</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Voit syöttää puhumalla erilaista tekstisisältöä, kuten teksti&#45; ja sähköpostiviestejä tai Facebook&#45; ja Twitter&#45;päivityksiä.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Lue lisää <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Välimerkit
+									<div id="ul_2a" class="open">
+										<p>Välimerkkejä ei tarvitse syöttää käsin. Sano vain haluamasi välimerkki ääneen ja jatka eteenpäin. Kokeile tätä:</p>
+										<ol>
+											<li>Paina ääninäppäintä ja puhu.</li>
+											<li>Sano näin: <i>Illallinen oli ihana huutomerkki</i></li>
+											<li>Tässä saamasi tulos: <i>Illallinen oli ihana!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Puhesyöttö ei ole käytettävissä kaikkien näppäimistöjen kohdalla</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Kirjoitus</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Voit piirtää sormillasi kirjaimia ja sanoja, ja Swype muuntaa ne tekstiksi. Voit kirjoitt kirjaimet vierekkäin vasemmalta oikealle tai piirtää kirjaimet päällekkäin. Paina ABC / 123 vuorotellaksesi kirjainten ja numeroiden kesken.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Lue lisää <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Ota käsinkirjoitus käyttöön
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Pidä <img src="img_symkey.png" /> painettuna ja vedä sormesi käsinkirjoituskuvakkeeseen.</li>
+											<li>Kirjoita sormellasi kirjaimia käsinkirjoitus&#45;alueella.</li>
+
+											<li>Kosketa välilyöntinäppäintä jokaisen sanan välillä.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Monikosketusele
+									<div id="ul_3b" class="closed">
+										<p>Monikosketuseleen ansiosta voit suorittaa yksinkertaisia tehtäviä, kuten muuttaa yksittäisten kirjainten tai sanojen kirjainkoon isoksi.</p>
+										<ol>
+											<li>Kirjoita joitakin pieniä kirjaimia piirtoalustalle.</li>
+											<li>Kun olet syöttänyt merkit, liu’uta kahta sormea ylöspäin kirjoitusalueella</li>
+											<li>Käsinkirjoitus&#45;toiminto tunnistaa monikosketuseleen ja muuttaa kirjaimet isoiksi kirjaimiksi</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Käsinkirjoitus ei ole käytettävissä kaikkien näppäimistöjen kohdalla.</i></p>
+									<p><i>Tämä ominaisuus ei ole käytettävissä, kun järjestelmän helppokäyttötoimintopalvelu Explore&#45;by&#45;Touch on käytössä.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Kosketus</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Perinteinen näppäimistön välityksellä käsin tehtävä syöttötapa. Swype&#45;näppäimistöllä tapahtuvaa kosketussyöttöä on helpotettu ja tehostettu muutamilla näppärillä toiminnoilla:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Lue lisää <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Huolimattoman näppäilyn korjaaminen
+									<div id="ul_4a" class="open">
+										<p>Jokaista kirjainta ei tarvitse näppäillä tarkasti. Tee parhaasi ja Swype huolehtii sanojen älykkäästä ehdottamisesta.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Sanojen täydennys
+									<div id="ul_4b" class="closed">
+										<p>Swype pystyy myös arvaamaan sanoja muutaman kirjaimen perusteella.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Kielet</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Kielen vaihtaminen näppäimistöltä: Paina ja pidä välilyöntinäppäin painettuna. Valitse haluamasi kieli ponnahdusvalikosta.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect &#45;toiminnon avulla päivitykset ja tehokkaat toiminnot voidaan toimittaa suoraan laitteeseesi! Swype Connect toimii 3G&#45;verkossa, mutta Wifi&#45;yhteyttä kannattaa käyttää aina, kun se on mahdollista.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Lue lisää <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Kielten lataaminen
+									<div id="ul_6a" class="open">
+										<p>Swypeen on helppo lisätä uusia kieliä:</p>
+										<ol>
+											<li>Pidä <img src="img_swypekey.png" /> painettuna ja valitse Kielet.</li>
+											<li>Valitse Kielet&#45;valikosta Lataa kieliä.</li>
+											<li>Napauta kieltä, jolloin sen lataus käynnistyy automaattisesti.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ei ole käytettävissä kaikilla näppäimistöillä.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Lisää ohjeita</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swypen käyttöön liittyviä ohjeita on saatavilla Swypen käyttöohjeista ja Swypen vinkeistä ja videoista osoitteessa <a href="http://www.swype.com">www.swype.com</a> tai Swypen online&#45;foorumista osoitteessa <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

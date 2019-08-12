@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d kelime silinecek</item>
+        <item quantity="one">Bir kelime silinecek.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">%d saat önce</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">%d dakika önce</item>
+    </plurals>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_phone_key_tablet_width" ns:keyboardForcedSwypeable="true" ns:showPopup="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:codes="@integer/keycode_phone_wait" ns:keyEdgeFlags="split_right" ns:keyLabel="@string/label_wait" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="?keyContentBaseline" ns:keyEdgeFlags="split_left" ns:keyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="2" ns:altKeyLabel="ABC" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="3" ns:altKeyLabel="DEF" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyLabel="/" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="-" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:codes="@integer/keycode_phone_pause" ns:keyEdgeFlags="split_right" ns:keyLabel="@string/label_pause" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyEdgeFlags="split_left" ns:keyLabel="4" ns:altKeyLabel="GHI" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="5" ns:altKeyLabel="JKL" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="6" ns:altKeyLabel="MNO" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyLabel="," />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="." />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="split_right" ns:keyLabel="N" />
+        <Key ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyEdgeFlags="split_left" ns:keyLabel="7" ns:altKeyLabel="PQRS" />
+        <Key ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="8" ns:altKeyLabel="TUV" />
+        <Key ns:keyContentBaseline="?keyContentBaseline" ns:altTextGravity="center" ns:keyLabel="9" ns:altKeyLabel="WXYZ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyWidth="@fraction/space_key_tablet_width_phone" ns:keyContentBaseline="?keyContentBaseline" ns:codes="@integer/keycode_space" ns:keyIcon="?symKeyboardSpaceCom" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="split_right" ns:keyLabel="+" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="split_left" ns:keyLabel="*" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="0" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\#" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/return_key_baseline" ns:codes="@integer/keycode_keyboard_resize" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackCycleResize" ns:keyIcon="?tabletSymKeyboardCycleResize" ns:keyboardSettings="resizable" ns:dependentKey="@integer/keycode_space" />
+    </Row>
+</KeyboardEx>

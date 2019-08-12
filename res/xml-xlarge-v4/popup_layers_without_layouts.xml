@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_popup_key" ns:keyWidth="17.999994%p" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyboardForcedHeight="-1.0px" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="bottom|top">
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardFeedbackNumpad" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_handwriting" ns:keyIcon="?symKeyboardFeedbackHandwriting" ns:keyboardSettings="handwriting" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_keyboard" ns:iconPreview="?symKeyboardFeedbackKeyboard" ns:keyIcon="?symKeyboardFeedbackKeyboard" ns:keyboardSettings="keyboard" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeechMic" ns:keyIcon="?symKeyboardFeedbackSpeechMic" ns:keyboardSettings="speechpop" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:keyEdgeFlags="right" ns:keyIcon="?keyboardFeedbackEmoticon" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_smiley_key_long" />
+    </Row>
+</KeyboardEx>

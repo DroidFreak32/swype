@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:icon="@drawable/ic_settings_preferences" android:title="@string/pref_connect_settings" android:fragment="com.nuance.swype.input.settings.SettingsPrefsFragment" />
+    <header android:icon="@drawable/ic_settings_personalization" android:id="@id/themes_category_header" android:title="@string/pref_menu_themes" android:fragment="com.nuance.swype.input.settings.ThemesCategoryFragment" />
+    <header android:icon="@drawable/ic_settings_personalization" android:id="@id/swype_themes_activity_header" android:title="@string/pref_menu_themes" android:fragment="com.nuance.swype.input.settings.ThemesFragment" />
+    <header android:icon="@drawable/ic_settings_personalization" android:id="@id/swype_themes_prefs_header" android:title="@string/pref_menu_themes" android:fragment="com.nuance.swype.input.settings.ThemesPrefsFragment" />
+    <header android:icon="@drawable/ic_settings_chinese" android:id="@id/chinese_prefs_header" android:title="@string/settings_swype_chinese" android:fragment="com.nuance.swype.input.settings.ChinesePrefsFragment" />
+    <header android:icon="@drawable/ic_settings_connect" android:id="@id/connect_prefs_header" android:title="@string/pref_my_words_title" android:fragment="com.nuance.swype.input.settings.MyWordsPrefsFragment" />
+    <header android:icon="@drawable/ic_settings_languages" android:title="@string/language_category_title" android:fragment="com.nuance.swype.input.settings.LanguageOptionsFragment" />
+    <header android:icon="@drawable/ic_settings_gestures" android:id="@id/tutorials_header" android:title="@string/pref_menu_gestures" android:fragment="com.nuance.swype.input.settings.TutorialFragment">
+        <extra android:name="help_url" android:value="@string/fullhelp_gestures_file" />
+    </header>
+    <header android:icon="@drawable/ic_settings_help" android:title="@string/pref_help_title" android:fragment="com.nuance.swype.input.settings.HelpFragment" />
+    <header android:icon="@drawable/ic_settings_updates" android:id="@id/updates_header" android:title="@string/updates_title" android:fragment="com.nuance.swype.input.settings.UpdatesFragment" />
+</preference-headers>

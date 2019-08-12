@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Hitz egin</a></div>
+				<div><a href="#write">Idatzi</a></div>
+				<div class="last"><a href="#tap">Idatzi</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swype&#45;rekin lau sarrera moduren artean erraz aldatzeko gaitasuna duzu (Swype, Hitz egin, Idatzi edo Punteatu).</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype testua idazteko modu azkarra da. Hitz bat idazteko letra batetik bestera marraztu baino ez duzu. Jarri hatza hitzaren lehenengo letran eta ibilbidea marraztu letra batetik bestera. Azkenekora iristsitakoan, hatza jaso. Swype&#45;k jarriko ditu tarteak, beharrezkoa denean.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Informazio gehiago <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype tekla
+									<div id="ul_1a" class="open">
+										<p>Swype tekla Swype logotipoa duen tekla da. Mantendu sakatuta Swype tekla Swype ezarpenak atalera sartzeko.</p>
+										<p>Swype tekla Swype keinuetariko asko abiarazteko erabiltzen da ere.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Teklatuaren aurrebista
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype keinuak
+									<div id="ul_1b" class="closed">
+										<p>Swype Keinuak teklatuan dauden lasterbideak dira, zeinen bitartez ohiko atazak azkarrago burutzen diren. Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+										<ul>
+											<li><span class="gestures">Editatu Teklatura sartzea</span> Editatu teklatuan sartzeko, irristatu irristatu <img src="img_swypekey.png" /> ikonotik teklatuko Ikurren teklara (?123).</li>
+											<li><span class="gestures">Zenbakien Teklatura sartzea</span> Zenbakizko teklatura bizkor joateko, irristatu <img src="img_swypekey.png" /> ikonotik 5 zenbakira.</li>
+											<li><span class="gestures">Teklatua ezkutatzea</span> Teklatua erraz ezkutatzeko, Swype egin Swype teklatutik atzera teklara.</li>
+
+											<li><span class="gestures">Tarteak automatikoki ezartzea</span> Tarteak automatikoki ezartzea desaktibatu hurrengo hitza idatzi aurretik, Zuriune teklatik Atzera teklara irristatuz.</li>
+
+
+											<li><span class="gestures">Hitz baten maiuskula edo minuskula editatu</span> Idatzi ondoren maiuskula ordez minuskula jartzeko, edo alderantziz, punteatu hitza eta irristatu <img src="img_swypekey.png" /> ikonotik Maius teklara <img src="img_shiftkey.png" /> . Aukerako hitzen zerrenda bat agertuko da maiuskula&#45;minuskula aukerekin, minuskula, Maiuskula edo DENA MAIUSKULA aukera dezazun.</li>
+
+											<li><span class="gestures">Puntuazioa</span> Puntuazioa sartzeko modu erraz bat da zuriune teklara irristatzea galdera ikur, koma, puntu edo bestelako puntuazio ikurretatik, Zuriune tekla punteatu beharrean.</li>
+
+											<li><span class="gestures">Hautatu Dena, Ebaki, Kopiatu eta Itsatsi</span>
+												Hautatu dena: Irristatu <img src="img_swypekey.png" /> ikonotik &#39;a&#39;&#45;raino<br />
+												Moztu: Irristatu <img src="img_swypekey.png" /> ikonotik &#39;x&#39;&#45;raino<br />
+												Kopiatu: Irristatu <img src="img_swypekey.png" /> ikonotik &#39;c&#39;&#45;raino<br />
+												Itsatsi: Irristatu <img src="img_swypekey.png" /> ikonotik &#39;v&#39;&#45;raino
+											</li>
+
+											<li><span class="gestures">Aplikazioaren lasterbideak</span>Google Maps: Irristatu <img src="img_swypekey.png" /> ikonotik &#39;g&#39;&#45;raino eta gero &#39;m&#39;&#45;raino</li>
+											<li><span class="gestures">Bilaketa</span>Web&#45;ean bilaketa azkarra egiteko, nabarmendu testua eta pasatu hatza (Swype) <img src="img_swypekey.png" /> ikonotik &quot;S&quot;&#45;raino.</li>
+											<li><span class="gestures">Aldatu erabilitako azken hizkuntzara.</span>Hizkuntza bat baino gehiago erabiltzen baduzu, hauen artean aldatzeko modu azkar bat <img src="img_swypekey.png" /> &#45;etik Swype&#45;tik Espazio teklara pasatzea da.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Letra bikoitzak egitea
+									<div id="ul_1n" class="closed">
+										<p>Letra bikoitzak idazterakoan doitasuna hobetzeko, zirrimarra edo kiribil bat egin letraren gainean. Adibidez “urteen” hitzaren “ee” letrak idazteko, zirrimarratu “e” letran. Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Hitz bat hautatzea
+									<div id="ul_1d" class="closed">
+										<p>Aukerako hitzen zerrendan proposatutako hitza onartzeko, jarraitu Swype&#45;rekin idazten, besterik gabe. Bestela, korritu zerrenda hatzarekin eta hautatu nahi duzun hitza. Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+<p>Zerrenda batetik testua hautatzeko, egin mugimendu zirkularrak zure hatzarekin, zerrendako sarrerak entzuteko. Erlojuaren orratzen norabide berean mugituta, zerrendan aurrera egiten da; erlojuaren orratzen kontrako norabidean mugituta, zerrendan atzera eg  
+Hatza altxatzean, zerrendan azkena entzundako sarrera hartuko du.
+Aukerako Hitzen Zerrendako hitz bat hautatzeko, irristatu hatza teklatuan gora zerrendako lehen hitza entzun arte; ondoren, has zaitez mugimendu zirkularra egiten.
+Eginbide hau sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean soilik egongo da erabilgarri.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Letrak maiuskulaz jartzea
+									<div id="ul_1e" class="closed">
+										<p>Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+										<p>Hitz baten lehenengo letra maiuskulaz jartzeko, irristatu hatza lehenengo letratik teklaturen goiko aldearen gainera eta, hatza jaso gabe, berriro behera irristatu hitzaren hurrengo letraraino.</p>
+										<p>Idatzi ondoren maiuskula ordez minuskula jartzeko, edo alderantziz, punteatu hitza eta irristatu <img src="img_swypekey.png" /> ikonotik Maius teklara <img src="img_shiftkey.png" /> . Aukerako hitzen zerrenda bat agertuko da maiuskula&#45;minuskula aukerekin, minuskula, Maiuskula edo DENA MAIUSKULA aukera dezazun.</p>
+										<p>BLOK MAIUS moduan sartzeko, ukitu birritan Maius tekla <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Tarteak automatikoki ezartzea
+									<div id="ul_1f" class="closed">
+										<p>Swype&#45;k automatikoki jartzen du tarte bat hitzen artean Swype&#45;rekin hurrengo hitza idazten duzunean. Tarte automatikoak ezartzeko eginbidea aktiba edo desaktiba dezakezu Swype ezarpenak atalean.</p>
+										<p>Tarte automatikoak desaktiba daitezke hitz batentzat Zuriune teklatik Atzera teklara.</p>
+										<p>Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Hitz bat ordezkatzea
+									<div id="ul_1g" class="closed">
+										<p>Hitz bat aldatzeko, hitz hori punteatu eta hautatu nahi duzun hitza Aukerako hitzen zerrendan. Hitz berriak akastuna ordeztuko du.</p>
+										<p>Hitz bat nabarmentzeko, punteatu hitza eta sakatu <img src="img_swypekey.png" /> ikonoa edo punteatu birritan hitza.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Letra batetik bestera jauzi egitea
+									<div id="ul_1h" class="closed">
+										<p>Swype&#45;rekin idaztean letra batzuk saihesten badituzu, nahi duzun hitza lehen saiakeran lor dezakezu.</p>
+										<p>Adibidez “horia” eta “hiria” ibilbide berdinarekin marraz daitezke, baina, kontuan izan, ez duzu letratik letrara marra zuzen batean idatzi beharrik. “o” letra saihestuz “r” letrara atzamarra irristatzean, “hiria” hitza Aukerako hitzen zerrendako lehenengoa izango dela ziurtatuko duzu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Aukerako karaktereak
+									<div id="ul_1i" class="closed">
+
+										<p>Sakatu eta eduki sakatuta tekla bat horri dagozkion beste karaktereen zerrenda ager dadin, esaterako: é eta ñ bezalako letra azentudunak, @ eta % bezalako ikurrak eta zenbakiak.</p>
+
+										<p>Punteatu Ikurrak tekla (?123) Ikurrak teklatura joateko.</p>
+										<p>Kontua izan karaktere GUZTIAK idatz daitezkeela Swype&#45;rekin, teklatu nagusia erabiliz (nahiz eta horiek ezin dituzun ikusi). Teklatuaren ikuspegi hau erabiliz idatz dezakezu Swype&#45;rekin baina gutxienez zenbaki edo ikur bat duten hitzak soilik lortuko dituzu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Hitzak gehitzea eta ezabatzea
+									<div id="ul_1j" class="closed">
+										<p>Swype&#45;k modu eraginkorrean gehitzen ditu erabiltzen dituzun hitz berriak hiztegi pertsonalean.</p>
+										<p>Hitz bat nabarmenduz eta <img src="img_swypekey.png" /> ikonoa punteatuz hitza gehi dezakezu. Ukitu agertzen den abisua hitza gehitzeko.</p>
+										<p>Hitz bat ezabatzeko, sakatu eta eduki sakatuta Aukerako hitzen zerrenda eta punteatu Ados berresteko elkarrizketa koadroan. Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Pertsonalizazioa
+									<div id="ul_1k" class="closed">
+										<p>Swype&#45;k Facebook, Twitter eta Gmail hitz berriak azkar gehi ditzake hiztegian. Swype pertsonalizatzeko:</p>
+										<ol>
+											<li>Sakatu eta eduki sakatuta <img src="img_swypekey.png" /> .</li>
+											<li>Swype ezarpenak menutik, hautatu Pertsonalizatu.</li>
+											<li>Hautatu pertsonalizazio aukeretatik eta sartu zure kredentzialak, eskatzen bazaizkizu.</li>
+											<li>Swype pertsonalizatu dezakezu iturri batetik edo guztietatik.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Hitz egin</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Hitz egin dezakezu testu edukia sartzeko: SMSak, mezu elektronikoak, Facebook eta Twitter&#45;eko eguneratzeak eta guzti.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Informazio gehiago <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Puntuazioa
+									<div id="ul_2a" class="open">
+										<p>Ez duzu zertan eskuz gehitu puntuazioa. Nahi duzun puntuazioa adierazi eta jarraitu besterik ez duzu. Saiatu hau:</p>
+										<ol>
+											<li>Sakatu ahots tekla eta hasi hizketan.</li>
+											<li>Esaten duzuna: <i>Afaria primerakoa izan zen harridura marka</i></li>
+											<li>Agertuko dena: <i>Afaria primerakoa izan zen!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ahots bidezko sarrera ez dago erabilgarri teklatu batzuetan</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Idatzi</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Hatza erabil dezakezu letrak eta hitzak marraztezko eta Swype&#45;k testu bihurtuko ditu. Letrak marraz ditzakezu ezkerretik eskuinera edo bata bestearen gainean. Sakatu ABC / 123 letra eta sinbolo moduen artean txandakatzeko.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Informazio gehiago <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Gaitu eskuzko idazketa
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Sakatuta eduki <img src="img_symkey.png" /> eta irristatu hatza &quot;Eskuzko idazketa&quot; ikonora.</li>
+											<li>Marraztu hatzarekin letrak eskuz idazteko gunean.</li>
+
+											<li>Punteatu zuriune barra hitzen artean</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Ukipen anitzeko keinuak
+									<div id="ul_3b" class="closed">
+										<p>Ukipen anitzeko keinuak ataza errazak egiteko aukera ematen dizu, esaterako hitzak edo letrak maiuskuletan jartzea.</p>
+										<ol>
+											<li>Marraztu minuskula batzuk marrazteko gunean</li>
+											<li>Karaktereak sartu eta gero, irristatu bi hatz gorantz idazteko teklatuan</li>
+											<li>Eskuz idazteko eginbideak ukipen anitzeko keinuak antzeman eta letrak maiuskuletan jarriko ditu</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Eskuzko idazketa ez dago erabilgarri teklatu batzuetan.</i></p>
+									<p><i>Eginbide hau ez da erabilgarri egongo sistemaren Explore&#45;by&#45;Touch zerbitzua piztuta dagoenean.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Idatzi</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Eskuzko teklatu sarrerarako ohiko modua. Punteatze bidezko sarrera Swype teklatuan errazago eta eraginkorragoa da eginbide lagungarri hauei esker:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Informazio gehiago <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Idazketa axolagabea zuzentzea
+									<div id="ul_4a" class="open">
+										<p>Ez duzu zertan letra bakoitza ezin hobeki punteatu. Egin ahal duzun guztia eta Swype&#45;k modu eraginkorrean hitzak proposatuko ditu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Hitzak osatzea
+									<div id="ul_4b" class="closed">
+										<p>Swype&#45;k letra gutxi batzuk punteatzean hitza asma dezake.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Hizkuntzak</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Hizkuntzak teklatutik aldatzeko: Sakatu eta eduki sakatuta zuriune barra. Hautatu nahi duzun hizkuntza laster menutik.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect&#45;ek eguneratzeak eta funtzio ahaltsuak zure gailura zuzenean bidaltzeko aukera ematen digu. Nahiz eta Swype Connect&#45;ek 3G sarean lan egin, WiFi konexio bat bilatzea gomendatzen dugu beti.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Informazio gehiago <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Hizkuntza deskargak
+									<div id="ul_6a" class="open">
+										<p>Erraza da Swype&#45;n hizkuntza gehiago gehitzea:</p>
+										<ol>
+											<li>Sakatuta eduki <img src="img_swypekey.png" /> eta hautatu &quot;Hizkuntzak&quot;.</li>
+											<li>&quot;Hizkuntzak&quot; menuan, hautatu &quot;Hizkuntzak deskargatu&quot;.</li>
+											<li>Egin klik hizkuntza batean eta deskarga automatikoki hasiko da.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ez dago erabilgarri teklatu guztietan.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Laguntza gehiago</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype erabiltzeko laguntza gehiago lortzeko, ikusi Swype&#45;ren erabiltzaile&#45;gida eta Swype&#45;ren Aholkuak eta Bideoak <a href="http://www.swype.com">www.swype.com</a> webgunean, edo sartu Swype Foroan hemen: <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

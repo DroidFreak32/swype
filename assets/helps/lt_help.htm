@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Balsu</a></div>
+				<div><a href="#write">Raštu</a></div>
+				<div class="last"><a href="#tap">Spausdinkite</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">„Swype“ suteikia galimybę nepastebimai pereiti tarp keturių skirtingų įvesties režimų: „Swype“, „Balsu“, „Raštu“ ar „Spausdinimo“.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>„Swype“ – tai greitas būdas įvesti tekstą. Jos pagalba galima surinkti zodi pirstu vedant per raides. Uždėkite pirštą ant pirmosios žodžio raidės ir braukite pirštu nuo raidės prie raidės, pakeldami pirštą po paskutiniosios raidės. „Swype“ įterps tarpus ten, kur reikia.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Daugiau informacijos <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									„Swype“ mygtukas
+									<div id="ul_1a" class="open">
+										<p>„Swype“ mygtukas – tai mygtukas su „Swype“ logotipu. Paspauskite ir laikykite nuspaustą „Swype“ mygtuką, norėdami įeiti į „Swype“ nustatymus.</p>
+										<p>„Swype“ mygtukas taip pat naudojamas daugeliui „Swype“ gestų.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Klaviatūros peržiūra
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									„Swype“ gestai
+									<div id="ul_1b" class="closed">
+										<p>„Swype“ gestai – tai trumpiniai klaviatūroje, leidžiantys greitai atlikti įprastus veiksmus. Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+										<ul>
+											<li><span class="gestures">Redagavimo klaviatūros iškvietimas</span> Redagavimo klaviatūrą suaktyvinsite nuvesdami nuo „ <img src="img_swypekey.png" /> iki simbolių klavišo (?123) klaviatūroje.</li>
+											<li><span class="gestures">Skaitmenų klaviatūros iškvietimas</span> Norėdami greitai pereiti į skaitmenų klaviatūrą, nuveskite nuo <img src="img_swypekey.png" /> iki skaitmens „5“.</li>
+											<li><span class="gestures">Klaviatūros paslėpimas</span> Norėdami greitai paslėpti klaviatūrą, veskite nuo Swype mygtuko iki trynimo mygtuko.</li>
+
+											<li><span class="gestures">Automatinio žodžių atskyrimo išjungimas</span> Įveskite vienos raidės žodžius, pirštu vesdami nuo tos raidės iki tarpo klavišo.</li>
+
+
+											<li><span class="gestures">Žodžio rašymo didžiosiomis ar mažosiomis raidėmis redagavimas</span> Pakeiskite jau įvesto žodžio rašymą didžiosiomis ar mažosiomis raidėmis paspaudę ant žodžio, o tada vesdami pirštu nuo <img src="img_swypekey.png" /> iki „Shift“ mygtuko <img src="img_shiftkey.png" /> . Atsiradusiame pasirinktinų žodžių sąraše galėsite pasirinkti visas mažąsias raides, VISAS DIDŽIĄSIAS raides ar pirmąją didžiąją raidę.</li>
+
+											<li><span class="gestures">Skyryba</span> Užuot spaudę ant skyrybos ženklo ir tada ant tarpo klavišo, veskite pirštu nuo kablelio, taško ar kito skyrybos ženklo iki tarpo klavišo.</li>
+
+											<li><span class="gestures">Žymėti viską, kirpti, kopijuoti ir įdėti</span>
+												Pažymėti viską: Veskite pirštu nuo <img src="img_swypekey.png" /> iki „a“<br />
+												Iškirpti: Veskite pirštu nuo <img src="img_swypekey.png" /> iki „x“<br />
+												Kopijuoti: Veskite pirštu nuo <img src="img_swypekey.png" /> iki „c“<br />
+												Įdėti: Veskite pirštu nuo <img src="img_swypekey.png" /> iki „v“
+											</li>
+
+											<li><span class="gestures">Programos šaukiniai</span>„Google“ žemėlapiai Veskite pirštu nuo <img src="img_swypekey.png" /> iki „g,“ o tada „m“</li>
+											<li><span class="gestures">Paieška</span>Norėdami atlikti greitą interneto paiešką, paryškinkite tekstą ir „Swype“ nuo <img src="img_swypekey.png" /> iki „S“</li>
+											<li><span class="gestures">Perėjimas prie paskutinės naudotos kalbos.</span>Kai naudojate keletą kalbų, greičiausias būdas pereiti prie anksčiau naudotos kalbos &#45; „Swype“ vesti pirštu nuo <img src="img_swypekey.png" /> iki tarpo klavišo.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Dvigubų raidžių įvedimas
+									<div id="ul_1n" class="closed">
+										<p>Norėdami įvesti dvigubas raides, ant tos raidės truputėlį pajudinkite pirštą arba nubrėžkite apsktitima. Pavyzdžiui, kad surinktumėte „ii“ žodyje „priimti“, pajudinkite pirštą ant „i“ raidės. Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Žodžio pasirinkimas
+									<div id="ul_1d" class="closed">
+										<p>Norėdami patvirtinti žodį iš pasirinktinų žodžių sąrašo, tiesiog tęskite žodžių įvedimą „Swype“. Kitu atveju, pirštu veskite per sąrašą, ir pasirinkite norimą žodį. Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+<p>Veskite pirštą ratu, kad išgirstumėte sąraše esančius įrašus bei pasirinktumėte tekstą iš sąrašo. Pagal laikrodžio rodyklę sąraše keliaujama pirmyn; prieš laikrodžio rodyklę sąraše keliaujama atgal.  
+Pakėlus pirštą įvedamas paskutinis išgirstas įrašas.
+Kad pasirinktumėte žodį iš pasirenkamųjų žodžių sąrašo, veskite pirštą aukštyn nuo klaviatūros, o kai pasigirs pirmasis sąrašo žodis, imkite vesti pirštą ratu.
+Ši funkcija prieinama tik kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ yra įjungta.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Žodžių rašymas didžiąja raide
+									<div id="ul_1e" class="closed">
+										<p>Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+										<p>Rašykite žodį didžiąja raide vesdami nuo raidės į viršų už klaviatūros ribų ir neatleisdami veskite pirštą žemyn prie kitos žodžio raidės.</p>
+										<p>Pakeiskite jau įvesto žodžio rašymą didžiosiomis ar mažosiomis raidėmis paspaudę ant žodžio, o tada vesdami pirštu nuo <img src="img_swypekey.png" /> iki „Shift“ mygtuko <img src="img_shiftkey.png" /> . Atsiradusiame pasirinktinų žodžių sąraše galėsite pasirinkti visas mažąsias raides, VISAS DIDŽIĄSIAS raides ar pirmąją didžiąją raidę.</p>
+										<p>Norėdami pereiti į didžiųjų raidžių režimą, tiesiog du kartus paspauskite „Shift“ mygtuką <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatinis žodžių atskyrimas
+									<div id="ul_1f" class="closed">
+										<p>„Swype“ automatiškai įterpia tarpą tarp žodžių, kai pirštu imate vesti kitą sakinio žodį. Galite automatinio tarpų įterpimo funkciją išjungti „Swype“ nustatymuose.</p>
+										<p>Automatinis tarpų įterpimas gali būti išjungtas vienam žodžiui, pirštu nuvedus nuo tarpo klavišo prie trynimo („Backspace“) klavišo.</p>
+										<p>Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Žodžio pakeitimas
+									<div id="ul_1g" class="closed">
+										<p>Žodį galite pakeisti, prieš tai ant jo bakstelėję žinutėje, o tada pasirinkę norimą žodį iš pasirinktinų žodžių sąrašo, arba paprasčiausiai pažymėję tą žodį bei įvesdami „Swype“ naująjį. Naujasis žodis pakeis neteisingąjį.</p>
+										<p>Žodis gali būti pažymėtas ant jo paspaudus bei spustelėjus <img src="img_swypekey.png" /> , arba dukart spustelėjus tą žodį.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Raidžių apėjimas
+									<div id="ul_1h" class="closed">
+										<p>Kartais vengdami tam tikrų raidžių, kai įvedate žodžius „Swype“, norimą žodį surinksite iš karto.</p>
+										<p>Pavyzdžiui, „karto“ ir „karo“ galima įvesti vedant pirštą tuo pačiu keliu, tačiau atkreipkite dėmesį į tai, kad nebūtina vesti pirštu nuo vienos raidės iki kitos raidės tiesia linija. Jeigu išvengsite „t“ vesdami pirštu „o“ link, pirmasis pasirinktinas žodis sąraše bus „karo“.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Papildomos raidės ir ženklai
+									<div id="ul_1i" class="closed">
+
+										<p>Nuspauskite mygtuką, kad pamatytumėte kitus su tuo mygtuku susietus simbolius, pavyzdžiui, nosines raides ar raides su diakritikais, pvz., ę ir č, simbolius @, % bei skaitmenis.</p>
+
+										<p>Paspaudus simbolių mygtuką (?123) bus atversta simbolių klaviatūra.</p>
+										<p>Pastaba: VISUS simbolius galima įvesti naudojantis pagrindine klaviatūra (nesvarbu, ar matote juos, ar ne). Galite vesti žiūrėdami į klaviatūrą, tačiau bus rodomi tik tie žodžiai, kurie turi nors vieną skaitmenį ar simbolį.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Žodžių pridėjimas ir trynimas
+									<div id="ul_1j" class="closed">
+										<p>„Swype“ sumaniai įtraukia naujus jūsų vartojamus žodžius į asmeninį žodyną.</p>
+										<p>Be to, galite įtraukti žodį jį pažymėdami bei paspausdami <img src="img_swypekey.png" /> . Paspauskite ant atsidariusio dialogo lango, kad pridėtumėte žodį.</p>
+										<p>Norėdami ištrinti žodį, nuspauskite žodį pasirenkamųjų žodžių sąraše bei paspauskite „Gerai“ patvirtinimo lange. Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Asmeniniai nustatymai
+									<div id="ul_1k" class="closed">
+										<p>„Swype“ gali greitai pridėti žodį į žodyną iš „Facebook“, „Twitter“, „Gmail“. Norėdami priderinti „Swype“ prie savo poreikių:</p>
+										<ol>
+											<li>Paspauskite ir laikykite <img src="img_swypekey.png" /> .</li>
+											<li>„Swype“ nustatymų meniu pasirinkite „Personalizavimą“.</li>
+											<li>Pasirinkite priderinimo parinktis, bei, jei reikia, įveskite savo kredencialus.</li>
+											<li>Galite priderinti „Swype“ prie savo poreikių iš vieno ar visų šaltinių.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Balsu</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Balsu galite įvesti tiek tekstą bei elektroninio pašto žinutes, tiek ir „Facebook“ ar „Twitter“ naujas žinutes.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Daugiau informacijos <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Skyryba
+									<div id="ul_2a" class="open">
+										<p>Nereikia rankiniu būdu sudėti skyrybos ženklų. Tiesiog pasakykite, kokios skyrybos norite, ir tęskite toliau. Pabandykite štai ką:</p>
+										<ol>
+											<li>Paspauskite balso klavišą bei imkite kalbėti.</li>
+											<li>Sakykite štai tai: <i>Vakarienė buvo gardi šauktukas</i></li>
+											<li>Matysite štai ką: <i>Vakarienė buvo gardi!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Įvestis balsu neprieinama kai kurioms klaviatūroms</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Raštu</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Galite naudoti pirštą raidėms ir žodžiams piešti, o „Swype“ pavers juos tekstu. Galite nupiešti raides iš kairės į dešinę, arba vieną ant kitos. Paspaudę ABC / 123 pereisite tarp raidžių ir simbolių režimo.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Daugiau informacijos <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Įjungti rašymą ranka
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Paspauskite ir laikykite paspaudę <img src="img_symkey.png" /> ir braukite pirštu iki rašymo ranka ikonos.</li>
+											<li>Rasykite raides pirštu rašysenos plote.</li>
+
+											<li>Paspauskite tarpo klavišą tarp žodžių</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gestai keliais paspaudimais
+									<div id="ul_3b" class="closed">
+										<p>Gestai keliais paspaudimais leidžia užbaigti paprastas užduotis, pavyzdžiui, žodžių ar raidžių rašymą didžiąja raide.</p>
+										<ol>
+											<li>Nupieškite rašysenos plote keletą mažųjų raidžių</li>
+											<li>Įvedę raides, nuveskite du pirštus aukštyn rašysenos plote</li>
+											<li>Rašysenos funkcija atpažins gestą keliais paspaudimais ir pakeis raides didžiosiomis.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Rašysenos atpažinimas kai kuriose klaviatūrose neveikia.</i></p>
+									<p><i>Ši funkcija neprieinama, kai sistemos prieinamumo paslauga „Explore&#45;by&#45;Touch“ įjungta.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Spausdinkite</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradicinė rankinės įvesties forma. Spausdinimo įvestis „Swype“ klaviatūroje palengvinta bei labiau efektyvi dėl keleto naudingų funkcijų:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Daugiau informacijos <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Koreguojamas neatsargus spausdinimas
+									<div id="ul_4a" class="open">
+										<p>Nebūtina tobulai bakstelėti kiekvieną raidę. Tiesiog spausdinkite taip, kaip pavyksta, o „Swype“ išmaniai pasiūlys žodžius.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Žodžio užbaigimas
+									<div id="ul_4b" class="closed">
+										<p>„Swype“ gali atspėti žodį po to, kai išspausdinote vos kelias raides.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Kalbos</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Norėdami perjungti kalbas klaviatūroje Nuspauskite tarpo klavišą. Pasirinkite norimą kalbą atsidariusiame meniu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>„Swype Connect“ leidžia mums atsiųsti atnaujinimus bei galingas funkcijas tiesiai į jūsų prietaisą! Nors „Swype Connect“ veikia 3G tinklu, visada rekomenduojame naudotis bevieliu WiFi ryšiu.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Daugiau informacijos <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Parsisiųsti kalbas
+									<div id="ul_6a" class="open">
+										<p>Pridėti papildomų kalbų į „Swype“ yra lengva:</p>
+										<ol>
+											<li>Paspauskite ir laikykite paspaudę <img src="img_swypekey.png" /> ir pasirinkite kalbas.</li>
+											<li>Kalbos nuostatų meniu pasirinkite „Atsisiųsti kalbas“.</li>
+											<li>Paspauskite ant kalbos, ir kalba bus automatiškai atsiųsta.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>„Swype Connect“ veikia ne su visomis klaviatūromis.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Daugiau pagalbos</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Daugiau pagalbos naudodami „Swype“ galite rasti „Swype“ naudotojo vadove ir „Swype“ patarimuose bei vaizdo medžiagoje adresu <a href="http://www.swype.com">www.swype.com</a>; be to, galite apsilankyti „Swype“ forume internete adresu <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_swypeconnect" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:gravity="center_horizontal" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Small" android:gravity="center_horizontal" android:id="@id/version_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unknown" android:textIsSelectable="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:gravity="center_horizontal" android:id="@id/website_link_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visit_swype_forums" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Small" android:textColor="@color/about_swype_links" android:gravity="center_horizontal" android:id="@id/website_link" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:bufferType="spannable" android:text="@string/url_swype_website" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:gravity="center_horizontal" android:id="@id/swyperid_title_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_swyper_id" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Small" android:gravity="center_horizontal" android:id="@id/swyperid_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textIsSelectable="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:gravity="center_horizontal" android:id="@id/swib_title_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect_swib" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Small" android:gravity="center_horizontal" android:id="@id/swib_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textIsSelectable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

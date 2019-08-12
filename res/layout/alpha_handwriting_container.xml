@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.AlphaHandWritingContainerView android:orientation="vertical" android:id="@id/alpha_handwriting_container" android:background="?keyboardBackgroundHwr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.input.AlphaHandWritingView android:id="@id/alpha_handwriting_area" android:background="?keyboardBackground" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/alpha_hwr_pad_height" />
+    <com.nuance.swype.input.AlphaHandWritingInputView android:id="@id/keyboardview" android:background="?keyboardBackgroundHwr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.nuance.swype.input.AlphaHandWritingContainerView>

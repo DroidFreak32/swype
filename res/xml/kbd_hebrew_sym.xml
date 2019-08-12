@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¢" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ק" ns:keyLabel=";" ns:shiftedKeyLabel="ְ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ר" ns:keyLabel="1" ns:shiftedKeyLabel="ֱ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_א" ns:keyLabel="2" ns:shiftedKeyLabel="ֲ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ט" ns:keyLabel="3" ns:shiftedKeyLabel="ֳ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ו" ns:keyLabel="\@" ns:shiftedKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ן" ns:keyLabel="+" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ם" ns:keyLabel="*" ns:shiftedKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_פ" ns:keyLabel="%" ns:shiftedKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_8_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ש" ns:keyEdgeFlags="left" ns:keyLabel="/" ns:shiftedKeyLabel="^" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ד" ns:keyLabel="₪" ns:shiftedKeyLabel="$" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ג" ns:keyLabel="4" ns:shiftedKeyLabel="ִ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_כ" ns:keyLabel="5" ns:shiftedKeyLabel="ֵ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ע" ns:keyLabel="6" ns:shiftedKeyLabel="ֶ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_י" ns:keyLabel="&amp;" ns:shiftedKeyLabel="£" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ח" ns:keyLabel=")" ns:shiftedKeyLabel="€" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ל" ns:keyLabel="(" ns:shiftedKeyLabel="`" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ך" ns:keyLabel="~" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ף" ns:keyEdgeFlags="right" ns:keyLabel="&quot;" ns:shiftedKeyLabel="&lt;" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_8_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?symKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ז" ns:keyLabel="!" ns:shiftedKeyLabel="\#" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ס" ns:keyLabel="7" ns:shiftedKeyLabel="ַ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ב" ns:keyLabel="8" ns:shiftedKeyLabel="ָ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ה" ns:keyLabel="9" ns:shiftedKeyLabel="ׂ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_נ" ns:keyLabel="0" ns:shiftedKeyLabel="ׁ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_מ" ns:keyLabel="_" ns:shiftedKeyLabel="ֹ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_צ" ns:keyLabel="=" ns:shiftedKeyLabel="ּ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ת" ns:keyLabel="\\" ns:shiftedKeyLabel="ֻ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_hebrew_ץ" ns:keyEdgeFlags="right" ns:keyLabel="\?" ns:shiftedKeyLabel="|" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_hebrew_sym" />
+</KeyboardEx>

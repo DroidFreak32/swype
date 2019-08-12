@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ौ" ns:keyEdgeFlags="left" ns:keyLabel="ौ" ns:altKeyLabel="ौ" ns:shiftedKeyLabel="औ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ै" ns:keyLabel="ै" ns:altKeyLabel="ै" ns:shiftedKeyLabel="ऐ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ा" ns:keyLabel="ा" ns:altKeyLabel="ा" ns:shiftedKeyLabel="आ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ी" ns:keyLabel="ी" ns:altKeyLabel="ी" ns:shiftedKeyLabel="ई" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ू" ns:keyLabel="ू" ns:altKeyLabel="ू" ns:shiftedKeyLabel="ऊ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ब" ns:keyLabel="ब" ns:altKeyLabel="ब" ns:shiftedKeyLabel="भ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ह" ns:keyLabel="ह" ns:altKeyLabel="ह" ns:shiftedKeyLabel="ः" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ग" ns:keyLabel="ग" ns:altKeyLabel="ग" ns:shiftedKeyLabel="घ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_द" ns:keyLabel="द" ns:altKeyLabel="द" ns:shiftedKeyLabel="ध" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ज" ns:keyLabel="ज" ns:altKeyLabel="ज" ns:shiftedKeyLabel="झ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hindi_ड" ns:keyEdgeFlags="right" ns:keyLabel="ड" ns:altKeyLabel="ड" ns:shiftedKeyLabel="ढ" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_ो" ns:keyEdgeFlags="left" ns:keyLabel="ो" ns:altKeyLabel="ो" ns:shiftedKeyLabel="ओ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_े" ns:keyLabel="े" ns:altKeyLabel="े" ns:shiftedKeyLabel="ए" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_्" ns:keyLabel="्" ns:altKeyLabel="्" ns:shiftedKeyLabel="अ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_ि" ns:keyLabel="ि" ns:altKeyLabel="ि" ns:shiftedKeyLabel="इ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_ु" ns:keyLabel="ु" ns:altKeyLabel="ु" ns:shiftedKeyLabel="उ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_प" ns:keyLabel="प" ns:altKeyLabel="प" ns:shiftedKeyLabel="फ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_र" ns:keyLabel="र" ns:altKeyLabel="र" ns:shiftedKeyLabel="ृ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_क" ns:keyLabel="क" ns:altKeyLabel="क" ns:shiftedKeyLabel="ख" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_त" ns:keyLabel="त" ns:altKeyLabel="त" ns:shiftedKeyLabel="थ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_च" ns:keyLabel="च" ns:altKeyLabel="च" ns:shiftedKeyLabel="छ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hindi_ट" ns:keyEdgeFlags="right" ns:keyLabel="ट" ns:altKeyLabel="ट" ns:shiftedKeyLabel="ठ" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_9_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ं" ns:keyLabel="ं" ns:altKeyLabel="ं" ns:shiftedKeyLabel="ँ" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_म" ns:keyLabel="म" ns:altKeyLabel="म" ns:shiftedKeyLabel="ण" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_न" ns:keyLabel="न" ns:altKeyLabel="न" ns:shiftedKeyLabel="ऩ" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_व" ns:keyLabel="व" ns:altKeyLabel="व" ns:shiftedKeyLabel="\?" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ल" ns:keyLabel="ल" ns:altKeyLabel="ल" ns:shiftedKeyLabel="ळ" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_स" ns:keyLabel="स" ns:altKeyLabel="स" ns:shiftedKeyLabel="श" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ष" ns:keyLabel="ष" ns:altKeyLabel="ष" ns:shiftedKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_य" ns:keyLabel="य" ns:altKeyLabel="य" ns:shiftedKeyLabel="य़" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_़" ns:keyLabel="़" ns:altKeyLabel="़" ns:shiftedKeyLabel="ञ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_9_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_hindi" />
+</KeyboardEx>

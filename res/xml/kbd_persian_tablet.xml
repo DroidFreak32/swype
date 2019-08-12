@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key1" ns:keyLabel="ض" ns:altKeyLabel="$" ns:shiftedKeyLabel="۱" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key2" ns:keyLabel="ص" ns:altKeyLabel="€" ns:shiftedKeyLabel="۲" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key3" ns:keyLabel="ث" ns:altKeyLabel="£" ns:shiftedKeyLabel="۳" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key4" ns:keyLabel="ق" ns:altKeyLabel="¢" ns:shiftedKeyLabel="۴" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key5" ns:keyLabel="ف" ns:altKeyLabel="¥" ns:shiftedKeyLabel="۵" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key6" ns:keyLabel="غ" ns:altKeyLabel="%" ns:shiftedKeyLabel="۶" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key7" ns:keyLabel="ع" ns:altKeyLabel="‰" ns:shiftedKeyLabel="۷" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key8" ns:keyLabel="ه" ns:altKeyLabel="¤" ns:shiftedKeyLabel="۸" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key9" ns:keyLabel="خ" ns:altKeyLabel="±" ns:shiftedKeyLabel="۹" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key10" ns:keyLabel="ح" ns:altKeyLabel="×" ns:shiftedKeyLabel="۰" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key11" ns:keyLabel="ج" ns:altKeyLabel="&amp;" ns:shiftedKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_persian_key12" ns:keyLabel="چ" ns:altKeyLabel="÷" ns:shiftedKeyLabel="=" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key13" ns:keyLabel="ش" ns:altKeyLabel="½" ns:shiftedKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key14" ns:keyLabel="س" ns:altKeyLabel="\#" ns:shiftedKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key15" ns:keyLabel="ی" ns:altKeyLabel="&lt;" ns:shiftedKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key16" ns:keyLabel="ب" ns:altKeyLabel=">" ns:shiftedKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key17" ns:keyLabel="ل" ns:altKeyLabel="'" ns:shiftedKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key18" ns:keyLabel="ا" ns:altKeyLabel="&quot;" ns:shiftedKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key19" ns:keyLabel="ت" ns:altKeyLabel="^" ns:shiftedKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key20" ns:keyLabel="ن" ns:altKeyLabel="~" ns:shiftedKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key21" ns:keyLabel="م" ns:altKeyLabel="|" ns:shiftedKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key22" ns:keyLabel="ک" ns:altKeyLabel="*" ns:shiftedKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_persian_key23" ns:keyLabel="گ" ns:altKeyLabel="\\" ns:shiftedKeyLabel="/" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:shiftedPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_persian_key24" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:shiftedOutputText=":-)" ns:keyLabel="ظ" ns:shiftedKeyIcon="@drawable/keyboard_emoticon" ns:shiftedPreviewIcon="?keyboardFeedbackEmoticonPrimary" ns:shiftTransition="drop_show" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key25" ns:keyLabel="ط" ns:altKeyLabel="¶" ns:shiftedKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key26" ns:keyLabel="ز" ns:altKeyLabel="[" ns:shiftedKeyLabel="(" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key27" ns:keyLabel="ر" ns:altKeyLabel="]" ns:shiftedKeyLabel=")" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key28" ns:keyLabel="ذ" ns:altKeyLabel="{" ns:shiftedKeyLabel="«" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key29" ns:keyLabel="د" ns:altKeyLabel="}" ns:shiftedKeyLabel="»" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key30" ns:keyLabel="ئ" ns:altKeyLabel=";" ns:shiftedKeyLabel="؛" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key31" ns:keyLabel="و" ns:altKeyLabel="…" ns:shiftedKeyLabel=":" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key32" ns:keyLabel="پ" ns:altKeyLabel="\?" ns:shiftedKeyLabel="؟" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_persian_tablet" />
+</KeyboardEx>

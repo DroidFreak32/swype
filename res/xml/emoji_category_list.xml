@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emojiCategories xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <category ns:categoryKey="0x0001F553" ns:categoryItemsRefId="@null" ns:categoryName="recent" ns:categoryIcon="@drawable/emoji_category_recent" />
+    <category ns:categoryKey="0x0001F600" ns:categoryItemsRefId="@array/emoji_category_smiley" ns:categoryName="smiley" ns:categoryIcon="@drawable/emoji_category_smiles" />
+    <category ns:categoryKey="0x0001F337" ns:categoryItemsRefId="@array/emoji_category_nature" ns:categoryName="nature" ns:categoryIcon="@drawable/emoji_category_nature" />
+    <category ns:categoryKey="0x0001F690" ns:categoryItemsRefId="@array/emoji_category_transportation" ns:categoryName="transportation" ns:categoryIcon="@drawable/emoji_category_travel" />
+    <category ns:categoryKey="0x0001F3C7" ns:categoryItemsRefId="@array/emoji_category_sports" ns:categoryName="sports" ns:categoryIcon="@drawable/emoji_category_sports" />
+    <category ns:categoryKey="0x0001F3A9" ns:categoryItemsRefId="@array/emoji_category_objects" ns:categoryName="objects" ns:categoryIcon="@drawable/emoji_category_objects" />
+    <category ns:categoryKey="0x0001F4E2" ns:categoryItemsRefId="@array/emoji_category_characters" ns:categoryName="characters" ns:categoryIcon="@drawable/emoji_category_arrows" />
+</emojiCategories>

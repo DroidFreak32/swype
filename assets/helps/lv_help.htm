@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Runāšana</a></div>
+				<div><a href="#write">Rakstīšana</a></div>
+				<div class="last"><a href="#tap">Skaršana</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Ar teksta ievades programmu Swype jūs varat viegli pārslēgties starp četriem dažādiem ievades režīmiem – rakstīšanu ar Swype, runāšanu, rakstīšanu un skaršanu.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype ir līdzeklis ātrai rakstīšanai. Tas ļauj ievadīt vārdu, velkot secīgi pa attiecīgajiem burtiem. Lieciet pirkstu uz rakstāmā vārda pirmā burta, velciet to secīgi uz nākamajiem burtiem un tikai pēc pēdējā burta paceliet pirkstu. Swype pats ieliek atstarpes, kur tas vajadzīgs.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Uzziniet vairāk <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype taustiņš
+									<div id="ul_1a" class="open">
+										<p>Swype taustiņš ir tas, uz kura redzat Swype logotipu. Nospiediet un turiet nospiestu Swype taustiņu, ja vēlaties atvērt Swype iestatījumu sadaļu.</p>
+										<p>Taustiņu Swype izmanto arī vairāku Swype žestu uzsākšanai.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Tastatūras priekšskatījums
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype žesti
+									<div id="ul_1b" class="closed">
+										<p>Swype žesti ir īsinājumtaustiņi, kas ļauj viegli veikt biežāk veicamās darbības. Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+										<ul>
+											<li><span class="gestures">Piekļūšana rediģēšanas tastatūrai</span> Lai piekļūtu rediģēšanas tastatūrai, velciet līniju no <img src="img_swypekey.png" /> uz tastatūras simbolu taustiņu (?123).</li>
+											<li><span class="gestures">Piekļūšana ciparu tastatūrai</span> Lai ātri piekļūtu ciparu tastatūrai, velciet līniju no <img src="img_swypekey.png" /> uz ciparu 5.</li>
+											<li><span class="gestures">Tastatūras paslēpšana</span> Tastatūru var paslēpt pavisam vienkārši – velciet līniju no taustiņa Swype uz atpakaļatkāpes taustiņu.</li>
+
+											<li><span class="gestures">Automātisko atstarpju ievietošanas izslēgšana</span> Automātisko atstarpju ievietošanu pirms nākamā rakstāmā vārda var atspējot, velkot līniju no atstarpes taustiņa uz atpakaļatkāpes taustiņu.</li>
+
+
+											<li><span class="gestures">Lielo un mazo burtu rediģēšana vārdā</span> Tikko ievadītam vārdam var mainīt burtu reģistru, skarot uzrakstīto vārdu un pēc tam velkot no <img src="img_swypekey.png" /> uz reģistrmaiņas taustiņu («shift») <img src="img_shiftkey.png" /> . Parādīsies vārdu izvēles saraksts ar variantiem – varēsit izvēlēties rakstību ar visiem mazajiem burtiem, ar lielo sākuma burtu un ar visiem lielajiem burtiem.</li>
+
+											<li><span class="gestures">Pieturzīmes</span> Vienkārši velciet līniju no vajadzīgās pieturzīmes – jautājuma zīmes, komata, punkta u. c. – taustiņa uz atstarpes taustiņu, nevis skariet pieturzīmi.</li>
+
+											<li><span class="gestures">Atlasīt visu, izgriezt, kopēt un ielīmēt</span>
+												Atlasīt visu: Velciet līniju no <img src="img_swypekey.png" /> uz burtu «a».<br />
+												Izgriezt: Velciet līniju no <img src="img_swypekey.png" /> uz burtu «x».<br />
+												Kopēt: Velciet līniju no <img src="img_swypekey.png" /> uz burtu «c».<br />
+												Ielīmēt: Velciet līniju no <img src="img_swypekey.png" /> uz burtu «v».
+											</li>
+
+											<li><span class="gestures">Lietojumprogrammu īsinājumtaustiņi</span>Google Maps: Velciet līniju no <img src="img_swypekey.png" /> uz burtu «g», pēc tam uz burtu «m».</li>
+											<li><span class="gestures">Meklēšana</span>Iezīmējiet kādu teksta daļu un velciet līniju no <img src="img_swypekey.png" /> uz S, lai ātri to sameklētu tīmeklī.</li>
+											<li><span class="gestures">Pārslēgšana uz pēdējo lietoto valodu.</span>Lietojot vairākas valodas, ātrs veids, kā pārslēgties uz iepriekšējo valodu, ir lietot Swype metodi no <img src="img_swypekey.png" /> uz atstarpes taustiņu.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Divu vienādu secīgu burtu iegūšana
+									<div id="ul_1n" class="closed">
+										<p>Lai uzlabotu precizitāti, pēc kārtas ievadot divus vienādus burtus, veiciet brīvu kustību virs nepieciešamā burta vai veidojiet virs tā cilpu. Piemēram, lai vārdā &quot;pulss” ierakstītu &quot;ss”, veiciet brīvu kustību uz burta &quot;s” taustiņa. Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Vārda izvēle
+									<div id="ul_1d" class="closed">
+										<p>Ja jums der pirmais piedāvātais vārds no vārdu saraksta, vienkārši turpiniet rakstīt tālāk. Ja ne, tad, velkot ar pirkstu, ritiniet pa sarakstu un atlasiet vajadzīgo vārdu. Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+<p>Lai sarakstā atlasītu tekstu, ar pirkstu veiciet apļveida kustību, kas ļaus dzirdēt saraksta ierakstus. Kustība pulksteņrādītāja virzienā ļauj pārvietoties sarakstā uz priekšu, pretēji pulksteņrādītāja virzienam – atpakaļ.  
+Paceļot pirkstu, tiek izvadīts pēdējais atskaņotais saraksta ieraksts.
+Lai vārdu izvēles sarakstā izvēlētos vārdu, velciet ar pirkstu virzienā uz augšu no tastatūras, līdz sadzirdat pirmo vārdu. Tad sāciet apļveida kustību.
+Šī funkcija ir pieejama tikai tad, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Lielo burtu ievietošana vārdos
+									<div id="ul_1e" class="closed">
+										<p>Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+										<p>Vārdu ar lielo sākuma burtu var uzrakstīt, velkot pirkstu no pirmā burta uz augšu pāri tastatūras malai (nepaceļot pirkstu) un pēc tam velkot pirkstu atpakaļ uz leju – uz nākamo šī vārda burtu.</p>
+										<p>Tikko ievadītam vārdam var mainīt burtu reģistru, skarot uzrakstīto vārdu un pēc tam velkot no <img src="img_swypekey.png" /> uz reģistrmaiņas taustiņu («shift») <img src="img_shiftkey.png" /> . Parādīsies vārdu izvēles saraksts ar variantiem – varēsit izvēlēties rakstību ar visiem mazajiem burtiem, ar lielo sākuma burtu un ar visiem lielajiem burtiem.</p>
+										<p>Lai turpinātu rakstīt visu lielo burtu režīmā, divreiz skariet reģistrmaiņas taustiņu <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automātiska atstarpju likšana
+									<div id="ul_1f" class="closed">
+										<p>Swype automātiski ieliek atstarpi aiz vārda, kad sākat rakstīt nākamo vārdu teikumā. Automātisko atstarpju likšanu var ieslēgt un izslēgt Swype iestatījumos.</p>
+										<p>Automātisko atstarpju likšanu uz viena nākamā vārda rakstīšanas laiku var izslēgt, velkot ar pirkstu no atstarpes taustiņa uz atpakaļatkāpes taustiņu.</p>
+										<p>Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Vārda aizstāšana
+									<div id="ul_1g" class="closed">
+										<p>Vārdu varat aizstāt, skarot to un pēc tam atlasot vajadzīgo vārdu no vārdu izvēles saraksta vai arī vienkārši iezīmējot attiecīgo vārdu un ar Swype metodi rakstot jaunu vārdu. Jaunais vārds aizstās nepareizi uzrakstīto.</p>
+										<p>Vārdu var iezīmēt, to skarot un uzsitot uz <img src="img_swypekey.png" /> vai arī divreiz skarot vārdu.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Apkārtceļš
+									<div id="ul_1h" class="closed">
+										<p>Dažreiz, lai iegūtu vajadzīgo vārdu uzreiz, ir derīgi rakstot apiet burtus, kas var traucēt.</p>
+										<p>Piemēram, vārdus &quot;gripa” un &quot;grupa” varētu iegūt ar vienu un to pašu trajektoriju, bet ievērojiet – nav obligāti jāpārvietojas no burta uz burtu taisnā līnijā! Ja, velkot uz burtu &quot;p&quot;, apiesiet nevēlamo burtu &quot;i&quot;, tad vajadzīgais vārds &quot;grupa&quot; vārdu izvēles sarakstā parādīsies pirmais.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Ātrāka vārdu izvēle
+									<div id="ul_1i" class="closed">
+
+										<p>Nospiediet un turiet kādu taustiņu, lai izsauktu sarakstu ar šī taustiņa alternatīvajām rakstzīmēm, piemēram, akcentētos burtus «ģ» un «ņ», simbolus «@» un «%», kā arī ciparus.</p>
+
+										<p>Skariet simbolu taustiņu (?123), un tiks parādīta simbolu tastatūra.</p>
+										<p>Ievērojiet, ka pilnīgi visas rakstzīmes var iegūt ar Swype metodi, lietojot galveno tastatūru – gan tajā parādītās rakstzīmes, gan arī citas. Šajā tastatūras skatā iespējams izmantot Swype metodi, bet jūs varēsit iegūt tikai tādus vārdus, kuros ir vismaz viens cipars vai simbols.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Vārdu pievienošana un dzēšana
+									<div id="ul_1j" class="closed">
+										<p>Swype intelektiski pievieno jaunus vārdus jūsu personiskajai vārdnīcai.</p>
+										<p>Tāpat vārdu var pievienot, to iezīmējot un skarot <img src="img_swypekey.png" /> . Kad parādās uzvedne, skariet to, lai pievienotu vārdu.</p>
+										<p>Lai nodzēstu vārdu, nospiediet un turiet pirkstu nospiestu uz attiecīgā vārda vārdu izvēles sarakstā un pēc tam skariet «Labi» («OK») apstiprinājuma dialoglogā. Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizēšana
+									<div id="ul_1k" class="closed">
+										<p>Programmā Swype jūs varat ātri papildināt savu vārdnīcu ar vārdiem no Facebook, Twitter, Gmail un iepriekšējām īsziņām. Lai personalizētu programmu Swype:</p>
+										<ol>
+											<li>Nospiediet un turiet <img src="img_swypekey.png" /> .</li>
+											<li>Izvēlnē Swype iestatījumi, atlasiet punktu «Personalizēšana».</li>
+											<li>Atlasiet personalizēšanas opcijas un ievadiet savus akreditācijas datus, ja tie tiek pieprasīti.</li>
+											<li>Varat personalizēt programmu Swype, izmantojot vienu vai arī visus pieejamos avotus.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Runāšana</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Ar runu jūs varat ievadīt jebkādu tekstu – no īsziņām un e&#45;pasta ziņojumiem līdz Facebook un Twitter atjauninājumiem.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Uzziniet vairāk <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Pieturzīmes
+									<div id="ul_2a" class="open">
+										<p>Manuāla pieturzīmju ievadīšana nav nepieciešama. Vienkārši nosauciet vajadzīgo pieturzīmi un turpiniet runāt tālāk. Mēģiniet izpildīt tālāk norādītās darbības:</p>
+										<ol>
+											<li>Nospiediet balss taustiņu un sāciet runāt.</li>
+											<li>Sakiet: <i>«Pusdienas bija garšīgas izsaukuma zīme.»</i></li>
+											<li>Iegūtais rezultāts: <i>«Pusdienas bija garšīgas!»</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Dažām tastatūrām ievade ar balsi nav pieejama</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Rakstīšana</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Ar pirkstu varat rakstīt burtus un vārdus, kas programmā Swype tiks pārvērsti tekstā. Burtus var rakstīt no kreisās puses uz labo vai arī vienu virs otra. Nospiediet «ABC/123», lai pārslēgtos starp burtu un simbolu režīmiem.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Uzziniet vairāk <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Iespējot rokraksta režīmu
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Nospiediet un turiet <img src="img_symkey.png" /> un velciet ar pirkstu līniju uz rokraksta ikonu.</li>
+											<li>Teksta ievadīšanai rokrakstā paredzētajā laukumā ar pirkstu rakstiet burtus.</li>
+
+											<li>Skariet atstarpes taustiņu pēc katra vārda teikumā, izņemot pēdējo.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Vairākskārienu žests
+									<div id="ul_3b" class="closed">
+										<p>Vairākskārienu žests ļauj pabeigt vienkāršus uzdevumus, piemēram, uzrakstīt vārdus ar lielo sākuma burtu un ievadīt lielos burtus.</p>
+										<ol>
+											<li>Rakstāmblokā uzrakstiet dažus mazos burtus</li>
+											<li>Pēc rakstzīmju ievadīšanas rakstīšanas laukumā slidiniet divus pirkstus uz augšu</li>
+											<li>Caur rokraksta teksta ievades funkciju tiks atpazīts vairākskārienu žests un burti tiks pārveidoti par lielajiem.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Dažām tastatūrām rokraksta režīms nav pieejams.</i></p>
+									<p><i>Šī funkcija nav pieejama, ja ir ieslēgts sistēmas pieejamības pakalpojums Explore&#45;by&#45;Touch.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Skaršana</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradicionāls manuālās ievades veids, izmantojot tastatūru. Pieskārienievadi ar Swype tastatūru vieglāku un efektīvāku padara dažas noderīgas funkcijas:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Uzziniet vairāk <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Pavirši uzrakstīto vārdu labošana
+									<div id="ul_4a" class="open">
+										<p>No jums netiek prasīta nevainojama katra burta skaršana. Vienkārši mēģiniet skart burtus tik precīzi, cik vien varat, un programmā Swype intelektiski tiks sniegti vārdu ieteikumi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Vārdu pabeigšana
+									<div id="ul_4b" class="closed">
+										<p>Tāpat ar programmas Swype palīdzību var uzminēt vajadzīgo vārdu jau pēc dažu burtu skaršanas.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Valodas</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Valodu pārslēgšana ar tastatūras palīdzību: Nospiediet un turiet atstarpes taustiņu. Uznirstošajā izvēlnē atlasiet vēlamo valodu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ļauj mums nodrošināt atjauninājumus un iespaidīgu funkcionalitāti tieši jūsu ierīcei. Kaut arī Swype Connect darbosies 3G tīklā, mēs vienmēr iesakām izveidot savienojumu ar Wi&#45;Fi tīklu.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Uzziniet vairāk <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Valodu lejupielādes
+									<div id="ul_6a" class="open">
+										<p>Varat viegli pievienot papildu valodas programmai Swype:</p>
+										<ol>
+											<li>Nospiediet un turiet <img src="img_swypekey.png" /> un atlasiet punktu &quot;Valodas&quot;.</li>
+											<li>Valodu izvēlnē atlasiet punktu &quot;Valodu lejupielāde&quot;.</li>
+											<li>Noklikšķiniet uz valodas, un lejupielāde sāksies automātiski.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Fona pakalpojumu Swype Connect nevar lietot ar visām tastatūrām.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Vairāk palīdzības</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Plašāku palīdzības informāciju par Swype varat iegūt, lasot Swype lietošanas rokasgrāmatu, apskatot Swype lietošanas padomus un videoklipus vietnē <a href="http://www.swype.com">www.swype.com</a>, kā arī piedaloties Swype tīmekļa forumā – <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

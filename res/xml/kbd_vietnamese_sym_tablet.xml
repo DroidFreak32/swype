@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_10_key_tablet_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="@dimen/key_text_size_5row" ns:altTextSize="19.0dip" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_ă" ns:keyLabel="1" ns:shiftedKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_â" ns:keyLabel="2" ns:shiftedKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_ê" ns:keyLabel="3" ns:shiftedKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_ô" ns:keyLabel="4" ns:shiftedKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_tones" ns:keyLabel="5" ns:shiftedKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_tones2" ns:keyLabel="6" ns:shiftedKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_̣" ns:keyLabel="7" ns:shiftedKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_đ" ns:keyLabel="8" ns:shiftedKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_ư" ns:keyLabel="9" ns:shiftedKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_ơ" ns:keyLabel="0" ns:shiftedKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¢" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_w" ns:keyLabel="~" ns:shiftedKeyLabel="…" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_e" ns:keyLabel="\#" ns:shiftedKeyLabel="—" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_r" ns:keyLabel="$" ns:shiftedKeyLabel="®" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_t" ns:keyLabel="%" ns:shiftedKeyLabel="‰" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_y" ns:keyLabel="^" ns:shiftedKeyLabel="÷" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_u" ns:keyLabel="&amp;" ns:shiftedKeyLabel="§" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_i" ns:keyLabel="*" ns:shiftedKeyLabel="¶" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_o" ns:keyLabel="(" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_p" ns:keyLabel=")" ns:shiftedKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_a" ns:keyEdgeFlags="left" ns:keyLabel="£" ns:shiftedKeyLabel="€" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_s" ns:keyLabel="_" ns:shiftedKeyLabel="¤" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_d" ns:keyLabel="₫" ns:shiftedKeyLabel="¥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_f" ns:keyLabel="+" ns:shiftedKeyLabel="±" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_g" ns:keyLabel="=" ns:shiftedKeyLabel="×" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_h" ns:keyLabel="«" ns:shiftedKeyLabel="&lt;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_j" ns:keyLabel="»" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_k" ns:keyLabel=":" ns:shiftedKeyLabel="¦" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_l" ns:keyEdgeFlags="right" ns:keyLabel=";" ns:shiftedKeyLabel="&quot;" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_z" ns:keyLabel="!" ns:shiftedKeyLabel="†" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_x" ns:keyLabel="/" ns:shiftedKeyLabel="‡" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_c" ns:keyLabel="\\" ns:shiftedKeyLabel="©" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_v" ns:keyLabel="°" ns:shiftedKeyLabel="•" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_b" ns:keyLabel="[" ns:shiftedKeyLabel="µ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_n" ns:keyLabel="]" ns:shiftedKeyLabel="™" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_vietnamese_m" ns:keyLabel="\?" ns:shiftedKeyLabel="|" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row_sym_tablet" />
+</KeyboardEx>

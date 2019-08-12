@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Falar</a></div>
+				<div><a href="#write">Escribir</a></div>
+				<div class="last"><a href="#tap">Pulsar</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Con Swype, ten a capacidade de cambiar de xeito imperceptible entre catro modos de entrada diferentes &#45; Swype, Falar, Escribir ou Pulsar.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype é unha forma rápida de escribir. Permítelle introducir unha palabra debuxando as letras. Coloque o seu dedo na primeira letra da palabra e debuxe un trazo de letra a letra, levantándoo trala última. Swype inserirá espazos onde sexa necesario.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Saber máis <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									A tecla Swype
+									<div id="ul_1a" class="open">
+										<p>A tecla Swype é a tecla co logo de Swype nela. Manteña premida a tecla Swype para acceder aos axustes de Swype.</p>
+										<p>A tecla Swype tamén se emprega para iniciar moitos dos xestos de Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Vista previa do teclado
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Xestos de Swype
+									<div id="ul_1b" class="closed">
+										<p>Os xestos de Swype son atallos de teclado para realizar máis rapidamente tarefas habituais. Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+										<ul>
+											<li><span class="gestures">Ir ao teclado de edición</span> Para ir ao teclado de edición, faga Swype desde <img src="img_swypekey.png" /> ata a tecla Símbolos (?123) do teclado.</li>
+											<li><span class="gestures">Ir ao teclado numérico</span> Para ir rapidamente ao teclado numérico, faga Swype desde <img src="img_swypekey.png" /> ata o número 5.</li>
+											<li><span class="gestures">Oculta&#45;lo teclado</span> Para oculta&#45;lo teclado de xeito doado, faga Swype desde a tecla Swype ata a tecla Atrás.</li>
+
+											<li><span class="gestures">Desactivar espazado automático</span> Suprima o espazado automático antes da seguinte palabra facendo Swype desde a tecla espazo ata a tecla Atrás.</li>
+
+
+											<li><span class="gestures">Editar maiúsculas e minúsculas nunha palabra</span> Cambie o caso dunha palabra despois de introducila pulsando sobre ela e despois faga Swype desde <img src="img_swypekey.png" /> ata a tecla Shift <img src="img_shiftkey.png" /> . Amosarase unha lista de elección de palabras con opcións de maiúsculas que lle permite elixir entre minúsculas, Maiúscula Inicial ou TODO MAIÚSCULAS.</li>
+
+											<li><span class="gestures">Puntuación</span> Un xeito sinxelo de introducir puntuación é facer Swype desde a interrogación, coma, punto ou outro signo de puntuación ata a tecla espazo en lugar de pulsala.</li>
+
+											<li><span class="gestures">Seleccionar todo, Cortar, Copiar e Pegar</span>
+												Seleccionar todo: Faga Swype desde <img src="img_swypekey.png" /> ata o &quot;a&quot;<br />
+												Cortar: Faga Swype desde <img src="img_swypekey.png" /> ata o &quot;x&quot;<br />
+												Copiar: Faga Swype desde <img src="img_swypekey.png" /> ata o &quot;c&quot;<br />
+												Pegar: Faga Swype desde <img src="img_swypekey.png" /> ata o &quot;v&quot;
+											</li>
+
+											<li><span class="gestures">Atallos de aplicacións</span>Google Maps: Faga Swype desde <img src="img_swypekey.png" /> ata o &quot;g&quot;, logo &quot;m&quot;</li>
+											<li><span class="gestures">Buscar</span>Marque algún texto e faga Swype desde <img src="img_swypekey.png" /> ata &quot;S&quot; para facer unha busca rápida na web.</li>
+											<li><span class="gestures">Cambiando á última linguaxe utilizada.</span>Cando se están a usar varias linguaxes, unha forma rápida de voltar á linguaxe utilizada previamente é facer Swype dende <img src="img_swypekey.png" /> ata a barra espaciadora.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Escribir letras dobres
+									<div id="ul_1n" class="closed">
+										<p>Para mellorar a precisión ao introducir letras dobres, esborranche lixeiramente ou faga un bucle na letra. Por exemplo, para escribir a &quot;rr&quot; de &quot;corro&quot; esborranche sobre a tecla &quot;r&quot;. Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Selección dunha palabra
+									<div id="ul_1d" class="closed">
+										<p>Para aceptar a palabra suxerida por defecto da lista de elección de palabras, simplemente siga facendo Swype. Pola contra, desprácese pola lista arrastrando o seu dedo e seleccione a palabra que quere. Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+<p>Para seleccionar texto dunha lista, mova o seu dedo cun movemento circular para escoitar os elementos da lista. No sentido das aguxas do reloxo móvese adiante pola lista; no sentido contrario móvese cara atrás pola lista.  
+Levantar o dedo activa o último elemento da lista que se pronunciou.
+Para seleccionar unha palabra na Lista de Elección de Palabra, deslice o dedo dende o teclado ata que se escoite a primeira palabra na lista, entón comece o movemento circular.
+Este recurso só está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Palabra con maiúscula
+									<div id="ul_1e" class="closed">
+										<p>Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+										<p>Poña a primeira letra dunha palabra en maiúscula deslizando o seu dedo desde a primeira letra ata máis alá do bordo superior do teclado e, sen levantalo, volver á seguinte letra da palabra.</p>
+										<p>Cambie o caso dunha palabra despois de introducila pulsando sobre ela e despois faga Swype desde <img src="img_swypekey.png" /> ata a tecla Shift <img src="img_shiftkey.png" /> . Amosarase unha lista de elección de palabras con opcións de maiúsculas que lle permite elixir entre minúsculas, Maiúscula Inicial ou TODO MAIÚSCULAS.</p>
+										<p>Para ir ao modo BLOQ. MAIÚS., faga un toque dobre na tecla Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Espazado automático
+									<div id="ul_1f" class="closed">
+										<p>Swype insire automaticamente un espazo entre palabras cando vostede fai Swype na seguinte palabra da frase. Pode desactivar a característica de espazado automático nos axustes de Swype.</p>
+										<p>Pódese desactivar o espazado automático nunha palabra facendo Swype desde a tecla espazo ata a tecla Atrás.</p>
+										<p>Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Substitución dunha palabra
+									<div id="ul_1g" class="closed">
+										<p>Cambie unha palabra pulsando sobre ela e despois seleccione a palabra que desexe da lista de elección de palabras ou simplemente marque a palabra e faga Swype para unha nova. A nova palabra substituirá á incorrecta.</p>
+										<p>Unha palabra pode marcarse pulsando nela e na icona <img src="img_swypekey.png" /> ou con dobre pulsación na palabra.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Rebotar entre letras
+									<div id="ul_1h" class="closed">
+										<p>Ás veces, evitar letras mentres fai Swype garántelle obter a palabra que quere en primeiro lugar.</p>
+										<p>Por exemplo, &quot;preso&quot; e &quot;peso&quot; pódense debuxar co mesmo trazo &#45; pero observe que non ten que moverse de letra en letra en liña recta. Evitar a ”r” ao deslizar o seu dedo cara á “e” garántelle que a palabra &quot;peso&quot; é a primeira da lista de elección de palabras.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Caracteres alternativos
+									<div id="ul_1i" class="closed">
+
+										<p>Tocar e manter o dedo nunha tecla fai despregarse unha lista de todos os caracteres dispoñibles para esa tecla, incluíndo letras con acentos como ”é”, ”ñ”, símbolos como @ e % e números.</p>
+
+										<p>Pulse a tecla Símbolos (?123) para ir ao teclado de símbolos.</p>
+										<p>Observe que se pode facer Swype en tódoloscaracteres desde o teclado principal (tanto se os pode ver como se non). Pode facer Swype usando esta vista do teclado, pero só conseguirá palabras que teñan polo menos un símbolo ou número.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Engadir e eliminar palabras
+									<div id="ul_1j" class="closed">
+										<p>Facer Swype de xeito intelixente engade novas palabras de uso ao seu dicionario persoal.</p>
+										<p>Tamén pode engadir unha nova palabra marcándoa e pulsando na icona <img src="img_swypekey.png" /> . Toque o aviso que aparece para engadir a palabra.</p>
+										<p>Para eliminar unha palabra, prema e manteña sobre a palabra na lista de elección de palabras e logo pulse Aceptar no diálogo de confirmación. Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalización
+									<div id="ul_1k" class="closed">
+										<p>Swype pode engadir rapidamente unha palabra ao seu dicionario desde Facebook, Twitter, e Gmail. Para personalizar Swype:</p>
+										<ol>
+											<li>Manteña premido <img src="img_swypekey.png" /> .</li>
+											<li>Dende o menú Axustes de Swype, seleccione Personalización</li>
+											<li>Seleccione desde as opcións de personalización e introduza as súas credenciais se lle son solicitadas.</li>
+											<li>Pode personalizar Swype desde unha ou tódalas fontes.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Falar</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Pode falar para introducir contido de texto, desde mensaxes de texto e correo electrónico ata actualizacións de Facebook e Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Saber máis <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Puntuación
+									<div id="ul_2a" class="open">
+										<p>Non é preciso engadir puntuación manualmente. Só diga a puntuación que desexe e continúe. Tente isto:</p>
+										<ol>
+											<li>Prema a tecla de voz e comece a falar.</li>
+											<li>O que vostede di: <i>A cea estaba deliciosa exclamación</i></li>
+											<li>O que vostede obtén: <i>A cea estaba deliciosa!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>A entrada de voz non está dispoñible nalgúns teclados</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Escribir</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Pode usar o seu dedo para debuxar letras e palabras e Swype as converterá en texto. Pode debuxar letras de esquerda a dereita ou unhas enriba de outras. Pulse ABC / 123 para trocar entre o modo de letra e o de símbolos.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Saber máis <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Activar escritura manual
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Manteña pulsado <img src="img_symkey.png" /> e deslice o seu dedo ata a icona de escritura manual.</li>
+											<li>Debuxe letras co seu dedo na área de escritura manual.</li>
+
+											<li>Pulse a barra espazadora entre as palabras</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Xestos con pulsacións múltiples
+									<div id="ul_3b" class="closed">
+										<p>Os xestos con pulsacións múltiples permítenlle completar tarefas sinxelas, como poñer en maiúsculas palabras ou letras.</p>
+										<ol>
+											<li>Debuxe algunhas letras minúsculas no panel de debuxo</li>
+											<li>Logo de introducir os caracteres deslice dous dedos cara arriba na área de escritura</li>
+											<li>A característica de escritura manual recoñecerá os xestos con pulsacións múltiples e porá as letras en maiúsculas.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>A escritura manual non está dispoñible nalgúns teclados.</i></p>
+									<p><i>Esta característica non está dispoñible cando o servizo de accesibilidade do sistema Explore&#45;by&#45;Touch está activado.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Pulsar</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Xeito tradicional de entrada manual co teclado. A entrada con pulsacións no teclado Swype é máis doado e eficiente por medio dalgunhas características:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Saber máis <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Corrección de escritura descoidada
+									<div id="ul_4a" class="open">
+										<p>Non ten que pulsar cada letra perfectamente. Só fágao o mellor que poida e Swype lle proporcionará palabras de xeito intelixente.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Completar palabras
+									<div id="ul_4b" class="closed">
+										<p>Swype pode ademais adiviñar a súa palabra cando teña tecleado só algunhas letras.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Idiomas</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Para cambiar linguaxes desde o teclado: Manteña premida a barra espazadora. Seleccione a súa linguaxe desexada desde o menú emerxente.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect permítenos enviar actualizacións e potentes funcionalidades directamente ao seu dispositivo! Como Conexión Swype funciona sobre 3G, sempre recomendamos atopar unha conexión sen fíos.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Saber máis <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Descargar linguaxes
+									<div id="ul_6a" class="open">
+										<p>Engadir linguaxes adicionais a Swype é doado:</p>
+										<ol>
+											<li>Manteña premido <img src="img_swypekey.png" /> e seleccione Linguaxes.</li>
+											<li>Desde o menú de Opcións de Idiomas, seleccione Descargar idiomas.</li>
+											<li>Faga clic nunha linguaxe e a descarga comezará automaticamente.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect non está dispoñible en tódolos teclados.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Máis axuda</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Para obter máis axuda sobre o uso de Swype, lea o manual de usuario de Swype e os consellos de Swype en <a href="http://www.swype.com">www.swype.com</a>, ou consulte o foro en liña de Swype en <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

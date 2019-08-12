@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="q" ns:altKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="w" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="e" ns:altKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="r" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="t" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="y" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="u" ns:altKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="i" ns:altKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="o" ns:altKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyLabel="p" ns:altKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="a" ns:altKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="s" ns:altKeyLabel="¥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="d" ns:altKeyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="f" ns:altKeyLabel="\#" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="g" ns:altKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="h" ns:altKeyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="j" ns:altKeyLabel=":" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="k" ns:altKeyLabel="※" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyLabel="l" ns:altKeyLabel="「" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyFontTypeface="non_bold" ns:codes="0x000030FC" ns:altKeyOutputText="」" ns:keyLabel="ー" ns:altKeyLabel="」" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="21" ns:keyEdgeFlags="left" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowLeft" ns:keyIcon="?tabletJapaneseLeft" />
+        <Key ns:popupKeyboard="@xml/popup_smileys" ns:keyLabel="z" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticon" />
+        <Key ns:keyLabel="x" ns:altKeyLabel="！" />
+        <Key ns:altKeyOutputText="時" ns:keyLabel="c" ns:altKeyLabel="時" />
+        <Key ns:altKeyOutputText="分" ns:keyLabel="v" ns:altKeyLabel="分" />
+        <Key ns:altKeyOutputText="月" ns:keyLabel="b" ns:altKeyLabel="月" />
+        <Key ns:altKeyOutputText="日" ns:keyLabel="n" ns:altKeyLabel="日" />
+        <Key ns:keyLabel="m" ns:altKeyLabel="？" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="22" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowRight" ns:keyIcon="?tabletJapaneseRight" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?tabletSymKeyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_mode_change" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_symbol_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_language_quick_switch" ns:iconPreview="?cjkJapaneseFeedbackToggletojapanese" ns:keyIcon="?tabletCjkJapaneseToggletojapanese" ns:keyboardSettings="switchable" ns:keyGroup="@id/handwriting_key" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:altTextSize="@dimen/alt_text_size_big" ns:popupCharacters="@string/alternates_for_japanesest_comma" ns:iconPreview="?japaneseFeedbackComma" ns:keyOutputText="、" ns:altKeyLabel="~" ns:keyIcon="?tabletSymKeyboardJapaneseComma" ns:keyboardMode="email|im|normal|number" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyTextColor="?funcBtmTextColor" ns:altTextSize="@dimen/alt_text_size_big" ns:popupCharacters="@string/alternates_for_japanesest_comma" ns:keyLabel="/" ns:altKeyLabel="~" ns:keyboardMode="url" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom_space" ns:keyWidth="@fraction/space_key_tablet_width_cjk" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyTextColor="?funcBtmTextColor" ns:altTextSize="@dimen/alt_text_size_big" ns:popupCharacters="@string/alternates_for_japanese_period" ns:iconPreview="?chineseFeedbackPeriod" ns:keyOutputText="。" ns:altKeyLabel="." ns:keyIcon="?tabletSymKeyboardCjkPeriod" ns:keyboardMode="email|im|normal|number" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_punctab_key_tablet_width" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_japanese_period" ns:keyLabel="." ns:keyboardMode="url" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?tabletSymKeyboardSpeech" ns:keyboardSettings="speech" ns:dependentKey="@integer/keycode_space" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_keyboard_resize" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackCycleResize" ns:keyIcon="?tabletSymKeyboardCycleResize" ns:keyboardSettings="resizable" ns:dependentKey="@integer/keycode_space" />
+    </Row>
+</KeyboardEx>

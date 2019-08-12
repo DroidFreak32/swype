@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:height="5.0dip" android:top="5.0dip">
+        <shape>
+            <corners android:radius="5.0dip" />
+            <gradient android:startColor="@color/preference_bar_begin" android:endColor="@color/preference_bar_end" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/preference_bar_middle" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress" android:left="5.0dip" android:top="5.0dip" android:right="5.0dip">
+        <bitmap android:src="@drawable/progressbar_indeterminate3" android:height="10.0dip" android:tileMode="repeat" />
+    </item>
+</layer-list>

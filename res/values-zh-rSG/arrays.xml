@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_language">
+        <item>@string/english</item>
+        <item>@string/chinese_simp</item>
+    </string-array>
+    <string-array name="entryValues_language">
+        <item>0x0109</item>
+        <item>0x00E1</item>
+    </string-array>
+</resources>

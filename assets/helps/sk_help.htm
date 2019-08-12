@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Hlas</a></div>
+				<div><a href="#write">Písanie</a></div>
+				<div class="last"><a href="#tap">Písať</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">So Swype máte možnosť plynulého prechodu medzi štyrmi rôznymi režimami vstupu &#45; svajpovaním, hlasom, písaním alebo ťukaním.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype je rýchly spôsob písania. Umožní vám zadať slovo kreslením po písmenách. Položte prst na prvé písmeno, nakreslite čiaru od písmena k písmenu a za posledným písmenom slova prst zdvihnite. Swype vloží za vás medzery kde je to potrebné.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Viac informácií <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Kláves Swype
+									<div id="ul_1a" class="open">
+										<p>Kláves Swype je označený logom Swype. Stlačiť a držať kláves Swype zobrazí Nastavenia Swype..</p>
+										<p>Kláves Swype slúži aj na uvedenie viacerých gest v Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Náhľad klávesnice
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gestá Swype
+									<div id="ul_1b" class="closed">
+										<p>Gestá Swype sú skratky na klávesnici určené na rýchle vykonávanie bežných úloh. Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+										<ul>
+											<li><span class="gestures">Zobrazenie klávesnice pre úpravy</span> Klávesnicu pre úpravy zobrazíte tak, že na klávesnici skĺznete od <img src="img_swypekey.png" /> ku klávesu symbolov (?123).</li>
+											<li><span class="gestures">Zobrazenie číselnej klávesnice</span> Číselnú klávesnicu zobrazíte tak, že skĺznete od <img src="img_swypekey.png" /> k číslu 5.</li>
+											<li><span class="gestures">Schovanie klávesnice</span> Schovať klávesnicu možno jednoducho tak, že nakreslíte čiaru od klávesu Swype po kláves Odstráň.</li>
+
+											<li><span class="gestures">Vypnúť autonastavovanie medzier</span> Automatické vloženie medzery pred ďalším slovom zrušíte skĺznutím od medzerníka ku klávesu Odstráň.</li>
+
+
+											<li><span class="gestures">Upraviť veľké/malé písmená</span> Zmeňte veľkosť písmen v slove po zadaní ťuknutím a následným skĺznutím od <img src="img_swypekey.png" /> ku klávesu Preraďovač <img src="img_shiftkey.png" /> . Zoznam pre výber slov zobrazí možnosti s veľkými písmenami a umožní vám aj výber malých písmen, Veľkých písmen alebo Všetkých veľkých.</li>
+
+											<li><span class="gestures">Interpunkcia</span> Interpunkciu možno jednoducho zadať skĺznutím od otáznika, čiarky, bodky alebo iného interpunkčného znamienka ku medzerníku, namiesto ťuknutia na medzerník.</li>
+
+											<li><span class="gestures">Vybrať všetko, vystrihnúť, kopírovať a vložiť</span>
+												Vybrať všetko: Skĺznite z <img src="img_swypekey.png" /> na „a“<br />
+												Vystrih: Skĺznite z <img src="img_swypekey.png" /> na „x“<br />
+												Kopírovať: Skĺznite z <img src="img_swypekey.png" /> na „c“<br />
+												Vložiť: Skĺznite z <img src="img_swypekey.png" /> na „v“
+											</li>
+
+											<li><span class="gestures">Skratky aplikácie</span>Google Maps: Skĺznite z <img src="img_swypekey.png" /> na „g“, potom na „m“</li>
+											<li><span class="gestures">Hľadať</span>Zvýraznite nejaký text a prejdite z klávesu <img src="img_swypekey.png" /> na písmeno S pre rýchle hľadanie na webe.</li>
+											<li><span class="gestures">Prepnutie na posledný použitý jazyk.</span>Rýchly spôsob toho, ako sa pri použití viacerých jazykov vrátiť späť na predchádzajúci jazyk, je skĺznuť od klávesu <img src="img_swypekey.png" /> k medzerníku.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Písať dvojité písmená
+									<div id="ul_1n" class="closed">
+										<p>Presnosť zadávania dvojitých písmen zvýšite zľahka počmáraním písmena alebo urobením slučky okolo písmena. Napríklad napísať „nn“ v slove „mennej“, počmárajte kláves písmena „n“. Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Vybrať slovo
+									<div id="ul_1d" class="closed">
+										<p>Slovo ponúknuté v Zozname pre výber slov prijmete tak, že proste pokračujte v svajpovaní. V opačnom prípade, prejdite prstom cez zoznam a vyberte si slovo, ktoré potrebujete. Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+<p>Text zo zoznamu vyberiete kruhovým pohybom prstu a budete počuť položky zoznamu. Pohybom v smere hodinových ručičiek sa prechádza dopredu po zozname, proti smeru hodinových ručičiek zasa dozadu po zozname.  
+Po zdvihnutí prsta bude vydaná posledná hovorená položka zoznamu.
+Prejdite prstom nahor z klávesnice na výber slova zo zoznamu slov na výber a vypočujete si prvé slovo zo zoznamu. Potom začnite kruhový pohyb.
+Táto funkcia je k dispozícii, len ak je aktivovaný systém Preskúmať dotykom.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Slová s veľkým písmenom
+									<div id="ul_1e" class="closed">
+										<p>Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+										<p>Napísať veľké písmeno uprostred správy môžete prekĺznutím prsta z prvého písmena slova hore ponad horný okraj klávesnice a bez zodvihnutia prsta, kĺzať prstom späť, dolu k ďalšiemu písmenu slova.</p>
+										<p>Zmeňte veľkosť písmen v slove po zadaní ťuknutím a následným skĺznutím od <img src="img_swypekey.png" /> ku klávesu Preraďovač <img src="img_shiftkey.png" /> . Zoznam pre výber slov zobrazí možnosti s veľkými písmenami a umožní vám aj výber malých písmen, Veľkých písmen alebo Všetkých veľkých.</p>
+										<p>Nastaviť režim Uzamknutie veľkých písmen, ťuknite dvakrát na kláves Preraďovač <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Autonastav. medzier
+									<div id="ul_1f" class="closed">
+										<p>Swype automaticky vkladá medzi slová medzery, keď pokračujete v písaní ďalšieho slova vo vašej správe. Autonastavenie medzier môžete vypnúť a zapnúť v Nastaveniach Swype.</p>
+										<p>Autonastavenie medzier sa dá vypnúť pre jediné slovo potiahnutím z medzerníku na kláves Odstráň.</p>
+										<p>Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Vymeniť slovo
+									<div id="ul_1g" class="closed">
+										<p>Slovo nahradíte tak, že naň ťuknete a vyberiete požadované slovo zo Zoznamu pre výber slov, alebo proste zvýrazníte slovo a pokračujete v písaní nového slova. Nesprávne slovo bude nahradené novým slovom.</p>
+										<p>Slovo môže byť zvýraznené ťuknutím na slovo a kliknutím na <img src="img_swypekey.png" /> alebo dvojitým ťuknutím na slovo.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Preskakovanie písmen
+									<div id="ul_1h" class="closed">
+										<p>Niekedy vyhýbaním písmenám pri písaní poťahovaním zaručíte, že požadované slovo dostanete na prvý raz.</p>
+										<p>Napríklad, „opasky“ a „opaky“ môžu byť nakreslené rovnakou čiarou – avšak všimnite si, že nemusíte urobiť pohyb z písmena na písmeno rovnou čiarou. Ak sa písmenu „s“ pri kĺzaní prsta k písmenu „k“ vyhnete, zaručíte že slovo „opaky“ bude prvé slovo v Zozname pre výber slov.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Ďalšie znaky
+									<div id="ul_1i" class="closed">
+
+										<p>Stlačením a podržaním klávesu vyvoláte zoznam alternatívnych znakov tohto klávesu, ako sú písmená s diakritikou ako é a ĺ, symboly ako @ a %, a číslice.</p>
+
+										<p>Ťuknutím na kláves symbolov (?123) prejdete na klávesnicu so symbolmi.</p>
+										<p>Uvedomte si, že VŠETKY znaky sú svajpovateľné v základnej vrstve (bez ohľadu či ich v nej vidíte alebo nie). Tento pohľad klávesnice môžete použiť na svajpovanie, ale dostanete iba slová, ktoré obsahujú aspoň jednu číslicu alebo symbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Pridávanie a odstraňovanie slov
+									<div id="ul_1j" class="closed">
+										<p>Swype inteligentne pridáva do osobného slovníka nové vami použité slová.</p>
+										<p>Slovo môžete pridať aj jeho zvýraznením a ťuknutím na <img src="img_swypekey.png" /> . Ťuknite na výzvu, ktorá sa objaví pre pridanie slova.</p>
+										<p>Slovo odstránite tak, že toto slovo v Zozname pre výber slov stlačíte a podržíte a v potvrdzovacom dialógu ťuknite OK. Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizácia
+									<div id="ul_1k" class="closed">
+										<p>Swype umožňuje rýchlo pridať slovo do slovníka z Facebooku, Twittera a Gmailu. Osobné prispôsobenie aplikácie Swype:</p>
+										<ol>
+											<li>Stlačiť a podržať <img src="img_swypekey.png" /> .</li>
+											<li>Z ponuky Nastavenia aplikácie Swype vyberte Prispôsobovanie.</li>
+											<li>Vyberte si z možností osobného prispôsobenia a po výzve zadajte svoje prihlasovacie údaje.</li>
+											<li>Swype si môžte prispôsobiť z jedného alebo všetkých zdrojov.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Hlas</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Hlasom môžete zadávať textový obsah čohokoľvek, od textových správ, e&#45;mailov až po aktualizácie Facebooku a Twittera.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Viac informácií <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Interpunkcia
+									<div id="ul_2a" class="open">
+										<p>Nemusíte manuálne pridávať interpunkciu. Stačí vysloviť interpunkčné znamienko a pokračovať. Skúste toto:</p>
+										<ol>
+											<li>Stlačte hlasový kláves a začnite hovoriť.</li>
+											<li>Povedzte: <i>Večera bola výborná výkričník</i></li>
+											<li>Dostanete: <i>Večera bola výborná!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Niektoré klávesnice neumožňujú hlasový vstup</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Písanie</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Na kreslenie písmen a slov môžete použiť prst a Swype to premení na text. Písmená môžete kresliť zľava doprava alebo jedno na druhom. Kláves ABC/123 je prepínač medzi režimami písmen a symbolov.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Viac informácií <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktivovať písanie rukou
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Stlačte a podržte kláves <img src="img_symkey.png" /> a prejdite prstom na ikonu písania rukou.</li>
+											<li>Prstom kreslite písmená v oblasti pre rukopis.</li>
+
+											<li>Medzi slovami ťuknite na medzerník</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Viacdotykové gesto
+									<div id="ul_3b" class="closed">
+										<p>Viacdotykové gesto vám umožňuje jednoduché operácie, napríklad prepnutie slov alebo písmen na veľké písmená.</p>
+										<ol>
+											<li>Na kresliacej ploche nakreslite niekoľko malých písmen</li>
+											<li>Po zadaní písmen posuňte v oblasti pre písanie dva prsty nahor</li>
+											<li>Funkcia rukopisu rozpozná toto viacdotykové gesto a zmení písmená na veľké</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Niektoré klávesnice neumožňujú rukopis.</i></p>
+									<p><i>Táto funkcia nie je k dispozícii, ak je aktivovaný systém Preskúmať dotykom.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Písať</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradičná forma zadávania cez manuálnu klávesnicu. Zadávanie ťukaním na klávesnici Swype je zjednodušené a zefektívnené niektorými užitočnými funkciami:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Viac informácií <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Oprava nepresného písania
+									<div id="ul_4a" class="open">
+										<p>Nemusíte ťuknúť presne na každé písmeno. Stačí, ak sa budete snažiť o čo najlepšie písanie a Swype vám inteligentne ponúkne kandidátske slová.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Ukončenie slova
+									<div id="ul_4b" class="closed">
+										<p>Swype dokáže vaše slovo uhádnuť už po naťukaní prvých pár písmen.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Jazyky</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Prepínanie jazykov klávesnice: Stlačiť a podržať medzerník. Vyberte si požadovaný jazyk z prekryvnej ponuky.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect umožňuje získanie aktualizácií a výkonných funkcií priamo do zariadenia! Hoci Swype Connect funguje aj cez 3G, odporúčame vždy vyhľadať pripojenie WiFi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Viac informácií <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Jazyky na prevzatie
+									<div id="ul_6a" class="open">
+										<p>Pridávanie ďalších jazykov do Swype je jednoduché:</p>
+										<ol>
+											<li>Stlačte a podržte kláves <img src="img_swypekey.png" /> a zvoľte Jazyky.</li>
+											<li>Z ponuky Jazyky vyberte položku Prevziať jazyky.</li>
+											<li>Kliknite na jazyk a automaticky sa spustí preberanie.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Niektoré klávesnice neumožňujú použiť Swype Connect.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Viac pomoci</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Ak potrebujete ďalšiu pomoc na používanie Swype, pozrite si Swype príručku používateľa a Swype rady a videá na <a href="http://www.swype.com">www.swype.com</a>, alebo si pozrite Swype Forum online na <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

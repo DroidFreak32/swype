@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_й" ns:keyLabel="1" ns:shiftedKeyLabel="·" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ц" ns:keyLabel="2" ns:shiftedKeyLabel="™" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_у" ns:keyLabel="3" ns:shiftedKeyLabel="€" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_к" ns:keyLabel="4" ns:shiftedKeyLabel="`" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_е" ns:keyLabel="5" ns:shiftedKeyLabel="^" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_н" ns:keyLabel="6" ns:shiftedKeyLabel="¥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_г" ns:keyLabel="7" ns:shiftedKeyLabel="§" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ш" ns:keyLabel="8" ns:shiftedKeyLabel="º" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_щ" ns:keyLabel="9" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_з" ns:keyLabel="0" ns:shiftedKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_х" ns:keyLabel="%" ns:shiftedKeyLabel="×" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ъ" ns:keyLabel="°" ns:shiftedKeyLabel="÷" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ф" ns:keyLabel="*" ns:shiftedKeyLabel="©" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ы" ns:keyLabel="$" ns:shiftedKeyLabel="®" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_в" ns:keyLabel="&amp;" ns:shiftedKeyLabel="|" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_а" ns:keyLabel="_" ns:shiftedKeyLabel="•" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_п" ns:keyLabel="(" ns:shiftedKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_р" ns:keyLabel=")" ns:shiftedKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_о" ns:keyLabel=":" ns:shiftedKeyLabel="&lt;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_л" ns:keyLabel=";" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_д" ns:keyLabel="&quot;" ns:shiftedKeyLabel="£" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ж" ns:keyLabel="«" ns:shiftedKeyLabel="„" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_э" ns:keyLabel="»" ns:shiftedKeyLabel="“" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¢" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ч" ns:keyLabel="!" ns:shiftedKeyLabel="≠" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_с" ns:keyLabel="№" ns:shiftedKeyLabel="\#" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_м" ns:keyLabel="=" ns:shiftedKeyLabel="≈" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_и" ns:keyLabel="/" ns:shiftedKeyLabel="\\" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_т" ns:keyLabel="+" ns:shiftedKeyLabel="±" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ь" ns:keyLabel="\?" ns:shiftedKeyLabel="µ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_б" ns:keyLabel="-" ns:shiftedKeyLabel="¬" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_russian_ю" ns:keyLabel="—" ns:shiftedKeyLabel="~" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_russian_sym_tablet" />
+</KeyboardEx>

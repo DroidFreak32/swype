@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="delete_key_width">8.33%p</fraction>
+    <fraction name="space_key_width_sym_sinhala">26.680004%p</fraction>
+    <fraction name="mini_keyboard_scale">45.000004%</fraction>
+    <fraction name="key_content_baseline">27.999996%</fraction>
+    <fraction name="key_content_5row_baseline">22.000004%</fraction>
+    <fraction name="key_content_5row_lower_baseline">20.000004%</fraction>
+    <item type="fraction" name="key_content_baseline_holo">@dimen/key_content_no_baseline</item>
+    <fraction name="split_keyboard_text_size_scale">75.0%</fraction>
+    <fraction name="split_keyboard_width">50.0%</fraction>
+    <fraction name="mini_keyboard_width">50.0%</fraction>
+</resources>

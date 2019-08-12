@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SelectablePreference">
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="toastStyle">@style/ToastStyle</item>
+        <item name="settingsHeaders">@xml/settings_headers</item>
+    </style>
+    <style name="AppDialogTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="toastStyle">@style/ToastStyle</item>
+    </style>
+    <style name="InputMethodTheme" parent="@android:style/Theme.Holo.InputMethod">
+        <item name="toastStyle">@style/ToastStyle</item>
+    </style>
+    <style name="AppStartupThemeBase" parent="@android:style/Theme.Holo.Light" />
+</resources>

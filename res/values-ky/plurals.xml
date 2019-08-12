@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d сөз өчүрүлөт</item>
+        <item quantity="one">Бир сөз өчүрүлөт.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d күн мурун</item>
+        <item quantity="one">%d күн мурун</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d саат мурун</item>
+        <item quantity="one">%d саат мурун</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d мүнөт мурун</item>
+        <item quantity="one">%d мүнөт мурун</item>
+    </plurals>
+</resources>

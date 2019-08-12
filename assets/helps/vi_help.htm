@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Nói</a></div>
+				<div><a href="#write">Viết</a></div>
+				<div class="last"><a href="#tap">Nhịp</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Với Swype, bạn có khả năng chuyển đổi liền mạch giữa các chế độ đầu vào khác nhau &#45; Swype, Nói, Viết hoặc Gõ.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype là phương pháp gõ chữ nhanh chóng. Chương trình cho phép bạn gõ một từ bằng cách vẽ qua các chữ. Đặt ngón tay của bạn lên chữ đầu tiên của từ và vẽ đường từ chữ này sang chữ kia, nhấc ngón tay lên sau chữ cuối cùng. Các khoảng cách sẽ được tự động thêm vào khi cần thiết.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Học thêm <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Nút Swype
+									<div id="ul_1a" class="open">
+										<p>Phím Swype là phím có biểu tượng Swype. Bấm và giữ phím Swype để truy cập mục Cài Đặt Swype.</p>
+										<p>Phím Swype cũng được sử dụng để bắt đầu những cử chỉ Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Xem trước bàn phím
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Cử chỉ Swype
+									<div id="ul_1b" class="closed">
+										<p>Swype Gestures (Cử chỉ Swype) là các phím tắt trên bàn phím để nhanh chóng hoàn thành các tác vụ chung. Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+										<ul>
+											<li><span class="gestures">Tới Bàn Phím Chỉnh Sửa</span> Để tới bàn phím Chỉnh sửa, Swype từ phím <img src="img_swypekey.png" /> sang phím Biểu tượng (?123) trên bàn phím.</li>
+											<li><span class="gestures">Tới Bàn Phím Số</span> Để nhanh chóng tới bàn phím Số, Swype từ <img src="img_swypekey.png" /> tới số 5.</li>
+											<li><span class="gestures">Giấu Bàn Phím</span> Để dễ dàng ẩn bàn phím, chỉ cần Swype từ phím Swype đến phím lùi.</li>
+
+											<li><span class="gestures">Tắt Tự Động Thêm Dấu Cách</span> Chặn tự động thêm dấu cách trước từ tiếp theo bằng cách trượt từ phím Dấu cách đến phím Lùi.</li>
+
+
+											<li><span class="gestures">Đổi thành chữ hoa hoặc chữ thường</span> Thay đổi cách viết một từ sau khi bạn đã gõ xong bằng cách nhịp lên từ đó lướt từ <img src="img_swypekey.png" /> tới phím Shift <img src="img_shiftkey.png" /> . Một Danh Sách Chọn Từ với các tùy chọn viết hoa sẽ hiển thị, cho phép bạn chọn các chữ viết thường, Viết hoa chữ đầu hoặc VIẾT HOA TẤT.</li>
+
+											<li><span class="gestures">Dấu chấm câu</span> Một cách đơn giản để nhập dấu câu là Swype từ dấu hỏi, dấu phẩy, dấu chấm hoặc các dấu câu khác tới phím Space thay vì gõ dấu chấm câu.</li>
+
+											<li><span class="gestures">Chọn Tất Cả, Cắt, Sao Chép và Dán</span>
+												Chọn Tất Cả: Swype từ <img src="img_swypekey.png" /> tới &#39;a&#39;<br />
+												Cắt: Swype từ <img src="img_swypekey.png" /> tới &#39;x&#39;<br />
+												Sao: Swype từ <img src="img_swypekey.png" /> tới &#39;c&#39;<br />
+												Dán: Swype từ <img src="img_swypekey.png" /> tới &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Lối tắt ứng dụng</span>Bản đồ Google: Swype từ <img src="img_swypekey.png" /> đến ‘g’, rồi đến ‘m’</li>
+											<li><span class="gestures">Tìm kiếm</span>Bôi sáng vài từ và Swype từ <img src="img_swypekey.png" /> tới S để tìm kiếm web nhanh.</li>
+											<li><span class="gestures">Chuyển sang ngôn ngữ được sử dụng mới nhất</span>Khi sử dụng nhiều ngôn ngữ, cách nhanh nhất để quay lại ngôn ngữ trước đó là Swype từ <img src="img_swypekey.png" /> tới phím Space.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Viết chữ đôi
+									<div id="ul_1n" class="closed">
+										<p>Để nhập các chữ đôi, viết nhanh hoặc tạo một vòng lặp lên chữ. Ví dụ, để viết chữ &quot;oo&quot; trong từ &quot;xoong&quot;, vẽ tới lui lên phím &quot;o&quot;. Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Thay đổi một từ
+									<div id="ul_1d" class="closed">
+										<p>Để chấp nhận từ gợi ý từ Danh Sách Chọn Từ, hãy tiếp tục Swyping. Nếu không, cuộn qua danh sách bằng cách kéo ngón tay, và chọn từ mà bạn muốn. Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+<p>Để chọn văn bản từ danh sách, di chuyển ngón tay theo vòng tròn để nghe các mục danh sách. Di chuyển theo chiều kim đồng hồ sẽ tiến về phía trước danh sách; di chuyển ngược chiều kim đồng hồ sẽ lùi về phía sau danh sách.  
+Việc nâng ngón tay lên sẽ mở ra mục danh sách nói gần nhất.
+Để chọn một từ trong Danh Sách Chọn Từ, trượt ngón tay lên bàn phím cho đến khi nghe thấy từ đầu tiên trong danh sách rồi bắt đầu xoay tròn.
+Tính năng này chỉ có sẵn khi dịch vụ truy cập hệ thống Khám Explore&#45;by&#45;Touch được bật.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Viết Hoa Các Từ
+									<div id="ul_1e" class="closed">
+										<p>Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+										<p>Viết hoa một từ trong khi Swyping bằng cách lướt ngón tay từ chữ đầu tiên lên phía trên khung bàn phím và giữ nguyên, rồi đưa ngón tay xuống chữ cái kế tiếp của từ đó.</p>
+										<p>Thay đổi cách viết một từ sau khi bạn đã gõ xong bằng cách nhịp lên từ đó lướt từ <img src="img_swypekey.png" /> tới phím Shift <img src="img_shiftkey.png" /> . Một Danh Sách Chọn Từ với các tùy chọn viết hoa sẽ hiển thị, cho phép bạn chọn các chữ viết thường, Viết hoa chữ đầu hoặc VIẾT HOA TẤT.</p>
+										<p>Để nhập chế độ Khóa VIẾT HOA, chỉ cần gõ hai lần lên phím Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Tự động thêm dấu cách
+									<div id="ul_1f" class="closed">
+										<p>Dấu cách giữa những sẽ được thêm vào tự động khi bạn lướt tới từ tiếp theo trong câu. Bạn cũng có thể mở hay tắt luôn chức năng tự động thêm dấu cách trong Cài Đặt Swype.</p>
+										<p>Có thể tắt tính năng tự động thêm dấu cách cho một chữ bằng cách Swyping từ phím Space tới phím Backspace.</p>
+										<p>Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Thay đổi một từ
+									<div id="ul_1g" class="closed">
+										<p>Thay đổi một từ bằng cách nhịp lên từ đó, sau đó chọn từ mà bạn muốn từ Danh Sách Chọn Từ, hoặc bôi sáng lên từ đó và Swype một từ mới. Từ mới sẽ thay thế từ không đúng.</p>
+										<p>Một từ có thể được bôi sáng bằng cách nhịp lên từ đó và nhấn <img src="img_swypekey.png" /> hoặc nhịp lên từ đó hai lần.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Nhảy giữa các chữ cái
+									<div id="ul_1h" class="closed">
+										<p>Đôi khi tránh các chữ cái khi Swyping sẽ đảm bảo rằng bạn nhận được từ mà bạn muốn trước tiên.</p>
+										<p>Ví dụ, từ &quot;treo&quot; và &quot;teo&quot; có thể cùng vẽ theo một đường &#45; nhưng hãy nhớ, bạn không phải di chuyển từ chữ nọ sang chữ kia theo một đường thẳng. Để tránh chữ &quot;r&quot; khi lướt ngón tay tới chữ &quot;e&quot; sẽ đảm bảo rằng từ &quot;teo&quot; sẽ là từ đầu tiên trong Danh sách chọn từ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Chọn Chữ Nhanh Hơn
+									<div id="ul_1i" class="closed">
+
+										<p>Bấm và giữ phím để đưa ra một danh sách các ký tự thay thế, chẳng hạn như các ký tự có dấu như ư và ớ, biểu tượng như @,%, và các số.</p>
+
+										<p>Gõ phím Biểu tượng (?123) để được đưa tới bàn phím Biểu tượng.</p>
+										<p>Xin chú ý rằng TẤT CẢ các ký hiệu đều có&#45;thể&#45;Swype từ bàn phím chính (dù là bạn có thấy hay không). Quý vị có thể Swype bằng cách sử dụng bàn phiếm này, nhưng quý vị chỉ sẽ có những chữ mà nó có ít nhất một số hay ký hiệu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Thêm và xóa từ
+									<div id="ul_1j" class="closed">
+										<p>Swype thông minh bổ sung thêm từ mới mà bạn sử dụng vào Từ Điển Cá Nhân của bạn.</p>
+										<p>Bạn cũng có thể thêm một từ bằng cách bôi sáng và nhịp lên <img src="img_swypekey.png" /> . Gõ vào lời nhắc xuất hiện để thêm từ.</p>
+										<p>Để xóa một từ, bấm và giữ từ trong Danh Sách Chọn Từ, và sau đó gõ OK trong hộp thoại xác nhận. Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Cá nhân hóa
+									<div id="ul_1k" class="closed">
+										<p>Swype có thể bổ xung nhanh từ vào từ điển của bạn từ Facebook, Twitter, và Gmail. Để cá nhân hóa Swype:</p>
+										<ol>
+											<li>Bấm và giữ <img src="img_swypekey.png" /> .</li>
+											<li>Từ danh sách Cài Đặt Swype, chọn Cá nhân hóa.</li>
+											<li>Chọn từ các tùy chọn cá nhân và nhập các thông tin của bạn nếu được nhắc.</li>
+											<li>Bạn có thể cá nhân hoá Swype từ một hoặc tất cả các nguồn.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Nói</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Bạn có thể nói chuyện để nhập nội dung tất cả mọi thứ từ tin nhắn văn bản và thư điện tử để cập nhật Facebook và Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Học thêm <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Dấu chấm câu
+									<div id="ul_2a" class="open">
+										<p>Không cần phải tự thêm các dấu chấm phẩy. Chỉ cần nói các dấu chấm phẩy mà bạn muốn và tiếp tục. Hãy làm thử thí dụ này:</p>
+										<ol>
+											<li>Bấm phím bằng giọng nói và bắt đầu nói chuyện.</li>
+											<li>Những gì bạn nói: <i>Bữa ăn tối tuyệt vời chấm than</i></li>
+											<li>Những gì bạn nhận được: <i>Bữa ăn tối tuyệt vời!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Đầu vào bằng giọng nói không luôn có sẵn trên một số bàn phím</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Viết</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Bạn có thể sử dụng ngón tay của bạn để vẽ các chữ cái và các từ và Swype sẽ biến nó thành văn bản. Bạn có thể vẽ chữ từ trái sang phải hoặc chồng lên nhau. Bấm ABC / 123 để chuyển đổi giữa các phương thức nhập chữ cái và biểu tượng.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Học thêm <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Cho phép chữ viết tay
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Bấm và giữ phím <img src="img_symkey.png" /> và trượt ngón tay của bạn lên biểu tượng chữ viết tay.</li>
+											<li>Vẽ các chữ với ngón tay của bạn trên vùng chữ viết tay.</li>
+
+											<li>Gõ phím dấu cách giữa các từ</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Cử Chỉ Chạm Nhiều Chỗ
+									<div id="ul_3b" class="closed">
+										<p>Các cử chỉ chạm nhiều Chỗ cho phép bạn thực hiện các tác vụ đơn giản, chẳng hạn như viết hoa các từ hoặc chữ cái.</p>
+										<ol>
+											<li>Vẽ một số chữ thường trên vùng vẽ</li>
+											<li>Sau khi nhập ký tự trượt hai ngón tay lên trên khu vực viết</li>
+											<li>Các tính năng chữ viết tay sẽ nhận ra những cử chỉ chạm nhiều Chỗ và viết hoa các chữ cái</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Chữ viết tay không luôn có sẵn trên một số bàn phím.</i></p>
+									<p><i>Tính năng này không có sẵn khi dịch vụ truy cập hệ thống Explore&#45;by&#45;Touch được bật.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Nhịp</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Hình thức truyền thống của việc nhập vào từ bàn phím thủ công. Nhịp lên bàn phím Swype để nhập thông tin được làm cho dễ dàng và hiệu quả hơn bởi một số tính năng hữu ích:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Học thêm <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Sửa lỗi gõ ẩu
+									<div id="ul_4a" class="open">
+										<p>Bạn không có gõ mỗi chữ hoàn hảo. Chỉ cần cố gắng tốt nhất của bạn và Swype sẽ cung cấp các đề nghị chữ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Hoàn thành từ
+									<div id="ul_4b" class="closed">
+										<p>Swype cũng có thể đoán chữ của bạn khi bạn gõ chỉ một vài chữ cái.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Ngôn ngữ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Để chuyển đổi ngôn ngữ từ bàn phím: Bấm và giữ phím space bar. Chọn ngôn ngữ bạn mong muốn từ danh sách hiện lên.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect cho phép chúng tôi cung cấp cập nhật và các tính năng mạnh mẽ trực tiếp tới điện thoại của bạn Swype Connect có thể làm việc qua mạng 3G, chúng tôi luôn khuyên bạn nên tìm kiếm một kết nối WiFi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Học thêm <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Tải các ngôn ngữ
+									<div id="ul_6a" class="open">
+										<p>Rất dễ dàng để thêm các ngôn ngữ trên Swype:</p>
+										<ol>
+											<li>Bấm và giữ <img src="img_swypekey.png" /> và chọn Ngôn ngữ.</li>
+											<li>Từ danh sách Ngôn Ngữ, chọn Tải xuống ngôn ngữ.</li>
+											<li>Nhấp vào một ngôn ngữ và sẽ tự động bắt đầu tải xuống.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect không luôn có sẵn trên tất cả các bàn phím.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Trợ Giúp Thêm</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Để được trợ giúp thêm khi sử dụng Swype, xem Hướng Dẫn Sử Dụng Swype và Video và các Mẹo sử dụng Swype tại <a href="http://www.swype.com">www.swype.com</a>, hoặc kiểm tra Diễn Đàn Swype trực tuyến tại <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

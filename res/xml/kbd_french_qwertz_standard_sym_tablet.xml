@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_tablet_width" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_q" ns:keyLabel="1" ns:shiftedKeyLabel="•" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_w" ns:keyLabel="2" ns:shiftedKeyLabel="™" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_e" ns:keyLabel="3" ns:shiftedKeyLabel="®" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_r" ns:keyLabel="4" ns:shiftedKeyLabel="`" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_t" ns:keyLabel="5" ns:shiftedKeyLabel="^" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_z" ns:keyLabel="6" ns:shiftedKeyLabel="¥" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_u" ns:keyLabel="7" ns:shiftedKeyLabel="£" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_i" ns:keyLabel="8" ns:shiftedKeyLabel="&quot;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_o" ns:keyLabel="9" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_p" ns:keyLabel="0" ns:shiftedKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_a" ns:keyLabel="*" ns:shiftedKeyLabel="©" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_s" ns:keyLabel="€" ns:shiftedKeyLabel="$" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_d" ns:keyLabel="&amp;" ns:shiftedKeyLabel="|" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_f" ns:keyLabel="_" ns:shiftedKeyLabel="°" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_g" ns:keyLabel="(" ns:shiftedKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_h" ns:keyLabel=")" ns:shiftedKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_j" ns:keyLabel=":" ns:shiftedKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_k" ns:keyLabel="«" ns:shiftedKeyLabel="&lt;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_l" ns:keyLabel="»" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¢" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_x" ns:keyLabel="!" ns:shiftedKeyLabel="¡" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_c" ns:keyLabel="\#" ns:shiftedKeyLabel="%" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_v" ns:keyLabel="=" ns:shiftedKeyLabel="×" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_b" ns:keyLabel="/" ns:shiftedKeyLabel="\\" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_n" ns:keyLabel="+" ns:shiftedKeyLabel="~" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:popupCharacters="@string/alternates_for_french_qwertz_standard_m" ns:keyLabel="\?" ns:shiftedKeyLabel="¿" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?tabletSymKeyboardSymEtching" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default_sym_tablet" />
+</KeyboardEx>

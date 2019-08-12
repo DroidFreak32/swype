@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languagefiles>
+    <language name="French_Std">
+        <ldb file="FRusUNStd_xt9_2.ldb" id="0x020c" />
+        <almldb file="FRusUNStd_xt9_ALM3.ldb" id="0x020c" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="French_CA_Std">
+        <ldb file="FRusUNCAStd_xt9_2.ldb" id="0x1C0C" />
+        <almldb file="FRusUNCAStd_xt9_ALM3.ldb" id="0x1C0C" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="French_CH_Std">
+        <ldb file="FRusUNCHStd_xt9_2.ldb" id="0x200C" />
+        <almldb file="FRusUNCHStd_xt9_ALM3.ldb" id="0x200C" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="German_Std">
+        <ldb file="DEusUNStd_xt9_2.ldb" id="0x207" />
+        <almldb file="DEusUNStd_xt9_ALM3.ldb" id="0x207" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="Romanian_Std">
+        <ldb file="ROlsUNStd_xt9_2.ldb" id="0x0218" />
+        <almldb file="ROlsUNStd_xt9_ALM3.ldb" id="0x0218" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="Spanish_Std">
+        <ldb file="ESusUNStd_xt9_2.ldb" id="0x020a" />
+        <almldb file="ESusUNStd_xt9_ALM3.ldb" id="0x020a" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+    <language name="Turkish_Std">
+        <ldb file="TRlsUNStd_xt9_HC.ldb" id="0x021f" />
+        <hdb file="database_le.dat" id="0x1FF" />
+    </language>
+</languagefiles>

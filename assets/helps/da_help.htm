@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Tal</a></div>
+				<div><a href="#write">Skriv</a></div>
+				<div class="last"><a href="#tap">Skriv</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Med Swype kan du uden problemer skifte mellem fire forskellige inputtilstande – Swype, tale, skrive eller trykke.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype er en hurtig måde at indtaste tekst på. Du kan indtaste et ord ved at tegne gennem bogstaverne. Anbring din finger på det første bogstav i et ord, og tegn en sti fra bogstav til bogstav. Løft fingeren efter det sidste bogstav i ordet. Swype indsætter automatisk et mellemrum, når det er nødvendigt.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Læs mere <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype&#45;tasten
+									<div id="ul_1a" class="open">
+										<p>Swype&#45;tasten er tasten med Swype&#45;logoet på. Tryk på Swype&#45;tasten og hold den nede for at gå til Swype Indstillinger.</p>
+										<p>Swype&#45;tasten bruges også til at starte mange af Swype&#45;bevægelserne.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Tastaturvisning
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype&#45;bevægelser
+									<div id="ul_1b" class="closed">
+										<p>Swype&#45;bevægelser er tastaturgenveje til hurtigt at udføre almindelige opgaver. Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+										<ul>
+											<li><span class="gestures">Sådan kommer du til Redigeringstastaturet</span> For at få redigeringstastaturet vist skal du Swype fra <img src="img_swypekey.png" /> til symboltasten (?123) på tastaturet.</li>
+											<li><span class="gestures">Sådan kommer du til det numeriske tastatur</span> For hurtigt at få det numeriske tastatur vist skal du Swype fra <img src="img_swypekey.png" /> til tallet 5.</li>
+											<li><span class="gestures">Sådan skjuler du tastaturet</span> For nemt at skjule tastaturet kan du Swype fra Swype&#45;tasten til tilbage&#45;tasten.</li>
+
+											<li><span class="gestures">Slå Automatisk mellemrum fra</span> Undertryk automatisk mellemrum inden næste ord ved at Swype fra mellemrumstasten til tilbage&#45;tasten.</li>
+
+
+											<li><span class="gestures">Redigering af store og små bogstaver i et ord</span> For at få et ord til at stå med store eller små bogstaver efter du har indtastet det, skal du trykke på ordet og derefter Swype fra <img src="img_swypekey.png" /> til Shift&#45;tasten <img src="img_shiftkey.png" /> . Der vises en ordvalgsliste med flere muligheder for store eller små bogstaver, hvor du kan vælge imellem små bogstaver, stort begyndelsesbogstav eller kun store bogstaver.</li>
+
+											<li><span class="gestures">Tegnsætning</span> Du kan let indtaste tegnsætning ved at Swype fra spørgsmålstegn, komma, punktum eller andre tegn til mellemrumstasten i stedet for at trykke på den.</li>
+
+											<li><span class="gestures">Vælg alt, Beskær, Kopiér og Sæt ind</span>
+												Vælg alt: Swype fra <img src="img_swypekey.png" /> til &#39;a&#39;<br />
+												Beskær: Swype fra <img src="img_swypekey.png" /> til &#39;x&#39;<br />
+												Kopiér: Swype fra <img src="img_swypekey.png" /> til &#39;c&#39;<br />
+												Sæt ind: Swype fra <img src="img_swypekey.png" /> til &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Programgenveje</span>Google Maps: Swype fra <img src="img_swypekey.png" /> til &#39;g&#39; og derefter &#39;m&#39;</li>
+											<li><span class="gestures">Søg</span>Markér noget tekst og Swype fra <img src="img_swypekey.png" /> til S for at foretage en hurtig søgning på internettet.</li>
+											<li><span class="gestures">Skift til det sidst brugte sprog.</span>Når du bruger flere sprog, kan du hurtigt skifte til det forrige sprog ved at Swype fra <img src="img_swypekey.png" /> til mellemrumstasten.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Sådan skriver du dobbeltbogstaver
+									<div id="ul_1n" class="closed">
+										<p>For at forbedre nøjagtigheden ved indtastning af dobbeltbogstaver skal du lave en lille krusedulle eller løkke oven på bogstavet. Så for at skrive &quot;nn&quot; i &quot;banner&quot; skal du lave en krusedulle på &quot;n&quot;&#45;tasten. Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Vælge et ord
+									<div id="ul_1d" class="closed">
+										<p>For at acceptere det foreslåede standardord i ordvalgslisten skal du bare fortsætte med at Swype. Ellers skal du rulle gennem listen ved at trække din finger hen til det ord, du ønsker. Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+<p>Tekst vælges fra en liste ved at bevæge fingeren i en cirkel for at høre posterne på listen læst op. Med uret bevæger sig frem gennem listen; mod uret bevæger sig baglæns gennem listen.  
+Løft af fingeren vil aktivere den sidst oplæste post på listen.
+Hvis du vil vælge et ord på ordvalgslisten, skal du føre fingeren op fra tastaturet, indtil det første ord i listen høres, hvorefter du skal starte den cirkulære bevægelse.
+Denne funktion er kun tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Sådan skriver du et ord med store bogstaver
+									<div id="ul_1e" class="closed">
+										<p>Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+										<p>Mens du Swyper, kan du lave et stort begyndelsesbogstav i et ord ved at føre din finger fra det første bogstav og op over tastaturet. Uden at løfte fingeren fører du så fingeren tilbage til det næste bogstav i ordet.</p>
+										<p>For at få et ord til at stå med store eller små bogstaver efter du har indtastet det, skal du trykke på ordet og derefter Swype fra <img src="img_swypekey.png" /> til Shift&#45;tasten <img src="img_shiftkey.png" /> . Der vises en ordvalgsliste med flere muligheder for store eller små bogstaver, hvor du kan vælge imellem små bogstaver, stort begyndelsesbogstav eller kun store bogstaver.</p>
+										<p>For at bruge CAPS Lock skal du bare trykke to gange på Shift&#45;tasten <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatisk mellemrum
+									<div id="ul_1f" class="closed">
+										<p>Swype indsætter automatisk et mellemrum mellem ordene, når du Swyper det næste ord i sætningen. Du kan slå funktionen for automatisk mellemrum til eller fra i Swype&#45;indstillingerne.</p>
+										<p>Brugen af automatisk mellemrum kan deaktiveres for et enkelt ord ved at Swype fra mellemrumstasten til slettetasten.</p>
+										<p>Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Udskiftning af et ord
+									<div id="ul_1g" class="closed">
+										<p>Du kan udskifte et ord ved at trykke på det og derefter vælge det ønskede ord fra ordvalgslisten, eller også kan du bare markere ordet og Swype et nyt ord. Det nye ord vil erstatte det forkerte.</p>
+										<p>Man kan markere et ord ved at trykke på det og derefter trykke på <img src="img_swypekey.png" /> eller ved at dobbelttrykke på ordet.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Sådan hopper du frem og tilbage mellem bogstaver
+									<div id="ul_1h" class="closed">
+										<p>Nogle gange kan du sørge for, at det rigtige ord bliver valgt første gang, hvis du undgår bestemte bogstaver, når du Swyper.</p>
+										<p>&quot;Tre&quot; og &quot;te&quot; kan for eksempel tegnes på samme måde &#45; men husk, at du ikke behøver at gå fra bogstav til bogstav i en lige linje. Ved at undgå &quot;r&quot;, når du Swyper fingeren hen til &quot;e&quot;, vises ordet &quot;te&quot; øverst på ordvalgslisten.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternative tegn
+									<div id="ul_1i" class="closed">
+
+										<p>Tryk og hold en tast nede for at få vist en liste over alternative tegn for den pågældende tast, som f.eks. accentuerede bogstaver, som ö og ä, symboler som @ og % samt tal.</p>
+
+										<p>Tryk på symboltasten (?123) for at gå til symboltastaturet.</p>
+										<p>Bemærk, at ALLE tegn kan Swypes fra hovedtastaturet (uanset om du kan se dem eller ej). Du kan Swype ved at bruge denne visning af tastaturet, men du vil kun få ord, der mindst har ét tal eller symbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Tilføje og slette ord
+									<div id="ul_1j" class="closed">
+										<p>Swype tilføjer intelligent nye ord, som du bruger, til din personlige ordbog.</p>
+										<p>Du kan også tilføje et ord ved at markere det og trykke på <img src="img_swypekey.png" /> . Tryk på den meddelelse, der vises, for at tilføje ordet.</p>
+										<p>For at slette et ord skal du trykke og holde på ordet i ordvalgslisten og derefter trykke på OK i bekræftelsesdialogen. Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personlige indstillinger
+									<div id="ul_1k" class="closed">
+										<p>Swype kan hurtigt tilføje et ord til din ordbog fra Facebook, Twitter og Gmail. Personlig indstilling af Swype:</p>
+										<ol>
+											<li>Tryk på <img src="img_swypekey.png" /> og hold den nede.</li>
+											<li>Fra menuen Swype&#45;indstillinger skal du vælge personlige indstillinger</li>
+											<li>Vælg blandt de personlige indstillinger og indtast dine oplysninger efter behov.</li>
+											<li>Du kan indstille Swype personligt fra en eller alle kilder.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Tal</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Du kan tale for at indtaste tekst for alt fra sms og e&#45;mail&#45;meddelelser til opdateringer af Facebook og Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Læs mere <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tegnsætning
+									<div id="ul_2a" class="open">
+										<p>Det er ikke nødvendigt at tilføje tegnsætning manuelt. Du skal bare sige det tegn, du ønsker, og så fortsætte. Prøv dette:</p>
+										<ol>
+											<li>Tryk på stemmetasten og begynd at tale.</li>
+											<li>Hvad du siger: <i>Maden var dejlig udråbstegn</i></li>
+											<li>Hvad du får: <i>Maden var dejlig!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Stemmeinput er ikke tilgængelig på alle tastaturer</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Skriv</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Du kan bruge din finger til at tegne bogstaver og ord, og så vil Swype ændre det til tekst. Du kan tegne bogstaver fra venstre til højre eller oven på hinanden. Tryk på ABC/123 for at skifte mellem bogstavs&#45; og symboltilstanden.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Læs mere <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktiver håndskrift
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Tryk og hold <img src="img_symkey.png" /> nede og lad fingeren glide hen til håndskriftikonet.</li>
+											<li>Tegn bogstaver med din finger i området til håndskrift.</li>
+
+											<li>Tryk på mellemrumstasten mellem hvert ord</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Multi&#45;touch bevægelser
+									<div id="ul_3b" class="closed">
+										<p>Ved hjælp af multi&#45;touch bevægelser kan du udføre simple opgaver, som f.eks. at skrive ord eller bogstaver med stort.</p>
+										<ol>
+											<li>Tegn nogle små bogstaver i tegnefeltet</li>
+											<li>Efter indtastning af tegnene skal du føre to fingre opad til skriveområdet.</li>
+											<li>Håndskriftsfunktionen vil genkende multi&#45;touch bevægelserne og ændre bogstaverne til stort.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Håndskrift er ikke tilgængelig på alle tastaturer.</i></p>
+									<p><i>Denne funktion er ikke tilgængelig, når systemets tilgængelighedstjeneste Explore&#45;by&#45;Touch er slået til.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Skriv</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Traditionel form for manuel tastaturindtastning. Trykindtastning på Swype&#45;tastaturet er blevet gjort lettere og mere effektivt i kraft af nogle nyttige funktioner:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Læs mere <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Rettelse af sjusket indtastning
+									<div id="ul_4a" class="open">
+										<p>Du behøver ikke at trykke på hvert bogstav perfekt. Bare prøv dit bedste, og så vil Swype intelligent foreslå mulige ord.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Fuldførelse af ord
+									<div id="ul_4b" class="closed">
+										<p>Swype kan også gætte dit ord, når du kun har indtastet nogle få bogstaver.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Sprog</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Skifte sprog fra tastaturet: Tryk på mellemrumstasten og hold den nede. Vælg det ønskede sprog fra pop&#45;up&#45;menuen.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Med Swype Connect kan du få opdateringer og effektfulde funktioner lige ned på din enhed! Swype Connect virker også over 3G, men vi anbefaler en WiFi&#45;forbindelse.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Læs mere <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Hent sprog
+									<div id="ul_6a" class="open">
+										<p>Det er let at tilføje yderligere sprog til Swype:</p>
+										<ol>
+											<li>Tryk og hold <img src="img_swypekey.png" /> og vælg Sprog.</li>
+											<li>Fra menuen Sprog skal du vælge Hent sprog.</li>
+											<li>Klik på et sprog og det vil blive downloadet automatisk.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect er ikke tilgængelig på alle tastaturer.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Mere hjælp</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>For yderligere oplysninger om, hvordan man bruger Swype, kan du læse brugervejledningen til Swype og se Swype&#45;tips og &#45;videoer på <a href="http://www.swype.com">www.swype.com</a>. Du kan også kigge forbi vores online Swype&#45;forum på www.<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

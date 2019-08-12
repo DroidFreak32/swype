@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.preference.ClassActionPreference android:title="@string/help_settings_title" android:key="how_to_swype">
+        <intent android:action="com.nuance.swype.input.settings.TutorialActivity" />
+    </com.nuance.swype.preference.ClassActionPreference>
+    <CheckBoxPreference android:title="@string/pref_show_tips_title" android:key="show_tips" android:defaultValue="@bool/show_tips_default" />
+    <PreferenceCategory android:title="@string/about">
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/version" android:key="version">
+            <intent android:action="com.nuance.swype.input.about.MainAboutActivity" />
+        </com.nuance.swype.preference.ClassActionPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

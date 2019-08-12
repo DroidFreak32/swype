@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Будет удалено %d слов</item>
+        <item quantity="one">Будет удалено одно слово.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d дней назад</item>
+        <item quantity="one">%d день назад</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d часов назад</item>
+        <item quantity="one">%d час назад</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d минут назад</item>
+        <item quantity="one">%d минуту назад</item>
+    </plurals>
+</resources>

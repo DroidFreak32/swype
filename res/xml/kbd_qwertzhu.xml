@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:keyTextSize="@dimen/key_text_size_small" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:altPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_qwertzhu_q" ns:keyEdgeFlags="left" ns:keyLabel="q" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticon" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_w" ns:keyLabel="w" ns:altKeyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_e" ns:keyLabel="e" ns:altKeyLabel="€" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_r" ns:keyLabel="r" ns:altKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_t" ns:keyLabel="t" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_z" ns:keyLabel="z" ns:altKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_u" ns:keyLabel="u" ns:altKeyLabel="ú" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_i" ns:keyLabel="i" ns:altKeyLabel="í" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_o" ns:keyLabel="o" ns:altKeyLabel="ó" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_p" ns:keyLabel="p" ns:altKeyLabel="_" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzhu_ö" ns:keyEdgeFlags="right" ns:keyLabel="ö" ns:altKeyLabel="ő" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_a" ns:keyEdgeFlags="left" ns:keyLabel="a" ns:altKeyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_s" ns:keyLabel="s" ns:altKeyLabel="\#" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_d" ns:keyLabel="d" ns:altKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_f" ns:keyLabel="f" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_g" ns:keyLabel="g" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_h" ns:keyLabel="h" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_j" ns:keyLabel="j" ns:altKeyLabel=":" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_k" ns:keyLabel="k" ns:altKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_l" ns:keyLabel="l" ns:altKeyLabel="&quot;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_é" ns:keyLabel="é" ns:altKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzhu_á" ns:keyEdgeFlags="right" ns:keyLabel="á" ns:altKeyLabel=")" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_8_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_y" ns:keyLabel="y" ns:altKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_x" ns:keyLabel="x" ns:altKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_c" ns:keyLabel="c" ns:altKeyLabel="7" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_v" ns:keyLabel="v" ns:altKeyLabel="8" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_b" ns:keyLabel="b" ns:altKeyLabel="9" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_n" ns:keyLabel="n" ns:altKeyLabel="0" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_m" ns:keyLabel="m" ns:altKeyLabel="\?" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertzhu_ü" ns:keyLabel="ü" ns:altKeyLabel="ű" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_8_11_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default" />
+</KeyboardEx>

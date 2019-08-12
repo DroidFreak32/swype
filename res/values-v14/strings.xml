@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_services_info">com.nuance.android.compat.TextServicesCompatV14</string>
+</resources>

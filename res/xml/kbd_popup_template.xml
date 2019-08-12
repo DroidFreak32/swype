@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_popup_key" ns:keyBorder="?keyboardPopupBorder" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/color_popup_text" xmlns:ns="http://schemas.android.com/apk/res-auto" />

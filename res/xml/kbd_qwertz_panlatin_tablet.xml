@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_q" ns:keyLabel="q" ns:altKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_w" ns:keyLabel="w" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzdollar_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertzpound_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyboardSettings="pound" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_r" ns:keyLabel="r" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_t" ns:keyLabel="t" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_z" ns:keyLabel="z" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_u" ns:keyLabel="u" ns:altKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_i" ns:keyLabel="i" ns:altKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_o" ns:keyLabel="o" ns:altKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_p" ns:keyLabel="p" ns:altKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_a" ns:keyLabel="a" ns:altKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="€" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzdollar_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="$" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzpound_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="£" ns:keyboardSettings="pound" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_d" ns:keyLabel="d" ns:altKeyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_f" ns:keyLabel="f" ns:altKeyLabel="_" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_g" ns:keyLabel="g" ns:altKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_h" ns:keyLabel="h" ns:altKeyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_j" ns:keyLabel="j" ns:altKeyLabel=":" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_k" ns:keyLabel="k" ns:altKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_l" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzdollar_panlatin_l" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_qwertzpound_panlatin_l" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyboardSettings="pound" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:altPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_qwertz_panlatin_y" ns:keyLabel="y" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticon" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_x" ns:keyLabel="x" ns:altKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_c" ns:keyLabel="c" ns:altKeyLabel="\#" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_v" ns:keyLabel="v" ns:altKeyLabel="=" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_b" ns:keyLabel="b" ns:altKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_n" ns:keyLabel="n" ns:altKeyLabel="+" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertz_panlatin_m" ns:keyLabel="m" ns:altKeyLabel="\?" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default_tablet" />
+</KeyboardEx>

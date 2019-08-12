@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Labhair</a></div>
+				<div><a href="#write">Scríobh</a></div>
+				<div class="last"><a href="#tap">Cineál</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Agus tú ag úsáid Swype is féidir leat athrú idir na ceithre mhodh ionchurtha gan stró, gan agó.i. Swype, Labhair, Scríobh nó Tapáil.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Bealach sciobtha le téacs a iontráil is ea Swype. Cuireann sé ar do chumas focal a iontráil ach na litreacha a tharraingt. Leag do mhéar ar chéad litir an fhocail agus tarraing líne ó litir go litir go dtí go dtiocfaidh tú ar an litir dheireanach. Cuirfidh Swype na spásanna isteach sna háiteanna ar gá iad.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Tuilleadh eolais <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Eochair Swype
+									<div id="ul_1a" class="open">
+										<p>Is í Eochair Swype an eochair a bhfuil lógó Swype uirthi. Brúigh agus coinnigh do mhéar ar eochair Swype chun rochtain ar Shocruithe Swype.</p>
+										<p>Baintear úsáid as eochair Swype chun tús a chur le cuid mhaith de na gothaí Swype chomh maith.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Réamhamharc Méarchláir
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gothaí Swype
+									<div id="ul_1b" class="closed">
+										<p>Aicearraí ar an méarchlár is ea Gothaí Swype a chuirfidh ar do chumas tascanna coitianta a dhéanamh go gasta. Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+										<ul>
+											<li><span class="gestures">Teacht ar an méarchlár curtha in eagar</span> Chun teacht ar an méarchlár Curtha in Eagar, Swypeáil ón <img src="img_swypekey.png" /> go dtí an eochair Siombailí (?123) ar an méarchlár.</li>
+											<li><span class="gestures">Teacht ar an méarchlár uimhreacha</span> Chun teacht ar an méarchlár Uimhreacha, Swypeáil ón <img src="img_swypekey.png" /> go dtí uimhir a 5.</li>
+											<li><span class="gestures">An méarchlár a chur i bhfolach</span> Is éasca an méarchlár a chur i bhfolach, ní gá duit ach Swypeáil ó eochair Swype go dtí an eochair Chúlspásála.</li>
+
+											<li><span class="gestures">An ghné uathspásála a chasadh as</span> Is féidir an ghné uathspásála a chasadh as roimh an gcéad fhocal eile ach Swypeáil ón Spáseochair go dtí an eochair Chúlspásála.</li>
+
+
+											<li><span class="gestures">Cás focail a chur in eagar</span> Is féidir leat cás focail a athrú tar éis duit é a chlóscríobh ach tapáil ar an bhfocal agus Swypeáil ón <img src="img_swypekey.png" /> go dtí an eochair iomlaoide <img src="img_shiftkey.png" /> . Taispeánfar duit an Roghliosta Focal le roghanna éagsúla ceannlitrithe, rud a chuirfear ar do chumas focail a chur sa chás íochtair, a Cheannlitriú, nó a chur ina gCEANNLITREACHA.</li>
+
+											<li><span class="gestures">Poncaíocht</span> Chun comharthaí poncaíochta a chur isteach go héasca, Swypeáil ón gcomhartha ceiste, camóige, lánstad nó ó chomhartha poncaíochta eile go dtí an Spáseochair seachas tapáil uirthi.</li>
+
+											<li><span class="gestures">Roghnaigh Uile, Gearr, Cóipeáil agus Greamaigh</span>
+												Roghnaigh Uile: Swypeáil ón <img src="img_swypekey.png" /> go dtí an &#39;a&#39;<br />
+												Gearr: Swypeáil ón <img src="img_swypekey.png" /> go dtí an &#39;x&#39;<br />
+												Cóipeáil: Swypeáil ón <img src="img_swypekey.png" /> go dtí an &#39;c&#39;<br />
+												Greamaigh: Swypeáil ón <img src="img_swypekey.png" /> go dtí an &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Aicearraí feidhmchlár</span>Google Maps: Swypeáil ón <img src="img_swypekey.png" /> go dtí an &#39;g&#39;, agus ansin go dtí an &#39;m&#39;</li>
+											<li><span class="gestures">Cuardaigh</span>Aibhsigh roinnt téacs agus ansin Swypeáil ón <img src="img_swypekey.png" /> go dtí an S le mearchuardach gréasáin a dhéanamh.</li>
+											<li><span class="gestures">Athrú go dtí an teanga ba dhéanaí a úsáideadh</span>Nuair atá tú ag úsáid níos mó ná aon teanga amháin, is féidir leat Swypeáil ón <img src="img_swypekey.png" /> go dtí an spáseochair chun athrú ar ais go dtí an teanga dheireanach a d&#39;úsáid tú.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Litreacha dúbailte a chur isteach
+									<div id="ul_1n" class="closed">
+										<p>Chun grinneas a fheabhsú nuair atá tú ag cur isteach litreacha dúbailte, déan beagán scrioblála ar an litir nó tarraing lúb bheag uirthi. Mar shampla, chun an &quot;nn&quot; in &quot;crann&quot; a fháil, déan beagán scrioblála ar an eochair &quot;n&quot;. Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Focal a roghnú
+									<div id="ul_1d" class="closed">
+										<p>Chun glacadh leis an bpríomhfhocal tuartha ón Roghliosta Focal, níl le déanamh agat ach coinneáil ort ag Swypeáil. Seachas sin, déan do mhéar a shleamhnú síos chun scrollú tríd an liosta, agus roghnaigh an focal a theastaíonn uait. Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+<p>Chun téacs a roghnú ó liosta, bog do mhéar go ciorclach chun na hiontrálacha sa liosta a chloisteáil. Bog do mhéar ar deiseal chun dul ar aghaidh tríd an liosta; bog do mhéar ar tuathal chun dul ar gcúl tríd an liosta.  
+Aschuirtear an iontráil labhartha is déanaí nuair a ardaíonn tú do mhéar.
+Chun focal a roghnú ón Roghliosta Focal, sleamhnaigh do mhéar suas ón méarchlár go dtí go gcloisfidh tú an chéad fhocal sa liosta, ansin tosaigh ag bogadh do mhéar go ciorclach.
+Níl fáil ar an ngné seo ach amháin nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Focal a cheannlitriú
+									<div id="ul_1e" class="closed">
+										<p>Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+										<p>Chun focal a cheannlitriú Swypeáil do mhéar suas ón gcéad litir thar bharr an mhéarchláir agus, gan do mhéar a ardú, sleamhnaigh do mhéar síos arís go dtí an chéad litir eile den fhocal.</p>
+										<p>Is féidir leat cás focail a athrú tar éis duit é a chlóscríobh ach tapáil ar an bhfocal agus Swypeáil ón <img src="img_swypekey.png" /> go dtí an eochair iomlaoide <img src="img_shiftkey.png" /> . Taispeánfar duit an Roghliosta Focal le roghanna éagsúla ceannlitrithe, rud a chuirfear ar do chumas focail a chur sa chás íochtair, a Cheannlitriú, nó a chur ina gCEANNLITREACHA.</p>
+										<p>Chun an glas ceannlitreacha a chur ar siúl, déthapáil ar an eochair iomlaoide <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Spásáil uathoibríoch
+									<div id="ul_1f" class="closed">
+										<p>Déanann Swype spás a chur isteach idir focail go huathoibríoch nuair a thosaíonn tú ag clóscríobh an chéad fhocail eile san abairt. Is féidir leat an ghné uathspásála a chasadh air nó as i Socruithe Swype.</p>
+										<p>Is féidir an ghné uathspásála a chasadh as d&#39;aon fhocal amháin ach Swypeáil ón spáseochair go dtí an eochair Chúlspásála.</p>
+										<p>Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Focal a chur in ionad focail eile
+									<div id="ul_1g" class="closed">
+										<p>Tapáil ar fhocal chun é a roghnú, ansin roghnaigh an focal is mian leat a chur ina ionad ón Roghliosta Focal, nó níos éasca fós, aibhsigh an focal agus Swypeáil an focal nua. Cuirfear an focal nua in ionad an fhocail mhíchirt.</p>
+										<p>Is féidir focal a aibhsiú ach tapáil ar an bhfocal agus ansin tapáil ar <img src="img_swypekey.png" /> , nó déthapáil ar an bhfocal.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Malairt slí idir na litreacha
+									<div id="ul_1h" class="closed">
+										<p>I gcásanna áirithe is féidir leat an focal atá ag teastáil uait a fháil ar an gcéad dul síos ach litreacha áirithe a sheachaint.</p>
+										<p>Mar shampla, d&#39;fhéadfaí &quot;fad&quot; agus &quot;fás&quot; a tharraingt leis an líne chéanna &#45; ach tabhair do d&#39;aire nach gcaithfidh tú línte díreacha a dhéanamh agus tú ag dul ó litir go litir. Seachain an &quot;s&quot; agus tú ag Swypeáil do mhéar go dtí an &quot;d&quot; agus gheobhaidh tú an focal &quot;fad&quot; ar bharr an Roghliosta Focal.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Carachtair mhalartacha
+									<div id="ul_1i" class="closed">
+
+										<p>Tapáil agus coinnigh do mhéar ar eochair le liosta carachtar malartach a oscailt don eochair áirithe sin, amhail litreacha le síntí fada ar nós é agus á, siombailí ar nós @ agus %, agus uimhreacha.</p>
+
+										<p>Tapáil ar an eochair Siombailí (?123) le dul chuig an méarchlár Siombailí.</p>
+										<p>Tabhair do d&#39;aire gur féidir GACH UILE charachtar a Swypeáil ón bpríomh&#45;mhéarchlár (beag beann ar cibé acu is féidir nó nach féidir leat iad a fheiceáil). Is féidir leat Swypeáil san amharc méarchláir seo, ach ní bhfaighidh tú ach focail a bhfuil uimhir nó siombail amháin ar a laghad ag gabháil leo.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Focail a chur leis agus a scriosadh
+									<div id="ul_1j" class="closed">
+										<p>Cuireann Swype aon fhocal nua a mbaineann tú úsáid as le d&#39;Fhoclóir Pearsanta go cliste.</p>
+										<p>Is féidir leat focal a chur leis de láimh ach é a aibhsiú agus tapáil ar <img src="img_swypekey.png" /> . Tapáil ar an leid a thagann aníos chun an focal a chur leis.</p>
+										<p>Chun focal a scriosadh, tapáil agus coinnigh do mhéar ar an bhfocal sa Roghliosta Focal, agus ansin tapáil ar &#39;Maith go Leor&#39; sa bhosca dialóige le deimhniú gur mian leat é a scriosadh. Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Saincheapadh
+									<div id="ul_1k" class="closed">
+										<p>Is féidir le Swype focail a úsáideann tú ar Facebook, ar Twitter, agus ar Gmail a chur le d&#39;fhoclóir go gasta. Chun Swype a shaincheapadh:</p>
+										<ol>
+											<li>Tapáil agus coinnigh do mhéar ar an <img src="img_swypekey.png" /> .</li>
+											<li></li>
+											<li></li>
+											<li>Is féidir leat Swype a shaincheapadh le faisnéis ó cheann amháin de na foinsí nó ó na foinsí ar fad.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Labhair</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Is féidir leat labhairt os ard le téacs a chur isteach le haghaidh téacsteachtaireachtaí, teachtaireachtaí ríomhphoist, agus nuashonrúchán ar Facebook agus ar Twitter fiú.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Tuilleadh eolais <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Poncaíocht
+									<div id="ul_2a" class="open">
+										<p>Ní gá duit comharthaí poncaíochta a chur leis an abairt de láimh. Abair na comharthaí atá ag teastáil uait agus coinnigh ort. Bain triail as seo a leanas:</p>
+										<ol>
+											<li>Tapáil ar an eochair ghutha agus tosaigh ag labhairt.</li>
+											<li>Nuair a deir tú: <i>Bhí an dinnéar an&#45;bhlasta ar fad comhartha uaillbhreasa</i></li>
+											<li>Gheobhaidh tú: <i>Bhí an dinnéar an&#45;bhlasta ar fad!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Níl fáil ar an ionchur gutha i gcás roinnt méarchlár.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Scríobh</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Is féidir leat úsáid a bhaint as do mhéar le litreacha agus le huimhreacha a tharraingt agus déanfaidh Swype iad sin a athrú ina dtéacs. Is féidir leat litreacha a tharraingt ó chlé go deas nó sa mhullach ar a chéile. Tapáil ABC/123 le scoránú idir an modh litreacha agus an modh siombailí.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Tuilleadh eolais <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Cuir lmhsrbh ar siúl
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Tapáil agus coinnigh do mhéar ar an <img src="img_symkey.png" /> agus sleamhnaigh do mhéar chuig an deilbhín lámhscríbhneoireachta.</li>
+											<li>Tarraing litreacha le do mhéar sa limistéar lámhscríbhneoireachta.</li>
+
+											<li>Tapáil ar an spásbharra idir gach focal</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									An Gotha Iltadhaill
+									<div id="ul_3b" class="closed">
+										<p>Tugann an gotha iltadhaill de chumhacht duit tascanna simplí a chur i gcrích, amhail focail nó litreacha a cheannlitriú.</p>
+										<ol>
+											<li>Tarraing roinnt litreacha beaga sa limistéar lámhscríbhneoireachta</li>
+											<li>Tar éis duit na litreacha a chur isteach, sleamhnaigh dhá mhéar suas ar an limistéar lámhscríbhneoireachta</li>
+											<li>Tuigfidh an ghné aitheanta lámhscríbhneoireachta an gotha iltadhaill agus déanfaidh sí na litreacha a cheannlitriú</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Níl fáil ar an ngné lámhscríbhneoireachta i gcás roinnt méarchlár.</i></p>
+									<p><i>Níl fáil ar an ngné seo nuair atá an tseirbhís inrochtaineachta córais &#39;Tadhaill le Taiscéaladh&#39; ar siúl.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Cineál</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>An fhoirm thraidisiúnta de lámh&#45;ionchur méarchláir. Déanann roinnt gnéithe fóinteacha an t&#45;ionchur tadhaill níos éifeachtaí agus níos éasca fós:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Tuilleadh eolais <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Ceartú clóscríofa shleamchúisigh
+									<div id="ul_4a" class="open">
+										<p>Ní gá duit gach uile litir a chlóscríobh go foirfe. Déan do dhícheall agus molfaidh Swype focail duit go cliste.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Críochnú Focal
+									<div id="ul_4b" class="closed">
+										<p>Is féidir le Swype buille faoi thuairim a thabhairt faoin bhfocal atá á chlóscríobh agat fiú amháin mura bhfuil ach cúpla litir curtha isteach agat.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Teangacha</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Chun an teanga a athrú ón méarchlár: Tapáil agus coinnigh do mhéar ar an spásbharra. Roghnaigh an teanga ón roghchlár aníos.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Cuireann Swype Connect ar ár gcumas nuashonrúcháin agus feidhmeanna cumhachtacha a sheachadadh go díreach chuig do ghléas! Cé go n&#45;oibríonn Swype Connect thar 3G, molaimid duit iarracht a dhéanamh teacht ar WiFi i ngach cás.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Tuilleadh eolais <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Íoslódálacha teangacha
+									<div id="ul_6a" class="open">
+										<p>Is éasca an rud é teangacha breise a chur le Swype:</p>
+										<ol>
+											<li>Tapáil agus coinnigh do mhéar ar an <img src="img_swypekey.png" /> le Teangacha a roghnú.</li>
+											<li>Ón gclár teangacha, roghnaigh Íoslódáil teangacha.</li>
+											<li>Cliceáil ar cheann de na teangacha agus cuirfear tús leis an íoslódáil go huathoibríoch.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Níl fáil ar Swype Connect ó gach uile mhéarchlár.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Tuilleadh cabhrach</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Le haghaidh tuilleadh cabhrach le húsáid Swype, féach ar lámhleabhar úsáideora Swype, ar Leideanna agus ar Fhíseáin ag <a href="http://www.swype.com">www.swype.com</a>, nó tabhair cuairt ar Fhóram Ar Líne Swype ag <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

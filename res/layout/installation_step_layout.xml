@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:padding="3.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/linearLayout1" android:padding="8.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/done_icon" android:padding="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_check_startup" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?keyboardSuggestStripSpell" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/spell_candidate_left" android:background="?pressableBackgroundHighlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowLeft" />
+    <com.nuance.swype.input.chinese.SpellListView android:id="@id/spell_candidates" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/spell_candidate_right" android:background="?pressableBackgroundHighlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowRight" />
+</LinearLayout>

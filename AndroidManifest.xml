@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nuance.swype.oppo" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <application android:allowBackup="false" android:icon="@drawable/swype_logo" android:label="@string/swype_for_OPPO" android:name="com.nuance.swype.input.IMEApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <service android:label="@string/ime_name" android:name="com.nuance.swype.input.IME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+                <action android:name="com.nuance.swype.input.baseline2ALMUpgrade"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <service android:name="com.google.android.voiceime.ServiceHelper"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation" android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.google.android.voiceime.ActivityHelper" android:theme="@style/AppTheme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/ime_name" android:name="com.nuance.swype.input.settings.SettingsDispatch" android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nuance.swype.input.settings.ConnectAccountDispatch" android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.swype.com" android:pathPrefix="/activation" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nuance.swype.input.settings.LanguageDispatch" android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nuance.swype.input.settings.LanguageUpdateDispatch" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nuance.swype.input.settings.UpdatesDispatch" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/ime_name" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:hardwareAccelerated="false" android:label="@string/ime_name" android:name="com.nuance.swype.input.settings.SettingsV11">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:hardwareAccelerated="false" android:label="@string/ime_name" android:name="com.nuance.swype.input.settings.SettingsV19">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_connect_settings" android:name="com.nuance.swype.input.settings.SettingsPrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/function_bar" android:name="com.nuance.swype.input.settings.FunctionBarActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/configuration_screen_title" android:name="com.nuance.swype.input.settings.LanguagePrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/configuration_screen_title" android:name="com.nuance.swype.input.settings.InputPrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.MainAboutActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.AboutSwypeActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.AboutDragonActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.AboutConnectActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.TermsOfServiceConnect"/>
+        <activity android:excludeFromRecents="true" android:label="@string/about" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.OpenSourceAttribution"/>
+        <activity android:excludeFromRecents="true" android:label="@string/swype" android:launchMode="singleTask" android:name="com.nuance.swype.input.about.AboutWebViewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/help_settings_title" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.TutorialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/language_category_title" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.LanguageOptionsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_download_language_title" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.LanguageUpdateActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/personalization_settings_title" android:name="com.nuance.swype.input.settings.SocialIntegrationPrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_menu_themes" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.ThemesActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_menu_themes" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.ThemesCategoryActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_menu_themes" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.ThemesPrefsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="GMail" android:launchMode="singleTask" android:name="com.nuance.sns.gmail.GMailOAuthActivity"/>
+-
+<activity android:excludeFromRecents="true" android:label="@string/personal_dictionary_title" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.PersonalDictionaryActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="Facebook" android:launchMode="singleTask" android:name="com.nuance.sns.facebook.FacebookActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="Twitter" android:launchMode="singleTask" android:name="com.nuance.sns.twitter.TwitterActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/back_and_sync_title" android:launchMode="standard" android:name="com.nuance.swype.startup.AccountRegisterActivity" android:theme="@style/AppStartupTheme.FloatingActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="standard" android:name="com.nuance.swype.startup.WelcomeActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.TracePathActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.ChooseLanguageActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.DownloadLanguageActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.EnableSwypeActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/back_and_sync_title" android:launchMode="singleTask" android:name="com.nuance.swype.startup.BackupAndSyncActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.SelectSwypeActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.TermsOfServiceActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.ContributeUsageDataActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.EulaActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.nuance.swype.startup.EulaGooglePlayActivity" android:theme="@style/AppStartupTheme.FloatingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/ime_name" android:launchMode="singleTask" android:name="com.nuance.swype.connect.LanguageUpdateWithTOS"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:hardwareAccelerated="false" android:label="@string/terms_of_service_connect_title" android:launchMode="standard" android:name="com.nuance.swype.startup.ConnectTOSActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/usage_statistics_log_title" android:launchMode="standard" android:name="com.nuance.swype.startup.UsageOptInActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:excludeFromRecents="true" android:launchMode="standard" android:name="com.nuance.swype.startup.CustomWebviewActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="standard" android:name="com.nuance.swype.startup.GettingStartedActivity" android:theme="@style/AppStartupTheme.FloatingActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/pref_connect_account" android:name="com.nuance.swype.input.settings.AccountPrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/settings_swype_chinese" android:name="com.nuance.swype.input.settings.ChinesePrefsActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/addon_dictionaries" android:name="com.nuance.swype.input.settings.AddonDictionariesPrefsActivity"/>
+        <activity android:label="@string/purchase_theme_preview_content_description" android:name="com.nuance.swype.input.settings.PopupDialogThemeActivity" android:theme="@android:style/Theme.Dialog"/>
+        <service android:name="com.nuance.sns.facebook.FacebookScraper"/>
+        <service android:name="com.nuance.sns.twitter.TwitterScraper"/>
+        <service android:name="com.nuance.sns.sms.SMSCalllogScraper"/>
+        <service android:enabled="true" android:exported="false" android:name="com.nuance.connect.service.ConnectClient">
+            <intent-filter>
+                <action android:name="com.nuance.connect.service.ConnectClient"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/pref_my_words_title" android:name="com.nuance.swype.input.settings.MyWordsPrefsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/pref_help_title" android:name="com.nuance.swype.input.settings.HelpActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/updates_title" android:launchMode="singleTask" android:name="com.nuance.swype.input.settings.UpdatesActivity"/>
+        <receiver android:name="com.nuance.swype.connect.AccountCreationBroadcastReciever"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+    </application>
+</manifest>

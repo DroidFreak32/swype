@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe5e5e5" android:padding="@dimen/preference_theme_preview_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.widget.LoadingImageView android:layout_gravity="center" android:id="@id/image_preview" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nuance.swype.widget.directional.DirectionalTextView android:textSize="15.0sp" android:textColor="#ff555555" android:id="@id/theme_name" android:padding="@dimen/preference_theme_name_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="2" android:scrollHorizontally="false" android:layout_centerHorizontal="true" android:textDirection="locale" />
+        <ImageView android:id="@id/theme_lock_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_lock_icon" android:layout_toLeftOf="@id/theme_name" android:layout_alignTop="@id/theme_name" android:layout_alignBottom="@id/theme_name" />
+    </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+</LinearLayout>

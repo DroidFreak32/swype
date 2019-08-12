@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Speak</a></div>
+				<div><a href="#write">Write</a></div>
+				<div class="last"><a href="#tap">Type</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">With Swype, you have the ability to switch seamlessly between four different input modes &#45; Swype, Speak, Write or Tap.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype is a fast way to enter text. It lets you enter a word by drawing through letters. Put your finger on the first letter of the word and draw a path from letter to letter, lifting up after the last letter. Swype will insert spaces where necessary.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Learn more <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									The Swype Key
+									<div id="ul_1a" class="open">
+										<p>The Swype key is the key with the Swype logo on it. Press and hold the Swype key to access Swype Settings.</p>
+										<p>The Swype key is also used to initiate many of the Swype gestures.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Keyboard Preview
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype gestures
+									<div id="ul_1b" class="closed">
+										<p>Swype Gestures are shortcuts on the keyboard to quickly accomplish common tasks. This feature is not available when system accessibility service TalkBack is on.</p>
+										<ul>
+											<li><span class="gestures">Getting to the Edit Keyboard</span> To get to the Edit keyboard, Swype from the <img src="img_swypekey.png" /> to the Symbols key (?123) on the keyboard.</li>
+											<li><span class="gestures">Getting to the Number Keyboard</span> To quickly go to the Number keyboard, Swype from the <img src="img_swypekey.png" /> to the number 5.</li>
+											<li><span class="gestures">Hiding the Keyboard</span> To easily hide the keyboard, just Swype from the Swype key to the backspace key.</li>
+
+											<li><span class="gestures">Turn off Automatic Spacing</span> Suppress automatic spacing before the next word by Swyping from the Space key to the Backspace key.</li>
+
+
+											<li><span class="gestures">Editing the Case of a Word</span> Change the case of a word after you enter it by tapping the word and then Swyping from the <img src="img_swypekey.png" /> to the Shift key <img src="img_shiftkey.png" /> . A Word Choice List with capitalisation options will display, allowing you to choose lower case, Capitalised, or ALL CAPS.</li>
+
+											<li><span class="gestures">Punctuation</span> A simple way to enter punctuation is to Swype from the question mark, comma, full stop or other punctuation to the Space key instead of tapping it.</li>
+
+											<li><span class="gestures">Select All, Cut, Copy and Paste</span>
+												Select All: Swype from the <img src="img_swypekey.png" /> to the &#39;a&#39;<br />
+												Cut: Swype from the <img src="img_swypekey.png" /> to the &#39;x&#39;<br />
+												Copy: Swype from the <img src="img_swypekey.png" /> to the &#39;c&#39;<br />
+												Paste: Swype from the <img src="img_swypekey.png" /> to the &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Application shortcuts</span>Google Maps: Swype from the <img src="img_swypekey.png" /> to the &#39;g&#39;, then &#39;m&#39;</li>
+											<li><span class="gestures">Search</span>Highlight some text and Swype from the <img src="img_swypekey.png" /> to the S to do a quick web search.</li>
+											<li><span class="gestures">Switching to the last language used</span>When using multiple languages, a fast way to switch back to the previous language is to Swype from the <img src="img_swypekey.png" /> to the Space key.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Entering double letters
+									<div id="ul_1n" class="closed">
+										<p>To improve accuracy when entering double letters, scribble slightly or make a loop on the letter. For example, to get the &quot;ll&quot; in &quot;hello&quot;, scribble on the &quot;l&quot; key. This feature is not available when system accessibility service TalkBack is on.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Choosing a word
+									<div id="ul_1d" class="closed">
+										<p>To accept the suggested default word in the Word Choice List, just keep Swyping. Otherwise, scroll through the list by dragging your finger, and select the word you want. This feature is not available when system accessibility service TalkBack is on.</p>
+<p>To select text from a list, move your finger in a circular motion to hear the list entries. Clockwise moves forward through the list; counter&#45;clockwise moves backward through the list.  
+Lifting finger outputs the last spoken list entry.
+To choose a word in the Word Choice List, slide your finger up from the keyboard until the first word in the list is heard, then begin the circular motion.
+This feature is only available when system accessibility service TalkBack is on.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Capitalising Words
+									<div id="ul_1e" class="closed">
+										<p>This feature is not available when system accessibility service TalkBack is on.</p>
+										<p>Capitalise a word while Swyping by gliding your finger from the first letter up past the top of the keyboard and, without lifting, gliding your finger back down to the next letter of the word.</p>
+										<p>Change the case of a word after you enter it by tapping the word and then Swyping from the <img src="img_swypekey.png" /> to the Shift key <img src="img_shiftkey.png" /> . A Word Choice List with capitalisation options will display, allowing you to choose lower case, Capitalised, or ALL CAPS.</p>
+										<p>To enter CAPS Lock mode, just double&#45;tap on the Shift key <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatic spacing
+									<div id="ul_1f" class="closed">
+										<p>Swype automatically inserts a space between words when you Swype the next word in the sentence. You can turn the auto&#45;spacing feature on or off in Swype Settings.</p>
+										<p>Auto&#45;spacing can be turned off for one word by Swyping from the Space key to the Backspace key.</p>
+										<p>This feature is not available when system accessibility service TalkBack is on.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Replacing a word
+									<div id="ul_1g" class="closed">
+										<p>Replace a word by tapping on it, then select the word you want from the Word Choice List, or simply highlight the word and Swype a new word. The new word will replace the incorrect one.</p>
+										<p>A word can be highlighted by tapping the word and hitting the <img src="img_swypekey.png" /> or double&#45;tapping the word.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Bouncing between letters
+									<div id="ul_1h" class="closed">
+										<p>Sometimes avoiding letters when Swyping ensures you get the word you want the first time.</p>
+										<p>For example, &quot;tip&quot; and &quot;top&quot; could be drawn with the same path &#45; but note, you don’t have to move from letter to letter in a straight line. Avoiding the &quot;i&quot; when Swyping your finger to the &quot;p&quot; ensures that the word &quot;tip&quot; is first in the Word Choice List.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternate characters
+									<div id="ul_1i" class="closed">
+
+										<p>Press and hold on a key to bring up a list of alternative characters for that key, such as accented letters like é and ñ, symbols like @ and %, and numbers.</p>
+
+										<p>Tap the Symbols key (?123) to be taken to the Symbols keyboard.</p>
+										<p>Note that ALL of the characters are Swype&#45;able from the main keyboard (whether you can see them or not). You can Swype using this view of the keyboard, but you will only get words that have at least one number or symbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Adding and deleting words
+									<div id="ul_1j" class="closed">
+										<p>Swype intelligently adds any new words you use to your Personal Dictionary.</p>
+										<p>You can also add a word by highlighting it and tapping the <img src="img_swypekey.png" /> . Tap the prompt that appears to add the word.</p>
+										<p>To delete a word, press and hold the word in the Word Choice List, and then tap OK in the confirmation dialogue. This feature is not available when system accessibility service TalkBack is on.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalisation
+									<div id="ul_1k" class="closed">
+										<p>Swype can quickly add words to your dictionary from Facebook, Twitter, and Gmail. To personalise Swype:</p>
+										<ol>
+											<li>Press and hold the <img src="img_swypekey.png" /> .</li>
+											<li>From the Swype Settings menu, select Personalization.</li>
+											<li>Select from the personalization options and enter your credentials if prompted.</li>
+											<li>You can personalise Swype from one or all sources.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Speak</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>You can speak to enter text content for everything from text and email messages to Facebook and Twitter updates.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Learn more <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Punctuation
+									<div id="ul_2a" class="open">
+										<p>No need to manually add punctuation. Just say the punctuation you want and continue. Try this:</p>
+										<ol>
+											<li>Press the voice key and start speaking.</li>
+											<li>What you say: <i>Dinner was delicious exclamation point</i></li>
+											<li>What you get: <i>Dinner was delicious!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Voice input is not available on some keyboards</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Write</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>You can use your finger to draw letters and words and Swype will turn it into text. You can draw letters from left&#45;to&#45;right or on top of each other. Press ABC/123 to toggle between letter and symbol mode.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Learn more <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Enable handwriting
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Press and hold the <img src="img_symkey.png" /> and slide your finger to the handwriting icon.</li>
+											<li>Draw letters with your finger on the handwriting area.</li>
+
+											<li>Tap the space bar in between each word</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Multi&#45;Touch Gesture
+									<div id="ul_3b" class="closed">
+										<p>The multi&#45;touch gesture allows you to complete simple tasks, such as capitalising words or letters.</p>
+										<ol>
+											<li>Draw some lowercase letters on the drawing pad</li>
+											<li>After entering the characters, slide two fingers upwards on the writing area</li>
+											<li>The handwriting feature will recognise the multi&#45;touch gesture and capitalise the letters</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Handwriting is not available on some keyboards.</i></p>
+									<p><i>This feature is not available when system accessibility service TalkBack is on.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Type</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Traditional form of manual keyboard input. Tap input on the Swype keyboard is made easier and more efficient by some helpful features:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Learn more <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Sloppy Typing Correction
+									<div id="ul_4a" class="open">
+										<p>You don’t have to tap each letter perfectly. Just try your best and Swype will intelligently provide word suggestions.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Word Completion
+									<div id="ul_4b" class="closed">
+										<p>Swype can also guess your word when you tap only a few letters.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Languages</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>To switch languages from the keyboard: Press and hold the space bar. Select your desired language from the popup menu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect allows us to deliver updates and powerful functions directly to your device! While Swype Connect will work over 3G, we always recommend finding a WiFi connection.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Learn more <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Language downloads
+									<div id="ul_6a" class="open">
+										<p>Adding additional languages to Swype is easy:</p>
+										<ol>
+											<li>Press and hold the <img src="img_swypekey.png" /> and select Languages.</li>
+											<li>From the Languages menu, select Download languages.</li>
+											<li>Click on a language and your download will start automatically.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect is not available on all keyboards.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">More Help</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>For more help with using Swype, view a Swype User manual and Swype Tips and Videos at <a href="http://www.swype.com">www.swype.com</a>, or check out the Swype Forum online at <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

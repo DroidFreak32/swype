@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d சொற்கள் நீக்கப்படும்</item>
+        <item quantity="one">ஒரு சொல் நீக்கப்பட்டுவிடும்.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d நாட்களுக்கு முன்னர்</item>
+        <item quantity="one">%d நாளுக்கு முன்னர்</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d மணி நேரங்களுக்கு முன்னர்</item>
+        <item quantity="one">%d மணி நேரத்திற்கு முன்னர்</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d நிமிடங்களுக்கு முன்னர்</item>
+        <item quantity="one">%d நிமிடத்திற்கு முன்னர்</item>
+    </plurals>
+</resources>

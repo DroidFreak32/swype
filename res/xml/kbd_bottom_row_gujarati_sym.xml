@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyWidth="@fraction/swype_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyWidth="@fraction/symbols_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size_small" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_alpha_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_comma" ns:keyLabel="," />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="-" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom_space" ns:keyWidth="@fraction/space_key_width_sym" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="&quot;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_gujarati_period" ns:keyLabel="." />
+        <Key ns:keyWidth="@fraction/return_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

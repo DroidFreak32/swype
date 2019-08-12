@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sym_keyboard_speech_white" android:maxLevel="0" />
+    <item android:maxLevel="1">
+        <level-list>
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="0" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="1" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" />
+        </level-list>
+    </item>
+    <item android:maxLevel="2">
+        <level-list>
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="0" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="1" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" />
+        </level-list>
+    </item>
+    <item android:maxLevel="3">
+        <level-list>
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="0" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="1" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" />
+        </level-list>
+    </item>
+    <item android:maxLevel="4">
+        <level-list>
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="0" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" android:maxLevel="1" />
+            <item android:drawable="@drawable/sym_keyboard_speech_mic_white_mini" />
+        </level-list>
+    </item>
+</level-list>

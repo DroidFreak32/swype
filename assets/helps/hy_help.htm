@@ -1,0 +1,344 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Խոսել</a></div>
+				<div><a href="#write">Գրել</a></div>
+				<div class="last"><a href="#tap">Տեսակ</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swype&#45;ով դուք հնարավորություն ունեք հեշտորեն փոխարկել չորս տարբեր մուտքագրման ռեժիմների միջև` Swype&#45;ել, խոսել, գրել կամ թակել։</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype&#45;ը տեքստ մուտքագրելու արագ ձև է։ Այն թույլ է տալիս մուտքագրել բառ՝ գծելով տառերի միջով։ Դրեք Ձեր մատը բառի առաջին տառի վրա և գծեք տառից տառ ճանապարհ՝ բարձրացնելով վերջին տառից հետո։ Swype&#45;ը կտեղադրի բացատներ որտեղ անհրաժեշտ է։</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Լրացուցիչ խորհուրդներ <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype&#45;ի Ստեղնը
+									<div id="ul_1a" class="open">
+										<p>Swype ստեղնն այն ստեղն է, որն ունի Swype&#45;ի նշանը։ Սեղմեք և պահեք Swype ստեղնը՝ Swype&#45;ի Կարգավորումները մտնելու համար։</p>
+										<p>Swype ստեղնը օգտագործվում է նաև Swype&#45;ի շատ գործողություններ սկսելու համար։</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Ստեղնաշարի նախադիտում
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype Ակնարկ
+									<div id="ul_1b" class="closed">
+										<p>Swype&#45;i Շարժումնեըը դյուրանցումներ են ստեղնաշարում՝ սովորական գործեր արագորեն կատարելու համար։ Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+										<ul>
+											<li><span class="gestures">Հասնելով Խմբագրման ստեղնաշարին</span> Խմբագրման ստեղնաշարին հասնելու համար ստեղնաշարի վրա, հետք ներմուծեք <img src="img_swypekey.png" /> &#45;ից դեպի Սիմվոլների ստեղնը (?123):</li>
+											<li><span class="gestures">Հասնելով Թվեր ստեղնաշարին</span> Թվերի ստեղնաշարին արագորեն հասնելու համար Swype&#45;եք <img src="img_swypekey.png" /> &#45;ից դեպի թիվ 5։</li>
+											<li><span class="gestures">Պահել ստեղնաշարը</span> Հեշտությամբ թաքցնելու համար ստեղնաշարը, պարզապես Swype&#45;եք Swype ստեղնից դեպի Հետադարձ ստեղնը։</li>
+
+											<li><span class="gestures">Անջատեք Բացատի ինքնաշխատ ստեղծումը</span> Անջատեք ինքնաշխատ բացատի հատկությունը հաջորդ բառից առաջ՝ Swype&#45;ելով Բացատ ստեղնից դեպի Հետադարձ ստեղնը։</li>
+
+
+											<li><span class="gestures">Խմբագրել բառի առաջին տառի մուտքագրումը</span> Բառը մուտքագրելուց հետո տառերը մեծատառերի կամ փոքրատառերի փոխելու համար թակեք այդ բառը և ապա swype&#45;եք <img src="img_swypekey.png" /> &#45;ից մինչև Shift ստեղնը <img src="img_shiftkey.png" /> ։ Բառերի Ընտրության Ցանկը՝ մեծատառով գրելու այլընտրանքներով, ցույց կտրվի՝ ձեզ թողնելով ընտրել փոքրատառ, մեծատառ, կամ ԲՈԼՈՐԸ ՄԵԾԱՏԱՌ։</li>
+
+											<li><span class="gestures">Կետադրության նշաններ</span> Կետադրության մուտքագրման պարզ տարբերակ է՝ ստորակետից, վերջակետից կամ այլ կետադրական նշանից հետք ներմուծելը դեպի Բացատ ստեղնը` այն թակելու փոխարեն։</li>
+
+											<li><span class="gestures">Կիրառման դյուրանցումներ</span>Google քարտեզներ. Swype&#45;եք <img src="img_swypekey.png" /> &#45;ից դեպի &#39;g&#39;, ապա` &#39;m&#39;</li>
+											<li><span class="gestures">Փնտրում</span>Ընդգծեք որոշ տեքստ և Swype&#45;եք <img src="img_swypekey.png" /> &#45;ից դեպի S՝ արագ առցանց փնտրում անելու համար։</li>
+											<li><span class="gestures">Փոխելով վերջին գործածված լեզվին։</span>Երբ օգտագործվում են բազմաթիվ լեզուներ, նախորդ լեզվին անցնելու արագ ձևերից է Swype&#45;ը <img src="img_swypekey.png" /> &#45;ից մինչև Բացատ ստեղնը։</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Մուտքագրել կրկնատառեր
+									<div id="ul_1n" class="closed">
+										<p>Կրկնատառեր մուտքագրելիս ճշգրտությունը բարելավելու համար, խզբզեք թեթեւորեն կամ հանգույց արեք տառի վրա։ Օրինակ՝ «բաժիններ» խոսգի մեջ «նն» ստանալու համար, խզբզեք «ն» ստեղնի վրա։ Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Բառի ընտրություն
+									<div id="ul_1d" class="closed">
+										<p>Բառերի Ընտրության Ցանկի առաջարկած բառը ընդունելու համար, պարզապես շարունակեք Swype&#45;ել։ Այլապես, քննեք ցուցակը Ձեր մատը պահելով եւ ընտրեք Ձեր ցանկացած բառը։ Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+<p>  
+
+
+Այս հատկությունը հասանելի է միայն, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Բառերի մեծատառով գրելը
+									<div id="ul_1e" class="closed">
+										<p>Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+										<p>Հետք ներմուծելիս, մեծատառով գրեք բառը՝ սահեցնելով Ձեր մատը առաջին տառից մինչև ստեղնաշարի վերեւից այն կողմ եւ, առանց բարձրացնելու, սահեցնելով Ձեր մատը ներքև՝ դեպի բառի հաջորդ տառը։</p>
+										<p>Բառը մուտքագրելուց հետո տառերը մեծատառերի կամ փոքրատառերի փոխելու համար թակեք այդ բառը և ապա swype&#45;եք <img src="img_swypekey.png" /> &#45;ից մինչև Shift ստեղնը <img src="img_shiftkey.png" /> ։ Բառերի Ընտրության Ցանկը՝ մեծատառով գրելու այլընտրանքներով, ցույց կտրվի՝ ձեզ թողնելով ընտրել փոքրատառ, մեծատառ, կամ ԲՈԼՈՐԸ ՄԵԾԱՏԱՌ։</p>
+										<p>ԲՈԼՈՐԸ ՄԵԾԱՏԱՌԻ եղանակը մուտքագրելու համար, պարզապես թակեք Գլխագիր ստեղնն երկու անգամ <img src="img_shiftkey.png" /> ։</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Բացատի ինքնաշխատ ստեղծում
+									<div id="ul_1f" class="closed">
+										<p>Երբ դուք Swype&#45;ում եք հաջորդ բառը նախադասությունում, Swype&#45;ն ինքնաբերաբար տեղադրում է բացատ բառերի արանքում։ Դուք կարող եք միացնել կամ անջատել բացատի ինքնաշխատ եղանակը Swype&#45;ի Կարգավորումներ բաժնում։</p>
+										<p>Բացատի ինքնաշխատ ստեղծումը կարող է անջատվել մեկ բառի համար՝ Swype անելով Բացատի ստեղնից դեպի Հետադարձի ստեղնը։</p>
+										<p>Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Բառի փոխարինում
+									<div id="ul_1g" class="closed">
+										<p>Բառը կարող եք փոխարինել՝ թակելով այն, ապա ընտրելով Ձեր ուզած բառը Բառերի Ընտրության Ցանկից, կամ պարզապես գունանշելով փոխարինման ենթակա բառը և Swype անելով նորը։ Նոր բառը կփոխարինի սխալ բառին:</p>
+										<p>Բառը կարելի է գունանշել` թակելով այդ բառը և սեղմելով <img src="img_swypekey.png" /> կամ այդ բառը երկու անգամ թակելով։</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Ցատկելով բառերի միջև
+									<div id="ul_1h" class="closed">
+										<p>Երբեմն տառերից խուսափումը, երբ Swype եք անում, ապահովում է, ցանկացած բառը առաջին անգամից ձեռք բերելը։</p>
+										<p>Օրինակ՝ «անգամ» եւ «անհամ» կարող են գծվել միևնույն ճանապարհով. բայց նկատեք, որ պետք չունեք շարժվել տառից տառ ուղիղ գծով։ «Գ»&#45;ից խուսափելը, երբ Ձեր մատը սահեցնում եք դեպի «ա», ապահովում է, որ «անհամ» բառն առաջինը հայտնվի Բառերի Ընտրության Ցանկում։</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Այլընտրանքային տառանիշեր
+									<div id="ul_1i" class="closed">
+
+										<p>Սեղմեք և պահեք ստեղնը` այդ ստեղնի համար նախատեսված այլընտրանքային տառանիշերն ի հայտ բերելու համար, օրինակ՝ այնպիսի նիշեր, ինչպիսիք են են % և @ և թվեր։</p>
+
+										<p>Թակեք Սիմվոլների ստեղնը (?123) Սիմվոլների ստեղնաշար գնալու համար։</p>
+										<p>Նկատի ունեցեք որ ԲՈԼՈՐ տառանիշերը Swype&#45;ելի են գլխավոր ստեղնաշարում (անկախ այն բանից, թե դուք կարող եք դրանք տեսնել, թե ոչ)։ Դուք կարող եք Swype անել՝ օգտագործելով ստեղնաշարի այս տեսքը, բայց միայն ձեռք կբերեք բառեր, որոնք առնվազն մեկ թվանշան կամ սիմվոլ ունեն։</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Բառերի ավելացում և ջնջում
+									<div id="ul_1j" class="closed">
+										<p>Swype&#45;ը Ձեր օգտագործած նոր բառերը խելացիորեն ներառում է Ձեր Անձնական Բառարանում։</p>
+										<p>Դուք կարող եք բառ ավելացնել` նաև գունանշելով այն և թակելով <img src="img_swypekey.png" /> ։ Թակեք հայտնվող հուշարկումը՝ բառն ավելացնելու համար։</p>
+										<p>Բառը ջնջելու համար սեղմեք և պահեք այդ բառը Բառերի Ընտրության Ցանկում, ապա թակեք OK երկխոսության հաստատման պատուհանում։ Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Անձնավորում
+									<div id="ul_1k" class="closed">
+										<p>Swype&#45;ը կարող է արագորեն բառեր ավելացնել Ձեր անձնական բառարանում Facebook&#45;ից, Twitter&#45;ից և Gmail&#45;ից։ Swype&#45;ի անձնավորում.</p>
+										<ol>
+											<li>Սեղմեք և պահեք <img src="img_swypekey.png" /> ։</li>
+											<li>Swype&#45;ի Կարգավորումների ցանկից ընտրեք Անհատականացնում:</li>
+											<li>Ընտրեք անձնավորման ընտրանքներից և հուշում ստանալու դեպքում մուտքագրեք Ձեր անվան սկզբնատառերը:</li>
+											<li>Դուք կարող եք անձնավորել Swype&#45;ը մեկ կամ բոլոր աղբյուրներից։</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Խոսել</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Դուք կարող եք խոսելով մուտքագրել տեքստային բովանդակություն ամեն ինչի համար` սկսած կարճ հաղորդագրություններից և էլ. նամակներից մինչև Facebook&#45;ում և Twitter&#45;ում կարգավիճակի թարմացումները։</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Լրացուցիչ խորհուրդներ <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Կետադրության նշաններ
+									<div id="ul_2a" class="open">
+										<p>Ձեռքով կետադրություն ավելացնելու անհրաժեշտություն չկա։ Պարզապես բարձրաձայնեք Ձեր ուզած կետադրությունը և շարունակեք։ Փորձեք հետևյալը.</p>
+										<ol>
+											<li>Սեղմեք ձայն ստեղնը և սկսեք խոսել։</li>
+											<li>Դուք ասում եք. <i>Ճաշը համեղ էր բացականչական նշան</i></li>
+											<li>Ստանում եք. <i>Ճաշը համե՜ղ էր:</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Որոշ ստեղնաշարերի վրա ձայնային մուտքագրումը առկա չէ</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Գրել</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Դուք կարող եք օգտագործել Ձեր մատը` տառեր և բառեր գծելու համար, իսկ Swype&#45;ը դրանք կվերածի տեքստի։ Դուք կարող եք գծել տառեր ձախից աջ կամ մեկը մյուսի վրայից։ Սեղմեք ABC / 123` տառերի և սիմվոլների ռեժիմների միջև փոխարկելու համար։					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Լրացուցիչ խորհուրդներ <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Ձեռագիր գրելու հատկության միացում
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Սեղմեք և պահեք <img src="img_symkey.png" /> և սահեցրեք Ձեր մատը դեպի ձեռագրի պատկերակը:</li>
+											<li>Ձեռագիր գրելու տարածքում մատով գծեք տառերը։</li>
+
+											<li>Յուրաքանչյուր բառից հետո թակեք բացատ ստեղնը:</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Բազմահպման Գործողություն
+									<div id="ul_3b" class="closed">
+										<p>Բազմահպման գործողությունը հնարավորություն է տալիս ձեզ կատարելու այնպիսի պարզ առաջադրանքներ, ինչպիսին է օրինակ բառերը կամ տառերը մեծատառերի վերածելը։</p>
+										<ol>
+											<li>Գծահարթակի վրա գծեք մի քանի փոքրատառ տառեր</li>
+											<li>Տառանիշերը մուտքագրելուց հետո, գրելու տարածքի վրա երկու մատով սահեցրեք դեպի վերև</li>
+											<li>Ձեռագիր գրելու հատկությունը կճանաչի բազմահպման գործողությունը և տառերը կվերածի մեծատառերի</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Ձեռագիր գրելը առկա չէ որոշ ստեղնաշարերի վրա։</i></p>
+									<p><i>Այս հատկությունը հասանելի չէ, երբ համակարգի մատչելիության Explore&#45;by&#45;Touch ծառայությունը միացված է:</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Տեսակ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Ստեղնաշարի օգնությամբ ձեռքով մուտքագրման ավանդական ձև։ Թակելու միջոցով մուտքագրումը Swype&#45;ի ստեղնաշարի վրա ավելի հեշտացված և արդյունավետ է մի շարք օգտակար հատկությունների շնորհիվ.</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Լրացուցիչ խորհուրդներ <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Անփույթ մուտքագրման ուղղում
+									<div id="ul_4a" class="open">
+										<p>Դուք ստիպված չեք յուրաքանչյուր տառը անթերի թակել։ Պարզապես փորձեք հնարավորինս ճիշտ գրել և Swype&#45;ը խելացիորեն կառաջարկի բառի տարբերակներ։</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Բառի լրացում
+									<div id="ul_4b" class="closed">
+										<p>Swype&#45;ը կարող է նաև գուշակել ձեզ անհրաժեշտ բառը, երբ դուք թակել եք ընդամենը մի քանի տառ։</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">լեզուները</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Ստեղնաշարից լեզուների փոխարկում. Սեղմեք և պահեք բացատ ստեղնը։ Ընտրեք Ձեր ուզած լեզուն ելնող ցանկից։</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect&#45;ը հնարավորություն է տալիս առաքել թարմացումները և հզոր գործառնությունները անմիջապես Ձեր սարքին: Մինչդեռ Swype Connect&#45;ը աշխատում է 3G ցանցով, մենք միշտ խորհուրդ ենք տալիս գտնել WiFi միացում։</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Լրացուցիչ խորհուրդներ <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Լեզուների ներբեռնումներ
+									<div id="ul_6a" class="open">
+										<p>Swype&#45;ին լրացուցիչ լեզուներ ավելացնելը շատ հեշտ է.</p>
+										<ol>
+											<li>Սեղմեք եւ պահեք <img src="img_swypekey.png" /> և ընտրեք Լեզուներ</li>
+											<li>Լեզուներ ընտրանքների ցանկից, ընտրեք լեզուների Նեռբեռնում:</li>
+											<li>Կտտացրեք լեզվի վրա և Ձեր ներբեռնումը ինքնաբերաբար կսկսվի։</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect&#45;ը առկա չէ բոլոր ստեղնաշարերի վրա։</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Լրացուցիչ Օգնություն</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype&#45;ի գործածության առավել օժանդակության համար, նայեք Swype&#45;ի օգտագործողի ձեռնարկը և Swype&#45;ի խորհուրդներ և տեսահոլովակներ <a href="http://www.swype.com">www.swype.com</a> &#45;ում, կամ ստուգեք առցանց Swype&#45;ի Ֆորումը <a href="http://forum.swype.com">forum.swype.com</a> &#45;ում։</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

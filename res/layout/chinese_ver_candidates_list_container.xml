@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.chinese.VerCandidatesListContainer android:textSize="@dimen/key_text_size_small" android:textColor="?defaultKeyTextColor" android:orientation="vertical" android:id="@id/candidates_ver_list_view" android:background="@drawable/btn_keyboard_key" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/candidate_top_parent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.nuance.swype.input.chinese.VerCandidatesListView android:id="@id/vertical_spell_candidates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/candidate_bottom_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.nuance.swype.input.chinese.VerCandidatesListContainer>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Tiks dzēsti %d vārdi</item>
+        <item quantity="one">Tiks dzēsts viens vārds.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">pirms %d dienām</item>
+        <item quantity="one">pirms %d dienas(ām)</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">pirms %d stundām</item>
+        <item quantity="one">pirms %d stundas</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">pirms %d minūtēm</item>
+        <item quantity="one">pirms %d minūtes</item>
+    </plurals>
+</resources>

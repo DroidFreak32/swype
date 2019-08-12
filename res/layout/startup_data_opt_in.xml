@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.widget.directional.DirectionalRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.nuance.swype.widget.CurrentPageIndicator android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cpi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_alignParentTop="true" custom:totalPages="2" custom:currentPage="2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/opt_in" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cpi" />
+</com.nuance.swype.widget.directional.DirectionalRelativeLayout>
