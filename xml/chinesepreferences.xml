@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_swype_chinese" android:key="chinese_settings" />
+    <PreferenceCategory android:title="@string/addon_dictionaries" android:key="addon_dictionaries_cat" />
+</PreferenceScreen>

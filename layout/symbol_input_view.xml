@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.chinese.symbol.SymbolInputView android:orientation="vertical" android:background="?emojiBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TabHost android:id="@id/emoji_input_view_categories" android:background="?emojiCategoryBackground" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_category_tab_height">
+        <HorizontalScrollView android:id="@id/horizontalScrollView" android:background="@android:color/transparent" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <TabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?transBackground" />
+        </HorizontalScrollView>
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip">
+            <View android:id="@id/emoji_input_view_empty_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        </FrameLayout>
+    </TabHost>
+    <com.nuance.swype.input.chinese.symbol.SymbolViewPager android:id="@id/symbol_input_view_pager" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_bottom_row_key_height">
+        <ImageButton android:id="@id/emoji_input_view_keyboard_key" android:background="@drawable/emoji_key_action" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="?emojiIconKeyboard" android:layout_weight="0.15" android:contentDescription="@string/accessibility_label_for_main_key_long_D" />
+        <ImageButton android:id="@id/emoji_input_view_space_key" android:background="@drawable/emoji_key_space" android:paddingBottom="@dimen/emoji_input_page_space_key_bottom_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_weight="0.7" android:contentDescription="@string/accessibility_label_for_space_key" />
+        <ImageButton android:id="@id/emoji_input_view_delete_key" android:background="@drawable/emoji_key_action" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="?emojiIconDelete" android:layout_weight="0.15" android:contentDescription="@string/accessibility_label_for_back_key" />
+    </LinearLayout>
+</com.nuance.swype.input.chinese.symbol.SymbolInputView>

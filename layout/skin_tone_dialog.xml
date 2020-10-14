@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/skin_tone_padding" android:paddingBottom="@dimen/skin_tone_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/skin_listView" android:padding="@dimen/skin_tone_list_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/skin_tone_list_view_margin_top" android:cacheColorHint="#00000000" android:divider="@android:color/transparent" android:paddingStart="@dimen/skin_tone_list_view_padding" />
+</LinearLayout>

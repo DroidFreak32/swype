@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:keyTextSize="?keyCharacterSizeSmall" ns:canSwypePopupCharacters="false" ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:sanitizeFont="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key1" ns:keyEdgeFlags="left" ns:keyLabel="၁" ns:shiftedKeyLabel="&lt;" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key2" ns:keyLabel="၂" ns:shiftedKeyLabel=">" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key3" ns:keyLabel="၃" ns:shiftedKeyLabel="[" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key4" ns:keyLabel="၄" ns:shiftedKeyLabel="]" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key5" ns:keyLabel="၅" ns:shiftedKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key6" ns:keyLabel="၆" ns:shiftedKeyLabel="‰" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key7" ns:keyLabel="၇" ns:shiftedKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key8" ns:keyLabel="၈" ns:shiftedKeyLabel="€" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key9" ns:keyLabel="၉" ns:shiftedKeyLabel="¥" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key10" ns:keyLabel="၀" ns:shiftedKeyLabel="°" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key11" ns:keyLabel="-" ns:shiftedKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key12" ns:keyEdgeFlags="right" ns:keyLabel="×" ns:shiftedKeyLabel="*" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key13" ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="«" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key14" ns:keyLabel="2" ns:shiftedKeyLabel="»" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key15" ns:keyLabel="3" ns:shiftedKeyLabel="{" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key16" ns:keyLabel="4" ns:shiftedKeyLabel="}" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key17" ns:keyLabel="5" ns:shiftedKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key18" ns:keyLabel="6" ns:shiftedKeyLabel="±" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key19" ns:keyLabel="7" ns:shiftedKeyLabel="¢" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key20" ns:keyLabel="8" ns:shiftedKeyLabel="," ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key21" ns:keyLabel="9" ns:shiftedKeyLabel="^" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key22" ns:keyLabel="0" ns:shiftedKeyLabel="•" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key23" ns:keyEdgeFlags="right" ns:keyLabel="+" ns:shiftedKeyLabel="\@" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_8_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_sym_toggle_feedback" ns:keyIcon="@drawable/sym_keyboard_sym_toggle" ns:keyIconRecolor="?iconRecolorSymbolsToggle" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key24" ns:keyLabel="\#" ns:shiftedKeyLabel="…" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key25" ns:keyLabel="!" ns:shiftedKeyLabel="|" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key26" ns:keyLabel="(" ns:shiftedKeyLabel="~" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key27" ns:keyLabel=")" ns:shiftedKeyLabel=":" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key28" ns:keyLabel="/" ns:shiftedKeyLabel="\\" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key29" ns:keyLabel="÷" ns:shiftedKeyLabel=";" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key30" ns:keyLabel="=" ns:shiftedKeyLabel="'" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_burmese_zawgyi_key31" ns:keyLabel="\?" ns:shiftedKeyLabel="&quot;" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/delete_8_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_burmese_zawgyi_unicodelayout_sym" />
+</KeyboardEx>

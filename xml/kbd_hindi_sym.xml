@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ौ" ns:keyEdgeFlags="left" ns:keyLabel="१" ns:shiftedKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ै" ns:keyLabel="२" ns:shiftedKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ा" ns:keyLabel="३" ns:shiftedKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ी" ns:keyLabel="४" ns:shiftedKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ू" ns:keyLabel="५" ns:shiftedKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ब" ns:keyLabel="६" ns:shiftedKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ह" ns:keyLabel="७" ns:shiftedKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ग" ns:keyLabel="८" ns:shiftedKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_द" ns:keyLabel="९" ns:shiftedKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ज" ns:keyLabel="०" ns:shiftedKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ड" ns:keyEdgeFlags="right" ns:keyLabel="\#" ns:shiftedKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ो" ns:keyEdgeFlags="left" ns:keyLabel="\@" ns:shiftedKeyLabel="~" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_े" ns:keyLabel="/" ns:shiftedKeyLabel="&lt;" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_्" ns:keyLabel="\\" ns:shiftedKeyLabel=">" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ि" ns:keyLabel="[" ns:shiftedKeyLabel="«" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ु" ns:keyLabel="]" ns:shiftedKeyLabel="»" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_प" ns:keyLabel="(" ns:shiftedKeyLabel="{" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_र" ns:keyLabel=")" ns:shiftedKeyLabel="}" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_क" ns:keyLabel=";" ns:shiftedKeyLabel="“" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_त" ns:keyLabel=":" ns:shiftedKeyLabel="”" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_च" ns:keyLabel="'" ns:shiftedKeyLabel="`" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ट" ns:keyEdgeFlags="right" ns:keyLabel="&quot;" ns:shiftedKeyLabel="·" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_11_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_sym_toggle_feedback" ns:keyIcon="@drawable/sym_keyboard_sym_toggle" ns:keyIconRecolor="?iconRecolorSymbolsToggle" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ं" ns:keyLabel="&amp;" ns:shiftedKeyLabel="¥" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_म" ns:keyLabel="₹" ns:shiftedKeyLabel="₨" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_न" ns:keyLabel="$" ns:shiftedKeyLabel="€" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_व" ns:keyLabel="\?" ns:shiftedKeyLabel="\?" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ल" ns:keyLabel="=" ns:shiftedKeyLabel="÷" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_स" ns:keyLabel="+" ns:shiftedKeyLabel="½" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_ष" ns:keyLabel="!" ns:shiftedKeyLabel="!" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_य" ns:keyLabel="*" ns:shiftedKeyLabel="£" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_hindi_़" ns:keyLabel="_" ns:shiftedKeyLabel="^" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/delete_9_11_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_hindi_sym" />
+</KeyboardEx>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:keyTextSize="?keyCharacterSizeSmall" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_persian_key1" ns:keyLabel="۱" ns:shiftedKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key2" ns:keyLabel="۲" ns:shiftedKeyLabel="€" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key3" ns:keyLabel="۳" ns:shiftedKeyLabel="£" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key4" ns:keyLabel="۴" ns:shiftedKeyLabel="¢" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key5" ns:keyLabel="۵" ns:shiftedKeyLabel="¥" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key6" ns:keyLabel="۶" ns:shiftedKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key7" ns:keyLabel="۷" ns:shiftedKeyLabel="‰" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key8" ns:keyLabel="۸" ns:shiftedKeyLabel="¤" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key9" ns:keyLabel="۹" ns:shiftedKeyLabel="±" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key10" ns:keyLabel="۰" ns:shiftedKeyLabel="×" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key11" ns:keyLabel="+" ns:shiftedKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key12" ns:keyEdgeFlags="right" ns:keyLabel="=" ns:shiftedKeyLabel="÷" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_persian_key13" ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="¬" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key14" ns:keyLabel="2" ns:shiftedKeyLabel="\#" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key15" ns:keyLabel="3" ns:shiftedKeyLabel="&lt;" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key16" ns:keyLabel="4" ns:shiftedKeyLabel=">" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key17" ns:keyLabel="5" ns:shiftedKeyLabel="'" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key18" ns:keyLabel="6" ns:shiftedKeyLabel="&quot;" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key19" ns:keyLabel="7" ns:shiftedKeyLabel="^" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key20" ns:keyLabel="8" ns:shiftedKeyLabel="~" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key21" ns:keyLabel="9" ns:shiftedKeyLabel="|" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key22" ns:keyLabel="0" ns:shiftedKeyLabel="*" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key23" ns:keyEdgeFlags="right" ns:keyLabel="/" ns:shiftedKeyLabel="\\" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_sym_toggle_feedback" ns:keyIcon="@drawable/sym_keyboard_sym_toggle" ns:keyIconRecolor="?iconRecolorSymbolsToggle" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key24" ns:keyLabel="\@" ns:shiftedKeyLabel="_" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key25" ns:keyLabel="!" ns:shiftedKeyLabel="¶" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key26" ns:keyLabel="(" ns:shiftedKeyLabel="[" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key27" ns:keyLabel=")" ns:shiftedKeyLabel="]" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key28" ns:keyLabel="«" ns:shiftedKeyLabel="{" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key29" ns:keyLabel="»" ns:shiftedKeyLabel="}" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key30" ns:keyLabel="؛" ns:shiftedKeyLabel=";" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key31" ns:keyLabel=":" ns:shiftedKeyLabel="…" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_persian_key32" ns:keyLabel="؟" ns:shiftedKeyLabel="\?" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_persian_sym" />
+</KeyboardEx>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_tablet_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key1" ns:keyEdgeFlags="left" ns:keyLabel="ਅ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key2" ns:keyLabel="ਆ" ns:altKeyLabel="ਆ" ns:shiftedKeyLabel="ਾ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key3" ns:keyLabel="ਇ" ns:altKeyLabel="ਇ" ns:shiftedKeyLabel="ਿ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key4" ns:keyLabel="ਈ" ns:altKeyLabel="ਈ" ns:shiftedKeyLabel="ੀ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key5" ns:keyLabel="ਉ" ns:altKeyLabel="ਉ" ns:shiftedKeyLabel="ੁ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key6" ns:keyLabel="ਊ" ns:altKeyLabel="ਊ" ns:shiftedKeyLabel="ੂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key7" ns:keyLabel="ਏ" ns:altKeyLabel="ਏ" ns:shiftedKeyLabel="ੇ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key8" ns:keyLabel="ਐ" ns:altKeyLabel="ਐ" ns:shiftedKeyLabel="ੈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key9" ns:keyLabel="ਓ" ns:altKeyLabel="ਓ" ns:shiftedKeyLabel="ੋ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key10" ns:keyLabel="ਔ" ns:altKeyLabel="ਔ" ns:shiftedKeyLabel="ੌ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key11" ns:keyLabel="ੰ" ns:altKeyLabel="ੰ" ns:shiftedKeyLabel="ਂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key12" ns:keyEdgeFlags="left" ns:keyLabel="ਕ" ns:altKeyLabel="ਕ" ns:shiftedKeyLabel="ਖ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key13" ns:keyLabel="ਗ" ns:altKeyLabel="ਗ" ns:shiftedKeyLabel="ਘ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key14" ns:keyLabel="ਚ" ns:altKeyLabel="ਚ" ns:shiftedKeyLabel="ਛ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key15" ns:keyLabel="ਜ" ns:altKeyLabel="ਜ" ns:shiftedKeyLabel="ਝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key16" ns:keyLabel="੍" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key17" ns:keyLabel="ਟ" ns:altKeyLabel="ਟ" ns:shiftedKeyLabel="ਠ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key18" ns:keyLabel="ਡ" ns:altKeyLabel="ਡ" ns:shiftedKeyLabel="ਢ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key19" ns:keyLabel="ਤ" ns:altKeyLabel="ਤ" ns:shiftedKeyLabel="ਥ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key20" ns:keyLabel="ਦ" ns:altKeyLabel="ਦ" ns:shiftedKeyLabel="ਧ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key21" ns:keyLabel="ਨ" ns:altKeyLabel="ਨ" ns:shiftedKeyLabel="ਣ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key22" ns:keyLabel="ੱ" ns:altKeyLabel="ੱ" ns:shiftedKeyLabel="਼" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_11_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key23" ns:keyLabel="ਪ" ns:altKeyLabel="ਪ" ns:shiftedKeyLabel="ਫ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key24" ns:keyLabel="ਬ" ns:altKeyLabel="ਬ" ns:shiftedKeyLabel="ਭ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key25" ns:keyLabel="ਮ" ns:altKeyLabel="ਮ" ns:shiftedKeyLabel="ਯ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key26" ns:keyLabel="ਰ" ns:altKeyLabel="ਰ" ns:shiftedKeyLabel="ੜ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key27" ns:keyLabel="ਲ" ns:altKeyLabel="ਲ" ns:shiftedKeyLabel="ਲ਼" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key28" ns:keyLabel="ਵ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key29" ns:keyLabel="ਸ਼" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key30" ns:keyLabel="ਸ" />
+        <Key ns:popupCharacters="@string/alternates_for_punjabi_key31" ns:keyLabel="ਹ" ns:altKeyLabel="ਹ" ns:shiftedKeyLabel="ਃ" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_11_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_punjabi_tablet" />
+</KeyboardEx>

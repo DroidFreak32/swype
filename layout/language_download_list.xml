@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/btn_keyboard_key_language" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/no_languages" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="6.0dip" android:text="@string/no_available_languages" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/data_required" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="6.0dip" android:text="@string/connect_to_internet_desc" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+</LinearLayout>

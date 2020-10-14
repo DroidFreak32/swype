@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">%d giorno fa</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d parole verranno eliminate</item>
+        <item quantity="one">Una parola verrà eliminata.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d ora fa</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">%d minuto fa</item>
+    </plurals>
+</resources>

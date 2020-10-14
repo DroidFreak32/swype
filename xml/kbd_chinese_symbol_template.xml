@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyHeight="@dimen/key_height_5row" ns:miniModeKeyHeight="@dimen/chinese_symbol_mini_key_height" ns:keyTextSize="?keyCharacterSize" ns:keyTextColor="?emojiColor" ns:keyFontTypeface="non_bold" ns:keyBackground="@drawable/emoji_key_action" ns:keyBorder="?keyboardPopupBorderCJK" ns:keyContentBaseline="@dimen/key_content_no_baseline" xmlns:ns="http://schemas.android.com/apk/res-auto" />

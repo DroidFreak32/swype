@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.view.InputLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_shadow_view" android:background="@drawable/candidates_top_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_top_shadow_height" />
+    <include layout="@layout/input_layout_frame" />
+</com.nuance.swype.input.view.InputLayout>

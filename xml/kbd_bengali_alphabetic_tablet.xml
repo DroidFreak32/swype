@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key1" ns:keyLabel="অ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key2" ns:keyLabel="আ" ns:altKeyLabel="আ" ns:shiftedKeyLabel="া" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key3" ns:keyLabel="ই" ns:altKeyLabel="ই" ns:shiftedKeyLabel="ি" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key4" ns:keyLabel="ঈ" ns:altKeyLabel="ঈ" ns:shiftedKeyLabel="ী" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key5" ns:keyLabel="উ" ns:altKeyLabel="উ" ns:shiftedKeyLabel="ু" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key6" ns:keyLabel="ঊ" ns:altKeyLabel="ঊ" ns:shiftedKeyLabel="ূ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key7" ns:keyLabel="ঋ" ns:altKeyLabel="ঋ" ns:shiftedKeyLabel="ৃ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key8" ns:keyLabel="এ" ns:altKeyLabel="এ" ns:shiftedKeyLabel="ে" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key9" ns:keyLabel="ঐ" ns:altKeyLabel="ঐ" ns:shiftedKeyLabel="ৈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key10" ns:keyLabel="ও" ns:altKeyLabel="ও" ns:shiftedKeyLabel="ো" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key11" ns:keyLabel="ঔ" ns:altKeyLabel="ঔ" ns:shiftedKeyLabel="ৌ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key12" ns:keyLabel="ং" ns:altKeyLabel="ং" ns:shiftedKeyLabel="ঁ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_11_12_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key13" ns:keyLabel="ক" ns:altKeyLabel="ক" ns:shiftedKeyLabel="খ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key14" ns:keyLabel="গ" ns:altKeyLabel="গ" ns:shiftedKeyLabel="ঘ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key15" ns:keyLabel="ঙ" ns:altKeyLabel="ঙ" ns:shiftedKeyLabel="ঞ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key16" ns:keyLabel="চ" ns:altKeyLabel="চ" ns:shiftedKeyLabel="ছ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key17" ns:keyLabel="জ" ns:altKeyLabel="জ" ns:shiftedKeyLabel="ঝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key18" ns:keyLabel="্" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key19" ns:keyLabel="ট" ns:altKeyLabel="ট" ns:shiftedKeyLabel="ঠ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key20" ns:keyLabel="ড" ns:altKeyLabel="ড" ns:shiftedKeyLabel="ঢ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key21" ns:keyLabel="ত" ns:altKeyLabel="ত" ns:shiftedKeyLabel="থ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key22" ns:keyLabel="দ" ns:altKeyLabel="দ" ns:shiftedKeyLabel="ধ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key23" ns:keyLabel="ন" ns:altKeyLabel="ন" ns:shiftedKeyLabel="ণ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:keyWidth="@fraction/return_11_12_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_10_12_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key24" ns:keyLabel="প" ns:altKeyLabel="প" ns:shiftedKeyLabel="ফ" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key25" ns:keyLabel="ব" ns:altKeyLabel="ব" ns:shiftedKeyLabel="ভ" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key26" ns:keyLabel="ম" ns:altKeyLabel="ম" ns:shiftedKeyLabel="়" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key27" ns:keyLabel="য" ns:altKeyLabel="য" ns:shiftedKeyLabel="য়" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key28" ns:keyLabel="র" ns:altKeyLabel="র" ns:shiftedKeyLabel="ড়" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key29" ns:keyLabel="ল" ns:altKeyLabel="ল" ns:shiftedKeyLabel="ঢ়" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key30" ns:keyLabel="শ" ns:altKeyLabel="শ" ns:shiftedKeyLabel="ষ" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key31" ns:keyLabel="স" />
+        <Key ns:popupCharacters="@string/alternates_for_bengali_alphabetic_key32" ns:keyLabel="হ" ns:altKeyLabel="হ" ns:shiftedKeyLabel="ঃ" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_10_12_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_bengali_alphabetic_tablet" />
+</KeyboardEx>

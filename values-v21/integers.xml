@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="accessibility_explore_minimum_move_time">400</integer>
+    <integer name="accessibility_explore_speed_threshold">2</integer>
+</resources>

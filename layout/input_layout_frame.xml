@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.view.DragFrameGripPad android:orientation="vertical" android:id="@id/drag_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/input_layout_main" />
+    <com.nuance.swype.input.view.GripPad android:layout_gravity="center" android:orientation="horizontal" android:id="@id/grip_pad" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/minus" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyboard_grip_pad_btn_minus" />
+        <ImageView android:id="@id/grip" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyboard_grip_pad_btn_pad" />
+        <ImageView android:id="@id/plus" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyboard_grip_pad_btn_plus" />
+    </com.nuance.swype.input.view.GripPad>
+</com.nuance.swype.input.view.DragFrameGripPad>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="?keyCharacterSize5row" ns:altTextSize="@dimen/alt_text_size_small" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ә" ns:keyEdgeFlags="left" ns:keyLabel="ә" ns:altKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_і" ns:keyLabel="і" ns:altKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ң" ns:keyLabel="ң" ns:altKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ғ" ns:keyLabel="ғ" ns:altKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ү" ns:keyLabel="ү" ns:altKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ұ" ns:keyLabel="ұ" ns:altKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_қ" ns:keyLabel="қ" ns:altKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_ө" ns:keyLabel="ө" ns:altKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_һ" ns:keyLabel="һ" ns:altKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/default_10_key_width" ns:popupCharacters="@string/alternates_for_kazakh_at" ns:keyEdgeFlags="right" ns:keyLabel="\@" ns:altKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_й" ns:keyEdgeFlags="left" ns:keyLabel="й" ns:altKeyLabel="¢" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ц" ns:keyLabel="ц" ns:altKeyLabel="\#" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_у" ns:keyLabel="у" ns:altKeyLabel="€" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_к" ns:keyLabel="к" ns:altKeyLabel="~" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_е" ns:keyLabel="е" ns:altKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_н" ns:keyLabel="н" ns:altKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_г" ns:keyLabel="г" ns:altKeyLabel="[" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ш" ns:keyLabel="ш" ns:altKeyLabel="]" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_щ" ns:keyLabel="щ" ns:altKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_з" ns:keyLabel="з" ns:altKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_х" ns:keyLabel="х" ns:altKeyLabel="≠" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ъ" ns:keyEdgeFlags="right" ns:keyLabel="ъ" ns:altKeyLabel="≈" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ф" ns:keyEdgeFlags="left" ns:keyLabel="ф" ns:altKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ы" ns:keyLabel="ы" ns:altKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_в" ns:keyLabel="в" ns:altKeyLabel="®" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_а" ns:keyLabel="а" ns:altKeyLabel=";" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_п" ns:keyLabel="п" ns:altKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_р" ns:keyLabel="р" ns:altKeyLabel="«" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_о" ns:keyLabel="о" ns:altKeyLabel="»" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_л" ns:keyLabel="л" ns:altKeyLabel="„" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_д" ns:keyLabel="д" ns:altKeyLabel="“" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ж" ns:keyLabel="ж" ns:altKeyLabel="£" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_э" ns:keyEdgeFlags="right" ns:keyLabel="э" ns:altKeyLabel="&quot;" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?fourthRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_я" ns:keyLabel="я" ns:altKeyLabel="!" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ч" ns:keyLabel="ч" ns:altKeyLabel="+" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_с" ns:keyLabel="с" ns:altKeyLabel="=" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_м" ns:keyLabel="м" ns:altKeyLabel="*" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_и" ns:keyLabel="и" ns:altKeyLabel="/" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_т" ns:keyLabel="т" ns:altKeyLabel="\\" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ь" ns:keyLabel="ь" ns:altKeyLabel="‘" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_б" ns:keyLabel="б" ns:altKeyLabel="’" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kazakh_ю" ns:keyLabel="ю" ns:altKeyLabel="\?" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row" />
+</KeyboardEx>

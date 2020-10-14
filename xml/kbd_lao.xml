@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_lao_key1" ns:keyLabel="ົ" ns:altKeyLabel="ົ" ns:shiftedKeyLabel="ຢ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key2" ns:keyLabel="ໄ" ns:altKeyLabel="ໄ" ns:shiftedKeyLabel="ຟ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key3" ns:keyLabel="ຳ" ns:altKeyLabel="ຳ" ns:shiftedKeyLabel="ໂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key4" ns:keyLabel="ພ" ns:altKeyLabel="ພ" ns:shiftedKeyLabel="ຖ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key5" ns:keyLabel="ະ" ns:altKeyLabel="ະ" ns:shiftedKeyLabel="ຸ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key6" ns:keyLabel="ິ" ns:altKeyLabel="ິ" ns:shiftedKeyLabel="ູ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key7" ns:keyLabel="ີ" ns:altKeyLabel="ີ" ns:shiftedKeyLabel="ຄ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key8" ns:keyLabel="ຮ" ns:altKeyLabel="ຮ" ns:shiftedKeyLabel="ຕ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key9" ns:keyLabel="ນ" ns:altKeyLabel="ນ" ns:shiftedKeyLabel="ຈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key10" ns:keyLabel="ຍ" ns:altKeyLabel="ຍ" ns:shiftedKeyLabel="ຂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key11" ns:keyLabel="ບ" ns:altKeyLabel="ບ" ns:shiftedKeyLabel="ຊ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key12" ns:keyEdgeFlags="right" ns:keyLabel="ລ" ns:altKeyLabel="ລ" ns:shiftedKeyLabel="ໍ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_lao_key13" ns:keyLabel="ັ" ns:altKeyLabel="ັ" ns:shiftedKeyLabel="໌" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key14" ns:keyLabel="ຫ" ns:altKeyLabel="ຫ" ns:shiftedKeyLabel="ໜ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key15" ns:keyLabel="ກ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key16" ns:keyLabel="ດ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key17" ns:keyLabel="ເ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key18" ns:keyLabel="້" ns:altKeyLabel="້" ns:shiftedKeyLabel="໊" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key19" ns:keyLabel="່" ns:altKeyLabel="່" ns:shiftedKeyLabel="໋" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key20" ns:keyLabel="າ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key21" ns:keyLabel="ສ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key22" ns:keyLabel="ວ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key23" ns:keyEdgeFlags="right" ns:keyLabel="ງ" ns:altKeyLabel="ງ" ns:shiftedKeyLabel="ຝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key24" ns:keyLabel="ຜ" ns:altKeyLabel="ຜ" ns:shiftedKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key25" ns:keyLabel="ປ" ns:altKeyLabel="ປ" ns:shiftedKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key26" ns:keyLabel="ແ" ns:altKeyLabel="ແ" ns:shiftedKeyLabel="ຯ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key27" ns:keyLabel="ອ" ns:altKeyLabel="ອ" ns:shiftedKeyLabel="ຣ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key28" ns:keyLabel="ຶ" ns:altKeyLabel="ຶ" ns:shiftedKeyLabel="ູ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key29" ns:keyLabel="ື" ns:altKeyLabel="ື" ns:shiftedKeyLabel="ຽ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key30" ns:keyLabel="ທ" ns:altKeyLabel="ທ" ns:shiftedKeyLabel="ໆ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key31" ns:keyLabel="ມ" ns:altKeyLabel="ມ" ns:shiftedKeyLabel="ໝ" />
+        <Key ns:popupCharacters="@string/alternates_for_lao_key32" ns:keyLabel="ໃ" ns:altKeyLabel="ໃ" ns:shiftedKeyLabel="\?" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_lao" />
+</KeyboardEx>

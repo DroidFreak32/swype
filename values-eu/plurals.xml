@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">Duela %d egun</item>
+        <item quantity="one">Duela egun %d</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d hitz ezabatuko dira</item>
+        <item quantity="one">Hitz bat ezabatuko da</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Duela %d ordu</item>
+        <item quantity="one">Duela ordu %d</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Duela %d minutu</item>
+        <item quantity="one">Duela minutu %d</item>
+    </plurals>
+</resources>

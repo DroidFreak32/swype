@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/billboard" android:background="@drawable/background_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/adFrame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include layout="@layout/admob_standard_banner" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/ad_placeholder_text_size" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/placeholder_ad" android:paddingBottom="@dimen/ad_placeholder_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/btn_close_billboard" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popup_icon_close_normal_black" android:layout_centerInParent="true" android:contentDescription="@string/startup_close" android:layout_marginStart="@dimen/ad_close_button_margin" android:layout_toEndOf="@id/placeholder_ad" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

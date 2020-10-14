@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_preview_key">true</bool>
+    <bool name="split_keyboard_for_phone">false</bool>
+    <bool name="support_keypad">false</bool>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d ദിവസം മുമ്പ്</item>
+        <item quantity="one">%d ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d വാക്കുകൾ ഇല്ലാതാക്കപ്പെടും</item>
+        <item quantity="one">ഒരു വാക്ക് നീക്കം ചെയ്യപ്പെടും</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="one">%d മണിക്കൂർ മുമ്പ്</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="one">%d മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+</resources>

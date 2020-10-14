@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d দিন পুর্বতে</item>
+        <item quantity="one">%d দিন পুর্বতে</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">"%d শব্দ বিলোপিত হ'ব"</item>
+        <item quantity="one">"এটা শব্দ বিলোপিত হ'ব।"</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ঘণ্টা পূর্বে</item>
+        <item quantity="one">%d ঘণ্টা পূর্বে</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d মিনিট পূর্বে</item>
+        <item quantity="one">%d মিনিট পূর্বে</item>
+    </plurals>
+</resources>
