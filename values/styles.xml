@@ -2852,7 +2852,7 @@
         <item name="themeName">@string/theme_name_material_dark</item>
         <item name="themeLogoPreview">@drawable/thumbnail_material_dark</item>
         <item name="themeKeyboardPreview">@drawable/theme_preview_material_dark</item>
-        <item name="backgroundColorSolid">#ff263238</item>
+        <item name="backgroundColorSolid">#ff000000</item>
         <item name="candidateComponent">#ff80cbc4</item>
         <item name="candidateOther">#ffbdbfc0</item>
         <item name="candidatePressed">#ffbdbfc0</item>
@@ -2875,7 +2875,7 @@
         <item name="popupKeyTextColorPressed">#ffd8dadb</item>
         <item name="unrecognizedWordUnderlineHighlightColor">#ff80cbc4</item>
         <item name="unrecognizedWordBackgroundHighlightColor">#ff80cbc4</item>
-        <item name="traceColor">#ff80cbc4</item>
+        <item name="traceColor">#f2ffa200</item>
         <item name="verCandidateComponent">#ff80cbc4</item>
         <item name="verCandidateNormal">#ffbdbfc0</item>
         <item name="verCandidateOther">#ffbdbfc0</item>
