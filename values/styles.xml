@@ -2875,7 +2875,7 @@
         <item name="popupKeyTextColorPressed">#ffd8dadb</item>
         <item name="unrecognizedWordUnderlineHighlightColor">#ff80cbc4</item>
         <item name="unrecognizedWordBackgroundHighlightColor">#ff80cbc4</item>
-        <item name="traceColor">#f2ffa200</item>
+        <item name="traceColor">#ff80cbc4</item>
         <item name="verCandidateComponent">#ff80cbc4</item>
         <item name="verCandidateNormal">#ffbdbfc0</item>
         <item name="verCandidateOther">#ffbdbfc0</item>
