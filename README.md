@@ -1,7 +1,7 @@
 # swype decompiling notes.
 
 ## Using Swype for OPPO `03ef5b79205fc4ced5ac43a3021f6cd6`
-- Used charles GUI to monitor Swype Language traffic for Swype for OPPO
+- Used charles proxy to monitor Swype Language traffic for Swype for OPPO
 - Used Jadx GUI & APKTOOL to read through the decompiled app.
 - Found URL being connected to is https://cdn-languages-az.swypeconnect.com/62314/9.10//1415911799-English.zip
 - The OEM String is 62314 found here:
