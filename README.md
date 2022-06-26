@@ -263,3 +263,21 @@ languagelist_supported.xml                                      languagelist_sup
 ^^^ This file needs to be edited to support the additional languages 
 license.dat                                                     license.dat
 ```
+
+
+---
+
+#### Modding notes:
+
+ - Keyboard scale factor can be increased:
+```java
+package com.nuance.swype.input.KeyboardEx;
+    public static final float KEYBOARD_SCALE_MAX = 1.2f;
+    public static final float KEYBOARD_SCALE_MIN = 0.8f;
+ ...
+ThemesPref.java
+    seekBarPortrait.setMax(4); // 0.8 -> 1.2
+ 
+SettingsPref.java
+    seekBarPortrait.setMax(4); // 0.8 -> 1.2
+```
