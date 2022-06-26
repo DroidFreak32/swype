@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key1" ns:keyLabel="љ" ns:altKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key2" ns:keyLabel="њ" ns:altKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key3" ns:keyLabel="е" ns:altKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key4" ns:keyLabel="р" ns:altKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key5" ns:keyLabel="т" ns:altKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key6" ns:keyLabel="ѕ" ns:altKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key7" ns:keyLabel="у" ns:altKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key8" ns:keyLabel="и" ns:altKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key9" ns:keyLabel="о" ns:altKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key10" ns:keyLabel="п" ns:altKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key11" ns:keyLabel="ш" ns:altKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key12" ns:keyLabel="а" ns:altKeyLabel="¬" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key13" ns:keyLabel="с" ns:altKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key14" ns:keyLabel="д" ns:altKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key15" ns:keyLabel="ф" ns:altKeyLabel="€" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key16" ns:keyLabel="г" ns:altKeyLabel="£" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key17" ns:keyLabel="х" ns:altKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key18" ns:keyLabel="ј" ns:altKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key19" ns:keyLabel="к" ns:altKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key20" ns:keyLabel="л" ns:altKeyLabel=";" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key21" ns:keyLabel="ч" ns:altKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key22" ns:keyLabel="ќ" ns:altKeyLabel="&quot;" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:keyWidth="@fraction/return_11_11_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_11_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key23" ns:keyLabel="з" ns:altKeyLabel="÷" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key24" ns:keyLabel="џ" ns:altKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key25" ns:keyLabel="ц" ns:altKeyLabel="\#" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key26" ns:keyLabel="в" ns:altKeyLabel="=" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key27" ns:keyLabel="б" ns:altKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key28" ns:keyLabel="н" ns:altKeyLabel="+" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key29" ns:keyLabel="м" ns:altKeyLabel="*" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key30" ns:keyLabel="ѓ" ns:altKeyLabel="~" />
+        <Key ns:popupCharacters="@string/alternates_for_macedonian_key31" ns:keyLabel="ж" ns:altKeyLabel="\?" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_11_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_macedonian_tablet" />
+</KeyboardEx>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<startup_order>
+    <startup>
+        <screen name="LegalDocsSplashDelegate" />
+        <screen name="EnableSwypeDelegate" />
+        <screen name="SelectSwypeDelegate" />
+        <screen name="ChooseLanguageDelegate" />
+        <screen name="DownloadLanguageDelegate" />
+        <screen name="ContributeUsageDataDelegate" showWarning="true" omitIfRussia="true" />
+        <screen name="BackupAndSyncDelegate" omitIfRussia="true" />
+        <screen name="GettingStartedDelegate" />
+    </startup>
+    <setting>
+        <screen name="AccountRegisterDelegate" />
+        <screen name="LegalRequirements" />
+    </setting>
+</startup_order>

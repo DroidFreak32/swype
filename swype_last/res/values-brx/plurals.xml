@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d साननि आगोल</item>
+        <item quantity="one">%d साननि आगोल</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d सोदोबफोरखौ खोमोरनाय जागोन ।</item>
+        <item quantity="one">मोनसे सोदोबखौ खोमोरनाय जागोन ।</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d घन्टानि आगोल</item>
+        <item quantity="one">%d घन्टा आगोल</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d मिनितनि आगोल</item>
+        <item quantity="one">%d मिनित आगोल</item>
+    </plurals>
+</resources>

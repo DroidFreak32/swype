@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">දින %dකට පෙ</item>
+        <item quantity="one">දින %dකට පෙ</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">වදන් %dක් මැකෙනු ඇත</item>
+        <item quantity="one">එක වදනක් මැකෙනු ඇත.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">පැය %dකට පෙ</item>
+        <item quantity="one">පැය %dකට පෙ</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">විනාඩි %dකට පෙ</item>
+        <item quantity="one">විනාඩි %dකට පෙ</item>
+    </plurals>
+</resources>

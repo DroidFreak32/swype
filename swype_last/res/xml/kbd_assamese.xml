@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key1" ns:keyEdgeFlags="left" ns:keyLabel="অ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key2" ns:keyLabel="আ" ns:altKeyLabel="আ" ns:shiftedKeyLabel="া" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key3" ns:keyLabel="ই" ns:altKeyLabel="ই" ns:shiftedKeyLabel="ি" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key4" ns:keyLabel="ঈ" ns:altKeyLabel="ঈ" ns:shiftedKeyLabel="ী" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key5" ns:keyLabel="উ" ns:altKeyLabel="উ" ns:shiftedKeyLabel="ু" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key6" ns:keyLabel="ঊ" ns:altKeyLabel="ঊ" ns:shiftedKeyLabel="ূ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key7" ns:keyLabel="ঋ" ns:altKeyLabel="ঋ" ns:shiftedKeyLabel="ৃ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key8" ns:keyLabel="এ" ns:altKeyLabel="এ" ns:shiftedKeyLabel="ে" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key9" ns:keyLabel="ঐ" ns:altKeyLabel="ঐ" ns:shiftedKeyLabel="ৈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key10" ns:keyLabel="ও" ns:altKeyLabel="ও" ns:shiftedKeyLabel="ো" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key11" ns:keyEdgeFlags="right" ns:keyLabel="ং" ns:altKeyLabel="ং" ns:shiftedKeyLabel="ঁ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key12" ns:keyEdgeFlags="left" ns:keyLabel="ক" ns:altKeyLabel="ক" ns:shiftedKeyLabel="খ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key13" ns:keyLabel="গ" ns:altKeyLabel="গ" ns:shiftedKeyLabel="ঘ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key14" ns:keyLabel="ঙ" ns:altKeyLabel="ঙ" ns:shiftedKeyLabel="ঞ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key15" ns:keyLabel="চ" ns:altKeyLabel="চ" ns:shiftedKeyLabel="ছ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key16" ns:keyLabel="জ" ns:altKeyLabel="জ" ns:shiftedKeyLabel="ঝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key17" ns:keyLabel="্" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key18" ns:keyLabel="ট" ns:altKeyLabel="ট" ns:shiftedKeyLabel="ঠ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key19" ns:keyLabel="ড" ns:altKeyLabel="ড" ns:shiftedKeyLabel="ঢ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key20" ns:keyLabel="ত" ns:altKeyLabel="ত" ns:shiftedKeyLabel="থ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key21" ns:keyLabel="দ" ns:altKeyLabel="দ" ns:shiftedKeyLabel="ধ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key22" ns:keyEdgeFlags="right" ns:keyLabel="ন" ns:altKeyLabel="ন" ns:shiftedKeyLabel="ণ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/delete_9_11_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key23" ns:keyLabel="প" ns:altKeyLabel="প" ns:shiftedKeyLabel="ফ" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key24" ns:keyLabel="ব" ns:altKeyLabel="ব" ns:shiftedKeyLabel="ভ" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key25" ns:keyLabel="ম" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key26" ns:keyLabel="য" ns:altKeyLabel="য" ns:shiftedKeyLabel="য়" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key27" ns:keyLabel="ৰ" ns:altKeyLabel="ৰ" ns:shiftedKeyLabel="ৱ" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key28" ns:keyLabel="ল" ns:altKeyLabel="ল" ns:shiftedKeyLabel="ঢ়" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key29" ns:keyLabel="শ" ns:altKeyLabel="শ" ns:shiftedKeyLabel="ষ" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key30" ns:keyLabel="স" />
+        <Key ns:popupCharacters="@string/alternates_for_assamese_key31" ns:keyLabel="হ" ns:altKeyLabel="হ" ns:shiftedKeyLabel="ঃ" />
+        <Key ns:keyWidth="@fraction/delete_9_11_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_assamese" />
+</KeyboardEx>

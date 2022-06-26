@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <bitmap android:src="?symKeyboardResizeMiniLeft" />
+    </item>
+    <item android:maxLevel="1">
+        <bitmap android:src="?symKeyboardResizeSplit" />
+    </item>
+    <item android:maxLevel="2">
+        <bitmap android:src="?symKeyboardResizeFullScreen" />
+    </item>
+    <item android:maxLevel="3">
+        <bitmap android:src="?symKeyboardResizeMiniRight" />
+    </item>
+    <item android:maxLevel="4">
+        <bitmap android:src="?symKeyboardResizeMiniFloat" />
+    </item>
+</level-list>

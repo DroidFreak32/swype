@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">pred %d dňom</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Odstráni sa %d slov</item>
+        <item quantity="one">Odstráni sa jedno slovo.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred %d hodinou</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">pred %d minútami</item>
+        <item quantity="one">pred %d minútou</item>
+    </plurals>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardFeedbackHwr123" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardFeedbackHwrAbc" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="1">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardFeedbackHwr123" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardFeedbackHwrAbc" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="2">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardFeedbackHwr123" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardFeedbackHwrAbc" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="3">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardFeedbackHwr123" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardFeedbackHwrAbc" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="4">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardFeedbackHwr123" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardFeedbackHwrAbc" />
+            </item>
+        </selector>
+    </item>
+</level-list>

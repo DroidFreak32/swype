@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/theme_main_page" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/theme_main_page_lineLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip">
+        <RelativeLayout android:id="@id/no_data_progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:orientation="vertical" android:id="@id/no_data_preview_image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:indeterminateDrawable="@drawable/custom_progressbar_indeterminate" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/theme_category_list" android:paddingTop="6.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:footerDividersEnabled="false" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/theme_no_data_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/no_data_image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:indeterminateDrawable="@drawable/custom_progressbar_indeterminate" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

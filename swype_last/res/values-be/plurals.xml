@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d дні таму</item>
+        <item quantity="one">%d дзень таму</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Словы %d будуць выдалены</item>
+        <item quantity="one">Адно слова будзе выдалена</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d гадз. таму</item>
+        <item quantity="one">%d гадзіну таму</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d хвіл. таму</item>
+        <item quantity="one">%d хвіліну таму</item>
+    </plurals>
+</resources>

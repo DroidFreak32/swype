@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:letterLanguageCategory="gu" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_અ" ns:keyEdgeFlags="left" ns:keyLabel="અ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_આ" ns:keyLabel="આ" ns:altKeyLabel="આ" ns:shiftedKeyLabel="ા" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઇ" ns:keyLabel="ઇ" ns:altKeyLabel="ઇ" ns:shiftedKeyLabel="િ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઈ" ns:keyLabel="ઈ" ns:altKeyLabel="ઈ" ns:shiftedKeyLabel="ી" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઉ" ns:keyLabel="ઉ" ns:altKeyLabel="ઉ" ns:shiftedKeyLabel="ુ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઊ" ns:keyLabel="ઊ" ns:altKeyLabel="ઊ" ns:shiftedKeyLabel="ૂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_એ" ns:keyLabel="એ" ns:altKeyLabel="એ" ns:shiftedKeyLabel="ે" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઐ" ns:keyLabel="ઐ" ns:altKeyLabel="ઐ" ns:shiftedKeyLabel="ૈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઓ" ns:keyLabel="ઓ" ns:altKeyLabel="ઓ" ns:shiftedKeyLabel="ો" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઔ" ns:keyLabel="ઔ" ns:altKeyLabel="ઔ" ns:shiftedKeyLabel="ૌ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઍ" ns:keyLabel="ઍ" ns:altKeyLabel="ઍ" ns:shiftedKeyLabel="ૅ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઑ" ns:keyEdgeFlags="right" ns:keyLabel="ઑ" ns:altKeyLabel="ઑ" ns:shiftedKeyLabel="ૉ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ક" ns:keyEdgeFlags="left" ns:keyLabel="ક" ns:altKeyLabel="ક" ns:shiftedKeyLabel="ખ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ગ" ns:keyLabel="ગ" ns:altKeyLabel="ગ" ns:shiftedKeyLabel="ઘ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઙ" ns:keyLabel="ઙ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ચ" ns:keyLabel="ચ" ns:altKeyLabel="ચ" ns:shiftedKeyLabel="છ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_જ" ns:keyLabel="જ" ns:altKeyLabel="જ" ns:shiftedKeyLabel="ઝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ઞ" ns:keyLabel="ઞ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ટ" ns:keyLabel="ટ" ns:altKeyLabel="ટ" ns:shiftedKeyLabel="ઠ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ડ" ns:keyLabel="ડ" ns:altKeyLabel="ડ" ns:shiftedKeyLabel="ઢ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ણ" ns:keyLabel="ણ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ત" ns:keyLabel="ત" ns:altKeyLabel="ત" ns:shiftedKeyLabel="થ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_દ" ns:keyLabel="દ" ns:altKeyLabel="દ" ns:shiftedKeyLabel="ધ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ન" ns:keyEdgeFlags="right" ns:keyLabel="ન" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_પ" ns:keyLabel="પ" ns:altKeyLabel="પ" ns:shiftedKeyLabel="ફ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_બ" ns:keyLabel="બ" ns:altKeyLabel="બ" ns:shiftedKeyLabel="ભ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_મ" ns:keyLabel="મ" ns:altKeyLabel="મ" ns:shiftedKeyLabel="ં" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_્" ns:keyLabel="્" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ય" ns:keyLabel="ય" ns:altKeyLabel="ય" ns:shiftedKeyLabel="વ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_ર" ns:keyLabel="ર" ns:altKeyLabel="ર" ns:shiftedKeyLabel="ૃ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_લ" ns:keyLabel="લ" ns:altKeyLabel="લ" ns:shiftedKeyLabel="ળ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_શ" ns:keyLabel="શ" ns:altKeyLabel="શ" ns:shiftedKeyLabel="ષ" />
+        <Key ns:popupCharacters="@string/alternates_for_gujarati_alphabetic_સ" ns:keyLabel="સ" ns:altKeyLabel="સ" ns:shiftedKeyLabel="હ" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_gujarati" />
+</KeyboardEx>

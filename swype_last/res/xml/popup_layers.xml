@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="17.999994%p" ns:keyboardForcedHeight="-1.0px" ns:keyBackground="@drawable/btn_keyboard_popup_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="bottom|top">
+        <Key ns:codes="@integer/keycode_num" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardFeedbackNumpad" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_edit" ns:keyIcon="?symKeyboardFeedbackEdit" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_handwriting" ns:keyIcon="?symKeyboardFeedbackHandwriting" ns:keyboardSettings="handwriting" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_keyboard" ns:iconPreview="?symKeyboardFeedbackKeyboard" ns:keyIcon="?symKeyboardFeedbackKeyboard" ns:keyboardSettings="keyboard" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackSpeechMic" ns:keyIcon="?symKeyboardFeedbackSpeechMic" ns:keyboardSettings="speechpop" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+</KeyboardEx>

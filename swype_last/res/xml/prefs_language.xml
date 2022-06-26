@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_current_languages">
+        <com.nuance.swype.preference.CurrentLanguagePreference android:key="current_language" />
+    </PreferenceCategory>
+    <com.nuance.swype.preference.NoMarginClassActionPreference android:title="@string/pref_download_language_title" android:key="download_languages">
+        <intent android:action="com.nuance.swype.input.settings.LanguageUpdateFragmentActivity" />
+    </com.nuance.swype.preference.NoMarginClassActionPreference>
+    <PreferenceCategory android:title="@string/prefs_language_recent_languages_title" android:key="recent_languages" />
+</PreferenceScreen>

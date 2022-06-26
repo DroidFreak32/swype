@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <nine-patch android:src="?btnKeyboardActionKeyPressedMid" />
+            </item>
+            <item android:left="?glowStretch" android:top="?glowStretch" android:right="?glowStretch" android:bottom="?glowStretch">
+                <bitmap android:src="?glow" />
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <nine-patch android:src="?btnKeyboardActionKeyNormalMid" />
+    </item>
+</selector>

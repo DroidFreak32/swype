@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_active="true">
+        <bitmap android:src="?emojiPageIndicator" />
+    </item>
+    <item android:state_active="false">
+        <bitmap android:src="?emojiPageIndicatorInactive" />
+    </item>
+</selector>

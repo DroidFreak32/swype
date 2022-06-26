@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.widget.directional.DirectionalRelativeLayout android:orientation="horizontal" android:id="@id/candidates_popup" android:background="?keyboardBackgroundEwcl" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="center" android:id="@id/closeButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_popup_btn_close_cjk" android:layout_alignParentRight="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/closeButton" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/closeButton" android:layout_alignParentStart="true">
+        <com.nuance.swype.input.chinese.ChineseKeyboardViewEx android:id="@id/keyboardViewEx" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" ns:keyBackground="?transBackground" ns:isPopupKeyboard="true" ns:keyBorder="?keyboardPopupBorderCJK" />
+    </ScrollView>
+</com.nuance.swype.widget.directional.DirectionalRelativeLayout>

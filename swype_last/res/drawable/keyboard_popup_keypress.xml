@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?popupBackgroundColor" />
+            <stroke android:width="?popupBorderThickness" android:color="?popupBorderColor" />
+            <corners android:radius="?popupRadius" />
+            <padding android:left="?popupBorderPaddingLeft" android:top="?popupBorderPaddingTop" android:right="?popupBorderPaddingRight" android:bottom="?popupBorderPaddingBottom" />
+        </shape>
+    </item>
+</layer-list>

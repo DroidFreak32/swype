@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.chinese.SpellPhraseHandWritingViewContainer android:id="@id/spell_phrase_hw_container" android:background="?keyboardSuggestStripHandwriting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/candidate_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/spell_layout_window" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageButton android:id="@id/spell_candidate_left" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowLeft" />
+            </LinearLayout>
+            <com.nuance.swype.input.chinese.SpellListView android:id="@id/spell_candidates" android:layout_width="0.0dip" android:layout_height="@dimen/candidates_list_height" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageButton android:id="@id/spell_candidate_right" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowRight" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/candidates_list_height">
+            <LinearLayout android:orientation="horizontal" android:id="@id/phrase_layout_window" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageButton android:id="@id/phrase_candidate_left" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowLeft" />
+                </LinearLayout>
+                <com.nuance.swype.input.chinese.CJKCandidatesListView android:id="@id/cjk_candidates" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageButton android:id="@id/phrase_candidate_right" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowRight" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/functionbar_layout_window" android:layout_width="wrap_content" android:layout_height="@dimen/candidates_list_height">
+                <LinearLayout android:orientation="horizontal" android:id="@id/functionbar_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <com.nuance.swype.input.FunctionBarListView android:id="@id/functionbar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/functionbar_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.nuance.swype.input.chinese.SpellPhraseHandWritingViewContainer>

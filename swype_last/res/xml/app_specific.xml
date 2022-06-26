@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-specific-behavior>
+    <application name="com.google.android.browser">
+        <override behavior="shouldAutoSpaceOnTextExtractFailure" value="true" />
+        <override behavior="noReplacingReselectedWordWhenMatching" value="true" minsdk="15" maxsdk="15" />
+        <override behavior="selectTextToReplace" value="true" maxsdk="18" />
+    </application>
+    <application name="com.android.browser">
+        <override behavior="shouldCheckCurrentCursor" value="true" />
+        <override behavior="noReplacingReselectedWordWhenMatching" value="true" minsdk="15" maxsdk="15" />
+        <override behavior="shouldAutoSpaceOnTextExtractFailure" value="true" />
+        <override behavior="ignoreTypeNullCheckForBackspace" brand="coolpad" value="true" />
+        <override behavior="selectTextToReplace" value="true" maxsdk="18" />
+    </application>
+    <application name="com.boatbrowser.free">
+        <override behavior="shouldAutoSpaceOnTextExtractFailure" value="true" />
+    </application>
+    <application name="mobi.mgeek.TunnyBrowser">
+        <override behavior="shouldAutoSpaceOnTextExtractFailure" value="true" />
+    </application>
+    <application name="com.motorola.motoemail">
+        <override behavior="shouldCheckCurrentCursor" value="true" />
+    </application>
+    <application name="com.okcupid.okcupid">
+        <override behavior="shouldAutoSpaceOnTextExtractFailure" value="true" />
+        <override behavior="shouldCheckCurrentCursor" value="true" />
+    </application>
+    <application name="org.mozilla.firefox">
+        <override behavior="shouldAutoSpaceInUrlField" value="true" />
+    </application>
+    <application name="com.lge.mobilehotspot.ui">
+        <override behavior="shouldDisableCandidatesList" value="true" />
+    </application>
+    <application name="com.UCMobile;com.UCMobile.intl">
+        <override behavior="shouldDisableRecapture" value="true" />
+        <override behavior="shouldIgnoreLostComposingText" value="true" />
+    </application>
+    <application name="com.infraware.PolarisOfficeForTablet;         com.infraware.PolarisOfficeStdForTablet;         com.infraware.polarisoffice4;com.infraware.office.link">
+        <override behavior="shouldIgnoreLostComposingText" value="true" />
+        <override behavior="shouldDisableRecapture" value="true" />
+    </application>
+    <application name="com.android.chrome">
+        <override behavior="shouldAutoSpaceInUrlField" value="true" />
+        <override behavior="shouldUseSearchRecognizerTypeForUrl" value="true" />
+        <override behavior="selectTextToReplace" value="true" maxVersion="1847113" />
+    </application>
+    <application name="com.ideashower.readitlater.pro">
+        <override behavior="selectTextToReplace" value="true" />
+    </application>
+    <application name="com.sec.android.app.snotebook">
+        <override behavior="shouldIgnoreLostComposingText" value="true" />
+        <override behavior="shouldDisableRecapture" value="true" />
+    </application>
+    <application name="com.samsung.android.snote">
+        <override behavior="shouldIgnoreLostComposingText" value="true" />
+        <override behavior="shouldDisableRecapture" value="true" />
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" />
+    </application>
+    <application name="com.android.email">
+        <override behavior="shouldCheckCurrentCursor" brand="samsung" value="true" />
+        <override behavior="supportsGetTextWithStyles" brand="samsung" value="false" />
+        <override behavior="shouldFilterInputViewRestarts" brand="samsung" value="true" />
+        <override behavior="shouldIgnoreLostComposingText" brand="samsung" value="true" />
+        <override behavior="shouldClearComposingAddDeleteSpace" brand="samsung" value="true" />
+        <override behavior="shouldSetComposingSpan" brand="samsung" value="true" />
+        <override behavior="shouldSendReturnAsKeyEvent" brand="samsung" value="true" maxVersion="400000" />
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" brand="OPPO" value="true" />
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" brand="vivo" />
+        <override behavior="noContextMenuEditing" brand="samsung" value="true" />
+    </application>
+    <application name="com.htc.android.mail">
+        <override behavior="shouldAvoidSetComposingRegion" value="true" />
+    </application>
+    <application name="com.htc.notes">
+        <override behavior="shouldAvoidSetComposingRegion" value="true" />
+        <override behavior="noSetSelection" value="true" />
+        <override behavior="ignoreTypeNullCheckForBackspace" value="true" />
+        <override behavior="shouldDisableRecapture" value="true" minVersion="213126883" maxVersion="213126883" />
+    </application>
+    <application name="com.gamevil.galaxyempire.google">
+        <override behavior="shouldCheckCurrentCursor" value="true" />
+    </application>
+    <application name="com.netflix.mediaclient;org.wikipedia">
+        <override behavior="noContextMenuEditing" value="true" />
+    </application>
+    <application name="com.google.android.gm">
+        <override behavior="noContextMenuEditing" value="true" />
+        <override behavior="useBackspaceKeyToClearHighlightedText" value="true" />
+        <override behavior="shouldClearComposingAddDeleteSpace" value="true" />
+    </application>
+    <application name="com.google.android.apps.docs" />
+    <application name="com.lge.email">
+        <override behavior="selectTextToReplace" value="true" minVersion="60007600" />
+    </application>
+    <application name="com.tencent.mm">
+        <override behavior="shouldSendReturnAsKeyEvent" value="true" />
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" />
+        <override behavior="shouldSkipWrongStartInputView" value="true" />
+    </application>
+    <application name="com.sdu.didi.psnger">
+        <override behavior="shouldFilterInputViewRestarts" value="true" />
+    </application>
+    <application name="com.gaana">
+        <override behavior="shouldTreatEditTextAsWebSearchField" value="true" />
+    </application>
+    <application name="com.android.mms">
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" brand="vivo" />
+        <override behavior="shouldSendReturnAsKeyEvent" brand="vivo" value="true" maxVersion="400000" />
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" brand="OPPO" value="true" />
+        <override behavior="forceTypeNullForBackspace" value="true" />
+    </application>
+    <application name="com.android.notes">
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" brand="vivo" />
+        <override behavior="shouldSendReturnAsKeyEvent" brand="vivo" value="true" />
+    </application>
+    <application name="com.microsoft.office.officehub">
+        <override behavior="shouldDeleteSurroundingBeforeTextCharByChar" value="true" />
+    </application>
+    <application name="com.android.contacts">
+        <override behavior="shouldDeleteSurroundingTextUsingKeyEvent" value="true" brand="vivo" />
+    </application>
+    <application name="com.huawei.message">
+        <override behavior="forceTypeNullForBackspace" brand="huawei" value="true" />
+    </application>
+    <application name="com.microsoft.office.onenote">
+        <override behavior="shouldDeleteSurroundingBeforeTextCharByChar" value="true" />
+        <override behavior="shouldDisableRecapture" value="true" />
+        <override behavior="shouldSendBackSpaceToDeleteBreakLine" value="true" />
+        <override behavior="shouldRemoveUpdateWCLMessage" value="true" />
+    </application>
+    <application name="com.google.android.apps.docs.editors.docs">
+        <override behavior="shouldClearComposingAddDeleteSpace" value="true" />
+    </application>
+    <application name="com.sec.android.app.popupcalculator">
+        <override behavior="shouldTreatEditTextAsInvalidField" value="true" />
+    </application>
+    <application name="com.sec.android.app.sbrowser">
+        <override behavior="shouldSkipInvalidFieldIdEditor" value="true" />
+    </application>
+    <application name="com.supercell.clashofclans">
+        <override behavior="shouldEnablePredictionForPassword" value="true" />
+    </application>
+    <application name="com.android.chrome">
+        <override behavior="shouldDisableRecapture" value="true" />
+        <override behavior="shouldSkipInvalidFieldIdEditor" value="true" />
+        <override behavior="useBackspaceKeyToClearHighlightedText" value="true" />
+        <override behavior="shouldRecaptureForSingleTapWhenFocusInURLField" value="true" />
+        <override behavior="shouldRecaptureForCaseEdit" value="true" />
+        <override behavior="shouldRecaptureForSwypeKey" value="true" />
+    </application>
+    <application name="com.opera.browser">
+        <override behavior="shouldSkipInvalidFieldIdEditor" value="true" />
+    </application>
+    <application name="com.explore.web.browser">
+        <override behavior="shouldSkipInvalidFieldIdEditor" value="true" />
+    </application>
+    <application name="com.jb.gosms">
+        <override behavior="forceTypeNullForBackspace" value="true" />
+    </application>
+    <application name="com.sec.android.app.launcher">
+        <override behavior="shouldEditModeUseAlternativeSelectMethod" brand="samsung" value="true" />
+    </application>
+    <application name="cn.wps.moffice_eng">
+        <override behavior="shouldRestrictGetTextLengthFromCursor" value="true" />
+    </application>
+    <application name="com.facebook.katana">
+        <override behavior="shouldDisableEmojiCandidatesList" value="true" />
+    </application>
+    <application name="com.microsoft.office.outlook">
+        <override behavior="shouldMonitoringCursorChange" value="true" />
+    </application>
+    <application name="com.samsung.android.email.provider">
+        <override behavior="useBackspaceKeyToClearHighlightedText" value="true" />
+    </application>
+    <application name="com.myntra.android">
+        <override behavior="shoudDisablePredictionForEmailAddress" value="true" />
+    </application>
+</app-specific-behavior>

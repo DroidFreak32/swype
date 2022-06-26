@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="8.33%p" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key1" ns:keyLabel="ཅ" ns:altKeyLabel="ཅ" ns:shiftedKeyLabel="ྕ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key2" ns:keyLabel="ཆ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key3" ns:keyLabel="ེ" ns:altKeyLabel="ེ" ns:shiftedKeyLabel="ཊ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key4" ns:keyLabel="ར" ns:altKeyLabel="ར" ns:shiftedKeyLabel="ྲ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key5" ns:keyLabel="ཏ" ns:altKeyLabel="ཏ" ns:shiftedKeyLabel="ྟ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key6" ns:keyLabel="ཡ" ns:altKeyLabel="ཡ" ns:shiftedKeyLabel="ྱ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key7" ns:keyLabel="ུ" ns:altKeyLabel="ུ" ns:shiftedKeyLabel="ྋ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key8" ns:keyLabel="ི" ns:altKeyLabel="ི" ns:shiftedKeyLabel="ྀ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key9" ns:keyLabel="ོ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key10" ns:keyLabel="ཕ" ns:altKeyLabel="ཕ" ns:shiftedKeyLabel="ྥ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key11" ns:keyLabel="ཙ" ns:altKeyLabel="ཙ" ns:shiftedKeyLabel="ྩ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key12" ns:keyEdgeFlags="right" ns:keyLabel="ཚ" ns:altKeyLabel="ཚ" ns:shiftedKeyLabel="ཛ" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key13" ns:keyLabel="འ" ns:altKeyLabel="འ" ns:shiftedKeyLabel="ཨ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key14" ns:keyLabel="ས" ns:altKeyLabel="ས" ns:shiftedKeyLabel="ཌ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key15" ns:keyLabel="ད" ns:altKeyLabel="ད" ns:shiftedKeyLabel="ྡ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key16" ns:keyLabel="བ" ns:altKeyLabel="བ" ns:shiftedKeyLabel="ྦ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key17" ns:keyLabel="ང" ns:altKeyLabel="ང" ns:shiftedKeyLabel="ྔ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key18" ns:keyLabel="མ" ns:altKeyLabel="མ" ns:shiftedKeyLabel="ྨ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key19" ns:keyLabel="ག" ns:altKeyLabel="ག" ns:shiftedKeyLabel="ྒ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key20" ns:keyLabel="ལ" ns:altKeyLabel="ལ" ns:shiftedKeyLabel="ླ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key21" ns:keyLabel="ཞ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key22" ns:keyLabel="ཧ" ns:altKeyLabel="ཧ" ns:shiftedKeyLabel="ྷ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key23" ns:keyEdgeFlags="right" ns:keyLabel="ཝ" ns:altKeyLabel="ཝ" ns:shiftedKeyLabel="ྭ" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="12.5%p" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key24" ns:keyLabel="ཟ" ns:altKeyLabel="ཟ" ns:shiftedKeyLabel="ཾ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key25" ns:keyLabel="ཤ" ns:altKeyLabel="ཤ" ns:shiftedKeyLabel="ཥ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key26" ns:keyLabel="ཀ" ns:altKeyLabel="ཀ" ns:shiftedKeyLabel="ྐ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key27" ns:keyLabel="ཁ" ns:altKeyLabel="ཁ" ns:shiftedKeyLabel="ཎ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key28" ns:keyLabel="པ" ns:altKeyLabel="པ" ns:shiftedKeyLabel="ྤ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key29" ns:keyLabel="ན" ns:altKeyLabel="ན" ns:shiftedKeyLabel="ྣ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key30" ns:keyLabel="ཐ" ns:altKeyLabel="ཐ" ns:shiftedKeyLabel="ཋ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key31" ns:keyLabel="ཇ" ns:altKeyLabel="ཇ" ns:shiftedKeyLabel="ྗ" />
+        <Key ns:popupCharacters="@string/alternates_for_tibetan_key32" ns:keyLabel="ཉ" ns:altKeyLabel="ཉ" ns:shiftedKeyLabel="ྙ" />
+        <Key ns:keyWidth="12.5%p" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_tibetan" />
+</KeyboardEx>

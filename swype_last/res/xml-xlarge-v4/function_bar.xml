@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference android:title="@string/function_bar_display" android:key="function_bar_display" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/function_bar_items_title" android:key="functionitem_category">
+        <CheckBoxPreference android:icon="@drawable/functionbar_swypesettings" android:title="@string/swype" android:key="settings" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_languages" android:title="@string/language_category_title" android:key="language_option" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_inputmodes" android:title="@string/input_method" android:key="inputmode" android:defaultValue="true" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_handwriting" android:title="@string/function_bar_quick_toggle" android:key="quicktoggle" android:defaultValue="true" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_themes" android:title="@string/pref_menu_themes" android:key="themes" android:defaultValue="false" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_emoji" android:title="@string/function_bar_emoji" android:key="function_bar_emoji" android:defaultValue="true" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_chinesesettings" android:title="@string/settings_swype_chinese" android:key="chinesesettings" android:defaultValue="true" />
+        <CheckBoxPreference android:icon="@drawable/functionbar_addondictionaries" android:title="@string/addon_dictionaries" android:key="addondictionaries" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

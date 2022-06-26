@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d nappal ezelőtt</item>
+        <item quantity="one">%d nappal ezelőtt</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d szó fog törlődni</item>
+        <item quantity="one">Egy szó fog törlődni.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d órával ezelőtt</item>
+        <item quantity="one">%d órával ezelőtt</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">%d perccel ezelőtt</item>
+    </plurals>
+</resources>

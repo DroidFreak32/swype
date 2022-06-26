@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud0" />
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud1" />
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud2" />
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud3" />
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud4" />
+    <item android:duration="200" android:drawable="?iconCjkChineseCloud5" />
+</animation-list>

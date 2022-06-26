@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" ns:letterLanguageCategory="km" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key1" ns:keyLabel="ឆ" ns:altKeyLabel="ឆ" ns:shiftedKeyLabel="ឈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key2" ns:keyLabel="ឹ" ns:altKeyLabel="ឹ" ns:shiftedKeyLabel="ឺ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key3" ns:keyLabel="េ" ns:altKeyLabel="េ" ns:shiftedKeyLabel="ែ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key4" ns:keyLabel="រ" ns:altKeyLabel="រ" ns:shiftedKeyLabel="ឬ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key5" ns:keyLabel="ត" ns:altKeyLabel="ត" ns:shiftedKeyLabel="ទ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key6" ns:keyLabel="យ" ns:altKeyLabel="យ" ns:shiftedKeyLabel="ួ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key7" ns:keyLabel="ុ" ns:altKeyLabel="ុ" ns:shiftedKeyLabel="ូ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key8" ns:keyLabel="ិ" ns:altKeyLabel="ិ" ns:shiftedKeyLabel="ី" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key9" ns:keyLabel="ោ" ns:altKeyLabel="ោ" ns:shiftedKeyLabel="ៅ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key10" ns:keyLabel="ផ" ns:altKeyLabel="ផ" ns:shiftedKeyLabel="ភ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key11" ns:keyLabel="ើ" ns:altKeyLabel="ើ" ns:shiftedKeyLabel="៎" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key12" ns:keyLabel="ៀ" ns:altKeyLabel="ៀ" ns:shiftedKeyLabel="ឿ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key13" ns:keyLabel="ា" ns:altKeyLabel="ា" ns:shiftedKeyLabel="ៃ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key14" ns:keyLabel="ស" ns:altKeyLabel="ស" ns:shiftedKeyLabel="ឧ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key15" ns:keyLabel="ដ" ns:altKeyLabel="ដ" ns:shiftedKeyLabel="ឌ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key16" ns:keyLabel="ថ" ns:altKeyLabel="ថ" ns:shiftedKeyLabel="ធ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key17" ns:keyLabel="ង" ns:altKeyLabel="ង" ns:shiftedKeyLabel="ឱ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key18" ns:keyLabel="ហ" ns:altKeyLabel="ហ" ns:shiftedKeyLabel="ះ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key19" ns:keyLabel="ញ" ns:altKeyLabel="ញ" ns:shiftedKeyLabel="ឲ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key20" ns:keyLabel="ក" ns:altKeyLabel="ក" ns:shiftedKeyLabel="គ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key21" ns:keyLabel="ល" ns:altKeyLabel="ល" ns:shiftedKeyLabel="ឡ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key22" ns:keyLabel="ៈ" ns:altKeyLabel="ៈ" ns:shiftedKeyLabel="៊" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key23" ns:keyLabel="់" ns:altKeyLabel="់" ns:shiftedKeyLabel="៉" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_12_11_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key24" ns:keyLabel="ឋ" ns:altKeyLabel="ឋ" ns:shiftedKeyLabel="ឍ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key25" ns:keyLabel="ខ" ns:altKeyLabel="ខ" ns:shiftedKeyLabel="ឃ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key26" ns:keyLabel="ច" ns:altKeyLabel="ច" ns:shiftedKeyLabel="ជ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key27" ns:keyLabel="វ" ns:altKeyLabel="វ" ns:shiftedKeyLabel="ឯ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key28" ns:keyLabel="ប" ns:altKeyLabel="ប" ns:shiftedKeyLabel="ព" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key29" ns:keyLabel="ន" ns:altKeyLabel="ន" ns:shiftedKeyLabel="ណ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key30" ns:keyLabel="ម" ns:altKeyLabel="ម" ns:shiftedKeyLabel="ំ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key31" ns:keyLabel="អ" ns:altKeyLabel="អ" ns:shiftedKeyLabel="ឥ" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key32" ns:keyLabel="័" ns:altKeyLabel="័" ns:shiftedKeyLabel="៌" />
+        <Key ns:popupCharacters="@string/alternates_for_khmer_key33" ns:keyLabel="៏" ns:altKeyLabel="៏" ns:shiftedKeyLabel="៍" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_12_11_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_khmer_tablet" />
+</KeyboardEx>

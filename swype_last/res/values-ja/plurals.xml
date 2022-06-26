@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d 日前</item>
+        <item quantity="one">%d 日前</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">単語が %d 個削除されます</item>
+        <item quantity="one">単語が 1 つ削除されます</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d 時間前</item>
+        <item quantity="one">%d 時間前</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d 分前</item>
+        <item quantity="one">%d 分前</item>
+    </plurals>
+</resources>

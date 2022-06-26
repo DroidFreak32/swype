@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.preference.ViewClickPreference android:title="@string/pref_kb_height_title" android:key="keyboard_height_settings" />
+    <com.nuance.swype.preference.ViewClickPreference android:title="@string/pref_word_choice_title" android:key="candidates_size_setting_preference" android:summary="@string/pref_word_choice_desc" />
+</PreferenceScreen>

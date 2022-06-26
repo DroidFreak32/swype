@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">Pred %d dnevi</item>
+        <item quantity="one">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d besed bo izbrisanih</item>
+        <item quantity="one">Ena beseda bo izbrisana.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Pred %d urami</item>
+        <item quantity="one">Pred %d urami</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Pred %d minutami</item>
+        <item quantity="one">Pred %d minutami</item>
+    </plurals>
+</resources>
