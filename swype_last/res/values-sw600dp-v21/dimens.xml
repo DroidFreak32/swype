@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="trace_redraw_threadshold">40.0dip</dimen>
+    <dimen name="key_text_size">30.0dip</dimen>
+    <dimen name="key_text_size_5row">28.0dip</dimen>
+    <dimen name="key_text_size_small">20.0dip</dimen>
+    <dimen name="key_label_text_size">20.0dip</dimen>
+    <dimen name="key_label_text_size_5row">16.0dip</dimen>
+    <dimen name="key_label_text_size_small">20.0dip</dimen>
+    <dimen name="key_text_size_large">27.0dip</dimen>
 </resources>

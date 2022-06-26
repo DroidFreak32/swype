@@ -956,7 +956,7 @@ Do you want to continue?"</string>
     <string name="yinchuan">Yinchuan</string>
     <string name="zhengzhou">Zhengzhou</string>
     <string name="zhuyin_nine_keys">Zhuyin (9 - key)</string>
-    <string name="label_symbol_key">\?123</string>
+    <string name="label_symbol_key">123</string>
     <string name="keyboard_not_support_explore_by_touch">This keyboard does not support explore by touch when talkback is on</string>
     <string name="phone_keypad_naratgul">Naratgul</string>
     <string name="phone_keypad_sky">Sky</string>
@@ -978,7 +978,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_albanian_p">p0}</string>
     <string name="alternates_for_albanian_q">q1£¹</string>
     <string name="alternates_for_albanian_r">r4¤¼</string>
-    <string name="alternates_for_albanian_s">s€$ßš</string>
+    <string name="alternates_for_albanian_s">s€$€₽ßš</string>
     <string name="alternates_for_albanian_t">t5§þ</string>
     <string name="alternates_for_albanian_u">u7«ùúûüµ</string>
     <string name="alternates_for_albanian_v">v=~¬</string>
@@ -1148,7 +1148,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_azerbaijani_p">p8]</string>
     <string name="alternates_for_azerbaijani_q">q*•¹</string>
     <string name="alternates_for_azerbaijani_r">r2`</string>
-    <string name="alternates_for_azerbaijani_s">s$®ßš</string>
+    <string name="alternates_for_azerbaijani_s">s$€₽®ßš</string>
     <string name="alternates_for_azerbaijani_t">t3^</string>
     <string name="alternates_for_azerbaijani_u">u5~ùúû</string>
     <string name="alternates_for_azerbaijani_v">v=¬</string>
@@ -1181,7 +1181,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_azerty_panlatin_p">p0}</string>
     <string name="alternates_for_azerty_panlatin_q">q@©</string>
     <string name="alternates_for_azerty_panlatin_r">r4ŕř`</string>
-    <string name="alternates_for_azerty_panlatin_s">s€ßśŝşšș$§</string>
+    <string name="alternates_for_azerty_panlatin_s">s€ßśŝşšș$€₽§</string>
     <string name="alternates_for_azerty_panlatin_t">t5þťț^</string>
     <string name="alternates_for_azerty_panlatin_u">u7ùúûüūůűųưụ¤</string>
     <string name="alternates_for_azerty_panlatin_v">v=÷</string>
@@ -1191,7 +1191,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_azerty_panlatin_z">z2źżž™²</string>
     <string name="alternates_for_azertydollar_panlatin_e">e3èéêëēėęě€³ə</string>
     <string name="alternates_for_azertydollar_panlatin_l">l«ĺļľł£</string>
-    <string name="alternates_for_azertydollar_panlatin_s">s$ßśŝşšș®§</string>
+    <string name="alternates_for_azertydollar_panlatin_s">s$€₽ßśŝşšș®§</string>
     <string name="alternates_for_azertyfr_a">a1•ªàáâãäåæ¹</string>
     <string name="alternates_for_azertyfr_b">b/\\¼½¾</string>
     <string name="alternates_for_azertyfr_c">c#%</string>
@@ -1247,7 +1247,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_azertynl_z">z2™ž²</string>
     <string name="alternates_for_azertypound_panlatin_e">e3èéêëēėęě€³ə</string>
     <string name="alternates_for_azertypound_panlatin_l">l«ĺļľł®</string>
-    <string name="alternates_for_azertypound_panlatin_s">s£ßśŝşšș$§</string>
+    <string name="alternates_for_azertypound_panlatin_s">s£ßśŝşšș$€₽§</string>
     <string name="alternates_for_balkans_qwertz_standard_a">a@©áâäăą</string>
     <string name="alternates_for_balkans_qwertz_standard_b">b/\\÷¼½¾</string>
     <string name="alternates_for_balkans_qwertz_standard_c">c#%čćç</string>
@@ -1266,7 +1266,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_balkans_qwertz_standard_p">p0}¶</string>
     <string name="alternates_for_balkans_qwertz_standard_q">q1•¹</string>
     <string name="alternates_for_balkans_qwertz_standard_r">r4`ŕř</string>
-    <string name="alternates_for_balkans_qwertz_standard_s">s€$śšș§</string>
+    <string name="alternates_for_balkans_qwertz_standard_s">s€$€₽śšș§</string>
     <string name="alternates_for_balkans_qwertz_standard_t">t5^ťț</string>
     <string name="alternates_for_balkans_qwertz_standard_u">u7«úüůű</string>
     <string name="alternates_for_balkans_qwertz_standard_v">v=*</string>
@@ -1280,7 +1280,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_belarusian_key12">"'\"ъ"</string>
     <string name="alternates_for_belarusian_key13">ф@©a</string>
     <string name="alternates_for_belarusian_key14">ы&amp;™s</string>
-    <string name="alternates_for_belarusian_key15">в$®d</string>
+    <string name="alternates_for_belarusian_key15">в$€₽®d</string>
     <string name="alternates_for_belarusian_key16">а€{f</string>
     <string name="alternates_for_belarusian_key17">п£}g</string>
     <string name="alternates_for_belarusian_key18">р([h</string>
@@ -1391,7 +1391,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_bulgarian_д">д+±ђd</string>
     <string name="alternates_for_bulgarian_е">е3£ёәєэe</string>
     <string name="alternates_for_bulgarian_ж">ж€…v</string>
-    <string name="alternates_for_bulgarian_з">з$¢ѕz</string>
+    <string name="alternates_for_bulgarian_з">з$€₽¢ѕz</string>
     <string name="alternates_for_bulgarian_и">и8]ӣіїыi</string>
     <string name="alternates_for_bulgarian_й">йѝјj</string>
     <string name="alternates_for_bulgarian_к">к:&lt;ќk</string>
@@ -1627,7 +1627,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_french_azerty_standard_period">.\"</string>
     <string name="alternates_for_french_azerty_standard_q">q@©</string>
     <string name="alternates_for_french_azerty_standard_r">r4`</string>
-    <string name="alternates_for_french_azerty_standard_s">s€$ßš§</string>
+    <string name="alternates_for_french_azerty_standard_s">s€$€₽ßš§</string>
     <string name="alternates_for_french_azerty_standard_t">t5^þ</string>
     <string name="alternates_for_french_azerty_standard_u">u7¤ùûüú</string>
     <string name="alternates_for_french_azerty_standard_v">v=*</string>
@@ -1653,7 +1653,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_french_qwerty_standard_p">p0}</string>
     <string name="alternates_for_french_qwerty_standard_q">q1•¹</string>
     <string name="alternates_for_french_qwerty_standard_r">r4`</string>
-    <string name="alternates_for_french_qwerty_standard_s">s$®ßš§</string>
+    <string name="alternates_for_french_qwerty_standard_s">s$€₽®ßš§</string>
     <string name="alternates_for_french_qwerty_standard_t">t5^þ</string>
     <string name="alternates_for_french_qwerty_standard_u">u7£ùûüú¤</string>
     <string name="alternates_for_french_qwerty_standard_v">v=*</string>
@@ -1679,7 +1679,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_french_qwertz_standard_p">p0}</string>
     <string name="alternates_for_french_qwertz_standard_q">q1•¹</string>
     <string name="alternates_for_french_qwertz_standard_r">r4`</string>
-    <string name="alternates_for_french_qwertz_standard_s">s€$ßš§</string>
+    <string name="alternates_for_french_qwertz_standard_s">s$€₽ßš§</string>
     <string name="alternates_for_french_qwertz_standard_t">t5^þ</string>
     <string name="alternates_for_french_qwertz_standard_u">u7£ùûüú</string>
     <string name="alternates_for_french_qwertz_standard_v">v=¤</string>
@@ -1705,7 +1705,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_galician_qwerty_national_p">p0}¶</string>
     <string name="alternates_for_galician_qwerty_national_q">q1·¹</string>
     <string name="alternates_for_galician_qwerty_national_r">r4`</string>
-    <string name="alternates_for_galician_qwerty_national_s">s€$ßš§</string>
+    <string name="alternates_for_galician_qwerty_national_s">s$€₽ßš§</string>
     <string name="alternates_for_galician_qwerty_national_t">t5^þ</string>
     <string name="alternates_for_galician_qwerty_national_u">u7—úüùûµ</string>
     <string name="alternates_for_galician_qwerty_national_v">v=*</string>
@@ -1771,7 +1771,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_greek_β">β/\\b</string>
     <string name="alternates_for_greek_γ">γ([g</string>
     <string name="alternates_for_greek_δ">δ&amp;|d</string>
-    <string name="alternates_for_greek_ε">ε3$έe³</string>
+    <string name="alternates_for_greek_ε">ε3$€₽έe³</string>
     <string name="alternates_for_greek_ζ">ζz*¦</string>
     <string name="alternates_for_greek_η">η)]ήh</string>
     <string name="alternates_for_greek_θ">θ7«u„</string>
@@ -2011,7 +2011,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_kazakh_ш">ш]©i</string>
     <string name="alternates_for_kazakh_щ">щ(™o</string>
     <string name="alternates_for_kazakh_ъ">ъ≈¦</string>
-    <string name="alternates_for_kazakh_ы">ы$·s</string>
+    <string name="alternates_for_kazakh_ы">ы$€₽·s</string>
     <string name="alternates_for_kazakh_ь">ь‘§m</string>
     <string name="alternates_for_kazakh_э">э\"</string>
     <string name="alternates_for_kazakh_ю">ю?¿</string>
@@ -2194,7 +2194,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_latvian_p">p)¶</string>
     <string name="alternates_for_latvian_q">q£¦</string>
     <string name="alternates_for_latvian_r">r~…ŗ¨</string>
-    <string name="alternates_for_latvian_s">s$¢ßś</string>
+    <string name="alternates_for_latvian_s">s$€₽¢ßś</string>
     <string name="alternates_for_latvian_t">t_—</string>
     <string name="alternates_for_latvian_u">u[©üųµ</string>
     <string name="alternates_for_latvian_v">v*^</string>
@@ -2232,7 +2232,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_lithuanian_p">p)¶</string>
     <string name="alternates_for_lithuanian_q">q£¦</string>
     <string name="alternates_for_lithuanian_r">r~…ŗ¨</string>
-    <string name="alternates_for_lithuanian_s">s$¢ßś</string>
+    <string name="alternates_for_lithuanian_s">s$€₽¢ßś</string>
     <string name="alternates_for_lithuanian_t">t_—</string>
     <string name="alternates_for_lithuanian_u">u[©üµ</string>
     <string name="alternates_for_lithuanian_v">v*^</string>
@@ -2516,7 +2516,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwerty_g">g([</string>
     <string name="alternates_for_qwerty_h">h)]</string>
     <string name="alternates_for_qwerty_i">8iìíîï»</string>
-    <string name="alternates_for_qwerty_india_a">a@$àáâãäåæāăąª©</string>
+    <string name="alternates_for_qwerty_india_a">a@$€₽àáâãäåæāăąª©</string>
     <string name="alternates_for_qwerty_india_b">b/\\÷¼½¾฿</string>
     <string name="alternates_for_qwerty_india_c">c#çćč%¢</string>
     <string name="alternates_for_qwerty_india_d">d&amp;ðďđ₫|¦</string>
@@ -2534,7 +2534,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwerty_india_p">p0}¶</string>
     <string name="alternates_for_qwerty_india_q">q1·¹</string>
     <string name="alternates_for_qwerty_india_r">r4ŕř`</string>
-    <string name="alternates_for_qwerty_india_s">s$ßśŝşšș®§</string>
+    <string name="alternates_for_qwerty_india_s">s$€₽ßśŝşšș®§</string>
     <string name="alternates_for_qwerty_india_t">t5þťț^</string>
     <string name="alternates_for_qwerty_india_u">u7ùúûüūůűųưụ«</string>
     <string name="alternates_for_qwerty_india_v">v₹=₨¤</string>
@@ -2547,8 +2547,8 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwerty_l">l\"£“</string>
     <string name="alternates_for_qwerty_m">m?¿</string>
     <string name="alternates_for_qwerty_n">nñ+~±</string>
-    <string name="alternates_for_qwerty_o">9oòóôõöøœ{º</string>
-    <string name="alternates_for_qwerty_p">0p}¶</string>
+    <string name="alternates_for_qwerty_o">9oòóôõöøœº{(-=</string>
+    <string name="alternates_for_qwerty_p">0p¶})</string>
     <string name="alternates_for_qwerty_panlatin_a">a@àáâãäåæāăąª©</string>
     <string name="alternates_for_qwerty_panlatin_b">b/\\÷¼½¾</string>
     <string name="alternates_for_qwerty_panlatin_c">c#çćč%¢</string>
@@ -2567,7 +2567,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwerty_panlatin_p">p0}¶</string>
     <string name="alternates_for_qwerty_panlatin_q">q1·¹</string>
     <string name="alternates_for_qwerty_panlatin_r">r4ŕř`</string>
-    <string name="alternates_for_qwerty_panlatin_s">s$ßśŝşšș®§</string>
+    <string name="alternates_for_qwerty_panlatin_s">s$€₽ßśŝşšș®§</string>
     <string name="alternates_for_qwerty_panlatin_t">t5þťț^</string>
     <string name="alternates_for_qwerty_panlatin_u">u7ùúûüūůűųưụ«</string>
     <string name="alternates_for_qwerty_panlatin_v">v=¤</string>
@@ -2577,7 +2577,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwerty_panlatin_z">z*¢źżž</string>
     <string name="alternates_for_qwerty_q">1q·¹</string>
     <string name="alternates_for_qwerty_r">4r`¤</string>
-    <string name="alternates_for_qwerty_s">$sßš§®</string>
+    <string name="alternates_for_qwerty_s">$€₽sßš§®</string>
     <string name="alternates_for_qwerty_t">5t^þ</string>
     <string name="alternates_for_qwerty_u">7uùúûüµ«</string>
     <string name="alternates_for_qwerty_v">v=*</string>
@@ -2603,7 +2603,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyca_p">p0}¶</string>
     <string name="alternates_for_qwertyca_q">q1…¹</string>
     <string name="alternates_for_qwertyca_r">r4‘</string>
-    <string name="alternates_for_qwertyca_s">s€$ßš§</string>
+    <string name="alternates_for_qwertyca_s">s$€₽ßš§</string>
     <string name="alternates_for_qwertyca_t">t5^þ</string>
     <string name="alternates_for_qwertyca_u">u7«ùúûüµ</string>
     <string name="alternates_for_qwertyca_v">v=÷</string>
@@ -2630,7 +2630,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyda_p">p0}¶</string>
     <string name="alternates_for_qwertyda_q">q1•¹</string>
     <string name="alternates_for_qwertyda_r">r4¤</string>
-    <string name="alternates_for_qwertyda_s">s€$ßš</string>
+    <string name="alternates_for_qwertyda_s">s$€₽ßš</string>
     <string name="alternates_for_qwertyda_t">t5§þ</string>
     <string name="alternates_for_qwertyda_u">u7[ùúûü</string>
     <string name="alternates_for_qwertyda_v">v%=</string>
@@ -2661,7 +2661,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyet_p">p0}</string>
     <string name="alternates_for_qwertyet_q">q1¦¹</string>
     <string name="alternates_for_qwertyet_r">r4®</string>
-    <string name="alternates_for_qwertyet_s">s$>ßš</string>
+    <string name="alternates_for_qwertyet_s">s$€₽>ßš</string>
     <string name="alternates_for_qwertyet_t">t5™þ</string>
     <string name="alternates_for_qwertyet_u">u7•ùúû</string>
     <string name="alternates_for_qwertyet_v">v/\\</string>
@@ -2721,7 +2721,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyfi_p">p0}</string>
     <string name="alternates_for_qwertyfi_q">q1•¹</string>
     <string name="alternates_for_qwertyfi_r">r4`</string>
-    <string name="alternates_for_qwertyfi_s">s$§ßš</string>
+    <string name="alternates_for_qwertyfi_s">s$€₽§ßš</string>
     <string name="alternates_for_qwertyfi_t">t5%þ†</string>
     <string name="alternates_for_qwertyfi_u">u7«ùúûü</string>
     <string name="alternates_for_qwertyfi_v">v=µ</string>
@@ -2778,7 +2778,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyfrpt_p">p0}¶</string>
     <string name="alternates_for_qwertyfrpt_q">q1•¹</string>
     <string name="alternates_for_qwertyfrpt_r">r4`</string>
-    <string name="alternates_for_qwertyfrpt_s">s$¢ßš</string>
+    <string name="alternates_for_qwertyfrpt_s">s$€₽¢ßš</string>
     <string name="alternates_for_qwertyfrpt_t">t5^þ</string>
     <string name="alternates_for_qwertyfrpt_u">u7«ùúûüµ</string>
     <string name="alternates_for_qwertyfrpt_v">v=÷</string>
@@ -2889,7 +2889,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyl4_p">p0}¶</string>
     <string name="alternates_for_qwertyl4_q">q1·¹</string>
     <string name="alternates_for_qwertyl4_r">r4`¤</string>
-    <string name="alternates_for_qwertyl4_s">s$®š§</string>
+    <string name="alternates_for_qwertyl4_s">s$€₽®š§</string>
     <string name="alternates_for_qwertyl4_t">t5^ŧ</string>
     <string name="alternates_for_qwertyl4_u">u7«üūųúûũ</string>
     <string name="alternates_for_qwertyl4_v">v=*</string>
@@ -2915,7 +2915,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyno_p">p0}¶</string>
     <string name="alternates_for_qwertyno_q">q1•¹</string>
     <string name="alternates_for_qwertyno_r">r4¤</string>
-    <string name="alternates_for_qwertyno_s">s€$ßš</string>
+    <string name="alternates_for_qwertyno_s">s$€₽ßš</string>
     <string name="alternates_for_qwertyno_t">t5§þ</string>
     <string name="alternates_for_qwertyno_u">u7[ùúûü</string>
     <string name="alternates_for_qwertyno_v">v%=</string>
@@ -2927,10 +2927,10 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyno_æ">æä*µ</string>
     <string name="alternates_for_qwertyno_ø">øö»‰</string>
     <string name="alternates_for_qwertypound_frpt_l">l\"¢</string>
-    <string name="alternates_for_qwertypound_frpt_s">s£$ßš</string>
+    <string name="alternates_for_qwertypound_frpt_s">s£$€₽ßš</string>
     <string name="alternates_for_qwertypound_panlatin_e">e3èéêëēėęě€³ə</string>
     <string name="alternates_for_qwertypound_panlatin_l">l\"ĺļľł®“</string>
-    <string name="alternates_for_qwertypound_panlatin_s">s£ßśŝşšș$§</string>
+    <string name="alternates_for_qwertypound_panlatin_s">s£ßśŝşšș$€₽§</string>
     <string name="alternates_for_qwertyro_a">a@©ªáäą</string>
     <string name="alternates_for_qwertyro_b">b=≠</string>
     <string name="alternates_for_qwertyro_c">c#¦çćč</string>
@@ -2949,7 +2949,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertyro_p">p0}</string>
     <string name="alternates_for_qwertyro_q">q1•</string>
     <string name="alternates_for_qwertyro_r">r4`ŕř</string>
-    <string name="alternates_for_qwertyro_s">s$²ßśš</string>
+    <string name="alternates_for_qwertyro_s">s$€₽²ßśš</string>
     <string name="alternates_for_qwertyro_t">t5^ť</string>
     <string name="alternates_for_qwertyro_u">u7«úüůű</string>
     <string name="alternates_for_qwertyro_v">v%½</string>
@@ -2978,7 +2978,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertytr_p">p0]</string>
     <string name="alternates_for_qwertytr_q">q1•¹</string>
     <string name="alternates_for_qwertytr_r">r4`</string>
-    <string name="alternates_for_qwertytr_s">s$®ßš</string>
+    <string name="alternates_for_qwertytr_s">s$€₽®ßš</string>
     <string name="alternates_for_qwertytr_t">t5^</string>
     <string name="alternates_for_qwertytr_u">u7ùúû·</string>
     <string name="alternates_for_qwertytr_v">v=¬</string>
@@ -3026,7 +3026,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertz_panlatin_p">p0}¶</string>
     <string name="alternates_for_qwertz_panlatin_q">q1·¹</string>
     <string name="alternates_for_qwertz_panlatin_r">r4ŕř`</string>
-    <string name="alternates_for_qwertz_panlatin_s">s€ßśŝşšș$§</string>
+    <string name="alternates_for_qwertz_panlatin_s">sßśŝşšș$€₽§</string>
     <string name="alternates_for_qwertz_panlatin_t">t5þťț^</string>
     <string name="alternates_for_qwertz_panlatin_u">u7ùúûüūůűųưụ«</string>
     <string name="alternates_for_qwertz_panlatin_v">v=¤</string>
@@ -3036,7 +3036,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertz_panlatin_z">z6źżž¥</string>
     <string name="alternates_for_qwertz_q">q1·¹</string>
     <string name="alternates_for_qwertz_r">r4`¤</string>
-    <string name="alternates_for_qwertz_s">s$®ßš§</string>
+    <string name="alternates_for_qwertz_s">s$€₽®ßš§</string>
     <string name="alternates_for_qwertz_t">t5^þ</string>
     <string name="alternates_for_qwertz_u">u7«ùúûüµ</string>
     <string name="alternates_for_qwertz_v">v=*</string>
@@ -3062,7 +3062,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertzbk_p">p0}¶</string>
     <string name="alternates_for_qwertzbk_q">q1·¹•</string>
     <string name="alternates_for_qwertzbk_r">r4`ŕř</string>
-    <string name="alternates_for_qwertzbk_s">s$®śș</string>
+    <string name="alternates_for_qwertzbk_s">s$€₽®śș</string>
     <string name="alternates_for_qwertzbk_t">t5^ťț</string>
     <string name="alternates_for_qwertzbk_u">u7«úüůű</string>
     <string name="alternates_for_qwertzbk_v">v=≠</string>
@@ -3107,7 +3107,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertzde_ü">ü¤¬</string>
     <string name="alternates_for_qwertzdollar_panlatin_e">e3èéêëēėęě€³ə</string>
     <string name="alternates_for_qwertzdollar_panlatin_l">l\"ĺļľł£“</string>
-    <string name="alternates_for_qwertzdollar_panlatin_s">s$ßśŝşšș®§</string>
+    <string name="alternates_for_qwertzdollar_panlatin_s">s$€₽ßśŝşšș®§</string>
     <string name="alternates_for_qwertzhu_a">a&amp;£ªâäăą</string>
     <string name="alternates_for_qwertzhu_b">b9”·</string>
     <string name="alternates_for_qwertzhu_c">c7|çćč¦</string>
@@ -3126,7 +3126,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertzhu_p">p_^¶</string>
     <string name="alternates_for_qwertzhu_q">q*¢</string>
     <string name="alternates_for_qwertzhu_r">r1~ŕř¹</string>
-    <string name="alternates_for_qwertzhu_s">s#$ßśşš</string>
+    <string name="alternates_for_qwertzhu_s">s#$€₽ßśşš</string>
     <string name="alternates_for_qwertzhu_t">t2&lt;ţť²½</string>
     <string name="alternates_for_qwertzhu_u">uúůµ</string>
     <string name="alternates_for_qwertzhu_v">v8„</string>
@@ -3156,7 +3156,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertzl2_p">p0}¶</string>
     <string name="alternates_for_qwertzl2_q">q1·¹•</string>
     <string name="alternates_for_qwertzl2_r">r4`ŕř¤</string>
-    <string name="alternates_for_qwertzl2_s">s$®śšș¤§</string>
+    <string name="alternates_for_qwertzl2_s">s$€₽®śšș¤§</string>
     <string name="alternates_for_qwertzl2_t">t5^ťț</string>
     <string name="alternates_for_qwertzl2_u">u7«úüůű</string>
     <string name="alternates_for_qwertzl2_v">v=*</string>
@@ -3167,7 +3167,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertzpound_panlatin_e">e3èéêëēėęě€³ə</string>
     <string name="alternates_for_qwertzpound_panlatin_l">l\"ĺļľł®“</string>
     <string name="alternates_for_qwertzpound_panlatin_s">s£ßśŝşšș$§</string>
-    <string name="alternates_for_russian_comma">,…</string>
+    <string name="alternates_for_russian_comma">!,-</string>
     <string name="alternates_for_russian_а">а_•f</string>
     <string name="alternates_for_russian_б">б-¬</string>
     <string name="alternates_for_russian_в">в&amp;|d</string>
@@ -3175,7 +3175,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_russian_д">д\"£ђl½</string>
     <string name="alternates_for_russian_е">е5^ёәєt</string>
     <string name="alternates_for_russian_ж">ж«„</string>
-    <string name="alternates_for_russian_з">з0}ѕp¶</string>
+    <string name="alternates_for_russian_з">з0ѕp¶})</string>
     <string name="alternates_for_russian_и">и/\\ѝӣіїb</string>
     <string name="alternates_for_russian_й">й1·јq¹</string>
     <string name="alternates_for_russian_к">к4`ќқr</string>
@@ -3189,14 +3189,14 @@ Do you want to continue?"</string>
     <string name="alternates_for_russian_т">т+±n</string>
     <string name="alternates_for_russian_у">у3€үўӯұe³</string>
     <string name="alternates_for_russian_ф">ф@©a</string>
-    <string name="alternates_for_russian_х">х%×ҳһ</string>
+    <string name="alternates_for_russian_х">х%×ҳһ-=</string>
     <string name="alternates_for_russian_ц">ц2™џw²</string>
     <string name="alternates_for_russian_ч">ч!≠ҷћx</string>
     <string name="alternates_for_russian_ш">ш8¤i</string>
-    <string name="alternates_for_russian_щ">щ9{oº</string>
+    <string name="alternates_for_russian_щ">щ9oº{(</string>
     <string name="alternates_for_russian_ъ">ъ°÷</string>
-    <string name="alternates_for_russian_ы">ы$®s</string>
-    <string name="alternates_for_russian_ь">ь?µm</string>
+    <string name="alternates_for_russian_ы">ы$€₽®s</string>
+    <string name="alternates_for_russian_ь">ъь?µm</string>
     <string name="alternates_for_russian_э">э»“</string>
     <string name="alternates_for_russian_ю">ю—~</string>
     <string name="alternates_for_russian_я">яz*¢</string>
@@ -3248,7 +3248,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_spanish_qwerty_national_p">p0}¶</string>
     <string name="alternates_for_spanish_qwerty_national_q">q1·¹</string>
     <string name="alternates_for_spanish_qwerty_national_r">r4`</string>
-    <string name="alternates_for_spanish_qwerty_national_s">s$®ßš§</string>
+    <string name="alternates_for_spanish_qwerty_national_s">s$€₽®ßš§</string>
     <string name="alternates_for_spanish_qwerty_national_t">t5^þ</string>
     <string name="alternates_for_spanish_qwerty_national_u">u7—úüùûµ</string>
     <string name="alternates_for_spanish_qwerty_national_v">v=¤</string>
@@ -3275,7 +3275,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_spanish_qwerty_standard_p">p0}¶</string>
     <string name="alternates_for_spanish_qwerty_standard_q">q1·¹</string>
     <string name="alternates_for_spanish_qwerty_standard_r">r4`¤</string>
-    <string name="alternates_for_spanish_qwerty_standard_s">s$®ßš§</string>
+    <string name="alternates_for_spanish_qwerty_standard_s">s$€₽®ßš§</string>
     <string name="alternates_for_spanish_qwerty_standard_t">t5^þ</string>
     <string name="alternates_for_spanish_qwerty_standard_u">u7«úüùûµ</string>
     <string name="alternates_for_spanish_qwerty_standard_v">v=*</string>
@@ -3524,7 +3524,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_ukrainian_х">х({ҳһ</string>
     <string name="alternates_for_ukrainian_ц">ц@©џw</string>
     <string name="alternates_for_ukrainian_ч">ч!|ҷћx</string>
-    <string name="alternates_for_ukrainian_ш">ш$¥i</string>
+    <string name="alternates_for_ukrainian_ш">ш$€₽¥i</string>
     <string name="alternates_for_ukrainian_щ">щ_[o</string>
     <string name="alternates_for_ukrainian_ь">ь0°ъm</string>
     <string name="alternates_for_ukrainian_ю">ю?`</string>
@@ -3669,7 +3669,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_turkish_qwerty_standard_p">p0}¶</string>
     <string name="alternates_for_turkish_qwerty_standard_q">q1•¹</string>
     <string name="alternates_for_turkish_qwerty_standard_r">r4`¤</string>
-    <string name="alternates_for_turkish_qwerty_standard_s">s€$şßš§</string>
+    <string name="alternates_for_turkish_qwerty_standard_s">s$€₽şßš§</string>
     <string name="alternates_for_turkish_qwerty_standard_t">t5^</string>
     <string name="alternates_for_turkish_qwerty_standard_u">u7«üûùúµ</string>
     <string name="alternates_for_turkish_qwerty_standard_v">v=*</string>
@@ -3763,7 +3763,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_circumflex_accent">^＾</string>
     <string name="alternates_for_cjk_punctuation">",:/@'\"?!"</string>
     <string name="alternates_for_colon">:：</string>
-    <string name="alternates_for_comma">,-</string>
+    <string name="alternates_for_comma">!,-</string>
     <string name="alternates_for_comma_tablet">/,-</string>
     <string name="alternates_for_commercial_at">\@＠⊙○◎●◯</string>
     <string name="alternates_for_d">dð&amp;|¦</string>
@@ -3777,7 +3777,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_digit_three">3³¾⅜③</string>
     <string name="alternates_for_digit_two">2²⅔②</string>
     <string name="alternates_for_digit_zero">0ⁿ∅〇</string>
-    <string name="alternates_for_dollar_sign">$＄¥￥£￡￠</string>
+    <string name="alternates_for_dollar_sign">$€₽＄¥￥£￡￠</string>
     <string name="alternates_for_e">eèéêë3€³</string>
     <string name="alternates_for_equals_sign">=＝≠≤≥</string>
     <string name="alternates_for_estonian_a">a@&lt;ªåæāą</string>
@@ -3848,8 +3848,8 @@ Do you want to continue?"</string>
     <string name="alternates_for_o">oºòóôõöøœ9{</string>
     <string name="alternates_for_p">p0}¶</string>
     <string name="alternates_for_percent_sign">%％°℃</string>
-    <string name="alternates_for_period">".'´‘"</string>
-    <string name="alternates_for_period_ellipsis">".'´…"</string>
+    <string name="alternates_for_period">"\?.-&amp;;+\":'@\\/)(_#,!"</string>
+    <string name="alternates_for_period_ellipsis">"\?.-&amp;;+\":'@\\/)(_#,!"</string>
     <string name="alternates_for_period_korean">,!?</string>
     <string name="alternates_for_plus_sign">+＋†‡§</string>
     <string name="alternates_for_q">q1·¹</string>
@@ -3872,7 +3872,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_qwertynoda_p">p0}¶</string>
     <string name="alternates_for_qwertynoda_q">q1•</string>
     <string name="alternates_for_qwertynoda_r">r4¤¹</string>
-    <string name="alternates_for_qwertynoda_s">s$®ßš</string>
+    <string name="alternates_for_qwertynoda_s">s$€₽®ßš</string>
     <string name="alternates_for_qwertynoda_t">t5§þ²</string>
     <string name="alternates_for_qwertynoda_u">u7[ùúûü</string>
     <string name="alternates_for_qwertynoda_v">v%=¿</string>
@@ -3890,7 +3890,7 @@ Do you want to continue?"</string>
     <string name="alternates_for_right_corner_bracket">」』</string>
     <string name="alternates_for_right_parenthesis">)）】〗〕}｝</string>
     <string name="alternates_for_right_square_bracket">]］」』</string>
-    <string name="alternates_for_s">sßš$®§</string>
+    <string name="alternates_for_s">sßš$€₽®§</string>
     <string name="alternates_for_semicolon">;；</string>
     <string name="alternates_for_sinhala_period">.\"෴…</string>
     <string name="alternates_for_sinhala_ං">"ෞං'”ඖඃ"</string>

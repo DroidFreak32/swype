@@ -2475,6 +2475,7 @@
     <public type="xml" name="symbol_category_list" id="0x7f0601dd" />
     <public type="xml" name="themespreferences" id="0x7f0601de" />
     <public type="xml" name="updates" id="0x7f0601df" />
+    <public type="xml" name="dimens" id="0x7f0601e0" />
     <public type="xml" name="connect_account_preferences" id="0x7f06000f" />
     <public type="xml" name="mywordspreferences" id="0x7f0601ce" />
     <public type="raw" name="click1c" id="0x7f070000" />

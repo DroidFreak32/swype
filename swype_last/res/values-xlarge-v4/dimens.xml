@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_text_size">26.0dip</dimen>
+    <dimen name="key_text_size">36.0dip</dimen>
     <dimen name="key_text_size_5row">24.0dip</dimen>
-    <dimen name="key_text_size_small">24.0dip</dimen>
-    <dimen name="key_label_text_size">24.0dip</dimen>
+    <dimen name="key_text_size_small">34.0dip</dimen>
+    <dimen name="key_label_text_size">34.0dip</dimen>
     <dimen name="key_label_text_size_5row">21.0dip</dimen>
-    <dimen name="key_label_text_size_small">21.0dip</dimen>
+    <dimen name="key_label_text_size_small">31.0dip</dimen>
     <dimen name="key_text_size_large">30.0dip</dimen>
     <dimen name="alpha_hwr_pad_height">225.0dip</dimen>
     <dimen name="bpmf_key_height">60.0dip</dimen>

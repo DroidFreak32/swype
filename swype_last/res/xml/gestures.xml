@@ -4,41 +4,93 @@
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureString="x" />
     </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_cut">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="x" />
+    </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_select_all">
         <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="a" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_select_all">
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureString="a" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_copy">
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureString="c" />
     </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_copy">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="c" />
+    </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_paste">
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureString="v" />
     </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_paste">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="v" />
+    </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_edit">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureInt="@integer/keycode_mode_change" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_edit">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureInt="@integer/keycode_abc_layer" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_edit">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureInt="@integer/keycode_sym_layer" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_edit">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureInt="@integer/keycode_edit" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_edit">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureInt="@integer/keycode_num" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/keycode_num">
-        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="g" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="h" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="f" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="d" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="j" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="4" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
         <Path ns:gestureString="5" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="6" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="7" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureString="8" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/gesture_code_suppress_autospace">
         <Path ns:gestureInt="@integer/keycode_space" />
@@ -51,6 +103,26 @@
     <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureInt="@integer/keycode_delete" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureString="4" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureString="5" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureString="6" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureString="7" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureString="8" />
+        <Path ns:gestureInt="@integer/keycode_space" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/gesture_code_case_edit">
         <Path ns:gestureInt="@integer/keycode_swype" />
@@ -66,6 +138,14 @@
     <Gesture ns:gestureInt="@integer/gesture_code_last_language">
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_last_language">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureInt="@integer/keycode_speech" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_last_language">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureInt="@integer/keycode_enter" />
     </Gesture>
     <Gesture ns:gestureInt="@integer/gesture_code_search">
         <Path ns:gestureInt="@integer/keycode_swype" />

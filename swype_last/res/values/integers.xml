@@ -4,7 +4,7 @@
     <integer name="accessibility_explore_speed_threshold">5</integer>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
-    <integer name="ac_override_cache_size">30</integer>
+    <integer name="ac_override_cache_size">100</integer>
     <integer name="accessibility_explore_max_speed">100</integer>
     <integer name="accessibility_explore_speed_threshold_factor">1</integer>
     <integer name="accessibility_long_press_timeout_ms">3000</integer>

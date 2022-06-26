@@ -21,7 +21,7 @@
     <bool name="allow_set_vibration_duration">true</bool>
     <bool name="always_show_chinese_prediction_result">false</bool>
     <bool name="ask_before_add_default">true</bool>
-    <bool name="attach_common_words_ldb_default">false</bool>
+    <bool name="attach_common_words_ldb_default">true</bool>
     <bool name="auto_accept_trace_default">true</bool>
     <bool name="auto_cap_default">true</bool>
     <bool name="auto_correction_default">true</bool>
@@ -54,7 +54,7 @@
     <bool name="enable_diff_hwr_result_type_default">false</bool>
     <bool name="enable_downloadable_themes">true</bool>
     <bool name="enable_emoji_in_english_ldb">true</bool>
-    <bool name="enable_external_ldb_path">false</bool>
+    <bool name="enable_external_ldb_path">true</bool>
     <bool name="enable_functionbar_default">true</bool>
     <bool name="enable_handwriting_default">true</bool>
     <bool name="enable_hardkeyboard">true</bool>
@@ -77,7 +77,7 @@
     <bool name="enable_symbol_select_popup_all_layers">true</bool>
     <bool name="enable_unrecognized_word_decoration">false</bool>
     <bool name="end_of_speech_detection_default">true</bool>
-    <bool name="font_typeface_bold">true</bool>
+    <bool name="font_typeface_bold">false</bool>
     <bool name="fullscreen_cjk_hwr_default">true</bool>
     <bool name="google_play_show_lvl_default">true</bool>
     <bool name="hide_globe_label_single_language">false</bool>
@@ -89,7 +89,7 @@
     <bool name="korean_consonant_setting_default">true</bool>
     <bool name="korean_core_enabled">true</bool>
     <bool name="korean_personal_dictionary_default">true</bool>
-    <bool name="mutual_synchronize_android_dictionary">false</bool>
+    <bool name="mutual_synchronize_android_dictionary">true</bool>
     <bool name="next_word_prediction_default">true</bool>
     <bool name="number_row_default">false</bool>
     <bool name="quick_reply_default">false</bool>
@@ -103,11 +103,11 @@
     <bool name="show_pref_auto_correction">true</bool>
     <bool name="show_registration_startup">true</bool>
     <bool name="show_smart_editor_tip">true</bool>
-    <bool name="show_startup_tip">true</bool>
+    <bool name="show_startup_tip">false</bool>
     <bool name="show_suggested_word_default">false</bool>
     <bool name="show_test_ad">false</bool>
-    <bool name="show_tips_default">true</bool>
-    <bool name="show_top_shadow">false</bool>
+    <bool name="show_tips_default">false</bool>
+    <bool name="show_top_shadow">true</bool>
     <bool name="show_voice_key_default">true</bool>
     <bool name="smart_editor_enable">true</bool>
     <bool name="smart_editor_show_in_prefs">true</bool>

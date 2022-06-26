@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="abc_alert_dialog_button_bar_height">48.0dip</dimen>
-    <dimen name="key_text_size">18.0dip</dimen>
-    <dimen name="key_text_size_5row">17.0dip</dimen>
-    <dimen name="key_text_size_small">17.0dip</dimen>
-    <dimen name="key_label_text_size">14.0dip</dimen>
-    <dimen name="key_label_text_size_5row">16.0dip</dimen>
-    <dimen name="key_label_text_size_small">16.0dip</dimen>
-    <dimen name="key_text_size_large">23.0dip</dimen>
+    <dimen name="key_text_size">48.0dip</dimen>
+    <dimen name="key_text_size_5row">27.0dip</dimen>
+    <dimen name="key_text_size_small">27.0dip</dimen>
+    <dimen name="key_label_text_size">24.0dip</dimen>
+    <dimen name="key_label_text_size_5row">26.0dip</dimen>
+    <dimen name="key_label_text_size_small">30.0dip</dimen>
+    <dimen name="key_text_size_large">38.0dip</dimen>
     <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
     <dimen name="abc_action_bar_progress_bar_size">40.0dip</dimen>
     <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
@@ -53,7 +53,7 @@
     <dimen name="alt_emoji_icon_size">10.0dip</dimen>
     <dimen name="alt_label_text_size">10.0dip</dimen>
     <dimen name="alt_label_text_size_5row">10.0dip</dimen>
-    <dimen name="alt_text_size">9.0dip</dimen>
+    <dimen name="alt_text_size">10.0dip</dimen>
     <dimen name="alt_text_size_big">16.0dip</dimen>
     <dimen name="alt_text_size_small">10.0dip</dimen>
     <dimen name="bpmf_keytext_size">15.0dip</dimen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_text_size">28.0dip</dimen>
+    <dimen name="key_text_size_5row">22.0dip</dimen>
+    <dimen name="key_text_size_small">28.0dip</dimen>
+    <dimen name="alt_label_text_size_5row">13.0dip</dimen>
+    <dimen name="alt_text_size_small">13.0dip</dimen>
+    <dimen name="doublepinyin_alt_text_size">13.0dip</dimen>
+</resources>
