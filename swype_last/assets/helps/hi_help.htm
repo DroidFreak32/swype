@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">बोलें</a></div>
+				<div><a href="#write">लिखें</a></div>
+				<div class="last"><a href="#tap">लिखना</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype के साथ, आपके पास चार अलग&#45;अलग इनपुट मोड के बीच अविराम स्विच करने की क्षमता होती है &#45; स्वाइप करें, बोलें, लिखें या टैप करें।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype पाठ प्रविष्ट करने का एक तेज तरीका है। इससे आप अक्षरॊं के माध्यम से शब्द बनाकर दर्ज कर सकते हैं। शब्द के प्रथम अक्षर पर अपनी उंगली रखें और अंतिम अक्षर के बाद अपनी उंगली उठाकर एक अक्षर से दूसरे अक्षर तक एक मार्ग का निर्माण करें। Swype आवश्यकतानुसार रिक्त स्थान सम्मिलित कर देगा।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							और जानें <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype कुंजी
+									<div id="ul_1a" class="open">
+										<p>Swype कुंजी वह कुंजी है जिस पर Swype का लोगो होता है। Swype सेटिंग्स को एक्सेस करने के लिए Swype कुंजी को दबाएँ रखें ।</p>
+										<p>अनेक Swype इशारे शुरू करने के लिए Swype कुंजी का भी उपयोग किया जाता है।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    कुंजीपटल पूर्वावलोकन
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype संकेत
+									<div id="ul_1b" class="closed">
+										<p>Swype संकेत सामान्य कार्यों को तुरंत पूरा करने के लिए कीबोर्ड शॉर्टकट हैं। सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</p>
+										<ul>
+											<li><span class="gestures">संपादन कुंजीपटल में जाना</span> संपादन कुंजीपटल प्राप्त करने के लिए, कुंजीपटल पर <img src="img_swypekey.png" /> से प्रतीक कुंजी (?123) पर स्वाइप करें।</li>
+											<li><span class="gestures">नंबर कीबोर्ड अर्थात् संख्या कुंजीपटल में जाना</span> संख्या कुंजीपटल पर जल्दी से जाने के लिए, <img src="img_swypekey.png" /> से 5 नंबर पर स्वाइप करें।</li>
+											<li><span class="gestures">कुंजीपटल को छिपाना</span> कुंजीपटल को आसानी से छिपाने के लिए बस Swype कुंजी से बैकस्पेस कुंजी तक स्वाइप करें।</li>
+
+											<li><span class="gestures">स्वचालित स्पेसिंग बंद करें</span> स्पेस कुंजी से बैकस्पेस कुंजी पर स्वाइप करके अगले शब्द के पहले स्वचालित रिक्ति ख़त्म करें।</li>
+
+
+											<li><span class="gestures">विराम चिह्न</span> विरामादि चिह्न दर्ज करने का एक सरल तरीका प्रश्न चिह्न, अल्पविराम, पूर्ण विराम, या दूसरे विरामादि चिह्नों को टैप करने के बजाय स्पेस कुंजी से स्वाइप करना है।</li>
+
+											<li><span class="gestures">अनुप्रयोग शॉर्टकट</span>Google मानचित्र: <img src="img_swypekey.png" /> से &#39;g&#39;, और &#39;m&#39; पर स्वाइप करें</li>
+											<li><span class="gestures">खोज</span>त्वरित वेब खोज करने के लिए कुछ पाठ हाइलाइट करें और <img src="img_swypekey.png" /> से S तक Swype करें।</li>
+											<li><span class="gestures">उपयोग की गई पिछली भाषा पर स्विच हो रहा है।</span>एकाधिक भाषाएँ उपयोग करते समय, पिछली भाषा पर पुन: स्विच करने का एक तीव्र तरीका <img src="img_swypekey.png" /> से स्पेस कुंजी पर Swype करना है।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									दोहरे अक्षरों को प्रविष्ट करना
+									<div id="ul_1n" class="closed">
+										<p>दोहरे अक्षरदर्ज करते समय सटीकता में सुधार करने के लिए, थोड़ा घसीटें या अक्षर पर लूप बनाएँ। उदाहरण के लिए, &quot;उत्तर&quot; में &quot;त्त्&quot; प्राप्त करने के लिए &quot;त्&quot; कुंजी पर घसीटें। सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									शब्द चुनना
+									<div id="ul_1d" class="closed">
+										<p>शब्द विकल्प सूची में प्रस्तावित डिफ़ॉल्ट शब्द स्वीकार करने के लिए, बस स्वाइप करते रहें। अन्यथा, अपनी उंगली को खींचकर सूची को स्क्रॉल करें और अपने मनचाहे शब्द चुनें । सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</p>
+										<p>सूची में से पाठ चुनने के लिए, सूची की प्रविष्टियों को सुनने के लिए अपनी अंगुली को गोलाकार दिशा में घुमाएं. घड़ी की सुइयों की दिशा में घुमाने से सूची में आगे बढ़ते हैं; घड़ी की सुइयों की विपरीत दिशा में घुमाने से सूची में पीछे बढ़ते हैं. अंगुली उठा लेने से सूची की बोली गई अंतिम प्रविष्टि आउटपुट के रूप में आती है. शब्द चयन सूची में से कोई शब्द चुनने के लिए, अपनी अंगुली को कीबोर्ड से ऊपर तब तक स्लाइड करें जब तक कि सूची का पहला शब्द सुनाई ना दे, फिर अंगुली गोलाकार घुमाएं.	सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब ही यह वैशिष्ट्य उपलब्ध है।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									स्वचालित स्पेसिंग
+									<div id="ul_1f" class="closed">
+										<p>जब आप वाक्य में अगले शब्द को स्वाइप करते हैं तो Swype शब्दों के बीच में स्वतः एक रिक्त स्थान सम्मिलित करता है। आप Swype सेटिंग्स में स्वतः रिक्ति फीचर को चालू या बंद कर सकते हैं।</p>
+										<p>स्पेस कुंजी से बैकस्पेस कुंजी तक स्वाइप करके एक शब्द के लिए स्वतः रिक्ति को बंद किया जा सकता है।</p>
+										<p>सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									शब्द बदलना
+									<div id="ul_1g" class="closed">
+										<p>शब्द बदलने के लिए उसे टैप करें, और फिर शब्द विकल्प सूची से इच्छित शब्द चुनें, या बस शब्द हाइलाइट करें और नया शब्द स्वाइप करें। नया शब्द ग़लत शब्द का स्थान ले लेगा।</p>
+										<p>शब्द पर टैप करके और <img src="img_swypekey.png" /> दबाकर या शब्द पर दोहरा टैप करके शब्द हाइलाइट किया जा सकता है।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									अक्षरों के बीच में बाउंसिंग या उछलकूद
+									<div id="ul_1h" class="closed">
+										<p>स्वाइप करते समय कभी&#45;कभी अक्षरों की अनदेखी करने से यह सुनिश्चित होता है कि आपको पहली बार अपना मनचाहा शब्द मिले।</p>
+										<p>उदाहरण के लिए, &quot;अटकलना&quot; और &quot;अटकना&quot; समान मार्ग से बनाए जा सकते हैं &#45; लेकिन ध्यान दें कि आपको सीधी रेखा में अक्षर से अक्षर तक नहीं जाना होता। &quot;न&quot; पर अपनी उंगली स्वाइप करते समय &quot;ल&quot; से बचने से सुनिश्चित होता है कि शब्द विकल्प सूची में &quot;अटकना&quot; पहले आता है।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									वैकल्पिक अक्षर
+									<div id="ul_1i" class="closed">
+
+										<p>किसी कुंजी के वैकल्पिक अक्षर लाने के लिए उस कुंजी को दबाए रखें, जैसे % और @ जैसे प्रतीक, और संख्याएँ।</p>
+
+										<p>प्रतीक कुंजीपटल पर जाने के लिए प्रतीक कुंजी (?123) टैप करें।</p>
+										<p>ध्यान दें कि सभी अक्षरॊंको मुख्य कुंजीपटल से स्वाइप किया जा सकता है (चाहे आप उन्हें देख सकते हों या नहीं)। आप कुंजीपटल के इस दृश्य का उपयोग करके स्वाइप कर सकते हैं लेकिन आपको केवल वही शब्द मिलेंगे जिनमें कम से कम एक संख्या या प्रतीक है।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									शब्द जोड़ना और हटाना
+									<div id="ul_1j" class="closed">
+										<p>आप जिन नए शब्दों का उपयोग करते हैं, उन्हें Swype समझदारी से आपकी निजी शब्दकोश में जोड़ देता है।</p>
+										<p>आप शब्द को हाइलाइट करके और <img src="img_swypekey.png" /> पर टैप करके उसे भी जोड़ सकते हैं। शब्द को जोड़ने के लिए प्रकट होने वाले संवाद को टैप करें।</p>
+										<p>शब्द हटाने के लिए, शब्द विकल्प सूची में शब्द दबाएँ रखें, और फिर पुष्टिकरण संवाद में ठीक टैप करें। सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									निजीकरण
+									<div id="ul_1k" class="closed">
+										<p>Twitter और Gmail Swype आपके शब्दकोश में शब्द शीघ्रता से जोड़ सकता है। Swype निजीकृत करने के लिए:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> दबाएँ रखें</li>
+											<li>Swype सेटिंग मेनू से, मेरे शब्द &gt; वैयक्तिकृत करें चुनें.</li>
+											<li>निजीकरण विकल्पों में से चुनें और प्रॉम्प्ट किए जाने पर अपने क्रेडेंशियल दर्ज करें।</li>
+											<li>आप एक या सभी स्रोतों से Swype निजीकृत कर सकते हैं।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">बोलें</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>आप पाठ और ईमेल संदेशों से लेकर Facebook और Twitter अद्यतन तक सब कुछ के लिए पाठ सामग्री दर्ज करने हेतु बोल सकते हैं।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							और जानें <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									विराम चिह्न
+									<div id="ul_2a" class="open">
+										<p>विरामादि चिह्न मैनुअल रूप से जोड़ने की ज़रूरत नहीं है। बस इच्छित विरामादि चिह्न बोलें और जारी रखें। इसे आज़माएँ:</p>
+										<ol>
+											<li>ध्वनि कुंजी दबाएँ और बोलना शुरू करें।</li>
+											<li>आप क्या कहते हैं: <i>डिनर स्वादिष्ट था विस्मयादिबोधक चिह्न</i></li>
+											<li>आपको क्या मिलता है: <i>डिनर स्वादिष्ट था!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>कुछ कुंजीपटल पर ध्वनि इनपुट उपलब्ध नहीं होती</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">लिखें</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>अक्षर और शब्द बनाने के लिए आप अपनी उंगली का उपयोग कर सकते हैं और Swype उन्हें पाठ में बदल देगा। आप अक्षर बाएँ&#45;से&#45;दाएँ या एक दूसरे के ऊपर बना सकते हैं। अक्षर और प्रतीक मोड के बीच टॉगल करने के लिए ABC / 123 दबाएँ।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							और जानें <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									हस्तलेख सक्रिय करें
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> को दबाए रखें और अपनी उँगली हस्तलेख आइकन पर स्लाइड करें।</li>
+											<li>हस्तलेख क्षेत्र पर अपनी उंगली से अक्षर बनाएँ।</li>
+
+											<li>प्रत्येक शब्द के बीच स्पेस बार टैप करें</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									मल्टी&#45;टच इशारे
+									<div id="ul_3b" class="closed">
+										<p>मल्टी&#45;टच इशारों से आप सरल कार्य पूरा कर सकते हैं, जैसे शब्दों या अक्षरॊंको कैपिटल बनाना।</p>
+										<ol>
+											<li>ड्राइंग पैड पर कुछ लोअरकेस अक्षर बनाएँ</li>
+											<li>अक्षर दर्ज करने के बाद लेखन क्षेत्र में दो उँगलियाँ ऊपर की ओर स्लाइड करें</li>
+											<li>हस्तलेख सुविधा मल्टी&#45;टच इशारे की पहचान करेगी और अक्षर को कैपिटल बना देगी</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>कुछ कुंजीपटल पर हस्तलेख उपलब्ध नहीं होता।</i></p>
+									<p><i>सिस्टम पहुँच योग्यता सेवा का स्पर्श से खोज चालू हो तब यह वैशिष्ट्य उपलब्ध नहीं है।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">लिखना</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>मैनुअल कुंजीपटल इनपुट का पारंपरिक रूप। Swype कुंजीपटल पर टैप इनपुट को कुछ उपयोगी सुविधाओं द्वारा आसान और कुशल बना दिया गया है:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							और जानें <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									फिसलन&#45;भरे टंकण में सुधार
+									<div id="ul_4a" class="open">
+										<p>आपको प्रत्येक अक्षर पूरी तरह से टैप करने की ज़रूरत नहीं है। बस सबसे बेहतर कोशिश करें और Swype होशियारी से शब्द का सुझाव प्रदान करेगा।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									शब्द पूर्ण होना
+									<div id="ul_4b" class="closed">
+										<p>आपके द्वारा केवल कुछ अक्षर टैप करते ही Swype आपके शब्द का अंदाज़ा भी लगा सकता है।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">भाषाएँ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>कुंजीपटल से भाषाओं में स्विच करना: स्पेस बार दबाएँ रखें। पॉपअप मेनू से अपनी इच्छित भाषा चुनें।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect से हम अद्यतन और शक्तिशाली कार्यक्षमता ठीक आपकी डिवाइस पर डिलीवर कर सकते हैं! जबकि Swype, Connect 3G पर काम करेगा, लेकिन हम हमेशा Wi&#45;Fi कनेक्शन खोजने की सलाह देते हैं।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							और जानें <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									भाषा डाउनलोड
+									<div id="ul_6a" class="open">
+										<p>Swype में अतिरिक्त भाषाएँ जोड़ना आसान है:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> दबाए रखें और भाषाएँ चुनें।</li>
+											<li>भाषाएँ मेनू से, भाषाएँ डाउनलोड करें चुनें।</li>
+											<li>भाषा पर क्लिक करें और आपका डाउनलोड स्वतः शुरू हो जाएगा।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect सभी कुंजीपटल पर उपलब्ध नहीं है।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">अधिक सहायता</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype का उपयोग करने में और अधिक मदद के लिए, <a href="http://www.swype.com">www.swype.com</a> पर Swype उपयोगकर्ता मैनुअल और Swype युक्तियाँ और वीडियो देखें, या <a href="http://forum.swype.com">forum.swype.com</a> पर ऑनलाइन Swype फ़ोरम की जाँच करें।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

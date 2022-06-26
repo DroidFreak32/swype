@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Mów</a></div>
+				<div><a href="#write">Pisz</a></div>
+				<div class="last"><a href="#tap">Pisz</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Ze Swype masz możliwość przełączać się płynnie pomiędzy czterema różnymi trybami – przesuwaj, mów, pisz, lub dotykaj.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Program Swype to szybki sposób wprowadzania tekstu. Pozwala on na pisanie wyrazów poprzez przesuwanie palcem po literach. Połóż palec na pierwszej literze słowa i narysuj ścieżkę od litery do litery, podnosząc palec po ostatniej literze. Swype wstawi spacje tam, gdzie to konieczne.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Dowiedz się więcej <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Klawisz Swype
+									<div id="ul_1a" class="open">
+										<p>Klawisz Swype to klawisz z logo Swype. Aby wejść do ustawień Swype, naciśnij i przytrzymaj klawisz Swype.</p>
+										<p>Klawisz Swype używany jest do zapoczątkowania wielu gestów Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Podgląd klawiatury
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gesty Swype
+									<div id="ul_1b" class="closed">
+										<p>Gesty Swype są skrótami klawiaturowymi służącymi do szybkiego wykonywania najczęstszych zadań. Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+										<ul>
+											<li><span class="gestures">Przejście do klawiatury edycji</span> Aby przejść do klawiatury edycji, przesuń palcem z <img src="img_swypekey.png" /> do klawisza symboli (?123) na klawiaturze.</li>
+											<li><span class="gestures">Przejście do klawiatury numerycznej</span> Aby szybko przejść do klawiatury numerycznej, przesuń palcem <img src="img_swypekey.png" /> do klawisza 5.</li>
+											<li><span class="gestures">Chowanie klawiatury</span> Aby ukryć klawiaturę, przesuń palcem od klawisza Swype do klawisza cofania.</li>
+
+											<li><span class="gestures">Automatyczne wyłączanie spacji</span> Wyłącz automatyczne wstawianie spacji przed następnym słowem, przechodząc od klawisza spacji do klawisza cofania.</li>
+
+
+											<li><span class="gestures">Edycja wielkości liter danego słowa</span> Możesz zmienić rodzaj pisania słowa po wprowadzeniu go, dotykając słowa i przesuwając palec od klawisza <img src="img_swypekey.png" /> do Shift <img src="img_shiftkey.png" />. Wyświetli się lista wyboru słów z opcjami wpisywania wielkich liter, pozwalając na wybranie pisania od małej litery, od wielkiej litery lub wersalikami.</li>
+
+											<li><span class="gestures">Interpunkcja</span> Prosty sposób na wprowadzenie interpunkcji – przesuń palcem od znaku zapytania, przecinka, kropki lub innego znaku do klawisza spacji zamiast dotykać go.</li>
+
+											<li><span class="gestures">Zaznacz Wszystko, Wytnij, Kopiuj i Wklej.</span>
+												Zaznacz wszystko: Przesuń palcem Swype od <img src="img_swypekey.png" /> do &#39;a&#39;<br />
+												Wytnij: Przesuń palcem Swype od <img src="img_swypekey.png" /> do &#39;x&#39;<br />
+												Kopiuj: Przesuń palcem Swype od <img src="img_swypekey.png" /> do &#39;c&#39;<br />
+												Wklej: Przesuń palcem Swype od <img src="img_swypekey.png" /> do &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Skróty aplikacji</span>Mapa Google Przesuń palcem od <img src="img_swypekey.png" /> do &#39;g&#39; i następnie &#39;m&#39;</li>
+											<li><span class="gestures">Szukaj</span>Zaznacz tekst i przeciągnij palcem od <img src="img_swypekey.png" /> do S w celu szybkiego wyszukania w sieci</li>
+											<li><span class="gestures">Przejście do ostatnio używanego języka.</span>Używając wielu języków, można szybko wrócić do poprzedniego języka przeciągając palcem od <img src="img_swypekey.png" /> do klawisza spacji.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Wprowadzanie podwójnych liter
+									<div id="ul_1n" class="closed">
+										<p>Aby poprawić dokładność podczas wprowadzania podwójnych liter, należy lekko przekreślić lub wykonać pętlę na danej literze. Aby na przykład wprowadzić „nn” w słowie „cenny”, przekreśl literę „n”. Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Zmiana słowa
+									<div id="ul_1d" class="closed">
+										<p>Aby zaakceptować sugerowane słowo w liście wyboru, po prostu kontynułuj pisanie. W przeciwnym wypadku należy przewinąć listę i wybrać żądane słowo. Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+										<p>Aby wybrać tekst z listy, zrób palcem kolisty ruch, a przeczytane zostaną pozycje listy. Ruch w kierunku zgodnym z ruchem wskazówek zegara powoduje przechodzenie do kolejnych pozycji listy, w kierunku przeciwnym – do poprzednich. Podniesienie palca powoduje wybranie ostatniej odczytanej pozycji listy. Aby wybrać słowo z listy wyboru słów, przesuwaj palec z klawiatury w górę do momentu, gdy zostanie odczytane pierwsze słowo z listy, a następnie zacznij wykonywać kolisty ruch.	Ta funkcja jest dostępna tylko wtedy, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Pisanie słów wielką literą
+									<div id="ul_1e" class="closed">
+										<p>Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+										<p>Aby wprowadzić wielką pierwszą literę słowa, zacznij od pierwszej litery i przesuń palec nad klawiaturę, nie podnosząc go, a następnie wróć do następnej litery słowa.</p>
+										<p>Możesz zmienić rodzaj pisania słowa po wprowadzeniu go, dotykając słowa i przesuwając palec od klawisza <img src="img_swypekey.png" /> do Shift <img src="img_shiftkey.png" />. Wyświetli się lista wyboru słów z opcjami wpisywania wielkich liter, pozwalając na wybranie pisania od małej litery, od wielkiej litery lub wersalikami.</p>
+										<p>Aby wejść do trybu pisania dużych liter CAPS Lock, należy dotknąć dwa razy przycisk Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatyczne wprowadzanie spacji
+									<div id="ul_1f" class="closed">
+										<p>Swype automatycznie wprowadza spację między słowami, gdy wpisujesz kolejne słowo. Funkcję automatycznego wprowadzania spacji można włączyć lub wyłączyć w ustawieniach Swype.</p>
+										<p>Funkcję automatycznego wprowadzania spacji można wyłączyć dla jednego słowa, przeciągając palcem od klawisza spacji do klawisza Backspace.</p>
+										<p>Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Zamiana słowa
+									<div id="ul_1g" class="closed">
+										<p>Zamień słowo, dotykając go i wybierając żądane słowo z listy wyboru albo po prostu podkreśl słowo I wprowadź nowy wyraz. Nowe słowo zastąpi to niewłaściwe.</p>
+										<p>Słowo można podkreślić, dotykając je i uderzając <img src="img_swypekey.png" /> lub podwójnie dotykając słowo.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Przeskakiwanie między literami
+									<div id="ul_1h" class="closed">
+										<p>Możesz unikać niektórych liter, aby otrzymać żądane słowo.</p>
+										<p>Na przykład „piwie” oraz „powie” można wprowadzić przy pomocy tej samej ścieżki – ale uwaga: nie musisz przesuwać się od litery do litery po linii prostej. Unikanie litery „i” podczas przesuwania palca do „w” spowoduje, że pierwsze na liście pojawi się słowo „powie”.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Dodatkowe znaki
+									<div id="ul_1i" class="closed">
+
+										<p>Naciśnij i przytrzymaj klawisz, żeby uzyskać listę alternatywnych znaków dla tego klawisza, takich jak akcentowane litery jak ż i ł, symboli takich jak @ i % oraz liczb.</p>
+
+										<p>Dotknij klawisz Symbole (?123), by przejść do warstwy symboli.</p>
+										<p>Pamiętaj, że WSZYSTKIE znaki można wprowadzić z podstawowej wersji klawiatury (niezależnie od tego, czy są widoczne, czy nie). Możesz Swype&#39;ować, korzystając z tego widoku klawiatury, ale wprowadzane będą jedynie słowa zawierające co najmniej jedną cyfrę lub symbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Dodawanie i usuwanie słów
+									<div id="ul_1j" class="closed">
+										<p>Swype inteligentnie dodaje nowe słowa, których używasz do Twojego Osobistego Słownika.</p>
+										<p>Możesz także dodać słowo, podkreślając je i dotykając <img src="img_swypekey.png" />. Dotknij komunikatu, aby dodać słowo.</p>
+										<p>Aby skasować słowo, naciśnij i przytrzymaj słowo z listy wyboru i dotknij OK w okienku potwierdzenia. Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizacja
+									<div id="ul_1k" class="closed">
+										<p>Swype potrafi szybko dodać słowo do Twojego słownika z Twittera i Gmail. Jak spersonalizować Swype:</p>
+										<ol>
+											<li>Naciśnij i przytrzymaj <img src="img_swypekey.png" />.</li>
+											<li>Z menu Ustawienia Swype wybierz Moje słowa &gt; Personalizacja.</li>
+											<li>Wybierz z opcji personalizacji i wprowadź swoje kwalifikacje.</li>
+											<li>Możesz spersonalizować Swype z jednego lub wszystkich źródeł.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Mów</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Możesz mówić, aby wprowadzić treść tekstu dla różnych zastosowań – począwszy od tekstu i wiadomości e&#45;mail po aktualizacje Facebooka i Twittera.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Dowiedz się więcej <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Interpunkcja
+									<div id="ul_2a" class="open">
+										<p>Nie ma potrzeby ręcznego dodawania interpunkcji. Powiedz, jaką chcesz interpunkcję i kontynuuj. Spróbuj:</p>
+										<ol>
+											<li>Naciśnij klawisz głos i zacznij mówić.</li>
+											<li>Powiedz: <i>Obiad był pyszny wykrzyknik</i></li>
+											<li>Otrzymasz: <i>Obiad był pyszny!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>W niektórych klawiaturach opcja głosowego wprowadzania nie jest dostępna</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Pisz</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Możesz palcem nakreślić litery i słowa, a Swype zamieni je w tekst. Możesz nakreślić litery i słowa palcem od lewej do prawej lub od góry. Naciśnij ABC / 123, aby przechodzić pomiędzy trybami liter i symboli.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Dowiedz się więcej <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Pismo odręczne
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Naciśnij i przytrzymaj klawisz <img src="img_symkey.png" /> i przesuń palec do ikony pisma odręcznego.</li>
+											<li>Nakreśl palcem litery w obszarze odręcznego pisania.</li>
+
+											<li>Dotknij spację pomiędzy każdym wyrazem</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Wielodotykowy gest
+									<div id="ul_3b" class="closed">
+										<p>Wielodotykowy gest umożliwia Ci ukończenie prostych zadań, takich jak nadanie dużych liter słowom lub zmianę małych liter na wielkie.</p>
+										<ol>
+											<li>Nakreśl małe litery na bloku do pisania</li>
+											<li>Po wprowadzeniu znaków pociągnij dwoma palcami w górę po obszarze pisania odręcznego</li>
+											<li>Odręczne pisanie rozpozna gest wielodotykowy i zapisze wielkie litery</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Odręczne pisanie nie jest dostępne na niektórych klawiaturach.</i></p>
+									<p><i>Ta funkcja nie jest dostępna, gdy usługa dostępności systemu Przeglądaj po kontakcie jest włączona.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Pisz</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradycyjna forma ręcznego wprowadzania tekstu za pomoca klawiatury. Wprowadzanie poprzez dotyk na klawiaturze Swype jest łatwiejsze i bardziej efektywne dzięki kilku pomocnym cechom:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Dowiedz się więcej <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Korekta niedbałego wprowadzania
+									<div id="ul_4a" class="open">
+										<p>Nie musisz wprowadzać dokładnie każdej litery. Spróbuj jak najlepiej możesz, a Swype inteligentnie poda sugestie słów.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Kończenie wyrazów
+									<div id="ul_4b" class="closed">
+										<p>Swype także może zgadnąć twoje słowo, kiedy wprowadzisz tylko kilka liter.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Języki</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Zmiana języka używając klawiatury: Naciśnij i przytrzymaj klawisz spacji. Wybierz żądany język z wyskakującego menu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect umożliwia dostarczanie aktualizacji i zapewnia funkcjonalność Twojego urządzenia! Swype Connect działa pod 3G, zawsze jednak zalecamy połączenie Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Dowiedz się więcej <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Pobieranie jezyków
+									<div id="ul_6a" class="open">
+										<p>Dodawanie dodatkowych języków do Swype jest proste:</p>
+										<ol>
+											<li>Naciśnij i przytrzymaj klawisz <img src="img_swypekey.png" /> i wybierz opcję Języki.</li>
+											<li>Z menu opcji Języki wybierz opcję Pobierz języki.</li>
+											<li>Kliknij język, a pobieranie rozpocznie się automatycznie.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect nie jest dostępny na wszystkich klawiaturach.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Dodatkowa pomoc</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Więcej wskazówek dotyczących użytkowania Swype można znaleźć w instrukcji użytkownika Swype oraz w dziale porad i w filmach wideo na stronie <a href="http://www.swype.com">www.swype.com</a>, można też wejść na forum Swype online na stronie <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">रायज्लाय</a></div>
+				<div><a href="#write">लिर</a></div>
+				<div class="last"><a href="#tap">टाइप</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swypeनि जोहै, नोंथाङा मोनब्रै गुबुन&#45;गुबुन इनपुत मड &#45; फारियै Swype, स्पिक, राइट एबा आसिजों थुनाय खाबुफोरखौ मोनगोन ।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swypeआ हांखोफोरखौ गोख्रैयै सोनोहानाय मोनसे राहा । बेयो नोंथांखौ आखिनानैनो हांखो सोनोहोगोन । सोदोबनि गिबि हांखोयाव आसिखौ दोन आरो जोबथा हांखोनि उनाव आसिखौ दैखो&#45;दैखो मोनसे हांखोनिफ्राइ गुबुन मोनसे हांखोसिम मोनसे लामा बानाय । Swypeआ स्पेस नांगौ जायगायाव स्पेस गालांगोन।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							बांसिन मिथिनोब्ला  <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype कि
+									<div id="ul_1a" class="open">
+										<p>Swype किया जादों Swype लग&#39; थानाय मोनसे कि । Swype सेटिंयाव थांनो थाखाय Swype किखौ नारसिन्नानै दसे सम लाहाब ।</p>
+										<p>Swype किखौ आरोबाव गोबां रोखोमनि Swype जेस्चारफोरखौ जागायजेन्नायावबो बाहायनाय जायो ।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    किबर्ड प्रिभिउ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype जेस्चार्स
+									<div id="ul_1b" class="closed">
+										<p>Swype जेस्चारफोरा खामानिखौ थाबै मावनो थाखाय किबर्डनि सर्टकाट । सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</p>
+										<ul>
+											<li><span class="gestures">एडिट किबर्डआव थांनाय</span> एडिट किबर्डआव थांनोब्ला किबर्डनि <img src="img_swypekey.png" /> निफ्राइ सिम्बल कि (?123) सिम स्वाइप खालाम ।</li>
+											<li><span class="gestures">अन्जिमा किबर्डआव थांनाय</span> अन्जिमा किबर्डआव थाबैनो थांनो थाखाय, <img src="img_swypekey.png" /> निफ्राइ अन्जिमा 5 याव स्वाइप खालाम ।</li>
+											<li><span class="gestures">किबर्डखौ दोनखुमानाय</span> किबर्डखौ दोनखुमानो थाखाय, Swype किनिफ्राइ उनथावनि किसिम बोलां ।</li>
+
+											<li><span class="gestures">अट‘मेटिक स्पेसिंखौ बन्द खालामनाय</span> स्पेस किनिफ्राइ उनथावनि किसिम स्वाइप खालामनायनि जोहै गुबुन सोदोबा ओंखारनायनि आगोलावनो अट‘मेटिक स्पेसिंखौ साप्रेस खालाम ।</li>
+
+
+											<li><span class="gestures">थाद‘हांखोफोर</span> थाद‘हांखो सोनायनि गोल्लै राहाया जादों बेफोरखौ आसिजों थुनायनि सोलायै सोंलु हांखो, कमा, पेरियड एबा गुबुन थाद‘हांखोफोरनिफ्राइ स्पेस किसिम स्वाइप खालामनाय ।</li>
+
+											<li><span class="gestures">एप्लिकेसन सर्टकाट</span>Google Maps: </li>
+											<li><span class="gestures">सार्स</span>थाबैनो वेब सार्स खालामनो थाखाय माखासे टेक्सखौ हाइलाइट खालाम आरो <img src="img_swypekey.png" /> निफ्राइ S सिम बोना लां ।</li>
+											<li><span class="gestures">जोबथा राव बाहायनायखौ बेखेवनाय</span>मोनसेनि बारा राव बाहायनाय समाव, आगोलनि रावयाव थाबैनो थांफिन्नो थाखाय <img src="img_swypekey.png" /> निफ्राय स्पेस किसिम बोलां ।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									मोन्नै हांखो लिरनाय
+									<div id="ul_1n" class="closed">
+										<p>मोन्नै हांखो लिरनाय समाव, थार जानायखौ रोखा खालामनो थाखाय लासै&#45;लासैयै लिर एबा हांखोनि सोरगिदिं मोनसे बेंखन बानाय । बिदिन्थि बादियै, &quot;उत्तर&quot; आव &quot;त्त&quot; खौ दिहुननो थाखाय &quot;त्&quot; कियाव लिर । सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									मोनसे सोदोब सायख&#39;नाय
+									<div id="ul_1d" class="closed">
+										<p>सायख&#39;जानाय सोदोब फारिनिफ्राइ बिथोन होजानाय अनानुजाथि सोदोबखौ गनायनो थाखाय, आसिखौ लांलाय&#45;लाबोलाय खालामबाय था । नङाब्ला, गावनि आसिखौ फारिनि सायाव लांलाय&#45;लाबोलाय खालामबाय था आरो नोंनो नागौ सोदोबखौ सायख&#39; । सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</p>
+										<p>मोनसे फारिनिफ्राइ हांखोखौ सायख&#39;नो, फारिनि एनट्रिखौ खोनासंनो थाखाय गावनि आसिखौ बेंखन खारथायाव फिदिं । सिगां फारसे बारनो थाखाय फारियाव घरिनि खारथाय दिगाव फिदिं आरो उल्था थांफिननो थाखाय फारियाव घरिनि उल्था खारथाय दिगाव फिदिं । आसिखौ दैखोयोब्ला फारिनि जोबथा रायज्लायनाय सोदोबा ओंखारो । सायख&#39;जानाय सोदोब फारिनिफ्राइ मोनसे सोदोब सायखनो, किबर्डनि सानिफ्राइ गावनि आसिखौ फारियाव थानाय गिबि सोदोबखौ खोनायागौमानि स्लाइड खालामबाय था बेनि उनाव आसिखौ बेंखन खारथायाव फिदिं ।	सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ खुलिना दोनब्लाल&#39; बे राहाखौ मोननो हागोन ।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									अट&#39;मेतिक स्पेसिं
+									<div id="ul_1f" class="closed">
+										<p>नोंथाङा बाथ्रानि गुबुन मोनसे सोदोबखौ स्वाइप खालामनाय लोगो&#45;लोगोनो Swypeआ गावनो&#45;गाव सोदोबनि गेजेराव मोनसे जायगा गालांखायो । नोंथाङा Swype सेटिंआव अट&#39;&#45;स्पेसिं फिसारफोरखौ अन एबा अफ खालामनो हायो ।</p>
+										<p>स्पेस किनिफ्राइ उनथावनि किसिम बोलांनानै मोनसे सोदोबनि थाखाय अट&#39;&#45;स्पेसिंखौ बन्द&#39; खालामनो हायो ।</p>
+										<p>सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									मोनसे सोदोब सोलाइनाय
+									<div id="ul_1g" class="closed">
+										<p>सोदोबखौ सोलायनो थाखाय बे सोदोबखौ सायख&#39;, बेनि उनाव सायख&#39;जानाय सोदोब फारिनिफ्राइ नांगौ सोदोबखौ सायख&#39;, एबा सोलायनो गोनां सोदोबखौ सायख&#39;नानैनो थोंजोङै नांगौ सोदोबखौ लाबोना सोलायनो हायो । गोदान सोदोबा गोरोन्थिनि जायगाखौ लागोन ।</p>
+										<p>सोदोबनि सायाव क्लिक खालामनानै आरो <img src="img_swypekey.png" /> खौ थुनानै एबा सोदोबनि सायाव खेबनै क्लिक खालामनानै मोनसे सोदोबखौ सायख&#39;नो हायो ।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									हांखोफोरनि गेजेराव बाउन्सिं जानाय
+									<div id="ul_1h" class="closed">
+										<p>माब्लाबा स्वाइपिं खालामनाय समाव हांखोफोरखौ एंगारनाया नों नागिरजेन्नाय सोदोबखौ मोन्नायनि गरन्थ&#39; होयो ।</p>
+										<p>बिदिन्थि, मोनसेनो लामाजों &quot;अटकलना&quot; आरो &quot;अटकना&quot; खौ बेंनो हायो&#45;नाथाय गोसोयाव लाखि, नों मोनसे गोथों सारिजों हांखांनिफा्रय हांखोसिम दावनो हानाय नङा। नोंथाङा गावनि आसिखौ &quot;न&quot; नि सायाव लांनाय समाव &quot;ক&quot; खौ एंगारनाया &quot;अटकना&quot; सोदोबखौ सायख&#39;जानाय सोदोब फारिनियाव गिबि होनना दिन्थियो ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									अल्टार्नेट आखुथायफोर
+									<div id="ul_1i" class="closed">
+
+										<p>बे किनि थाखाय गुबुन आखुथाइनि फारि लाबोनो थाखाय कियाव गोबाव सम थुहाबना ला, बिदिन्थि बादियै सिम्बलफोर जेरै @ आरो % आरो अनजिमाफोर ।</p>
+
+										<p>सिम्बल किबर्डआव थांनो थाखाय सिम्बल कियाव (?123) आसिजों थु ।</p>
+										<p>गोसोआव लाखि गासैबो आखुथाइफोरानो गुबै किबर्डनिफ्राइ स्वाइप खालामजायो (नों बेफोरखौ नुनोबो हागौ एबा नुवाबो जानो हागौ)। किबर्डनि बे भिउखौ बाहायनानै नोंथाङा स्वाइप खालामनो हागोन, नाथाय नोंथाङा खमावबो मोनसे अन्जिमा एबा सिम्बल गोनां सोदोबल‘सो मोनगोन ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									सोदोबफोर दाजाबनाय एबा बोखारनाय
+									<div id="ul_1j" class="closed">
+										<p>Swypeआ नोंथांनि गावारि सोदोब बिहुङाव बाहायनाय जायखिजाया गोदान सोदोबफोरखौ दाजाबो ।</p>
+										<p>नोंथाङा आरोबाव मोनसे सोदोबखौ हाइलाइट खालामनानै आरो <img src="img_swypekey.png" /> याव आसिजों थुनानैबो मोनसे सोदोबखौ दाजाबनो हायो । सोदोबखौ दाजाबनो थाखाय थानाय फारियाव नुजानाय प्रम्पटआव आसिजों थु।</p>
+										<p>मोनसे सोदोबखौ खोमोरनो थाखाय, सायखजानाय सोदोब फारियाव थानाय सोदोबखौ गोबाव सम नारसिन ला, बेनि उनाव कनफार्मेसन डाइलगाव थानाय गाहामआव आसिजों थु । सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									आंगो खालामनाय
+									<div id="ul_1k" class="closed">
+										<p>Swypeआ Twitter आरो Gmailफोरनिफ्राइ नोंथांनि सोदोब बिहुङाव सोदोबफोरखौ दाजाबदेरनो हायो । Swypeखौ आंगो खालामनाय :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> खौ नारसिन आरो हम्था ।</li>
+											<li>Swype सेटिं मेनुनिफ्राइ माइ वार्ड्स&gt; पार्सनेलाइजेसनखौ सायख&#39;।</li>
+											<li>आंगो अप्सननिफ्राइ साइख‘ आरो गावनि क्रेडेनसियेलखौ नांगौब्ला सोनानै हो ।</li>
+											<li>नोंथाङा Swypeखौ मोनसे एबा गोबां सर्सफोरनिफ्राइ आंगो खालामनो हागोन ।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">रायज्लाय</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>नोंथाङा हांखो आरो इमैल मेसेजनिफ्राइ लानानै Facebook आरो Twitter आपडेटसिम गासैबो रोखोमनि हांखो थानायफोरखौ सोनो थाखाय रायज्लायनो हायो ।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							बांसिन मिथिनोब्ला  <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									थाद‘हांखोफोर
+									<div id="ul_2a" class="open">
+										<p>थाद‘ हांखोफोरखौ गोसो बादि दाजाबदेरनो गोनां जाया । नांगौ जानाय पांचुयेसनफोरखौ थांखिनानै बुं आरो दावगालां । बेखौ नाजाः</p>
+										<ol>
+											<li>भइस किखौ नारसिन्नानै रायज्लायनो हम ।</li>
+											<li>नों मा होनोः <i>हरनि जानाया गोथावथारमोन थाद‘हांखो बिन्दो</i></li>
+											<li>नों मा मोनखोः <i>हरनि जानाया गोथावथारमोन !</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>माखासे किबर्डआव भइस इनपुट थाया </i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">लिर</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>हांखोफोर आरो सोदोबफोरखौ दानो थाखाय नोंथाङा गावनि आसिजोंबो आखिनो हागोन, Swypeआ गाव हारसिंनो बेखौ हांखोआव सोलायगोन । नोंथाङा हांखोफोरखौ आक्सिनिफ्राइ आक्दाथिं एबा गोजौआवबो आखिनो हागोन । हांखो आरो सिम्बल मडनि गेजेराव सोलाय&#45;सोल&#39; खालामनो थाखाय ABC / 123 आव थु ।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							बांसिन मिथिनोब्ला  <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									आखायजों लिरनायखौ दिन्थिनाय
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> खौ नारसिन आरो हम्थानानै गावनि आसिखौ हेन्डराइटिं आइकनाव लां ।</li>
+											<li>हेन्डराइटिं एरियाआव गावनि आसिजों हांखोफोरखौ आखि ।</li>
+
+											<li>मोनफ्रोमबो सोदोबनि गेजेराव स्पेस बाराव आसिजों थुना हो </li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									माल्टि&#45;टाच जेस्चार
+									<div id="ul_3b" class="closed">
+										<p>माल्टि&#45;टाच गेस्चारनि गेजेरजों नोंथाङा सरासंस्रा हाबाफोरखौ मावफुंनो हागोन, जेरै सोदोब एबा हांखोफोरखौ गेदेर खालामनाय ।</p>
+										<ol>
+											<li>द्रयिं पेडाव माखासे फिसा हांखोफोरखौ लिर </li>
+											<li>हांखोफोरखौ सोनायनि उनाव नोंथांनि आसि थाइनैखौ लिरग्रा जायगानि गोजौ फारसे बोलां </li>
+											<li>हेन्डराइटिं फिचारआ माल्टि&#45;टाच गेस्चारखौ गनायगोन आरो हांखोफोरखौ गेदेर महराव सोलायगोन </li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>माखासे किबर्डफोराव आखायजों लिरनाय थाया ।</i></p>
+									<p><i>सिस्टेम एक्सिसिबिलेटि सार्भिस एक्सप्लर&#45;बाइ&#45;टाचखौ बन्द&#39; खालामना दोनब्ला बे राहाखौ मोननो हानाय नङा ।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">टाइप</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>मेनुएल किबर्ड इनपुतनि त्रेडिसनेल फर्म Swype किबर्डयाव थानाय टेप इनपुतआ माखासे गोनां फिचारफोरनि जोहै बेखौ गोरलैसिन आरो गेबेंसिन खालामो:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							बांसिन मिथिनोब्ला  <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									गोख्रै टाइप खालामनायखौ फोसाबनाय
+									<div id="ul_4a" class="open">
+										<p>नों मोनफ्रोमबो हांखोखौ आबुङै आसिजों थुलाइनो नांलाया । नों हागौमानि नाजा आरो Swypeआ गावनो&#45;गाव आबुङै सोदोबनि बिथोन होगोन ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									सोदोब जाफुंनाय
+									<div id="ul_4b" class="closed">
+										<p>नों माखासे हांखोयाव आसिजों थुब्लानो Swypeआ नोंनि सोदोबखौ अनुमान खालामनो हायो ।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">रावफोर</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>किबर्डनिफ्राइ रावखौ बेखेवनाय: स्पेस बारखौ नारसिन आरो हम्था । पपआप मेनुनिफ्राइ नांगौ रावखौ साइख‘।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connectआ जोंनो गावनि डिभाइसआव आपडेट खालामनो आरो गोनां हाबाफारि मावनो हानायनि खाबु होयो! Swype Connectखौ जेब्ला 3G आव बाहायो अब्ला जों अरायबो Wi&#45;Fi कानेक्सन लानो बिथोन होजागोन ।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							बांसिन मिथिनोब्ला  <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									राव डाउनल&#39;ड खालामनाय
+									<div id="ul_6a" class="open">
+										<p>Swype आव गुबुन रावफोरखौ जरायनाया गोरलैथारः</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> खौ नारसिन आरो हम्था आरो रावखौ सायख‘।</li>
+											<li>राव मेनुनिफ्राइ, डाउनल‘ड रावखौ साइख‘।</li>
+											<li>मेनसे रावआव क्लिक खालामब्लानो नोंनि डाउनल‘डा गावनोगाव जागोन ।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connectखौ गासिबो किबर्डफोराव मोनजोबा।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">बांसिन मदत</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype बाहायनायनि बागै गोबांसिन मदतनि थाखाय, Swype इउजार मेनुवेल आरो टिप्सफोरखौ नायनो हागोन आरो <a href="http://www.swype.com">www.swype.com</a> आव भिडिअ&#39;फोर नायनो हागोन एबा Swype फराम अनलाइनखौ <a href="http://forum.swype.com">forum.swype.com</a> आव नायनो हागोन ।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

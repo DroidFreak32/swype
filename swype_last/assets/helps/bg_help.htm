@@ -1,0 +1,342 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Говор</a></div>
+				<div><a href="#write">Писане</a></div>
+				<div class="last"><a href="#tap">Докосване</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Със Swype имате възможност да превключвате безпроблемно между четири различни режима на въвеждане – Swype, Говор, Писане или Докосване.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype е бърз метод за въвеждане на текст. Той Ви позволява да пишете думи, кaтo съединявате буквите с линия. Поставете пръст върху първата буква на думата и прокарайте пътека от буква на буква, като вдигнете пръста си след последната буква. Swype ще постави интервали, където е необходимо.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Научете още <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Бутон Swype
+									<div id="ul_1a" class="open">
+										<p>Бутонът Swype е бутонът с логото на Swype. За отваряне на настройките на Swype натиснете и задръжте бутона Swype.</p>
+										<p>Бутонът Swype се използва и за стартиране на много от движенията на Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Преглед на клавиатурата
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Специални движения на Swype
+									<div id="ul_1b" class="closed">
+										<p>Специалните движения на Swype са клавишни комбинации за бързо изпълнение на често извършвани задачи. Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+										<ul>
+											<li><span class="gestures">Придвижване до клавиатура Редактиране</span> За да стигнете до клавиатура Редактиране, плъзнете пръст от <img src="img_swypekey.png" /> до бутона Символи (?123) на клавиатурата.</li>
+											<li><span class="gestures">Придвижване до цифровата клавиатура</span> За бързо придвижване до цифровата клавиатура плъзнете пръст от бутона <img src="img_swypekey.png" /> до цифрата 5.</li>
+											<li><span class="gestures">Скриване на клавиатурата</span> Можете лесно да скриете клавиатурата с плъзгане на пръста от бутона Swype до бутона backspace.</li>
+
+											<li><span class="gestures">Изключване на автоматичното поставяне на интервали</span> За изключване на автоматичното поставяне на интервал пред следващата дума плъзнете пръст от клавиша за интервал до клавиша „Изтриване на предишен знак”.</li>
+
+
+											<li><span class="gestures">Редактиране на главни/малки букви на дума</span> След въвеждането на думата можете да смените регистъра й, като докоснете думата и плъзнете пръста си от <img src="img_swypekey.png" /> до бутона Shift <img src="img_shiftkey.png" />. Ще се появи Списъкът за избор на думи с възможности за главни букви, позволявайки ви да изберете само малки, Главна Първа или САМО ГЛАВНИ букви.</li>
+
+											<li><span class="gestures">Пунктуация</span> Един лесен начин за въвеждане на препинателните знаци е плъзгане от въпросителния знак, запетайката, точката, или другите препинателни знаци до интервала вместо да ги докосвате.</li>
+
+											<li><span class="gestures">Клавишни комбинации към приложения</span>Карти в Google: Плъзнете от <img src="img_swypekey.png" /> към &#39;g&#39; и след това към &#39;m&#39;</li>
+											<li><span class="gestures">Търсене</span>Маркирайте текст и плъзнете със Swype от <img src="img_swypekey.png" /> към S, за да извършите бързо уеб търсене.</li>
+											<li><span class="gestures">Превключване към последния използван език.</span>Когато ползвате много езици, бързият начин да превключите назад към предишния език, е да плъзнете в Swype от <img src="img_swypekey.png" /> към клавиша Интервал.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Въвеждане на двойни букви
+									<div id="ul_1n" class="closed">
+										<p>За по&#45;голяма точност при въвеждане на двойни букви, драснете леко върху буквата или очертайте кръгче около нея. Например, за да получите „ии“ в „далии“, подраскайте драснете върху бутона „и“. Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Избор на дума
+									<div id="ul_1d" class="closed">
+										<p>За да приемете думата, предложена от Списъка за избор на думи, просто продължете да пишете със Swype. Или прелистете списъка, като прокарате пръст през него и изберете думата, която искате. Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+										<p>За да изберете текст от списъка, направете кръгово движение с пръста си, за да чуете записите в списъка. С движение по посока на часовниковата стрелка се придвижвате напред в списъка; с движение, обратно на часовниковата стрелка, се придвижвате назад в списъка. При вдигане на пръста се възпроизвежда последно изговореното въвеждане в списъка. За да изберете дума в списъка за избор на думи, плъзнете пръста си нагоре от клавиатурата, докато не се чуе първата дума в списъка, след което започнете кръговото движение.	Тази функция е налична само когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Изписване на главна буква на думи
+									<div id="ul_1e" class="closed">
+										<p>Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+										<p>Главна буква на дума се изписва, като плъзнете пръст от първата буква нагоре над клавиатурата и, без да го вдигате, го плъзнете надолу до следващата буква в думата.</p>
+										<p>След въвеждането на думата можете да смените регистъра й, като докоснете думата и плъзнете пръста си от <img src="img_swypekey.png" /> до бутона Shift <img src="img_shiftkey.png" />. Ще се появи Списъкът за избор на думи с възможности за главни букви, позволявайки ви да изберете само малки, Главна Първа или САМО ГЛАВНИ букви.</p>
+										<p>За да въведете режим САМО ГЛАВНИ, просто докоснете два пъти бутона Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Автоматично поставяне на интервали
+									<div id="ul_1f" class="closed">
+										<p>Swype автоматично слага интервали между думите, когато пишете следващата дума от изречението. Можете да включите и изключите автоматичното поставяне на интервали от Настройки на Swype.</p>
+										<p>Автоматичното поставяне на интервали може да се изключи за една дума, като плъзнете от бутона интервал до бутона за изтриване Backspace.</p>
+										<p>Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Промяна на дума
+									<div id="ul_1g" class="closed">
+										<p>За да заместите дума, докоснете я и след това изберете желаната дума от Списъка за избор на думи или просто подчертайте думата и напишете нова. Новата дума ще замести грешната.</p>
+										<p>Дума може да бъде подчертана като я докоснете и натиснете <img src="img_swypekey.png" /> или с двойно докосване на думата.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Избягване на букви
+									<div id="ul_1h" class="closed">
+										<p>Понякога избягването на някои букви при плъзгането на пръста гарантира, че ще получите желаната дума от първи опит.</p>
+										<p>Например, „тип“ и „топ“ могат да се очертаят с една и съща пътека – но обърнете внимание, че не е необходимо да минавате от буква на буква в права линия. Ако избегнете „и“, когато плъзгате пръста си до „о“, думата „топ“ ще бъде на първо място в Списъка за избор на думи.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Алтернативни знаци
+									<div id="ul_1i" class="closed">
+
+										<p>Натиснете и задръжте върху един бутон, за да видите списък с всички знаци, свързани с този бутон, включително букви с ударения като „ й&quot; и „ё&quot;, символи като @ и %, и цифри.</p>
+
+										<p>Докоснете бутона Символи (?123), за да отидете на клавиатурата за Символи.</p>
+										<p>Забележете, че ВСИЧКИ знаци могат да се изпишат по метода Swype от основната клавиатура (без значение дали ги виждате, или не). Можете да пишете с плъзгане и през тази подредба на клавиатурата, но ще се получават само думи с поне една цифра или символ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Добавяне и изтриване на думи
+									<div id="ul_1j" class="closed">
+										<p>Swype добавя новите думи, които използвате, към вашия Личен Речник по интелигентен начин.</p>
+										<p>Също можете да добавите дума като я подчертаете и докоснете <img src="img_swypekey.png" />. Докоснете съобщението, което се появява, за да добавите думата.</p>
+										<p>За да изтриете дума, натиснете и задръжте думата от Списъка за избор на думи и след това докоснете ОК в прозореца за потвърждение. Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Персонализация
+									<div id="ul_1k" class="closed">
+										<p>Swype може бързо да добави дума към Вашия речник от Twitter и Gmail. За да персонализирате Swype:</p>
+										<ol>
+											<li>Натиснете и задръжте <img src="img_swypekey.png" />.</li>
+											<li>От менюто с настройки на Swype изберете Моите думи &gt; Персонализиране.</li>
+											<li>Изберете от опциите за персонализиране и въведете Вашето удостоверение, ако сте го получили.</li>
+											<li>Можете да персонализирате Swype от един или от всички източници.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Говор</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Можете да говорите, за да въведете текстово съдържание за всичко, от текстови и имейл съобщения до актуализации във Facebook и Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Научете още <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Пунктуация
+									<div id="ul_2a" class="open">
+										<p>Не е нужно ръчно въвеждане на пунктуация. Просто кажете пунктуационния знак, който искате, и продължете. Опитайте това:</p>
+										<ol>
+											<li>Натиснете клавиша за глас и започнете за говорите.</li>
+											<li>Какво казвате: <i>Вечерята беше вкусна удивителен знак</i></li>
+											<li>Какво получавате: <i>Вечерята беше вкусна!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>При някои клавиатури няма опция за въвеждане на гласова информация</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Писане</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Можете с пръст да чертаете букви и думи и Swype ще ги превърне в текст. Можете да чертаете букви от ляво на дясно или една върху друга. Натиснете ABC / 123 за превключване между режимите за букви и цифри.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Научете още <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Активира ръкопис
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Натиснете и задръжте <img src="img_symkey.png" /> и плъзнете пръст към иконата за ръкопис.</li>
+											<li>Пишете думи с пръста си в зоната за ръкопис.</li>
+
+											<li>Докоснете клавиша за интервал между думите</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Специални движения за многократно избиране
+									<div id="ul_3b" class="closed">
+										<p>Специалните движения за многократно избиране Ви позволяват да извършите лесни задачи, като например, прехвърляне на думи или букви в главни букви.</p>
+										<ol>
+											<li>Напишете няколко малки букви на подложката за писане</li>
+											<li>След като въведете знаците, плъзнете два пръста нагоре върху зоната за писане</li>
+											<li>Функцията за ръкопис ще разпознае движението за многократно избиране и ще прехвърли буквите в главни</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>При някои клавиатури няма опция за ръкопис.</i></p>
+									<p><i>Тази функция не е достъпна, когато услугата за достъпност на системата Разгледайте чрез Touch е включена.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Докосване</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Традиционна форма за въвеждане чрез ръчна клавиатура. Въвеждането чрез докосване на клавиатурата Swype е улеснено и е по&#45;ефикасно вследствие на няколко полезни функции:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Научете още <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Корекция на небрежно писане
+									<div id="ul_4a" class="open">
+										<p>Не е необходимо да изписвате всяка буква перфектно. Просто опитайте най&#45;доброто, което можете, и Swype ще Ви предложи интелигентно думи.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Дописване (довършване) на думата
+									<div id="ul_4b" class="closed">
+										<p>Swype също може да познае Вашата дума, когато сте докоснали само няколко букви.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Езици</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>За смяна на език от клавиатурата: Натиснете и задръжте бутона интервал. Изберете предпочитания от Вас език от изскачащото меню.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ни позволява да доставяме актуализаци и голяма функционалност направо във Вашето устройство! Тъй като Swype Connect ще работи с 3G, препоръчваме винаги да намирате Wi&#45;Fi връзка.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Научете още <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Изтегляне на езици
+									<div id="ul_6a" class="open">
+										<p>Добавянето на езици в Swype е лесно:</p>
+										<ol>
+											<li>Натиснете и задръжте <img src="img_swypekey.png" /> и изберете „Езици”.</li>
+											<li>От менюто „Езици” изберете „Изтегляне на езици”.</li>
+											<li>Натиснете върху един език и изтеглянето ще започне автоматично.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>При някои клавиатури няма опция за Swype Connect.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Още помощ</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>За допълнителна помощ относно ползването на Swype влезте от телефона си на <a href="http://www.swype.com">www.swype.com</a>, разгледайте ръководството за потребители на Swype, както и съветите и видеоинструкциите, или разгледайте Swype Forum в Интернет на <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

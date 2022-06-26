@@ -1,0 +1,40 @@
+<html>
+    <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <meta content="True" name="HandheldFriendly" />
+            <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+            <meta name="viewport" content="width=device-width" />
+            <link rel="stylesheet" href="style_welcome.css" type="text/css" />
+            <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_swype.png" class="info" />
+                <h3>Bine ați Venit la Swype!</h3>
+            </div>
+            <div class="content">
+                <p>Introduceți cuvinte cu Swype trasând o urmă prin litere în loc să apăsați fiecare tastă.</p>
+                <div class="image">
+            		<img src="en_WhatIsSwype.png" alt="" /><br />
+                	<b>rapid</b>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.showHelp()">
+                        Aflați mai multe
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        Anulare
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

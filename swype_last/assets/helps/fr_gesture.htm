@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Gestes Swype</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>SELECTIONNER TOUT:</b> Swyper de <img src="img_swypekey.png" /> vers «a»
+                </p>
+                <p>
+                    <b>COPIER:</b> Swyper de <img src="img_swypekey.png" /> vers «c»
+                </p>
+                <p>
+                    <b>COUPER:</b> Swyper de <img src="img_swypekey.png" /> vers «x»
+                </p>
+                <p>
+                    <b>COLLER:</b> Swyper de <img src="img_swypekey.png" /> vers «v»
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        Ne plus afficher
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        Annuler
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

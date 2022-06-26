@@ -1,0 +1,307 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">និយាយ</a></div>
+				<div><a href="#write">សរសេរ</a></div>
+				<div class="last"><a href="#tap">វាយ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">ជាមួយ Swype អ្នក​មាន​លទ្ធភាព​ប្ដូរ​ដោយ​រលូន ​​រវាង​របៀប​បញ្ចូល​ខុសៗ​គ្នា​ចំនួន​បួន &#45; វាសដៃ និយាយ សរសេរ ឬ​ទះ។</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype ​គឺ​ជា​វិធី​លឿន​បំផុត​ក្នុង​ការ​បញ្ចូល​អត្ថបទ។ វាអនុញ្ញាត​ឲ្យ​អ្នក​បញ្ចូល​ពាក្យ​មួយ ដោយ​គូស​​​កាត់តាម​អក្សរ។ ដាក់​ម្រាម​ដៃ​របស់​អ្នក​លើ​អក្សរ​ទី​មួយ​នៃ​ពាក្យ ហើយ​គូស​ផ្លូវ​មួយ​ពី​អក្សរ​មួយ​ទៅ​​អក្សរ​មួយ​ទៀត លើក​ឡើង​លើ​បន្ទាប់​ពី​អក្សរ​ចុង​ក្រោយ។ Swype នឹង​បញ្ចូល​ចន្លោះ​មិន​ឃើញ​នៅ​ពេល​ណា​ចាំបាច់។</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ស្វែងយល់​បន្ថែម. <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									គ្រាប់​ចុច Swype.
+									<div id="ul_1a" class="open">
+										<p>គ្រាប់​ចុច Swype គឺ​ជា​គ្រាប់​ចុច​ដែល​មាន​ឡូហ្គោ Swype លើ​វា។ សង្កត់ និង​កាន់​គ្រាប់​ចុច Swype ដើម្បី​ចូល​ដំណើរការ​ការ​កំណត់ Swype។</p>
+										<p>គ្រាប់​ចុច Swype ក៏​ត្រូវ​បាន​ប្រើ​សម្រាប់​ចាប់ផ្ដើម​កាយវិការ​ជាច្រើន​របស់ Swype ផងដែរ។</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    មើល​ក្ដារ​ចុច​ជា​មុន
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									កាយវិការ​ Swype
+									<div id="ul_1b" class="closed">
+										<p>កាយវិការ Swype គឺជា​ផ្លូវកាត់​នៅ​លើ​ក្ដារ​ចុច ដើម្បី​សម្រេច​កិច្ចការ​ងាយៗ។ លក្ខណៈពិសេសនេះ​មិនអាចប្រើបានទេ​នៅពេលសេវាកម្មប្រើប្រាស់​ប្រព័ន្ធ​ស្វែងរក​ដោយ ថាច់(Touch) ត្រូវបានបើក។​</p>
+										<ul>
+											<li><span class="gestures">ការ​ទៅកាន់​ក្ដារ​ចុច​កែសម្រួល</span> ដើម្បី​ទទួល​បាន​ក្ដារ​ចុច​កែ​សម្រួល សូម​វាស​ដៃ​ពី <img src="img_swypekey.png" /> ទៅ​កាន់​គ្រាប់​ចុច​និមិត្ត​សញ្ញា (?123) នៅ​លើ​ក្ដារ​ចុច។</li>
+											<li><span class="gestures">ការ​ទៅ​កាន់​ក្ដារ​ចុច​លេខ</span> ដើម្បី​ទៅកាន់​ក្ដារ​ចុច​លេខ​ឆាប់​រហ័ស សូម​វាស​ដៃ​ពី <img src="img_swypekey.png" /> ទៅ​កាន់​លេខ 5។</li>
+											<li><span class="gestures">ការ​លាក់​ក្ដារ​ចុច</span> ដើម្បី​លាក់​ក្ដារ​ចុច​ដោយ​ងាយ​ស្រួល គ្រាន់តែវាស​ដៃ​ពី​គ្រាប់ចុច ​ Swype ​ទៅ​កាន់​គ្រាប់ចុច​លុប។</li>
+
+
+											<li><span class="gestures">សញ្ញា​វណ្ណយុត្តិ</span> វិធី​សាមញ្ញ​ក្នុង​ការ​បញ្ចូល​សញ្ញា​វណ្ណយុត្តិ​គឺ វាស​ដៃ​ពី​សញ្ញា​សួរ សញ្ញា​ក្បៀស សញ្ញា​ខ័ណ្ឌ ឬ​សញ្ញា​វណ្ណយុត្តិ​ផ្សេងទៀត​​ទៅ​កាន់​គ្រាប់​ចុច​ចន្លោះ​មិន​ឃើញ ជំនួស​ឲ្យ​ការ​ទះ​លើវា។</li>
+
+											<li><span class="gestures">ផ្លូវកាត់​កម្មវិធី</span>Google Maps: វាស​ដៃ​ពី <img src="img_swypekey.png" /> ទៅកាន់ &#39;g&#39; បន្ទាប់​មក &#39;m&#39;.</li>
+											<li><span class="gestures">ស្វែងរក</span>បន្លិច​ពណ៌​អត្ថបទ​ខ្លះ ហើយ​វាស​ដៃ​ពី <img src="img_swypekey.png" /> ទៅកាន់ S ដើម្បី​ធ្វើ​ការ​ស្រាវជ្រាវ​វ៉ិបសាយ​ឆាប់​រហ័ស។</li>
+											<li><span class="gestures">ការ​ប្ដូរ​ទៅជា​ភាសា​ចុង​ក្រោយ​ដែល​បាន​ប្រើ។</span>ពេល​កំពុង​ប្រើ​ភាសា​ច្រើន វិធី​លឿន​ក្នុងការ​ប្ដូរ​​ត្រឡប់​ទៅ​កាន់​ភាសា​មុន​វិញ​គឺ វាស​ដៃ​ពី <img src="img_swypekey.png" /> ទៅ​កាន់​គ្រាប់​ចុច​ចន្លោះ​មិន​ឃើញ។</li>
+										</ul>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ការ​ជ្រើសរើស​ពាក្យ​មួយ
+									<div id="ul_1d" class="closed">
+										<p>ដើម្បី​យល់ព្រម​ចំពោះ​ពាក្យ​លំនាំដើម​ដែល​បាន​ផ្ដល់​យោបល់​នៅ​ក្នុង​បញ្ជី​ជម្រើស​ពាក្យ គ្រាន់​តែ​បន្ត​ការ​វាស​ដៃ​ប៉ុណ្ណោះ។ ពុំ​ដូច្នោះ​ទេ រមូរ​កាត់​តាម​បញ្ជី​នោះ​ដោយ​អូស​ម្រាម​ដៃ​របស់​អ្នក ហើយ​ជ្រើស​យក​ពាក្យ​ដែល​អ្នក​ចង់​បាន។ លក្ខណៈពិសេសនេះ​មិនអាចប្រើបានទេ​នៅពេលសេវាកម្មប្រើប្រាស់​ប្រព័ន្ធ​ស្វែងរក​ដោយ ថាច់(Touch) ត្រូវបានបើក។​</p>
+										<p>ដើម្បី​ជ្រើស​រើស​អត្ថបទ​ពី​បញ្ជី ត្រូវ​អូស​ម្រាម​ដៃ​របស់​អ្នក​ជា​រាង​រង្វង់​មួយដើម្បី​ស្តាប់​ឮ​ធាតុ​រាយ​ក្នុង​បញ្ជី។ អូស​បញ្ជី​ទៅ​មុខ​ស្រប​ទិស​នាឡិកា អូស​បញ្ជី​ទៅ​ក្រោយ​បញ្ច្រាស​ទិស​នាឡិកា​ លើក​ម្រាម​ដៃ ដើម្បី​បាន​ធាតុ​ក្នុង​បញ្ជី​ដែល​ទើប​រៀបរាប់​ចុង​ក្រោយ​គេ។ ដើម្បី​រើស​ពាក្យ​មួយ​នៅ​ក្នុង​បញ្ជី​ជម្រើស​ពាក្យ សូម​អូស​ម្រាម​ដៃ​របស់​អ្នក​ពី​ក្ដារ​ចុច​ឡើង​ទៅ​លើ​រហូត​ដល់​អ្នក​ឮ​ពាក្យ​ដំបូង​ក្នុង​បញ្ជី រួច​ចាប់​ផ្ដើម​អូស​ជា​រាង​រង្វង់។	លក្ខណៈពិសេសនេះអាចប្រើបានតែនៅពេលដែលសេវាកម្មប្រើប្រាស់ប្រព័ន្ធស្វែងរកដោយថាច់(Touch) ត្រូវបានបើកប៉ុណ្ណោះ។</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ការ​ជំនួស​ពាក្យ​មួយ
+									<div id="ul_1g" class="closed">
+										<p>ជំនួស​ពាក្យ​មួយ​ដោយ​ទះ​លើ​វា បន្ទាប់​មក​ជ្រើស​យក​ពាក្យ​ដែល​អ្នក​ចង់​បាន​ពី​បញ្ជី​ជម្រើស​ពាក្យ ឬ​គ្រាន់​តែ​បន្លិចពណ៌​​ពាក្យ​នោះ ហើយ​វាស​ដៃ​លើ​ពាក្យ​ថ្មី​មួយ​ទៀត។ ពាក្យ​ថ្មី​នឹង​ជំនួស​ពាក្យ​ដែល​មិន​ត្រឹមត្រូវ​នោះ។</p>
+										<p>ពាក្យ​មួយ​អាច​បន្លិច​ពណ៌​បាន​ដោយ​ទះ​លើ​ពាក្យ​នោះ ហើយ​តប់ <img src="img_swypekey.png" /> ឬ​ទះ​ទ្វេដង​លើ​ពាក្យ​នោះ។</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ការ​ធ្វើ​ឲ្យ​លោត​នៅ​ចន្លោះ​អក្សរ
+									<div id="ul_1h" class="closed">
+										<p>ជួនកាល ការ​ចៀសវាង​អក្សរ​នៅ​ពេល​វាស​ដៃ ធានា​ថា​អ្នក​ទទួល​បាន​ពាក្យ​ដែល​អ្នក​ចង់​បាន​​ជា​លើក​ដំបូង។</p>
+										<p>ឧទាហរណ៍ &quot;ងើយ&quot; និង &quot;ហើយ&quot; អាច​គូស​ជាមួយ​ផ្លូវ​តែ​មួយ &#45; ប៉ុន្តែ​សូម​កត់​សម្គាល់ អ្នក​មិន​ចាំបាច់​ត្រូវ​រំកិល​ពី​អក្សរ​មួយ​ទៅ​អក្សរ​មួយ​ទៀត​​ក្នុង​បន្ទាត់​ត្រង់​ទេ។ ការ​ចៀសវាង &quot;ហ&quot; នៅ​ពេល​វាស​ម្រាម​ដៃ​របស់​អ្នក​ទៅ​កាន់ &quot;យ&quot; ធានា​ថា ពាក្យ &quot;ងើយ&quot; ស្ថិត​នៅ​ដំបូង​គេ​នៅ​ក្នុង​បញ្ជី​ជម្រើស​ពាក្យ។</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									តួ​អក្សរ​ជំនួស
+									<div id="ul_1i" class="closed">
+
+										<p>សង្កត់ និង​កាន់​គ្រាប់​ចុច​មួយ​ឲ្យ​ជាប់​ដើម្បី​នាំ​មក​នូវ​បញ្ជី​តួ​អក្សរ​ជំនួស​សម្រាប់​គ្រាប់​ចុច​នោះ ដូចជា​និមិត្ត​សញ្ញា​ដូចជា @ និង % និង​លេខ។</p>
+
+										<p>ទះ​លើ​គ្រាប់​ចុច​និមិត្ត​សញ្ញា (?123) ដែល​នឹង​ត្រូវ​យក​ទៅ​កាន់​ក្ដារ​ចុច​និមិត្ត​សញ្ញា។</p>
+										<p>សូម​ចំណាំ​ថា តួ​អក្សរ​ទាំងអស់​សុទ្ធ​តែ​អាច​វាស​ដៃ​បាន​ពី​ក្ដារ​ចុច​មេ (ទោះ​ជា​អ្នក​មើល​ឃើញ ឬ​មិន​ឃើញ​វា​ក៏​ដោយ)។ អ្នក​អាច​វាស​ដៃ​ដោយ​ប្រើ​ទិដ្ឋភាព​នេះ​របស់​ក្ដារ​ចុច ប៉ុន្តែ​អ្នក​នឹង​ទទួល​បាន​តែ​ពាក្យ​ទាំងឡាយ​ណា​​ដែល​មាន​យ៉ាង​ហោច​ណាស់​មួយ​លេខ ឬ​មួយ​និមិត្ត​សញ្ញា​ប៉ុណ្ណោះ។</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ការ​បន្ថែម និង​ការ​លុប​ពាក្យ
+									<div id="ul_1j" class="closed">
+										<p>Swype បន្ថែម​​​ពាក្យ​ថ្មីៗ​ដែល​អ្នក​ប្រើ​ទៅ​ក្នុង​វចនានុក្រម​ផ្ទាល់​ខ្លួន​របស់​អ្នក​យ៉ាង​ឆ្លាត​វៃ។</p>
+										<p>អ្នក​ក៏​អាច​បន្ថែម​ពាក្យ​មួយ ដោយ​បន្លិច​ពណ៌​វា និង​ទះ​លើ <img src="img_swypekey.png" />។ ទះ​លើ​ប្រអប់​បញ្ចូល​ដែល​លេច​ឡើង ដើម្បី​បន្ថែម​ពាក្យ​នោះ។</p>
+										<p>ដើម្បី​លុប​ពាក្យ​មួយ សង្កត់ និង​កាន់​ពាក្យ​នោះ​នៅ​ក្នុង​បញ្ជី​ជម្រើស​ពាក្យ ហើយ​បន្ទាប់​មក​ទះ​លើ យល់ព្រម នៅ​ក្នុង​ប្រអប់​អះអាង។ លក្ខណៈពិសេសនេះ​មិនអាចប្រើបានទេ​នៅពេលសេវាកម្មប្រើប្រាស់​ប្រព័ន្ធ​ស្វែងរក​ដោយ ថាច់(Touch) ត្រូវបានបើក។​</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									បដិរូបកម្ម
+									<div id="ul_1k" class="closed">
+										<p>Swype អាច​បន្ថែម​ពាក្យ​​​​ពី Twitter និង Gmail ទៅ​ក្នុង​វចនានុក្រម​របស់​អ្នក​បាន​យ៉ាង​ឆាប់​រហ័ស។ ដើម្បី​តម្រូវ​តាម​បុគ្គល Swype៖</p>
+										<ol>
+											<li>សង្កត់ និង​កាន់ <img src="img_swypekey.png" />។</li>
+											<li>ពី​ក្នុង​មឺនុយ​នៃ​ការ​កំណត់ Swype សូម​ជ្រើស​រើស ពាក្យ​របស់​ខ្ញុំ &gt; ការ​តម្រូវ​តាម​បុគ្គល។</li>
+											<li>ជ្រើស​យក​ពី​ជម្រើស បដិរូបកម្ម ហើយ​បញ្ចូល​លិខិត​តែងតាំង​របស់​អ្នក ប្រសិនបើ​បាន​ប្រាប់។</li>
+											<li>អ្នក​អាច​តម្រូវ​តាម​បុគ្គល Swype ពី​ប្រភព​មួយ ឬ​ទាំងអស់។</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">និយាយ</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>អ្នក​អាច​និយាយ​ដើម្បី​បញ្ចូល​ខ្លឹមសារ​អត្ថបទ​សម្រាប់​អ្វីៗ​ពី​អត្ថបទ និង​សារ​អ៊ីមែល​ទៅកាន់​បន្ទាន់​សម័យ Facebook និង Twitter។</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ស្វែងយល់​បន្ថែម. <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									សញ្ញា​វណ្ណយុត្តិ
+									<div id="ul_2a" class="open">
+										<p>មិន​ចាំបាច់​បន្ថែម​សញ្ញា​វណ្ណយុត្តិ​ដោយ​ដៃ​ទេ។ គ្រាន់​តែ​និយាយ​សញ្ញា​វណ្ណយុត្តិ​​ដែល​អ្នក​ចង់​បាន​ ហើយ​បន្ត។ ព្យាយាម​ធ្វើ​ដូចនេះ៖</p>
+										<ol>
+											<li>សង្កត់​គ្រាប់​ចុច​សំឡេង ហើយ​ចាប់ផ្ដើម​និយាយ។</li>
+											<li>អ្វី​ដែល​អ្នក​និយាយ៖ <i>អាហារ​ពេល​ល្ងាច​ឆ្ងាញ់ សញ្ញា​ឧទាន</i></li>
+											<li>អ្វី​ដែល​អ្នក​ទទួល​បាន៖ <i>អាហារ​ពេល​ល្ងាច​ឆ្ងាញ់!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ការ​បញ្ចូល​សំឡេង ពុំ​មាន​នៅ​លើ​ក្ដារ​ចុច​មួយ​ចំនួន​ទេ.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">សរសេរ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>អ្នក​អាច​ប្រើ​ម្រាម​ដៃ​របស់​អ្នក​ដើម្បី​គូស​អក្សរ និង​ពាក្យ ហើយ Swype នឹង​ប្ដូរ​​វា​​ទៅ​ជា​អត្ថបទ។ អ្នក​អាច​គូស​អក្សរ​ពី​ឆ្វេង​ទៅ​ស្ដាំ ឬ​នៅ​​ផ្នែក​ខាង​លើ​វា​ទៅវិញ​ទៅ​មក។					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ស្វែងយល់​បន្ថែម. <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									អនុញ្ញាត​អក្សរ​ដៃ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>សង្កត់ និង​កាន់ <img src="img_symkey.png" /> ហើយ​រំអិល​​ម្រាម​ដៃ​របស់​អ្នក​ទៅ​កាន់​រូប​តំណាង​អក្សរ​ដៃ។</li>
+											<li>គូស​អក្សរ​ជាមួយ​ម្រាម​ដៃ​របស់​អ្នក​នៅ​លើ​ផ្ទៃ​អក្សរ​ដៃ។</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									កាយ​វិការ​ប៉ះ​ច្រើន​ដង
+									<div id="ul_3b" class="closed">
+										<p>កាយ​វិការ​ប៉ះ​ច្រើន​ដង អនុញ្ញាត​ឲ្យ​អ្នក​បំពេញ​កិច្ចការ​ងាយៗ​ដូចជា សរសេរ​ពាក្យ ឬ​អក្សរ​ជា​អក្សរ​ពុម្ព​ធំ។</p>
+										<ol>
+											<li>គូស​អក្សរ​ជា​អក្សរ​ពុម្ព​តូច​ខ្លះៗ​នៅ​លើ​ទ្រនាប់​គូស.</li>
+											<li>បន្ទាប់​ពី​បញ្ចូល​តួ​អក្សរ រំអិល​ម្រាម​ដៃ​ពីរ​ឡើង​លើ​នៅ​លើ​ផ្ទៃ​សរសេរ.</li>
+											<li>លក្ខណៈ​ពិសេស​អក្សរ​ដៃ នឹង​ទទួល​ស្គាល់​កាយវិការ​ប៉ះ​ច្រើន​ដង ហើយ​សរសេរ​អក្សរ​ជា​អក្សរ​ពុម្ព​ធំ.</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>អក្សរ​ដៃ ពុំ​មាន​នៅ​លើ​ក្ដារ​ចុច​មួយ​ចំនួន​ទេ។</i></p>
+									<p><i>លក្ខណៈពិសេសនេះ​មិនអាចប្រើបានទេ​នៅពេលសេវាកម្មប្រើប្រាស់​ប្រព័ន្ធ​ស្វែងរក​ដោយ ថាច់(Touch) ត្រូវបានបើក។​</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">វាយ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>ទម្រង់​បូរាណ​នៃ​ការ​បញ្ចូល​ក្ដារ​ចុច​ដោយ​ដៃ។ ការ​បញ្ចូល​ទះ​នៅ​លើ​ក្ដារ​ចុច Swype ត្រូវ​បាន​ធ្វើ​ឲ្យ​កាន់​តែ​ងាយ​ស្រួល នឹង​កាន់តែ​មាន​ប្រសិទ្ធភាព​ដោយ​លក្ខណៈ​ពិសេស​ជំនួយ​មួយ​ចំនួន៖</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ស្វែងយល់​បន្ថែម. <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									កែ​ការ​វាយ​ពាក្យ​ចំណោត
+									<div id="ul_4a" class="open">
+										<p>អ្នក​មិន​ចាំបាច់​ទះ​លើ​អក្សរ​នីមួយៗ​ឲ្យ​បាន​ល្អ​ឥត​ខ្ចោះ​ទេ។ គ្រាន់តែ​ព្យាយាម​ឲ្យ​អស់​ពី​លទ្ធភាព​របស់​អ្នក ហើយ Swype នឹង​ផ្ដល់​ជូន​ការ​ផ្ដល់​យោបល់​ពាក្យ​យ៉ាង​ឆ្លាតវៃ។</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ការ​បំពេញ​ពាក្យ
+									<div id="ul_4b" class="closed">
+										<p>Swype ក៏​អាច​ទាយ​ពាក្យ​របស់​អ្នក​ផងដែរ នៅ​ពេល​អ្នក​ទះ​លើ​អក្សរ​តែ​ពីរ​បី​ប៉ុណ្ណោះ។</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ភាសា</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>ដើម្បី​ប្ដូរ​ភាសា​ពី​ក្ដារ​ចុច៖ សង្កត់ និង​កាន់​របារ​ចន្លោះ​មិន​ឃើញ។ ជ្រើស​យក​ភាសា​ដែល​អ្នក​ចង់​បាន​ពី​ម៉ឺនុយ​លេចឡើង។</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect អនុញ្ញាត​ឲ្យ​យើង​បញ្ជូន​បន្ទាន់​សម័យ និង​ការ​ដំណើរការ​មុខងារ​យ៉ាង​មាន​ថាមពល​ទៅ​ដល់​ឧបករណ៍​របស់​អ្នក​ដោយ​ផ្ទាល់! ខណៈពេល Swype Connect នឹង​ដំណើរការ​លើ 3G ជានិច្ចកាល​យើង​តែងតែ​ផ្ដល់​អនុសាសន៍​ឲ្យរក​រាក​ត​ភ្ជាប់ Wi&#45;Fi មួយ។</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ស្វែងយល់​បន្ថែម. <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ការ​ទាញ​យក​ភាសា
+									<div id="ul_6a" class="open">
+										<p>ការ​បន្ថែម​ភាសា​បន្ថែម​ទៅ​ក្នុង Swype គឺ​ជា​ការ​ងាយ​ស្រួល៖</p>
+										<ol>
+											<li>សង្កត់ និង​កាន់ <img src="img_swypekey.png" /> និង​ជ្រើស​យក​ភាសា។</li>
+											<li>ជ្រើស​យក​ ទាញ​យក​ភាសា ពី​ម៉ឺនុយ​ភាសា។</li>
+											<li>ចុចលើ​ភាសា​មួយ ពេល​នោះ​ការ​ទាញ​យក​របស់​អ្នក​នឹង​ចាប់ផ្ដើម​ដោយ​ស្វ័យ​ប្រវត្តិ។</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ពុំមាន​នៅ​លើ​ក្ដារ​ចុច​ទាំងអស់​ទេ។</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">ជំនួយ​បន្ថែមទៀត</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>សម្រាប់​ជំនួយ​បន្ថែមទៀត​ជាមួយ​នឹង​ការ​ប្រើប្រាស់ Swype មើល​សៀវភៅ​ណែនាំ​អ្នក​ប្រើប្រាស់ Swype និង​ព័ត៌មាន​ជំនួយ និង​វីដេអូ​នៅ​ <a href="http://www.swype.com">www.swype.com</a> ឬ​ពិនិត្យ​មើល​វេទិកា Swype លើ​អ៊ីនធឺណិត​នៅ <a href="http://forum.swype.com">forum.swype.com</a>។</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

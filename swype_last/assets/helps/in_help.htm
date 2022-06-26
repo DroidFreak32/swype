@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Ucapan</a></div>
+				<div><a href="#write">Tulis</a></div>
+				<div class="last"><a href="#tap">Ketik</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Dengan Swype, Anda memiliki kemampuan untuk beralih dengan mudah di antara empat mode input berbeda &#45; Swype, Ucapan, Tulis atau Sentuh.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype adalah cara cepat untuk mengetik. Ini memungkinkan Anda untuk memasukkan satu kata dengan menggambar melalui huruf&#45;huruf. Letakkan jari Anda di huruf pertama kata dan gambar pola dari huruf ke huruf, angkat pada huruf terakhir. Swype akan memasukkan spasi jika perlu.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Pelajari Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Tombol swype
+									<div id="ul_1a" class="open">
+										<p>Tombol Swype adalah tombol dengan logo Swype di atasnya. Tekan dan tahan tombol Swype untuk mengakses Pengaturan Swype.</p>
+										<p>Tombol Swype juga digunakan untuk memperkenalkan beberapa isyarat multisentuh.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pratinjau Keyboard
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Isyarat Swype
+									<div id="ul_1b" class="closed">
+										<p>Isyarat Swype adalah tombol pintasan pada keyboard untuk dengan cepat melakukan pekerjaan yang umum. Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+										<ul>
+											<li><span class="gestures">Membuka Bagian Menyunting Keyboard</span> Untuk membuka Menyunting Keyboard, Swype dari <img src="img_swypekey.png" /> ke tombol Simbol (?123) pada keyboard.</li>
+											<li><span class="gestures">Membuka Keyboard Angka</span> Untuk membuka Keyboard angka dengan cepat, Swype dari tombol <img src="img_swypekey.png" /> ke tombol angka 5.</li>
+											<li><span class="gestures">Menyembunyikan Keyboard</span> Untuk dengan mudah menyembunyikan keyboard, cukup Swype dari tombol Swype ke tombol spasi mundur.</li>
+
+											<li><span class="gestures">Menonaktifkan Spasi Otomatis</span> Nonaktifkan spasi otomatis sebelum kata berikutnya dengan men&#45;Swype dari Tombol spasi ke Spasi mundur.</li>
+
+
+											<li><span class="gestures">Menyunting Kapitalisasi Kata</span> Ubah huruf besar dari kata setelah memasukannya dengan menyentuh kata dan kemudian meng&#45;swype dari <img src="img_swypekey.png" /> ke tombol Shift <img src="img_shiftkey.png" />. Daftar Pilihan Kata dengan opsi kapitalisasi akan ditampilkan, Memungkinkan Anda untuk memilih huruf kecil, berhuruf Kapital, atau SEMUA KAPITAL.</li>
+
+											<li><span class="gestures">Tanda baca</span> Cara sederhana untuk memasukkan tanda baca adalah dengan meng&#45;Swype dari tanda tanya, koma, titik, atau tanda baca lain ke tombol Spasi, alih&#45;alih menyentuhnya.</li>
+
+											<li><span class="gestures">Pilih Semua, Potong, Salin dan Rekat</span>
+												Pilih Semua: Swype dari <img src="img_swypekey.png" /> ke &#39;a&#39;<br />
+												Potong: Swype dari <img src="img_swypekey.png" /> ke &#39;x&#39;<br />
+												Salin: Swype dari <img src="img_swypekey.png" /> ke &#39;c&#39;<br />
+												Rekat: Swype dari <img src="img_swypekey.png" /> ke &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Pintasan aplikasi</span>Google Maps: Swype dari <img src="img_swypekey.png" /> ke &#39;g&#39;, lalu &#39;m&#39;</li>
+											<li><span class="gestures">Cari</span>Sorot beberapa teks dan Swype dari <img src="img_swypekey.png" /> ke S untuk melakukan pencarian web cepat.</li>
+											<li><span class="gestures">Mengalihkan ke bahasa yang terakhir digunakan.</span>Saat menggunakan beberapa bahasa, cara cepat untuk beralih kembali ke bahasa sebelumnya adalah dengan men&#45;Swype dari <img src="img_swypekey.png" /> ke tombol Spasi.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Membuat huruf ganda
+									<div id="ul_1n" class="closed">
+										<p>Untuk memperbaiki akurasi saat memasukkan huruf ganda, coretkan secara lembut atau buat putaran pada huruf. Sebagai contoh, untuk memperoleh &quot;ss&quot; dalam &quot;massa&quot;, coretkan pada tombol &quot;s&quot;. Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Memilih kata
+									<div id="ul_1d" class="closed">
+										<p>Untuk menerima kata yang disarankan dalam Daftar Pilihan Kata, teruskan Meng&#45;Swype. Jika tidak, gulirkan melalui daftar dengan menyeret jari, dan pilih kata yang diinginkan. Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+										<p>Untuk memilih teks dari daftar, gerakkan jari Anda dalam gerakan melingkar untuk mendengar entri daftar. Searah jarum jam akan menyusuri daftar ke arah maju; berlawanan arah jarum jam akan menyusuri daftar ke arah mundur. Mengangkat jari akan menghasilkan entri daftar yang terakhir diucapkan. Untuk memilih kata dalam Daftar Pilihan Kata, geser jari Anda ke atas dari keyboard hingga kata pertama dalam daftar tersebut terdengar, lalu mulailah gerakan melingkar.	Fitur ini hanya tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Mengapitalisasi Kata
+									<div id="ul_1e" class="closed">
+										<p>Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+										<p>Kapitalisasilah kata saat meng&#45;Swype dengan menggeser jari dari huruf pertama melewati bagian atas keyboard dan, tanpa mengangkat jari, geser jari ke bawah ke huruf berikutnya pada kata.</p>
+										<p>Ubah huruf besar dari kata setelah memasukannya dengan menyentuh kata dan kemudian meng&#45;swype dari <img src="img_swypekey.png" /> ke tombol Shift <img src="img_shiftkey.png" />. Daftar Pilihan Kata dengan opsi kapitalisasi akan ditampilkan, Memungkinkan Anda untuk memilih huruf kecil, berhuruf Kapital, atau SEMUA KAPITAL.</p>
+										<p>Untuk membuka mode CAPS Lock, tepuk dua kali tombol Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Spasi Otomatis
+									<div id="ul_1f" class="closed">
+										<p>Swype secara otomatis memasukkan spasi antar kata jika Anda menge&#45;Swype kata berikutnya pada pesan tersebut. Anda dapat mengaktifkan atau meng&#45;nonaktifkan fitur spasi otomatis pada Opsi Swype.</p>
+										<p>Spasi otomatis dapat dinonaktifkan untuk satu kata dengan meng–Swype dari tombol Spasi ke tombol Spasi Balik.</p>
+										<p>Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Mengganti kata
+									<div id="ul_1g" class="closed">
+										<p>Ganti kata dengan menyentuhnya, lalu pilih kata yang diinginkan dari Daftar Pilihan Kata, atau cukup sorot kata dan Swype kata baru. Kata baru akan mengganti kata yang salah.</p>
+										<p>Kata bisa disorot dengan menyentuh kata dan menekan <img src="img_swypekey.png" /> atau menyentuh ganda kata tersebut.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Pentalan di antara huruf
+									<div id="ul_1h" class="closed">
+										<p>Terkadang menghindari huruf saat menge&#45;Swype memastikan Anda memperoleh kata yang diinginkan pada kesempatan pertama.</p>
+										<p>Sebagai contoh, &quot;ahad&quot; dan &quot;akad” dapat digambar dengan alur yang sama – namun perhatikan, Anda tidak perlu memindahkan dari huruf ke huruf pada garis yang lurus. Menghindarkan &quot;u&quot; saat menggeser jari ke &quot;o&quot; memastikan bahwa kata &quot;dop&quot; muncul pertama kali pada Daftar Pilihan Kata.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Huruf alternatif
+									<div id="ul_1i" class="closed">
+
+										<p>Tekan dan tahan tombol untuk memunculkan daftar karakter alternatif untuk tombol itu, misalnya huruf beraksen seperti è dan ä, simbol seperti @ dan %, serta angka.</p>
+
+										<p>Sentuh tombol Simbol (?123) untuk membuka keyboard Simbol.</p>
+										<p>Ingat bahwa SEMUA karakter bisa di–Swype dari keyboard utama (baik Anda bisa melihatnya ataupun tidak). Anda dapat meng–Swype menggunakan tampilan keyboard ini, namun Anda hanya akan mendapatkan kata–kata yang memiliki setidaknya satu angka atau simbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Menambahkan dan menghapus kata
+									<div id="ul_1j" class="closed">
+										<p>Swype dengan cerdas memasukkan kata baru yang Anda gunakan untuk Kamus Pribadi Anda.</p>
+										<p>Anda bisa menambahkan kata dengan menyorotnya dan menyentuh <img src="img_swypekey.png" />. Tepuk perintah yang muncul untuk menambah kata.</p>
+										<p>Untuk menghapus kata, tekan dan tahan kata itu pada Daftar Pilihan Kata, dan sentuh Oke pada dialog konfirmasi. Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalisasi
+									<div id="ul_1k" class="closed">
+										<p>Swype bisa dengan cepat menambahkan kata ke kamus Anda dari Twitter dan Gmail. Cara mempersonalkan Swype:</p>
+										<ol>
+											<li>Tekan dan tahan <img src="img_swypekey.png" />.</li>
+											<li>Dari menu Pengaturan Swype, pilih Kata saya &gt; Personalisasi.</li>
+											<li>Pilih dari pilihan personalisasi dan masukkan kredensial jika diminta.</li>
+											<li>Anda bisa mempersonalisasikan Swype dari satu atau semua sumber.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Ucapan</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Anda bisa mengucapkan kata untuk memasukkan isi teks untuk apa pun, mulai dari pesan teks dan email hingga pembaruan Facebook dan Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Pelajari Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tanda baca
+									<div id="ul_2a" class="open">
+										<p>Tidak perlu secara manual menambahkan tanda baca. Cukup ucapkan tanda baca yang Anda inginkan dan lanjutkan. Coba berikut:</p>
+										<ol>
+											<li>Tekan tombol suara dan mulai berbicara.</li>
+											<li>Apa yang Anda katakan: <i>Makan malam lezat tanda seru</i></li>
+											<li>Apa yang Anda dapatkan: <i>Makan malam lezat!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Input suara tidak tersedia pada beberapa keyboard</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Tulis</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Anda bisa menggunakan jari Anda untuk menggambar huruf dan kata dan Swype akan mengubahnya menjadi teks. Anda bisa menulis huruf dari kiri ke kanan atau di atas masing&#45;masing huruf. Tekan ABC / 123 untuk beralih antara mode huruf dan simbol.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Pelajari Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktifkan tulisan tangan
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Tekan dan tahan <img src="img_symkey.png" /> dan geser jari Anda ke ikon tulisan tangan.</li>
+											<li>Gambar huruf dengan jari Anda pada area tulisan tangan.</li>
+
+											<li>Sentuh tombol spasi antar kata</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Isyarat Multisentuh
+									<div id="ul_3b" class="closed">
+										<p>Isyarat multisentuh memungkinkan Anda untuk menyelesaikan tugas sederhana, seperti kapitalisasi kata atau huruf.</p>
+										<ol>
+											<li>Gambar beberapa huruf kecil pada papan gambar</li>
+											<li>Setelah memasukkan karakter, geser dua jari ke atas pada area tulis</li>
+											<li>Fitur tulisan tangan akan mengenali isyarat multisentuh dan mengapitalkan huruf tersebut</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Tulisan tangan tidak tersedia pada beberapa keyboard.</i></p>
+									<p><i>Fitur ini tidak tersedia ketika layanan aksesibilitas sistem Explore&#45;by&#45;Touch sedang aktif.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Ketik</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Bentuk tradisional dari input keyboard manual. Sentuh input pada keyboard Swype lebih mudah dan lebih efisien dengan beberapa fitur bantuan:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Pelajari Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Koreksi Pengetikan Tak Rapi
+									<div id="ul_4a" class="open">
+										<p>Anda tidak harus menyentuh setiap huruf secara sempurna. Cobalah lakukan yang terbaik dan Swype secara cerdas akan menyediakan saran kata.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Penyelesaian kata
+									<div id="ul_4b" class="closed">
+										<p>Swype juga bisa menebak kata Anda ketika Anda menyentuh beberapa huruf saja.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Bahasa</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Untuk mengalihkan bahasa dari keyboard: Tekan dan tahan tombol spasi. Pilih bahasa yang Anda inginkan dari menu popup.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect memungkinkan kami untuk mengirimkan pembaruan dan fungsionalitas canggih langsung ke perangkat Anda! Karena Swype Connect akan menggunakan fungsi melalui 3G, kami selalu menyarankan Anda mencari koneksi Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Pelajari Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Unduhan bahasa
+									<div id="ul_6a" class="open">
+										<p>Menambah bahasa tambahan ke Swype adalah mudah:</p>
+										<ol>
+											<li>Tekan dan tahan <img src="img_swypekey.png" /> dan pilih Bahasa.</li>
+											<li>Dari menu Bahasa, pilih Unduh bahasa.</li>
+											<li>Klik bahasa dan unduhan Anda akan dimulasi secara otomatis.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect tidak tersedia di semua keyboard.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Bantuan Lebih Lanjut</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Untuk bantuan lainnya menggunakan Swype, jalankan Tutorial Swype pada telepon, lihat manual Pengguna Swype serta Tip dan Video Swype di <a href="http://www.swype.com">www.swype.com</a>, atau periksa Forum Swype secara online di <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

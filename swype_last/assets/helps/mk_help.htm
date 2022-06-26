@@ -1,0 +1,342 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Зборувај</a></div>
+				<div><a href="#write">Пишувајте</a></div>
+				<div class="last"><a href="#tap">Пишувај</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Со Swype можеш да преминуваш лесно меѓу четирите различни начини на внесување &#45; Swype, зборувај, пишувај или чукај.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype е брз начин на внесување текст. Со него можете да внесете збор со исцртување линија низ буквите. Стави го прстот на првата буква од зборот и исцртај линија од буква до буква, дигајќи го прстот на последната буква. Swype ќе вметне растојание каде што треба.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Научете повеќе <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Копче „Swype“
+									<div id="ul_1a" class="open">
+										<p>Копчето Swype е копче со логото на Swype на него. Притиснете и држете го копчето Swype за да влезете во поставките на Swype.</p>
+										<p>Копчето Swype се користи и за иницирање на многу Swype движења.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Преглед на тастатурата
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Движења со рака за „Swype“
+									<div id="ul_1b" class="closed">
+										<p>Движењата со рака за „Swype“ се кратенки на тастатурата за брзо исполнување на вообичаени задачи. Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+										<ul>
+											<li><span class="gestures">Доаѓање до тастатурата за уредување</span> За да стигнете до тастатурата за уредување, поминете со Swype од <img src="img_swypekey.png" /> до копчето Симболи (?123) на тастатурата.</li>
+											<li><span class="gestures">Пристапување до нумеричката тастатура</span> За да стигнете брзо до нумеричката тастатура, поминете со Swype од <img src="img_swypekey.png" /> до број 5.</li>
+											<li><span class="gestures">Криење на тастатурата</span> За лесно криење на тастатурата, само употребете го методот „Swype“ од копчето „Swype“ до копчето за бришење наназад.</li>
+
+											<li><span class="gestures">Исклучување на автоматското оставање празно место</span> Откажете го автоматското вметнување празно место пред следниот збор со поминување со прстот од копчето за празно место до копчето за бришење наназад.</li>
+
+
+											<li><span class="gestures">Уредување на големината на буквите во збор</span> Сменете го зборот во мали или големи букви откако ќе го внесете со тоа што ќе го потчукнете, а потоа ќе поминете со Swype од <img src="img_swypekey.png" /> до тастерот Помести <img src="img_shiftkey.png" />. Ќе се појави список со избор на зборови со опции за ставање големи букви, па ќе можете да изберете мали букви, Голема буква или Сите големи букви.</li>
+
+											<li><span class="gestures">Ставање интерпункциски знаци</span> Едноставен начин да се стави интерпункција е да се помине со Swype од прашалникот, запирката, точката или друг интерпункциски знак, до копчето за растојание, наместо да го потчукнете.</li>
+
+											<li><span class="gestures">Кратенки на апликацијата</span>Google Maps: Поминете со Swype од <img src="img_swypekey.png" /> до „g“, потоа „m“</li>
+											<li><span class="gestures">Пребарувај</span>Означете дел од текст и поминете со Swype од <img src="img_swypekey.png" /> до S за брзо веб&#45;пребарување.</li>
+											<li><span class="gestures">Преминување на последно користениот јазик.</span>Кога користите повеќе јазици, најбрз начин да преминете на претходниот јазик е да поминете до Swype од <img src="img_swypekey.png" /> до копчето за растојание.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Внесување двојни букви
+									<div id="ul_1n" class="closed">
+										<p>За да се подобри точноста кога се внесуваат двојни букви, чкртнете малку или направете јазол на буквата. На пример, за да ставите „аа“ во „бараат“, чкртнете на копчето „а“. Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Избирање збор
+									<div id="ul_1d" class="closed">
+										<p>За да го прифатите предложениот стандарден збор во списокот со избор на зборови, само продолжете да поминувате со Swype. Во спротивно, лизгајте низ списокот влечејќи го прстот и изберете го зборот што го сакате. Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+										<p>За избор на текст од листата, движете го прстот кружно за да ги слушнете ставките од листата. Движењата надесно ве носат напред низ листата, а движењата налево во носат назад низ листата. Подигањето на прстот го пушта последниот кажан запис во листата. За да изберете збор од Листата со избор на зборови, лизгајте го вашиот прст нагоре од тастатурата додека не го слушнете првиот збор од листата, а потоа започнете со кружно движење.	Оваа функција не е достапна само кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Пишување голема буква на зборови
+									<div id="ul_1e" class="closed">
+										<p>Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+										<p>Ставете голема буква со Swype поминување со прстот од првата буква, покрај горниот дел на тастатурата и без подигање, лизгајќи со прстот назад надолу, на следната буква во зборот.</p>
+										<p>Сменете го зборот во мали или големи букви откако ќе го внесете со тоа што ќе го потчукнете, а потоа ќе поминете со Swype од <img src="img_swypekey.png" /> до тастерот Помести <img src="img_shiftkey.png" />. Ќе се појави список со избор на зборови со опции за ставање големи букви, па ќе можете да изберете мали букви, Голема буква или Сите големи букви.</p>
+										<p>За да влезете во режим на големи букви, само двапати чукнете го копчето Помести <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Автоматско оставање празно место
+									<div id="ul_1f" class="closed">
+										<p>Swype автоматски става растојание меѓу зборовите кога ќе поминете со Swype на следниот збор во реченицата. Можете да ја вклучите можноста за автоматско ставање растојание во поставки на Swype.</p>
+										<p>Автоматското ставање растојание може да се исклучи за еден збор со поминување со Swype од тастерот за растојание до тастерот за бришење наназад.</p>
+										<p>Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Заменување збор
+									<div id="ul_1g" class="closed">
+										<p>Заменете збор со потчукнување, потоа изберете го зборот што го барате од списокот со избор на зборови или едноставно обележете го зборот и поминете со Swype нов збор. Новиот збор ќе го замени погрешниот.</p>
+										<p>Збор се обележува со потчукнување на зборот и со удирање на <img src="img_swypekey.png" /> или со двојно потчукнување на зборот.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Потскокнување меѓу букви
+									<div id="ul_1h" class="closed">
+										<p>Понекогаш, избегнувањето букви при употребувањето на „Swype“ ви овозможува да го добиете саканиот збор уште при првиот обид.</p>
+										<p>На пример, „буен“ и „биен“ може да се исцртуваат по истата линија, но внимавајте, не мора да се движите од буква до буква по права линија. Ако ја избегнувате буквата „у“ кога поминувате со Swype до „е“, ќе знаете дека зборот „биен“ ќе биде прв во списокот со избор зборови.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Алтернативни знаци
+									<div id="ul_1i" class="closed">
+
+										<p>Притиснете и држите го копчето за да повикате список од алтернативни знаци за тоа копче, како на пример, акцентирани букви како ѓ и ѝ, симболи како @ и % и бројки.</p>
+
+										<p>Чукнете го копчето Симболи (?123) за да преминете на симболичката тастатура</p>
+										<p>Внимавајте, СИТЕ знаци можат да се поминат со Swype од главната тастатура (без разлика дали ги гледате или не). Можете да поминувате со Swype со овој приказ на тастатурата, но ќе добиете само зборови што имаат барем еден број или слимбол.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Додавање и бришење зборови
+									<div id="ul_1j" class="closed">
+										<p>Swype интелигентно ги додава во вашиот личен речник сите нови зборови што ги користите.</p>
+										<p>Можете да додадете збор и ако го обележите и го потчукнете <img src="img_swypekey.png" />. Чукнете го барањето за внесување што ќе се појави за да го додадете зборот.</p>
+										<p>За да избришете збор, притиснете и држете го зборот во списокот со избор на зборови, а потоа чукнете на Во ред во дијалогот за потврдување. Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Персонализација
+									<div id="ul_1k" class="closed">
+										<p>Swype може брзо да додава зборови во вашиот речник од Twitter и Gmail. За да изберете лични поставки за Swype:</p>
+										<ol>
+											<li>Притиснете и држете <img src="img_swypekey.png" />.</li>
+											<li>Од менито Поставки за Swype, изберете Мои зборови &gt; Персонализација.</li>
+											<li>Одберете во опциите за лични поставки и внесете ги вашите овластувања ако добиете барање за внесување.</li>
+											<li>Можете да избирате лични поставки за Swype од еден или од сите извори.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Зборувај</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Можете да зборувате за да внесете текстуална содржина за сè, од текст до е&#45;писма и ажурирања на Facebook и Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Научете повеќе <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Ставање интерпункциски знаци
+									<div id="ul_2a" class="open">
+										<p>Нема потреба рачно да се додава интерпункција. Само кажете ја интерпункцијата што Ви треба и продолжете. Пробајте го ова:</p>
+										<ol>
+											<li>Притиснете го копчето за глас и почнете да зборувате.</li>
+											<li>Ќе кажете: <i>Вечерата беше прекрасна извичник</i></li>
+											<li>Ќе добиете: <i>Вечерата беше прекрасна!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>На некои тастатури нема внесување со глас</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Пишувајте</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Можете со прстот да исцртувате букви и зборови, а Swype ќе ги претвори во текст. Можете да исцртувате букви од лево кон десно или една врз друга. Притиснете на ABC/123 за да смените од режим на букви на режим на симболи.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Научете повеќе <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Активирајте ракописно пишување
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Притиснете и држете <img src="img_symkey.png" /> и лизнете го прстот до иконата за ракописно пишување.</li>
+											<li>Исцртајте зборови со прстот на површината за ракописно пишување.</li>
+
+											<li>Чукнете го копчето за растојание меѓу секој збор</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Движење со повеќе допири
+									<div id="ul_3b" class="closed">
+										<p>Со движењето со повеќе допири можете да завршувате едноставни задачи, на пример, ставање на големи букви на зборот или менување во големи букви.</p>
+										<ol>
+											<li>Исцртајте некои мали букви на подлогата за исцртување</li>
+											<li>Откако ќе ги внесете знаците, лизнете ги двата прста нагоре на површината за пишување</li>
+											<li>Можноста за ракописно пишување ќе го препознае движењето со повеќе допири и ќе ги претвори буквите во големи</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Некои тастатури немаат ракописно пишување.</i></p>
+									<p><i>Оваа функција не е достапна кога услугата Explore&#45;by&#45;Touch за пристап во системот е вклучена.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Пишувај</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Традиционален начин на рачно внесување со тастатура. Внесувањето со чукнување на тастатурата Swype е поедноставено и поефикасно поради следниве корисни можности:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Научете повеќе <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Поправање невнимателно чукање
+									<div id="ul_4a" class="open">
+										<p>Не мора совршено да чукнете на секоја буква. Дајте само сè од себе и Swype интелигентно ќе ви даде предлози за зборови.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Довршување на зборот
+									<div id="ul_4b" class="closed">
+										<p>Swype може да го погоди вашиот збор кога ќе чукнете само неколку зборови.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Јазици</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>За да преминувате меѓу јазиците од тастатурата: Притиснете и држете го копчето за растојание. Изберете го саканиот јазик од скокачкото мени.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Со Swype Connect можеме да испорачуваме ажурирани верзии и моќна функционалност директно на вашиот уред! Swype Connect работи и со 3G, но секогаш препорачуваме да најдете безжична (Wi&#45;Fi) врска.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Научете повеќе <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Преземање јазици
+									<div id="ul_6a" class="open">
+										<p>Лесно се додаваат дополнителни јазици на Swype:</p>
+										<ol>
+											<li>Притиснете и држете <img src="img_swypekey.png" /> и изберете Јазици.</li>
+											<li>Од менито Јазици, изберете преземање јазици.</li>
+											<li>Кликнете на јазик и преземањето ќе почне веднаш.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Нема Swype Connect на сите тастатури.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Уште помош</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>За повеќе помош за употребувањето на „Swype“, прегледајте го прирачникот за корисници на „Swype“ и советите и видеата за Swype на <a href="http://www.swype.com">www.swype.com</a>, или проверете го интернет&#45;форумот на „Swype“ на <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

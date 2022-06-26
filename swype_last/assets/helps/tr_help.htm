@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Konuş</a></div>
+				<div><a href="#write">Yaz</a></div>
+				<div class="last"><a href="#tap">Dokun</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ile dört farklı giriş modu arasında geçiş yapma yeteneğine sahip olursunuz &#45; Swype, Konuş, Yaz veya Dokun.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype, metin girmenin hızlı bir yoludur. Parmağınızı harflerin üzerinden kaydırarak kelime girmenizi sağlar. Parmağınızı kelimenin ilk harfinin üzerine koyun ve harften harfe bir yol çizin, son harfe geldiğinizde parmağınızı kaldırın. Swype gerektiğinde boşluklar ekler.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Daha fazla öğrenin <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype tuşu
+									<div id="ul_1a" class="open">
+										<p>Swype tuşu, üzerinde Swype logosu olan tuştur. Swype Ayarları&#39;na erişmek için Swype tuşuna basılı tutun.</p>
+										<p>Swype tuşu aynı zamanda birçok Swype hareketini başlatmanızı sağlar.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Klavye Önizleme
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype hareketleri
+									<div id="ul_1b" class="closed">
+										<p>Swype Hareketleri, genel görevleri hızlı gerçekleştirmek için klavyede yer alan kısayollardır. Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+										<ul>
+											<li><span class="gestures">Klavye Düzenleme’ye Gitme</span> Klavye Düzenleme&#39;ye gitmek için, parmagınızı <img src="img_swypekey.png" /> tuşundan klavyedeki Semboller tuşuna (?123) kaydırın.</li>
+											<li><span class="gestures">Sayı Klavyesi’ne Gitme</span> Sayı klavyesine hızlı şekilde gitmek için, parmağınızı <img src="img_swypekey.png" /> tuşundan 5 sayısına kaydırın.</li>
+											<li><span class="gestures">Klavyeyi Gizleme</span> Klavyeyi kolayca gizlemek için, parmağınızı Swype tuşundan geri tuşuna kaydırın.</li>
+
+											<li><span class="gestures">Otomatik Boşluk Bırakmayı Kapatma</span> Boşluk tuşundan Geri silme tuşuna parmağınızla kaydırarak bir sonraki kelimeden önce otomatik boşluk bırakılmasını önleyin.</li>
+
+
+											<li><span class="gestures">Bir Kelimede Büyük/Küçük Harf Düzenleme</span> Bir kelimenin büyük küçük harf durumunu, kelimeyi dokunarak girdikten ve ardından <img src="img_swypekey.png" /> öğesinden Shift tuşuna <img src="img_shiftkey.png" /> doğru parmağınızla kaydırarak değiştirebilirsiniz. Büyük harf seçeneklerini içeren Kelime Seçimi Listesi, küçük harf, Büyük harf ya da TÜMÜ BÜYÜK seçeneklerini görüntüler.</li>
+
+											<li><span class="gestures">Noktalama İşareti</span> Noktalama işareti girmenin kolay bir yoluysa, Boşluk tuşuna dokunmak yerine soru işaretinden, virgülden, noktadan veya diğer noktalama işaretlerinden Boşluk tuşuna parmağınızı kaydırmaktır.</li>
+
+											<li><span class="gestures">Hepsini Seç, Kes, Kopyala ve Yapıştır</span>
+												Hepsini Seç: <img src="img_swypekey.png" /> öğesinden &#39;a&#39;ya parmağınızı kaydırın<br />
+												Kes: <img src="img_swypekey.png" /> öğesinden &#39;x&#39;e parmağınızı kaydırın<br />
+												Kopyala: <img src="img_swypekey.png" /> öğesinden &#39;c&#39;ye parmağınızla kaydırın<br />
+												Yapıştır: <img src="img_swypekey.png" /> öğesinden &#39;v&#39;ye parmağınızı kaydırın
+											</li>
+
+											<li><span class="gestures">Uygulama kısayolları</span>Google Haritalar: <img src="img_swypekey.png" /> öğesinden &#39;g&#39;ye, ardından &#39;m&#39;ye parmağınızı kaydırın</li>
+											<li><span class="gestures">Ara</span>Hızlı bir web araması yapmak için bir metni vurgulayın ve <img src="img_swypekey.png" /> öğesinden S’ye parmağınızı kaydırın.</li>
+											<li><span class="gestures">Son kullanılan dile geçiş yapılması</span>Birden çok dil kullanırken, önceki dile geçiş yapmanın hızlı bir yolu <img src="img_swypekey.png" /> simgesinden Boşluk tuşuna kaydırmaktır.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Çift harflerin girilmesi
+									<div id="ul_1n" class="closed">
+										<p>Çift harfler girerken daha doğru metin girişi sağlamak için hafifçe karalayın ya da harfin üzerinde bir çember çizin. Örneğin, “fiil” kelimesindeki “ii” harflerini yazmak için “i” tuşu üzerinde çiziktirin. Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Kelimenin seçilmesi
+									<div id="ul_1d" class="closed">
+										<p>Kelime Seçim Listesi&#39;nde önerilen varsayılan kelimeyi kabul etmek için, kelimeyi parmağınızla çizmeye devam edin. İstemiyorsanız, parmağınızı kaydırarak listede ilerleyin ve istediğiniz kelimeyi seçin. Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+										<p>Bir listeden metin seçmek için, liste girdilerini duyacak şekilde parmağınızı dairesel olarak hareket ettirin. Saat yönündeki hareketiniz liste boyunca ilerlemenizi, saatin tersi yöndeki hareketiniz ise liste üzerinde geri gitmenizi sağlar. Parmağınızı kaldırdığınızda en son söylenen liste girdisi görünür. Kelime Seçimi listesinden bir kelime seçmek için, listedeki birinci kelime duyulana kadar parmağınızı klavyeden yukarı doğru kaydırın, sonra dairesel hareketi yapmaya başlayın.	Bu özellik, sadece sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda kullanılabilir.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Kelimenin Büyük Harf Yapılması
+									<div id="ul_1e" class="closed">
+										<p>Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+										<p>Bir kelimenin ilk harfini büyük yapmak için; parmağınızı kaldırmadan klavyenin üst kısmında ilk harften yukarı kaydırın ve parmağınızı kelimenin bir sonraki harfi için aşağı kaydırarak kelimeyi tamamlayın.</p>
+										<p>Bir kelimenin büyük küçük harf durumunu, kelimeyi dokunarak girdikten ve ardından <img src="img_swypekey.png" /> öğesinden Shift tuşuna <img src="img_shiftkey.png" /> doğru parmağınızla kaydırarak değiştirebilirsiniz. Büyük harf seçeneklerini içeren Kelime Seçimi Listesi, küçük harf, Büyük harf ya da TÜMÜ BÜYÜK seçeneklerini görüntüler.</p>
+										<p>Büyük harf moduna girmek için Shift (ÜstKarakter) tuşuna çift tıklayın <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Otomatik Boşluk Yerleştirilmesi
+									<div id="ul_1f" class="closed">
+										<p>Swype, cümledeki bir sonraki kelimeyi çizdiğinizde kelimelerin arasına otomatik olarak boşluk yerleştirir. Swype Ayarları&#39;nda otomatik boşluk yerleştirme özelliğini devre dışı bırakabilir veya etkinleştirebilirsiniz.</p>
+										<p>Otomatik Boşluk Yerleştirme, parmağınızı Boşluk tuşundan Geri tuşuna kaydırarak tek bir kelime için devre dışı bırakılabilir.</p>
+										<p>Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Bir kelimenin değiştirilmesi
+									<div id="ul_1g" class="closed">
+										<p>Bir kelimeye dokunarak, ardından Kelime Seçimi Listesinden istediğiniz kelimeyi seçerek veya kelimenin tümünü seçerek ve yeni bir kelime çizerek kelimeyi değiştirebilirsiniz. Yeni kelime, yanlış olanın yerine geçecektir.</p>
+										<p>Kelimeye dokunarak ve <img src="img_swypekey.png" /> tuşuna basarak ya da kelimeye çift dokunarak bir kelimenin tümünü seçebilirsiniz.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Harfler arasında geçiş
+									<div id="ul_1h" class="closed">
+										<p>Bazen kelimeleri çizerken belirli harflerin atlanması, kelimeyi ilk seferinde doğru yazmanızı sağlar.</p>
+										<p>Örneğin, “grip” ve “grup” aynı yol ile çizilebilir; ancak unutmayın ki harften harfe düz bir çizgide ilerlemenize gerek yoktur. Parmağınızı “i” harfine kaydırırken “u” harfinin atlanması, Kelime Seçimi Listesindeki ilk kelimenin “grup” olmasını sağlar.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternatif Karakterler
+									<div id="ul_1i" class="closed">
+
+										<p>Ğ ve ö gibi aksanlı harfler, @ ile % gibi semboller ve sayılar için bir tuştaki alternatif karakterlerin listesine ulaşmak istediğinizde söz konusu tuşa parmağınızı basılı tutun.</p>
+
+										<p>Semboller klavyesine gitmek için Semboller tuşuna (?123) basın.</p>
+										<p>TÜM karakterler (görünsün veya görünmesin) ana klavyeden çizilebilir. Klavyenin bu görünümünü kullanarak parmağınızı kaydırarak harfleri girebilirsiniz ancak sadece, en az bir adet sayı veya sembol içeren kelimeler elde edersiniz.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Kelime ekleme ve silme
+									<div id="ul_1j" class="closed">
+										<p>Swype, kullandığınız yeni kelimeleri zekice Kişisel Sözlüğünüze ekler.</p>
+										<p>Aynı zamanda bir kelimenin tümünü seçip <img src="img_swypekey.png" /> tuşuna basarak kelimeyi ekleyebilirsiniz. Kelimeyi eklemek için görüntülenen komut istemine dokunun.</p>
+										<p>Bir kelimeyi silmek için Kelime Seçimi Listesindeki kelimeye basılı tutarak bekleyin, ardından doğrulama iletişim kutusunda TAMAM&#39;a basın. Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Kişiselleştirme
+									<div id="ul_1k" class="closed">
+										<p>Swype; Twitter ve Gmail kelimeleri hızlıca sözlüğünüze ekleyebilir. Swype’yi kişiselleştirmek için:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> öğesine basın ve bekleyin.</li>
+											<li>Swype Ayarları menüsünden Kelimelerim &gt; Kişiselleştirme&#39;yi seçin.</li>
+											<li>Kişiselleştirme seçeneklerini seçin ve eğer istenirse kimlik bilgilerinizi girin.</li>
+											<li>Swype&#39;yi bir ya da bütün kaynaklardan kişiselleştirebilirsiniz.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Konuş</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Metin ve e&#45;posta mesajlarından Facebook ve Twitter güncellemelerine kadar her şey için metin içerik girişini konuşarak yapabilirsiniz.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Daha fazla öğrenin <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Noktalama İşareti
+									<div id="ul_2a" class="open">
+										<p>Noktalama işaretlerini manuel olarak eklemek gerekmez. Yalnızca eklemek istediğiniz noktalama işaretini söyleyin ve devam edin. Bunu deneyin:</p>
+										<ol>
+											<li>Ses tuşuna basın ve konuşmaya başlayın.</li>
+											<li>Söylediğiniz: <i>Akşam yemeği çok lezzetliydi ünlem işareti</i></li>
+											<li>Alacağınız sonuç: <i>Akşam yemeği çok lezzetliydi!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ses girişi bazı klavyelerde kullanılabilir değildir</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Yaz</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Harfleri ve kelimeleri çizmek için parmağınızı kullanabilirsiniz, Swype bunları metne dönüştürecektir. Harfleri soldan sağa veya birbirinin üzerine çizebilirsiniz. Harf ve sembol modu arasında geçiş yapmak için ABC /123 tuşuna basın.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Daha fazla öğrenin <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									El yazısını etkinleştir
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> tuşuna basın, basılı tutun ve parmağınızı yazma simgesine kaydırın.</li>
+											<li>El yazısı alanında parmağınızla harfler çizin.</li>
+
+											<li>Her kelime arasında boşluk çubuğuna dokunun</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Çoklu Dokunma Hareketi
+									<div id="ul_3b" class="closed">
+										<p>Çoklu dokunma hareketi, kelimelerin veya harflerin büyük harf yapılması gibi basit görevleri tamamlamanızı sağlar.</p>
+										<ol>
+											<li>Çizim panelinde bazı küçük harfler çizin</li>
+											<li>Karakterleri girdikten sonra iki parmağınızı yazım alanında yukarı doğru kaydırın</li>
+											<li>El yazısı özelliği, bu çoklu dokunma hareketini tanıyacak ve harfleri büyütecektir</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>El yazısı bazı klavyelerde kullanılabilir değildir.</i></p>
+									<p><i>Bu özellik, sistem erişilebilirlik hizmeti Dokunarak Keşfet açık olduğunda mevcut değildir.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Dokun</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Manuel klavye girişinin geleneksel biçimi. Swype klavyesindeki dokunma girişi bazı yardımcı özelliklerle daha kolay ve etkili hale getirilmiştir:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Daha fazla öğrenin <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Özensiz Yazım Düzeltme
+									<div id="ul_4a" class="open">
+										<p>Her harfi mükemmel bir şekilde dokunarak girmeniz gerekmiyor. Elinizden geleni yapın ve Swype zekice kelime önerileri sunacaktır.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Kelime tamamlama
+									<div id="ul_4b" class="closed">
+										<p>Ayrıca Swype, birkaç harfi dokunarak girdiğinizde de kelimenizi tahmin edebilir.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Diller</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Klavyeden dilleri değiştirmek için: Boşluk çubuğuna basılı tutun. İstediğiniz dili açılır menüden seçin.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect, cihazınıza güncellemeleri ve güçlü işlevleri ulaştırmamızı sağlar! Swype Connect, 3G üzerinden çalışsa da, her zaman bir Wi&#45;Fi bağlantısı bulmanızı tavsiye ederiz.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Daha fazla öğrenin <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Dil indirmeleri
+									<div id="ul_6a" class="open">
+										<p>Swype&#39;ye ek diller eklemek kolaydır:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> tuşuna basın, basılı tutun ve Diller&#39;i seçin.</li>
+											<li>Diller menüsünden Dilleri indir&#39;i seçin.</li>
+											<li>Bir dile tıklayın, böylece indirmeniz otomatik olarak başlayacaktır.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect, bütün klavyelerde kullanılabilir değildir.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">İlave Yardım</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype’ı kullanma konusunda daha fazla yardım için, bir Swype Kullanıcı el kitabına ve <a href="http://www.swype.com">www.swype.com</a> adresindeki Swype İpuçları ve Videolarına bakın ya da <a href="http://forum.swype.com">forum.swype.com</a> adresindeki çevrimiçi Swype Forumu’na göz atın.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

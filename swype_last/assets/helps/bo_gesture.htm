@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Swypeབརྡ་སྟོན་</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>ཚང་མ་འདེམ་རྒྱུ་ཡིན་ན།</b> <img src="img_swypekey.png" /> &quot;a&quot;ལ་Swypeབྱེད་དགོས།
+                </p>
+                <p>
+                    <b>བཤུས་པའི་ཆེད།</b> <img src="img_swypekey.png" /> &quot;c&quot;ལ་Swypeབྱེད་དགོས།
+                </p>
+                <p>
+                    <b>གཏུབ་པའི་ཆེད།</b> <img src="img_swypekey.png" /> &quot;x&quot;ལ་Swypeབྱེད་དགོས།
+                </p>
+                <p>
+                    <b>སྦྱར་བའི་ཆེད་དུ།</b> <img src="img_swypekey.png" /> &quot;v&quot;ལ་Swypeབྱེད་པའི་ཆེད་དུ་
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        ཡང་བསྐྱར་མ་བསྟན་རོགས།
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        ཕྱིར་འཐེན།
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Χειρονομίες Swype</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>ΓΙΑ ΕΠΙΛΟΓΗ ΟΛΩΝ:</b> Γλιστρήστε από το <img src="img_swypekey.png" /> στο «a»
+                </p>
+                <p>
+                    <b>ΓΙΑ ΑΝΤΙΓΡΑΦΗ:</b> Γλιστρήστε από το <img src="img_swypekey.png" /> στο «c»
+                </p>
+                <p>
+                    <b>ΓΙΑ ΑΠΟΚΟΠΗ:</b> Γλιστρήστε από το <img src="img_swypekey.png" /> στο «x»
+                </p>
+                <p>
+                    <b>ΓΙΑ ΕΠΙΚΟΛΛΗΣΗ:</b> Γλιστρήστε από το <img src="img_swypekey.png" /> στο «v»
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        Να μην εμφανιστεί ξανά
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        Ακύρωση
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

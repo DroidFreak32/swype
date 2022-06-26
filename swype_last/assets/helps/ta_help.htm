@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">பேசுக</a></div>
+				<div><a href="#write">எழுதுக</a></div>
+				<div class="last"><a href="#tap">டைப்</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype &#45;ஐ கொண்டு, உங்களால் நான்கு வெவ்வேறு உள்ளீட்டு முறைகளுக்கு இடையே எளிதாக மாற இயலும் – Swype, பேசுக, எழுதுக அல்லது தட்டுக.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>பொருளுரை எழுது Swype.ஒரு வேகமான வழிவகை ஆகும். எழுத்துக்களின் வாயிலாக வரைவதன் மூலம் நீங்கள் ஒரு சொல்லை உள்ளிட அனுமதிக்கிறது. சொல்லின் முதல் எழுத்து மீது உங்கள் விரலை வைத்து ஒவ்வொரு எழுத்தின்மீதும் ஒரு பாதையை இழுக்கவும், கடைசி எழுத்திற்குப் பின் விரலை உயர்த்தவும் எங்கு வேண்டுமோ அங்கு தன்னியக்கமாக இடைவெளிகள் சொருகப்படுகின்றன.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							இன்னும் அதிகம் அறியுங்கள் <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype கீ
+									<div id="ul_1a" class="open">
+										<p>Swype அடையாளச் சின்னத்தைத் தன்னிடம் பொரிதுள்ளதுதான் ஸ்வைப் கீ ஆகும். Swype அமைப்பை அணுகுவதற்கு ஸ்வைப் கீயை அழுத்தி நிறுத்திக் கொள்ளவும்.</p>
+										<p>Swype விசையானது பல Swype சைகைகளை துவக்குவதற்கும் கூட பயன்படுத்தப் படுகிறது.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    விசைப்பலகை முன்காட்சி
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype அசைவுகள்
+									<div id="ul_1b" class="closed">
+										<p>பொதுவான பணிகளை விரைவில் முடிப்பதற்கு ஸ்வைப்பின் அசைவுகள் விசைப்பலகையின் குறுக்கு வழிகள் ஆகும் தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</p>
+										<ul>
+											<li><span class="gestures">பதிப்பு விசைப் பலகைக்குச் செல்லுதல்</span> திருத்து விசைப் பலகையைப் பெறுவதற்கு, விசைப் பலகையின் மீது <img src="img_swypekey.png" /> &#45;யிலிருந்து குறியீடுகள் விசைக்கு (?123) Swype செய்யவும்.</li>
+											<li><span class="gestures">எண் விசைப் பலகைக்குச் செல்லுதல்</span> எண் விசைப் பலகைக்கு வேகமாகச் செல்வதற்கு, <img src="img_swypekey.png" /> &#45;யில் இருந்து எண் 5 க்கு ஸ்வைப் செய்யவும்</li>
+											<li><span class="gestures">விசைப் பலகையை மறைத்தல்</span> விசைப் பலகையை எளிதில் மறைப்பதற்கு, Swype சாவியில் இருந்து பாக்ஸ்பேஸ் சாவிக்கு ஸ்வைப் செய்யவும்</li>
+
+											<li><span class="gestures">இயல்பான இடைவெளி கொடுப்பதை நிறுத்தவும்</span> இடைவெளி விசையில் இருந்து பின்நகர்வு விசைக்கு ட்ரேஸ் செய்வதின் மூலம் அடுத்த சொல்லுக்கு முன்னதாக தானாகவே இடைவெளி ஏற்படுவதை கட்டுப்படுத்துங்கள்.</li>
+
+
+											<li><span class="gestures">நிறுத்தக்குறி</span> கேள்விக் குறி, காற்புள்ளி, முற்றுப்புள்ளி அல்லது பிற நிறுத்தற் குறிகளைத் தட்டாமலேயே அதை ஸ்பேஸ் கீக்கு ஸ்வைப் செய்வதே நிறுத்தற் குறிகளை உள்ளிடுவதற்கான சுலபமான வழியாகும்.</li>
+
+											<li><span class="gestures">பயன்பாடு குறுக்குவழிகள்</span>Google மேப்ஸ்: <img src="img_swypekey.png" /> –யிலிருந்து ‘g’ –க்கும், பிறகு &#39;m&#39; &#45;க்கும் ஸ்வைப் செய்க</li>
+											<li><span class="gestures">தேடுக</span>விரைவாக ஒரு வலைத் தேடலை மேற்கொள்வதற்கு, சில உரைகளை முன்னிருத்தி <img src="img_swypekey.png" /> –யிலிருந்து S –க்கு Swype செய்க.</li>
+											<li><span class="gestures">கடைசியாக பயன்படுத்திய மொழிக்கு மாறுதல்.</span>பன்மொழிகளைப் பயன்படுத்தும் போது, முந்தைய மொழிக்கு மீண்டும் திரும்புவதற்கான ஒரு வேகமான வழி <img src="img_swypekey.png" /> –ல் இருந்து ஸ்பேஸ் விசைக்கு Swype செய்வதேயாகும்.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									இரட்டை எழுத்துக்களை உருவாக்குதல்
+									<div id="ul_1n" class="closed">
+										<p>இரட்டை எழுத்துக்களை உள்ளிடுதல், லேசாக கிறுக்குதல் அல்லது எழுத்தின் மீது கண்ணி (லூப்) வைத்தல் ஆகியவற்றின் போது துல்லியத்தன்மையை மேம்படுத்துவதற்கு. உதாரணமாக, &quot;வந்தது&quot; &#45;ல் &quot;தது&quot; ஐ பெற வேண்டும் என்றால், &quot;த&quot; விசையின் மீது கிறுக்கவும். தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ஒரு சொல்லைத் தேர்வு செய்தல்
+									<div id="ul_1d" class="closed">
+										<p>பரிந்துரைக்கப்பட்ட விரும்பும் சொல் பட்டியலில் உள்ள முன்னிருப்புச் சொல்லை ஏற்பதற்கு, தொடர்ந்து ஸ்வைப் செய்யுங்கள் இல்லாவிடின், உங்கள் விரல் மூலம் பட்டியலைச் சுருளிடுங்கள், தேவையான சொற்களைத் தேர்ந்தெடுங்கள். தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</p>
+										<p>பட்டியலிலிருந்து உரையைத் தேர்ந்தெடுக்க, பட்டியல் உள்ளீடுகளைக் கேட்பதற்கு உங்கள் விரலை வட்ட வடிவில் நகர்த்தவும். வலஞ்சுழியாக சுழற்றுவது பட்டியலை முன்னோக்கி நகர்த்துகிறது; இடஞ்சுழியாக சுழற்றுவது பட்டியலை பின்னோக்கி நகர்த்துகிறது. விரலை எடுப்பது கடைசியாக பேசியவை பட்டியலின் உள்ளீட்டைத் தருகிறது. சொல் தேர்வுப் பட்டியலில் ஒரு சொல்லைத் தேர்வுசெய்ய, பட்டியலில் உள்ள முதல் சொல் கேட்கும் வரை விசைப்பலகையில் உங்கள் விரலை மேல்நோக்கித் தேய்த்து,பிறகு வட்டச் சுழற்சியைத் தொடங்கவும்.	தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது மட்டுமே இந்த அம்சம் கிடைக்கின்றது.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									தானியங்கி இடைவெளி
+									<div id="ul_1f" class="closed">
+										<p>ஒரு சொற்றொடரில் நீங்கள் அடுத்த சொல்லை Swype செய்யும்போது, ஸ்வைப் தன்னியக்கமாக சொற்களுக்கு இடையே இடைவெளியை ஏற்படுத்துகிறது Swype வடிவமைப்பில் தானியக்க இடைவெளித் தன்மையை நீங்கள் போட்டு வைக்கலாம் அல்லது அணைத்து வைக்கலாம்.</p>
+										<p>ஸ்பேஸ் கீயில் இருந்து பாக்ஸ்பேஸ் கீக்கு ஸ்வைப் செய்வதின் மூலம், ஒரு சொல்லுக்குத் தானியக்க இடைவெளி கொடுப்பது நிறுத்தப்படலாம்</p>
+										<p>தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ஒரு சொல்லை இடமாற்றுதல்
+									<div id="ul_1g" class="closed">
+										<p>ஒரு சொல்லை மாற்றுவதற்கு, அச்சொல்லின் மீது தட்டுக, அதன் பிறகு விரும்பும் சொல் பட்டியலில் இருந்து நீங்கள் விரும்பும் சொல்லை தேர்வு செய்க, அல்லது அச்சொல்லை முன்னிருத்திக் காட்டி ஒரு புதிய சொல்லை ஸ்வைப் செய்க. அந்த புதிய சொல் தவறான ஒன்றை இடமாற்றிடும்.</p>
+										<p>ஒரு சொல்லை தட்டுவதன் மூலம் மற்றும் <img src="img_swypekey.png" /> ஐ அழுத்துவதன் மூலம் அல்லது சொல்லை இருமுறை தட்டுவதன் மூலம் ஒரு சொல்லை முன்னிருத்திக் காட்டலாம்.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									எழுத்துக்களுக்கு இடையே துள்ளல்
+									<div id="ul_1h" class="closed">
+										<p>Swype செய்யும்போது சில சமயம் எழுத்துக்களைத் தவிர்க்கும்போது, நீங்கள் விரும்பும் சொல்லை முதலில் பெறுவீர்கள்.</p>
+										<p>உதாரணமாக, &quot;அப்பர்&quot; மற்றும் &quot;அக்பர்&quot; ஆகியவை ஒரே பாதையில் வரையப்படலாம், ஆனால், ஒரு எழுத்தில் இருந்து மற்றொரு எழுத்திற்கு நீங்கள் ஒரே நேர்கோட்டில் செல்ல வேண்டியது இல்லை என்பதை கவனிக்கவும். &quot;அக்பர்&quot; எனும் சொல் விரும்பும் சொல் பட்டியலில் முதலில் இருப்பதை உறுதி செய்வதற்கு, உங்கள் விரலை &quot;க்&quot; &#45;க்கு ஸ்வைப் செய்யும் போது &quot;ப்&quot; &#45;ஐ தவிர்த்தல்.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									மாற்று வரி உருக்கள்
+									<div id="ul_1i" class="closed">
+
+										<p>% மற்றும் @ குறியீடுகள், மற்றும் எண்கள் போன்ற ஒரு விசைக்கான மாற்று வரியுருக்களின் பட்டியல் ஒன்றை மேலே கொண்டு வருவதற்கு, அந்த விசையை அழுத்தி நிறுத்துக.</p>
+
+										<p>குறியீடுகள் விசையை (?123) குறியீடுகள் விசைப்பலகைக்கு எடுத்துச் செல்வதற்கு குறியீடுகள் மீது தட்டவும்.</p>
+										<p>எல்லா உருக்களும் முக்கிய விசைப் பலகையில் இருந்து ஸ்வைப் செய்யக்கூடியவை (நீங்கள் அவற்றைப் பார்த்தாலும், பார்க்காவிட்டாலும்) விசைப் பலகையில் இப்பார்வையைக் கொண்டு நீங்கள் ஸ்வைப் செய்யமுடியும்; ஆனால் குறைந்தப் பட்சம் ஒரு எண் அல்லது அடையாளம் கொண்ட சொற்களைத்தான் நீங்கள் பெறமுடியும்</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									சொற்களை சேர்த்தல் மற்றும் நீக்குதல்
+									<div id="ul_1j" class="closed">
+										<p>நீங்கள் பயன்படுத்தும் புதிய சொற்களை Swype புத்திசாலித்தனமாக உங்களுடைய தனிப்பட்ட அகராதியில் சேர்க்கிறது.</p>
+										<p>மேலும் நீங்கள் சொல்லை எடுப்பாய் காட்டுவதன் மூலமாகவும் <img src="img_swypekey.png" /> &#45;ஐ தட்டுவதன் மூலமாகவும் ஒரு சொல்லைச் சேர்க்க முடியும். தோன்றும் சொல்லைத் தட்டுக, சொல் சேர்க்கப்படும்.</p>
+										<p>ஒரு சொல்லை நீக்குவதற்கு, விரும்பும் சொல் பட்டியலில் உள்ள சொல்லை அழுத்தி நிறுத்திக் கொண்டு, பிறகு உறுதிசெய்தல் உரையாடலில் உள்ள சரி என்ற பொத்தானை தட்டுங்கள். தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									தனிப்பயனாக்கம்
+									<div id="ul_1k" class="closed">
+										<p>Twitter மற்றும் Gmail இருந்து உங்கள் அகராதிக்கு Swype&#45;ஆல் விரைவாக சொல்லை சேர்க்க முடியும். Swype&#45;ஐ தனிப்பயனாக்கம் செய்ய:</p>
+										<ol>
+											<li><img src="img_swypekey.png" />&#45;ஐ அழுத்தி நிறுத்திக் கொள்ளவும்.</li>
+											<li>Swype அமைப்புகள் மெனுவிலிருந்து, என் சொற்களைத் தேர்ந்தெடு &gt; தனிப்பயனாக்கல் என்பதிலிருந்து தேர்ந்தெடுக்கவும்.</li>
+											<li>நினைவூட்டினால், தனிப்பயனாக்கம் விருப்பத் தேர்வுகளில் இருந்து தேர்ந்தெடுத்து, உங்களுடைய நற்சான்றுகளை உள்ளிடவும்.</li>
+											<li>நீங்கள் Swype&#45;ஐ ஒன்று அல்லது அனைத்து ஆதாரங்களில் இருந்தும் தனிப்பயனாக்கம் செய்யலாம்.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">பேசுக</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>உரை மற்றும் மின்னஞ்சல் செய்திகள் முதல் Facebook மற்றும் Twitter நிகழ்நிலைப்படுத்தல்கள் வரை அனைத்திற்கான உரை உள்ளடக்கத்தை உங்களால் பேசி உள்ளிட முடியும்.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							இன்னும் அதிகம் அறியுங்கள் <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									நிறுத்தக்குறி
+									<div id="ul_2a" class="open">
+										<p>நிறுத்தற் குறியை கைமுறையாக சேர்க்க வேண்டியதில்லை நீங்கள் விரும்பும் நிறுத்தற் குறியை கூறி தொடருங்கள். இதை முயற்சி செய்யுங்கள்:</p>
+										<ol>
+											<li>குரல் விசை ஐ அழுத்தி பேசத் தொடங்குங்கள்.</li>
+											<li>இவ்வாறு கூறுங்கள்: <i>இரவு உணவு ருசியாக இருந்தது வியப்புக் குறி</i></li>
+											<li>இதை நீங்கள் பெறுவீர்கள்: <i>இரவு உணவு ருசியாக இருந்தது!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>சில விசைப்பலகைகளில் குரல் உள்ளீடு கிடைக்கப் பெறுவதில்லை</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">எழுதுக</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>எழுத்துக்கள் மற்றும் சொற்களை வரைவதற்கு நீங்கள் உங்களுடைய விரலைப் பயன்படுத்தலாம், Swype அதை உரையினுள் சேர்த்திடும். உங்களால் எழுத்துக்களை இடது புறத்திலிருந்து வலது புறத்திற்கு அல்லது ஒவ்வொன்றின் மேலேயும் வரைய முடியும். எழுத்து மற்றும் குறியீட்டு முறைகளுக்கிடையே மாறுவதற்கு ABC / 123 –ஐ அழுத்தவும்.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							இன்னும் அதிகம் அறியுங்கள் <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									கையெழுத்தை செயல்படுத்தவும்
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> –ஐ அழுத்தி நிறுத்தி , உங்களுடைய விரலை கையெழுத்து ஐகானுக்கு வழுக்கி நகர்த்தவும்.</li>
+											<li>கையெழுத்துப் பகுதியில் உங்களுடைய விரலைக் கொண்டு எழுத்துக்களை வரையவும்.</li>
+
+											<li>ஒவ்வொரு சொல்லுக்கும் இடையே இடைவெளி விசையைத் தட்டவும்</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									பன்&#45;தொடு சைகை
+									<div id="ul_3b" class="closed">
+										<p>பன்&#45;தொடு சைகையானது, சொற்கள் அல்லது எழுத்துக்களை தலைப்பெழுத்துகளாக ஆக்குவது போன்ற எளிய பணிகளை நீங்கள் நிறைவு செய்ய அனுமதிக்கிறது.</p>
+										<ol>
+											<li>வரைதல் அட்டையின் மீது சில சிற்றெழுத்துக்களை வரையவும்</li>
+											<li>வரியுருக்களை உள்ளிட்ட பிறகு, எழுதும் பகுதியின் மீது மேல்நோக்கியவாறு இரண்டு விரல்களையும் சரிய விடவும்</li>
+											<li>பன்&#45;தொடு சைகை மற்றும் எழுத்துக்களை தலைப்பெழுத்தாக்குதல் ஆகியவற்றை கையெழுத்து சிறப்பியல்பு அடையாளம் அறிந்து கொள்ளும்</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>சில விசைப்பலகைகளில் கையெழுத்து கிடைக்கப் பெறுவதில்லை.</i></p>
+									<p><i>தொடுவதன் மூலம் ஆராய்தல் என்கிற கணினி அணுகு சேவை செயலில் உள்ள போது இந்த அம்சம் கிடைக்கப் பெறுதில்லை.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">டைப்</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>கைமுறையிலான விசைப்பலகை உள்ளீட்டின் பாரம்பரிய வடிவம் சில உதவிகரமான சிறப்பியல்கள் மூலமாக Swype விசைப்பலகையின் மீதுள்ள தட்டுக உள்ளீடு எளிமையாகவும் அதிக ஆற்றலுடனும் செய்யப்பட்டுள்ளது:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							இன்னும் அதிகம் அறியுங்கள் <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									கவனக்குறைவான தட்டச்சை திருத்துதல்
+									<div id="ul_4a" class="open">
+										<p>நீங்கள் ஒவ்வொரு எழுத்தையும் மிகச் சரியாக தட்ட வேண்டியதில்லை. உங்களால் முடிந்த வரை முயற்சி செய்யுங்கள், Swype புத்திசாலித்தனமாக செயல்பட்டு சொல் பரிந்துரைகளை வழங்கிடும்.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									சொல் முற்றுப் பெறுதல்
+									<div id="ul_4b" class="closed">
+										<p>நீங்கள் வெகுசில எழுத்துக்களை மட்டும் தட்டும் போது, Swype&#45;ஆல் உங்கள் சொல்லை யூகிக்கவும் முடியும்.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">மொழிகள்</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>விசைப்பலகையிலிருந்து மொழிகளுக்கிடையே மாறுவதற்கு: இடைவெளி விசையை அழுத்தி நிறுத்திக் கொள்ளவும். மேல்விரிப் பட்டியிலிலிருக்கும் உங்களுக்கு விருப்பமான மொழியைத் தேர்ந்தெடுக்கவும்.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype கனெக்ட் சாதனத்திற்கான நிகழ்நிலைப்படுத்தல்களையும் சக்திவாய்ந்த செயலாற்றிகளையும் நேரடியாக கொண்டு சேர்க்க நம்மை அனுமதிக்கின்றது Swype Connect ஆனது 3G இலும் செயல்படும், ஆனால் எப்போதும் நாங்கள் Wi&#45;Fi இணைப்பையே பரிந்துரைக்கிறோம்.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							இன்னும் அதிகம் அறியுங்கள் <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									மொழி பதிவிறக்கங்கள்
+									<div id="ul_6a" class="open">
+										<p>கூடுதல் மொழிகளை Swype&#45;ல் சேர்ப்பது சுலபமாகும்:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ஐ அழுத்தி நிறுத்தி, மொழிகளைத் தேர்ந்தெடுக்கவும்.</li>
+											<li>மொழிகள் பட்டியலில் இருந்து, மொழிகளைபதிவிறக்கம் செய்க என்பதைத் தேர்ந்தெடுக்கவும்.</li>
+											<li>ஒரு மொழியின் மீது சொடுக்கினால் உங்களுடைய பதிவிறக்கம் தன்னியக்கமாக தொடங்கிவிடும்.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>எல்லா விசைப்பலகைகளிலும் Swype Connect கிடைப்பதில்லை.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">கூடுதலான உதவி</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ஐப் பயன்படுத்த இன்னும் கூடுதலான உதவிக்கு Swype பயனர் கையேட்டைக் காணவும்; மேலும் <a href="http://www.swype.com">www.swype.com</a> ல் ஸ்வைப் குறிப்புக்கள், விடியோக்களைக் காணவும், அல்லது Swype ஃபோரம் ஆன்லைனை <a href="http://forum.swype.com">forum.swype.com</a>.ல் காணவும்</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

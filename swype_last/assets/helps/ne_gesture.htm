@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Swype संकेत</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>सबै चयन गर्नको लागि:</b> <img src="img_swypekey.png" /> बाट &quot;a&quot; मा Swype गर्नुहोस्
+                </p>
+                <p>
+                    <b>प्रतिलिपि बनाउनको लागि:</b> <img src="img_swypekey.png" /> बाट &quot;c&quot; मा Swype गर्नुहोस्
+                </p>
+                <p>
+                    <b>काट्नको लागि:</b> <img src="img_swypekey.png" /> बाट &quot;x&quot; मा Swype गर्नुहोस्
+                </p>
+                <p>
+                    <b>टाँस्को लागि:</b> <img src="img_swypekey.png" /> बाट &quot;v&quot; मा Swype गर्नुहोस्
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        फेरि नदेखाउनुहोस्
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        रद्द गर्नुहोस्
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

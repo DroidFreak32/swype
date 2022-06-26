@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Tala</a></div>
+				<div><a href="#write">Skrifa</a></div>
+				<div class="last"><a href="#tap">Banka</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Með Swype getur þú skipt óaðfinnanlega milli fjögurra mismunandi ílagsstillinga &#45; Swype, Tala, Skrifa eða Banka.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype er skjót leið til að færa inn texta. Það leyfir þér að færa inn orð með því að teikna gegnum stafina. Settu fingurinn á fyrsta staf orðsins og dragðu slóð frá staf til stafs, lyftu upp eftir síðasta stafinn. Swype setur inn bil þar sem nauðsyn krefur.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Hætta við <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype&#45;Takkinn
+									<div id="ul_1a" class="open">
+										<p>Swype&#45;lykillinn er lykillinn með Swype&#45;táknmyndinni. Ýttu á og haltu niðri Swype&#45;lyklinum til að komast í stillingar Swype.</p>
+										<p>Swype&#45;lykillinn er einnig notaður til að hefja margar Swype&#45;bendingar.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Forskoðun lyklaborðs
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype&#45;bendingar
+									<div id="ul_1b" class="closed">
+										<p>Swype&#45;bendingar eru flýtivísar á lyklaborðinu til að ljúka hratt algengum verkum. Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+										<ul>
+											<li><span class="gestures">Farðu í breytingarlyklaborðið</span> Swype&#45;aðu frá<img src="img_swypekey.png" /> að Táknatakkanum (?123) á lyklaborðinu til að komast í Ritstýrilyklaborðið.</li>
+											<li><span class="gestures">Farðu í talnalyklaborðið</span> Swype&#45;aðu frá<img src="img_swypekey.png" /> að tölunni 5 til að komast hratt í Talnalyklaborðið.</li>
+											<li><span class="gestures">Lyklaborðið falið</span> Til að fela lyklaborðið á auðveldan hátt skal Swype&#45;a frá Swype&#45;takkanum að Bakklyklinum.</li>
+
+											<li><span class="gestures">Slökktu á sjálfvirku bili</span> Stöðvaðu sjálfvirkt bil fyrir framan næsta orð með því að Swype&#45;a frá Biltakkanum að Bakktakkanum.</li>
+
+
+											<li><span class="gestures">Ritstýra falli orðs</span> Breyttu stafstöðu orðs eftir að þú færir það inn með því að banka á orðið og síðan swype&#45;a frá <img src="img_swypekey.png" /> að Shift&#45;takkanum <img src="img_shiftkey.png" />. Orðavalsgluggi með valkostum um hástafi birtist og gerir þér kleift að velja lágstafi, hástafi í byrjun orðs, eða ALLT Í HÁSTÖFUM.</li>
+
+											<li><span class="gestures">Greinarmerki</span> Einföld leið til að færa inn greinarmerki er að Swype&#45;a frá spurningamerkinu, kommunni, punktinum, eða öðrum greinarmerkjum að biltakkanum í stað þess að banka á þau.</li>
+
+											<li><span class="gestures">Velja allt, Klippa, Afrita og Líma</span>
+												Velja allt: Swype&#45;aðu frá <img src="img_swypekey.png" /> að &#39;a&#39;<br />
+												Klippa: Swype&#45;aðu frá <img src="img_swypekey.png" /> að &#39;x&#39;<br />
+												Afrita: Swype&#45;aðu frá <img src="img_swypekey.png" /> að &#39;c&#39;<br />
+												Líma: Swype&#45;aðu frá <img src="img_swypekey.png" /> að &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Flýtivísar forrits</span>Google Maps: Swype&#45;aðu frá <img src="img_swypekey.png" /> að &#39;g&#39; og síðan &#39;m&#39;</li>
+											<li><span class="gestures">Leita</span>Auðkenndu texta og Swype&#45;aðu frá <img src="img_swypekey.png" /> til S til að fara í snögga vefleit.</li>
+											<li><span class="gestures">Skipt yfir í síðasta tungumál sem notað var.</span>Þegar mörg tungumál eru notuð er flýtileiðin til að fara aftur í fyrra tungumál að Swype&#45;a frá <img src="img_swypekey.png" /> að biltakkanum.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Tvöfaldur stafur gerður
+									<div id="ul_1n" class="closed">
+										<p>Til að auka nákvæmni þegar tvöfaldur stafur er færður inn skal pára létt eða gera lykkju á stafinn. Til dæmis, til að fá „tt” í „leitt” skal pára á „t” takkann. Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Orð valið
+									<div id="ul_1d" class="closed">
+										<p>Til að samþykkja sjálfgefna orðið sem stungið er upp á í Orðavalsglugganum skaltu halda áfram að Swype&#45;a. Að öðrum kosti skaltu fletta gegnum listann með því að draga fingurinn og velja það orð sem þú vilt nota. Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+										<p>Hreyfðu fingurinn í hringi til að velja texta frá lista og heyra skráningar á listann. Réttsælis hreyfing fer með þig áfram í gegnum listann. Rangsælis hreyfing fer með þig afturábak í gegnum listann. Þegar fingri er lyft er einblínt á síðustu inntöluðu skráningu á listann. Til að velja orð í orðavalsglugga, skaltu renna fingrinum upp frá lyklaborðinu, þangað til að fyrsta orðið heyrist. Síðan skal byrja hringlaga hreyfingu.	Þessi aðgerð er aðeins tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Orð rituð með hástöfum
+									<div id="ul_1e" class="closed">
+										<p>Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+										<p>Ritaðu orð með hástöfum um leið og þú Swype&#45;ar með því að renna fingrinum frá stafnum, upp framhjá efsta hluta lyklaborðsins og renna svo fingrinum án þess að lyfta, aftur niður að næsta staf orðsins.</p>
+										<p>Breyttu stafstöðu orðs eftir að þú færir það inn með því að banka á orðið og síðan swype&#45;a frá <img src="img_swypekey.png" /> að Shift&#45;takkanum <img src="img_shiftkey.png" />. Orðavalsgluggi með valkostum um hástafi birtist og gerir þér kleift að velja lágstafi, hástafi í byrjun orðs, eða ALLT Í HÁSTÖFUM.</p>
+										<p>Til að fara í haminn læsing HÁSTAFA tvíbankar þú á Skipti&#45;takkann <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Sjálfvirkt bil
+									<div id="ul_1f" class="closed">
+										<p>Swype setur sjálfkrafa inn bil á milli orða þegar þú Swype&#45;ar næsta orð í setningunni. Þú getur slökkt á sjálfvirka línubilseiginleikanum í Swype&#45;stillingunum.</p>
+										<p>Hægt er að slökkva á sjálfvirka línubilinu fyrir eitt orð með því að Swype&#45;a frá orðabilstakkanum að hoptakkanum.</p>
+										<p>Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Skipt um orð
+									<div id="ul_1g" class="closed">
+										<p>Skiptu um orð með því að banka á það, veldu síðan orðið sem þú vilt úr Orðavalsglugganum, eða merktu einfaldlega orðið og Swype&#45;aðu nýtt orð. Nýja orðið kemur í stað ranga orðsins.</p>
+										<p>Hægt er að auðkenna orð með því að banka á það og slá á <img src="img_swypekey.png" /> eða tvíbanka á orðið.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Skoppað á milli stafa
+									<div id="ul_1h" class="closed">
+										<p>Að forðast stafi þegar þú Swype&#45;ar tryggir að þú fáir orðið sem þig vantar í fyrstu atrennu.</p>
+										<p>Til dæmis væri hægt að teikna „ótal” og „óráð” með sömu slóðinni &#45; en taktu eftir að þú þarft ekki að færa þig frá staf til stafs í beinni línu. Að forðast „u“ þegar þú rekur fingurinn að „r“ tryggir að orðið „óráð“ verði fyrst í Orðavalsglugganum.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Aðrar bókstafir
+									<div id="ul_1i" class="closed">
+
+										<p>Ýttu á og haltu takka til að fá upp lista yfir önnur rittákn fyrir þann takka, svo sem broddaða stafi eins og ð og á, tákn eins og @ og %, og tölur.</p>
+
+										<p>Bankaðu á Táknatakkann (?123) til að komast á Táknalyklaborðið.</p>
+										<p>Athugaðu að ALLIR stafirnir eru Swype&#45;anlegir frá aðallyklaborðinu (hvort sem þú getur séð þá eða ekki). Þú getur Swype&#45;að með því að nota þessa sýn á lyklaborðið, en þú munt aðeins geta fengið orð sem hafa minnst eina tölu eða tákn.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Orðum bætt við og eytt
+									<div id="ul_1j" class="closed">
+										<p>Skynsamleg Swype&#45;un bætir nýjum orðum sem þú notar í Persónulegu orðabókina.</p>
+										<p>Þú getur einnig bætt við orði með því að auðkenna það og banka á <img src="img_swypekey.png" />. Bankaðu á áminninguna sem birtist til að bæta orðinu við.</p>
+										<p>Til að eyða orði skaltu ýta á og halda orðinu í Orðavalsglugganum og síðan banka á OK í staðfestingarglugganum. Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Persónubinding
+									<div id="ul_1k" class="closed">
+										<p>Swype getur á skjótan hátt bætt orði við orðabókina þína af Twitter og Gmail. Að persónubinda Swype:</p>
+										<ol>
+											<li>Ýttu á og haltu <img src="img_swypekey.png" />.</li>
+											<li>Frá Swype stillingarvalmyndinni velurðu Mín orð &gt; persónugera.</li>
+											<li>Veldu úr persónubindingarvalkostunum og færðu inn skilríki þín ef beðið er um.</li>
+											<li>Þú getur persónubundið Swype frá einum eða öllum uppsprettum.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Tala</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Þú getur talað til að færa inn textaefni fyrir allt frá texta&#45; og tölvupóstskilaboðum til uppfærslna á Facebook og Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Hætta við <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Greinarmerki
+									<div id="ul_2a" class="open">
+										<p>Engin þörf er að bæta greinarmerkjum við handvirkt. Segðu bara greinarmerkið sem þú vilt nota og haltu áfram. Reyndu þetta:</p>
+										<ol>
+											<li>Ýttu á raddtakkann og byrjaðu að tala.</li>
+											<li>Það sem þú segir: <i>Kvöldverðurinn var ljúffengur upphrópunarmerki</i></li>
+											<li>Það sem þú færð: <i>Kvöldverðurinn var ljúffengur!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Raddílag er ekki tiltækt á sumum lyklaborðum</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Skrifa</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Þú getur notað fingurna til að teikna stafi og orð og Swype breytir því í texta. Þú getur teiknað stafi frá vinstri til hægri eða hvern ofan á annan. Ýttu á ABC / 123 til að skipta á milli stafa&#45; og táknastillingar.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Hætta við <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Gera skrift virka
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Ýttu á og haltu <img src="img_symkey.png" /> og renndu fingrinum að skriftartáknmyndinni.</li>
+											<li>Teiknaðu stafi með fingrinum á rithandarsvæðið.</li>
+
+											<li>Bankaðu á biltakkann milli orða</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Fjölsnertingarbending
+									<div id="ul_3b" class="closed">
+										<p>Fjölsnertingarbendingin gerir þér kleift að ljúka einföldum verkefnum, eins og að skrifa orð eða stafi í hástöfum.</p>
+										<ol>
+											<li>Teiknaðu nokkra lágstafi í teikniblokkina</li>
+											<li>Renndu tveimur fingrum upp á við á skriftarsvæðinu þegar stafirnir hafa verið færðir inn</li>
+											<li>Rithandareiginleikinn þekkir fjölsnertibendinguna og gerir stafina að hástöfum</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Skrift er ekki tiltæk á sumum lyklaborðum.</i></p>
+									<p><i>Þessi aðgerð er ekki tiltæk þegar kveikt er á aðgengileika kerfisins Explore&#45;by&#45;Touch.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Banka</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Hefðbundin mynd handvirks lyklaborðsílags. Bank&#45;ílag á Swype&#45;lyklaborðið er gert auðveldara og skilvirkara með nokkrum gagnlegum eiginleikum:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Hætta við <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Leiðrétting á hroðvirknislegri ritun
+									<div id="ul_4a" class="open">
+										<p>Þú þarft ekki að banka hvern staf fullkomlega. Gerðu bara þitt besta og Swype kemur á skynvæddan hátt með uppástungur að orðum.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Orði lokið
+									<div id="ul_4b" class="closed">
+										<p>Swype getur líka giskað á orðið þegar þú hefur bankað nokkra stafi.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Tungumál</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Að skipta um tungumál frá lyklaborðinu: Ýttu á og haltu biltakkanum. Veldu það tungumál sem þú óskar þér úr sprettivalmyndinni.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect gerir okkur kleift að afhenda uppfærslur og kraftmikla virkni, beint í tækið þitt! Þrátt fyrir að Swype Connect virki yfir 3G mælum við alltaf með að þú finnir Wi&#45;Fi&#45;tengingu.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Hætta við <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Niðurhal tungumála
+									<div id="ul_6a" class="open">
+										<p>Það er auðvelt að bæta tungumálum við Swype:</p>
+										<ol>
+											<li>Ýttu á og haltu <img src="img_swypekey.png" /> og veldu Tungumál.</li>
+											<li>Veldu Hala niður tungumálum úr valmynd Tungumála.</li>
+											<li>Smelltu á tungumál og niðurhalið byrjar sjálfvirkt.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect er ekki tiltækt á öllum lyklaborðum.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Meiri hjálp</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Til að fá frekari hjálp í notkun Swype skaltu skoða Swype&#45;notandahandbókina og ábendingar og myndbönd Swype á <a href="http://www.swype.com">www.swype.com</a>, eða skoða Swype&#45;vettvanginn á netinu á www.<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

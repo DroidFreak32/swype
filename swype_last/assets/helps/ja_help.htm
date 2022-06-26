@@ -1,0 +1,300 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">音声入力</a></div>
+				<div><a href="#write">手書き入力</a></div>
+				<div class="last"><a href="#tap">タイプ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype では、Swype、口頭入力、筆記入力、タップという 4 つの異なった入力モードをスムースに切り替えることができます。</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype を使うとテキスト入力が速やかになります。 文字を線で結んで言葉を入力します。 単語の最初の文字に指を置き、文字から文字へとたどって、最後の文字で指を離します。 Swype によって、必要に応じてスペースが挿入されます。</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							詳細情報 <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype キー
+									<div id="ul_1a" class="open">
+										<p>Swype キーは、Swype のロゴが付いたキーです。 Swype キーを長押しすると、Swype 設定にアクセスできます。</p>
+										<p>Swype キーはまた、多くの Swype ジェスチャの開始にも使用されます。</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    キーボード プレビュー
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ジェスチャ
+									<div id="ul_1b" class="closed">
+										<p>Swype ジェスチャは、一般的なタスクをすばやく実行するためのキーボードのショートカットです。 システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合、この機能は利用できません。</p>
+										<ul>
+											<li><span class="gestures">編集キーボードに移動</span> 編集キーボードに移動するには、キーボードで <img src="img_swypekey.png" /> から記号キー (?123) へと Swype します。</li>
+											<li><span class="gestures">数字用キーボードに移動</span> 数字用キーボードにすばやく移動するには、<img src="img_swypekey.png" /> から数字 「5」 へと Swype します。</li>
+											<li><span class="gestures">キーボードの非表示</span> キーボードを簡単に「非表示」にするには、Swype キー からバックスペース キー へと Swype します。</li>
+
+
+											<li><span class="gestures">句読点</span> 句読点を簡単に入力するには、タップする代わりに、カンマ、ピリオド、他の句読点などからスペース キーへと Swype します。</li>
+
+											<li><span class="gestures">すべて選択、切り取り、コピー、および貼り付け</span>
+												すべて選択： <img src="img_swypekey.png" /> から 「a」 へと Swype します<br />
+												切り取り： <img src="img_swypekey.png" /> から 「x」 へと Swype します<br />
+												コピー： <img src="img_swypekey.png" /> から 「c」 へと Swype します<br />
+												貼り付け： <img src="img_swypekey.png" /> から 「v」 へと Swype します
+											</li>
+
+											<li><span class="gestures">アプリケーション ショートカット</span>Google マップ: <img src="img_swypekey.png" /> から 「g」 へ、続いて 「m」 へと Swype します</li>
+											<li><span class="gestures">検索</span>クイックウェブ検索を行うには、テキストをハイライトして、<img src="img_swypekey.png" /> から S へと Swype します。</li>
+											<li><span class="gestures">前回使用した言語に切り換えます。</span>複数の言語を使用している場合、前回使用した言語に手軽に戻すには、<img src="img_swypekey.png" /> からスペース キーに Swype します。</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									重複する文字の入力
+									<div id="ul_1n" class="closed">
+										<p>同じ文字を正確に二度入力するためには、その文字の上で少し指を動かすか、またはループを描きます。 例えば、「motto」 (もっと) の「tt」を入力するには、「t」キーの上で指を動かします。 システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合、この機能は利用できません。</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									単語の選択
+									<div id="ul_1d" class="closed">
+										<p>「単語選択リスト」に挙げられた既定の候補単語を使う場合は、トレースもしくはタップをそのまま続けてください。 候補単語を使わない場合は リストを指でドラッグしてスクロールし、希望の単語を選択してください。 システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合、この機能は利用できません。</p>
+										<p>リストからテキストを選択するには、指を円を描くように動かしてリスト入力音を聞きます。 時計回りに動かすとリストの前に移動し、時計と反対回りに動かすとリストの後に移動します。 指を放すと最後に読み上げたリスト入力を出力します。 単語選択リストの単語を選択するには、リストの最初の単語が聞こえるまでキーボードから指を上にスライドさせ、円を描くように動かします。	システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合だけ、この機能は利用できます。</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									文字間での回避
+									<div id="ul_1h" class="closed">
+										<p>場合によっては、Swype 入力で文字を避けることで、正しい単語が最初に提示されるようになります。</p>
+										<p>例えば、「行程」 (こうてい) と「固定」 (こてい) は同じパスをたどって入力できますが、文字から文字への移動に直線を描く必要はありません。 「t」へと Swype するときに「u」を避けて進むと、「固定」が「単語選択リスト」の最初に表示されるようになります。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									特殊文字
+									<div id="ul_1i" class="closed">
+
+										<p>キーを長押しすると、% や @ などの記号、および数字を含む特殊文字の一覧が表示されます。</p>
+
+										<p>記号キー (?123) をタップすると記号キーボードが表示されます。</p>
+										<p>文字はすべて、（目に見えて表示されていなくとも）メインのキーボードから Swype できることを覚えておいてください。 文字には最低でも数字 1 つか記号 1 つが付いているので、この配列のキーボードを使ってトレースすることもできます。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									単語の追加と削除
+									<div id="ul_1j" class="closed">
+										<p>Swypeは あなたの使用する単語をインテリジェントに個人辞書に追加します。</p>
+										<p>また、単語をハイライトして <img src="img_swypekey.png" /> をタップすることで、その単語を追加することも可能です。 表示されるメッセージをタップして、単語を追加します。</p>
+										<p>単語を削除するには、「単語選択リスト」で単語を長押しし、確認ダイアログで「OK」をタップします。 システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合、この機能は利用できません。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									カスタマイズ
+									<div id="ul_1k" class="closed">
+										<p>Swype では、Twitter、Gmail、および以前 から単語を手軽に辞書に追加することができます。 Swype の個人用設定を行う方法:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> を長押しします</li>
+											<li>Swype設定メニューから、マイワード&gt;個人用設定の順に選択します。</li>
+											<li>個人用設定オプションから選択を行い、プロンプトに応じて資格情報を入力します。</li>
+											<li>1 つまたはすべてのソースから Swype を個人用に設定することができます。</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">音声入力</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>テキストや電子メールメッセージから、Facebook や Twitter の更新まで、あらゆるコンテンツを音声で入力することができます。</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							詳細情報 <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									句読点
+									<div id="ul_2a" class="open">
+										<p>句読点を手作業で入力する必要はありません。 必要な句読点を音声入力し、そのまま続行します。 次の例を試してみてください:</p>
+										<ol>
+											<li>音声キー を押して音声入力を開始します。</li>
+											<li>次の文を口頭入力してみましょう。 <i>夕ご飯おいしかった感嘆符</i></li>
+											<li>すると 次のように表示されます。 <i>夕ご飯おいしかった!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>音声入力は、一部のキーボードでは利用できません</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">手書き入力</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>指を使って文字と単語を書くと、Swype によってテキストに変換されます。 文字は左から右へ、または同じ場所に重ねて書くことができます。					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							詳細情報 <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									手書きをオンにする
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> を長押しし、手書きアイコンに指をスライドさせます。</li>
+											<li>手書き入力パネルに指で文字を書き込みます。</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>手書きは、一部のキーボードでは利用できません。</i></p>
+									<p><i>システムのアクセシビリティサービス Explore&#45;by&#45;Touch がオンの場合、この機能は利用できません。</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">タイプ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>従来形式の手作業によるキーボード入力です。 Swype キーボードでのタップ入力は、いくつかの補助機能によって使いやすく効率的になっています。</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							詳細情報 <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ルーズな入力の修正
+									<div id="ul_4a" class="open">
+										<p>それぞれの文字をきちんとタップする必要はありません。 できる範囲で入力すれば、Swype によって単語の候補がインテリジェントに提示されます。</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									単語補完
+									<div id="ul_4b" class="closed">
+										<p>Swype は、いくつかの文字をタップするだけで目的の単語を推定することができます。</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">言語</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>キーボードで言語を切り替える方法: スペースバーを長押しします 言語をポップアップメニューから選択します</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect によって、お使いの機器に、更新と高度な機能を配信することができます。 Swype Connect は 3G で機能しますが、Wi&#45;Fi 接続の利用を当社ではお勧めしています。</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							詳細情報 <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									言語のダウンロード
+									<div id="ul_6a" class="open">
+										<p>Swype に言語を追加するのは簡単です。</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> を長押しして、言語を選択します。</li>
+											<li>言語メニュー で、「言語をダウンロード」を選択します</li>
+											<li>言語をクリックすると、ダウンロードが自動的に開始されます。</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect は、すべてのキーボードで利用できるわけではありません。</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">さらにヘルプ</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype の利用についての詳細は、<a href="http://www.swype.com">www.swype.com</a> で「Swype ユーザー マニュアル」や Swype のヒントとビデオをご覧になるか、または <a href="http://forum.swype.com">forum.swype.com</a> でオンラインの Swype フォーラムをご利用ください。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

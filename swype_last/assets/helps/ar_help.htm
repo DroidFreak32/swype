@@ -1,0 +1,337 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html dir="rtl">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<!-- include RTL language css overrides -->
+		<link rel="stylesheet" href="style_help_rtl.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+             
+				<div class="first"><a href="#tap">اكتب</a></div>
+				<div><a href="#write">الكتابة</a></div>
+				<div><a href="#speak">التحدث</a></div>
+				<div class="last"><a href="#swype"><span dir="ltr">Swype</span></a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">باستخدام <span dir="ltr">Swype</span>، يمكنك التبديل بسلاسة بين أربعة أوضاع إدخال مختلفة، هي <span dir="ltr">Swype</span> أو التحدث أو الكتابة أو الضغط.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title"><span dir="ltr">Swype</span></span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p><span dir="ltr">Swype</span> هو طريقة سريعة لإدخال النص. يتيح لك إدخال كلمة بالرسم من خلال الحروف. ضع إصبعك على الحرف الأول من الكلمة و ارسم مساراً من حرف إلى حرف، و ارفع إصبعك بعد الحرف الأخير. سيقوم <span dir="ltr">Swype</span> بإدراج مسافات حيثما كان ذلك ضروريا.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							للمزيد من المعلومات <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									مفتاح <span dir="ltr">Swype</span>
+									<div id="ul_1a" class="open">
+										<p>مفتاح <span dir="ltr">Swype</span> هو المفتاح الذي يظهر عليه شعار <span dir="ltr">Swype.</span> اضغط باستمرار على مفتاح <span dir="ltr">Swype</span> للوصول إلى إعدادات <span dir="ltr">Swype.</span></p>
+										<p>يُستخدم مفتاح <span dir="ltr">Swype</span> كذلك لبدء العديد من إيماءات <span dir="ltr">Swype.</span></p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    معاينة لوحة المفاتيح
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									إيماءات <span dir="ltr">Swype</span>
+									<div id="ul_1b" class="closed">
+										<p>إيماءات <span dir="ltr">Swype</span> هي اختصارات على لوحة المفاتيح لإنجاز المهام الشائعة سريعًا. هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+										<ul>
+											<li><span class="gestures">الوصول إلى لوحة مفاتيح التحرير</span> للوصول إلى لوحة مفاتيح التعديل، مرر من مفتاح <img src="img_swypekey.png" /> إلى مفتاح الرموز (?123)على لوحة المفاتيح.</li>
+											<li><span class="gestures">الوصول إلى لوحة مفاتيح الأرقام</span> للوصول سريعًا إلى لوحة مفاتيح الأرقام، مرر من المفتاح <span dir="ltr">Swype</span> <img src="img_swypekey.png" /> إلى الرقم 5.</li>
+											<li><span class="gestures">إخفاء لوحة المفاتيح</span> لإخفاء لوحة المفاتيح بسهولة، فقط قم بالتمرير من مفتاح <span dir="ltr">Swype</span> إلى مفتاح المسافة للخلف.
+</li>
+
+											<li><span class="gestures">إيقاف المسافات التلقائية</span> أوقف المسافات التلقائية قبل الكلمة التالية بواسطة التمرير من مفتاح المسافة إلى مفتاح مسافة للخلف.</li>
+
+
+											<li><span class="gestures">علامات الترقيم</span> لإدخال علامات الترقيم بسهولة يمكن التمرير من علامة الاستفهام أو الفاصلة أو النقطة أو غيرها من علامات الترقيم إلى مفتاح المسافة بدلا من النقر عليها.</li>
+
+											<li><span class="gestures">اختصارات التطبيق</span>خرائط <span dir="ltr">Google:</span> قم بالتمرير من <img src="img_swypekey.png" /> إلى &#39;<span dir="ltr">g&#39;</span> ثم &#39;<span dir="ltr">m&#39;</span></li>
+											<li><span class="gestures">إبحث</span>قم بتمييز نص معيّن و <span dir="ltr">Swype</span> من <img src="img_swypekey.png" /> إلى <span dir="ltr">S</span> لإجراء بحث سريع على الويب.</li>
+											<li><span class="gestures">التحويل إلى أخر لغة تم إستخدامها</span>عند إستخدام لغات متعددة، أسرع طريقة  للعودة إلى اللغة السابقة هي أن تستخدم <span dir="ltr">Swype</span> من <img src="img_swypekey.png" /> إلى مفتاح المسافة.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									إدخال أحرف مزدوجة
+									<div id="ul_1n" class="closed">
+										<p>لتحسين الدقة عند إدخال حروف مزدوجة، ارسم دائرة أو نقش خفيف على الحرف. على سبيل المثال، للحصول على &quot;نن&quot;في  &quot;واننا&quot;، إرسم على مفتاح  &quot;ن&quot;. هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									اختيار كلمة
+									<div id="ul_1d" class="closed">
+										<p>لقبول الكلمة الافتراضية المقترحة من قائمة اختيار الكلمات، استمر في الكتابة بالرسم. خلاف ذلك، قم بالتمرير من خلال القائمة عن طريق سحب إصبعك، و تحديد الكلمة التي تريدها. هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+										<p>لتحديد نص من إحدى القوائم، حرك إصبعك في حركة دائرية لسماع إدخالات القائمة. يتحرك للأمام في اتجاه عقارب الساعة خلال القائمة؛ يتحرك للخلف في عكس اتجاه عقارب الساعة خلال القائمة. رفع إصبعك يعمل على إستدعاء أخر قائمة تحدث في قائمة الإدخالات. لاختيار كلمة من قائمة اختيار الكلمات، قم بتحريك إصبعك لأعلى من لوحة المفاتيح حتى يتم سماع أول كلمة في القائمة، ثم ابدأ في الحركة الدائرية.	هذه الميزة متوفرة فقط عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									إضافة المسافات تلقائيًا
+									<div id="ul_1f" class="closed">
+										<p>يقوم <span dir="ltr">Swype</span> بإدراج المسافة تلقائيًا بين الكلمات عندما تبدأ بكتابة الكلمة التالية في الجملة. يمكنك تشغيل وظيفة إضافة المسافات تلقائيًا أو إيقاف تشغيلها من إعدادات <span dir="ltr">Swype.</span></p>
+										<p>يمكن إيقاف تشغيل وظيفة إضافة المسافات تلقائيًا لكلمة واحدة عن طريق التمرير من مفتاح المسافة إلى مفتاح مسافة للخلف.</p>
+										<p>هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									إستبدال كلمة
+									<div id="ul_1g" class="closed">
+										<p>استبدل كلمة عن طريق النقر عليها، ثم حدد الكلمة التي تريدها من قائمة اختيار الكلمات أو قم بتمييز الكلمة ثم اكتب بالرسم كلمة جديدة. سوف تحل الكلمة الجديدة محل الكلمة الخاطئة.</p>
+										<p>يمكن تمييز الكلمة بنقرها ثم الضغط على <img src="img_swypekey.png" /> أو بالنقر المزدوج على الكلمة.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									الوثب بين الحروف
+									<div id="ul_1h" class="closed">
+										<p>أحياناً تجنُّب بعض الحروف أثناء الكتابة بالرسم يضمن لك الحصول على الكلمة التي تريدها من المرة الأولى.</p>
+										<p>على سبيل المثال،  &quot;لان&quot;  و &quot;لن&quot; يمكن إستخلاصهما مع نفس المسار &#45; و لكن لاحظ، ليس من الضروري أن تنتقل من حرف إلى آخر في خط مستقيم. تجنُّب  &quot;ا&quot; عند تمرير إصبعك إلى &quot;ن&quot; يضمن لك أن كلمة  &quot;لن&quot; ستكون الأولى في قائمة إختيار الكلمة.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									الحروف البديلة
+									<div id="ul_1i" class="closed">
+
+										<p>إضغط بإستمرار على أحد المفاتيح لإستدعاء قائمة بالحروف البديلة لهذا المفتاح، مثل الرموز مثل  @ و % والأرقام.</p>
+
+										<p>إضغط على مفتاح الرموز (?123) للإنتقال إلى لوحة مفاتيح الرموز.</p>
+										<p>لاحظ أن كل الحروف يمكن كتابتها باستخدام <span dir="ltr">Swype</span> من لوحة المفاتيح الرئيسية (سواء كان بإمكانك رؤيتها أم لا). يمكنك التتبع باستخدام منظر لوحة المفاتيح هذا ولكنك ستحصل فقط على الكلمات التي تتضمن رقمًا أو رمزًا واحدًا على الأقل.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									إضافة وحذف الكلمات
+									<div id="ul_1j" class="closed">
+										<p>يضيف <span dir="ltr">Swype</span> بذكاء أي كلمات جديدة تستخدمها إلى قاموسك الشخصي.
+</p>
+										<p>يمكنك كذلك إضافة كلمة بواسطة تمييزها ثم الضغط على <img src="img_swypekey.png" />. إضغط على الموجّه الذي يظهر لإضافة الكلمة.</p>
+										<p>لحذف كلمة، اضغط باستمرار على الكلمة في قائمة اختيار الكلمات ثم إضغطموافق في مربع حوار التأكيد. هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									التخصيص
+									<div id="ul_1k" class="closed">
+										<p>بإمكان <span dir="ltr">Swype</span> إضافة كلمات إلى قاموسك من <span dir="ltr">Twitter</span> و<span dir="ltr">Gmail</span> بشكل سريع.
+ لتخصيص <span dir="ltr">Swype:</span></p>
+										<ol>
+											<li>اضغط باستمرار على <img src="img_swypekey.png" />.</li>
+											<li>من قائمة إعدادات <span dir="ltr">Swype</span>، إختار تخصيص &gt; كلماتي.
+</li>
+											<li>إختار من خيارات التخصيص ثم أدخل بيانات التسجيل الخاصة بك إذا تم طلبها.</li>
+											<li>يمكنك تخصيص <span dir="ltr">Swype</span> من مصدر واحد أو من جميع المصادر.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">التحدث</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>يمكنك التحدث لإدخال محتوى نصي عن أي شيء بدءًا من النص و رسائل البريد الإلكتروني إلى المستجدات على <span dir="ltr">Facebook</span> و<span dir="ltr">Twitter.</span></p>
+						<div class="learnmore" onclick="toggle('0b')">
+							للمزيد من المعلومات <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									علامات الترقيم
+									<div id="ul_2a" class="open">
+										<p>لا حاجة إلى إضافة علامات الترقيم يدويًا. كل ما تحتاجه هو ذكر علامة الترقيم التي تريدها ثم المتابعة. جرب هذا:</p>
+										<ol>
+											<li>اضغط على مفتاح الصوت ثم ابدأ في التحدث.</li>
+											<li>ماذا تقول <i>العشاء كان لذيذًا علامة تعجب</i></li>
+											<li>ما ستحصل عليه: <i>العشاء كان لذيذًا!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>الإدخال الصوتي غير متاح مع بعض لوحات المفاتيح</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">الكتابة</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>يمكنك استخدام إصبعك لرسم الحروف و الكلمات و سوف يحولها <span dir="ltr">Swype</span> إلى نص. يمكنك رسم الحروف من اليسار إلى اليمين أو فوق بعضها البعض. إضغط على <span dir="ltr">ABC / 123</span> للتبديل بين وضع الحرف والرمز.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							للمزيد من المعلومات <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									تمكين الكتابة بخط اليد
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>اضغط باستمرار ?123ومرّر إصبعك إلى رمز الكتابة.</li>
+											<li>ارسم الحروف بإصبعك على منطقة الكتابة بخط اليد.</li>
+
+											<li>اضغط على مسطرة المسافة بين كل كلمة و الأخرى</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									إيماءة متعددة اللمس
+									<div id="ul_3b" class="closed">
+										<p>تتيح لك الإيماءة متعددة اللمس إكمال مهام بسيطة مثل بدء الكلمات بحرف كبير.</p>
+										<ol>
+											<li>ارسم بعض الحروف الصغيرة على لوحة الرسم</li>
+											<li>بعد إدخال الحروف اسحب إصبعين لأعلى في منطقة الكتابة</li>
+											<li>وظيفة الكتابة بخط اليد سوف تتعرف على الإيماءة متعددة اللمس و تحول الحروف إلى أحرف كبيرة</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>الكتابة بخط اليد غير متاح في بعض لوحات المفاتيح.</i></p>
+									<p><i>هذه الميزة غير متوفرة عند تشغيل خدمة قابلية الوصول إلى النظام <span dir="ltr">&quot;Explore&#45;by&#45;Touch&quot; (</span>الاستكشاف باللمس).</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">اكتب</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>الصورة التقليدية للإدخال اليدوي عن طريق لوحة المفاتيح. الإدخال بالضغط على لوحة مفاتيح <span dir="ltr">Swype</span> أصبح أسهل و أكثر فعالية بواسطة بعض الوظائف المفيدة:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							للمزيد من المعلومات <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									تصحيح الكتابة غير المتقنة
+									<div id="ul_4a" class="open">
+										<p>لا يتعين عليك الضغط على كل حرف على الوجه الأكمل. فقط حاول أن تبذل قصارى جهدك و سوف يوفر <span dir="ltr">Swype</span> بذكاء مقترحات للكلمات.
+</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									إكمال الكلمة
+									<div id="ul_4b" class="closed">
+										<p>بإمكان <span dir="ltr">Swype</span> كذلك تخمين الكلمة التي تريدها بمجرد ضغطك على بعض الحروف القليلة.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">اللغات</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>لتغيير اللغات من لوحة المفاتيح: اضغط باستمرار على مسطرة المسافة. حدد اللغة التي تريدها من القائمة المنبثقة.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title"><span dir="ltr">Swype Connect</span></span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>يتيح لنا <span dir="ltr">Swype Connect</span> توصيل تحديثات و وظائف قوية إلى جهازك مباشرة! و في حين أن <span dir="ltr">Swype Connect</span> سيعمل على 3<span dir="ltr">G</span>، فنحن نوصي دائمًا بالبحث عن اتصال واي فاي لاستخدامه.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							للمزيد من المعلومات <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									تحميل اللغات
+									<div id="ul_6a" class="open">
+										<p>إضافة لغات أخرى إلى <span dir="ltr">Swype</span> مهمة سهلة:</p>
+										<ol>
+											<li>اضغط باستمرار على <img src="img_swypekey.png" /> ثم قم بإختيار اللغات.</li>
+											<li>من قائمة خيارات اللغة، إختار تحميل اللغات.</li>
+											<li>اضغط على إحدى اللغات و سوف تبدأ عملية التحميل على الفور.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i><span dir="ltr">Swype Connect</span> غير متاح على كافة لوحات المفاتيح.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">المزيد من التعليمات</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>للمزيد من الإرشادات الخاصة بإستخدام <span dir="ltr">Swype</span>، شاهد دليل المستخدم والتوجيهات والفيديوهات الخاصة بـ <span dir="ltr">Swype</span> في <a href="http://www.swype.com"><span dir="ltr">www.swype.com</span></a>، أو قم بزيارة منتدى <span dir="ltr">Swype</span> على الانترنت <a href="http://forum.swype.com"><span dir="ltr">forum.swype.com</span></a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

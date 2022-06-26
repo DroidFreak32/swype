@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Praat</a></div>
+				<div><a href="#write">Skryf</a></div>
+				<div class="last"><a href="#tap">Tik</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Met Swype, het jy het die vermoë om seepglad tussen vier verskillende insetmodusse te skakel &#45; Swype, Praat,, Skryf, of Tik.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype is &#39;n vinnige manier om teks in te sleutel. Dit laat jou toe om &#39;n woord in te sleutel deur deur die letters te teken. Sit jou vinger op die eerste letter van die woord neer en trek ‘n streep van letter tot letter, lig jou vinger op na die laaste letter. Swype sal spasie invoeg waar nodig.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Kom meer te wete <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Die Swype&#45;Sleutel
+									<div id="ul_1a" class="open">
+										<p>Die Swype&#45;sleutel is die sleutel met die Swype logo op. Druk en hou die Swype&#45;sleutel om toegang tot Swype&#45;instellings te verkry.</p>
+										<p>Die Swype&#45;sleutel word ook gebruik om baie van die Swype&#45;gebare te inisieer.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Sleutelbord voorskou
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype Gebare
+									<div id="ul_1b" class="closed">
+										<p>Swype gebare is kortpaaie op die sleutelbord om algemene take vinnig af te handel. Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+										<ul>
+											<li><span class="gestures">Om by die sleutelbordwysiging uit te kom.</span> Om by die sleutelbordwysiging uit te kom, Swype van die<img src="img_swypekey.png" /> na die simbolesleutel (?123) op die sleutelbord.</li>
+											<li><span class="gestures">Om by die syfersleutelbord uit te kom</span> Om vinnig by die syfersleutelbord uit te kom, Swype van die <img src="img_swypekey.png" /> tot die syfer 5.</li>
+											<li><span class="gestures">Steek die sleutelbord weg</span> Om maklik die sleutelbord weg te steek, Swype net van die Swype&#45;sleutel tot by die Terugsleutel.</li>
+
+											<li><span class="gestures">Skakel outomatiese spasiëring af</span> Onderdruk outomatiese spasiëring voor die volgende woord deur van die spasiesleutel tot by die Terugsleutel te Swype.</li>
+
+
+											<li><span class="gestures">Wysiging van klein na hoofletters van &#39;n woord</span> Verander die letters van &#39;n woord nadat jy dit ingesit het deur op die woord te tik en dan van die <img src="img_swypekey.png" /> tot die Skuif&#45;sleutel <img src="img_shiftkey.png" /> te Swype. &#39;n Woordkeuselys met hoof&#45;of kleinletteropsies sal vertoon word, en toelaat dat jy kleinletters, hoofletters, of ALLES IN HOOFLETTERS kies.</li>
+
+											<li><span class="gestures">Leestekens</span> &#39;n Eenvoudige manier om leestekens in te sleutel is om van die vraagteken, komma, punt, of ander leesteken na die spasiesleutel te Swype in plaas van daarop tik.</li>
+
+											<li><span class="gestures">Kies Alles, Sny, Kopieer en Plak</span>
+												Kies Alles: Swype van die <img src="img_swypekey.png" /> tot die &#39;a&#39;<br />
+												Sny: Swype van die <img src="img_swypekey.png" /> tot die &#39;x&#39;<br />
+												Kopieer: Swype van die <img src="img_swypekey.png" /> tot die &#39;c&#39;<br />
+												Plak: Swype van die <img src="img_swypekey.png" /> tot die &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Programkortpaaie</span>Google Kaarte: Swype van die <img src="img_swypekey.png" /> tot die &#39;g&#39;, dan &#39;m&#39;</li>
+											<li><span class="gestures">Soek</span>Beklemtoon sommige teks en Swype van die <img src="img_swypekey.png" /> tot die S om &#39;n vinnige web&#45;soektog te doen.</li>
+											<li><span class="gestures">Skakel oor na die laaste taal wat gebruik is.</span>Wanneer verskeie tale gebruik word, is &#39;n vinnige manier om na die vorige taal terug te skakel om van die <img src="img_swypekey.png" /> tot die spasiesleutel te Swype.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Sleutel dubbelletters in
+									<div id="ul_1n" class="closed">
+										<p>Om akkuraatheid te verbeter wanneer jy dubbel letters insleutel, krap effens of maak &#39;n lus op die letter. Byvoorbeeld, om die &#39;oo&#39; in &#39;skoonheid&#39; te kry, krap op die &#39;o&#39; sleutel. Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Kies &#39;n woord
+									<div id="ul_1d" class="closed">
+										<p>Om die voorgestelde standaardwoord in die Woordkeuselys te aanvaar , hou net aan met Swype. Andersins, blaai deur die lys deur jou vinger te sleep, en dan die woord wat jy wil te kies. Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+										<p>Om teks te kies uit &#39;n lys, beweeg jou vinger in &#39;n sirkel beweging om die lys inskrywings te hoor. Kloksgewys beweeg vorentoe deur die lys; antikloksgewys beweeg agteruit deur die lys. Opheffing van vinger uitgange die laaste gepraat lys inskrywing. Om &#39;n woord in die woordkeuse&#45;lys te kies, gly jou vinger vanaf sleutelbord totdat u die eerste woord in die lys hoor, en begin dan kringbeweging.	Hierdie funksie is slegs beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Woorde in hoofletters
+									<div id="ul_1e" class="closed">
+										<p>Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+										<p>Skryf ‘n woord in hoofletters deur jou vinger van die eerste letter op en verby die punt van die sleutelbord te vee en, sonder om vinger op te lig, jou vinger terug te gly na die volgende letter van die woord.</p>
+										<p>Verander die letters van &#39;n woord nadat jy dit ingesit het deur op die woord te tik en dan van die <img src="img_swypekey.png" /> tot die Skuif&#45;sleutel <img src="img_shiftkey.png" /> te Swype. &#39;n Woordkeuselys met hoof&#45;of kleinletteropsies sal vertoon word, en toelaat dat jy kleinletters, hoofletters, of ALLES IN HOOFLETTERS kies.</p>
+										<p>Om hoofletterslotmodus in te gaan, dubbel&#45;tik net op die Skuifsleutel <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Outomatiese spasiëring
+									<div id="ul_1f" class="closed">
+										<p>Swype voeg outomaties ‘n spasie tussen woorde wanneer jy die volgende woord in die sin Swype. Jy kan die outo&#45;spasiëringskenmerk aan of af skakel in Swype instellings.</p>
+										<p>Outo&#45;spasiëring kan afgeskakel word vir een woord deur van die spasiesleutel tot by die terugsleutel te Swype.</p>
+										<p>Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Woordvervanging
+									<div id="ul_1g" class="closed">
+										<p>Vervang &#39;n woord deur op dit te tik, kies dan die woord wat jy wil hê uit die Woordkeuselys, of beklemtoon net eenvoudig die woord en Swype &#39;n nuwe woord. Die nuwe woord sal die verkeerde een vervang.</p>
+										<p>&#39;n Woord kan beklemtoon word deur die woord te tik en druk die <img src="img_swypekey.png" /> of dubbel&#45;tik die woord.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Spring tussen letters
+									<div id="ul_1h" class="closed">
+										<p>Deur soms letters te vermy wanneer jy Swype, verseker jy dat jy die woord wat jy wil hê die eerste keer kry.</p>
+										<p>Byvoorbeeld, &#39;stip&#39; en &#39;stop&#39; kan getrek word met die dieselfde streep &#45; maar let op, jy hoef nie van letter tot letter in &#39;n reguit lyn beweeg nie. Deur die o&#39; te vermy wanneer jy jou vinger swype na die &#39;p&#39;, verseker dat die woord &#39;stip&#39; die eerste in die Woordkeuselys.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternatiewe karakters
+									<div id="ul_1i" class="closed">
+
+										<p>Druk en hou op &#39;n sleutel om &#39;n lys van alternatiewe karakters vir daardie sleutel, soos aksentletters soos é en ë, simbole soos @ en %, en syfers te sien.</p>
+
+										<p>Tik op die simbolesleutel (?123) wat na die simbolesleutelbord geneem moet word.</p>
+										<p>Let daarop dat AL die karakters Swype&#45;in staat is van die hoofsleutelbord (of jy kan hulle sien of nie). Jy kan Swype met behulp van hierdie oogpunt van die sleutelbord, maar jy sal net woorde kry wat ten minste een syferl of simbool het.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Byvoeging en verwydering van woorde
+									<div id="ul_1j" class="closed">
+										<p>Swype voeg op ‘n intillegente wyse enige nuwe woorde wat jy gebruik by jou persoonlike woordeboek.</p>
+										<p>Jy kan ook &#39;n woord byvoeg deur dit te beklemtoon en die <img src="img_swypekey.png" /> te tik. Tik op die aansporingsboodskap wat verskyn om die woord by te voeg.</p>
+										<p>Om ŉ woord te skrap, druk en hou die woord in die Woordkeuselys, en tik dan op OK in die bevestigingsboodskap. Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Verpersoonliking
+									<div id="ul_1k" class="closed">
+										<p>Swype kan vinnig woorde by jou woordeboek byvoeg vanaf Twitter en Gmail. Om Swype te verpersoonlik:</p>
+										<ol>
+											<li>Druk en hou die <img src="img_swypekey.png" />.</li>
+											<li>Vanaf die Swype&#45;instellings spyskaart, selekteer My woorde&gt;Verpersoonliking.</li>
+											<li>Vanaf die verpersoonliking opsies selekteer u kwalifikasies indien gevra word.</li>
+											<li>Jy kan Swype van een of van al die bronne verpersoonlik.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Praat</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Jy kan praat om teksinhoud in te sleutel vir alles van teks en e&#45;posboodskappe tot Facebook en Twitteropdaterings.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Kom meer te wete <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Leestekens
+									<div id="ul_2a" class="open">
+										<p>Dit is nie nodig om met die hand leestekens by te voeg nie. Sê net die leestekens wat jy wil byvoeg en gaan voort. Probeer hierdie:</p>
+										<ol>
+											<li>Druk die stemsleutel en begin praat.</li>
+											<li>Wat jy sê: <i>Aandete was heerlik uitroepteken</i></li>
+											<li>Wat jy kry: <i>Aandete was heerlik!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Steminset is nie op sekere sleutelborde beskikbaar nie</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Skryf</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Jy kan jou vinger gebruik om letters en woorde te skryf en Swype sal dit in teks verander. Jy kan letters teken van links na regs of bo&#45;op mekaar. Druk die ABC / 123 om tussen letter&#45; en simboolmodusse af te wissel.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Kom meer te wete <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktiveer handskrif
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Druk en hou die <img src="img_symkey.png" /> en gly jou vinger tot by die handskrifprentjie.</li>
+											<li>Teken letters met jou vinger op die handskrifarea.</li>
+
+											<li>Tik die spasiebalk tussen elke woord</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Multi&#45;aanraking gebare
+									<div id="ul_3b" class="closed">
+										<p>Die multi&#45;aanraking gebare laat jou toe om eenvoudige take, soos om woorde of letters hoofletters te maak, te voltooi.</p>
+										<ol>
+											<li>Teken sommige kleinletters op die tekeningsblad</li>
+											<li>Nadat jy die karakters ingesleutel het, gly twee vingers opwaarts op die skryfarea</li>
+											<li>Die handskrifkenmerk sal die multi&#45;aanraking gebare herken en die letters in hoofletters verander</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Handskrif is nie beskikbaar op sommige sleutelborde nie.</i></p>
+									<p><i>Hierdie funksie is nie beskikbaar wanneer die stelseltoeganklikheidsdiens Explore&#45;by&#45;Touch aan is nie.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Tik</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradisionele vorm van sleutelbordinset met die hand. Tikinset op die Swype&#45;sleutelbord is makliker en meer doeltreffend gemaak deur &#39;n paar nuttige kenmerke:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Kom meer te wete <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Slordige Tikkorreksie
+									<div id="ul_4a" class="open">
+										<p>Jy hoef nie elke letter perfek te tik nie. Probeer net jou bes en Swype sal op ‘n intelligente wyse woordvoorstelle verskaf.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Word Voltooiing
+									<div id="ul_4b" class="closed">
+										<p>Swype kan ook jou woord raai wanneer jy slegs &#39;n paar letters intik.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Tale</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Om tussen tale oor te skakel op die sleutelbord: Druk en hou die spasiebalk. Kies die gewenste taal van die opspring&#45;spyskaart.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect laat ons toe om opdaterings en kragtige funksies direk op jou toestel te lewer! Terwyl Swype Connect oor 3G sal werk, beveel ons altyd &#39;n Wi&#45;Fi&#45;verbinding aan.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Kom meer te wete <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Taal aflaaiings
+									<div id="ul_6a" class="open">
+										<p>Byvoeging van addisionele tale by Swype is maklik:</p>
+										<ol>
+											<li>Druk en hou die <img src="img_swypekey.png" /> en kies Tale.</li>
+											<li>Van die tale&#45;spyskaart, kies Laai tale af.</li>
+											<li>Klik op &#39;n taal en dit sal outomaties begin aflaai.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect is nie beskikbaar op alle sleutelborde nie.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Verdere hulp</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Vir verdere hulp met die gebruik van Swype, kyk na &#39;n Swype gebruikershandleiding en Swype&#45;wenke en videos op <a href="http://www.swype.com">www.swype.com</a>, of kyk na die Swype aanlynforum by <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,342 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Сөйләү</a></div>
+				<div><a href="#write">Язу</a></div>
+				<div class="last"><a href="#tap">Җыю</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ярдәмендә сезнең дүрт төрле кертү рәвешен күчерү мөмкинлеге бар &#45; Swype, Сөйләү, Язу һәм Төртү.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype текстны тиз кертү юлы. Бу сүзләрне хәрефләр ясау аша кертү мөмкинлеген бирә. Бармакны сүзнең беренче хәрефенә куеп, хәрефтән&#45;хәрефкә юлны сызып, ахырда соңгы хәрефне өскә күтәрегез. Swype кирәк урында бушлык кертәчәк.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Күбрәк белү <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype Төймәсе
+									<div id="ul_1a" class="open">
+										<p>Swype төймәсе ул андагы Swype тамгасы белән. Swype Көйләүләренә керү өчен Swype төймәсенә басып торыгыз.</p>
+										<p>Swype төймәсе шулай ук күп санлы Swype ишарәләрен башлау өчен кулланыла.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Төймәсәрне алдан карау
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype Ишарәләре
+									<div id="ul_1b" class="closed">
+										<p>Swype Ишарәләре гомуми йомышларны тиз башкару өчен төймәсәрдә ярлыклар. Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+										<ul>
+											<li><span class="gestures">Төймәсәрне төзәтүгә күчү</span> Төймәсәрне төзәтүгә күчү өчен төймәсәрдә <img src="img_swypekey.png" /> алып билгеләр төймәсенә (?123) үткәрегез.</li>
+											<li><span class="gestures">Санлы төймәсәргә күчү</span> Санлы төймәсәргә тиз күчү өчен <img src="img_swypekey.png" /> алып 5 санына үткәрегез.</li>
+											<li><span class="gestures">Төймәсәрне яшерү</span> Төймәсәрне җәһәт яшерү өчен Swype төймәсеннән backspace төймәсенә үткәрегез.</li>
+
+											<li><span class="gestures">Үзе бушлык өстәүне сүндерү</span> Бушлык төймәсеннән Backspace төймәсенә үткәреп, киләсе сүз алдыннан үзе бушлык куюны тыю.</li>
+
+
+											<li><span class="gestures">Сүзнең зурлыгын үзгәртү</span> Керткәннән соң сүзнең зурлыгын үзгәртү &#45; ул сүзгә төртеп, аннары <img src="img_swypekey.png" /> алып <img src="img_shiftkey.png" /> Күчерү төймәсеннән үткәрү. Сүз Сайлау Исемлеге белән баш хәрефле ясау юл, Баш, яки БАРЫСЫ БАШ ХӘРЕФЛЕне ясарга сайлау мөмкинлеген күрсәтәчәк.</li>
+
+											<li><span class="gestures">Пунктуация</span> Тыныш билгеләрен гади кертү ысулы: сорау, өтер, чор яки башка тыныш билгесеннән Бушлык төймәсенә аңа төртү урынына үткәрегез.</li>
+
+											<li><span class="gestures">Кушымта ярлыклары</span>Google Maps: </li>
+											<li><span class="gestures">Эзләү</span>Берәр текстны аерып, интернетта тиз эзләү өчен <img src="img_swypekey.png" /> алып S таба үткәрегез.</li>
+											<li><span class="gestures">Соңгы кулланган телгә күчерү</span>Берничә телне кулланганда, алдагы телгә тиз кире күчерү өчен <img src="img_swypekey.png" /> алып Бушлык төймәсенә үткәрегез.</li>
+										</ul>
+									</div>
+								</li-->
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Икешәр хәреф кертү
+									<div id="ul_1n" class="closed">
+										<p>Икешәр хәреф керткәндә төгәллекне арттыру өчен хәрефтә бераз сызгалагыз яки элмәк ясагыз. Мәсәлән, &quot;нн&quot; алу өчен &quot;странны&quot;, &quot;н&quot; төймәсендә сызгалагыз. Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Сүзне сайлау
+									<div id="ul_1d" class="closed">
+										<p>Килешенгән сүзне Сүзләр Сайлау Исемлегеннән кабул итү өчен Swyp ясагыз гына. Башкача, исемлекне бармак белән әйләндереп, теләгән сүзне сайлагыз. Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+										<p>Исемлектән текстны сайлау өчен андагы кертүләрне ишетергә бармакны түгәрәк буенча йөртегез. Сәгать угы буенча исемлекне алга әйләндерә; сәгать угына каршы исемлектән кирегә әйләндерә. Бармакны өскә күтәрү соңгы әйтелгән кертү исемлеген чыгара. Сүзне Сүз Сайлау Исемлегендә сайлау өчен бармакны төймәсәрдән өскә, исемлектә беренче сүз ишетелгәнчегә кадәр шудырып, аннары түгәрәкле хәрәкәтне башлагыз.	Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте каб. булганда гына бар.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Сүзләрне баш хәрефле ясау
+									<div id="ul_1e" class="closed">
+										<p>Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+										<p>Сүзне баш хәрефле ясау өчен төймәсәрнең өске кырыендагы беренче хәрефтән бармак белән үткәрегез һәм күтәрмичә, бармакны сүзнең киләсе хәрефкә таба күчерегез.</p>
+										<p>Керткәннән соң сүзнең зурлыгын үзгәртү &#45; ул сүзгә төртеп, аннары <img src="img_swypekey.png" /> алып <img src="img_shiftkey.png" /> Күчерү төймәсеннән үткәрү. Сүз Сайлау Исемлеге белән баш хәрефле ясау юл, Баш, яки БАРЫСЫ БАШ ХӘРЕФЛЕне ясарга сайлау мөмкинлеген күрсәтәчәк.</p>
+										<p>CAPS Lock рәвешен кушу өчен <img src="img_shiftkey.png" /> Күчерү төймәсенә икеләтә төртегез генә.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Үзе бушлык өстәү
+									<div id="ul_1f" class="closed">
+										<p>Swype җөмләдә сүзләр арасына киләсе сүзгә сез үткәргәндә үзе бушлык өсти. Сез үзе бушлык өстәү мөмкинлеген Swype Көйләүләрендә кабыза яки сүндерә аласыз.</p>
+										<p>Бер сүз өчен үзе бушлык өстәүне Space төймәсеннән Backspace төймәсенә үткәреп сүндереп була.</p>
+										<p>Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Сүзне алмаштыру
+									<div id="ul_1g" class="closed">
+										<p>Сүзне алмаштыру өчен аңа төртеп, аннары Сүз Сайлау Исемлегеннән теләгән сүзне сайлагыз, яки сүзне аерып кына яңа сүзгә үткәрегез. Яңа сүз ялгышлысын алмаштырачак.</p>
+										<p>Сүзне аңа төртеп һәм <img src="img_swypekey.png" /> бәреп яки сүзгә икеләтә төртеп аерып була.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Хәрефләр арасында сикерү
+									<div id="ul_1h" class="closed">
+										<p>Кайбер чакта хәрефләргә кагылмаганда беренче теләгән сүзне алырга Swype мөмкинлек бирә.</p>
+										<p>Мәсәлән, &quot;парой&quot; һәм &quot;папой&quot; шул ук юл белән сызыла ала &#45; ләкин игътибар итегез, сезгә хәрефтән&#45;хәрефкә туры сызык буенча күчү мәҗбүри түгел. &quot;р&quot; кагылмаганда бармак белән &quot;о&quot; үткәрү &quot;папой&quot; сүзе Сүз Сайлау Исемлегендә беренче булуына мөмкинлек бирә.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Алмаш билгеләре
+									<div id="ul_1i" class="closed">
+
+										<p>Бу төймәгә башка билгеләр исемлеген чыгару өчен төймәгә басып торыгыз, шундыйлардан @ һәм % кебек билгеләр һәм саннар.</p>
+
+										<p>Билгеләр төймәсәрен куллану өчен Билгеләр төймәсенә (?123) төртегез.</p>
+										<p>Онытмагыз БАРЛЫК хәрефләр дә төп төймәсәрдән үткәрү&#45;мөмкинлекле (сез аларны күрә аласыз яки юк). Бу карауда төймәсәрдә үткәрүне куллана аласыз, ләкин кимендә бер сан яки билге булган сүзне генә алачаксыз.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Сүзләр өстәү һәм бетерү
+									<div id="ul_1j" class="closed">
+										<p>Swype һәр яңа сез кулланган сүзне сезнең Шәхси Сүзлеккә акыллы өсти.</p>
+										<p>Сез шулай ук сүзне аны аерып яки <img src="img_swypekey.png" /> төртеп өсти аласыз. Сүз өстәү өчен күренгән искәртүгә төртегез.</p>
+										<p>Сүзне бетерү өчен Сүз Сайлау Исемлегендә сүзгә басып торыгыз һәм аннары раслау әңгәмәсендә Ярар төймәсенә төртегез. Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Шәхсилек
+									<div id="ul_1k" class="closed">
+										<p>Swype сүзлеккә яңа сүзләрне Twitter һәм Gmail хезмәтеннән җиңел өсти ала. Swype шәхсиләштерү:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> басып торыгыз.</li>
+											<li>Swype Көйләүләре менюсында Сүзләрем &gt; Шәхсилек сайлагыз.</li>
+											<li>Шәхсилек опцияcеннән сайлап, соралса, хисап мәгълүматын кертегез.</li>
+											<li>Swype бер яки барлык чыганаклардан шәхсиләштерелә ала.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Сөйләү</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Текстлы эчтәлекне барысы өчен текст һәм почта хәбәрләреннән алып Facebook һәм Twitter яңартуларын кертүгә кадәр сөйли аласыз.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Күбрәк белү <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Пунктуация
+									<div id="ul_2a" class="open">
+										<p>Тыныш билгеләрен кулдан кертү кирәк түгел. Теләгән тыныш билгене әйтегез һәм дәвам итегез. Сынагыз моны:</p>
+										<ol>
+											<li>Тавыш төймәсенә басыгыз һәм сөйли башлагыз.</li>
+											<li>Нәрсә син әйтәсең: <i>Аш тәмле иде өндәү билгесе</i></li>
+											<li>Нәрсә килеп чыкты: <i>Аш тәмле иде!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Тавышлы кертү кайбер төймәсәрләрдә мөмкин түгел</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Язу</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Бармакны хәрефләр һәм сүзләрне ясау өчен куллана аласыз һәм Swype аны текстка әйләндерәчәк. Хәрефләрне сулдан&#45;уңга яки бер&#45;берсе өстенә ясый аласыз. Хәреф яки билге рәвешен алмаштыру өчен АБВ / 123 басыгыз.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Күбрәк белү <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Кулдан язуны кабызу
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> басып торып, кулдан язу билгечегеннән бармак белән шудырыгыз.</li>
+											<li>Кулдан язу өлкәсендә хәрефләрне бармак белән ясагыз.</li>
+
+											<li>Һәр сүз арасында бушлыкка төртегез</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Күп тиюле ишарә
+									<div id="ul_3b" class="closed">
+										<p>Күп тиюле ишарә гади йомышларны, шундыйлардан сүзләр яки хәрефләрне баш хәрефле язуны тәмамларга мөмкинлек бирә.</p>
+										<ol>
+											<li>Берничә баш хәрефне ясау тактасында ясагыз</li>
+											<li>Билгеләрне керткәннән соң язу өлкәсендә ике бармакны өскә шудырыгыз</li>
+											<li>Кулдан язу мөмкинлеге күп тиюле ишарәләрне һәм баш хәрефле итүне таный</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Кулдан язу кайбер төймәсәрләрдә мөмкин түгел.</i></p>
+									<p><i>Бу мөмкинлек системаның Explore&#45;By&#45;Touch хезмәте сүн. булганда юк.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Җыю</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Кулдан төймәсәргә кертүнең гадәти формасы. Swype төймәсәрендә кертүгә төртү кайбер файдалы мөмкинлекләр белән җиңелрәк һәм күпкә нәтиҗәлерәк ясала:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Күбрәк белү <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Игътибарсыз җыюны төзәтү
+									<div id="ul_4a" class="open">
+										<p>Һәр хәрефкә төгәл төртергә тиеш түгел. Иң яхшысын сынагыз һәм Swype акыллы сүз тәкъдим итәчәк.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Сүзне Тәмамлау
+									<div id="ul_4b" class="closed">
+										<p>Swype сүзне шулай ук берничә хәрефкә генә төртсәгез дә билгели алачак.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Телләр</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Төймәсәрдән телне күчерү: Бушлык төймәсенә басып торыгыз. Чыккан менюдан кирәкле телне сайлагыз.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect сезнең җиһазга көчле функциональ хокуклар һәм яңартулар китерергә безгә мөмкинлек бирә! Swype Connect 3G аша эшләсә дә, без Wi&#45;Fi тоташуны табарга тәкъдим итәбез.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Күбрәк белү <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Тел йөкләү
+									<div id="ul_6a" class="open">
+										<p>Өстәмә телләрне Swype&#39;ка өстәү җиңел:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> басып торыгыз һәм Телне сайлагыз.</li>
+											<li>Телләр менюсыннан Тел йөкләүне сайлагыз.</li>
+											<li>Телгә чиртегез һәм йөкләү үзе башланачак.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect барлык төймәсәрләрдә мөмкин түгел.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Өстәмә Ярдәм</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype куллануда өстәмә ярдәм өчен Swype Кулланучы Күрсәтмәсен, Swype Киңәшләре һәм Видеоларын яки <a href="http://www.swype.com">www.swype.com</a> карагыз яки <a href="http://forum.swype.com">forum.swype.com</a> урнашкан Онлайн Swype Форумын тикшерегез.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">उलोवचें</a></div>
+				<div><a href="#write">हातबरप करचें</a></div>
+				<div class="last"><a href="#tap">टायप</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype वांगडा, तुमकां चार वेगवेगळ्या इनपूट मोड &#45; Swype करचें, उलोवचें, बरोवचें वा टॅप &#45; मदीं अखंड स्वीच करपाची क्षमताय आसता.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>लिखीत&#45;मजकूर नोंद करपाचो Swype हो जलद मार्ग आसा. अक्षरांतल्यान काडून तो तुमकां शब्द नोंद करूंक दिता. शब्दाच्या पयल्या अक्षराचेर तुमचें बोट दवरचें आनी अक्षरा अक्षरांतल्यान वाट काडची, निमाण्या अक्षरा उपरांत बोट वयर काडचें. Swype गरज आसता थंय सुवात रिगयतलें.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							चड जाणून घेवचें. <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype की.
+									<div id="ul_1a" class="open">
+										<p>Swype की अशी की आसा जिचेर Swype लोगो आसता. Swype मांडावळी ऍक्सॅस करूंक Swype की दामची आनी धरून दवरची.</p>
+										<p>Swype की खुबश्यो Swype हालचाली सुरू करूंक सुध्दां वापरतात.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    किबोर्ड पूर्वप्रदर्शन
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype हालचाली
+									<div id="ul_1b" class="closed">
+										<p>जलद रितीन सामान्य कार्यां पुराय करूंक Swype हालचाली ह्यो किबोर्ड वयले शॉर्टकट आसात. Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</p>
+										<ul>
+											<li><span class="gestures">संपादन किबोर्ड कडेन पावप</span> संपादन किबोर्ड कडेन पावपाक, <img src="img_swypekey.png" /> तल्यान किबोर्ड वयल्या चिन्न की (?123) कडेन स्वायप करचें.</li>
+											<li><span class="gestures">संख्या किबोर्ड कडेन पावप</span> संख्या किबोर्ड कडेन जलद पावूंक, <img src="img_swypekey.png" /> तल्यान संख्या 5 कडेन स्वायप करचें.</li>
+											<li><span class="gestures">किबोर्ड लिपोवप</span> किबोर्ड सोंपेरितीन लिपोवंक, फकत Swype की तल्यान बॅकस्पेस की कडेन स्वायप करचें.</li>
+
+											<li><span class="gestures">स्वयंचलीत सुवात बंद करची</span> सुवात की तल्यान बॅकस्पेस की कडेन स्वायपींग करून फुडल्या शब्दा पयलीं स्वयंचलीत सुवात थांबोवची.</li>
+
+
+											<li><span class="gestures">विरामचिन्न</span> विरामचिन्नां नोंदवपाचो एक सोंपो मार्ग म्हणल्यार तें टॅप करचे परस प्रस्न चिन्न, स्वल्पविराम, पूर्णविराम वा हेर चिन्नां तल्यान सुवात की कडेन स्वायप करप.</li>
+
+											<li><span class="gestures">ऍप्लिकेशन शॉर्टकट्स</span>Google Maps: </li>
+											<li><span class="gestures">सोद</span>जलद वॅब सोद घेवंक कांय लिखीत&#45;मजकूर हायलायट करचो आनी <img src="img_swypekey.png" /> कडल्यान S कडेन स्वायप करचें.</li>
+											<li><span class="gestures">वापरिल्ल्या निमाण्या भाशे कडेन स्वीच करचें</span>तरेकवार भाशा वापरतात तेन्ना, आदल्या भाशेकडेन परत जलद स्वीच करपाचो सगल्यांत सोंपो मार्ग म्हणल्यार <img src="img_swypekey.png" /> कडल्यान सुवात की कडेन स्वायप करचें.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									दोट्टी अक्षरां नोंद करतां
+									<div id="ul_1n" class="closed">
+										<p>अचूकताय सुदारूंक जेन्ना दोट्टी अक्षरां नोंद करतना, मात्शें बिरकिटावचें वा अक्षराचेर लूप करचो. देखीक, &quot;उत्तर&quot; त &quot;त्त&quot; मेळोवंक, &quot;त्&quot; की चेर बिरकिटावचें. Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									शब्द निवडटां
+									<div id="ul_1d" class="closed">
+										<p>शब्द निवड सुचयेत सुचयल्लो डिफॉल्ट शब्द स्विकारूंक, टॅप करीत रावचें. नाजाल्यार, तुमचें बोट ओडत व्हरून सुचयेंत स्क्रोल करचें आनी तुमकां जाय तो शब्द वेंचचो. Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</p>
+										<p>सुचयेतल्यान लिखीत&#45;मजकूर वेंचूक, सुची प्रवेशिका आयकूंक तुमचें बोट वाटकुळेंच हालोवचें. घडयाळावरीं सुचयेंतल्यान फुडें वता; घडयाळाच्या विरुध्द दिशेन सुचयेंतल्यान फाटीं वता. सुची प्रवेशिका आयकल्या उपरांत बोट काडचें. शब्द निवड सुचयेंत शब्द निवडूंक, सुचयेंतलो पयलो शब्द आयकूंक येता मेरेन किबोर्ड तल्यान वयर तुमचें बोट स्लायड करचें, मागीर वाटकुळें घुंवडावचें.	Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्नाच हें खाशेलपण उपलब्ध आसता.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									स्वयंचलीत सुवात
+									<div id="ul_1f" class="closed">
+										<p>स्वयंचलीत Swype तुमी वाक्यांत फुडलो शब्द स्वायप करतात तेन्ना शब्दां मदीं सुवात रिगोवची. तुमी Swype मांडावळीनी स्वयं&#45;सुवात खाशेलपण चालू वा बंद करूंक शकतात.</p>
+										<p>सुवात की तल्यान बॅकस्पेस की कडेन स्वायप करून एका शब्दा खातीर स्वयं&#45;सुवात चालू वा बंद करूंक शकतात.</p>
+										<p>Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									शब्द बदलचो
+									<div id="ul_1g" class="closed">
+										<p>शब्दाचेर टॅप करून, मागीर शब्द निवड सुचयेंतल्यान तुमकां जाय आशिल्लो शब्द वेंचून शब्द बदलचो वा फकत शब्द हायलायट करचो आनी एक नवो शब्द स्वायप करचो. चुकीच्या शब्दाची सुवात नवो शब्द घेतलो.</p>
+										<p>शब्द टॅप करून आनी <img src="img_swypekey.png" /> चेर हाणून वा शब्दाचेर दोनदां टॅप करून शब्द हायलायट करूंक शकतात.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									अक्षरां मदीं बावन्स करचें
+									<div id="ul_1h" class="closed">
+										<p>कांय वेळा स्वायप करतना अक्षरां टाळल्यार तुमकां पयलेच फावटी जाय आशिल्ले शब्द मेळूंक पावतात.</p>
+										<p>देखीक, &quot;अटकलना&quot; आनी &quot;अटकना&quot; एकेच मार्गा वयल्यान ओडूंक मेळटात &#45; पूण मतींत दवरात, तुमकां सरळ रेशेंत अक्षर अक्षरांतल्यान हालोवपाची गरज ना. तुमचें बोट &quot;न&quot; कडेन स्वायप करतना &quot;ক&quot; टाळें जाल्यार, शब्द निवड सुचयेंत &quot;अटकना&quot; हो शब्द पयलो आसा हाची खात्री दिता.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									पर्यायी वर्ण
+									<div id="ul_1i" class="closed">
+
+										<p>एक की ताच्या पर्यायी वर्णाची सुची वयर काडूंक दामची आनी धरून दवरची, देखीक चिन्ना जशीं @ आनी %, आनी आंकडे.</p>
+
+										<p>चिन्नांच्या किबोर्डाकडेन व्हरपाक चिन्नांची की (?123) टॅप करची.</p>
+										<p>मुखेल किबोर्डातले सगळे वर्ण स्वायप&#45;समर्थ आसतात हाची नोंद घेवची (तुमकां ते दिसतात वा ना) किबोर्डाचें हें दृश्य वापरून तुमी स्वायप करूंक शकतात, पूण तुमकां कमीत कमी एक आंकडो वा चिन्न आशिल्लेच शब्द मेळटले.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									शब्द जोडणी आनी वगळावणी
+									<div id="ul_1j" class="closed">
+										<p>तुमी तुमच्या व्यक्तिगत शब्दकोशांत वापरतात ते खंयचेय शब्द Swype हुशारकायेन जोडटा.</p>
+										<p>तुमी शब्द हायलायट करून आनी <img src="img_swypekey.png" /> टॅप करून सुध्दां जोडूंक शकतात. शब्द जोडचे खातीर प्रगट जावपी तत्परतायेचेर टॅप करचें.</p>
+										<p>शब्द वगळावंक, शब्द निवड सुचयेंत शब्द दामचो आनी धरून दवरचो आनी मागीर खात्री डायलॉगांत ओके टॅप करचो. Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									अनुकूलन
+									<div id="ul_1k" class="closed">
+										<p>Swype Twitter आनी Gmail हातूंतल्यान तुमच्या शब्दकोशांत जलद शब्द जोडूंक शकता. Swype अनुकूलीत करूंकः</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> दामचो आनी धरून दवरचो.</li>
+											<li>Swype मांडावळी मेनू तल्यान, म्हजे शब्द &gt; अनुकूलन वेंचचें.</li>
+											<li>अनुकूलन पर्यायांतल्यान वेंचचें आनी विचारल्यार तुमचें क्रेडॅनशियल्स नोंद करचे.</li>
+											<li>एका वा सगळ्या स्त्रोतांतल्यान तुमी Swype अनुकूलीत करूंक शकतात.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">उलोवचें</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>लिखीत &#45; मजकूरातल्यान सगळ्या खातीर लिखीत&#45;मजकूर नोंद करूंक तुमी उलोवंक शकतात आनी Facebook आनी Twitter अपडेटींक संदेश ईमेल करूंक शकतात.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							चड जाणून घेवचें. <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									विरामचिन्न
+									<div id="ul_2a" class="open">
+										<p>विरामचिन्नां मॅन्युअली जोडपाची गरज ना. तुमकां जाय तें विरामचिन्न सांगचें आनी फुडें वचचें. हाचो येत्न करचोः</p>
+										<ol>
+											<li>आवाज की दामची आनी उलोवपाक सुरवात करची.</li>
+											<li>तुमी किदें सांगतातः <i>जेवण खूब सुवादीक आशिल्लें उद्गार चिन्न</i></li>
+											<li>तुमकां किदें मेळटाः <i>जेवण खूब सुवादीक आशिल्लें!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>आवाज इनपूट कांय किबोर्डांचेर उपलब्ध आसना.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">हातबरप करचें</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>अक्षरां आनी शब्द काडूंक तुमी तुमच्या बोटाचो वापर करूंक शकतात आनी Swype ते लिखीत&#45;मजकुरांत रुपांतरीत करतलो. तुमी दाव्यातल्यान&#45;उजव्यान वा एकमेकाच्या वयर अक्षरां काडूंक शकतात. अक्षरां आनी चिन्न मोड मदीं टॉगल करूंक ABC / 123 दामचे.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							चड जाणून घेवचें. <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									हातबरप सक्षम करचें
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> दामची आनी धरून दवरची आनी हातबरप आयकॉनात तुमचें बोट स्लायड करचें.</li>
+											<li>हातबरप क्षेत्रांत तुमच्या बोटान अक्षरां काडचीं.</li>
+
+											<li>दरेक शब्दा मदीं सुवात पट्टी टॅप करची.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									मल्टी&#45;टच हालचाल
+									<div id="ul_3b" class="closed">
+										<p>मल्टी&#45;टच हालचाल तुमकां शब्द वा अक्षरां कॅपिटलायझ करप ह्या सारकीं सोंपी कार्या करूंक दिता.</p>
+										<ol>
+											<li>रेखाटन पॅडाचेर कांय लोवरकेस अक्षरां काडचीं.</li>
+											<li>वर्ण नोंद केल्या उपरांत, बरोवपाच्या क्षेत्राचेर वयल्या वटेन दोन बोटां घश्टुचीं.</li>
+											<li>हातबरप खाशेलपण मल्टी&#45;टच हालचाल वळखतलें आनी अक्षरां कॅपिटल करतलें.</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>कांय किबोर्डांचेर हातबरप उपलब्ध आसना.</i></p>
+									<p><i>Explore&#45;By&#45;Touch ही प्रणाली ऍक्सॅसिबिलिटी सेवा चालू आसता तेन्ना हें खाशेलपण उपलब्ध नासता.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">टायप</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>मॅन्युअल किबोर्ड इनपूटाचें परंपरागत फॉर्म Swype किबोर्डाचेर इनपूट टॅप करप कांय आदार दिवपी खाशेलपणां वरवीं सोंपें आनी चड कार्यक्षम केलां:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							चड जाणून घेवचें. <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									निसरडी टंक सुदारणा
+									<div id="ul_4a" class="open">
+										<p>तुमकां दरेक अक्षर अचूक टॅप करपाची गरज ना. फकत तुमकां जाता तितलें बरें तरेन करचें आनी Swype हुशारकायेन शब्द सुचोवण्यो उपलब्ध करतलो.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									शब्द पूर्णताय
+									<div id="ul_4b" class="closed">
+										<p>तुमी फकत कांय अक्षरांच टॅप करतात तेन्ना Swype तुमच्या शब्दाचें अनुमान लेगीत काडूंक शकता.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">भासो</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>किबोर्डातल्यान भासो स्वीच करूंकः सुवात पट्टी दामची आनी धरून दवरची. पॉप अप मेनूतल्यान तुमची इत्सीत भास वेंचची.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect आमकां अपडेटी धाडूंक आनी थेट तुमच्या डिव्हायसा कडेन बळिश्ट कार्यक्षमताय दिवंक मान्यताय दिता. Swype Connect 3G चेर काम करतलें देखून, Wi&#45;Fi कनॅक्शन घेवपाची शिफारस आमी सदांच करतात.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							चड जाणून घेवचें. <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									भास डावनलोड्स
+									<div id="ul_6a" class="open">
+										<p>Swype कडेन अतिरिक्त भासो जोडप सोंपें आसाः</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> दामचो आनी धरून दवरचो आनी भासो वेंचच्यो.</li>
+											<li>भासांच्या मेनू तल्यान, डावनलोड भासो वेंचच्यो.</li>
+											<li>भाशेचेर क्लीक करचें आनी तुमचें डावनलोड आपसूक सुरू जातलें.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect सगळ्याच किबोर्डांचेर उपलब्ध ना.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">चड आदार</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype वापरून चड आदारा खातीर, <a href="http://www.swype.com">www.swype.com</a> चेर Swype उपेगकर्ता मॅन्युअल आनी Swype टीप्स आनी व्हिडियो दृश्य करचें वा <a href="http://forum.swype.com">forum.swype.com</a> कडेन Swype फोरम तपासचे.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
