@@ -40,8 +40,8 @@ final class ACBuildConfigRuntime {
 }
 ```
 
-- 9.10 seems to be the `CORE_VERSION` found at `com.nuance.swype.connect.Connect` Class:  
-`private static final String CORE_VERSION = "9.10";`
+- 9.10 seems to be the ~~`CORE_VERSION` found at `com.nuance.swype.connect.Connect` Class:  
+`private static final String CORE_VERSION = "9.10";`~~ XT9 version seen in Swype Help page
 
 - `1415911799-English.zip` 1415911799 would probably be epoch time for `Thu Nov 13 20:49:59 UTC 2014`
 
