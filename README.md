@@ -166,6 +166,7 @@ final class ACBuildConfigRuntime {
   25   │ </InputMethods>
 ───────┴───────────────────
 ```
+---
 
 - Update 26/Jun/2022 - Thanks to reddit, the URL for the latest language packs are:
 ![SWYPE_CDN](./image.png?raw=true "SWYPE_CDN")
