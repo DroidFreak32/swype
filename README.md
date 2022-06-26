@@ -166,5 +166,99 @@ final class ACBuildConfigRuntime {
   25   │ </InputMethods>
 ───────┴───────────────────
 ```
-Update 26/Jun/2022 - Thanks to reddit, the URL for the latest language packs are:
+
+- Update 26/Jun/2022 - Thanks to reddit, the URL for the latest language packs are:
 ![SWYPE_CDN](./image.png?raw=true "SWYPE_CDN")
+
+- We don't really need to touch databases_le.dat after installing a language if using the same build:
+```
+OnePlus8T:/data/data # md5sum com.nuance.swype*/files/database_le.dat
+fa966c4d08970bccdc220b306cd4a38f  com.nuance.swype.dtc.india/files/database_le.dat
+fa966c4d08970bccdc220b306cd4a38f  com.nuance.swype.dtc/files/database_le.dat
+108ee2f8c47172dbc903a83218d143b8  com.nuance.swype.oppo/files/database_le.dat
+```
+
+- However, databses.conf changes:
+```
+diff com.nuance.swype.dtc.india/files/databases.conf com.nuance.swype.dtc/files/databases.conf
+--- com.nuance.swype.dtc.india/files/databases.conf	2022-06-26 17:12:05.005349152 +0530
++++ com.nuance.swype.dtc/files/databases.conf	2022-06-26 17:08:00.489349245 +0530
+@@ -3,17 +3,9 @@
+ 511 database_le.dat
+
+ [ldb]
++263 DEusUN_xt9_ALM3.ldb
+ 265 ENubUN_xt9_ALM3.ldb
+-313 HIlsUN_xt9_ALM3.ldb
+-377 SAlsUN_xt9_MLM.ldb
+-415 BRXlsUN_xt9.ldb
+-416 DOIlsUN_xt9.ldb
+-418 MAIlsUN_xt9.ldb
+-419 MNIlsUN_xt9.ldb
+-9060 KSlsUNdevanagari_xt9_MLM.ldb
+-9082 SDlsUNdevanagari_xt9.ldb
+-9121 KOKlsUNdevanagari_xt9.ldb
+-9124 SATlsUNdevanagari_xt9.ldb
++2057 ENubUNUK_xt9_ALM3.ldb
+
+ [cdb]
+```
+- Format of databses.conf
+```
+OnePlus8T:/data/data # cat com.nuance.swype.dtc.india/files/databases.conf
+
+[hwr_db_template]
+511 database_le.dat
+
+[ldb]
+265 ENubUN_xt9_ALM3.ldb
+313 HIlsUN_xt9_ALM3.ldb
+377 SAlsUN_xt9_MLM.ldb
+415 BRXlsUN_xt9.ldb
+416 DOIlsUN_xt9.ldb
+418 MAIlsUN_xt9.ldb
+419 MNIlsUN_xt9.ldb
+9060 KSlsUNdevanagari_xt9_MLM.ldb
+9082 SDlsUNdevanagari_xt9.ldb
+9121 KOKlsUNdevanagari_xt9.ldb
+9124 SATlsUNdevanagari_xt9.ldb
+
+[cdb]
+
+```
+-- Some of the ldb files are actually just Assets built in the APK.
+```diff
+Swype india vs global:
+BRXlsUN_xt9.ldb.mp3                                           <
+Chinese_CN.msdb.mp3                                             Chinese_CN.msdb.mp3
+Chinese_HK.msdb.mp3                                             Chinese_HK.msdb.mp3
+Chinese_TW.msdb.mp3                                             Chinese_TW.msdb.mp3
+DOIlsUN_xt9.ldb.mp3                                           <
+ENubUN_xt9_ALM3.ldb.mp3                                         ENubUN_xt9_ALM3.ldb.mp3
+EULA                                            EULA
+HIlsUN_xt9_ALM3.ldb.mp3                                       <
+JP_STANDARDS_txt.dd.mp3                                         JP_STANDARDS_txt.dd.mp3
+KOKlsUNdevanagari_xt9.ldb.mp3                                 <
+KO_MARKET_txt.dd.mp3                                            KO_MARKET_txt.dd.mp3
+KSlsUNdevanagari_xt9_MLM.ldb.mp3                              <
+MAIlsUN_xt9.ldb.mp3                                           <
+MNIlsUN_xt9.ldb.mp3                                           <
+PRIVACY                                             PRIVACY
+SATlsUNdevanagari_xt9.ldb.mp3                                 <
+SAlsUN_xt9_MLM.ldb.mp3                                        <
+SDlsUNdevanagari_xt9.ldb.mp3                                  <
+TOS                                                 TOS
+USAGE                                                       USAGE
+ZH_GB2312.forSumsang.db.mp3                                     ZH_GB2312.forSumsang.db.mp3
+ZH_TW.forSumsang.db.mp3                                         ZH_TW.forSumsang.db.mp3
+buildsettings.dat                                               buildsettings.dat
+config.properties                                               config.properties
+crashlytics-build.properties                                    crashlytics-build.properties
+database_le.dat.mp3                                             database_le.dat.mp3
+helps                                                       helps
+india                                                         <
+languagelist.xml                                                languagelist.xml
+languagelist_supported.xml                                      languagelist_supported.xml
+^^^ This file needs to be edited to support the additional languages 
+license.dat                                                     license.dat
+```
