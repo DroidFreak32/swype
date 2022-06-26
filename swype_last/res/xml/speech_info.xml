@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<speech_info ns:speech_result_mode="partial_default" ns:speech_cmd="nvc" ns:sync_custom_words="true" app_name="ANDROID_SWYPE_D2C_20130215" default_gateway_ip_addr="dt.nvc.engUSA.nuancemobility.net" default_port_id="443" default_custom_words_sync_support="true" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <language lang_name="Arabic" lang_code="ara-XWW" lang_server="dt.nvc.araXWW.nuancemobility.net" />
+    <language lang_name="Catalan" lang_code="cat-ESP" lang_server="dt.nvc.catESP.nuancemobility.net" />
+    <language lang_name="Chinese_CN" lang_code="cmn-CHN" lang_server="dt.nvc.cmnCHN.nuancemobility.net" display_name="普通话(中国)" />
+    <language lang_name="Chinese_TW" lang_code="cmn-TWN" lang_server="dt.nvc.cmnTWN.nuancemobility.net" display_name="國語(台灣)" />
+    <language lang_name="Chinese_HK" lang_code="yue-CHN" lang_server="dt.nvc.yueHKG.nuancemobility.net" display_name="廣東話(香港)" />
+    <language lang_name="Croatian" lang_code="hrv-HRV" lang_server="dt.nvc.hrvHRV.nuancemobility.net" />
+    <language lang_name="Czech" lang_code="ces-CZE" lang_server="dt.nvc.cesCZE.nuancemobility.net" />
+    <language lang_name="Danish" lang_code="dan-DNK" lang_server="dt.nvc.danDNK.nuancemobility.net" />
+    <language lang_name="Dutch" lang_code="nld-NLD" lang_server="dt.nvc.nldNLD.nuancemobility.net" />
+    <language lang_name="Dutch_BE" lang_code="nld-NLD" lang_server="dt.nvc.nldNLD.nuancemobility.net" />
+    <language lang_name="English" lang_code="eng-USA" lang_server="dt.nvc.engUSA.nuancemobility.net" />
+    <language lang_name="English_UK" lang_code="eng-GBR" lang_server="dt.nvc.engGBR.nuancemobility.net" />
+    <language lang_name="Finnish" lang_code="fin-FIN" lang_server="dt.nvc.finFIN.nuancemobility.net" />
+    <language lang_name="French" lang_code="fra-FRA" lang_server="dt.nvc.fraFRA.nuancemobility.net" />
+    <language lang_name="French_CH" lang_code="fra-FRA" lang_server="dt.nvc.fraFRA.nuancemobility.net" />
+    <language lang_name="French_CA" lang_code="fra-CAN" lang_server="dt.nvc.fraCAN.nuancemobility.net" />
+    <language lang_name="German" lang_code="deu-DEU" lang_server="dt.nvc.deuDEU.nuancemobility.net" />
+    <language lang_name="German_CH" lang_code="deu-DEU" lang_server="dt.nvc.deuDEU.nuancemobility.net" display_name="Deutsch (CH)" abbr_display_name="DE(CH)" />
+    <language lang_name="Greek" lang_code="ell-GRC" lang_server="dt.nvc.ellGRC.nuancemobility.net" />
+    <language lang_name="Hebrew" lang_code="heb-ISR" lang_server="dt.nvc.hebISR.nuancemobility.net" />
+    <language lang_name="Hindi" lang_code="hin-IND" lang_server="dt.nvc.hinIND.nuancemobility.net" />
+    <language lang_name="Hinglish" lang_code="eng-IND" lang_server="dt.nvc.engIND.nuancemobility.net" />
+    <language lang_name="Hungarian" lang_code="hun-HUN" lang_server="dt.nvc.hunHUN.nuancemobility.net" />
+    <language lang_name="Indonesian" lang_code="ind-IDN" lang_server="dt.nvc.indIDN.nuancemobility.net" />
+    <language lang_name="Italian" lang_code="ita-ITA" lang_server="dt.nvc.itaITA.nuancemobility.net" />
+    <language lang_name="Italian_CH" lang_code="ita-ITA" lang_server="dt.nvc.itaITA.nuancemobility.net" display_name="Italiano (CH)" abbr_display_name="IT(CH)" />
+    <language lang_name="Japanese" lang_code="jpn-JPN" lang_server="dt.nvc.jpnJPN.nuancemobility.net" />
+    <language lang_name="Korean" lang_code="kor-KOR" lang_server="dt.nvc.korKOR.nuancemobility.net" />
+    <language lang_name="Malay" lang_code="zlm-MYS" lang_server="dt.nvc.zlmMYS.nuancemobility.net" />
+    <language lang_name="Norwegian" lang_code="nor-NOR" lang_server="dt.nvc.norNOR.nuancemobility.net" />
+    <language lang_name="Polish" lang_code="pol-POL" lang_server="dt.nvc.polPOL.nuancemobility.net" />
+    <language lang_name="Portuguese" lang_code="por-BRA" lang_server="dt.nvc.porBRA.nuancemobility.net" />
+    <language lang_name="Portuguese_BR" lang_code="por-BRA" lang_server="dt.nvc.porBRA.nuancemobility.net" />
+    <language lang_name="Portuguese_PT" lang_code="por-PRT" lang_server="dt.nvc.porPRT.nuancemobility.net" display_name="Português (PT)" abbr_display_name="PT(PT)" />
+    <language lang_name="Romanian" lang_code="ron-ROU" lang_server="dt.nvc.ronROU.nuancemobility.net" />
+    <language lang_name="Russian" lang_code="rus-RUS" lang_server="dt.nvc.rusRUS.nuancemobility.net" />
+    <language lang_name="Slovak" lang_code="slk-SVK" lang_server="dt.nvc.slkSVK.nuancemobility.net" />
+    <language lang_name="Spanish" lang_code="spa-ESP" lang_server="dt.nvc.spaESP.nuancemobility.net" />
+    <language lang_name="Spanish_ES" lang_code="spa-ESP" lang_server="dt.nvc.spaESP.nuancemobility.net" display_name="Español (ES)" abbr_display_name="ES(ES)" />
+    <language lang_name="Swedish" lang_code="swe-SWE" lang_server="dt.nvc.sweSWE.nuancemobility.net" />
+    <language lang_name="Thai" lang_code="tha-THA" lang_server="dt.nvc.thaTHA.nuancemobility.net" />
+    <language lang_name="Turkish" lang_code="tur-TUR" lang_server="dt.nvc.turTUR.nuancemobility.net" />
+    <language lang_name="Ukrainian" lang_code="ukr-UKR" lang_server="dt.nvc.ukrUKR.nuancemobility.net" />
+    <language lang_name="Vietnamese" lang_code="vie-VNM" lang_server="dt.nvc.vieVNM.nuancemobility.net" />
+    <language lang_name="Spanish_Latam" lang_code="spa-XLA" lang_server="dt.nvc.spaxla.nuancemobility.net" display_name="Español (LAT)" abbr_display_name="ES(LAT)" />
+    <language lang_name="English_AU" lang_code="eng-AUS" lang_server="dt.nvc.engAUS.nuancemobility.net" display_name="English (AU)" abbr_display_name="EN(AU)" />
+</speech_info>

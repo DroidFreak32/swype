@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ad_settings_title" android:key="ad_settings">
+        <EditTextPreference android:title="@string/ad_settings_first_time_title" android:key="ad_setting_first_time" android:inputType="number" />
+        <EditTextPreference android:title="@string/ad_settings_step_size_title" android:key="ad_setting_step_size" android:inputType="number" />
+        <EditTextPreference android:title="@string/ad_settings_max_per_day_title" android:key="ad_setting_max_ad_in_day" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_basic" android:key="basic_category">
+        <com.nuance.swype.preference.CustomCheckBoxPreference android:title="@string/pref_connect_enable_data_connection" android:key="pref_connect_enable_data_connection" android:summary="@string/pref_connect_enable_data_connection_desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_prediction_title" android:key="prediction_category">
+        <CheckBoxPreference android:title="@string/auto_correction_mode" android:key="auto_correction" android:summary="@string/auto_correction_mode_summary" android:defaultValue="@bool/auto_correction_default" />
+        <CheckBoxPreference android:title="@string/auto_cap" android:key="auto_cap" android:summary="@string/pref_auto_cap_desc" android:defaultValue="@bool/auto_cap_default" />
+        <CheckBoxPreference android:title="@string/pref_auto_space_title" android:key="auto_space" android:defaultValue="@bool/auto_space_default" />
+        <CheckBoxPreference android:title="@string/next_word_prediction" android:key="next_word_prediction" android:summary="@string/next_word_prediction_summary" android:defaultValue="@bool/next_word_prediction_default" />
+        <CheckBoxPreference android:title="@string/enable_korean_consonant_input" android:key="enable_korean_consonant_input" android:defaultValue="@bool/korean_consonant_setting_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/emoji_suggestions_title" android:key="emoji_category">
+        <CheckBoxPreference android:title="@string/emoji_popular" android:key="emoji_suggestions" android:summary="@string/emoji_suggestions_wordlist" android:defaultValue="@bool/emoji_setting_default" />
+        <CheckBoxPreference android:title="@string/emoji_list" android:key="emoji_choice_list" android:summary="@string/emoji_suggestions_separate" android:defaultValue="@bool/emoji_choice_list_default" />
+        <com.nuance.swype.preference.EmojiSkinTonePreference android:title="@string/emoji_skin_tone" android:key="pref_emoji_skin_tone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/full_keyboard" android:key="keyboard_category">
+        <CheckBoxPreference android:title="@string/sound_on_keypress_title" android:key="sound_on" android:defaultValue="@bool/sound_on_keypress_default" />
+        <CheckBoxPreference android:title="@string/vibrate_on_keypress_title" android:key="vibrate_on" android:defaultValue="@bool/vibrate_on_keypress_default" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_vibration_title" android:key="vibration_duration" />
+        <CheckBoxPreference android:title="@string/pref_number_row" android:key="number_row" android:defaultValue="@bool/number_row_default" />
+        <CheckBoxPreference android:title="@string/pref_hide_secondaries_1" android:key="hide_secondaries" android:defaultValue="@bool/font_typeface_bold" />
+        <com.nuance.swype.preference.ViewClickPreference android:title="@string/pref_kb_height_title" android:key="keyboard_height_settings" />
+        <com.nuance.swype.preference.ViewClickPreference android:title="@string/pref_word_choice_title" android:key="candidates_size_setting_preference" />
+        <CheckBoxPreference android:title="@string/pref_kbd_font_weight_title" android:key="keyboard_font_weight_bold" android:defaultValue="@bool/font_typeface_bold" />
+        <CheckBoxPreference android:title="@string/pref_show_chars_on_keypress_title" android:key="show_chars_on_keypress" android:summary="@string/pref_show_chars_on_keypress_summary" android:defaultValue="@bool/show_chars_on_keypress_default" />
+        <CheckBoxPreference android:title="@string/pref_show_complete_trace_title" android:key="show_complete_trace" android:defaultValue="@bool/show_complete_trace_default" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_long_press_title" android:key="long_press_delay" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_voice_handwriting_title" android:key="voice_handwriting_category">
+        <CheckBoxPreference android:title="@string/pref_voice_key_title" android:key="show_voice_key" android:defaultValue="@bool/show_voice_key_default" />
+        <CheckBoxPreference android:title="@string/detect_end_of_speech" android:key="end_of_speech_detection" android:summary="@string/detect_speech_description" android:defaultValue="@bool/end_of_speech_detection_default" />
+        <CheckBoxPreference android:title="@string/pref_enable_handwriting_title" android:key="enable_handwriting" android:defaultValue="@bool/enable_handwriting_default" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/handwriting_recognize_speed_title" android:key="hwr_auto_recognize_delay_alpha" />
+    </PreferenceCategory>
+</PreferenceScreen>

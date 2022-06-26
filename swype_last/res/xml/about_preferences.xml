@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_swype_version_title" android:summary="@string/pref_swype_version_summary">
+        <intent android:action="com.nuance.swype.input.about.AboutSwypeFragmentActivity" />
+    </com.nuance.swype.preference.ClassActionPreference>
+    <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_dragon_version_title" android:key="swype_dragon" android:summary="@string/pref_dragon_version_summary">
+        <intent android:action="com.nuance.swype.input.about.AboutDragonFragmentActivity" />
+    </com.nuance.swype.preference.ClassActionPreference>
+    <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_swype_connect_title" android:key="swype_connect" android:summary="@string/connect_about_desc_2">
+        <intent android:action="com.nuance.swype.input.about.AboutConnectFragmentActivity" />
+    </com.nuance.swype.preference.ClassActionPreference>
+    <com.nuance.swype.preference.StarTrekPreference android:selectable="false" android:key="swype_star_trek" />
+    <com.nuance.swype.preference.TwoThumbzPreference android:selectable="false" android:key="swype_two_thumbz" />
+    <com.nuance.swype.preference.BtmPreference android:selectable="false" android:key="swype_btm" />
+    <com.nuance.swype.preference.CopyrightPreference android:selectable="false" />
+</PreferenceScreen>

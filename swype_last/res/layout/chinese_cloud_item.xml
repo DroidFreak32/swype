@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorAlertDialogListItem" android:gravity="center|left" android:id="@android:id/text1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" android:paddingStart="12.0dip" />
+    <View android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <RadioButton android:id="@android:id/button1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emojiCategories xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <category ns:categoryItems="@null" ns:categoryName="recent" ns:categoryIcon="?emojiCategoryIconRecent" />
+    <category ns:categoryItems="@array/emoji_category_smiley" ns:categoryName="smiley" ns:categoryIcon="?emojiCategoryIconSmiles" />
+    <category ns:categoryItems="@array/emoji_category_family" ns:categoryName="families" ns:categoryIcon="?emojiCategoryIconFamily" />
+    <category ns:categoryItems="@array/emoji_category_nature" ns:categoryName="nature" ns:categoryIcon="?emojiCategoryIconNature" />
+    <category ns:categoryItems="@array/emoji_category_transportation" ns:categoryName="transportation" ns:categoryIcon="?emojiCategoryIconTravel" />
+    <category ns:categoryItems="@array/emoji_category_objects" ns:categoryName="objects" ns:categoryIcon="?emojiCategoryIconObjects" />
+    <category ns:categoryItems="@array/emoji_category_flag" ns:categoryName="flags" ns:categoryIcon="?emojiCategoryIconFlag" />
+    <category ns:arrayType="strings" ns:categoryItems="@array/emoji_category_emoticons" ns:categoryName="emoticons" ns:categoryIcon="?emojiCategoryIconEmoticons" />
+</emojiCategories>

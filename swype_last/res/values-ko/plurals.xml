@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">%d일 전</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d 단어가 삭제될 것입니다</item>
+        <item quantity="one">한 단어가 삭제될 것입니다.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">%d시간 전</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">%d분 전</item>
+    </plurals>
+</resources>

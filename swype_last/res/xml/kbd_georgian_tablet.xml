@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_tablet_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ქ" ns:keyLabel="ქ" ns:altKeyLabel="¢" ns:shiftedKeyLabel="*" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_წ" ns:keyLabel="წ" ns:altKeyLabel="~" ns:shiftedKeyLabel="ჭ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ე" ns:keyLabel="ე" ns:altKeyLabel="&amp;" ns:shiftedKeyLabel="×" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_რ" ns:keyLabel="რ" ns:altKeyLabel="№" ns:shiftedKeyLabel="ღ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ტ" ns:keyLabel="ტ" ns:altKeyLabel="^" ns:shiftedKeyLabel="თ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ყ" ns:keyLabel="ყ" ns:altKeyLabel="\#" ns:shiftedKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_უ" ns:keyLabel="უ" ns:altKeyLabel="_" ns:shiftedKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ი" ns:keyLabel="ი" ns:altKeyLabel="%" ns:shiftedKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ო" ns:keyLabel="ო" ns:altKeyLabel="[" ns:shiftedKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_პ" ns:keyLabel="პ" ns:altKeyLabel="]" ns:shiftedKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ა" ns:keyLabel="ა" ns:altKeyLabel="„" ns:shiftedKeyLabel="!" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ს" ns:keyLabel="ს" ns:altKeyLabel="|" ns:shiftedKeyLabel="შ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_დ" ns:keyLabel="დ" ns:altKeyLabel="€" ns:shiftedKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ფ" ns:keyLabel="ფ" ns:altKeyLabel="£" ns:shiftedKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_გ" ns:keyLabel="გ" ns:altKeyLabel="+" ns:shiftedKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ჰ" ns:keyLabel="ჰ" ns:altKeyLabel="&lt;" ns:shiftedKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ჯ" ns:keyLabel="ჯ" ns:altKeyLabel=">" ns:shiftedKeyLabel="ჟ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_კ" ns:keyLabel="კ" ns:altKeyLabel=";" ns:shiftedKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ლ" ns:keyLabel="ლ" ns:altKeyLabel="“" ns:shiftedKeyLabel="&quot;" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:keyWidth="@fraction/return_10_9_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ზ" ns:keyLabel="ზ" ns:altKeyLabel="{" ns:shiftedKeyLabel="ძ" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ხ" ns:keyLabel="ხ" ns:altKeyLabel="}" ns:shiftedKeyLabel="\?" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ც" ns:keyLabel="ც" ns:altKeyLabel="°" ns:shiftedKeyLabel="ჩ" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ვ" ns:keyLabel="ვ" ns:altKeyLabel="÷" ns:shiftedKeyLabel="7" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ბ" ns:keyLabel="ბ" ns:altKeyLabel="=" ns:shiftedKeyLabel="8" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_ნ" ns:keyLabel="ნ" ns:altKeyLabel="/" ns:shiftedKeyLabel="9" />
+        <Key ns:popupCharacters="@string/alternates_for_georgian_მ" ns:keyLabel="მ" ns:altKeyLabel="\\" ns:shiftedKeyLabel="0" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_default_tablet" />
+</KeyboardEx>

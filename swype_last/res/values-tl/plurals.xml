@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d araw ang nakaraan</item>
+        <item quantity="one">%d araw ang nakaraan</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Ang %d mga salita ay tatanggalin</item>
+        <item quantity="one">Tatanggalin ang isang salita.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d oras ang nakaraan</item>
+        <item quantity="one">%d oras ang nakaraan</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d minuto ang nakaraan</item>
+        <item quantity="one">%d minuto ang nakaraan</item>
+    </plurals>
+</resources>

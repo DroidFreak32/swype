@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_अ" ns:keyEdgeFlags="left" ns:keyLabel="अ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_आ" ns:keyLabel="आ" ns:altKeyLabel="आ" ns:shiftedKeyLabel="ा" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_इ" ns:keyLabel="इ" ns:altKeyLabel="इ" ns:shiftedKeyLabel="ि" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ई" ns:keyLabel="ई" ns:altKeyLabel="ई" ns:shiftedKeyLabel="ी" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_उ" ns:keyLabel="उ" ns:altKeyLabel="उ" ns:shiftedKeyLabel="ु" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ऊ" ns:keyLabel="ऊ" ns:altKeyLabel="ऊ" ns:shiftedKeyLabel="ू" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ऋ" ns:keyLabel="ऋ" ns:altKeyLabel="ऋ" ns:shiftedKeyLabel="ृ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ए" ns:keyLabel="ए" ns:altKeyLabel="ए" ns:shiftedKeyLabel="े" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ऐ" ns:keyLabel="ऐ" ns:altKeyLabel="ऐ" ns:shiftedKeyLabel="ै" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ओ" ns:keyLabel="ओ" ns:altKeyLabel="ओ" ns:shiftedKeyLabel="ो" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_औ" ns:keyLabel="औ" ns:altKeyLabel="औ" ns:shiftedKeyLabel="ौ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ं" ns:keyEdgeFlags="right" ns:keyLabel="ं" ns:altKeyLabel="ं" ns:shiftedKeyLabel="ँ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_क" ns:keyEdgeFlags="left" ns:keyLabel="क" ns:altKeyLabel="क" ns:shiftedKeyLabel="ख" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ग" ns:keyLabel="ग" ns:altKeyLabel="ग" ns:shiftedKeyLabel="घ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_च" ns:keyLabel="च" ns:altKeyLabel="च" ns:shiftedKeyLabel="छ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ज" ns:keyLabel="ज" ns:altKeyLabel="ज" ns:shiftedKeyLabel="झ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ट" ns:keyLabel="ट" ns:altKeyLabel="ट" ns:shiftedKeyLabel="ठ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ड" ns:keyLabel="ड" ns:altKeyLabel="ड" ns:shiftedKeyLabel="ढ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ण" ns:keyLabel="ण" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_त" ns:keyLabel="त" ns:altKeyLabel="त" ns:shiftedKeyLabel="थ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_द" ns:keyLabel="द" ns:altKeyLabel="द" ns:shiftedKeyLabel="ध" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_न" ns:keyLabel="न" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_प" ns:keyLabel="प" ns:altKeyLabel="प" ns:shiftedKeyLabel="फ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ब" ns:keyEdgeFlags="right" ns:keyLabel="ब" ns:altKeyLabel="ब" ns:shiftedKeyLabel="भ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_म" ns:keyLabel="म" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_य" ns:keyLabel="य" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_र" ns:keyLabel="र" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ल" ns:keyLabel="ल" ns:altKeyLabel="ल" ns:shiftedKeyLabel="ळ" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_्" ns:keyLabel="्" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_व" ns:keyLabel="व" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_श" ns:keyLabel="श" ns:altKeyLabel="श" ns:shiftedKeyLabel="ष" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_स" ns:keyLabel="स" />
+        <Key ns:popupCharacters="@string/alternates_for_marathi_alphabetic_ह" ns:keyLabel="ह" ns:altKeyLabel="ह" ns:shiftedKeyLabel="ः" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_marathi" />
+</KeyboardEx>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key1" ns:keyEdgeFlags="left" ns:keyLabel="ଅ" ns:altKeyLabel="ଅ" ns:shiftedKeyLabel="୍" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key2" ns:keyLabel="ଆ" ns:altKeyLabel="ଆ" ns:shiftedKeyLabel="ା" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key3" ns:keyLabel="ଇ" ns:altKeyLabel="ଇ" ns:shiftedKeyLabel="ି" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key4" ns:keyLabel="ଈ" ns:altKeyLabel="ଈ" ns:shiftedKeyLabel="ୀ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key5" ns:keyLabel="ଉ" ns:altKeyLabel="ଉ" ns:shiftedKeyLabel="ୁ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key6" ns:keyLabel="ଊ" ns:altKeyLabel="ଊ" ns:shiftedKeyLabel="ୂ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key7" ns:keyLabel="ଋ" ns:altKeyLabel="ଋ" ns:shiftedKeyLabel="ୃ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key8" ns:keyLabel="ଏ" ns:altKeyLabel="ଏ" ns:shiftedKeyLabel="େ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key9" ns:keyLabel="ଐ" ns:altKeyLabel="ଐ" ns:shiftedKeyLabel="ୈ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key10" ns:keyLabel="ଓ" ns:altKeyLabel="ଓ" ns:shiftedKeyLabel="ୋ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key11" ns:keyEdgeFlags="right" ns:keyLabel="ଔ" ns:altKeyLabel="ଔ" ns:shiftedKeyLabel="ୌ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key12" ns:keyEdgeFlags="left" ns:keyLabel="କ" ns:altKeyLabel="କ" ns:shiftedKeyLabel="ଖ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key13" ns:keyLabel="ଗ" ns:altKeyLabel="ଗ" ns:shiftedKeyLabel="ଘ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key14" ns:keyLabel="ଙ" ns:altKeyLabel="ଙ" ns:shiftedKeyLabel="ଂ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key15" ns:keyLabel="ଚ" ns:altKeyLabel="ଚ" ns:shiftedKeyLabel="ଛ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key16" ns:keyLabel="ଜ" ns:altKeyLabel="ଜ" ns:shiftedKeyLabel="ଝ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key17" ns:keyLabel="ଟ" ns:altKeyLabel="ଟ" ns:shiftedKeyLabel="ଠ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key18" ns:keyLabel="ଡ" ns:altKeyLabel="ଡ" ns:shiftedKeyLabel="ଢ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key19" ns:keyLabel="ଣ" ns:altKeyLabel="ଣ" ns:shiftedKeyLabel="ଞ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key20" ns:keyLabel="ତ" ns:altKeyLabel="ତ" ns:shiftedKeyLabel="ଥ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key21" ns:keyLabel="ଦ" ns:altKeyLabel="ଦ" ns:shiftedKeyLabel="ଧ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key22" ns:keyEdgeFlags="right" ns:keyLabel="ନ" ns:altKeyLabel="ନ" ns:shiftedKeyLabel="ଁ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key23" ns:keyLabel="ପ" ns:altKeyLabel="ପ" ns:shiftedKeyLabel="ଫ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key24" ns:keyLabel="ବ" ns:altKeyLabel="ବ" ns:shiftedKeyLabel="ଭ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key25" ns:keyLabel="ମ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key26" ns:keyLabel="ଯ" ns:altKeyLabel="ଯ" ns:shiftedKeyLabel="ୟ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key27" ns:keyLabel="ର" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key28" ns:keyLabel="ଲ" ns:altKeyLabel="ଲ" ns:shiftedKeyLabel="ଳ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key29" ns:keyLabel="ଶ" ns:altKeyLabel="ଶ" ns:shiftedKeyLabel="ୱ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key30" ns:keyLabel="ସ" ns:altKeyLabel="ସ" ns:shiftedKeyLabel="ଷ" />
+        <Key ns:popupCharacters="@string/alternates_for_oriya_alphabetic_key31" ns:keyLabel="ହ" ns:altKeyLabel="ହ" ns:shiftedKeyLabel="ଃ" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_marathi" />
+</KeyboardEx>

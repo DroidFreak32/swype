@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeycodeaccessibilityLabelMapping xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Mapping ns:code="@integer/keycode_swype" ns:accessibilityLabel="@string/ime_settings" />
+    <Mapping ns:code="@integer/keycode_space" ns:accessibilityLabel="@string/space_key" />
+    <Mapping ns:code="@integer/keycode_shift" ns:accessibilityLabel="@string/accessibility_label_for_shift_key_general" ns:accessibilityLabelOnSymbols="@string/accessibility_label_for_shift_key_symbols_shift_off_short" ns:accessibilityLabelOnShiftedSymbols="@string/accessibility_label_for_shift_key_symbols_shift_on_short" ns:accessibilityLabelOnLowerCase="@string/accessibility_label_for_shift_key_main_shift_off_short" ns:accessibilityLabelOnCap="@string/accessibility_label_for_shift_key_main_shift_on_short_A" ns:accessibilityLabelOnAllCap="@string/accessibility_label_for_shift_key_main_shift_lock_short_A" ns:accessibilityLabelOnPhone="@string/accessibility_label_for_shift_key_shift_off_general" ns:accessibilityLabelOnShiftedPhone="@string/accessibility_label_for_shift_key_shift_on_general" />
+    <Mapping ns:code="@integer/keycode_shift" ns:accessibilityLabel="@string/accessibility_label_for_shift_key_general" ns:accessibilityLabelOnSymbols="@string/accessibility_label_for_shift_key_symbols_shift_off_short" ns:accessibilityLabelOnShiftedSymbols="@string/accessibility_label_for_shift_key_symbols_shift_on_short" ns:accessibilityLabelOnLowerCase="@string/accessibility_label_for_shift_key_main_shift_off_short" ns:accessibilityLabelOnCap="@string/accessibility_label_for_shift_key_main_shift_on_short_A" ns:accessibilityLabelOnAllCap="@string/accessibility_label_for_shift_key_main_shift_lock_short_A" ns:accessibilityLabelOnPhone="@string/accessibility_label_for_shift_key_shift_off_general" ns:accessibilityLabelOnShiftedPhone="@string/accessibility_label_for_shift_key_shift_on_general" />
+    <Mapping ns:code="@integer/keycode_sym_layer" ns:accessibilityLabel="@string/accessibility_label_for_symbols_key_medium" ns:altAccessibilityLabel="@string/accessibility_label_for_numbers_key_medium" />
+    <Mapping ns:code="@integer/keycode_speech" ns:accessibilityLabel="@string/accessibility_label_for_voice_key_medium" />
+    <Mapping ns:code="@integer/keycode_delete" ns:accessibilityLabel="@string/udb_delete" />
+    <Mapping ns:code="@integer/keycode_enter" ns:accessibilityLabel="@string/accessibility_enter" />
+    <Mapping ns:code="@integer/keycode_abc_layer" ns:accessibilityLabel="@string/accessibility_label_for_main_key_medium_A" ns:altAccessibilityLabel="@string/edit_keyboard" ns:shiftedAltAccessibilityLabel="@string/accessibility_label_for_numbers_key_medium" />
+    <Mapping ns:code="@integer/keycode_copy" ns:accessibilityLabel="@string/label_copy" />
+    <Mapping ns:code="@integer/keycode_cut" ns:accessibilityLabel="@string/label_cut" />
+    <Mapping ns:code="@integer/keycode_paste" ns:accessibilityLabel="@string/label_paste" />
+    <Mapping ns:code="@integer/keycode_tab" ns:accessibilityLabel="@string/accessibility_label_for_Tab_key" />
+    <Mapping ns:code="@integer/keycode_arrow_left" ns:accessibilityLabel="@string/accessibility_label_for_left_key_short" />
+    <Mapping ns:code="@integer/keycode_arrow_right" ns:accessibilityLabel="@string/accessibility_label_for_right_key_short" />
+    <Mapping ns:code="@integer/keycode_arrow_up" ns:accessibilityLabel="@string/accessibility_label_for_up_key_short" />
+    <Mapping ns:code="@integer/keycode_arrow_down" ns:accessibilityLabel="@string/accessibility_label_for_down_key_short" />
+    <Mapping ns:code="@integer/keycode_select_all" ns:accessibilityLabel="@string/label_select_all" />
+    <Mapping ns:code="@integer/keycode_select" ns:accessibilityLabel="@string/label_select_text" />
+    <Mapping ns:code="@integer/keycode_mode_back" ns:accessibilityLabel="@string/label_back" />
+    <Mapping ns:code="@integer/keycode_edit" ns:accessibilityLabel="@string/edit_keyboard" />
+    <Mapping ns:code="@integer/keycode_num" ns:accessibilityLabel="@string/accessibility_label_for_numbers_key_medium" />
+    <Mapping ns:code="@integer/keycode_emoticon" ns:accessibilityLabelOnShiftedSymbols="@string/accessibility_label_for_emoticons_smiley_key_long" />
+</KeycodeaccessibilityLabelMapping>

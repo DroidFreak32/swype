@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">ཉིན་གྲངས་%dགོང་དུ།</item>
+        <item quantity="one">ཉིན་གཅིག་གོང་%d</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d ཚིག་རྣམས་གསུབ་ཀྱི་རེད།</item>
+        <item quantity="one">ཚིག་གཅིག་གསུབ་ཀྱི་རེད།</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ཚོུད་གོང་དུ།</item>
+        <item quantity="one">%d ཚོུད་གོང་</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">སྐར་གྲངས་%d གོང་དུ།</item>
+        <item quantity="one">སྐར་མ་%d གོང་</item>
+    </plurals>
+</resources>

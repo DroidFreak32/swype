@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/symbol_view_recent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/symbol_scroll_view_recent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nuance.swype.input.chinese.ChineseKeyboardViewEx android:id="@id/symbol_keyboardViewEx_recent" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" ns:keyBackground="@drawable/emoji_key_action" ns:isPopupKeyboard="true" ns:isEmojiStylePopupKeyboard="true" ns:keyBorder="?emojiBorder" />
+    </ScrollView>
+</FrameLayout>

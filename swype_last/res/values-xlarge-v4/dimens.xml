@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_text_size">26.0dip</dimen>
+    <dimen name="key_text_size_5row">24.0dip</dimen>
+    <dimen name="key_text_size_small">24.0dip</dimen>
+    <dimen name="key_label_text_size">24.0dip</dimen>
+    <dimen name="key_label_text_size_5row">21.0dip</dimen>
+    <dimen name="key_label_text_size_small">21.0dip</dimen>
+    <dimen name="key_text_size_large">30.0dip</dimen>
+    <dimen name="alpha_hwr_pad_height">225.0dip</dimen>
+    <dimen name="bpmf_key_height">60.0dip</dimen>
+    <dimen name="cjk_hwr_pad_height">225.0dip</dimen>
+    <dimen name="cjk_hwr_vertical_candidates_list_height">225.0dip</dimen>
+    <dimen name="key_height">75.0dip</dimen>
+    <dimen name="key_height_5row">75.0dip</dimen>
+    <dimen name="key_height_keypad">75.0dip</dimen>
+    <dimen name="key_label_text_size_large">27.0dip</dimen>
+    <dimen name="keyboard_forced_height">300.0dip</dimen>
+    <dimen name="stroke_key_height">75.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="theme_category_title_size">20.0dip</dimen>
+    <dimen name="popup_preview_key_height_circle">85.0dip</dimen>
+    <dimen name="startup_dialog_height">580.0dip</dimen>
+    <dimen name="startup_dialog_width">400.0dip</dimen>
+    <dimen name="status_bar_height">35.0dip</dimen>
+    <dimen name="alt_label_text_size">14.0dip</dimen>
+    <dimen name="alt_label_text_size_5row">14.0dip</dimen>
+    <dimen name="alt_text_size">14.0dip</dimen>
+    <dimen name="alt_text_size_big">20.0dip</dimen>
+    <dimen name="alt_text_size_small">14.0dip</dimen>
+    <dimen name="bpmf_keytext_size">19.0dip</dimen>
+    <dimen name="cangjie_keytext_size">19.0dip</dimen>
+    <dimen name="dock_side_keyboard_width">20.0in</dimen>
+    <dimen name="dotcom_text_keysize">24.0dip</dimen>
+    <dimen name="doublepinyin_alt_text_size">13.0dip</dimen>
+    <dimen name="hand_writing_mode_text_size">17.0dip</dimen>
+    <dimen name="japanese_flicker_menu_key_text_size">26.0dip</dimen>
+    <dimen name="key_font_size_jp">20.0dip</dimen>
+    <dimen name="keyboard_wing_width">23.0dip</dimen>
+    <dimen name="mini_key_height">52.5dip</dimen>
+    <dimen name="mini_keyboard_forced_height">210.0dip</dimen>
+    <dimen name="return_key_text_size">24.0dip</dimen>
+    <dimen name="speech_recording_label_height">36.0dip</dimen>
+    <dimen name="startup_gs_button_image_margin_left">5.0dip</dimen>
+    <dimen name="startup_gs_button_image_margin_right">15.0dip</dimen>
+    <dimen name="startup_gs_button_image_padding_bottom">10.0dip</dimen>
+    <dimen name="startup_gs_button_image_padding_top">10.0dip</dimen>
+    <dimen name="startup_gs_button_padding_bottom">10.0dip</dimen>
+    <dimen name="startup_gs_button_padding_left">10.0dip</dimen>
+    <dimen name="startup_gs_button_padding_right">15.0dip</dimen>
+    <dimen name="startup_gs_button_padding_top">10.0dip</dimen>
+    <dimen name="trace_width">6.0dip</dimen>
+    <dimen name="button_key_height">34.0dip</dimen>
+    <dimen name="button_key_width">75.0dip</dimen>
+</resources>

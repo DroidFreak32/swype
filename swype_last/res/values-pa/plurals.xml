@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d ਦਿਨਾਂ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਦਿਨ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d ਸ਼ਬਦਾਂ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ</item>
+        <item quantity="one">ਇੱਕਸ਼ਬਦ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ।</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ਘੰਟੇ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਘੰਟਾ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d ਮਿਨਟ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਮਿਨਟ ਪਹਿਲਾਂ</item>
+    </plurals>
+</resources>

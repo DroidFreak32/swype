@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d दिन को लाहा</item>
+        <item quantity="one">%d दिन लाहा</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d साबाद ओचोक काक्आ</item>
+        <item quantity="one">मित् टेन साबाद मेटावेना</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d टाड़ाङ को लाहा</item>
+        <item quantity="one">%d टाड़ाङ लाहा</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d मिनट को लाहा</item>
+        <item quantity="one">%d मिनट लाहा</item>
+    </plurals>
+</resources>

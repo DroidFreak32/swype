@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.WordListViewContainer android:orientation="vertical" android:id="@id/wordlistview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/billboard" />
+    <RelativeLayout android:id="@id/emojilist_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nuance.swype.input.EmojiCandidatesListView android:id="@id/emojiCandidates" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/wordlist_holder" android:background="?keyboardSuggestStrip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/toggle" android:background="?keyboardSuggestStrip" android:layout_width="wrap_content" android:layout_height="@dimen/candidates_list_height" android:src="@drawable/btn_toggle_translit" />
+        <com.nuance.swype.input.WordCandidatesListView android:id="@id/candidates" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height" android:layout_toEndOf="@id/toggle" />
+    </RelativeLayout>
+</com.nuance.swype.input.WordListViewContainer>

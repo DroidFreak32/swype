@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/popup_keyboard_container" android:background="?keyboardPopupBackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <com.nuance.swype.input.KeyboardViewEx android:id="@id/keyboardViewEx" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" ns:keyTextColor="@color/color_popup_text" ns:keyBackground="@drawable/btn_keyboard_popup_key" ns:isPopupKeyboard="true" ns:keyBorder="?keyboardPopupBorder" />
+    <ImageButton android:layout_gravity="center" android:id="@id/closeButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/keyboard_popup_btn_close" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+</LinearLayout>

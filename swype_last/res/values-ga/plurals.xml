@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d lá ó shin</item>
+        <item quantity="one">%d lá ó shin</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Beidh %d focal roghnaithe</item>
+        <item quantity="one">Beidh focal amháin roghnaithe.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d uair ó shin</item>
+        <item quantity="one">%d uair ó shin</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d nóiméad ó shin</item>
+        <item quantity="one">%d nóiméad ó shin</item>
+    </plurals>
+</resources>

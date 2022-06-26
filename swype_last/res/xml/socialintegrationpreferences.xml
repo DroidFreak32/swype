@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_personalization_personalize_experience" android:key="pref_social_networks_persionalization">
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/calllog_title" android:key="calllog_preference_key">
+            <intent android:action="com.nuance.sns.CalllogActivity" />
+        </com.nuance.swype.preference.ClassActionPreference>
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/sms_title" android:key="sms_preference_key">
+            <intent android:action="com.nuance.sns.SMSActivity" />
+        </com.nuance.swype.preference.ClassActionPreference>
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/gmail_title" android:key="gmail_preference_key">
+            <intent android:action="com.nuance.sns.GmailActivity" />
+        </com.nuance.swype.preference.ClassActionPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

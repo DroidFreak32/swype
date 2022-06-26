@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:showPopup="true" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_edit" />
+</KeyboardEx>

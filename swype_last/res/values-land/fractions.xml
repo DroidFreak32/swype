@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="dock_side_keyboard_scale">55.000008%</fraction>
+    <fraction name="emoji_hor_padding_factor">32.000004%</fraction>
+    <fraction name="emoji_ver_padding_factor">25.0%</fraction>
+    <fraction name="mini_keyboard_scale">100.0%</fraction>
+    <fraction name="mini_keyboard_width">100.0%</fraction>
+    <fraction name="split_keyboard_text_size_scale">75.0%</fraction>
+    <fraction name="split_keyboard_width">55.000008%</fraction>
+</resources>

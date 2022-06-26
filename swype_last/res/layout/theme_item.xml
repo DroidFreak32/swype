@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimaryInverseDisableOnly" android:gravity="center|left" android:id="@id/theme_list_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" android:paddingStart="12.0dip" />
+    <View android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <CheckBox android:id="@id/theme_list_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

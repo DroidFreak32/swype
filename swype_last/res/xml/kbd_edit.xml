@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_4_key_width" ns:invalidDockModes="split" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:codes="@integer/keycode_cut" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardCut" ns:keyIconRecolor="?iconRecolorCut" ns:popupLabel="@string/label_cut" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_tab" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTab" ns:keyIconRecolor="?iconRecolorTab" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_arrow_up" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowUp" ns:keyIcon="?symKeyboardArrowUp" ns:keyIconRecolor="?iconRecolorArrowUp" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_mode_back" ns:keyEdgeFlags="right" ns:keyIcon="?symKeyboardBack" ns:keyIconRecolor="?iconRecolorBack" ns:popupLabel="@string/label_back" ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:codes="@integer/keycode_copy" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardCopy" ns:keyIconRecolor="?iconRecolorCopy" ns:popupLabel="@string/label_copy" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_arrow_left" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowLeft" ns:keyIcon="?symKeyboardArrowLeft" ns:keyIconRecolor="?iconRecolorArrowLeft" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_select" ns:isSticky="true" ns:keyIcon="@drawable/sym_keyboard_select_text_toggle" ns:keyIconRecolor="?iconRecolorSelectText" ns:popupLabel="@string/label_select_text" ns:keyBackground="@drawable/btn_keyboard_key_toggle_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_arrow_right" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowRight" ns:keyIcon="?symKeyboardArrowRight" ns:keyIconRecolor="?iconRecolorArrowRight" ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:codes="@integer/keycode_paste" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardPaste" ns:keyIconRecolor="?iconRecolorPaste" ns:popupLabel="@string/label_paste" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_select_all" ns:keyIcon="?symKeyboardSelectAll" ns:keyIconRecolor="?iconRecolorSelectAll" ns:popupLabel="@string/label_select_all" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_arrow_down" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowDown" ns:keyIcon="?symKeyboardArrowDown" ns:keyIconRecolor="?iconRecolorArrowDown" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom" ns:rowBackground="?bottomRowBackground">
+        <Key ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:keyIconRecolor="?iconRecolorSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:keyLabel="@string/label_alpha_key" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_space" ns:iconPreview="?symKeyboardFeedbackSpace" ns:keyIcon="?symKeyboardSpaceKey" ns:keyIconRecolor="?iconRecolorSpaceKey" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+</KeyboardEx>

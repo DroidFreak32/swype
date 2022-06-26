@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/wcl_icon_translit_hindi_black" />
+    <item android:drawable="@drawable/wcl_icon_translit_hindiqwerty_black" />
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/keyboard_input" android:key="keyboard_input_screen_key" android:summary="@string/keyboard_input_description" />
+    <PreferenceScreen android:title="@string/handwriting_input" android:key="handwriting_input_screen_key" android:summary="@string/handwriting_input_description" />
+</PreferenceScreen>

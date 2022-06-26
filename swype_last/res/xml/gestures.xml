@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GestureList xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Gesture ns:gestureInt="@integer/keycode_cut">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="x" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_select_all">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="a" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_copy">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="c" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_paste">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="v" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_mode_change" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_abc_layer" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_sym_layer" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_edit" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_num" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_num">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="5" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_suppress_autospace">
+        <Path ns:gestureInt="@integer/keycode_space" />
+        <Path ns:gestureInt="@integer/keycode_delete" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_google_maps">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="gm" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_hide_keyboard">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_delete" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_case_edit">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_shift" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_www">
+        <Path ns:gestureString="w." />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/keycode_speech_app">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_speech" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_last_language">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureInt="@integer/keycode_space" />
+    </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_search">
+        <Path ns:gestureInt="@integer/keycode_swype" />
+        <Path ns:gestureString="s" />
+    </Gesture>
+</GestureList>

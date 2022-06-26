@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d көн элек</item>
+        <item quantity="one">%d көн элек</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d сүз бетереләчәк</item>
+        <item quantity="one">Бер сүз бетереләчәк.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d сәгать элек</item>
+        <item quantity="one">%d сәгать элек</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d минут элек</item>
+        <item quantity="one">%d минут элек</item>
+    </plurals>
+</resources>

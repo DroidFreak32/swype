@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" ns:letterLanguageCategory="kn" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key1" ns:keyLabel="ಅ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key2" ns:keyLabel="ಆ" ns:altKeyLabel="ಆ" ns:shiftedKeyLabel="ಾ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key3" ns:keyLabel="ಇ" ns:altKeyLabel="ಇ" ns:shiftedKeyLabel="ಿ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key4" ns:keyLabel="ಈ" ns:altKeyLabel="ಈ" ns:shiftedKeyLabel="ೀ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key5" ns:keyLabel="ಉ" ns:altKeyLabel="ಉ" ns:shiftedKeyLabel="ು" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key6" ns:keyLabel="ಊ" ns:altKeyLabel="ಊ" ns:shiftedKeyLabel="ೂ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key7" ns:keyLabel="ಎ" ns:altKeyLabel="ಎ" ns:shiftedKeyLabel="ೆ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key8" ns:keyLabel="ಏ" ns:altKeyLabel="ಏ" ns:shiftedKeyLabel="ೇ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key9" ns:keyLabel="ಐ" ns:altKeyLabel="ಐ" ns:shiftedKeyLabel="ೈ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key10" ns:keyLabel="ಒ" ns:altKeyLabel="ಒ" ns:shiftedKeyLabel="ೊ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key11" ns:keyLabel="ಓ" ns:altKeyLabel="ಓ" ns:shiftedKeyLabel="ೋ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key12" ns:keyLabel="ಔ" ns:altKeyLabel="ಔ" ns:shiftedKeyLabel="ೌ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key13" ns:keyLabel="ಕ" ns:altKeyLabel="ಕ" ns:shiftedKeyLabel="ಖ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key14" ns:keyLabel="ಗ" ns:altKeyLabel="ಗ" ns:shiftedKeyLabel="ಘ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key15" ns:keyLabel="ಚ" ns:altKeyLabel="ಚ" ns:shiftedKeyLabel="ಛ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key16" ns:keyLabel="ಜ" ns:altKeyLabel="ಜ" ns:shiftedKeyLabel="ಝ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key17" ns:keyLabel="್" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key18" ns:keyLabel="ಟ" ns:altKeyLabel="ಟ" ns:shiftedKeyLabel="ಠ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key19" ns:keyLabel="ಡ" ns:altKeyLabel="ಡ" ns:shiftedKeyLabel="ಢ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key20" ns:keyLabel="ತ" ns:altKeyLabel="ತ" ns:shiftedKeyLabel="ಥ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key21" ns:keyLabel="ದ" ns:altKeyLabel="ದ" ns:shiftedKeyLabel="ಧ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key22" ns:keyLabel="ನ" ns:altKeyLabel="ನ" ns:shiftedKeyLabel="ಣ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key23" ns:keyLabel="ಂ" ns:altKeyLabel="ಂ" ns:shiftedKeyLabel="ಃ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key24" ns:keyLabel="ಪ" ns:altKeyLabel="ಪ" ns:shiftedKeyLabel="ಫ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key25" ns:keyLabel="ಬ" ns:altKeyLabel="ಬ" ns:shiftedKeyLabel="ಭ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key26" ns:keyLabel="ಮ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key27" ns:keyLabel="ಯ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key28" ns:keyLabel="ರ" ns:altKeyLabel="ರ" ns:shiftedKeyLabel="ೃ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key29" ns:keyLabel="ಲ" ns:altKeyLabel="ಲ" ns:shiftedKeyLabel="ಳ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key30" ns:keyLabel="ವ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key31" ns:keyLabel="ಶ" ns:altKeyLabel="ಶ" ns:shiftedKeyLabel="ಷ" />
+        <Key ns:popupCharacters="@string/alternates_for_kannada_key32" ns:keyLabel="ಸ" ns:altKeyLabel="ಸ" ns:shiftedKeyLabel="ಹ" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_kannada_tablet" />
+</KeyboardEx>
