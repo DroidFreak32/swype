@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_text_size">19.0dip</dimen>
-    <dimen name="key_text_size_5row">18.0dip</dimen>
-    <dimen name="key_text_size_small">18.0dip</dimen>
-    <dimen name="key_label_text_size">17.0dip</dimen>
-    <dimen name="key_label_text_size_5row">16.0dip</dimen>
-    <dimen name="key_label_text_size_small">16.0dip</dimen>
-    <dimen name="key_text_size_large">23.0dip</dimen>
+    <dimen name="key_text_size">24.0dip</dimen>
+    <dimen name="key_text_size_5row">23.0dip</dimen>
+    <dimen name="key_text_size_small">23.0dip</dimen>
+    <dimen name="key_label_text_size">22.0dip</dimen>
+    <dimen name="key_label_text_size_5row">21.0dip</dimen>
+    <dimen name="key_label_text_size_small">21.0dip</dimen>
+    <dimen name="key_text_size_large">28.0dip</dimen>
+    <dimen name="alt_text_size_no_row_on">13.0dip</dimen>
+    <dimen name="alt_emoji_icon_size">15.0dip</dimen>
+    <dimen name="alt_label_text_size">15.0dip</dimen>
+    <dimen name="alt_label_text_size_5row">15.0dip</dimen>
+    <dimen name="alt_text_size">14.0dip</dimen>
+    <dimen name="alt_text_size_big">21.0dip</dimen>
+    <dimen name="alt_text_size_small">15.0dip</dimen>
+    <dimen name="alt_emoji_icon_size_big">25.0dip</dimen>
+    <dimen name="alt_emoji_icon_size_small">21.0dip</dimen>
 </resources>

@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_text_size">21.0dip</dimen>
-    <dimen name="key_text_size_5row">19.0dip</dimen>
-    <dimen name="key_text_size_small">20.0dip</dimen>
-    <dimen name="key_label_text_size">18.0dip</dimen>
-    <dimen name="key_label_text_size_5row">17.0dip</dimen>
-    <dimen name="key_label_text_size_small">17.0dip</dimen>
-    <dimen name="key_text_size_large">25.0dip</dimen>
+    <dimen name="alt_text_size_no_row_on">10dip</dimen>
+    <dimen name="alt_emoji_icon_size">12dip</dimen>
+    <dimen name="alt_label_text_size">12dip</dimen>
+    <dimen name="alt_label_text_size_5row">12dip</dimen>
+    <dimen name="alt_text_size">11dip</dimen>
+    <dimen name="alt_text_size_big">18dip</dimen>
+    <dimen name="alt_text_size_small">12dip</dimen>
+    <dimen name="alt_emoji_icon_size_big">22dip</dimen>
+    <dimen name="alt_emoji_icon_size_small">18dip</dimen>
+    <dimen name="key_text_size">23dip</dimen>
+    <dimen name="key_text_size_5row">21dip</dimen>
+    <dimen name="key_text_size_small">22dip</dimen>
+    <dimen name="key_label_text_size">20dip</dimen>
+    <dimen name="key_label_text_size_5row">19dip</dimen>
+    <dimen name="key_label_text_size_small">19dip</dimen>
+    <dimen name="key_text_size_large">27dip</dimen>
     <dimen name="theme_category_title_size">19.0dip</dimen>
     <dimen name="bpmf_keytext_size">16.0dip</dimen>
     <dimen name="cangjie_keytext_size">16.0dip</dimen>
     <dimen name="hand_writing_mode_text_size">14.0dip</dimen>
-    <dimen name="japanese_flicker_menu_key_text_size">23.0dip</dimen>
-    <dimen name="key_font_size_jp">16.0dip</dimen>
-    <dimen name="return_key_text_size">20.0dip</dimen>
+    <dimen name="japanese_flicker_menu_key_text_size">28.0dip</dimen>
+    <dimen name="key_font_size_jp">21.0dip</dimen>
+    <dimen name="return_key_text_size">22.0dip</dimen>
     <dimen name="speech_recording_label_height">25.0dip</dimen>
     <dimen name="theme_grid_view_name_mini_height">38.0dip</dimen>
 </resources>
