@@ -1,0 +1,392 @@
+.class public Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;
+.super Ljava/lang/Object;
+.source "DatabaseConfig.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/nuance/swype/input/DatabaseConfig;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "LanguageDB"
+.end annotation
+
+
+# instance fields
+.field private final dbFileName:Ljava/lang/String;
+
+.field private final dbId:I
+
+.field private final displayName:Ljava/lang/String;
+
+.field private final displaySummary:Ljava/lang/String;
+
+.field private final info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+
+# direct methods
+.method constructor <init>(Lcom/nuance/swype/input/DatabaseConfig$DbInfo;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+    .registers 6
+    .param p1, "info"    # Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+    .param p2, "filename"    # Ljava/lang/String;
+    .param p3, "dbid"    # I
+    .param p4, "displayName"    # Ljava/lang/String;
+    .param p5, "displaySummary"    # Ljava/lang/String;
+
+    .prologue
+    .line 833
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 834
+    iput-object p1, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    .line 835
+    iput-object p2, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    .line 836
+    iput p3, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbId:I
+
+    .line 837
+    iput-object p4, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displayName:Ljava/lang/String;
+
+    .line 838
+    iput-object p5, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displaySummary:Ljava/lang/String;
+
+    .line 839
+    return-void
+.end method
+
+.method static synthetic access$000(Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;)Ljava/lang/String;
+    .registers 2
+    .param p0, "x0"    # Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;
+
+    .prologue
+    .line 825
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method static synthetic access$100(Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;)Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+    .registers 2
+    .param p0, "x0"    # Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;
+
+    .prologue
+    .line 825
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    return-object v0
+.end method
+
+.method static synthetic access$200(Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;)Ljava/lang/String;
+    .registers 2
+    .param p0, "x0"    # Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;
+
+    .prologue
+    .line 825
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displayName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method static synthetic access$300(Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;)Ljava/lang/String;
+    .registers 2
+    .param p0, "x0"    # Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;
+
+    .prologue
+    .line 825
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displaySummary:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method getAssetFileName()Ljava/lang/String;
+    .registers 3
+
+    .prologue
+    .line 858
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    iget-boolean v0, v0, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->compressed:Z
+
+    if-eqz v0, :cond_1d
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v1, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ".mp3"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_1c
+    return-object v0
+
+    :cond_1d
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    goto :goto_1c
+.end method
+
+.method public getDisplayName()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 850
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displayName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getDisplaySummary()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 854
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->displaySummary:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getFileName()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 846
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getId()I
+    .registers 2
+
+    .prologue
+    .line 862
+    iget v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbId:I
+
+    return v0
+.end method
+
+.method getType()Lcom/nuance/swype/input/DatabaseConfig$DbType;
+    .registers 2
+
+    .prologue
+    .line 842
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    iget-object v0, v0, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->type:Lcom/nuance/swype/input/DatabaseConfig$DbType;
+
+    return-object v0
+.end method
+
+.method public isALMLDB()Z
+    .registers 3
+
+    .prologue
+    .line 874
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->ALM_LDB:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    if-ne v0, v1, :cond_8
+
+    const/4 v0, 0x1
+
+    :goto_7
+    return v0
+
+    :cond_8
+    const/4 v0, 0x0
+
+    goto :goto_7
+.end method
+
+.method public isCatDB()Z
+    .registers 3
+
+    .prologue
+    .line 870
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    iget-object v0, v0, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->type:Lcom/nuance/swype/input/DatabaseConfig$DbType;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbType;->CDB:Lcom/nuance/swype/input/DatabaseConfig$DbType;
+
+    if-ne v0, v1, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method isCompressed()Z
+    .registers 2
+
+    .prologue
+    .line 890
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    iget-boolean v0, v0, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->compressed:Z
+
+    return v0
+.end method
+
+.method public isHDB()Z
+    .registers 3
+
+    .prologue
+    .line 882
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->HDB:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    if-ne v0, v1, :cond_8
+
+    const/4 v0, 0x1
+
+    :goto_7
+    return v0
+
+    :cond_8
+    const/4 v0, 0x0
+
+    goto :goto_7
+.end method
+
+.method public isLDB()Z
+    .registers 3
+
+    .prologue
+    .line 866
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    iget-object v0, v0, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->type:Lcom/nuance/swype/input/DatabaseConfig$DbType;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbType;->LDB:Lcom/nuance/swype/input/DatabaseConfig$DbType;
+
+    if-ne v0, v1, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public isRegularLDB()Z
+    .registers 3
+
+    .prologue
+    .line 878
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->LDB:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    if-ne v0, v1, :cond_8
+
+    const/4 v0, 0x1
+
+    :goto_7
+    return v0
+
+    :cond_8
+    const/4 v0, 0x0
+
+    goto :goto_7
+.end method
+
+.method public isTraceLDB()Z
+    .registers 3
+
+    .prologue
+    .line 886
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->TRACE_LDB1:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    if-eq v0, v1, :cond_c
+
+    iget-object v0, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    sget-object v1, Lcom/nuance/swype/input/DatabaseConfig$DbInfo;->TRACE_LDB2:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    if-ne v0, v1, :cond_e
+
+    :cond_c
+    const/4 v0, 0x1
+
+    :goto_d
+    return v0
+
+    :cond_e
+    const/4 v0, 0x0
+
+    goto :goto_d
+.end method
+
+.method public toString()Ljava/lang/String;
+    .registers 5
+
+    .prologue
+    .line 895
+    const-string/jumbo v0, "[%s %s %#x]"
+
+    const/4 v1, 0x3
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    iget-object v3, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->info:Lcom/nuance/swype/input/DatabaseConfig$DbInfo;
+
+    aput-object v3, v1, v2
+
+    const/4 v2, 0x1
+
+    iget-object v3, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbFileName:Ljava/lang/String;
+
+    aput-object v3, v1, v2
+
+    const/4 v2, 0x2
+
+    iget v3, p0, Lcom/nuance/swype/input/DatabaseConfig$LanguageDB;->dbId:I
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
