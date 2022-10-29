@@ -7916,6 +7916,7 @@
     <public type="integer" name="emoji_text_value" id="0x7f0f001a" />
     <public type="integer" name="first_key_delay_timeout" id="0x7f0f001b" />
     <public type="integer" name="full_keyboard_id" id="0x7f0f001c" />
+    <public type="integer" name="gesture_code_annoyed_emoji" id="0x7f0f008c" />
     <public type="integer" name="gesture_code_case_edit" id="0x7f0f001d" />
     <public type="integer" name="gesture_code_google_maps" id="0x7f0f001e" />
     <public type="integer" name="gesture_code_hide_keyboard" id="0x7f0f001f" />

@@ -33,6 +33,7 @@
     <integer name="gesture_code_google_maps">-107</integer>
     <integer name="gesture_code_hide_keyboard">-108</integer>
     <integer name="gesture_code_last_language">-111</integer>
+    <integer name="gesture_code_annoyed_emoji">-119</integer>
     <integer name="gesture_code_search">-112</integer>
     <integer name="gesture_code_suppress_autospace">-106</integer>
     <integer name="gesture_code_www">-109</integer>

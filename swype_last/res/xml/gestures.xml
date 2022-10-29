@@ -67,6 +67,9 @@
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureInt="@integer/keycode_space" />
     </Gesture>
+    <Gesture ns:gestureInt="@integer/gesture_code_annoyed_emoji">
+        <Path ns:gestureString=",f" />
+    </Gesture>
     <Gesture ns:gestureInt="@integer/gesture_code_search">
         <Path ns:gestureInt="@integer/keycode_swype" />
         <Path ns:gestureString="s" />

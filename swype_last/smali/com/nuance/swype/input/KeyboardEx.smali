@@ -31,6 +31,8 @@
 
 .field public static final EDGE_TOP:I = 0x4
 
+.field public static final GESTURE_KEYCODE_ANNOYED_EMOJI:I = -0x77
+
 .field public static final GESTURE_KEYCODE_CASE_EDIT:I = -0x6e
 
 .field public static final GESTURE_KEYCODE_GOOGLE_MAPS:I = -0x6b

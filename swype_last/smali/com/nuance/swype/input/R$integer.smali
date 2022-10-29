@@ -81,6 +81,8 @@
 
 .field public static final gesture_code_last_language:I = 0x7f0f0020
 
+.field public static final gesture_code_annoyed_emoji:I = 0x7f0f008c
+
 .field public static final gesture_code_search:I = 0x7f0f0021
 
 .field public static final gesture_code_suppress_autospace:I = 0x7f0f0022

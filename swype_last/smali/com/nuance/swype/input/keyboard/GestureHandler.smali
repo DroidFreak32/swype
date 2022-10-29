@@ -172,6 +172,14 @@
 
     goto :goto_c
 
+    .line 69
+    :sswitch_bf
+    const-string/jumbo v2, "-__-"
+
+    invoke-virtual {v9, v2, v6, v7}, Lcom/nuance/swype/input/InputView;->onText(Ljava/lang/CharSequence;J)V
+
+    goto :goto_c
+
     .line 71
     :sswitch_2f
     new-array v4, v4, [I
@@ -445,6 +453,7 @@
 
     :sswitch_data_118
     .sparse-switch
+        -0x77 -> :sswitch_bf
         -0x70 -> :sswitch_be
         -0x6f -> :sswitch_2f
         -0x6e -> :sswitch_108
