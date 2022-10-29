@@ -86,6 +86,12 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="pink">#ff9f2b68</color>
+    <color name="red">#fffaa0a0</color>
+    <color name="blue">#ff191970</color>
+    <color name="brown">#ffcd7f32</color>
+    <color name="purple">#ff800080</color>
+    <color name="green">#ffaaff00</color>
     <color name="orange">#ffffa200</color>
     <color name="padding_bottom">#ff000000</color>
     <color name="preference_bar_begin">#ffc1c1c1</color>

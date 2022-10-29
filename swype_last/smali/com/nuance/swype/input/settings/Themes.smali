@@ -1517,7 +1517,7 @@
     invoke-virtual {v2, v11}, Lcom/nuance/swype/input/settings/Themes$ThemeListAdapter;->setGridView(Landroid/widget/GridView;)V
 
     .line 210
-    const v2, -0x121213
+    const v2, -0xdededf
 
     invoke-virtual {v11, v2}, Landroid/widget/GridView;->setBackgroundColor(I)V
 
@@ -1790,7 +1790,7 @@
     invoke-virtual {v2, v11}, Lcom/nuance/swype/input/settings/Themes$ThemeListAdapter;->setGridView(Landroid/widget/GridView;)V
 
     .line 226
-    const v2, -0x121213
+    const v2, -0xdededf
 
     invoke-virtual {v11, v2}, Landroid/widget/GridView;->setBackgroundColor(I)V
 

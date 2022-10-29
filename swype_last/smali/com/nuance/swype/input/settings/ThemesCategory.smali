@@ -30,7 +30,7 @@
 
 .field protected static final log:Lcom/nuance/swype/util/LogManager$Log;
 
-.field public static final theme_color:I = -0x121213
+.field public static final theme_color:I = -0xdededf
 
 .field private static thumbRequest:Lcom/bumptech/glide/DrawableRequestBuilder;
     .annotation system Ldalvik/annotation/Signature;
@@ -705,7 +705,7 @@
     .param p2, "container"    # Landroid/view/ViewGroup;
 
     .prologue
-    const v7, -0x121213
+    const v7, -0xdededf
 
     const/4 v6, -0x1
 
