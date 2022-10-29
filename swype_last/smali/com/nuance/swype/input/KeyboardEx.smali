@@ -4042,13 +4042,13 @@
 
     .line 3032
     .local v2, "keyboardScale":F
-    const v3, 0x3f333333    # 0.7f
+    const v3, 0x3f666666    # 0.9f
 
     cmpl-float v3, v2, v3
 
     if-lez v3, :cond_1d
 
-    const v3, 0x3fa66667    # 1.3000001f
+    const v3, 0x40000000    # 2.0000001f
 
     cmpg-float v3, v2, v3
 
