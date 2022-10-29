@@ -481,7 +481,7 @@
     </style>
     <style name="AppStartupTheme" parent="@style/AppStartupThemeBase">
         <item name="android:textAppearance">@style/TextAppearance</item>
-        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
         <item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
@@ -492,7 +492,7 @@
         <item name="containerPadding">0.0dip</item>
         <item name="currentPageIndicatorStyle">@style/Widget.IndicatorAppearance</item>
         <item name="defaultButtonHeight">60.0dip</item>
-        <item name="startupBackgroundColor">@android:color/white</item>
+        <item name="startupBackgroundColor">@android:color/black</item>
         <item name="startupDialogHeight">@dimen/startup_dialog_height</item>
         <item name="startupDialogUnderlayColor">#99000000</item>
         <item name="startupDialogWidth">@dimen/startup_dialog_width</item>
