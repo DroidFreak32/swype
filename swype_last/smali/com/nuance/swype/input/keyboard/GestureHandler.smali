@@ -174,9 +174,13 @@
 
     .line 71
     :sswitch_2f
-    const-string/jumbo v2, "-__-"
+    new-array v4, v4, [I
 
-    invoke-virtual {v9, v2, v6, v7}, Lcom/nuance/swype/input/InputView;->onText(Ljava/lang/CharSequence;J)V
+    move v3, p1
+
+    move-object v5, v2
+
+    invoke-virtual/range {v1 .. v7}, Lcom/nuance/swype/input/IME;->onKey(Landroid/graphics/Point;I[ILcom/nuance/swype/input/KeyboardEx$Key;J)V
 
     goto :goto_c
 
