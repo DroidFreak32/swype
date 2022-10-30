@@ -66,7 +66,7 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="drawer_divider_color">#ffdddddd</color>
     <color name="foreground_material_dark">@android:color/white</color>
-    <color name="foreground_material_light">@android:color/black</color>
+    <color name="foreground_material_light">@android:color/white</color>
     <color name="grey">#ff777777</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -106,15 +106,15 @@
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
-    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
-    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="primary_text_disabled_material_light">#ffffffff</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
-    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
-    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
     <color name="segmentation_popup_background">#90000000</color>
     <color name="semi_transparent">#30000000</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
@@ -124,7 +124,7 @@
     <color name="theme_bundle_page_header_color">#ff212121</color>
     <color name="theme_primary">#ff2e2e2e</color>
     <color name="theme_primary_dark">#ff202020</color>
-    <color name="theme_primary_light">#ffffffff</color>
+    <color name="theme_primary_light">#ff202020</color>
     <color name="theme_primary_light_dark">#ffb2b2b2</color>
     <color name="theme_tab_title_selected">#ffffa200</color>
     <color name="theme_tab_title_unselected">#ff999999</color>
