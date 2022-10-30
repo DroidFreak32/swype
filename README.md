@@ -43,3 +43,8 @@ rm -fv "$OUT_ALIGNED"
 
 echo == Done: $OUT_ALIGNED
 ```
+
+### Some commands for reference:
+```bash
+
+grep '; fully-qualified' emoji-test-5.0.txt | awk -F ';' '{print $1}' | sort
