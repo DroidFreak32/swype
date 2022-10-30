@@ -1285,6 +1285,7 @@
         <item>2010ʲ|emoji|1F630</item>
         <item>2010ʲ|emoji|1F631</item>
         <item>2010ʲ|emoji|1F633</item>
+        <item>2018ʲ|emoji|1F97A</item>
         <item>2010ʲ|emoji|1F635</item>
         <item>2010ʲ|emoji|1F621</item>
         <item>2010ʲ|emoji|1F620</item>
@@ -3024,23 +3025,70 @@
         <item>2010ˣ|text|1F1FF,1F1FC</item>
     </string-array>
     <string-array name="emoji_category_emoticons">
-        <item>:-)</item>
-        <item>:-(</item>
-        <item>:-D</item>
-        <item>":'("</item>
-        <item>:-/</item>
-        <item>:-[</item>
-        <item>O:-)</item>
+        <item>:$</item>
+        <item>:(</item>
+        <item>:)</item>
         <item>:-!</item>
         <item>:-$</item>
-        <item>B-)</item>
+        <item>:-(</item>
+        <item>:-)</item>
         <item>:-*</item>
-        <item>:O</item>
-        <item>=-O</item>
+        <item>:-/</item>
+        <item>:-[</item>
+        <item>:-C</item>
+        <item>:-D</item>
+        <item>:-O</item>
         <item>:-P</item>
-        <item>;-)</item>
         <item>:-X</item>
+        <item>:-|</item>
+        <item>:[</item>
+        <item>:\\</item>
+        <item>:^*</item>
+        <item>:D</item>
+        <item>:O</item>
+        <item>:P</item>
+        <item>:x</item>
+        <item>;)</item>
+        <item>;-)</item>
+        <item>-.-</item>
+        <item>-_-</item>
+        <item>=-O</item>
+        <item>=^_^=</item>
+        <item>>;)</item>
+        <item>>_&lt;</item>
+        <item>>_></item>
+        <item>>o&lt;</item>
+        <item>\@}>--;----</item>
+        <item>^_^</item>
+        <item>^ω^</item>
+        <item>B-)</item>
+        <item>m/(>.&lt;)\\m</item>
+        <item>O.o</item>
         <item>o.O</item>
+        <item>O:)</item>
+        <item>O:-)</item>
+        <item>o_O</item>
+        <item>O_O</item>
+        <item>t(>.&lt;t)</item>
+        <item>v(^o^)v</item>
+        <item>x_x</item>
+        <item>XD</item>
+        <item>~_~</item>
+        <item>≥^.^≤</item>
+        <item>"&lt;('o'&lt;)"</item>
+        <item>"(>'o')>"</item>
+        <item>":'("</item>
+        <item>&lt;/3</item>
+        <item>&lt;3</item>
+        <item>(#^.^#)</item>
+        <item>(=^・ω・^=)</item>
+        <item>(@_@)</item>
+        <item>(^-^)</item>
+        <item>(¬_¬)</item>
+        <item>(・_・;)</item>
+        <item>(；一_一)</item>
+        <item>*^_^*</item>
+        <item>+_+</item>
     </string-array>
     <string-array name="emoji_category_family">
         <item>1F466</item>
@@ -4447,6 +4495,7 @@
         <item>1F630</item>
         <item>1F631</item>
         <item>1F633</item>
+        <item>1F97A</item>
         <item>1F635</item>
         <item>1F621</item>
         <item>1F620</item>
