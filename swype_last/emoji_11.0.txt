@@ -1,0 +1,58 @@
+emoji-data.txt:# Version: 11.0
+emoji-data.txt:1F6F9         ; Emoji                # 11.0  [1] (🛹)       skateboard
+emoji-data.txt:1F94D..1F94F  ; Emoji                # 11.0  [3] (🥍..🥏)    lacrosse..flying disc
+emoji-data.txt:1F96C..1F970  ; Emoji                # 11.0  [5] (🥬..🥰)    leafy green..smiling face with 3 hearts
+emoji-data.txt:1F973..1F976  ; Emoji                # 11.0  [4] (🥳..🥶)    partying face..cold face
+emoji-data.txt:1F97A         ; Emoji                # 11.0  [1] (🥺)       pleading face
+emoji-data.txt:1F97C..1F97F  ; Emoji                # 11.0  [4] (🥼..🥿)    lab coat..woman’s flat shoe
+emoji-data.txt:1F998..1F9A2  ; Emoji                # 11.0 [11] (🦘..🦢)    kangaroo..swan
+emoji-data.txt:1F9B0..1F9B9  ; Emoji                # 11.0 [10] (🦰..🦹)    red-haired..supervillain
+emoji-data.txt:1F9C1..1F9C2  ; Emoji                # 11.0  [2] (🧁..🧂)    cupcake..salt
+emoji-data.txt:1F9E7..1F9FF  ; Emoji                # 11.0 [25] (🧧..🧿)    red envelope..nazar amulet
+emoji-data.txt:1F6F9         ; Emoji_Presentation   # 11.0  [1] (🛹)       skateboard
+emoji-data.txt:1F94D..1F94F  ; Emoji_Presentation   # 11.0  [3] (🥍..🥏)    lacrosse..flying disc
+emoji-data.txt:1F96C..1F970  ; Emoji_Presentation   # 11.0  [5] (🥬..🥰)    leafy green..smiling face with 3 hearts
+emoji-data.txt:1F973..1F976  ; Emoji_Presentation   # 11.0  [4] (🥳..🥶)    partying face..cold face
+emoji-data.txt:1F97A         ; Emoji_Presentation   # 11.0  [1] (🥺)       pleading face
+emoji-data.txt:1F97C..1F97F  ; Emoji_Presentation   # 11.0  [4] (🥼..🥿)    lab coat..woman’s flat shoe
+emoji-data.txt:1F998..1F9A2  ; Emoji_Presentation   # 11.0 [11] (🦘..🦢)    kangaroo..swan
+emoji-data.txt:1F9B0..1F9B9  ; Emoji_Presentation   # 11.0 [10] (🦰..🦹)    red-haired..supervillain
+emoji-data.txt:1F9C1..1F9C2  ; Emoji_Presentation   # 11.0  [2] (🧁..🧂)    cupcake..salt
+emoji-data.txt:1F9E7..1F9FF  ; Emoji_Presentation   # 11.0 [25] (🧧..🧿)    red envelope..nazar amulet
+emoji-data.txt:1F9B5..1F9B6  ; Emoji_Modifier_Base  # 11.0  [2] (🦵..🦶)    leg..foot
+emoji-data.txt:1F9B8..1F9B9  ; Emoji_Modifier_Base  # 11.0  [2] (🦸..🦹)    superhero..supervillain
+emoji-data.txt:1F9B0..1F9B3  ; Emoji_Component      # 11.0  [4] (🦰..🦳)    red-haired..white-haired
+emoji-data.txt:1F12F         ; Extended_Pictographic# 11.0  [1] (🄯️)       COPYLEFT SYMBOL
+emoji-data.txt:1F6F9         ; Extended_Pictographic# 11.0  [1] (🛹)       skateboard
+emoji-data.txt:1F7D5..1F7D8  ; Extended_Pictographic# 11.0  [4] (🟕️..🟘️)    CIRCLED TRIANGLE..NEGATIVE CIRCLED SQUARE
+emoji-data.txt:1F94D..1F94F  ; Extended_Pictographic# 11.0  [3] (🥍..🥏)    lacrosse..flying disc
+emoji-data.txt:1F96C..1F970  ; Extended_Pictographic# 11.0  [5] (🥬..🥰)    leafy green..smiling face with 3 hearts
+emoji-data.txt:1F973..1F976  ; Extended_Pictographic# 11.0  [4] (🥳..🥶)    partying face..cold face
+emoji-data.txt:1F97A         ; Extended_Pictographic# 11.0  [1] (🥺)       pleading face
+emoji-data.txt:1F97C..1F97F  ; Extended_Pictographic# 11.0  [4] (🥼..🥿)    lab coat..woman’s flat shoe
+emoji-data.txt:1F998..1F9A2  ; Extended_Pictographic# 11.0 [11] (🦘..🦢)    kangaroo..swan
+emoji-data.txt:1F9B0..1F9B9  ; Extended_Pictographic# 11.0 [10] (🦰..🦹)    red-haired..supervillain
+emoji-data.txt:1F9C1..1F9C2  ; Extended_Pictographic# 11.0  [2] (🧁..🧂)    cupcake..salt
+emoji-data.txt:1F9E7..1F9FF  ; Extended_Pictographic# 11.0 [25] (🧧..🧿)    red envelope..nazar amulet
+emoji-data.txt:1FA60..1FA6D  ; Extended_Pictographic# 11.0 [14] (🩠️..🩭️)    XIANGQI RED GENERAL..XIANGQI BLACK SOLDIER
+emoji-sequences.txt:# Version: 11.0
+emoji-sequences.txt:1F9B5 1F3FB   ; Emoji_Modifier_Sequence   ; leg: light skin tone                                           # 11.0  [1] (🦵🏻)
+emoji-sequences.txt:1F9B5 1F3FC   ; Emoji_Modifier_Sequence   ; leg: medium-light skin tone                                    # 11.0  [1] (🦵🏼)
+emoji-sequences.txt:1F9B5 1F3FD   ; Emoji_Modifier_Sequence   ; leg: medium skin tone                                          # 11.0  [1] (🦵🏽)
+emoji-sequences.txt:1F9B5 1F3FE   ; Emoji_Modifier_Sequence   ; leg: medium-dark skin tone                                     # 11.0  [1] (🦵🏾)
+emoji-sequences.txt:1F9B5 1F3FF   ; Emoji_Modifier_Sequence   ; leg: dark skin tone                                            # 11.0  [1] (🦵🏿)
+emoji-sequences.txt:1F9B6 1F3FB   ; Emoji_Modifier_Sequence   ; foot: light skin tone                                          # 11.0  [1] (🦶🏻)
+emoji-sequences.txt:1F9B6 1F3FC   ; Emoji_Modifier_Sequence   ; foot: medium-light skin tone                                   # 11.0  [1] (🦶🏼)
+emoji-sequences.txt:1F9B6 1F3FD   ; Emoji_Modifier_Sequence   ; foot: medium skin tone                                         # 11.0  [1] (🦶🏽)
+emoji-sequences.txt:1F9B6 1F3FE   ; Emoji_Modifier_Sequence   ; foot: medium-dark skin tone                                    # 11.0  [1] (🦶🏾)
+emoji-sequences.txt:1F9B6 1F3FF   ; Emoji_Modifier_Sequence   ; foot: dark skin tone                                           # 11.0  [1] (🦶🏿)
+emoji-sequences.txt:1F9B8 1F3FB   ; Emoji_Modifier_Sequence   ; superhero: light skin tone                                     # 11.0  [1] (🦸🏻)
+emoji-sequences.txt:1F9B8 1F3FC   ; Emoji_Modifier_Sequence   ; superhero: medium-light skin tone                              # 11.0  [1] (🦸🏼)
+emoji-sequences.txt:1F9B8 1F3FD   ; Emoji_Modifier_Sequence   ; superhero: medium skin tone                                    # 11.0  [1] (🦸🏽)
+emoji-sequences.txt:1F9B8 1F3FE   ; Emoji_Modifier_Sequence   ; superhero: medium-dark skin tone                               # 11.0  [1] (🦸🏾)
+emoji-sequences.txt:1F9B8 1F3FF   ; Emoji_Modifier_Sequence   ; superhero: dark skin tone                                      # 11.0  [1] (🦸🏿)
+emoji-sequences.txt:1F9B9 1F3FB   ; Emoji_Modifier_Sequence   ; supervillain: light skin tone                                  # 11.0  [1] (🦹🏻)
+emoji-sequences.txt:1F9B9 1F3FC   ; Emoji_Modifier_Sequence   ; supervillain: medium-light skin tone                           # 11.0  [1] (🦹🏼)
+emoji-sequences.txt:1F9B9 1F3FD   ; Emoji_Modifier_Sequence   ; supervillain: medium skin tone                                 # 11.0  [1] (🦹🏽)
+emoji-sequences.txt:1F9B9 1F3FE   ; Emoji_Modifier_Sequence   ; supervillain: medium-dark skin tone                            # 11.0  [1] (🦹🏾)
+emoji-sequences.txt:1F9B9 1F3FF   ; Emoji_Modifier_Sequence   ; supervillain: dark skin tone                                   # 11.0  [1] (🦹🏿)

@@ -1,0 +1,2640 @@
+0023,FE0F,20E3 ; 3.2 # #️⃣ keycap: #
+002A,FE0F,20E3 ; 3.2 # *️⃣ keycap: *
+0030,FE0F,20E3 ; 3.2 # 0️⃣ keycap: 0
+0031,FE0F,20E3 ; 3.2 # 1️⃣ keycap: 1
+0032,FE0F,20E3 ; 3.2 # 2️⃣ keycap: 2
+0033,FE0F,20E3 ; 3.2 # 3️⃣ keycap: 3
+0034,FE0F,20E3 ; 3.2 # 4️⃣ keycap: 4
+0035,FE0F,20E3 ; 3.2 # 5️⃣ keycap: 5
+0036,FE0F,20E3 ; 3.2 # 6️⃣ keycap: 6
+0037,FE0F,20E3 ; 3.2 # 7️⃣ keycap: 7
+0038,FE0F,20E3 ; 3.2 # 8️⃣ keycap: 8
+0039,FE0F,20E3 ; 3.2 # 9️⃣ keycap: 9
+00A9 ; 1.1 # © copyright
+00AE ; 1.1 # ® registered
+1F004 ; 5.1 # 🀄 mahjong red dragon
+1F0CF ; 6.0 # 🃏 joker
+1F170 ; 6.0 # 🅰 A button (blood type)
+1F171 ; 6.0 # 🅱 B button (blood type)
+1F17E ; 6.0 # 🅾 O button (blood type)
+1F17F ; 5.2 # 🅿 P button
+1F18E ; 6.0 # 🆎 AB button (blood type)
+1F191 ; 6.0 # 🆑 CL button
+1F192 ; 6.0 # 🆒 COOL button
+1F193 ; 6.0 # 🆓 FREE button
+1F194 ; 6.0 # 🆔 ID button
+1F195 ; 6.0 # 🆕 NEW button
+1F196 ; 6.0 # 🆖 NG button
+1F197 ; 6.0 # 🆗 OK button
+1F198 ; 6.0 # 🆘 SOS button
+1F199 ; 6.0 # 🆙 UP! button
+1F19A ; 6.0 # 🆚 VS button
+1F1E6,1F1E8 ; 6.0 # 🇦🇨 Ascension Island
+1F1E6,1F1E9 ; 6.0 # 🇦🇩 Andorra
+1F1E6,1F1EA ; 6.0 # 🇦🇪 United Arab Emirates
+1F1E6,1F1EB ; 6.0 # 🇦🇫 Afghanistan
+1F1E6,1F1EC ; 6.0 # 🇦🇬 Antigua & Barbuda
+1F1E6,1F1EE ; 6.0 # 🇦🇮 Anguilla
+1F1E6,1F1F1 ; 6.0 # 🇦🇱 Albania
+1F1E6,1F1F2 ; 6.0 # 🇦🇲 Armenia
+1F1E6,1F1F4 ; 6.0 # 🇦🇴 Angola
+1F1E6,1F1F6 ; 6.0 # 🇦🇶 Antarctica
+1F1E6,1F1F7 ; 6.0 # 🇦🇷 Argentina
+1F1E6,1F1F8 ; 6.0 # 🇦🇸 American Samoa
+1F1E6,1F1F9 ; 6.0 # 🇦🇹 Austria
+1F1E6,1F1FA ; 6.0 # 🇦🇺 Australia
+1F1E6,1F1FC ; 6.0 # 🇦🇼 Aruba
+1F1E6,1F1FD ; 6.0 # 🇦🇽 Åland Islands
+1F1E6,1F1FF ; 6.0 # 🇦🇿 Azerbaijan
+1F1E7,1F1E6 ; 6.0 # 🇧🇦 Bosnia & Herzegovina
+1F1E7,1F1E7 ; 6.0 # 🇧🇧 Barbados
+1F1E7,1F1E9 ; 6.0 # 🇧🇩 Bangladesh
+1F1E7,1F1EA ; 6.0 # 🇧🇪 Belgium
+1F1E7,1F1EB ; 6.0 # 🇧🇫 Burkina Faso
+1F1E7,1F1EC ; 6.0 # 🇧🇬 Bulgaria
+1F1E7,1F1ED ; 6.0 # 🇧🇭 Bahrain
+1F1E7,1F1EE ; 6.0 # 🇧🇮 Burundi
+1F1E7,1F1EF ; 6.0 # 🇧🇯 Benin
+1F1E7,1F1F1 ; 6.0 # 🇧🇱 St. Barthélemy
+1F1E7,1F1F2 ; 6.0 # 🇧🇲 Bermuda
+1F1E7,1F1F3 ; 6.0 # 🇧🇳 Brunei
+1F1E7,1F1F4 ; 6.0 # 🇧🇴 Bolivia
+1F1E7,1F1F6 ; 6.0 # 🇧🇶 Caribbean Netherlands
+1F1E7,1F1F7 ; 6.0 # 🇧🇷 Brazil
+1F1E7,1F1F8 ; 6.0 # 🇧🇸 Bahamas
+1F1E7,1F1F9 ; 6.0 # 🇧🇹 Bhutan
+1F1E7,1F1FB ; 6.0 # 🇧🇻 Bouvet Island
+1F1E7,1F1FC ; 6.0 # 🇧🇼 Botswana
+1F1E7,1F1FE ; 6.0 # 🇧🇾 Belarus
+1F1E7,1F1FF ; 6.0 # 🇧🇿 Belize
+1F1E8,1F1E6 ; 6.0 # 🇨🇦 Canada
+1F1E8,1F1E8 ; 6.0 # 🇨🇨 Cocos (Keeling) Islands
+1F1E8,1F1E9 ; 6.0 # 🇨🇩 Congo - Kinshasa
+1F1E8,1F1EB ; 6.0 # 🇨🇫 Central African Republic
+1F1E8,1F1EC ; 6.0 # 🇨🇬 Congo - Brazzaville
+1F1E8,1F1ED ; 6.0 # 🇨🇭 Switzerland
+1F1E8,1F1EE ; 6.0 # 🇨🇮 Côte d’Ivoire
+1F1E8,1F1F0 ; 6.0 # 🇨🇰 Cook Islands
+1F1E8,1F1F1 ; 6.0 # 🇨🇱 Chile
+1F1E8,1F1F2 ; 6.0 # 🇨🇲 Cameroon
+1F1E8,1F1F3 ; 6.0 # 🇨🇳 China
+1F1E8,1F1F4 ; 6.0 # 🇨🇴 Colombia
+1F1E8,1F1F5 ; 6.0 # 🇨🇵 Clipperton Island
+1F1E8,1F1F7 ; 6.0 # 🇨🇷 Costa Rica
+1F1E8,1F1FA ; 6.0 # 🇨🇺 Cuba
+1F1E8,1F1FB ; 6.0 # 🇨🇻 Cape Verde
+1F1E8,1F1FC ; 6.0 # 🇨🇼 Curaçao
+1F1E8,1F1FD ; 6.0 # 🇨🇽 Christmas Island
+1F1E8,1F1FE ; 6.0 # 🇨🇾 Cyprus
+1F1E8,1F1FF ; 6.0 # 🇨🇿 Czechia
+1F1E9,1F1EA ; 6.0 # 🇩🇪 Germany
+1F1E9,1F1EC ; 6.0 # 🇩🇬 Diego Garcia
+1F1E9,1F1EF ; 6.0 # 🇩🇯 Djibouti
+1F1E9,1F1F0 ; 6.0 # 🇩🇰 Denmark
+1F1E9,1F1F2 ; 6.0 # 🇩🇲 Dominica
+1F1E9,1F1F4 ; 6.0 # 🇩🇴 Dominican Republic
+1F1E9,1F1FF ; 6.0 # 🇩🇿 Algeria
+1F1EA,1F1E6 ; 6.0 # 🇪🇦 Ceuta & Melilla
+1F1EA,1F1E8 ; 6.0 # 🇪🇨 Ecuador
+1F1EA,1F1EA ; 6.0 # 🇪🇪 Estonia
+1F1EA,1F1EC ; 6.0 # 🇪🇬 Egypt
+1F1EA,1F1ED ; 6.0 # 🇪🇭 Western Sahara
+1F1EA,1F1F7 ; 6.0 # 🇪🇷 Eritrea
+1F1EA,1F1F8 ; 6.0 # 🇪🇸 Spain
+1F1EA,1F1F9 ; 6.0 # 🇪🇹 Ethiopia
+1F1EA,1F1FA ; 6.0 # 🇪🇺 European Union
+1F1EB,1F1EE ; 6.0 # 🇫🇮 Finland
+1F1EB,1F1EF ; 6.0 # 🇫🇯 Fiji
+1F1EB,1F1F0 ; 6.0 # 🇫🇰 Falkland Islands
+1F1EB,1F1F2 ; 6.0 # 🇫🇲 Micronesia
+1F1EB,1F1F4 ; 6.0 # 🇫🇴 Faroe Islands
+1F1EB,1F1F7 ; 6.0 # 🇫🇷 France
+1F1EC,1F1E6 ; 6.0 # 🇬🇦 Gabon
+1F1EC,1F1E7 ; 6.0 # 🇬🇧 United Kingdom
+1F1EC,1F1E9 ; 6.0 # 🇬🇩 Grenada
+1F1EC,1F1EA ; 6.0 # 🇬🇪 Georgia
+1F1EC,1F1EB ; 6.0 # 🇬🇫 French Guiana
+1F1EC,1F1EC ; 6.0 # 🇬🇬 Guernsey
+1F1EC,1F1ED ; 6.0 # 🇬🇭 Ghana
+1F1EC,1F1EE ; 6.0 # 🇬🇮 Gibraltar
+1F1EC,1F1F1 ; 6.0 # 🇬🇱 Greenland
+1F1EC,1F1F2 ; 6.0 # 🇬🇲 Gambia
+1F1EC,1F1F3 ; 6.0 # 🇬🇳 Guinea
+1F1EC,1F1F5 ; 6.0 # 🇬🇵 Guadeloupe
+1F1EC,1F1F6 ; 6.0 # 🇬🇶 Equatorial Guinea
+1F1EC,1F1F7 ; 6.0 # 🇬🇷 Greece
+1F1EC,1F1F8 ; 6.0 # 🇬🇸 South Georgia & South Sandwich Islands
+1F1EC,1F1F9 ; 6.0 # 🇬🇹 Guatemala
+1F1EC,1F1FA ; 6.0 # 🇬🇺 Guam
+1F1EC,1F1FC ; 6.0 # 🇬🇼 Guinea-Bissau
+1F1EC,1F1FE ; 6.0 # 🇬🇾 Guyana
+1F1ED,1F1F0 ; 6.0 # 🇭🇰 Hong Kong SAR China
+1F1ED,1F1F2 ; 6.0 # 🇭🇲 Heard & McDonald Islands
+1F1ED,1F1F3 ; 6.0 # 🇭🇳 Honduras
+1F1ED,1F1F7 ; 6.0 # 🇭🇷 Croatia
+1F1ED,1F1F9 ; 6.0 # 🇭🇹 Haiti
+1F1ED,1F1FA ; 6.0 # 🇭🇺 Hungary
+1F1EE,1F1E8 ; 6.0 # 🇮🇨 Canary Islands
+1F1EE,1F1E9 ; 6.0 # 🇮🇩 Indonesia
+1F1EE,1F1EA ; 6.0 # 🇮🇪 Ireland
+1F1EE,1F1F1 ; 6.0 # 🇮🇱 Israel
+1F1EE,1F1F2 ; 6.0 # 🇮🇲 Isle of Man
+1F1EE,1F1F3 ; 6.0 # 🇮🇳 India
+1F1EE,1F1F4 ; 6.0 # 🇮🇴 British Indian Ocean Territory
+1F1EE,1F1F6 ; 6.0 # 🇮🇶 Iraq
+1F1EE,1F1F7 ; 6.0 # 🇮🇷 Iran
+1F1EE,1F1F8 ; 6.0 # 🇮🇸 Iceland
+1F1EE,1F1F9 ; 6.0 # 🇮🇹 Italy
+1F1EF,1F1EA ; 6.0 # 🇯🇪 Jersey
+1F1EF,1F1F2 ; 6.0 # 🇯🇲 Jamaica
+1F1EF,1F1F4 ; 6.0 # 🇯🇴 Jordan
+1F1EF,1F1F5 ; 6.0 # 🇯🇵 Japan
+1F1F0,1F1EA ; 6.0 # 🇰🇪 Kenya
+1F1F0,1F1EC ; 6.0 # 🇰🇬 Kyrgyzstan
+1F1F0,1F1ED ; 6.0 # 🇰🇭 Cambodia
+1F1F0,1F1EE ; 6.0 # 🇰🇮 Kiribati
+1F1F0,1F1F2 ; 6.0 # 🇰🇲 Comoros
+1F1F0,1F1F3 ; 6.0 # 🇰🇳 St. Kitts & Nevis
+1F1F0,1F1F5 ; 6.0 # 🇰🇵 North Korea
+1F1F0,1F1F7 ; 6.0 # 🇰🇷 South Korea
+1F1F0,1F1FC ; 6.0 # 🇰🇼 Kuwait
+1F1F0,1F1FE ; 6.0 # 🇰🇾 Cayman Islands
+1F1F0,1F1FF ; 6.0 # 🇰🇿 Kazakhstan
+1F1F1,1F1E6 ; 6.0 # 🇱🇦 Laos
+1F1F1,1F1E7 ; 6.0 # 🇱🇧 Lebanon
+1F1F1,1F1E8 ; 6.0 # 🇱🇨 St. Lucia
+1F1F1,1F1EE ; 6.0 # 🇱🇮 Liechtenstein
+1F1F1,1F1F0 ; 6.0 # 🇱🇰 Sri Lanka
+1F1F1,1F1F7 ; 6.0 # 🇱🇷 Liberia
+1F1F1,1F1F8 ; 6.0 # 🇱🇸 Lesotho
+1F1F1,1F1F9 ; 6.0 # 🇱🇹 Lithuania
+1F1F1,1F1FA ; 6.0 # 🇱🇺 Luxembourg
+1F1F1,1F1FB ; 6.0 # 🇱🇻 Latvia
+1F1F1,1F1FE ; 6.0 # 🇱🇾 Libya
+1F1F2,1F1E6 ; 6.0 # 🇲🇦 Morocco
+1F1F2,1F1E8 ; 6.0 # 🇲🇨 Monaco
+1F1F2,1F1E9 ; 6.0 # 🇲🇩 Moldova
+1F1F2,1F1EA ; 6.0 # 🇲🇪 Montenegro
+1F1F2,1F1EB ; 6.0 # 🇲🇫 St. Martin
+1F1F2,1F1EC ; 6.0 # 🇲🇬 Madagascar
+1F1F2,1F1ED ; 6.0 # 🇲🇭 Marshall Islands
+1F1F2,1F1F0 ; 6.0 # 🇲🇰 Macedonia
+1F1F2,1F1F1 ; 6.0 # 🇲🇱 Mali
+1F1F2,1F1F2 ; 6.0 # 🇲🇲 Myanmar (Burma)
+1F1F2,1F1F3 ; 6.0 # 🇲🇳 Mongolia
+1F1F2,1F1F4 ; 6.0 # 🇲🇴 Macau SAR China
+1F1F2,1F1F5 ; 6.0 # 🇲🇵 Northern Mariana Islands
+1F1F2,1F1F6 ; 6.0 # 🇲🇶 Martinique
+1F1F2,1F1F7 ; 6.0 # 🇲🇷 Mauritania
+1F1F2,1F1F8 ; 6.0 # 🇲🇸 Montserrat
+1F1F2,1F1F9 ; 6.0 # 🇲🇹 Malta
+1F1F2,1F1FA ; 6.0 # 🇲🇺 Mauritius
+1F1F2,1F1FB ; 6.0 # 🇲🇻 Maldives
+1F1F2,1F1FC ; 6.0 # 🇲🇼 Malawi
+1F1F2,1F1FD ; 6.0 # 🇲🇽 Mexico
+1F1F2,1F1FE ; 6.0 # 🇲🇾 Malaysia
+1F1F2,1F1FF ; 6.0 # 🇲🇿 Mozambique
+1F1F3,1F1E6 ; 6.0 # 🇳🇦 Namibia
+1F1F3,1F1E8 ; 6.0 # 🇳🇨 New Caledonia
+1F1F3,1F1EA ; 6.0 # 🇳🇪 Niger
+1F1F3,1F1EB ; 6.0 # 🇳🇫 Norfolk Island
+1F1F3,1F1EC ; 6.0 # 🇳🇬 Nigeria
+1F1F3,1F1EE ; 6.0 # 🇳🇮 Nicaragua
+1F1F3,1F1F1 ; 6.0 # 🇳🇱 Netherlands
+1F1F3,1F1F4 ; 6.0 # 🇳🇴 Norway
+1F1F3,1F1F5 ; 6.0 # 🇳🇵 Nepal
+1F1F3,1F1F7 ; 6.0 # 🇳🇷 Nauru
+1F1F3,1F1FA ; 6.0 # 🇳🇺 Niue
+1F1F3,1F1FF ; 6.0 # 🇳🇿 New Zealand
+1F1F4,1F1F2 ; 6.0 # 🇴🇲 Oman
+1F1F5,1F1E6 ; 6.0 # 🇵🇦 Panama
+1F1F5,1F1EA ; 6.0 # 🇵🇪 Peru
+1F1F5,1F1EB ; 6.0 # 🇵🇫 French Polynesia
+1F1F5,1F1EC ; 6.0 # 🇵🇬 Papua New Guinea
+1F1F5,1F1ED ; 6.0 # 🇵🇭 Philippines
+1F1F5,1F1F0 ; 6.0 # 🇵🇰 Pakistan
+1F1F5,1F1F1 ; 6.0 # 🇵🇱 Poland
+1F1F5,1F1F2 ; 6.0 # 🇵🇲 St. Pierre & Miquelon
+1F1F5,1F1F3 ; 6.0 # 🇵🇳 Pitcairn Islands
+1F1F5,1F1F7 ; 6.0 # 🇵🇷 Puerto Rico
+1F1F5,1F1F8 ; 6.0 # 🇵🇸 Palestinian Territories
+1F1F5,1F1F9 ; 6.0 # 🇵🇹 Portugal
+1F1F5,1F1FC ; 6.0 # 🇵🇼 Palau
+1F1F5,1F1FE ; 6.0 # 🇵🇾 Paraguay
+1F1F6,1F1E6 ; 6.0 # 🇶🇦 Qatar
+1F1F7,1F1EA ; 6.0 # 🇷🇪 Réunion
+1F1F7,1F1F4 ; 6.0 # 🇷🇴 Romania
+1F1F7,1F1F8 ; 6.0 # 🇷🇸 Serbia
+1F1F7,1F1FA ; 6.0 # 🇷🇺 Russia
+1F1F7,1F1FC ; 6.0 # 🇷🇼 Rwanda
+1F1F8,1F1E6 ; 6.0 # 🇸🇦 Saudi Arabia
+1F1F8,1F1E7 ; 6.0 # 🇸🇧 Solomon Islands
+1F1F8,1F1E8 ; 6.0 # 🇸🇨 Seychelles
+1F1F8,1F1E9 ; 6.0 # 🇸🇩 Sudan
+1F1F8,1F1EA ; 6.0 # 🇸🇪 Sweden
+1F1F8,1F1EC ; 6.0 # 🇸🇬 Singapore
+1F1F8,1F1ED ; 6.0 # 🇸🇭 St. Helena
+1F1F8,1F1EE ; 6.0 # 🇸🇮 Slovenia
+1F1F8,1F1EF ; 6.0 # 🇸🇯 Svalbard & Jan Mayen
+1F1F8,1F1F0 ; 6.0 # 🇸🇰 Slovakia
+1F1F8,1F1F1 ; 6.0 # 🇸🇱 Sierra Leone
+1F1F8,1F1F2 ; 6.0 # 🇸🇲 San Marino
+1F1F8,1F1F3 ; 6.0 # 🇸🇳 Senegal
+1F1F8,1F1F4 ; 6.0 # 🇸🇴 Somalia
+1F1F8,1F1F7 ; 6.0 # 🇸🇷 Suriname
+1F1F8,1F1F8 ; 6.0 # 🇸🇸 South Sudan
+1F1F8,1F1F9 ; 6.0 # 🇸🇹 São Tomé & Príncipe
+1F1F8,1F1FB ; 6.0 # 🇸🇻 El Salvador
+1F1F8,1F1FD ; 6.0 # 🇸🇽 Sint Maarten
+1F1F8,1F1FE ; 6.0 # 🇸🇾 Syria
+1F1F8,1F1FF ; 6.0 # 🇸🇿 Swaziland
+1F1F9,1F1E6 ; 6.0 # 🇹🇦 Tristan da Cunha
+1F1F9,1F1E8 ; 6.0 # 🇹🇨 Turks & Caicos Islands
+1F1F9,1F1E9 ; 6.0 # 🇹🇩 Chad
+1F1F9,1F1EB ; 6.0 # 🇹🇫 French Southern Territories
+1F1F9,1F1EC ; 6.0 # 🇹🇬 Togo
+1F1F9,1F1ED ; 6.0 # 🇹🇭 Thailand
+1F1F9,1F1EF ; 6.0 # 🇹🇯 Tajikistan
+1F1F9,1F1F0 ; 6.0 # 🇹🇰 Tokelau
+1F1F9,1F1F1 ; 6.0 # 🇹🇱 Timor-Leste
+1F1F9,1F1F2 ; 6.0 # 🇹🇲 Turkmenistan
+1F1F9,1F1F3 ; 6.0 # 🇹🇳 Tunisia
+1F1F9,1F1F4 ; 6.0 # 🇹🇴 Tonga
+1F1F9,1F1F7 ; 6.0 # 🇹🇷 Turkey
+1F1F9,1F1F9 ; 6.0 # 🇹🇹 Trinidad & Tobago
+1F1F9,1F1FB ; 6.0 # 🇹🇻 Tuvalu
+1F1F9,1F1FC ; 6.0 # 🇹🇼 Taiwan
+1F1F9,1F1FF ; 6.0 # 🇹🇿 Tanzania
+1F1FA,1F1E6 ; 6.0 # 🇺🇦 Ukraine
+1F1FA,1F1EC ; 6.0 # 🇺🇬 Uganda
+1F1FA,1F1F2 ; 6.0 # 🇺🇲 U.S. Outlying Islands
+1F1FA,1F1F3 ; 6.0 # 🇺🇳 United Nations
+1F1FA,1F1F8 ; 6.0 # 🇺🇸 United States
+1F1FA,1F1FE ; 6.0 # 🇺🇾 Uruguay
+1F1FA,1F1FF ; 6.0 # 🇺🇿 Uzbekistan
+1F1FB,1F1E6 ; 6.0 # 🇻🇦 Vatican City
+1F1FB,1F1E8 ; 6.0 # 🇻🇨 St. Vincent & Grenadines
+1F1FB,1F1EA ; 6.0 # 🇻🇪 Venezuela
+1F1FB,1F1EC ; 6.0 # 🇻🇬 British Virgin Islands
+1F1FB,1F1EE ; 6.0 # 🇻🇮 U.S. Virgin Islands
+1F1FB,1F1F3 ; 6.0 # 🇻🇳 Vietnam
+1F1FB,1F1FA ; 6.0 # 🇻🇺 Vanuatu
+1F1FC,1F1EB ; 6.0 # 🇼🇫 Wallis & Futuna
+1F1FC,1F1F8 ; 6.0 # 🇼🇸 Samoa
+1F1FD,1F1F0 ; 6.0 # 🇽🇰 Kosovo
+1F1FE,1F1EA ; 6.0 # 🇾🇪 Yemen
+1F1FE,1F1F9 ; 6.0 # 🇾🇹 Mayotte
+1F1FF,1F1E6 ; 6.0 # 🇿🇦 South Africa
+1F1FF,1F1F2 ; 6.0 # 🇿🇲 Zambia
+1F1FF,1F1FC ; 6.0 # 🇿🇼 Zimbabwe
+1F201 ; 6.0 # 🈁 Japanese “here” button
+1F202 ; 6.0 # 🈂 Japanese “service charge” button
+1F21A ; 5.2 # 🈚 Japanese “free of charge” button
+1F22F ; 5.2 # 🈯 Japanese “reserved” button
+1F232 ; 6.0 # 🈲 Japanese “prohibited” button
+1F233 ; 6.0 # 🈳 Japanese “vacancy” button
+1F234 ; 6.0 # 🈴 Japanese “passing grade” button
+1F235 ; 6.0 # 🈵 Japanese “no vacancy” button
+1F236 ; 6.0 # 🈶 Japanese “not free of charge” button
+1F237 ; 6.0 # 🈷 Japanese “monthly amount” button
+1F238 ; 6.0 # 🈸 Japanese “application” button
+1F239 ; 6.0 # 🈹 Japanese “discount” button
+1F23A ; 6.0 # 🈺 Japanese “open for business” button
+1F250 ; 6.0 # 🉐 Japanese “bargain” button
+1F251 ; 6.0 # 🉑 Japanese “acceptable” button
+1F300 ; 6.0 # 🌀 cyclone
+1F301 ; 6.0 # 🌁 foggy
+1F302 ; 6.0 # 🌂 closed umbrella
+1F303 ; 6.0 # 🌃 night with stars
+1F304 ; 6.0 # 🌄 sunrise over mountains
+1F305 ; 6.0 # 🌅 sunrise
+1F306 ; 6.0 # 🌆 cityscape at dusk
+1F307 ; 6.0 # 🌇 sunset
+1F308 ; 6.0 # 🌈 rainbow
+1F309 ; 6.0 # 🌉 bridge at night
+1F30A ; 6.0 # 🌊 water wave
+1F30B ; 6.0 # 🌋 volcano
+1F30C ; 6.0 # 🌌 milky way
+1F30D ; 6.0 # 🌍 globe showing Europe-Africa
+1F30E ; 6.0 # 🌎 globe showing Americas
+1F30F ; 6.0 # 🌏 globe showing Asia-Australia
+1F310 ; 6.0 # 🌐 globe with meridians
+1F311 ; 6.0 # 🌑 new moon
+1F312 ; 6.0 # 🌒 waxing crescent moon
+1F313 ; 6.0 # 🌓 first quarter moon
+1F314 ; 6.0 # 🌔 waxing gibbous moon
+1F315 ; 6.0 # 🌕 full moon
+1F316 ; 6.0 # 🌖 waning gibbous moon
+1F317 ; 6.0 # 🌗 last quarter moon
+1F318 ; 6.0 # 🌘 waning crescent moon
+1F319 ; 6.0 # 🌙 crescent moon
+1F31A ; 6.0 # 🌚 new moon face
+1F31B ; 6.0 # 🌛 first quarter moon face
+1F31C ; 6.0 # 🌜 last quarter moon face
+1F31D ; 6.0 # 🌝 full moon face
+1F31E ; 6.0 # 🌞 sun with face
+1F31F ; 6.0 # 🌟 glowing star
+1F320 ; 6.0 # 🌠 shooting star
+1F321 ; 7.0 # 🌡 thermometer
+1F324 ; 7.0 # 🌤 sun behind small cloud
+1F325 ; 7.0 # 🌥 sun behind large cloud
+1F326 ; 7.0 # 🌦 sun behind rain cloud
+1F327 ; 7.0 # 🌧 cloud with rain
+1F328 ; 7.0 # 🌨 cloud with snow
+1F329 ; 7.0 # 🌩 cloud with lightning
+1F32A ; 7.0 # 🌪 tornado
+1F32B ; 7.0 # 🌫 fog
+1F32C ; 7.0 # 🌬 wind face
+1F32D ; 8.0 # 🌭 hot dog
+1F32E ; 8.0 # 🌮 taco
+1F32F ; 8.0 # 🌯 burrito
+1F330 ; 6.0 # 🌰 chestnut
+1F331 ; 6.0 # 🌱 seedling
+1F332 ; 6.0 # 🌲 evergreen tree
+1F333 ; 6.0 # 🌳 deciduous tree
+1F334 ; 6.0 # 🌴 palm tree
+1F335 ; 6.0 # 🌵 cactus
+1F336 ; 7.0 # 🌶 hot pepper
+1F337 ; 6.0 # 🌷 tulip
+1F338 ; 6.0 # 🌸 cherry blossom
+1F339 ; 6.0 # 🌹 rose
+1F33A ; 6.0 # 🌺 hibiscus
+1F33B ; 6.0 # 🌻 sunflower
+1F33C ; 6.0 # 🌼 blossom
+1F33D ; 6.0 # 🌽 ear of corn
+1F33E ; 6.0 # 🌾 sheaf of rice
+1F33F ; 6.0 # 🌿 herb
+1F340 ; 6.0 # 🍀 four leaf clover
+1F341 ; 6.0 # 🍁 maple leaf
+1F342 ; 6.0 # 🍂 fallen leaf
+1F343 ; 6.0 # 🍃 leaf fluttering in wind
+1F344 ; 6.0 # 🍄 mushroom
+1F345 ; 6.0 # 🍅 tomato
+1F346 ; 6.0 # 🍆 eggplant
+1F347 ; 6.0 # 🍇 grapes
+1F348 ; 6.0 # 🍈 melon
+1F349 ; 6.0 # 🍉 watermelon
+1F34A ; 6.0 # 🍊 tangerine
+1F34B ; 6.0 # 🍋 lemon
+1F34C ; 6.0 # 🍌 banana
+1F34D ; 6.0 # 🍍 pineapple
+1F34E ; 6.0 # 🍎 red apple
+1F34F ; 6.0 # 🍏 green apple
+1F350 ; 6.0 # 🍐 pear
+1F351 ; 6.0 # 🍑 peach
+1F352 ; 6.0 # 🍒 cherries
+1F353 ; 6.0 # 🍓 strawberry
+1F354 ; 6.0 # 🍔 hamburger
+1F355 ; 6.0 # 🍕 pizza
+1F356 ; 6.0 # 🍖 meat on bone
+1F357 ; 6.0 # 🍗 poultry leg
+1F358 ; 6.0 # 🍘 rice cracker
+1F359 ; 6.0 # 🍙 rice ball
+1F35A ; 6.0 # 🍚 cooked rice
+1F35B ; 6.0 # 🍛 curry rice
+1F35C ; 6.0 # 🍜 steaming bowl
+1F35D ; 6.0 # 🍝 spaghetti
+1F35E ; 6.0 # 🍞 bread
+1F35F ; 6.0 # 🍟 french fries
+1F360 ; 6.0 # 🍠 roasted sweet potato
+1F361 ; 6.0 # 🍡 dango
+1F362 ; 6.0 # 🍢 oden
+1F363 ; 6.0 # 🍣 sushi
+1F364 ; 6.0 # 🍤 fried shrimp
+1F365 ; 6.0 # 🍥 fish cake with swirl
+1F366 ; 6.0 # 🍦 soft ice cream
+1F367 ; 6.0 # 🍧 shaved ice
+1F368 ; 6.0 # 🍨 ice cream
+1F369 ; 6.0 # 🍩 doughnut
+1F36A ; 6.0 # 🍪 cookie
+1F36B ; 6.0 # 🍫 chocolate bar
+1F36C ; 6.0 # 🍬 candy
+1F36D ; 6.0 # 🍭 lollipop
+1F36E ; 6.0 # 🍮 custard
+1F36F ; 6.0 # 🍯 honey pot
+1F370 ; 6.0 # 🍰 shortcake
+1F371 ; 6.0 # 🍱 bento box
+1F372 ; 6.0 # 🍲 pot of food
+1F373 ; 6.0 # 🍳 cooking
+1F374 ; 6.0 # 🍴 fork and knife
+1F375 ; 6.0 # 🍵 teacup without handle
+1F376 ; 6.0 # 🍶 sake
+1F377 ; 6.0 # 🍷 wine glass
+1F378 ; 6.0 # 🍸 cocktail glass
+1F379 ; 6.0 # 🍹 tropical drink
+1F37A ; 6.0 # 🍺 beer mug
+1F37B ; 6.0 # 🍻 clinking beer mugs
+1F37C ; 6.0 # 🍼 baby bottle
+1F37D ; 7.0 # 🍽 fork and knife with plate
+1F37E ; 8.0 # 🍾 bottle with popping cork
+1F37F ; 8.0 # 🍿 popcorn
+1F380 ; 6.0 # 🎀 ribbon
+1F381 ; 6.0 # 🎁 wrapped gift
+1F382 ; 6.0 # 🎂 birthday cake
+1F383 ; 6.0 # 🎃 jack-o-lantern
+1F384 ; 6.0 # 🎄 Christmas tree
+1F385 ; 6.0 # 🎅 Santa Claus
+1F385,1F3FB ; 8.0 # 🎅🏻 Santa Claus: light skin tone
+1F385,1F3FC ; 8.0 # 🎅🏼 Santa Claus: medium-light skin tone
+1F385,1F3FD ; 8.0 # 🎅🏽 Santa Claus: medium skin tone
+1F385,1F3FE ; 8.0 # 🎅🏾 Santa Claus: medium-dark skin tone
+1F385,1F3FF ; 8.0 # 🎅🏿 Santa Claus: dark skin tone
+1F386 ; 6.0 # 🎆 fireworks
+1F387 ; 6.0 # 🎇 sparkler
+1F388 ; 6.0 # 🎈 balloon
+1F389 ; 6.0 # 🎉 party popper
+1F38A ; 6.0 # 🎊 confetti ball
+1F38B ; 6.0 # 🎋 tanabata tree
+1F38C ; 6.0 # 🎌 crossed flags
+1F38D ; 6.0 # 🎍 pine decoration
+1F38E ; 6.0 # 🎎 Japanese dolls
+1F38F ; 6.0 # 🎏 carp streamer
+1F390 ; 6.0 # 🎐 wind chime
+1F391 ; 6.0 # 🎑 moon viewing ceremony
+1F392 ; 6.0 # 🎒 school backpack
+1F393 ; 6.0 # 🎓 graduation cap
+1F396 ; 7.0 # 🎖 military medal
+1F397 ; 7.0 # 🎗 reminder ribbon
+1F399 ; 7.0 # 🎙 studio microphone
+1F39A ; 7.0 # 🎚 level slider
+1F39B ; 7.0 # 🎛 control knobs
+1F39E ; 7.0 # 🎞 film frames
+1F39F ; 7.0 # 🎟 admission tickets
+1F3A0 ; 6.0 # 🎠 carousel horse
+1F3A1 ; 6.0 # 🎡 ferris wheel
+1F3A2 ; 6.0 # 🎢 roller coaster
+1F3A3 ; 6.0 # 🎣 fishing pole
+1F3A4 ; 6.0 # 🎤 microphone
+1F3A5 ; 6.0 # 🎥 movie camera
+1F3A6 ; 6.0 # 🎦 cinema
+1F3A7 ; 6.0 # 🎧 headphone
+1F3A8 ; 6.0 # 🎨 artist palette
+1F3A9 ; 6.0 # 🎩 top hat
+1F3AA ; 6.0 # 🎪 circus tent
+1F3AB ; 6.0 # 🎫 ticket
+1F3AC ; 6.0 # 🎬 clapper board
+1F3AD ; 6.0 # 🎭 performing arts
+1F3AE ; 6.0 # 🎮 video game
+1F3AF ; 6.0 # 🎯 direct hit
+1F3B0 ; 6.0 # 🎰 slot machine
+1F3B1 ; 6.0 # 🎱 pool 8 ball
+1F3B2 ; 6.0 # 🎲 game die
+1F3B3 ; 6.0 # 🎳 bowling
+1F3B4 ; 6.0 # 🎴 flower playing cards
+1F3B5 ; 6.0 # 🎵 musical note
+1F3B6 ; 6.0 # 🎶 musical notes
+1F3B7 ; 6.0 # 🎷 saxophone
+1F3B8 ; 6.0 # 🎸 guitar
+1F3B9 ; 6.0 # 🎹 musical keyboard
+1F3BA ; 6.0 # 🎺 trumpet
+1F3BB ; 6.0 # 🎻 violin
+1F3BC ; 6.0 # 🎼 musical score
+1F3BD ; 6.0 # 🎽 running shirt
+1F3BE ; 6.0 # 🎾 tennis
+1F3BF ; 6.0 # 🎿 skis
+1F3C0 ; 6.0 # 🏀 basketball
+1F3C1 ; 6.0 # 🏁 chequered flag
+1F3C2 ; 6.0 # 🏂 snowboarder
+1F3C2,1F3FB ; 8.0 # 🏂🏻 snowboarder: light skin tone
+1F3C2,1F3FC ; 8.0 # 🏂🏼 snowboarder: medium-light skin tone
+1F3C2,1F3FD ; 8.0 # 🏂🏽 snowboarder: medium skin tone
+1F3C2,1F3FE ; 8.0 # 🏂🏾 snowboarder: medium-dark skin tone
+1F3C2,1F3FF ; 8.0 # 🏂🏿 snowboarder: dark skin tone
+1F3C3 ; 6.0 # 🏃 person running
+1F3C3,1F3FB ; 8.0 # 🏃🏻 person running: light skin tone
+1F3C3,1F3FB,200D,2640,FE0F ; 8.0 # 🏃🏻‍♀️ woman running: light skin tone
+1F3C3,1F3FB,200D,2642,FE0F ; 8.0 # 🏃🏻‍♂️ man running: light skin tone
+1F3C3,1F3FC ; 8.0 # 🏃🏼 person running: medium-light skin tone
+1F3C3,1F3FC,200D,2640,FE0F ; 8.0 # 🏃🏼‍♀️ woman running: medium-light skin tone
+1F3C3,1F3FC,200D,2642,FE0F ; 8.0 # 🏃🏼‍♂️ man running: medium-light skin tone
+1F3C3,1F3FD ; 8.0 # 🏃🏽 person running: medium skin tone
+1F3C3,1F3FD,200D,2640,FE0F ; 8.0 # 🏃🏽‍♀️ woman running: medium skin tone
+1F3C3,1F3FD,200D,2642,FE0F ; 8.0 # 🏃🏽‍♂️ man running: medium skin tone
+1F3C3,1F3FE ; 8.0 # 🏃🏾 person running: medium-dark skin tone
+1F3C3,1F3FE,200D,2640,FE0F ; 8.0 # 🏃🏾‍♀️ woman running: medium-dark skin tone
+1F3C3,1F3FE,200D,2642,FE0F ; 8.0 # 🏃🏾‍♂️ man running: medium-dark skin tone
+1F3C3,1F3FF ; 8.0 # 🏃🏿 person running: dark skin tone
+1F3C3,1F3FF,200D,2640,FE0F ; 8.0 # 🏃🏿‍♀️ woman running: dark skin tone
+1F3C3,1F3FF,200D,2642,FE0F ; 8.0 # 🏃🏿‍♂️ man running: dark skin tone
+1F3C3,200D,2640,FE0F ; 6.0 # 🏃‍♀️ woman running
+1F3C3,200D,2642,FE0F ; 6.0 # 🏃‍♂️ man running
+1F3C4 ; 6.0 # 🏄 person surfing
+1F3C4,1F3FB ; 8.0 # 🏄🏻 person surfing: light skin tone
+1F3C4,1F3FB,200D,2640,FE0F ; 8.0 # 🏄🏻‍♀️ woman surfing: light skin tone
+1F3C4,1F3FB,200D,2642,FE0F ; 8.0 # 🏄🏻‍♂️ man surfing: light skin tone
+1F3C4,1F3FC ; 8.0 # 🏄🏼 person surfing: medium-light skin tone
+1F3C4,1F3FC,200D,2640,FE0F ; 8.0 # 🏄🏼‍♀️ woman surfing: medium-light skin tone
+1F3C4,1F3FC,200D,2642,FE0F ; 8.0 # 🏄🏼‍♂️ man surfing: medium-light skin tone
+1F3C4,1F3FD ; 8.0 # 🏄🏽 person surfing: medium skin tone
+1F3C4,1F3FD,200D,2640,FE0F ; 8.0 # 🏄🏽‍♀️ woman surfing: medium skin tone
+1F3C4,1F3FD,200D,2642,FE0F ; 8.0 # 🏄🏽‍♂️ man surfing: medium skin tone
+1F3C4,1F3FE ; 8.0 # 🏄🏾 person surfing: medium-dark skin tone
+1F3C4,1F3FE,200D,2640,FE0F ; 8.0 # 🏄🏾‍♀️ woman surfing: medium-dark skin tone
+1F3C4,1F3FE,200D,2642,FE0F ; 8.0 # 🏄🏾‍♂️ man surfing: medium-dark skin tone
+1F3C4,1F3FF ; 8.0 # 🏄🏿 person surfing: dark skin tone
+1F3C4,1F3FF,200D,2640,FE0F ; 8.0 # 🏄🏿‍♀️ woman surfing: dark skin tone
+1F3C4,1F3FF,200D,2642,FE0F ; 8.0 # 🏄🏿‍♂️ man surfing: dark skin tone
+1F3C4,200D,2640,FE0F ; 6.0 # 🏄‍♀️ woman surfing
+1F3C4,200D,2642,FE0F ; 6.0 # 🏄‍♂️ man surfing
+1F3C5 ; 7.0 # 🏅 sports medal
+1F3C6 ; 6.0 # 🏆 trophy
+1F3C7 ; 6.0 # 🏇 horse racing
+1F3C7,1F3FB ; 8.0 # 🏇🏻 horse racing: light skin tone
+1F3C7,1F3FC ; 8.0 # 🏇🏼 horse racing: medium-light skin tone
+1F3C7,1F3FD ; 8.0 # 🏇🏽 horse racing: medium skin tone
+1F3C7,1F3FE ; 8.0 # 🏇🏾 horse racing: medium-dark skin tone
+1F3C7,1F3FF ; 8.0 # 🏇🏿 horse racing: dark skin tone
+1F3C8 ; 6.0 # 🏈 american football
+1F3C9 ; 6.0 # 🏉 rugby football
+1F3CA ; 6.0 # 🏊 person swimming
+1F3CA,1F3FB ; 8.0 # 🏊🏻 person swimming: light skin tone
+1F3CA,1F3FB,200D,2640,FE0F ; 8.0 # 🏊🏻‍♀️ woman swimming: light skin tone
+1F3CA,1F3FB,200D,2642,FE0F ; 8.0 # 🏊🏻‍♂️ man swimming: light skin tone
+1F3CA,1F3FC ; 8.0 # 🏊🏼 person swimming: medium-light skin tone
+1F3CA,1F3FC,200D,2640,FE0F ; 8.0 # 🏊🏼‍♀️ woman swimming: medium-light skin tone
+1F3CA,1F3FC,200D,2642,FE0F ; 8.0 # 🏊🏼‍♂️ man swimming: medium-light skin tone
+1F3CA,1F3FD ; 8.0 # 🏊🏽 person swimming: medium skin tone
+1F3CA,1F3FD,200D,2640,FE0F ; 8.0 # 🏊🏽‍♀️ woman swimming: medium skin tone
+1F3CA,1F3FD,200D,2642,FE0F ; 8.0 # 🏊🏽‍♂️ man swimming: medium skin tone
+1F3CA,1F3FE ; 8.0 # 🏊🏾 person swimming: medium-dark skin tone
+1F3CA,1F3FE,200D,2640,FE0F ; 8.0 # 🏊🏾‍♀️ woman swimming: medium-dark skin tone
+1F3CA,1F3FE,200D,2642,FE0F ; 8.0 # 🏊🏾‍♂️ man swimming: medium-dark skin tone
+1F3CA,1F3FF ; 8.0 # 🏊🏿 person swimming: dark skin tone
+1F3CA,1F3FF,200D,2640,FE0F ; 8.0 # 🏊🏿‍♀️ woman swimming: dark skin tone
+1F3CA,1F3FF,200D,2642,FE0F ; 8.0 # 🏊🏿‍♂️ man swimming: dark skin tone
+1F3CA,200D,2640,FE0F ; 6.0 # 🏊‍♀️ woman swimming
+1F3CA,200D,2642,FE0F ; 6.0 # 🏊‍♂️ man swimming
+1F3CB ; 7.0 # 🏋 person lifting weights
+1F3CB,1F3FB ; 8.0 # 🏋🏻 person lifting weights: light skin tone
+1F3CB,1F3FB,200D,2640,FE0F ; 8.0 # 🏋🏻‍♀️ woman lifting weights: light skin tone
+1F3CB,1F3FB,200D,2642,FE0F ; 8.0 # 🏋🏻‍♂️ man lifting weights: light skin tone
+1F3CB,1F3FC ; 8.0 # 🏋🏼 person lifting weights: medium-light skin tone
+1F3CB,1F3FC,200D,2640,FE0F ; 8.0 # 🏋🏼‍♀️ woman lifting weights: medium-light skin tone
+1F3CB,1F3FC,200D,2642,FE0F ; 8.0 # 🏋🏼‍♂️ man lifting weights: medium-light skin tone
+1F3CB,1F3FD ; 8.0 # 🏋🏽 person lifting weights: medium skin tone
+1F3CB,1F3FD,200D,2640,FE0F ; 8.0 # 🏋🏽‍♀️ woman lifting weights: medium skin tone
+1F3CB,1F3FD,200D,2642,FE0F ; 8.0 # 🏋🏽‍♂️ man lifting weights: medium skin tone
+1F3CB,1F3FE ; 8.0 # 🏋🏾 person lifting weights: medium-dark skin tone
+1F3CB,1F3FE,200D,2640,FE0F ; 8.0 # 🏋🏾‍♀️ woman lifting weights: medium-dark skin tone
+1F3CB,1F3FE,200D,2642,FE0F ; 8.0 # 🏋🏾‍♂️ man lifting weights: medium-dark skin tone
+1F3CB,1F3FF ; 8.0 # 🏋🏿 person lifting weights: dark skin tone
+1F3CB,1F3FF,200D,2640,FE0F ; 8.0 # 🏋🏿‍♀️ woman lifting weights: dark skin tone
+1F3CB,1F3FF,200D,2642,FE0F ; 8.0 # 🏋🏿‍♂️ man lifting weights: dark skin tone
+1F3CB,FE0F,200D,2640,FE0F ; 7.0 # 🏋️‍♀️ woman lifting weights
+1F3CB,FE0F,200D,2642,FE0F ; 7.0 # 🏋️‍♂️ man lifting weights
+1F3CC ; 7.0 # 🏌 person golfing
+1F3CC,1F3FB ; 8.0 # 🏌🏻 person golfing: light skin tone
+1F3CC,1F3FB,200D,2640,FE0F ; 8.0 # 🏌🏻‍♀️ woman golfing: light skin tone
+1F3CC,1F3FB,200D,2642,FE0F ; 8.0 # 🏌🏻‍♂️ man golfing: light skin tone
+1F3CC,1F3FC ; 8.0 # 🏌🏼 person golfing: medium-light skin tone
+1F3CC,1F3FC,200D,2640,FE0F ; 8.0 # 🏌🏼‍♀️ woman golfing: medium-light skin tone
+1F3CC,1F3FC,200D,2642,FE0F ; 8.0 # 🏌🏼‍♂️ man golfing: medium-light skin tone
+1F3CC,1F3FD ; 8.0 # 🏌🏽 person golfing: medium skin tone
+1F3CC,1F3FD,200D,2640,FE0F ; 8.0 # 🏌🏽‍♀️ woman golfing: medium skin tone
+1F3CC,1F3FD,200D,2642,FE0F ; 8.0 # 🏌🏽‍♂️ man golfing: medium skin tone
+1F3CC,1F3FE ; 8.0 # 🏌🏾 person golfing: medium-dark skin tone
+1F3CC,1F3FE,200D,2640,FE0F ; 8.0 # 🏌🏾‍♀️ woman golfing: medium-dark skin tone
+1F3CC,1F3FE,200D,2642,FE0F ; 8.0 # 🏌🏾‍♂️ man golfing: medium-dark skin tone
+1F3CC,1F3FF ; 8.0 # 🏌🏿 person golfing: dark skin tone
+1F3CC,1F3FF,200D,2640,FE0F ; 8.0 # 🏌🏿‍♀️ woman golfing: dark skin tone
+1F3CC,1F3FF,200D,2642,FE0F ; 8.0 # 🏌🏿‍♂️ man golfing: dark skin tone
+1F3CC,FE0F,200D,2640,FE0F ; 7.0 # 🏌️‍♀️ woman golfing
+1F3CC,FE0F,200D,2642,FE0F ; 7.0 # 🏌️‍♂️ man golfing
+1F3CD ; 7.0 # 🏍 motorcycle
+1F3CE ; 7.0 # 🏎 racing car
+1F3CF ; 8.0 # 🏏 cricket game
+1F3D0 ; 8.0 # 🏐 volleyball
+1F3D1 ; 8.0 # 🏑 field hockey
+1F3D2 ; 8.0 # 🏒 ice hockey
+1F3D3 ; 8.0 # 🏓 ping pong
+1F3D4 ; 7.0 # 🏔 snow-capped mountain
+1F3D5 ; 7.0 # 🏕 camping
+1F3D6 ; 7.0 # 🏖 beach with umbrella
+1F3D7 ; 7.0 # 🏗 building construction
+1F3D8 ; 7.0 # 🏘 houses
+1F3D9 ; 7.0 # 🏙 cityscape
+1F3DA ; 7.0 # 🏚 derelict house
+1F3DB ; 7.0 # 🏛 classical building
+1F3DC ; 7.0 # 🏜 desert
+1F3DD ; 7.0 # 🏝 desert island
+1F3DE ; 7.0 # 🏞 national park
+1F3DF ; 7.0 # 🏟 stadium
+1F3E0 ; 6.0 # 🏠 house
+1F3E1 ; 6.0 # 🏡 house with garden
+1F3E2 ; 6.0 # 🏢 office building
+1F3E3 ; 6.0 # 🏣 Japanese post office
+1F3E4 ; 6.0 # 🏤 post office
+1F3E5 ; 6.0 # 🏥 hospital
+1F3E6 ; 6.0 # 🏦 bank
+1F3E7 ; 6.0 # 🏧 ATM sign
+1F3E8 ; 6.0 # 🏨 hotel
+1F3E9 ; 6.0 # 🏩 love hotel
+1F3EA ; 6.0 # 🏪 convenience store
+1F3EB ; 6.0 # 🏫 school
+1F3EC ; 6.0 # 🏬 department store
+1F3ED ; 6.0 # 🏭 factory
+1F3EE ; 6.0 # 🏮 red paper lantern
+1F3EF ; 6.0 # 🏯 Japanese castle
+1F3F0 ; 6.0 # 🏰 castle
+1F3F3 ; 7.0 # 🏳 white flag
+1F3F3,FE0F,200D,1F308 ; 7.0 # 🏳️‍🌈 rainbow flag
+1F3F4 ; 7.0 # 🏴 black flag
+1F3F4,E0067,E0062,E0065,E006E,E0067,E007F ; 7.0 # 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+1F3F4,E0067,E0062,E0073,E0063,E0074,E007F ; 7.0 # 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
+1F3F4,E0067,E0062,E0077,E006C,E0073,E007F ; 7.0 # 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
+1F3F5 ; 7.0 # 🏵 rosette
+1F3F7 ; 7.0 # 🏷 label
+1F3F8 ; 8.0 # 🏸 badminton
+1F3F9 ; 8.0 # 🏹 bow and arrow
+1F3FA ; 8.0 # 🏺 amphora
+1F3FB ; 8.0 # 🏻 light skin tone
+1F3FC ; 8.0 # 🏼 medium-light skin tone
+1F3FD ; 8.0 # 🏽 medium skin tone
+1F3FE ; 8.0 # 🏾 medium-dark skin tone
+1F3FF ; 8.0 # 🏿 dark skin tone
+1F400 ; 6.0 # 🐀 rat
+1F401 ; 6.0 # 🐁 mouse
+1F402 ; 6.0 # 🐂 ox
+1F403 ; 6.0 # 🐃 water buffalo
+1F404 ; 6.0 # 🐄 cow
+1F405 ; 6.0 # 🐅 tiger
+1F406 ; 6.0 # 🐆 leopard
+1F407 ; 6.0 # 🐇 rabbit
+1F408 ; 6.0 # 🐈 cat
+1F409 ; 6.0 # 🐉 dragon
+1F40A ; 6.0 # 🐊 crocodile
+1F40B ; 6.0 # 🐋 whale
+1F40C ; 6.0 # 🐌 snail
+1F40D ; 6.0 # 🐍 snake
+1F40E ; 6.0 # 🐎 horse
+1F40F ; 6.0 # 🐏 ram
+1F410 ; 6.0 # 🐐 goat
+1F411 ; 6.0 # 🐑 ewe
+1F412 ; 6.0 # 🐒 monkey
+1F413 ; 6.0 # 🐓 rooster
+1F414 ; 6.0 # 🐔 chicken
+1F415 ; 6.0 # 🐕 dog
+1F416 ; 6.0 # 🐖 pig
+1F417 ; 6.0 # 🐗 boar
+1F418 ; 6.0 # 🐘 elephant
+1F419 ; 6.0 # 🐙 octopus
+1F41A ; 6.0 # 🐚 spiral shell
+1F41B ; 6.0 # 🐛 bug
+1F41C ; 6.0 # 🐜 ant
+1F41D ; 6.0 # 🐝 honeybee
+1F41E ; 6.0 # 🐞 lady beetle
+1F41F ; 6.0 # 🐟 fish
+1F420 ; 6.0 # 🐠 tropical fish
+1F421 ; 6.0 # 🐡 blowfish
+1F422 ; 6.0 # 🐢 turtle
+1F423 ; 6.0 # 🐣 hatching chick
+1F424 ; 6.0 # 🐤 baby chick
+1F425 ; 6.0 # 🐥 front-facing baby chick
+1F426 ; 6.0 # 🐦 bird
+1F427 ; 6.0 # 🐧 penguin
+1F428 ; 6.0 # 🐨 koala
+1F429 ; 6.0 # 🐩 poodle
+1F42A ; 6.0 # 🐪 camel
+1F42B ; 6.0 # 🐫 two-hump camel
+1F42C ; 6.0 # 🐬 dolphin
+1F42D ; 6.0 # 🐭 mouse face
+1F42E ; 6.0 # 🐮 cow face
+1F42F ; 6.0 # 🐯 tiger face
+1F430 ; 6.0 # 🐰 rabbit face
+1F431 ; 6.0 # 🐱 cat face
+1F432 ; 6.0 # 🐲 dragon face
+1F433 ; 6.0 # 🐳 spouting whale
+1F434 ; 6.0 # 🐴 horse face
+1F435 ; 6.0 # 🐵 monkey face
+1F436 ; 6.0 # 🐶 dog face
+1F437 ; 6.0 # 🐷 pig face
+1F438 ; 6.0 # 🐸 frog face
+1F439 ; 6.0 # 🐹 hamster face
+1F43A ; 6.0 # 🐺 wolf face
+1F43B ; 6.0 # 🐻 bear face
+1F43C ; 6.0 # 🐼 panda face
+1F43D ; 6.0 # 🐽 pig nose
+1F43E ; 6.0 # 🐾 paw prints
+1F43F ; 7.0 # 🐿 chipmunk
+1F440 ; 6.0 # 👀 eyes
+1F441 ; 7.0 # 👁 eye
+1F441,FE0F,200D,1F5E8,FE0F ; 7.0 # 👁️‍🗨️ eye in speech bubble
+1F442 ; 6.0 # 👂 ear
+1F442,1F3FB ; 8.0 # 👂🏻 ear: light skin tone
+1F442,1F3FC ; 8.0 # 👂🏼 ear: medium-light skin tone
+1F442,1F3FD ; 8.0 # 👂🏽 ear: medium skin tone
+1F442,1F3FE ; 8.0 # 👂🏾 ear: medium-dark skin tone
+1F442,1F3FF ; 8.0 # 👂🏿 ear: dark skin tone
+1F443 ; 6.0 # 👃 nose
+1F443,1F3FB ; 8.0 # 👃🏻 nose: light skin tone
+1F443,1F3FC ; 8.0 # 👃🏼 nose: medium-light skin tone
+1F443,1F3FD ; 8.0 # 👃🏽 nose: medium skin tone
+1F443,1F3FE ; 8.0 # 👃🏾 nose: medium-dark skin tone
+1F443,1F3FF ; 8.0 # 👃🏿 nose: dark skin tone
+1F444 ; 6.0 # 👄 mouth
+1F445 ; 6.0 # 👅 tongue
+1F446 ; 6.0 # 👆 backhand index pointing up
+1F446,1F3FB ; 8.0 # 👆🏻 backhand index pointing up: light skin tone
+1F446,1F3FC ; 8.0 # 👆🏼 backhand index pointing up: medium-light skin tone
+1F446,1F3FD ; 8.0 # 👆🏽 backhand index pointing up: medium skin tone
+1F446,1F3FE ; 8.0 # 👆🏾 backhand index pointing up: medium-dark skin tone
+1F446,1F3FF ; 8.0 # 👆🏿 backhand index pointing up: dark skin tone
+1F447 ; 6.0 # 👇 backhand index pointing down
+1F447,1F3FB ; 8.0 # 👇🏻 backhand index pointing down: light skin tone
+1F447,1F3FC ; 8.0 # 👇🏼 backhand index pointing down: medium-light skin tone
+1F447,1F3FD ; 8.0 # 👇🏽 backhand index pointing down: medium skin tone
+1F447,1F3FE ; 8.0 # 👇🏾 backhand index pointing down: medium-dark skin tone
+1F447,1F3FF ; 8.0 # 👇🏿 backhand index pointing down: dark skin tone
+1F448 ; 6.0 # 👈 backhand index pointing left
+1F448,1F3FB ; 8.0 # 👈🏻 backhand index pointing left: light skin tone
+1F448,1F3FC ; 8.0 # 👈🏼 backhand index pointing left: medium-light skin tone
+1F448,1F3FD ; 8.0 # 👈🏽 backhand index pointing left: medium skin tone
+1F448,1F3FE ; 8.0 # 👈🏾 backhand index pointing left: medium-dark skin tone
+1F448,1F3FF ; 8.0 # 👈🏿 backhand index pointing left: dark skin tone
+1F449 ; 6.0 # 👉 backhand index pointing right
+1F449,1F3FB ; 8.0 # 👉🏻 backhand index pointing right: light skin tone
+1F449,1F3FC ; 8.0 # 👉🏼 backhand index pointing right: medium-light skin tone
+1F449,1F3FD ; 8.0 # 👉🏽 backhand index pointing right: medium skin tone
+1F449,1F3FE ; 8.0 # 👉🏾 backhand index pointing right: medium-dark skin tone
+1F449,1F3FF ; 8.0 # 👉🏿 backhand index pointing right: dark skin tone
+1F44A ; 6.0 # 👊 oncoming fist
+1F44A,1F3FB ; 8.0 # 👊🏻 oncoming fist: light skin tone
+1F44A,1F3FC ; 8.0 # 👊🏼 oncoming fist: medium-light skin tone
+1F44A,1F3FD ; 8.0 # 👊🏽 oncoming fist: medium skin tone
+1F44A,1F3FE ; 8.0 # 👊🏾 oncoming fist: medium-dark skin tone
+1F44A,1F3FF ; 8.0 # 👊🏿 oncoming fist: dark skin tone
+1F44B ; 6.0 # 👋 waving hand
+1F44B,1F3FB ; 8.0 # 👋🏻 waving hand: light skin tone
+1F44B,1F3FC ; 8.0 # 👋🏼 waving hand: medium-light skin tone
+1F44B,1F3FD ; 8.0 # 👋🏽 waving hand: medium skin tone
+1F44B,1F3FE ; 8.0 # 👋🏾 waving hand: medium-dark skin tone
+1F44B,1F3FF ; 8.0 # 👋🏿 waving hand: dark skin tone
+1F44C ; 6.0 # 👌 OK hand
+1F44C,1F3FB ; 8.0 # 👌🏻 OK hand: light skin tone
+1F44C,1F3FC ; 8.0 # 👌🏼 OK hand: medium-light skin tone
+1F44C,1F3FD ; 8.0 # 👌🏽 OK hand: medium skin tone
+1F44C,1F3FE ; 8.0 # 👌🏾 OK hand: medium-dark skin tone
+1F44C,1F3FF ; 8.0 # 👌🏿 OK hand: dark skin tone
+1F44D ; 6.0 # 👍 thumbs up
+1F44D,1F3FB ; 8.0 # 👍🏻 thumbs up: light skin tone
+1F44D,1F3FC ; 8.0 # 👍🏼 thumbs up: medium-light skin tone
+1F44D,1F3FD ; 8.0 # 👍🏽 thumbs up: medium skin tone
+1F44D,1F3FE ; 8.0 # 👍🏾 thumbs up: medium-dark skin tone
+1F44D,1F3FF ; 8.0 # 👍🏿 thumbs up: dark skin tone
+1F44E ; 6.0 # 👎 thumbs down
+1F44E,1F3FB ; 8.0 # 👎🏻 thumbs down: light skin tone
+1F44E,1F3FC ; 8.0 # 👎🏼 thumbs down: medium-light skin tone
+1F44E,1F3FD ; 8.0 # 👎🏽 thumbs down: medium skin tone
+1F44E,1F3FE ; 8.0 # 👎🏾 thumbs down: medium-dark skin tone
+1F44E,1F3FF ; 8.0 # 👎🏿 thumbs down: dark skin tone
+1F44F ; 6.0 # 👏 clapping hands
+1F44F,1F3FB ; 8.0 # 👏🏻 clapping hands: light skin tone
+1F44F,1F3FC ; 8.0 # 👏🏼 clapping hands: medium-light skin tone
+1F44F,1F3FD ; 8.0 # 👏🏽 clapping hands: medium skin tone
+1F44F,1F3FE ; 8.0 # 👏🏾 clapping hands: medium-dark skin tone
+1F44F,1F3FF ; 8.0 # 👏🏿 clapping hands: dark skin tone
+1F450 ; 6.0 # 👐 open hands
+1F450,1F3FB ; 8.0 # 👐🏻 open hands: light skin tone
+1F450,1F3FC ; 8.0 # 👐🏼 open hands: medium-light skin tone
+1F450,1F3FD ; 8.0 # 👐🏽 open hands: medium skin tone
+1F450,1F3FE ; 8.0 # 👐🏾 open hands: medium-dark skin tone
+1F450,1F3FF ; 8.0 # 👐🏿 open hands: dark skin tone
+1F451 ; 6.0 # 👑 crown
+1F452 ; 6.0 # 👒 woman’s hat
+1F453 ; 6.0 # 👓 glasses
+1F454 ; 6.0 # 👔 necktie
+1F455 ; 6.0 # 👕 t-shirt
+1F456 ; 6.0 # 👖 jeans
+1F457 ; 6.0 # 👗 dress
+1F458 ; 6.0 # 👘 kimono
+1F459 ; 6.0 # 👙 bikini
+1F45A ; 6.0 # 👚 woman’s clothes
+1F45B ; 6.0 # 👛 purse
+1F45C ; 6.0 # 👜 handbag
+1F45D ; 6.0 # 👝 clutch bag
+1F45E ; 6.0 # 👞 man’s shoe
+1F45F ; 6.0 # 👟 running shoe
+1F460 ; 6.0 # 👠 high-heeled shoe
+1F461 ; 6.0 # 👡 woman’s sandal
+1F462 ; 6.0 # 👢 woman’s boot
+1F463 ; 6.0 # 👣 footprints
+1F464 ; 6.0 # 👤 bust in silhouette
+1F465 ; 6.0 # 👥 busts in silhouette
+1F466 ; 6.0 # 👦 boy
+1F466,1F3FB ; 8.0 # 👦🏻 boy: light skin tone
+1F466,1F3FC ; 8.0 # 👦🏼 boy: medium-light skin tone
+1F466,1F3FD ; 8.0 # 👦🏽 boy: medium skin tone
+1F466,1F3FE ; 8.0 # 👦🏾 boy: medium-dark skin tone
+1F466,1F3FF ; 8.0 # 👦🏿 boy: dark skin tone
+1F467 ; 6.0 # 👧 girl
+1F467,1F3FB ; 8.0 # 👧🏻 girl: light skin tone
+1F467,1F3FC ; 8.0 # 👧🏼 girl: medium-light skin tone
+1F467,1F3FD ; 8.0 # 👧🏽 girl: medium skin tone
+1F467,1F3FE ; 8.0 # 👧🏾 girl: medium-dark skin tone
+1F467,1F3FF ; 8.0 # 👧🏿 girl: dark skin tone
+1F468 ; 6.0 # 👨 man
+1F468,1F3FB ; 8.0 # 👨🏻 man: light skin tone
+1F468,1F3FB,200D,1F33E ; 8.0 # 👨🏻‍🌾 man farmer: light skin tone
+1F468,1F3FB,200D,1F373 ; 8.0 # 👨🏻‍🍳 man cook: light skin tone
+1F468,1F3FB,200D,1F393 ; 8.0 # 👨🏻‍🎓 man student: light skin tone
+1F468,1F3FB,200D,1F3A4 ; 8.0 # 👨🏻‍🎤 man singer: light skin tone
+1F468,1F3FB,200D,1F3A8 ; 8.0 # 👨🏻‍🎨 man artist: light skin tone
+1F468,1F3FB,200D,1F3EB ; 8.0 # 👨🏻‍🏫 man teacher: light skin tone
+1F468,1F3FB,200D,1F3ED ; 8.0 # 👨🏻‍🏭 man factory worker: light skin tone
+1F468,1F3FB,200D,1F4BB ; 8.0 # 👨🏻‍💻 man technologist: light skin tone
+1F468,1F3FB,200D,1F4BC ; 8.0 # 👨🏻‍💼 man office worker: light skin tone
+1F468,1F3FB,200D,1F527 ; 8.0 # 👨🏻‍🔧 man mechanic: light skin tone
+1F468,1F3FB,200D,1F52C ; 8.0 # 👨🏻‍🔬 man scientist: light skin tone
+1F468,1F3FB,200D,1F680 ; 8.0 # 👨🏻‍🚀 man astronaut: light skin tone
+1F468,1F3FB,200D,1F692 ; 8.0 # 👨🏻‍🚒 man firefighter: light skin tone
+1F468,1F3FB,200D,2695,FE0F ; 8.0 # 👨🏻‍⚕️ man health worker: light skin tone
+1F468,1F3FB,200D,2696,FE0F ; 8.0 # 👨🏻‍⚖️ man judge: light skin tone
+1F468,1F3FB,200D,2708,FE0F ; 8.0 # 👨🏻‍✈️ man pilot: light skin tone
+1F468,1F3FC ; 8.0 # 👨🏼 man: medium-light skin tone
+1F468,1F3FC,200D,1F33E ; 8.0 # 👨🏼‍🌾 man farmer: medium-light skin tone
+1F468,1F3FC,200D,1F373 ; 8.0 # 👨🏼‍🍳 man cook: medium-light skin tone
+1F468,1F3FC,200D,1F393 ; 8.0 # 👨🏼‍🎓 man student: medium-light skin tone
+1F468,1F3FC,200D,1F3A4 ; 8.0 # 👨🏼‍🎤 man singer: medium-light skin tone
+1F468,1F3FC,200D,1F3A8 ; 8.0 # 👨🏼‍🎨 man artist: medium-light skin tone
+1F468,1F3FC,200D,1F3EB ; 8.0 # 👨🏼‍🏫 man teacher: medium-light skin tone
+1F468,1F3FC,200D,1F3ED ; 8.0 # 👨🏼‍🏭 man factory worker: medium-light skin tone
+1F468,1F3FC,200D,1F4BB ; 8.0 # 👨🏼‍💻 man technologist: medium-light skin tone
+1F468,1F3FC,200D,1F4BC ; 8.0 # 👨🏼‍💼 man office worker: medium-light skin tone
+1F468,1F3FC,200D,1F527 ; 8.0 # 👨🏼‍🔧 man mechanic: medium-light skin tone
+1F468,1F3FC,200D,1F52C ; 8.0 # 👨🏼‍🔬 man scientist: medium-light skin tone
+1F468,1F3FC,200D,1F680 ; 8.0 # 👨🏼‍🚀 man astronaut: medium-light skin tone
+1F468,1F3FC,200D,1F692 ; 8.0 # 👨🏼‍🚒 man firefighter: medium-light skin tone
+1F468,1F3FC,200D,2695,FE0F ; 8.0 # 👨🏼‍⚕️ man health worker: medium-light skin tone
+1F468,1F3FC,200D,2696,FE0F ; 8.0 # 👨🏼‍⚖️ man judge: medium-light skin tone
+1F468,1F3FC,200D,2708,FE0F ; 8.0 # 👨🏼‍✈️ man pilot: medium-light skin tone
+1F468,1F3FD ; 8.0 # 👨🏽 man: medium skin tone
+1F468,1F3FD,200D,1F33E ; 8.0 # 👨🏽‍🌾 man farmer: medium skin tone
+1F468,1F3FD,200D,1F373 ; 8.0 # 👨🏽‍🍳 man cook: medium skin tone
+1F468,1F3FD,200D,1F393 ; 8.0 # 👨🏽‍🎓 man student: medium skin tone
+1F468,1F3FD,200D,1F3A4 ; 8.0 # 👨🏽‍🎤 man singer: medium skin tone
+1F468,1F3FD,200D,1F3A8 ; 8.0 # 👨🏽‍🎨 man artist: medium skin tone
+1F468,1F3FD,200D,1F3EB ; 8.0 # 👨🏽‍🏫 man teacher: medium skin tone
+1F468,1F3FD,200D,1F3ED ; 8.0 # 👨🏽‍🏭 man factory worker: medium skin tone
+1F468,1F3FD,200D,1F4BB ; 8.0 # 👨🏽‍💻 man technologist: medium skin tone
+1F468,1F3FD,200D,1F4BC ; 8.0 # 👨🏽‍💼 man office worker: medium skin tone
+1F468,1F3FD,200D,1F527 ; 8.0 # 👨🏽‍🔧 man mechanic: medium skin tone
+1F468,1F3FD,200D,1F52C ; 8.0 # 👨🏽‍🔬 man scientist: medium skin tone
+1F468,1F3FD,200D,1F680 ; 8.0 # 👨🏽‍🚀 man astronaut: medium skin tone
+1F468,1F3FD,200D,1F692 ; 8.0 # 👨🏽‍🚒 man firefighter: medium skin tone
+1F468,1F3FD,200D,2695,FE0F ; 8.0 # 👨🏽‍⚕️ man health worker: medium skin tone
+1F468,1F3FD,200D,2696,FE0F ; 8.0 # 👨🏽‍⚖️ man judge: medium skin tone
+1F468,1F3FD,200D,2708,FE0F ; 8.0 # 👨🏽‍✈️ man pilot: medium skin tone
+1F468,1F3FE ; 8.0 # 👨🏾 man: medium-dark skin tone
+1F468,1F3FE,200D,1F33E ; 8.0 # 👨🏾‍🌾 man farmer: medium-dark skin tone
+1F468,1F3FE,200D,1F373 ; 8.0 # 👨🏾‍🍳 man cook: medium-dark skin tone
+1F468,1F3FE,200D,1F393 ; 8.0 # 👨🏾‍🎓 man student: medium-dark skin tone
+1F468,1F3FE,200D,1F3A4 ; 8.0 # 👨🏾‍🎤 man singer: medium-dark skin tone
+1F468,1F3FE,200D,1F3A8 ; 8.0 # 👨🏾‍🎨 man artist: medium-dark skin tone
+1F468,1F3FE,200D,1F3EB ; 8.0 # 👨🏾‍🏫 man teacher: medium-dark skin tone
+1F468,1F3FE,200D,1F3ED ; 8.0 # 👨🏾‍🏭 man factory worker: medium-dark skin tone
+1F468,1F3FE,200D,1F4BB ; 8.0 # 👨🏾‍💻 man technologist: medium-dark skin tone
+1F468,1F3FE,200D,1F4BC ; 8.0 # 👨🏾‍💼 man office worker: medium-dark skin tone
+1F468,1F3FE,200D,1F527 ; 8.0 # 👨🏾‍🔧 man mechanic: medium-dark skin tone
+1F468,1F3FE,200D,1F52C ; 8.0 # 👨🏾‍🔬 man scientist: medium-dark skin tone
+1F468,1F3FE,200D,1F680 ; 8.0 # 👨🏾‍🚀 man astronaut: medium-dark skin tone
+1F468,1F3FE,200D,1F692 ; 8.0 # 👨🏾‍🚒 man firefighter: medium-dark skin tone
+1F468,1F3FE,200D,2695,FE0F ; 8.0 # 👨🏾‍⚕️ man health worker: medium-dark skin tone
+1F468,1F3FE,200D,2696,FE0F ; 8.0 # 👨🏾‍⚖️ man judge: medium-dark skin tone
+1F468,1F3FE,200D,2708,FE0F ; 8.0 # 👨🏾‍✈️ man pilot: medium-dark skin tone
+1F468,1F3FF ; 8.0 # 👨🏿 man: dark skin tone
+1F468,1F3FF,200D,1F33E ; 8.0 # 👨🏿‍🌾 man farmer: dark skin tone
+1F468,1F3FF,200D,1F373 ; 8.0 # 👨🏿‍🍳 man cook: dark skin tone
+1F468,1F3FF,200D,1F393 ; 8.0 # 👨🏿‍🎓 man student: dark skin tone
+1F468,1F3FF,200D,1F3A4 ; 8.0 # 👨🏿‍🎤 man singer: dark skin tone
+1F468,1F3FF,200D,1F3A8 ; 8.0 # 👨🏿‍🎨 man artist: dark skin tone
+1F468,1F3FF,200D,1F3EB ; 8.0 # 👨🏿‍🏫 man teacher: dark skin tone
+1F468,1F3FF,200D,1F3ED ; 8.0 # 👨🏿‍🏭 man factory worker: dark skin tone
+1F468,1F3FF,200D,1F4BB ; 8.0 # 👨🏿‍💻 man technologist: dark skin tone
+1F468,1F3FF,200D,1F4BC ; 8.0 # 👨🏿‍💼 man office worker: dark skin tone
+1F468,1F3FF,200D,1F527 ; 8.0 # 👨🏿‍🔧 man mechanic: dark skin tone
+1F468,1F3FF,200D,1F52C ; 8.0 # 👨🏿‍🔬 man scientist: dark skin tone
+1F468,1F3FF,200D,1F680 ; 8.0 # 👨🏿‍🚀 man astronaut: dark skin tone
+1F468,1F3FF,200D,1F692 ; 8.0 # 👨🏿‍🚒 man firefighter: dark skin tone
+1F468,1F3FF,200D,2695,FE0F ; 8.0 # 👨🏿‍⚕️ man health worker: dark skin tone
+1F468,1F3FF,200D,2696,FE0F ; 8.0 # 👨🏿‍⚖️ man judge: dark skin tone
+1F468,1F3FF,200D,2708,FE0F ; 8.0 # 👨🏿‍✈️ man pilot: dark skin tone
+1F468,200D,1F33E ; 6.0 # 👨‍🌾 man farmer
+1F468,200D,1F373 ; 6.0 # 👨‍🍳 man cook
+1F468,200D,1F393 ; 6.0 # 👨‍🎓 man student
+1F468,200D,1F3A4 ; 6.0 # 👨‍🎤 man singer
+1F468,200D,1F3A8 ; 6.0 # 👨‍🎨 man artist
+1F468,200D,1F3EB ; 6.0 # 👨‍🏫 man teacher
+1F468,200D,1F3ED ; 6.0 # 👨‍🏭 man factory worker
+1F468,200D,1F466 ; 6.0 # 👨‍👦 family: man, boy
+1F468,200D,1F466,200D,1F466 ; 6.0 # 👨‍👦‍👦 family: man, boy, boy
+1F468,200D,1F467 ; 6.0 # 👨‍👧 family: man, girl
+1F468,200D,1F467,200D,1F466 ; 6.0 # 👨‍👧‍👦 family: man, girl, boy
+1F468,200D,1F467,200D,1F467 ; 6.0 # 👨‍👧‍👧 family: man, girl, girl
+1F468,200D,1F468,200D,1F466 ; 6.0 # 👨‍👨‍👦 family: man, man, boy
+1F468,200D,1F468,200D,1F466,200D,1F466 ; 6.0 # 👨‍👨‍👦‍👦 family: man, man, boy, boy
+1F468,200D,1F468,200D,1F467 ; 6.0 # 👨‍👨‍👧 family: man, man, girl
+1F468,200D,1F468,200D,1F467,200D,1F466 ; 6.0 # 👨‍👨‍👧‍👦 family: man, man, girl, boy
+1F468,200D,1F468,200D,1F467,200D,1F467 ; 6.0 # 👨‍👨‍👧‍👧 family: man, man, girl, girl
+1F468,200D,1F469,200D,1F466 ; 6.0 # 👨‍👩‍👦 family: man, woman, boy
+1F468,200D,1F469,200D,1F466,200D,1F466 ; 6.0 # 👨‍👩‍👦‍👦 family: man, woman, boy, boy
+1F468,200D,1F469,200D,1F467 ; 6.0 # 👨‍👩‍👧 family: man, woman, girl
+1F468,200D,1F469,200D,1F467,200D,1F466 ; 6.0 # 👨‍👩‍👧‍👦 family: man, woman, girl, boy
+1F468,200D,1F469,200D,1F467,200D,1F467 ; 6.0 # 👨‍👩‍👧‍👧 family: man, woman, girl, girl
+1F468,200D,1F4BB ; 6.0 # 👨‍💻 man technologist
+1F468,200D,1F4BC ; 6.0 # 👨‍💼 man office worker
+1F468,200D,1F527 ; 6.0 # 👨‍🔧 man mechanic
+1F468,200D,1F52C ; 6.0 # 👨‍🔬 man scientist
+1F468,200D,1F680 ; 6.0 # 👨‍🚀 man astronaut
+1F468,200D,1F692 ; 6.0 # 👨‍🚒 man firefighter
+1F468,200D,2695,FE0F ; 6.0 # 👨‍⚕️ man health worker
+1F468,200D,2696,FE0F ; 6.0 # 👨‍⚖️ man judge
+1F468,200D,2708,FE0F ; 6.0 # 👨‍✈️ man pilot
+1F468,200D,2764,FE0F,200D,1F468 ; 6.0 # 👨‍❤️‍👨 couple with heart: man, man
+1F468,200D,2764,FE0F,200D,1F48B,200D,1F468 ; 6.0 # 👨‍❤️‍💋‍👨 kiss: man, man
+1F469 ; 6.0 # 👩 woman
+1F469,1F3FB ; 8.0 # 👩🏻 woman: light skin tone
+1F469,1F3FB,200D,1F33E ; 8.0 # 👩🏻‍🌾 woman farmer: light skin tone
+1F469,1F3FB,200D,1F373 ; 8.0 # 👩🏻‍🍳 woman cook: light skin tone
+1F469,1F3FB,200D,1F393 ; 8.0 # 👩🏻‍🎓 woman student: light skin tone
+1F469,1F3FB,200D,1F3A4 ; 8.0 # 👩🏻‍🎤 woman singer: light skin tone
+1F469,1F3FB,200D,1F3A8 ; 8.0 # 👩🏻‍🎨 woman artist: light skin tone
+1F469,1F3FB,200D,1F3EB ; 8.0 # 👩🏻‍🏫 woman teacher: light skin tone
+1F469,1F3FB,200D,1F3ED ; 8.0 # 👩🏻‍🏭 woman factory worker: light skin tone
+1F469,1F3FB,200D,1F4BB ; 8.0 # 👩🏻‍💻 woman technologist: light skin tone
+1F469,1F3FB,200D,1F4BC ; 8.0 # 👩🏻‍💼 woman office worker: light skin tone
+1F469,1F3FB,200D,1F527 ; 8.0 # 👩🏻‍🔧 woman mechanic: light skin tone
+1F469,1F3FB,200D,1F52C ; 8.0 # 👩🏻‍🔬 woman scientist: light skin tone
+1F469,1F3FB,200D,1F680 ; 8.0 # 👩🏻‍🚀 woman astronaut: light skin tone
+1F469,1F3FB,200D,1F692 ; 8.0 # 👩🏻‍🚒 woman firefighter: light skin tone
+1F469,1F3FB,200D,2695,FE0F ; 8.0 # 👩🏻‍⚕️ woman health worker: light skin tone
+1F469,1F3FB,200D,2696,FE0F ; 8.0 # 👩🏻‍⚖️ woman judge: light skin tone
+1F469,1F3FB,200D,2708,FE0F ; 8.0 # 👩🏻‍✈️ woman pilot: light skin tone
+1F469,1F3FC ; 8.0 # 👩🏼 woman: medium-light skin tone
+1F469,1F3FC,200D,1F33E ; 8.0 # 👩🏼‍🌾 woman farmer: medium-light skin tone
+1F469,1F3FC,200D,1F373 ; 8.0 # 👩🏼‍🍳 woman cook: medium-light skin tone
+1F469,1F3FC,200D,1F393 ; 8.0 # 👩🏼‍🎓 woman student: medium-light skin tone
+1F469,1F3FC,200D,1F3A4 ; 8.0 # 👩🏼‍🎤 woman singer: medium-light skin tone
+1F469,1F3FC,200D,1F3A8 ; 8.0 # 👩🏼‍🎨 woman artist: medium-light skin tone
+1F469,1F3FC,200D,1F3EB ; 8.0 # 👩🏼‍🏫 woman teacher: medium-light skin tone
+1F469,1F3FC,200D,1F3ED ; 8.0 # 👩🏼‍🏭 woman factory worker: medium-light skin tone
+1F469,1F3FC,200D,1F4BB ; 8.0 # 👩🏼‍💻 woman technologist: medium-light skin tone
+1F469,1F3FC,200D,1F4BC ; 8.0 # 👩🏼‍💼 woman office worker: medium-light skin tone
+1F469,1F3FC,200D,1F527 ; 8.0 # 👩🏼‍🔧 woman mechanic: medium-light skin tone
+1F469,1F3FC,200D,1F52C ; 8.0 # 👩🏼‍🔬 woman scientist: medium-light skin tone
+1F469,1F3FC,200D,1F680 ; 8.0 # 👩🏼‍🚀 woman astronaut: medium-light skin tone
+1F469,1F3FC,200D,1F692 ; 8.0 # 👩🏼‍🚒 woman firefighter: medium-light skin tone
+1F469,1F3FC,200D,2695,FE0F ; 8.0 # 👩🏼‍⚕️ woman health worker: medium-light skin tone
+1F469,1F3FC,200D,2696,FE0F ; 8.0 # 👩🏼‍⚖️ woman judge: medium-light skin tone
+1F469,1F3FC,200D,2708,FE0F ; 8.0 # 👩🏼‍✈️ woman pilot: medium-light skin tone
+1F469,1F3FD ; 8.0 # 👩🏽 woman: medium skin tone
+1F469,1F3FD,200D,1F33E ; 8.0 # 👩🏽‍🌾 woman farmer: medium skin tone
+1F469,1F3FD,200D,1F373 ; 8.0 # 👩🏽‍🍳 woman cook: medium skin tone
+1F469,1F3FD,200D,1F393 ; 8.0 # 👩🏽‍🎓 woman student: medium skin tone
+1F469,1F3FD,200D,1F3A4 ; 8.0 # 👩🏽‍🎤 woman singer: medium skin tone
+1F469,1F3FD,200D,1F3A8 ; 8.0 # 👩🏽‍🎨 woman artist: medium skin tone
+1F469,1F3FD,200D,1F3EB ; 8.0 # 👩🏽‍🏫 woman teacher: medium skin tone
+1F469,1F3FD,200D,1F3ED ; 8.0 # 👩🏽‍🏭 woman factory worker: medium skin tone
+1F469,1F3FD,200D,1F4BB ; 8.0 # 👩🏽‍💻 woman technologist: medium skin tone
+1F469,1F3FD,200D,1F4BC ; 8.0 # 👩🏽‍💼 woman office worker: medium skin tone
+1F469,1F3FD,200D,1F527 ; 8.0 # 👩🏽‍🔧 woman mechanic: medium skin tone
+1F469,1F3FD,200D,1F52C ; 8.0 # 👩🏽‍🔬 woman scientist: medium skin tone
+1F469,1F3FD,200D,1F680 ; 8.0 # 👩🏽‍🚀 woman astronaut: medium skin tone
+1F469,1F3FD,200D,1F692 ; 8.0 # 👩🏽‍🚒 woman firefighter: medium skin tone
+1F469,1F3FD,200D,2695,FE0F ; 8.0 # 👩🏽‍⚕️ woman health worker: medium skin tone
+1F469,1F3FD,200D,2696,FE0F ; 8.0 # 👩🏽‍⚖️ woman judge: medium skin tone
+1F469,1F3FD,200D,2708,FE0F ; 8.0 # 👩🏽‍✈️ woman pilot: medium skin tone
+1F469,1F3FE ; 8.0 # 👩🏾 woman: medium-dark skin tone
+1F469,1F3FE,200D,1F33E ; 8.0 # 👩🏾‍🌾 woman farmer: medium-dark skin tone
+1F469,1F3FE,200D,1F373 ; 8.0 # 👩🏾‍🍳 woman cook: medium-dark skin tone
+1F469,1F3FE,200D,1F393 ; 8.0 # 👩🏾‍🎓 woman student: medium-dark skin tone
+1F469,1F3FE,200D,1F3A4 ; 8.0 # 👩🏾‍🎤 woman singer: medium-dark skin tone
+1F469,1F3FE,200D,1F3A8 ; 8.0 # 👩🏾‍🎨 woman artist: medium-dark skin tone
+1F469,1F3FE,200D,1F3EB ; 8.0 # 👩🏾‍🏫 woman teacher: medium-dark skin tone
+1F469,1F3FE,200D,1F3ED ; 8.0 # 👩🏾‍🏭 woman factory worker: medium-dark skin tone
+1F469,1F3FE,200D,1F4BB ; 8.0 # 👩🏾‍💻 woman technologist: medium-dark skin tone
+1F469,1F3FE,200D,1F4BC ; 8.0 # 👩🏾‍💼 woman office worker: medium-dark skin tone
+1F469,1F3FE,200D,1F527 ; 8.0 # 👩🏾‍🔧 woman mechanic: medium-dark skin tone
+1F469,1F3FE,200D,1F52C ; 8.0 # 👩🏾‍🔬 woman scientist: medium-dark skin tone
+1F469,1F3FE,200D,1F680 ; 8.0 # 👩🏾‍🚀 woman astronaut: medium-dark skin tone
+1F469,1F3FE,200D,1F692 ; 8.0 # 👩🏾‍🚒 woman firefighter: medium-dark skin tone
+1F469,1F3FE,200D,2695,FE0F ; 8.0 # 👩🏾‍⚕️ woman health worker: medium-dark skin tone
+1F469,1F3FE,200D,2696,FE0F ; 8.0 # 👩🏾‍⚖️ woman judge: medium-dark skin tone
+1F469,1F3FE,200D,2708,FE0F ; 8.0 # 👩🏾‍✈️ woman pilot: medium-dark skin tone
+1F469,1F3FF ; 8.0 # 👩🏿 woman: dark skin tone
+1F469,1F3FF,200D,1F33E ; 8.0 # 👩🏿‍🌾 woman farmer: dark skin tone
+1F469,1F3FF,200D,1F373 ; 8.0 # 👩🏿‍🍳 woman cook: dark skin tone
+1F469,1F3FF,200D,1F393 ; 8.0 # 👩🏿‍🎓 woman student: dark skin tone
+1F469,1F3FF,200D,1F3A4 ; 8.0 # 👩🏿‍🎤 woman singer: dark skin tone
+1F469,1F3FF,200D,1F3A8 ; 8.0 # 👩🏿‍🎨 woman artist: dark skin tone
+1F469,1F3FF,200D,1F3EB ; 8.0 # 👩🏿‍🏫 woman teacher: dark skin tone
+1F469,1F3FF,200D,1F3ED ; 8.0 # 👩🏿‍🏭 woman factory worker: dark skin tone
+1F469,1F3FF,200D,1F4BB ; 8.0 # 👩🏿‍💻 woman technologist: dark skin tone
+1F469,1F3FF,200D,1F4BC ; 8.0 # 👩🏿‍💼 woman office worker: dark skin tone
+1F469,1F3FF,200D,1F527 ; 8.0 # 👩🏿‍🔧 woman mechanic: dark skin tone
+1F469,1F3FF,200D,1F52C ; 8.0 # 👩🏿‍🔬 woman scientist: dark skin tone
+1F469,1F3FF,200D,1F680 ; 8.0 # 👩🏿‍🚀 woman astronaut: dark skin tone
+1F469,1F3FF,200D,1F692 ; 8.0 # 👩🏿‍🚒 woman firefighter: dark skin tone
+1F469,1F3FF,200D,2695,FE0F ; 8.0 # 👩🏿‍⚕️ woman health worker: dark skin tone
+1F469,1F3FF,200D,2696,FE0F ; 8.0 # 👩🏿‍⚖️ woman judge: dark skin tone
+1F469,1F3FF,200D,2708,FE0F ; 8.0 # 👩🏿‍✈️ woman pilot: dark skin tone
+1F469,200D,1F33E ; 6.0 # 👩‍🌾 woman farmer
+1F469,200D,1F373 ; 6.0 # 👩‍🍳 woman cook
+1F469,200D,1F393 ; 6.0 # 👩‍🎓 woman student
+1F469,200D,1F3A4 ; 6.0 # 👩‍🎤 woman singer
+1F469,200D,1F3A8 ; 6.0 # 👩‍🎨 woman artist
+1F469,200D,1F3EB ; 6.0 # 👩‍🏫 woman teacher
+1F469,200D,1F3ED ; 6.0 # 👩‍🏭 woman factory worker
+1F469,200D,1F466 ; 6.0 # 👩‍👦 family: woman, boy
+1F469,200D,1F466,200D,1F466 ; 6.0 # 👩‍👦‍👦 family: woman, boy, boy
+1F469,200D,1F467 ; 6.0 # 👩‍👧 family: woman, girl
+1F469,200D,1F467,200D,1F466 ; 6.0 # 👩‍👧‍👦 family: woman, girl, boy
+1F469,200D,1F467,200D,1F467 ; 6.0 # 👩‍👧‍👧 family: woman, girl, girl
+1F469,200D,1F469,200D,1F466 ; 6.0 # 👩‍👩‍👦 family: woman, woman, boy
+1F469,200D,1F469,200D,1F466,200D,1F466 ; 6.0 # 👩‍👩‍👦‍👦 family: woman, woman, boy, boy
+1F469,200D,1F469,200D,1F467 ; 6.0 # 👩‍👩‍👧 family: woman, woman, girl
+1F469,200D,1F469,200D,1F467,200D,1F466 ; 6.0 # 👩‍👩‍👧‍👦 family: woman, woman, girl, boy
+1F469,200D,1F469,200D,1F467,200D,1F467 ; 6.0 # 👩‍👩‍👧‍👧 family: woman, woman, girl, girl
+1F469,200D,1F4BB ; 6.0 # 👩‍💻 woman technologist
+1F469,200D,1F4BC ; 6.0 # 👩‍💼 woman office worker
+1F469,200D,1F527 ; 6.0 # 👩‍🔧 woman mechanic
+1F469,200D,1F52C ; 6.0 # 👩‍🔬 woman scientist
+1F469,200D,1F680 ; 6.0 # 👩‍🚀 woman astronaut
+1F469,200D,1F692 ; 6.0 # 👩‍🚒 woman firefighter
+1F469,200D,2695,FE0F ; 6.0 # 👩‍⚕️ woman health worker
+1F469,200D,2696,FE0F ; 6.0 # 👩‍⚖️ woman judge
+1F469,200D,2708,FE0F ; 6.0 # 👩‍✈️ woman pilot
+1F469,200D,2764,FE0F,200D,1F468 ; 6.0 # 👩‍❤️‍👨 couple with heart: woman, man
+1F469,200D,2764,FE0F,200D,1F469 ; 6.0 # 👩‍❤️‍👩 couple with heart: woman, woman
+1F469,200D,2764,FE0F,200D,1F48B,200D,1F468 ; 6.0 # 👩‍❤️‍💋‍👨 kiss: woman, man
+1F469,200D,2764,FE0F,200D,1F48B,200D,1F469 ; 6.0 # 👩‍❤️‍💋‍👩 kiss: woman, woman
+1F46A ; 6.0 # 👪 family
+1F46B ; 6.0 # 👫 man and woman holding hands
+1F46C ; 6.0 # 👬 two men holding hands
+1F46D ; 6.0 # 👭 two women holding hands
+1F46E ; 6.0 # 👮 police officer
+1F46E,1F3FB ; 8.0 # 👮🏻 police officer: light skin tone
+1F46E,1F3FB,200D,2640,FE0F ; 8.0 # 👮🏻‍♀️ woman police officer: light skin tone
+1F46E,1F3FB,200D,2642,FE0F ; 8.0 # 👮🏻‍♂️ man police officer: light skin tone
+1F46E,1F3FC ; 8.0 # 👮🏼 police officer: medium-light skin tone
+1F46E,1F3FC,200D,2640,FE0F ; 8.0 # 👮🏼‍♀️ woman police officer: medium-light skin tone
+1F46E,1F3FC,200D,2642,FE0F ; 8.0 # 👮🏼‍♂️ man police officer: medium-light skin tone
+1F46E,1F3FD ; 8.0 # 👮🏽 police officer: medium skin tone
+1F46E,1F3FD,200D,2640,FE0F ; 8.0 # 👮🏽‍♀️ woman police officer: medium skin tone
+1F46E,1F3FD,200D,2642,FE0F ; 8.0 # 👮🏽‍♂️ man police officer: medium skin tone
+1F46E,1F3FE ; 8.0 # 👮🏾 police officer: medium-dark skin tone
+1F46E,1F3FE,200D,2640,FE0F ; 8.0 # 👮🏾‍♀️ woman police officer: medium-dark skin tone
+1F46E,1F3FE,200D,2642,FE0F ; 8.0 # 👮🏾‍♂️ man police officer: medium-dark skin tone
+1F46E,1F3FF ; 8.0 # 👮🏿 police officer: dark skin tone
+1F46E,1F3FF,200D,2640,FE0F ; 8.0 # 👮🏿‍♀️ woman police officer: dark skin tone
+1F46E,1F3FF,200D,2642,FE0F ; 8.0 # 👮🏿‍♂️ man police officer: dark skin tone
+1F46E,200D,2640,FE0F ; 6.0 # 👮‍♀️ woman police officer
+1F46E,200D,2642,FE0F ; 6.0 # 👮‍♂️ man police officer
+1F46F ; 6.0 # 👯 people with bunny ears
+1F46F,200D,2640,FE0F ; 6.0 # 👯‍♀️ women with bunny ears
+1F46F,200D,2642,FE0F ; 6.0 # 👯‍♂️ men with bunny ears
+1F470 ; 6.0 # 👰 bride with veil
+1F470,1F3FB ; 8.0 # 👰🏻 bride with veil: light skin tone
+1F470,1F3FC ; 8.0 # 👰🏼 bride with veil: medium-light skin tone
+1F470,1F3FD ; 8.0 # 👰🏽 bride with veil: medium skin tone
+1F470,1F3FE ; 8.0 # 👰🏾 bride with veil: medium-dark skin tone
+1F470,1F3FF ; 8.0 # 👰🏿 bride with veil: dark skin tone
+1F471 ; 6.0 # 👱 blond-haired person
+1F471,1F3FB ; 8.0 # 👱🏻 blond-haired person: light skin tone
+1F471,1F3FB,200D,2640,FE0F ; 8.0 # 👱🏻‍♀️ blond-haired woman: light skin tone
+1F471,1F3FB,200D,2642,FE0F ; 8.0 # 👱🏻‍♂️ blond-haired man: light skin tone
+1F471,1F3FC ; 8.0 # 👱🏼 blond-haired person: medium-light skin tone
+1F471,1F3FC,200D,2640,FE0F ; 8.0 # 👱🏼‍♀️ blond-haired woman: medium-light skin tone
+1F471,1F3FC,200D,2642,FE0F ; 8.0 # 👱🏼‍♂️ blond-haired man: medium-light skin tone
+1F471,1F3FD ; 8.0 # 👱🏽 blond-haired person: medium skin tone
+1F471,1F3FD,200D,2640,FE0F ; 8.0 # 👱🏽‍♀️ blond-haired woman: medium skin tone
+1F471,1F3FD,200D,2642,FE0F ; 8.0 # 👱🏽‍♂️ blond-haired man: medium skin tone
+1F471,1F3FE ; 8.0 # 👱🏾 blond-haired person: medium-dark skin tone
+1F471,1F3FE,200D,2640,FE0F ; 8.0 # 👱🏾‍♀️ blond-haired woman: medium-dark skin tone
+1F471,1F3FE,200D,2642,FE0F ; 8.0 # 👱🏾‍♂️ blond-haired man: medium-dark skin tone
+1F471,1F3FF ; 8.0 # 👱🏿 blond-haired person: dark skin tone
+1F471,1F3FF,200D,2640,FE0F ; 8.0 # 👱🏿‍♀️ blond-haired woman: dark skin tone
+1F471,1F3FF,200D,2642,FE0F ; 8.0 # 👱🏿‍♂️ blond-haired man: dark skin tone
+1F471,200D,2640,FE0F ; 6.0 # 👱‍♀️ blond-haired woman
+1F471,200D,2642,FE0F ; 6.0 # 👱‍♂️ blond-haired man
+1F472 ; 6.0 # 👲 man with Chinese cap
+1F472,1F3FB ; 8.0 # 👲🏻 man with Chinese cap: light skin tone
+1F472,1F3FC ; 8.0 # 👲🏼 man with Chinese cap: medium-light skin tone
+1F472,1F3FD ; 8.0 # 👲🏽 man with Chinese cap: medium skin tone
+1F472,1F3FE ; 8.0 # 👲🏾 man with Chinese cap: medium-dark skin tone
+1F472,1F3FF ; 8.0 # 👲🏿 man with Chinese cap: dark skin tone
+1F473 ; 6.0 # 👳 person wearing turban
+1F473,1F3FB ; 8.0 # 👳🏻 person wearing turban: light skin tone
+1F473,1F3FB,200D,2640,FE0F ; 8.0 # 👳🏻‍♀️ woman wearing turban: light skin tone
+1F473,1F3FB,200D,2642,FE0F ; 8.0 # 👳🏻‍♂️ man wearing turban: light skin tone
+1F473,1F3FC ; 8.0 # 👳🏼 person wearing turban: medium-light skin tone
+1F473,1F3FC,200D,2640,FE0F ; 8.0 # 👳🏼‍♀️ woman wearing turban: medium-light skin tone
+1F473,1F3FC,200D,2642,FE0F ; 8.0 # 👳🏼‍♂️ man wearing turban: medium-light skin tone
+1F473,1F3FD ; 8.0 # 👳🏽 person wearing turban: medium skin tone
+1F473,1F3FD,200D,2640,FE0F ; 8.0 # 👳🏽‍♀️ woman wearing turban: medium skin tone
+1F473,1F3FD,200D,2642,FE0F ; 8.0 # 👳🏽‍♂️ man wearing turban: medium skin tone
+1F473,1F3FE ; 8.0 # 👳🏾 person wearing turban: medium-dark skin tone
+1F473,1F3FE,200D,2640,FE0F ; 8.0 # 👳🏾‍♀️ woman wearing turban: medium-dark skin tone
+1F473,1F3FE,200D,2642,FE0F ; 8.0 # 👳🏾‍♂️ man wearing turban: medium-dark skin tone
+1F473,1F3FF ; 8.0 # 👳🏿 person wearing turban: dark skin tone
+1F473,1F3FF,200D,2640,FE0F ; 8.0 # 👳🏿‍♀️ woman wearing turban: dark skin tone
+1F473,1F3FF,200D,2642,FE0F ; 8.0 # 👳🏿‍♂️ man wearing turban: dark skin tone
+1F473,200D,2640,FE0F ; 6.0 # 👳‍♀️ woman wearing turban
+1F473,200D,2642,FE0F ; 6.0 # 👳‍♂️ man wearing turban
+1F474 ; 6.0 # 👴 old man
+1F474,1F3FB ; 8.0 # 👴🏻 old man: light skin tone
+1F474,1F3FC ; 8.0 # 👴🏼 old man: medium-light skin tone
+1F474,1F3FD ; 8.0 # 👴🏽 old man: medium skin tone
+1F474,1F3FE ; 8.0 # 👴🏾 old man: medium-dark skin tone
+1F474,1F3FF ; 8.0 # 👴🏿 old man: dark skin tone
+1F475 ; 6.0 # 👵 old woman
+1F475,1F3FB ; 8.0 # 👵🏻 old woman: light skin tone
+1F475,1F3FC ; 8.0 # 👵🏼 old woman: medium-light skin tone
+1F475,1F3FD ; 8.0 # 👵🏽 old woman: medium skin tone
+1F475,1F3FE ; 8.0 # 👵🏾 old woman: medium-dark skin tone
+1F475,1F3FF ; 8.0 # 👵🏿 old woman: dark skin tone
+1F476 ; 6.0 # 👶 baby
+1F476,1F3FB ; 8.0 # 👶🏻 baby: light skin tone
+1F476,1F3FC ; 8.0 # 👶🏼 baby: medium-light skin tone
+1F476,1F3FD ; 8.0 # 👶🏽 baby: medium skin tone
+1F476,1F3FE ; 8.0 # 👶🏾 baby: medium-dark skin tone
+1F476,1F3FF ; 8.0 # 👶🏿 baby: dark skin tone
+1F477 ; 6.0 # 👷 construction worker
+1F477,1F3FB ; 8.0 # 👷🏻 construction worker: light skin tone
+1F477,1F3FB,200D,2640,FE0F ; 8.0 # 👷🏻‍♀️ woman construction worker: light skin tone
+1F477,1F3FB,200D,2642,FE0F ; 8.0 # 👷🏻‍♂️ man construction worker: light skin tone
+1F477,1F3FC ; 8.0 # 👷🏼 construction worker: medium-light skin tone
+1F477,1F3FC,200D,2640,FE0F ; 8.0 # 👷🏼‍♀️ woman construction worker: medium-light skin tone
+1F477,1F3FC,200D,2642,FE0F ; 8.0 # 👷🏼‍♂️ man construction worker: medium-light skin tone
+1F477,1F3FD ; 8.0 # 👷🏽 construction worker: medium skin tone
+1F477,1F3FD,200D,2640,FE0F ; 8.0 # 👷🏽‍♀️ woman construction worker: medium skin tone
+1F477,1F3FD,200D,2642,FE0F ; 8.0 # 👷🏽‍♂️ man construction worker: medium skin tone
+1F477,1F3FE ; 8.0 # 👷🏾 construction worker: medium-dark skin tone
+1F477,1F3FE,200D,2640,FE0F ; 8.0 # 👷🏾‍♀️ woman construction worker: medium-dark skin tone
+1F477,1F3FE,200D,2642,FE0F ; 8.0 # 👷🏾‍♂️ man construction worker: medium-dark skin tone
+1F477,1F3FF ; 8.0 # 👷🏿 construction worker: dark skin tone
+1F477,1F3FF,200D,2640,FE0F ; 8.0 # 👷🏿‍♀️ woman construction worker: dark skin tone
+1F477,1F3FF,200D,2642,FE0F ; 8.0 # 👷🏿‍♂️ man construction worker: dark skin tone
+1F477,200D,2640,FE0F ; 6.0 # 👷‍♀️ woman construction worker
+1F477,200D,2642,FE0F ; 6.0 # 👷‍♂️ man construction worker
+1F478 ; 6.0 # 👸 princess
+1F478,1F3FB ; 8.0 # 👸🏻 princess: light skin tone
+1F478,1F3FC ; 8.0 # 👸🏼 princess: medium-light skin tone
+1F478,1F3FD ; 8.0 # 👸🏽 princess: medium skin tone
+1F478,1F3FE ; 8.0 # 👸🏾 princess: medium-dark skin tone
+1F478,1F3FF ; 8.0 # 👸🏿 princess: dark skin tone
+1F479 ; 6.0 # 👹 ogre
+1F47A ; 6.0 # 👺 goblin
+1F47B ; 6.0 # 👻 ghost
+1F47C ; 6.0 # 👼 baby angel
+1F47C,1F3FB ; 8.0 # 👼🏻 baby angel: light skin tone
+1F47C,1F3FC ; 8.0 # 👼🏼 baby angel: medium-light skin tone
+1F47C,1F3FD ; 8.0 # 👼🏽 baby angel: medium skin tone
+1F47C,1F3FE ; 8.0 # 👼🏾 baby angel: medium-dark skin tone
+1F47C,1F3FF ; 8.0 # 👼🏿 baby angel: dark skin tone
+1F47D ; 6.0 # 👽 alien
+1F47E ; 6.0 # 👾 alien monster
+1F47F ; 6.0 # 👿 angry face with horns
+1F480 ; 6.0 # 💀 skull
+1F481 ; 6.0 # 💁 person tipping hand
+1F481,1F3FB ; 8.0 # 💁🏻 person tipping hand: light skin tone
+1F481,1F3FB,200D,2640,FE0F ; 8.0 # 💁🏻‍♀️ woman tipping hand: light skin tone
+1F481,1F3FB,200D,2642,FE0F ; 8.0 # 💁🏻‍♂️ man tipping hand: light skin tone
+1F481,1F3FC ; 8.0 # 💁🏼 person tipping hand: medium-light skin tone
+1F481,1F3FC,200D,2640,FE0F ; 8.0 # 💁🏼‍♀️ woman tipping hand: medium-light skin tone
+1F481,1F3FC,200D,2642,FE0F ; 8.0 # 💁🏼‍♂️ man tipping hand: medium-light skin tone
+1F481,1F3FD ; 8.0 # 💁🏽 person tipping hand: medium skin tone
+1F481,1F3FD,200D,2640,FE0F ; 8.0 # 💁🏽‍♀️ woman tipping hand: medium skin tone
+1F481,1F3FD,200D,2642,FE0F ; 8.0 # 💁🏽‍♂️ man tipping hand: medium skin tone
+1F481,1F3FE ; 8.0 # 💁🏾 person tipping hand: medium-dark skin tone
+1F481,1F3FE,200D,2640,FE0F ; 8.0 # 💁🏾‍♀️ woman tipping hand: medium-dark skin tone
+1F481,1F3FE,200D,2642,FE0F ; 8.0 # 💁🏾‍♂️ man tipping hand: medium-dark skin tone
+1F481,1F3FF ; 8.0 # 💁🏿 person tipping hand: dark skin tone
+1F481,1F3FF,200D,2640,FE0F ; 8.0 # 💁🏿‍♀️ woman tipping hand: dark skin tone
+1F481,1F3FF,200D,2642,FE0F ; 8.0 # 💁🏿‍♂️ man tipping hand: dark skin tone
+1F481,200D,2640,FE0F ; 6.0 # 💁‍♀️ woman tipping hand
+1F481,200D,2642,FE0F ; 6.0 # 💁‍♂️ man tipping hand
+1F482 ; 6.0 # 💂 guard
+1F482,1F3FB ; 8.0 # 💂🏻 guard: light skin tone
+1F482,1F3FB,200D,2640,FE0F ; 8.0 # 💂🏻‍♀️ woman guard: light skin tone
+1F482,1F3FB,200D,2642,FE0F ; 8.0 # 💂🏻‍♂️ man guard: light skin tone
+1F482,1F3FC ; 8.0 # 💂🏼 guard: medium-light skin tone
+1F482,1F3FC,200D,2640,FE0F ; 8.0 # 💂🏼‍♀️ woman guard: medium-light skin tone
+1F482,1F3FC,200D,2642,FE0F ; 8.0 # 💂🏼‍♂️ man guard: medium-light skin tone
+1F482,1F3FD ; 8.0 # 💂🏽 guard: medium skin tone
+1F482,1F3FD,200D,2640,FE0F ; 8.0 # 💂🏽‍♀️ woman guard: medium skin tone
+1F482,1F3FD,200D,2642,FE0F ; 8.0 # 💂🏽‍♂️ man guard: medium skin tone
+1F482,1F3FE ; 8.0 # 💂🏾 guard: medium-dark skin tone
+1F482,1F3FE,200D,2640,FE0F ; 8.0 # 💂🏾‍♀️ woman guard: medium-dark skin tone
+1F482,1F3FE,200D,2642,FE0F ; 8.0 # 💂🏾‍♂️ man guard: medium-dark skin tone
+1F482,1F3FF ; 8.0 # 💂🏿 guard: dark skin tone
+1F482,1F3FF,200D,2640,FE0F ; 8.0 # 💂🏿‍♀️ woman guard: dark skin tone
+1F482,1F3FF,200D,2642,FE0F ; 8.0 # 💂🏿‍♂️ man guard: dark skin tone
+1F482,200D,2640,FE0F ; 6.0 # 💂‍♀️ woman guard
+1F482,200D,2642,FE0F ; 6.0 # 💂‍♂️ man guard
+1F483 ; 6.0 # 💃 woman dancing
+1F483,1F3FB ; 8.0 # 💃🏻 woman dancing: light skin tone
+1F483,1F3FC ; 8.0 # 💃🏼 woman dancing: medium-light skin tone
+1F483,1F3FD ; 8.0 # 💃🏽 woman dancing: medium skin tone
+1F483,1F3FE ; 8.0 # 💃🏾 woman dancing: medium-dark skin tone
+1F483,1F3FF ; 8.0 # 💃🏿 woman dancing: dark skin tone
+1F484 ; 6.0 # 💄 lipstick
+1F485 ; 6.0 # 💅 nail polish
+1F485,1F3FB ; 8.0 # 💅🏻 nail polish: light skin tone
+1F485,1F3FC ; 8.0 # 💅🏼 nail polish: medium-light skin tone
+1F485,1F3FD ; 8.0 # 💅🏽 nail polish: medium skin tone
+1F485,1F3FE ; 8.0 # 💅🏾 nail polish: medium-dark skin tone
+1F485,1F3FF ; 8.0 # 💅🏿 nail polish: dark skin tone
+1F486 ; 6.0 # 💆 person getting massage
+1F486,1F3FB ; 8.0 # 💆🏻 person getting massage: light skin tone
+1F486,1F3FB,200D,2640,FE0F ; 8.0 # 💆🏻‍♀️ woman getting massage: light skin tone
+1F486,1F3FB,200D,2642,FE0F ; 8.0 # 💆🏻‍♂️ man getting massage: light skin tone
+1F486,1F3FC ; 8.0 # 💆🏼 person getting massage: medium-light skin tone
+1F486,1F3FC,200D,2640,FE0F ; 8.0 # 💆🏼‍♀️ woman getting massage: medium-light skin tone
+1F486,1F3FC,200D,2642,FE0F ; 8.0 # 💆🏼‍♂️ man getting massage: medium-light skin tone
+1F486,1F3FD ; 8.0 # 💆🏽 person getting massage: medium skin tone
+1F486,1F3FD,200D,2640,FE0F ; 8.0 # 💆🏽‍♀️ woman getting massage: medium skin tone
+1F486,1F3FD,200D,2642,FE0F ; 8.0 # 💆🏽‍♂️ man getting massage: medium skin tone
+1F486,1F3FE ; 8.0 # 💆🏾 person getting massage: medium-dark skin tone
+1F486,1F3FE,200D,2640,FE0F ; 8.0 # 💆🏾‍♀️ woman getting massage: medium-dark skin tone
+1F486,1F3FE,200D,2642,FE0F ; 8.0 # 💆🏾‍♂️ man getting massage: medium-dark skin tone
+1F486,1F3FF ; 8.0 # 💆🏿 person getting massage: dark skin tone
+1F486,1F3FF,200D,2640,FE0F ; 8.0 # 💆🏿‍♀️ woman getting massage: dark skin tone
+1F486,1F3FF,200D,2642,FE0F ; 8.0 # 💆🏿‍♂️ man getting massage: dark skin tone
+1F486,200D,2640,FE0F ; 6.0 # 💆‍♀️ woman getting massage
+1F486,200D,2642,FE0F ; 6.0 # 💆‍♂️ man getting massage
+1F487 ; 6.0 # 💇 person getting haircut
+1F487,1F3FB ; 8.0 # 💇🏻 person getting haircut: light skin tone
+1F487,1F3FB,200D,2640,FE0F ; 8.0 # 💇🏻‍♀️ woman getting haircut: light skin tone
+1F487,1F3FB,200D,2642,FE0F ; 8.0 # 💇🏻‍♂️ man getting haircut: light skin tone
+1F487,1F3FC ; 8.0 # 💇🏼 person getting haircut: medium-light skin tone
+1F487,1F3FC,200D,2640,FE0F ; 8.0 # 💇🏼‍♀️ woman getting haircut: medium-light skin tone
+1F487,1F3FC,200D,2642,FE0F ; 8.0 # 💇🏼‍♂️ man getting haircut: medium-light skin tone
+1F487,1F3FD ; 8.0 # 💇🏽 person getting haircut: medium skin tone
+1F487,1F3FD,200D,2640,FE0F ; 8.0 # 💇🏽‍♀️ woman getting haircut: medium skin tone
+1F487,1F3FD,200D,2642,FE0F ; 8.0 # 💇🏽‍♂️ man getting haircut: medium skin tone
+1F487,1F3FE ; 8.0 # 💇🏾 person getting haircut: medium-dark skin tone
+1F487,1F3FE,200D,2640,FE0F ; 8.0 # 💇🏾‍♀️ woman getting haircut: medium-dark skin tone
+1F487,1F3FE,200D,2642,FE0F ; 8.0 # 💇🏾‍♂️ man getting haircut: medium-dark skin tone
+1F487,1F3FF ; 8.0 # 💇🏿 person getting haircut: dark skin tone
+1F487,1F3FF,200D,2640,FE0F ; 8.0 # 💇🏿‍♀️ woman getting haircut: dark skin tone
+1F487,1F3FF,200D,2642,FE0F ; 8.0 # 💇🏿‍♂️ man getting haircut: dark skin tone
+1F487,200D,2640,FE0F ; 6.0 # 💇‍♀️ woman getting haircut
+1F487,200D,2642,FE0F ; 6.0 # 💇‍♂️ man getting haircut
+1F488 ; 6.0 # 💈 barber pole
+1F489 ; 6.0 # 💉 syringe
+1F48A ; 6.0 # 💊 pill
+1F48B ; 6.0 # 💋 kiss mark
+1F48C ; 6.0 # 💌 love letter
+1F48D ; 6.0 # 💍 ring
+1F48E ; 6.0 # 💎 gem stone
+1F48F ; 6.0 # 💏 kiss
+1F490 ; 6.0 # 💐 bouquet
+1F491 ; 6.0 # 💑 couple with heart
+1F492 ; 6.0 # 💒 wedding
+1F493 ; 6.0 # 💓 beating heart
+1F494 ; 6.0 # 💔 broken heart
+1F495 ; 6.0 # 💕 two hearts
+1F496 ; 6.0 # 💖 sparkling heart
+1F497 ; 6.0 # 💗 growing heart
+1F498 ; 6.0 # 💘 heart with arrow
+1F499 ; 6.0 # 💙 blue heart
+1F49A ; 6.0 # 💚 green heart
+1F49B ; 6.0 # 💛 yellow heart
+1F49C ; 6.0 # 💜 purple heart
+1F49D ; 6.0 # 💝 heart with ribbon
+1F49E ; 6.0 # 💞 revolving hearts
+1F49F ; 6.0 # 💟 heart decoration
+1F4A0 ; 6.0 # 💠 diamond with a dot
+1F4A1 ; 6.0 # 💡 light bulb
+1F4A2 ; 6.0 # 💢 anger symbol
+1F4A3 ; 6.0 # 💣 bomb
+1F4A4 ; 6.0 # 💤 zzz
+1F4A5 ; 6.0 # 💥 collision
+1F4A6 ; 6.0 # 💦 sweat droplets
+1F4A7 ; 6.0 # 💧 droplet
+1F4A8 ; 6.0 # 💨 dashing away
+1F4A9 ; 6.0 # 💩 pile of poo
+1F4AA ; 6.0 # 💪 flexed biceps
+1F4AA,1F3FB ; 8.0 # 💪🏻 flexed biceps: light skin tone
+1F4AA,1F3FC ; 8.0 # 💪🏼 flexed biceps: medium-light skin tone
+1F4AA,1F3FD ; 8.0 # 💪🏽 flexed biceps: medium skin tone
+1F4AA,1F3FE ; 8.0 # 💪🏾 flexed biceps: medium-dark skin tone
+1F4AA,1F3FF ; 8.0 # 💪🏿 flexed biceps: dark skin tone
+1F4AB ; 6.0 # 💫 dizzy
+1F4AC ; 6.0 # 💬 speech balloon
+1F4AD ; 6.0 # 💭 thought balloon
+1F4AE ; 6.0 # 💮 white flower
+1F4AF ; 6.0 # 💯 hundred points
+1F4B0 ; 6.0 # 💰 money bag
+1F4B1 ; 6.0 # 💱 currency exchange
+1F4B2 ; 6.0 # 💲 heavy dollar sign
+1F4B3 ; 6.0 # 💳 credit card
+1F4B4 ; 6.0 # 💴 yen banknote
+1F4B5 ; 6.0 # 💵 dollar banknote
+1F4B6 ; 6.0 # 💶 euro banknote
+1F4B7 ; 6.0 # 💷 pound banknote
+1F4B8 ; 6.0 # 💸 money with wings
+1F4B9 ; 6.0 # 💹 chart increasing with yen
+1F4BA ; 6.0 # 💺 seat
+1F4BB ; 6.0 # 💻 laptop computer
+1F4BC ; 6.0 # 💼 briefcase
+1F4BD ; 6.0 # 💽 computer disk
+1F4BE ; 6.0 # 💾 floppy disk
+1F4BF ; 6.0 # 💿 optical disk
+1F4C0 ; 6.0 # 📀 dvd
+1F4C1 ; 6.0 # 📁 file folder
+1F4C2 ; 6.0 # 📂 open file folder
+1F4C3 ; 6.0 # 📃 page with curl
+1F4C4 ; 6.0 # 📄 page facing up
+1F4C5 ; 6.0 # 📅 calendar
+1F4C6 ; 6.0 # 📆 tear-off calendar
+1F4C7 ; 6.0 # 📇 card index
+1F4C8 ; 6.0 # 📈 chart increasing
+1F4C9 ; 6.0 # 📉 chart decreasing
+1F4CA ; 6.0 # 📊 bar chart
+1F4CB ; 6.0 # 📋 clipboard
+1F4CC ; 6.0 # 📌 pushpin
+1F4CD ; 6.0 # 📍 round pushpin
+1F4CE ; 6.0 # 📎 paperclip
+1F4CF ; 6.0 # 📏 straight ruler
+1F4D0 ; 6.0 # 📐 triangular ruler
+1F4D1 ; 6.0 # 📑 bookmark tabs
+1F4D2 ; 6.0 # 📒 ledger
+1F4D3 ; 6.0 # 📓 notebook
+1F4D4 ; 6.0 # 📔 notebook with decorative cover
+1F4D5 ; 6.0 # 📕 closed book
+1F4D6 ; 6.0 # 📖 open book
+1F4D7 ; 6.0 # 📗 green book
+1F4D8 ; 6.0 # 📘 blue book
+1F4D9 ; 6.0 # 📙 orange book
+1F4DA ; 6.0 # 📚 books
+1F4DB ; 6.0 # 📛 name badge
+1F4DC ; 6.0 # 📜 scroll
+1F4DD ; 6.0 # 📝 memo
+1F4DE ; 6.0 # 📞 telephone receiver
+1F4DF ; 6.0 # 📟 pager
+1F4E0 ; 6.0 # 📠 fax machine
+1F4E1 ; 6.0 # 📡 satellite antenna
+1F4E2 ; 6.0 # 📢 loudspeaker
+1F4E3 ; 6.0 # 📣 megaphone
+1F4E4 ; 6.0 # 📤 outbox tray
+1F4E5 ; 6.0 # 📥 inbox tray
+1F4E6 ; 6.0 # 📦 package
+1F4E7 ; 6.0 # 📧 e-mail
+1F4E8 ; 6.0 # 📨 incoming envelope
+1F4E9 ; 6.0 # 📩 envelope with arrow
+1F4EA ; 6.0 # 📪 closed mailbox with lowered flag
+1F4EB ; 6.0 # 📫 closed mailbox with raised flag
+1F4EC ; 6.0 # 📬 open mailbox with raised flag
+1F4ED ; 6.0 # 📭 open mailbox with lowered flag
+1F4EE ; 6.0 # 📮 postbox
+1F4EF ; 6.0 # 📯 postal horn
+1F4F0 ; 6.0 # 📰 newspaper
+1F4F1 ; 6.0 # 📱 mobile phone
+1F4F2 ; 6.0 # 📲 mobile phone with arrow
+1F4F3 ; 6.0 # 📳 vibration mode
+1F4F4 ; 6.0 # 📴 mobile phone off
+1F4F5 ; 6.0 # 📵 no mobile phones
+1F4F6 ; 6.0 # 📶 antenna bars
+1F4F7 ; 6.0 # 📷 camera
+1F4F8 ; 7.0 # 📸 camera with flash
+1F4F9 ; 6.0 # 📹 video camera
+1F4FA ; 6.0 # 📺 television
+1F4FB ; 6.0 # 📻 radio
+1F4FC ; 6.0 # 📼 videocassette
+1F4FD ; 7.0 # 📽 film projector
+1F4FF ; 8.0 # 📿 prayer beads
+1F500 ; 6.0 # 🔀 shuffle tracks button
+1F501 ; 6.0 # 🔁 repeat button
+1F502 ; 6.0 # 🔂 repeat single button
+1F503 ; 6.0 # 🔃 clockwise vertical arrows
+1F504 ; 6.0 # 🔄 counterclockwise arrows button
+1F505 ; 6.0 # 🔅 dim button
+1F506 ; 6.0 # 🔆 bright button
+1F507 ; 6.0 # 🔇 muted speaker
+1F508 ; 6.0 # 🔈 speaker low volume
+1F509 ; 6.0 # 🔉 speaker medium volume
+1F50A ; 6.0 # 🔊 speaker high volume
+1F50B ; 6.0 # 🔋 battery
+1F50C ; 6.0 # 🔌 electric plug
+1F50D ; 6.0 # 🔍 magnifying glass tilted left
+1F50E ; 6.0 # 🔎 magnifying glass tilted right
+1F50F ; 6.0 # 🔏 locked with pen
+1F510 ; 6.0 # 🔐 locked with key
+1F511 ; 6.0 # 🔑 key
+1F512 ; 6.0 # 🔒 locked
+1F513 ; 6.0 # 🔓 unlocked
+1F514 ; 6.0 # 🔔 bell
+1F515 ; 6.0 # 🔕 bell with slash
+1F516 ; 6.0 # 🔖 bookmark
+1F517 ; 6.0 # 🔗 link
+1F518 ; 6.0 # 🔘 radio button
+1F519 ; 6.0 # 🔙 BACK arrow
+1F51A ; 6.0 # 🔚 END arrow
+1F51B ; 6.0 # 🔛 ON! arrow
+1F51C ; 6.0 # 🔜 SOON arrow
+1F51D ; 6.0 # 🔝 TOP arrow
+1F51E ; 6.0 # 🔞 no one under eighteen
+1F51F ; 6.0 # 🔟 keycap: 10
+1F520 ; 6.0 # 🔠 input latin uppercase
+1F521 ; 6.0 # 🔡 input latin lowercase
+1F522 ; 6.0 # 🔢 input numbers
+1F523 ; 6.0 # 🔣 input symbols
+1F524 ; 6.0 # 🔤 input latin letters
+1F525 ; 6.0 # 🔥 fire
+1F526 ; 6.0 # 🔦 flashlight
+1F527 ; 6.0 # 🔧 wrench
+1F528 ; 6.0 # 🔨 hammer
+1F529 ; 6.0 # 🔩 nut and bolt
+1F52A ; 6.0 # 🔪 kitchen knife
+1F52B ; 6.0 # 🔫 pistol
+1F52C ; 6.0 # 🔬 microscope
+1F52D ; 6.0 # 🔭 telescope
+1F52E ; 6.0 # 🔮 crystal ball
+1F52F ; 6.0 # 🔯 dotted six-pointed star
+1F530 ; 6.0 # 🔰 Japanese symbol for beginner
+1F531 ; 6.0 # 🔱 trident emblem
+1F532 ; 6.0 # 🔲 black square button
+1F533 ; 6.0 # 🔳 white square button
+1F534 ; 6.0 # 🔴 red circle
+1F535 ; 6.0 # 🔵 blue circle
+1F536 ; 6.0 # 🔶 large orange diamond
+1F537 ; 6.0 # 🔷 large blue diamond
+1F538 ; 6.0 # 🔸 small orange diamond
+1F539 ; 6.0 # 🔹 small blue diamond
+1F53A ; 6.0 # 🔺 red triangle pointed up
+1F53B ; 6.0 # 🔻 red triangle pointed down
+1F53C ; 6.0 # 🔼 upwards button
+1F53D ; 6.0 # 🔽 downwards button
+1F549 ; 7.0 # 🕉 om
+1F54A ; 7.0 # 🕊 dove
+1F54B ; 8.0 # 🕋 kaaba
+1F54C ; 8.0 # 🕌 mosque
+1F54D ; 8.0 # 🕍 synagogue
+1F54E ; 8.0 # 🕎 menorah
+1F550 ; 6.0 # 🕐 one o’clock
+1F551 ; 6.0 # 🕑 two o’clock
+1F552 ; 6.0 # 🕒 three o’clock
+1F553 ; 6.0 # 🕓 four o’clock
+1F554 ; 6.0 # 🕔 five o’clock
+1F555 ; 6.0 # 🕕 six o’clock
+1F556 ; 6.0 # 🕖 seven o’clock
+1F557 ; 6.0 # 🕗 eight o’clock
+1F558 ; 6.0 # 🕘 nine o’clock
+1F559 ; 6.0 # 🕙 ten o’clock
+1F55A ; 6.0 # 🕚 eleven o’clock
+1F55B ; 6.0 # 🕛 twelve o’clock
+1F55C ; 6.0 # 🕜 one-thirty
+1F55D ; 6.0 # 🕝 two-thirty
+1F55E ; 6.0 # 🕞 three-thirty
+1F55F ; 6.0 # 🕟 four-thirty
+1F560 ; 6.0 # 🕠 five-thirty
+1F561 ; 6.0 # 🕡 six-thirty
+1F562 ; 6.0 # 🕢 seven-thirty
+1F563 ; 6.0 # 🕣 eight-thirty
+1F564 ; 6.0 # 🕤 nine-thirty
+1F565 ; 6.0 # 🕥 ten-thirty
+1F566 ; 6.0 # 🕦 eleven-thirty
+1F567 ; 6.0 # 🕧 twelve-thirty
+1F56F ; 7.0 # 🕯 candle
+1F570 ; 7.0 # 🕰 mantelpiece clock
+1F573 ; 7.0 # 🕳 hole
+1F574 ; 7.0 # 🕴 man in suit levitating
+1F574,1F3FB ; 8.0 # 🕴🏻 man in suit levitating: light skin tone
+1F574,1F3FC ; 8.0 # 🕴🏼 man in suit levitating: medium-light skin tone
+1F574,1F3FD ; 8.0 # 🕴🏽 man in suit levitating: medium skin tone
+1F574,1F3FE ; 8.0 # 🕴🏾 man in suit levitating: medium-dark skin tone
+1F574,1F3FF ; 8.0 # 🕴🏿 man in suit levitating: dark skin tone
+1F575 ; 7.0 # 🕵 detective
+1F575,1F3FB ; 8.0 # 🕵🏻 detective: light skin tone
+1F575,1F3FB,200D,2640,FE0F ; 8.0 # 🕵🏻‍♀️ woman detective: light skin tone
+1F575,1F3FB,200D,2642,FE0F ; 8.0 # 🕵🏻‍♂️ man detective: light skin tone
+1F575,1F3FC ; 8.0 # 🕵🏼 detective: medium-light skin tone
+1F575,1F3FC,200D,2640,FE0F ; 8.0 # 🕵🏼‍♀️ woman detective: medium-light skin tone
+1F575,1F3FC,200D,2642,FE0F ; 8.0 # 🕵🏼‍♂️ man detective: medium-light skin tone
+1F575,1F3FD ; 8.0 # 🕵🏽 detective: medium skin tone
+1F575,1F3FD,200D,2640,FE0F ; 8.0 # 🕵🏽‍♀️ woman detective: medium skin tone
+1F575,1F3FD,200D,2642,FE0F ; 8.0 # 🕵🏽‍♂️ man detective: medium skin tone
+1F575,1F3FE ; 8.0 # 🕵🏾 detective: medium-dark skin tone
+1F575,1F3FE,200D,2640,FE0F ; 8.0 # 🕵🏾‍♀️ woman detective: medium-dark skin tone
+1F575,1F3FE,200D,2642,FE0F ; 8.0 # 🕵🏾‍♂️ man detective: medium-dark skin tone
+1F575,1F3FF ; 8.0 # 🕵🏿 detective: dark skin tone
+1F575,1F3FF,200D,2640,FE0F ; 8.0 # 🕵🏿‍♀️ woman detective: dark skin tone
+1F575,1F3FF,200D,2642,FE0F ; 8.0 # 🕵🏿‍♂️ man detective: dark skin tone
+1F575,FE0F,200D,2640,FE0F ; 7.0 # 🕵️‍♀️ woman detective
+1F575,FE0F,200D,2642,FE0F ; 7.0 # 🕵️‍♂️ man detective
+1F576 ; 7.0 # 🕶 sunglasses
+1F577 ; 7.0 # 🕷 spider
+1F578 ; 7.0 # 🕸 spider web
+1F579 ; 7.0 # 🕹 joystick
+1F57A ; 9.0 # 🕺 man dancing
+1F57A,1F3FB ; 9.0 # 🕺🏻 man dancing: light skin tone
+1F57A,1F3FC ; 9.0 # 🕺🏼 man dancing: medium-light skin tone
+1F57A,1F3FD ; 9.0 # 🕺🏽 man dancing: medium skin tone
+1F57A,1F3FE ; 9.0 # 🕺🏾 man dancing: medium-dark skin tone
+1F57A,1F3FF ; 9.0 # 🕺🏿 man dancing: dark skin tone
+1F587 ; 7.0 # 🖇 linked paperclips
+1F58A ; 7.0 # 🖊 pen
+1F58B ; 7.0 # 🖋 fountain pen
+1F58C ; 7.0 # 🖌 paintbrush
+1F58D ; 7.0 # 🖍 crayon
+1F590 ; 7.0 # 🖐 hand with fingers splayed
+1F590,1F3FB ; 8.0 # 🖐🏻 hand with fingers splayed: light skin tone
+1F590,1F3FC ; 8.0 # 🖐🏼 hand with fingers splayed: medium-light skin tone
+1F590,1F3FD ; 8.0 # 🖐🏽 hand with fingers splayed: medium skin tone
+1F590,1F3FE ; 8.0 # 🖐🏾 hand with fingers splayed: medium-dark skin tone
+1F590,1F3FF ; 8.0 # 🖐🏿 hand with fingers splayed: dark skin tone
+1F595 ; 7.0 # 🖕 middle finger
+1F595,1F3FB ; 8.0 # 🖕🏻 middle finger: light skin tone
+1F595,1F3FC ; 8.0 # 🖕🏼 middle finger: medium-light skin tone
+1F595,1F3FD ; 8.0 # 🖕🏽 middle finger: medium skin tone
+1F595,1F3FE ; 8.0 # 🖕🏾 middle finger: medium-dark skin tone
+1F595,1F3FF ; 8.0 # 🖕🏿 middle finger: dark skin tone
+1F596 ; 7.0 # 🖖 vulcan salute
+1F596,1F3FB ; 8.0 # 🖖🏻 vulcan salute: light skin tone
+1F596,1F3FC ; 8.0 # 🖖🏼 vulcan salute: medium-light skin tone
+1F596,1F3FD ; 8.0 # 🖖🏽 vulcan salute: medium skin tone
+1F596,1F3FE ; 8.0 # 🖖🏾 vulcan salute: medium-dark skin tone
+1F596,1F3FF ; 8.0 # 🖖🏿 vulcan salute: dark skin tone
+1F5A4 ; 9.0 # 🖤 black heart
+1F5A5 ; 7.0 # 🖥 desktop computer
+1F5A8 ; 7.0 # 🖨 printer
+1F5B1 ; 7.0 # 🖱 computer mouse
+1F5B2 ; 7.0 # 🖲 trackball
+1F5BC ; 7.0 # 🖼 framed picture
+1F5C2 ; 7.0 # 🗂 card index dividers
+1F5C3 ; 7.0 # 🗃 card file box
+1F5C4 ; 7.0 # 🗄 file cabinet
+1F5D1 ; 7.0 # 🗑 wastebasket
+1F5D2 ; 7.0 # 🗒 spiral notepad
+1F5D3 ; 7.0 # 🗓 spiral calendar
+1F5DC ; 7.0 # 🗜 clamp
+1F5DD ; 7.0 # 🗝 old key
+1F5DE ; 7.0 # 🗞 rolled-up newspaper
+1F5E1 ; 7.0 # 🗡 dagger
+1F5E3 ; 7.0 # 🗣 speaking head
+1F5E8 ; 7.0 # 🗨 left speech bubble
+1F5EF ; 7.0 # 🗯 right anger bubble
+1F5F3 ; 7.0 # 🗳 ballot box with ballot
+1F5FA ; 7.0 # 🗺 world map
+1F5FB ; 6.0 # 🗻 mount fuji
+1F5FC ; 6.0 # 🗼 Tokyo tower
+1F5FD ; 6.0 # 🗽 Statue of Liberty
+1F5FE ; 6.0 # 🗾 map of Japan
+1F5FF ; 6.0 # 🗿 moai
+1F600 ; 6.1 # 😀 grinning face
+1F601 ; 6.0 # 😁 beaming face with smiling eyes
+1F602 ; 6.0 # 😂 face with tears of joy
+1F603 ; 6.0 # 😃 grinning face with big eyes
+1F604 ; 6.0 # 😄 grinning face with smiling eyes
+1F605 ; 6.0 # 😅 grinning face with sweat
+1F606 ; 6.0 # 😆 grinning squinting face
+1F607 ; 6.0 # 😇 smiling face with halo
+1F608 ; 6.0 # 😈 smiling face with horns
+1F609 ; 6.0 # 😉 winking face
+1F60A ; 6.0 # 😊 smiling face with smiling eyes
+1F60B ; 6.0 # 😋 face savoring food
+1F60C ; 6.0 # 😌 relieved face
+1F60D ; 6.0 # 😍 smiling face with heart-eyes
+1F60E ; 6.0 # 😎 smiling face with sunglasses
+1F60F ; 6.0 # 😏 smirking face
+1F610 ; 6.0 # 😐 neutral face
+1F611 ; 6.1 # 😑 expressionless face
+1F612 ; 6.0 # 😒 unamused face
+1F613 ; 6.0 # 😓 downcast face with sweat
+1F614 ; 6.0 # 😔 pensive face
+1F615 ; 6.1 # 😕 confused face
+1F616 ; 6.0 # 😖 confounded face
+1F617 ; 6.1 # 😗 kissing face
+1F618 ; 6.0 # 😘 face blowing a kiss
+1F619 ; 6.1 # 😙 kissing face with smiling eyes
+1F61A ; 6.0 # 😚 kissing face with closed eyes
+1F61B ; 6.1 # 😛 face with tongue
+1F61C ; 6.0 # 😜 winking face with tongue
+1F61D ; 6.0 # 😝 squinting face with tongue
+1F61E ; 6.0 # 😞 disappointed face
+1F61F ; 6.1 # 😟 worried face
+1F620 ; 6.0 # 😠 angry face
+1F621 ; 6.0 # 😡 pouting face
+1F622 ; 6.0 # 😢 crying face
+1F623 ; 6.0 # 😣 persevering face
+1F624 ; 6.0 # 😤 face with steam from nose
+1F625 ; 6.0 # 😥 sad but relieved face
+1F626 ; 6.1 # 😦 frowning face with open mouth
+1F627 ; 6.1 # 😧 anguished face
+1F628 ; 6.0 # 😨 fearful face
+1F629 ; 6.0 # 😩 weary face
+1F62A ; 6.0 # 😪 sleepy face
+1F62B ; 6.0 # 😫 tired face
+1F62C ; 6.1 # 😬 grimacing face
+1F62D ; 6.0 # 😭 loudly crying face
+1F62E ; 6.1 # 😮 face with open mouth
+1F62F ; 6.1 # 😯 hushed face
+1F630 ; 6.0 # 😰 anxious face with sweat
+1F631 ; 6.0 # 😱 face screaming in fear
+1F632 ; 6.0 # 😲 astonished face
+1F633 ; 6.0 # 😳 flushed face
+1F634 ; 6.1 # 😴 sleeping face
+1F635 ; 6.0 # 😵 dizzy face
+1F636 ; 6.0 # 😶 face without mouth
+1F637 ; 6.0 # 😷 face with medical mask
+1F638 ; 6.0 # 😸 grinning cat face with smiling eyes
+1F639 ; 6.0 # 😹 cat face with tears of joy
+1F63A ; 6.0 # 😺 grinning cat face
+1F63B ; 6.0 # 😻 smiling cat face with heart-eyes
+1F63C ; 6.0 # 😼 cat face with wry smile
+1F63D ; 6.0 # 😽 kissing cat face
+1F63E ; 6.0 # 😾 pouting cat face
+1F63F ; 6.0 # 😿 crying cat face
+1F640 ; 6.0 # 🙀 weary cat face
+1F641 ; 7.0 # 🙁 slightly frowning face
+1F642 ; 7.0 # 🙂 slightly smiling face
+1F643 ; 8.0 # 🙃 upside-down face
+1F644 ; 8.0 # 🙄 face with rolling eyes
+1F645 ; 6.0 # 🙅 person gesturing NO
+1F645,1F3FB ; 8.0 # 🙅🏻 person gesturing NO: light skin tone
+1F645,1F3FB,200D,2640,FE0F ; 8.0 # 🙅🏻‍♀️ woman gesturing NO: light skin tone
+1F645,1F3FB,200D,2642,FE0F ; 8.0 # 🙅🏻‍♂️ man gesturing NO: light skin tone
+1F645,1F3FC ; 8.0 # 🙅🏼 person gesturing NO: medium-light skin tone
+1F645,1F3FC,200D,2640,FE0F ; 8.0 # 🙅🏼‍♀️ woman gesturing NO: medium-light skin tone
+1F645,1F3FC,200D,2642,FE0F ; 8.0 # 🙅🏼‍♂️ man gesturing NO: medium-light skin tone
+1F645,1F3FD ; 8.0 # 🙅🏽 person gesturing NO: medium skin tone
+1F645,1F3FD,200D,2640,FE0F ; 8.0 # 🙅🏽‍♀️ woman gesturing NO: medium skin tone
+1F645,1F3FD,200D,2642,FE0F ; 8.0 # 🙅🏽‍♂️ man gesturing NO: medium skin tone
+1F645,1F3FE ; 8.0 # 🙅🏾 person gesturing NO: medium-dark skin tone
+1F645,1F3FE,200D,2640,FE0F ; 8.0 # 🙅🏾‍♀️ woman gesturing NO: medium-dark skin tone
+1F645,1F3FE,200D,2642,FE0F ; 8.0 # 🙅🏾‍♂️ man gesturing NO: medium-dark skin tone
+1F645,1F3FF ; 8.0 # 🙅🏿 person gesturing NO: dark skin tone
+1F645,1F3FF,200D,2640,FE0F ; 8.0 # 🙅🏿‍♀️ woman gesturing NO: dark skin tone
+1F645,1F3FF,200D,2642,FE0F ; 8.0 # 🙅🏿‍♂️ man gesturing NO: dark skin tone
+1F645,200D,2640,FE0F ; 6.0 # 🙅‍♀️ woman gesturing NO
+1F645,200D,2642,FE0F ; 6.0 # 🙅‍♂️ man gesturing NO
+1F646 ; 6.0 # 🙆 person gesturing OK
+1F646,1F3FB ; 8.0 # 🙆🏻 person gesturing OK: light skin tone
+1F646,1F3FB,200D,2640,FE0F ; 8.0 # 🙆🏻‍♀️ woman gesturing OK: light skin tone
+1F646,1F3FB,200D,2642,FE0F ; 8.0 # 🙆🏻‍♂️ man gesturing OK: light skin tone
+1F646,1F3FC ; 8.0 # 🙆🏼 person gesturing OK: medium-light skin tone
+1F646,1F3FC,200D,2640,FE0F ; 8.0 # 🙆🏼‍♀️ woman gesturing OK: medium-light skin tone
+1F646,1F3FC,200D,2642,FE0F ; 8.0 # 🙆🏼‍♂️ man gesturing OK: medium-light skin tone
+1F646,1F3FD ; 8.0 # 🙆🏽 person gesturing OK: medium skin tone
+1F646,1F3FD,200D,2640,FE0F ; 8.0 # 🙆🏽‍♀️ woman gesturing OK: medium skin tone
+1F646,1F3FD,200D,2642,FE0F ; 8.0 # 🙆🏽‍♂️ man gesturing OK: medium skin tone
+1F646,1F3FE ; 8.0 # 🙆🏾 person gesturing OK: medium-dark skin tone
+1F646,1F3FE,200D,2640,FE0F ; 8.0 # 🙆🏾‍♀️ woman gesturing OK: medium-dark skin tone
+1F646,1F3FE,200D,2642,FE0F ; 8.0 # 🙆🏾‍♂️ man gesturing OK: medium-dark skin tone
+1F646,1F3FF ; 8.0 # 🙆🏿 person gesturing OK: dark skin tone
+1F646,1F3FF,200D,2640,FE0F ; 8.0 # 🙆🏿‍♀️ woman gesturing OK: dark skin tone
+1F646,1F3FF,200D,2642,FE0F ; 8.0 # 🙆🏿‍♂️ man gesturing OK: dark skin tone
+1F646,200D,2640,FE0F ; 6.0 # 🙆‍♀️ woman gesturing OK
+1F646,200D,2642,FE0F ; 6.0 # 🙆‍♂️ man gesturing OK
+1F647 ; 6.0 # 🙇 person bowing
+1F647,1F3FB ; 8.0 # 🙇🏻 person bowing: light skin tone
+1F647,1F3FB,200D,2640,FE0F ; 8.0 # 🙇🏻‍♀️ woman bowing: light skin tone
+1F647,1F3FB,200D,2642,FE0F ; 8.0 # 🙇🏻‍♂️ man bowing: light skin tone
+1F647,1F3FC ; 8.0 # 🙇🏼 person bowing: medium-light skin tone
+1F647,1F3FC,200D,2640,FE0F ; 8.0 # 🙇🏼‍♀️ woman bowing: medium-light skin tone
+1F647,1F3FC,200D,2642,FE0F ; 8.0 # 🙇🏼‍♂️ man bowing: medium-light skin tone
+1F647,1F3FD ; 8.0 # 🙇🏽 person bowing: medium skin tone
+1F647,1F3FD,200D,2640,FE0F ; 8.0 # 🙇🏽‍♀️ woman bowing: medium skin tone
+1F647,1F3FD,200D,2642,FE0F ; 8.0 # 🙇🏽‍♂️ man bowing: medium skin tone
+1F647,1F3FE ; 8.0 # 🙇🏾 person bowing: medium-dark skin tone
+1F647,1F3FE,200D,2640,FE0F ; 8.0 # 🙇🏾‍♀️ woman bowing: medium-dark skin tone
+1F647,1F3FE,200D,2642,FE0F ; 8.0 # 🙇🏾‍♂️ man bowing: medium-dark skin tone
+1F647,1F3FF ; 8.0 # 🙇🏿 person bowing: dark skin tone
+1F647,1F3FF,200D,2640,FE0F ; 8.0 # 🙇🏿‍♀️ woman bowing: dark skin tone
+1F647,1F3FF,200D,2642,FE0F ; 8.0 # 🙇🏿‍♂️ man bowing: dark skin tone
+1F647,200D,2640,FE0F ; 6.0 # 🙇‍♀️ woman bowing
+1F647,200D,2642,FE0F ; 6.0 # 🙇‍♂️ man bowing
+1F648 ; 6.0 # 🙈 see-no-evil monkey
+1F649 ; 6.0 # 🙉 hear-no-evil monkey
+1F64A ; 6.0 # 🙊 speak-no-evil monkey
+1F64B ; 6.0 # 🙋 person raising hand
+1F64B,1F3FB ; 8.0 # 🙋🏻 person raising hand: light skin tone
+1F64B,1F3FB,200D,2640,FE0F ; 8.0 # 🙋🏻‍♀️ woman raising hand: light skin tone
+1F64B,1F3FB,200D,2642,FE0F ; 8.0 # 🙋🏻‍♂️ man raising hand: light skin tone
+1F64B,1F3FC ; 8.0 # 🙋🏼 person raising hand: medium-light skin tone
+1F64B,1F3FC,200D,2640,FE0F ; 8.0 # 🙋🏼‍♀️ woman raising hand: medium-light skin tone
+1F64B,1F3FC,200D,2642,FE0F ; 8.0 # 🙋🏼‍♂️ man raising hand: medium-light skin tone
+1F64B,1F3FD ; 8.0 # 🙋🏽 person raising hand: medium skin tone
+1F64B,1F3FD,200D,2640,FE0F ; 8.0 # 🙋🏽‍♀️ woman raising hand: medium skin tone
+1F64B,1F3FD,200D,2642,FE0F ; 8.0 # 🙋🏽‍♂️ man raising hand: medium skin tone
+1F64B,1F3FE ; 8.0 # 🙋🏾 person raising hand: medium-dark skin tone
+1F64B,1F3FE,200D,2640,FE0F ; 8.0 # 🙋🏾‍♀️ woman raising hand: medium-dark skin tone
+1F64B,1F3FE,200D,2642,FE0F ; 8.0 # 🙋🏾‍♂️ man raising hand: medium-dark skin tone
+1F64B,1F3FF ; 8.0 # 🙋🏿 person raising hand: dark skin tone
+1F64B,1F3FF,200D,2640,FE0F ; 8.0 # 🙋🏿‍♀️ woman raising hand: dark skin tone
+1F64B,1F3FF,200D,2642,FE0F ; 8.0 # 🙋🏿‍♂️ man raising hand: dark skin tone
+1F64B,200D,2640,FE0F ; 6.0 # 🙋‍♀️ woman raising hand
+1F64B,200D,2642,FE0F ; 6.0 # 🙋‍♂️ man raising hand
+1F64C ; 6.0 # 🙌 raising hands
+1F64C,1F3FB ; 8.0 # 🙌🏻 raising hands: light skin tone
+1F64C,1F3FC ; 8.0 # 🙌🏼 raising hands: medium-light skin tone
+1F64C,1F3FD ; 8.0 # 🙌🏽 raising hands: medium skin tone
+1F64C,1F3FE ; 8.0 # 🙌🏾 raising hands: medium-dark skin tone
+1F64C,1F3FF ; 8.0 # 🙌🏿 raising hands: dark skin tone
+1F64D ; 6.0 # 🙍 person frowning
+1F64D,1F3FB ; 8.0 # 🙍🏻 person frowning: light skin tone
+1F64D,1F3FB,200D,2640,FE0F ; 8.0 # 🙍🏻‍♀️ woman frowning: light skin tone
+1F64D,1F3FB,200D,2642,FE0F ; 8.0 # 🙍🏻‍♂️ man frowning: light skin tone
+1F64D,1F3FC ; 8.0 # 🙍🏼 person frowning: medium-light skin tone
+1F64D,1F3FC,200D,2640,FE0F ; 8.0 # 🙍🏼‍♀️ woman frowning: medium-light skin tone
+1F64D,1F3FC,200D,2642,FE0F ; 8.0 # 🙍🏼‍♂️ man frowning: medium-light skin tone
+1F64D,1F3FD ; 8.0 # 🙍🏽 person frowning: medium skin tone
+1F64D,1F3FD,200D,2640,FE0F ; 8.0 # 🙍🏽‍♀️ woman frowning: medium skin tone
+1F64D,1F3FD,200D,2642,FE0F ; 8.0 # 🙍🏽‍♂️ man frowning: medium skin tone
+1F64D,1F3FE ; 8.0 # 🙍🏾 person frowning: medium-dark skin tone
+1F64D,1F3FE,200D,2640,FE0F ; 8.0 # 🙍🏾‍♀️ woman frowning: medium-dark skin tone
+1F64D,1F3FE,200D,2642,FE0F ; 8.0 # 🙍🏾‍♂️ man frowning: medium-dark skin tone
+1F64D,1F3FF ; 8.0 # 🙍🏿 person frowning: dark skin tone
+1F64D,1F3FF,200D,2640,FE0F ; 8.0 # 🙍🏿‍♀️ woman frowning: dark skin tone
+1F64D,1F3FF,200D,2642,FE0F ; 8.0 # 🙍🏿‍♂️ man frowning: dark skin tone
+1F64D,200D,2640,FE0F ; 6.0 # 🙍‍♀️ woman frowning
+1F64D,200D,2642,FE0F ; 6.0 # 🙍‍♂️ man frowning
+1F64E ; 6.0 # 🙎 person pouting
+1F64E,1F3FB ; 8.0 # 🙎🏻 person pouting: light skin tone
+1F64E,1F3FB,200D,2640,FE0F ; 8.0 # 🙎🏻‍♀️ woman pouting: light skin tone
+1F64E,1F3FB,200D,2642,FE0F ; 8.0 # 🙎🏻‍♂️ man pouting: light skin tone
+1F64E,1F3FC ; 8.0 # 🙎🏼 person pouting: medium-light skin tone
+1F64E,1F3FC,200D,2640,FE0F ; 8.0 # 🙎🏼‍♀️ woman pouting: medium-light skin tone
+1F64E,1F3FC,200D,2642,FE0F ; 8.0 # 🙎🏼‍♂️ man pouting: medium-light skin tone
+1F64E,1F3FD ; 8.0 # 🙎🏽 person pouting: medium skin tone
+1F64E,1F3FD,200D,2640,FE0F ; 8.0 # 🙎🏽‍♀️ woman pouting: medium skin tone
+1F64E,1F3FD,200D,2642,FE0F ; 8.0 # 🙎🏽‍♂️ man pouting: medium skin tone
+1F64E,1F3FE ; 8.0 # 🙎🏾 person pouting: medium-dark skin tone
+1F64E,1F3FE,200D,2640,FE0F ; 8.0 # 🙎🏾‍♀️ woman pouting: medium-dark skin tone
+1F64E,1F3FE,200D,2642,FE0F ; 8.0 # 🙎🏾‍♂️ man pouting: medium-dark skin tone
+1F64E,1F3FF ; 8.0 # 🙎🏿 person pouting: dark skin tone
+1F64E,1F3FF,200D,2640,FE0F ; 8.0 # 🙎🏿‍♀️ woman pouting: dark skin tone
+1F64E,1F3FF,200D,2642,FE0F ; 8.0 # 🙎🏿‍♂️ man pouting: dark skin tone
+1F64E,200D,2640,FE0F ; 6.0 # 🙎‍♀️ woman pouting
+1F64E,200D,2642,FE0F ; 6.0 # 🙎‍♂️ man pouting
+1F64F ; 6.0 # 🙏 folded hands
+1F64F,1F3FB ; 8.0 # 🙏🏻 folded hands: light skin tone
+1F64F,1F3FC ; 8.0 # 🙏🏼 folded hands: medium-light skin tone
+1F64F,1F3FD ; 8.0 # 🙏🏽 folded hands: medium skin tone
+1F64F,1F3FE ; 8.0 # 🙏🏾 folded hands: medium-dark skin tone
+1F64F,1F3FF ; 8.0 # 🙏🏿 folded hands: dark skin tone
+1F680 ; 6.0 # 🚀 rocket
+1F681 ; 6.0 # 🚁 helicopter
+1F682 ; 6.0 # 🚂 locomotive
+1F683 ; 6.0 # 🚃 railway car
+1F684 ; 6.0 # 🚄 high-speed train
+1F685 ; 6.0 # 🚅 bullet train
+1F686 ; 6.0 # 🚆 train
+1F687 ; 6.0 # 🚇 metro
+1F688 ; 6.0 # 🚈 light rail
+1F689 ; 6.0 # 🚉 station
+1F68A ; 6.0 # 🚊 tram
+1F68B ; 6.0 # 🚋 tram car
+1F68C ; 6.0 # 🚌 bus
+1F68D ; 6.0 # 🚍 oncoming bus
+1F68E ; 6.0 # 🚎 trolleybus
+1F68F ; 6.0 # 🚏 bus stop
+1F690 ; 6.0 # 🚐 minibus
+1F691 ; 6.0 # 🚑 ambulance
+1F692 ; 6.0 # 🚒 fire engine
+1F693 ; 6.0 # 🚓 police car
+1F694 ; 6.0 # 🚔 oncoming police car
+1F695 ; 6.0 # 🚕 taxi
+1F696 ; 6.0 # 🚖 oncoming taxi
+1F697 ; 6.0 # 🚗 automobile
+1F698 ; 6.0 # 🚘 oncoming automobile
+1F699 ; 6.0 # 🚙 sport utility vehicle
+1F69A ; 6.0 # 🚚 delivery truck
+1F69B ; 6.0 # 🚛 articulated lorry
+1F69C ; 6.0 # 🚜 tractor
+1F69D ; 6.0 # 🚝 monorail
+1F69E ; 6.0 # 🚞 mountain railway
+1F69F ; 6.0 # 🚟 suspension railway
+1F6A0 ; 6.0 # 🚠 mountain cableway
+1F6A1 ; 6.0 # 🚡 aerial tramway
+1F6A2 ; 6.0 # 🚢 ship
+1F6A3 ; 6.0 # 🚣 person rowing boat
+1F6A3,1F3FB ; 8.0 # 🚣🏻 person rowing boat: light skin tone
+1F6A3,1F3FB,200D,2640,FE0F ; 8.0 # 🚣🏻‍♀️ woman rowing boat: light skin tone
+1F6A3,1F3FB,200D,2642,FE0F ; 8.0 # 🚣🏻‍♂️ man rowing boat: light skin tone
+1F6A3,1F3FC ; 8.0 # 🚣🏼 person rowing boat: medium-light skin tone
+1F6A3,1F3FC,200D,2640,FE0F ; 8.0 # 🚣🏼‍♀️ woman rowing boat: medium-light skin tone
+1F6A3,1F3FC,200D,2642,FE0F ; 8.0 # 🚣🏼‍♂️ man rowing boat: medium-light skin tone
+1F6A3,1F3FD ; 8.0 # 🚣🏽 person rowing boat: medium skin tone
+1F6A3,1F3FD,200D,2640,FE0F ; 8.0 # 🚣🏽‍♀️ woman rowing boat: medium skin tone
+1F6A3,1F3FD,200D,2642,FE0F ; 8.0 # 🚣🏽‍♂️ man rowing boat: medium skin tone
+1F6A3,1F3FE ; 8.0 # 🚣🏾 person rowing boat: medium-dark skin tone
+1F6A3,1F3FE,200D,2640,FE0F ; 8.0 # 🚣🏾‍♀️ woman rowing boat: medium-dark skin tone
+1F6A3,1F3FE,200D,2642,FE0F ; 8.0 # 🚣🏾‍♂️ man rowing boat: medium-dark skin tone
+1F6A3,1F3FF ; 8.0 # 🚣🏿 person rowing boat: dark skin tone
+1F6A3,1F3FF,200D,2640,FE0F ; 8.0 # 🚣🏿‍♀️ woman rowing boat: dark skin tone
+1F6A3,1F3FF,200D,2642,FE0F ; 8.0 # 🚣🏿‍♂️ man rowing boat: dark skin tone
+1F6A3,200D,2640,FE0F ; 6.0 # 🚣‍♀️ woman rowing boat
+1F6A3,200D,2642,FE0F ; 6.0 # 🚣‍♂️ man rowing boat
+1F6A4 ; 6.0 # 🚤 speedboat
+1F6A5 ; 6.0 # 🚥 horizontal traffic light
+1F6A6 ; 6.0 # 🚦 vertical traffic light
+1F6A7 ; 6.0 # 🚧 construction
+1F6A8 ; 6.0 # 🚨 police car light
+1F6A9 ; 6.0 # 🚩 triangular flag
+1F6AA ; 6.0 # 🚪 door
+1F6AB ; 6.0 # 🚫 prohibited
+1F6AC ; 6.0 # 🚬 cigarette
+1F6AD ; 6.0 # 🚭 no smoking
+1F6AE ; 6.0 # 🚮 litter in bin sign
+1F6AF ; 6.0 # 🚯 no littering
+1F6B0 ; 6.0 # 🚰 potable water
+1F6B1 ; 6.0 # 🚱 non-potable water
+1F6B2 ; 6.0 # 🚲 bicycle
+1F6B3 ; 6.0 # 🚳 no bicycles
+1F6B4 ; 6.0 # 🚴 person biking
+1F6B4,1F3FB ; 8.0 # 🚴🏻 person biking: light skin tone
+1F6B4,1F3FB,200D,2640,FE0F ; 8.0 # 🚴🏻‍♀️ woman biking: light skin tone
+1F6B4,1F3FB,200D,2642,FE0F ; 8.0 # 🚴🏻‍♂️ man biking: light skin tone
+1F6B4,1F3FC ; 8.0 # 🚴🏼 person biking: medium-light skin tone
+1F6B4,1F3FC,200D,2640,FE0F ; 8.0 # 🚴🏼‍♀️ woman biking: medium-light skin tone
+1F6B4,1F3FC,200D,2642,FE0F ; 8.0 # 🚴🏼‍♂️ man biking: medium-light skin tone
+1F6B4,1F3FD ; 8.0 # 🚴🏽 person biking: medium skin tone
+1F6B4,1F3FD,200D,2640,FE0F ; 8.0 # 🚴🏽‍♀️ woman biking: medium skin tone
+1F6B4,1F3FD,200D,2642,FE0F ; 8.0 # 🚴🏽‍♂️ man biking: medium skin tone
+1F6B4,1F3FE ; 8.0 # 🚴🏾 person biking: medium-dark skin tone
+1F6B4,1F3FE,200D,2640,FE0F ; 8.0 # 🚴🏾‍♀️ woman biking: medium-dark skin tone
+1F6B4,1F3FE,200D,2642,FE0F ; 8.0 # 🚴🏾‍♂️ man biking: medium-dark skin tone
+1F6B4,1F3FF ; 8.0 # 🚴🏿 person biking: dark skin tone
+1F6B4,1F3FF,200D,2640,FE0F ; 8.0 # 🚴🏿‍♀️ woman biking: dark skin tone
+1F6B4,1F3FF,200D,2642,FE0F ; 8.0 # 🚴🏿‍♂️ man biking: dark skin tone
+1F6B4,200D,2640,FE0F ; 6.0 # 🚴‍♀️ woman biking
+1F6B4,200D,2642,FE0F ; 6.0 # 🚴‍♂️ man biking
+1F6B5 ; 6.0 # 🚵 person mountain biking
+1F6B5,1F3FB ; 8.0 # 🚵🏻 person mountain biking: light skin tone
+1F6B5,1F3FB,200D,2640,FE0F ; 8.0 # 🚵🏻‍♀️ woman mountain biking: light skin tone
+1F6B5,1F3FB,200D,2642,FE0F ; 8.0 # 🚵🏻‍♂️ man mountain biking: light skin tone
+1F6B5,1F3FC ; 8.0 # 🚵🏼 person mountain biking: medium-light skin tone
+1F6B5,1F3FC,200D,2640,FE0F ; 8.0 # 🚵🏼‍♀️ woman mountain biking: medium-light skin tone
+1F6B5,1F3FC,200D,2642,FE0F ; 8.0 # 🚵🏼‍♂️ man mountain biking: medium-light skin tone
+1F6B5,1F3FD ; 8.0 # 🚵🏽 person mountain biking: medium skin tone
+1F6B5,1F3FD,200D,2640,FE0F ; 8.0 # 🚵🏽‍♀️ woman mountain biking: medium skin tone
+1F6B5,1F3FD,200D,2642,FE0F ; 8.0 # 🚵🏽‍♂️ man mountain biking: medium skin tone
+1F6B5,1F3FE ; 8.0 # 🚵🏾 person mountain biking: medium-dark skin tone
+1F6B5,1F3FE,200D,2640,FE0F ; 8.0 # 🚵🏾‍♀️ woman mountain biking: medium-dark skin tone
+1F6B5,1F3FE,200D,2642,FE0F ; 8.0 # 🚵🏾‍♂️ man mountain biking: medium-dark skin tone
+1F6B5,1F3FF ; 8.0 # 🚵🏿 person mountain biking: dark skin tone
+1F6B5,1F3FF,200D,2640,FE0F ; 8.0 # 🚵🏿‍♀️ woman mountain biking: dark skin tone
+1F6B5,1F3FF,200D,2642,FE0F ; 8.0 # 🚵🏿‍♂️ man mountain biking: dark skin tone
+1F6B5,200D,2640,FE0F ; 6.0 # 🚵‍♀️ woman mountain biking
+1F6B5,200D,2642,FE0F ; 6.0 # 🚵‍♂️ man mountain biking
+1F6B6 ; 6.0 # 🚶 person walking
+1F6B6,1F3FB ; 8.0 # 🚶🏻 person walking: light skin tone
+1F6B6,1F3FB,200D,2640,FE0F ; 8.0 # 🚶🏻‍♀️ woman walking: light skin tone
+1F6B6,1F3FB,200D,2642,FE0F ; 8.0 # 🚶🏻‍♂️ man walking: light skin tone
+1F6B6,1F3FC ; 8.0 # 🚶🏼 person walking: medium-light skin tone
+1F6B6,1F3FC,200D,2640,FE0F ; 8.0 # 🚶🏼‍♀️ woman walking: medium-light skin tone
+1F6B6,1F3FC,200D,2642,FE0F ; 8.0 # 🚶🏼‍♂️ man walking: medium-light skin tone
+1F6B6,1F3FD ; 8.0 # 🚶🏽 person walking: medium skin tone
+1F6B6,1F3FD,200D,2640,FE0F ; 8.0 # 🚶🏽‍♀️ woman walking: medium skin tone
+1F6B6,1F3FD,200D,2642,FE0F ; 8.0 # 🚶🏽‍♂️ man walking: medium skin tone
+1F6B6,1F3FE ; 8.0 # 🚶🏾 person walking: medium-dark skin tone
+1F6B6,1F3FE,200D,2640,FE0F ; 8.0 # 🚶🏾‍♀️ woman walking: medium-dark skin tone
+1F6B6,1F3FE,200D,2642,FE0F ; 8.0 # 🚶🏾‍♂️ man walking: medium-dark skin tone
+1F6B6,1F3FF ; 8.0 # 🚶🏿 person walking: dark skin tone
+1F6B6,1F3FF,200D,2640,FE0F ; 8.0 # 🚶🏿‍♀️ woman walking: dark skin tone
+1F6B6,1F3FF,200D,2642,FE0F ; 8.0 # 🚶🏿‍♂️ man walking: dark skin tone
+1F6B6,200D,2640,FE0F ; 6.0 # 🚶‍♀️ woman walking
+1F6B6,200D,2642,FE0F ; 6.0 # 🚶‍♂️ man walking
+1F6B7 ; 6.0 # 🚷 no pedestrians
+1F6B8 ; 6.0 # 🚸 children crossing
+1F6B9 ; 6.0 # 🚹 men’s room
+1F6BA ; 6.0 # 🚺 women’s room
+1F6BB ; 6.0 # 🚻 restroom
+1F6BC ; 6.0 # 🚼 baby symbol
+1F6BD ; 6.0 # 🚽 toilet
+1F6BE ; 6.0 # 🚾 water closet
+1F6BF ; 6.0 # 🚿 shower
+1F6C0 ; 6.0 # 🛀 person taking bath
+1F6C0,1F3FB ; 8.0 # 🛀🏻 person taking bath: light skin tone
+1F6C0,1F3FC ; 8.0 # 🛀🏼 person taking bath: medium-light skin tone
+1F6C0,1F3FD ; 8.0 # 🛀🏽 person taking bath: medium skin tone
+1F6C0,1F3FE ; 8.0 # 🛀🏾 person taking bath: medium-dark skin tone
+1F6C0,1F3FF ; 8.0 # 🛀🏿 person taking bath: dark skin tone
+1F6C1 ; 6.0 # 🛁 bathtub
+1F6C2 ; 6.0 # 🛂 passport control
+1F6C3 ; 6.0 # 🛃 customs
+1F6C4 ; 6.0 # 🛄 baggage claim
+1F6C5 ; 6.0 # 🛅 left luggage
+1F6CB ; 7.0 # 🛋 couch and lamp
+1F6CC ; 7.0 # 🛌 person in bed
+1F6CC,1F3FB ; 8.0 # 🛌🏻 person in bed: light skin tone
+1F6CC,1F3FC ; 8.0 # 🛌🏼 person in bed: medium-light skin tone
+1F6CC,1F3FD ; 8.0 # 🛌🏽 person in bed: medium skin tone
+1F6CC,1F3FE ; 8.0 # 🛌🏾 person in bed: medium-dark skin tone
+1F6CC,1F3FF ; 8.0 # 🛌🏿 person in bed: dark skin tone
+1F6CD ; 7.0 # 🛍 shopping bags
+1F6CE ; 7.0 # 🛎 bellhop bell
+1F6CF ; 7.0 # 🛏 bed
+1F6D0 ; 8.0 # 🛐 place of worship
+1F6D1 ; 9.0 # 🛑 stop sign
+1F6D2 ; 9.0 # 🛒 shopping cart
+1F6E0 ; 7.0 # 🛠 hammer and wrench
+1F6E1 ; 7.0 # 🛡 shield
+1F6E2 ; 7.0 # 🛢 oil drum
+1F6E3 ; 7.0 # 🛣 motorway
+1F6E4 ; 7.0 # 🛤 railway track
+1F6E5 ; 7.0 # 🛥 motor boat
+1F6E9 ; 7.0 # 🛩 small airplane
+1F6EB ; 7.0 # 🛫 airplane departure
+1F6EC ; 7.0 # 🛬 airplane arrival
+1F6F0 ; 7.0 # 🛰 satellite
+1F6F3 ; 7.0 # 🛳 passenger ship
+1F6F4 ; 9.0 # 🛴 kick scooter
+1F6F5 ; 9.0 # 🛵 motor scooter
+1F6F6 ; 9.0 # 🛶 canoe
+1F6F7 ; 10.0 # 🛷 sled
+1F6F8 ; 10.0 # 🛸 flying saucer
+1F910 ; 8.0 # 🤐 zipper-mouth face
+1F911 ; 8.0 # 🤑 money-mouth face
+1F912 ; 8.0 # 🤒 face with thermometer
+1F913 ; 8.0 # 🤓 nerd face
+1F914 ; 8.0 # 🤔 thinking face
+1F915 ; 8.0 # 🤕 face with head-bandage
+1F916 ; 8.0 # 🤖 robot face
+1F917 ; 8.0 # 🤗 hugging face
+1F918 ; 8.0 # 🤘 sign of the horns
+1F918,1F3FB ; 8.0 # 🤘🏻 sign of the horns: light skin tone
+1F918,1F3FC ; 8.0 # 🤘🏼 sign of the horns: medium-light skin tone
+1F918,1F3FD ; 8.0 # 🤘🏽 sign of the horns: medium skin tone
+1F918,1F3FE ; 8.0 # 🤘🏾 sign of the horns: medium-dark skin tone
+1F918,1F3FF ; 8.0 # 🤘🏿 sign of the horns: dark skin tone
+1F919 ; 9.0 # 🤙 call me hand
+1F919,1F3FB ; 9.0 # 🤙🏻 call me hand: light skin tone
+1F919,1F3FC ; 9.0 # 🤙🏼 call me hand: medium-light skin tone
+1F919,1F3FD ; 9.0 # 🤙🏽 call me hand: medium skin tone
+1F919,1F3FE ; 9.0 # 🤙🏾 call me hand: medium-dark skin tone
+1F919,1F3FF ; 9.0 # 🤙🏿 call me hand: dark skin tone
+1F91A ; 9.0 # 🤚 raised back of hand
+1F91A,1F3FB ; 9.0 # 🤚🏻 raised back of hand: light skin tone
+1F91A,1F3FC ; 9.0 # 🤚🏼 raised back of hand: medium-light skin tone
+1F91A,1F3FD ; 9.0 # 🤚🏽 raised back of hand: medium skin tone
+1F91A,1F3FE ; 9.0 # 🤚🏾 raised back of hand: medium-dark skin tone
+1F91A,1F3FF ; 9.0 # 🤚🏿 raised back of hand: dark skin tone
+1F91B ; 9.0 # 🤛 left-facing fist
+1F91B,1F3FB ; 9.0 # 🤛🏻 left-facing fist: light skin tone
+1F91B,1F3FC ; 9.0 # 🤛🏼 left-facing fist: medium-light skin tone
+1F91B,1F3FD ; 9.0 # 🤛🏽 left-facing fist: medium skin tone
+1F91B,1F3FE ; 9.0 # 🤛🏾 left-facing fist: medium-dark skin tone
+1F91B,1F3FF ; 9.0 # 🤛🏿 left-facing fist: dark skin tone
+1F91C ; 9.0 # 🤜 right-facing fist
+1F91C,1F3FB ; 9.0 # 🤜🏻 right-facing fist: light skin tone
+1F91C,1F3FC ; 9.0 # 🤜🏼 right-facing fist: medium-light skin tone
+1F91C,1F3FD ; 9.0 # 🤜🏽 right-facing fist: medium skin tone
+1F91C,1F3FE ; 9.0 # 🤜🏾 right-facing fist: medium-dark skin tone
+1F91C,1F3FF ; 9.0 # 🤜🏿 right-facing fist: dark skin tone
+1F91D ; 9.0 # 🤝 handshake
+1F91E ; 9.0 # 🤞 crossed fingers
+1F91E,1F3FB ; 9.0 # 🤞🏻 crossed fingers: light skin tone
+1F91E,1F3FC ; 9.0 # 🤞🏼 crossed fingers: medium-light skin tone
+1F91E,1F3FD ; 9.0 # 🤞🏽 crossed fingers: medium skin tone
+1F91E,1F3FE ; 9.0 # 🤞🏾 crossed fingers: medium-dark skin tone
+1F91E,1F3FF ; 9.0 # 🤞🏿 crossed fingers: dark skin tone
+1F91F ; 10.0 # 🤟 love-you gesture
+1F91F,1F3FB ; 10.0 # 🤟🏻 love-you gesture: light skin tone
+1F91F,1F3FC ; 10.0 # 🤟🏼 love-you gesture: medium-light skin tone
+1F91F,1F3FD ; 10.0 # 🤟🏽 love-you gesture: medium skin tone
+1F91F,1F3FE ; 10.0 # 🤟🏾 love-you gesture: medium-dark skin tone
+1F91F,1F3FF ; 10.0 # 🤟🏿 love-you gesture: dark skin tone
+1F920 ; 9.0 # 🤠 cowboy hat face
+1F921 ; 9.0 # 🤡 clown face
+1F922 ; 9.0 # 🤢 nauseated face
+1F923 ; 9.0 # 🤣 rolling on the floor laughing
+1F924 ; 9.0 # 🤤 drooling face
+1F925 ; 9.0 # 🤥 lying face
+1F926 ; 9.0 # 🤦 person facepalming
+1F926,1F3FB ; 9.0 # 🤦🏻 person facepalming: light skin tone
+1F926,1F3FB,200D,2640,FE0F ; 9.0 # 🤦🏻‍♀️ woman facepalming: light skin tone
+1F926,1F3FB,200D,2642,FE0F ; 9.0 # 🤦🏻‍♂️ man facepalming: light skin tone
+1F926,1F3FC ; 9.0 # 🤦🏼 person facepalming: medium-light skin tone
+1F926,1F3FC,200D,2640,FE0F ; 9.0 # 🤦🏼‍♀️ woman facepalming: medium-light skin tone
+1F926,1F3FC,200D,2642,FE0F ; 9.0 # 🤦🏼‍♂️ man facepalming: medium-light skin tone
+1F926,1F3FD ; 9.0 # 🤦🏽 person facepalming: medium skin tone
+1F926,1F3FD,200D,2640,FE0F ; 9.0 # 🤦🏽‍♀️ woman facepalming: medium skin tone
+1F926,1F3FD,200D,2642,FE0F ; 9.0 # 🤦🏽‍♂️ man facepalming: medium skin tone
+1F926,1F3FE ; 9.0 # 🤦🏾 person facepalming: medium-dark skin tone
+1F926,1F3FE,200D,2640,FE0F ; 9.0 # 🤦🏾‍♀️ woman facepalming: medium-dark skin tone
+1F926,1F3FE,200D,2642,FE0F ; 9.0 # 🤦🏾‍♂️ man facepalming: medium-dark skin tone
+1F926,1F3FF ; 9.0 # 🤦🏿 person facepalming: dark skin tone
+1F926,1F3FF,200D,2640,FE0F ; 9.0 # 🤦🏿‍♀️ woman facepalming: dark skin tone
+1F926,1F3FF,200D,2642,FE0F ; 9.0 # 🤦🏿‍♂️ man facepalming: dark skin tone
+1F926,200D,2640,FE0F ; 9.0 # 🤦‍♀️ woman facepalming
+1F926,200D,2642,FE0F ; 9.0 # 🤦‍♂️ man facepalming
+1F927 ; 9.0 # 🤧 sneezing face
+1F928 ; 10.0 # 🤨 face with raised eyebrow
+1F929 ; 10.0 # 🤩 star-struck
+1F92A ; 10.0 # 🤪 zany face
+1F92B ; 10.0 # 🤫 shushing face
+1F92C ; 10.0 # 🤬 face with symbols on mouth
+1F92D ; 10.0 # 🤭 face with hand over mouth
+1F92E ; 10.0 # 🤮 face vomiting
+1F92F ; 10.0 # 🤯 exploding head
+1F930 ; 9.0 # 🤰 pregnant woman
+1F930,1F3FB ; 9.0 # 🤰🏻 pregnant woman: light skin tone
+1F930,1F3FC ; 9.0 # 🤰🏼 pregnant woman: medium-light skin tone
+1F930,1F3FD ; 9.0 # 🤰🏽 pregnant woman: medium skin tone
+1F930,1F3FE ; 9.0 # 🤰🏾 pregnant woman: medium-dark skin tone
+1F930,1F3FF ; 9.0 # 🤰🏿 pregnant woman: dark skin tone
+1F931 ; 10.0 # 🤱 breast-feeding
+1F931,1F3FB ; 10.0 # 🤱🏻 breast-feeding: light skin tone
+1F931,1F3FC ; 10.0 # 🤱🏼 breast-feeding: medium-light skin tone
+1F931,1F3FD ; 10.0 # 🤱🏽 breast-feeding: medium skin tone
+1F931,1F3FE ; 10.0 # 🤱🏾 breast-feeding: medium-dark skin tone
+1F931,1F3FF ; 10.0 # 🤱🏿 breast-feeding: dark skin tone
+1F932 ; 10.0 # 🤲 palms up together
+1F932,1F3FB ; 10.0 # 🤲🏻 palms up together: light skin tone
+1F932,1F3FC ; 10.0 # 🤲🏼 palms up together: medium-light skin tone
+1F932,1F3FD ; 10.0 # 🤲🏽 palms up together: medium skin tone
+1F932,1F3FE ; 10.0 # 🤲🏾 palms up together: medium-dark skin tone
+1F932,1F3FF ; 10.0 # 🤲🏿 palms up together: dark skin tone
+1F933 ; 9.0 # 🤳 selfie
+1F933,1F3FB ; 9.0 # 🤳🏻 selfie: light skin tone
+1F933,1F3FC ; 9.0 # 🤳🏼 selfie: medium-light skin tone
+1F933,1F3FD ; 9.0 # 🤳🏽 selfie: medium skin tone
+1F933,1F3FE ; 9.0 # 🤳🏾 selfie: medium-dark skin tone
+1F933,1F3FF ; 9.0 # 🤳🏿 selfie: dark skin tone
+1F934 ; 9.0 # 🤴 prince
+1F934,1F3FB ; 9.0 # 🤴🏻 prince: light skin tone
+1F934,1F3FC ; 9.0 # 🤴🏼 prince: medium-light skin tone
+1F934,1F3FD ; 9.0 # 🤴🏽 prince: medium skin tone
+1F934,1F3FE ; 9.0 # 🤴🏾 prince: medium-dark skin tone
+1F934,1F3FF ; 9.0 # 🤴🏿 prince: dark skin tone
+1F935 ; 9.0 # 🤵 man in tuxedo
+1F935,1F3FB ; 9.0 # 🤵🏻 man in tuxedo: light skin tone
+1F935,1F3FC ; 9.0 # 🤵🏼 man in tuxedo: medium-light skin tone
+1F935,1F3FD ; 9.0 # 🤵🏽 man in tuxedo: medium skin tone
+1F935,1F3FE ; 9.0 # 🤵🏾 man in tuxedo: medium-dark skin tone
+1F935,1F3FF ; 9.0 # 🤵🏿 man in tuxedo: dark skin tone
+1F936 ; 9.0 # 🤶 Mrs. Claus
+1F936,1F3FB ; 9.0 # 🤶🏻 Mrs. Claus: light skin tone
+1F936,1F3FC ; 9.0 # 🤶🏼 Mrs. Claus: medium-light skin tone
+1F936,1F3FD ; 9.0 # 🤶🏽 Mrs. Claus: medium skin tone
+1F936,1F3FE ; 9.0 # 🤶🏾 Mrs. Claus: medium-dark skin tone
+1F936,1F3FF ; 9.0 # 🤶🏿 Mrs. Claus: dark skin tone
+1F937 ; 9.0 # 🤷 person shrugging
+1F937,1F3FB ; 9.0 # 🤷🏻 person shrugging: light skin tone
+1F937,1F3FB,200D,2640,FE0F ; 9.0 # 🤷🏻‍♀️ woman shrugging: light skin tone
+1F937,1F3FB,200D,2642,FE0F ; 9.0 # 🤷🏻‍♂️ man shrugging: light skin tone
+1F937,1F3FC ; 9.0 # 🤷🏼 person shrugging: medium-light skin tone
+1F937,1F3FC,200D,2640,FE0F ; 9.0 # 🤷🏼‍♀️ woman shrugging: medium-light skin tone
+1F937,1F3FC,200D,2642,FE0F ; 9.0 # 🤷🏼‍♂️ man shrugging: medium-light skin tone
+1F937,1F3FD ; 9.0 # 🤷🏽 person shrugging: medium skin tone
+1F937,1F3FD,200D,2640,FE0F ; 9.0 # 🤷🏽‍♀️ woman shrugging: medium skin tone
+1F937,1F3FD,200D,2642,FE0F ; 9.0 # 🤷🏽‍♂️ man shrugging: medium skin tone
+1F937,1F3FE ; 9.0 # 🤷🏾 person shrugging: medium-dark skin tone
+1F937,1F3FE,200D,2640,FE0F ; 9.0 # 🤷🏾‍♀️ woman shrugging: medium-dark skin tone
+1F937,1F3FE,200D,2642,FE0F ; 9.0 # 🤷🏾‍♂️ man shrugging: medium-dark skin tone
+1F937,1F3FF ; 9.0 # 🤷🏿 person shrugging: dark skin tone
+1F937,1F3FF,200D,2640,FE0F ; 9.0 # 🤷🏿‍♀️ woman shrugging: dark skin tone
+1F937,1F3FF,200D,2642,FE0F ; 9.0 # 🤷🏿‍♂️ man shrugging: dark skin tone
+1F937,200D,2640,FE0F ; 9.0 # 🤷‍♀️ woman shrugging
+1F937,200D,2642,FE0F ; 9.0 # 🤷‍♂️ man shrugging
+1F938 ; 9.0 # 🤸 person cartwheeling
+1F938,1F3FB ; 9.0 # 🤸🏻 person cartwheeling: light skin tone
+1F938,1F3FB,200D,2640,FE0F ; 9.0 # 🤸🏻‍♀️ woman cartwheeling: light skin tone
+1F938,1F3FB,200D,2642,FE0F ; 9.0 # 🤸🏻‍♂️ man cartwheeling: light skin tone
+1F938,1F3FC ; 9.0 # 🤸🏼 person cartwheeling: medium-light skin tone
+1F938,1F3FC,200D,2640,FE0F ; 9.0 # 🤸🏼‍♀️ woman cartwheeling: medium-light skin tone
+1F938,1F3FC,200D,2642,FE0F ; 9.0 # 🤸🏼‍♂️ man cartwheeling: medium-light skin tone
+1F938,1F3FD ; 9.0 # 🤸🏽 person cartwheeling: medium skin tone
+1F938,1F3FD,200D,2640,FE0F ; 9.0 # 🤸🏽‍♀️ woman cartwheeling: medium skin tone
+1F938,1F3FD,200D,2642,FE0F ; 9.0 # 🤸🏽‍♂️ man cartwheeling: medium skin tone
+1F938,1F3FE ; 9.0 # 🤸🏾 person cartwheeling: medium-dark skin tone
+1F938,1F3FE,200D,2640,FE0F ; 9.0 # 🤸🏾‍♀️ woman cartwheeling: medium-dark skin tone
+1F938,1F3FE,200D,2642,FE0F ; 9.0 # 🤸🏾‍♂️ man cartwheeling: medium-dark skin tone
+1F938,1F3FF ; 9.0 # 🤸🏿 person cartwheeling: dark skin tone
+1F938,1F3FF,200D,2640,FE0F ; 9.0 # 🤸🏿‍♀️ woman cartwheeling: dark skin tone
+1F938,1F3FF,200D,2642,FE0F ; 9.0 # 🤸🏿‍♂️ man cartwheeling: dark skin tone
+1F938,200D,2640,FE0F ; 9.0 # 🤸‍♀️ woman cartwheeling
+1F938,200D,2642,FE0F ; 9.0 # 🤸‍♂️ man cartwheeling
+1F939 ; 9.0 # 🤹 person juggling
+1F939,1F3FB ; 9.0 # 🤹🏻 person juggling: light skin tone
+1F939,1F3FB,200D,2640,FE0F ; 9.0 # 🤹🏻‍♀️ woman juggling: light skin tone
+1F939,1F3FB,200D,2642,FE0F ; 9.0 # 🤹🏻‍♂️ man juggling: light skin tone
+1F939,1F3FC ; 9.0 # 🤹🏼 person juggling: medium-light skin tone
+1F939,1F3FC,200D,2640,FE0F ; 9.0 # 🤹🏼‍♀️ woman juggling: medium-light skin tone
+1F939,1F3FC,200D,2642,FE0F ; 9.0 # 🤹🏼‍♂️ man juggling: medium-light skin tone
+1F939,1F3FD ; 9.0 # 🤹🏽 person juggling: medium skin tone
+1F939,1F3FD,200D,2640,FE0F ; 9.0 # 🤹🏽‍♀️ woman juggling: medium skin tone
+1F939,1F3FD,200D,2642,FE0F ; 9.0 # 🤹🏽‍♂️ man juggling: medium skin tone
+1F939,1F3FE ; 9.0 # 🤹🏾 person juggling: medium-dark skin tone
+1F939,1F3FE,200D,2640,FE0F ; 9.0 # 🤹🏾‍♀️ woman juggling: medium-dark skin tone
+1F939,1F3FE,200D,2642,FE0F ; 9.0 # 🤹🏾‍♂️ man juggling: medium-dark skin tone
+1F939,1F3FF ; 9.0 # 🤹🏿 person juggling: dark skin tone
+1F939,1F3FF,200D,2640,FE0F ; 9.0 # 🤹🏿‍♀️ woman juggling: dark skin tone
+1F939,1F3FF,200D,2642,FE0F ; 9.0 # 🤹🏿‍♂️ man juggling: dark skin tone
+1F939,200D,2640,FE0F ; 9.0 # 🤹‍♀️ woman juggling
+1F939,200D,2642,FE0F ; 9.0 # 🤹‍♂️ man juggling
+1F93A ; 9.0 # 🤺 person fencing
+1F93C ; 9.0 # 🤼 people wrestling
+1F93C,200D,2640,FE0F ; 9.0 # 🤼‍♀️ women wrestling
+1F93C,200D,2642,FE0F ; 9.0 # 🤼‍♂️ men wrestling
+1F93D ; 9.0 # 🤽 person playing water polo
+1F93D,1F3FB ; 9.0 # 🤽🏻 person playing water polo: light skin tone
+1F93D,1F3FB,200D,2640,FE0F ; 9.0 # 🤽🏻‍♀️ woman playing water polo: light skin tone
+1F93D,1F3FB,200D,2642,FE0F ; 9.0 # 🤽🏻‍♂️ man playing water polo: light skin tone
+1F93D,1F3FC ; 9.0 # 🤽🏼 person playing water polo: medium-light skin tone
+1F93D,1F3FC,200D,2640,FE0F ; 9.0 # 🤽🏼‍♀️ woman playing water polo: medium-light skin tone
+1F93D,1F3FC,200D,2642,FE0F ; 9.0 # 🤽🏼‍♂️ man playing water polo: medium-light skin tone
+1F93D,1F3FD ; 9.0 # 🤽🏽 person playing water polo: medium skin tone
+1F93D,1F3FD,200D,2640,FE0F ; 9.0 # 🤽🏽‍♀️ woman playing water polo: medium skin tone
+1F93D,1F3FD,200D,2642,FE0F ; 9.0 # 🤽🏽‍♂️ man playing water polo: medium skin tone
+1F93D,1F3FE ; 9.0 # 🤽🏾 person playing water polo: medium-dark skin tone
+1F93D,1F3FE,200D,2640,FE0F ; 9.0 # 🤽🏾‍♀️ woman playing water polo: medium-dark skin tone
+1F93D,1F3FE,200D,2642,FE0F ; 9.0 # 🤽🏾‍♂️ man playing water polo: medium-dark skin tone
+1F93D,1F3FF ; 9.0 # 🤽🏿 person playing water polo: dark skin tone
+1F93D,1F3FF,200D,2640,FE0F ; 9.0 # 🤽🏿‍♀️ woman playing water polo: dark skin tone
+1F93D,1F3FF,200D,2642,FE0F ; 9.0 # 🤽🏿‍♂️ man playing water polo: dark skin tone
+1F93D,200D,2640,FE0F ; 9.0 # 🤽‍♀️ woman playing water polo
+1F93D,200D,2642,FE0F ; 9.0 # 🤽‍♂️ man playing water polo
+1F93E ; 9.0 # 🤾 person playing handball
+1F93E,1F3FB ; 9.0 # 🤾🏻 person playing handball: light skin tone
+1F93E,1F3FB,200D,2640,FE0F ; 9.0 # 🤾🏻‍♀️ woman playing handball: light skin tone
+1F93E,1F3FB,200D,2642,FE0F ; 9.0 # 🤾🏻‍♂️ man playing handball: light skin tone
+1F93E,1F3FC ; 9.0 # 🤾🏼 person playing handball: medium-light skin tone
+1F93E,1F3FC,200D,2640,FE0F ; 9.0 # 🤾🏼‍♀️ woman playing handball: medium-light skin tone
+1F93E,1F3FC,200D,2642,FE0F ; 9.0 # 🤾🏼‍♂️ man playing handball: medium-light skin tone
+1F93E,1F3FD ; 9.0 # 🤾🏽 person playing handball: medium skin tone
+1F93E,1F3FD,200D,2640,FE0F ; 9.0 # 🤾🏽‍♀️ woman playing handball: medium skin tone
+1F93E,1F3FD,200D,2642,FE0F ; 9.0 # 🤾🏽‍♂️ man playing handball: medium skin tone
+1F93E,1F3FE ; 9.0 # 🤾🏾 person playing handball: medium-dark skin tone
+1F93E,1F3FE,200D,2640,FE0F ; 9.0 # 🤾🏾‍♀️ woman playing handball: medium-dark skin tone
+1F93E,1F3FE,200D,2642,FE0F ; 9.0 # 🤾🏾‍♂️ man playing handball: medium-dark skin tone
+1F93E,1F3FF ; 9.0 # 🤾🏿 person playing handball: dark skin tone
+1F93E,1F3FF,200D,2640,FE0F ; 9.0 # 🤾🏿‍♀️ woman playing handball: dark skin tone
+1F93E,1F3FF,200D,2642,FE0F ; 9.0 # 🤾🏿‍♂️ man playing handball: dark skin tone
+1F93E,200D,2640,FE0F ; 9.0 # 🤾‍♀️ woman playing handball
+1F93E,200D,2642,FE0F ; 9.0 # 🤾‍♂️ man playing handball
+1F940 ; 9.0 # 🥀 wilted flower
+1F941 ; 9.0 # 🥁 drum
+1F942 ; 9.0 # 🥂 clinking glasses
+1F943 ; 9.0 # 🥃 tumbler glass
+1F944 ; 9.0 # 🥄 spoon
+1F945 ; 9.0 # 🥅 goal net
+1F947 ; 9.0 # 🥇 1st place medal
+1F948 ; 9.0 # 🥈 2nd place medal
+1F949 ; 9.0 # 🥉 3rd place medal
+1F94A ; 9.0 # 🥊 boxing glove
+1F94B ; 9.0 # 🥋 martial arts uniform
+1F94C ; 10.0 # 🥌 curling stone
+1F950 ; 9.0 # 🥐 croissant
+1F951 ; 9.0 # 🥑 avocado
+1F952 ; 9.0 # 🥒 cucumber
+1F953 ; 9.0 # 🥓 bacon
+1F954 ; 9.0 # 🥔 potato
+1F955 ; 9.0 # 🥕 carrot
+1F956 ; 9.0 # 🥖 baguette bread
+1F957 ; 9.0 # 🥗 green salad
+1F958 ; 9.0 # 🥘 shallow pan of food
+1F959 ; 9.0 # 🥙 stuffed flatbread
+1F95A ; 9.0 # 🥚 egg
+1F95B ; 9.0 # 🥛 glass of milk
+1F95C ; 9.0 # 🥜 peanuts
+1F95D ; 9.0 # 🥝 kiwi fruit
+1F95E ; 9.0 # 🥞 pancakes
+1F95F ; 10.0 # 🥟 dumpling
+1F960 ; 10.0 # 🥠 fortune cookie
+1F961 ; 10.0 # 🥡 takeout box
+1F962 ; 10.0 # 🥢 chopsticks
+1F963 ; 10.0 # 🥣 bowl with spoon
+1F964 ; 10.0 # 🥤 cup with straw
+1F965 ; 10.0 # 🥥 coconut
+1F966 ; 10.0 # 🥦 broccoli
+1F967 ; 10.0 # 🥧 pie
+1F968 ; 10.0 # 🥨 pretzel
+1F969 ; 10.0 # 🥩 cut of meat
+1F96A ; 10.0 # 🥪 sandwich
+1F96B ; 10.0 # 🥫 canned food
+1F980 ; 8.0 # 🦀 crab
+1F981 ; 8.0 # 🦁 lion face
+1F982 ; 8.0 # 🦂 scorpion
+1F983 ; 8.0 # 🦃 turkey
+1F984 ; 8.0 # 🦄 unicorn face
+1F985 ; 9.0 # 🦅 eagle
+1F986 ; 9.0 # 🦆 duck
+1F987 ; 9.0 # 🦇 bat
+1F988 ; 9.0 # 🦈 shark
+1F989 ; 9.0 # 🦉 owl
+1F98A ; 9.0 # 🦊 fox face
+1F98B ; 9.0 # 🦋 butterfly
+1F98C ; 9.0 # 🦌 deer
+1F98D ; 9.0 # 🦍 gorilla
+1F98E ; 9.0 # 🦎 lizard
+1F98F ; 9.0 # 🦏 rhinoceros
+1F990 ; 9.0 # 🦐 shrimp
+1F991 ; 9.0 # 🦑 squid
+1F992 ; 10.0 # 🦒 giraffe
+1F993 ; 10.0 # 🦓 zebra
+1F994 ; 10.0 # 🦔 hedgehog
+1F995 ; 10.0 # 🦕 sauropod
+1F996 ; 10.0 # 🦖 T-Rex
+1F997 ; 10.0 # 🦗 cricket
+1F9C0 ; 8.0 # 🧀 cheese wedge
+1F9D0 ; 10.0 # 🧐 face with monocle
+1F9D1 ; 10.0 # 🧑 adult
+1F9D1,1F3FB ; 10.0 # 🧑🏻 adult: light skin tone
+1F9D1,1F3FC ; 10.0 # 🧑🏼 adult: medium-light skin tone
+1F9D1,1F3FD ; 10.0 # 🧑🏽 adult: medium skin tone
+1F9D1,1F3FE ; 10.0 # 🧑🏾 adult: medium-dark skin tone
+1F9D1,1F3FF ; 10.0 # 🧑🏿 adult: dark skin tone
+1F9D2 ; 10.0 # 🧒 child
+1F9D2,1F3FB ; 10.0 # 🧒🏻 child: light skin tone
+1F9D2,1F3FC ; 10.0 # 🧒🏼 child: medium-light skin tone
+1F9D2,1F3FD ; 10.0 # 🧒🏽 child: medium skin tone
+1F9D2,1F3FE ; 10.0 # 🧒🏾 child: medium-dark skin tone
+1F9D2,1F3FF ; 10.0 # 🧒🏿 child: dark skin tone
+1F9D3 ; 10.0 # 🧓 older adult
+1F9D3,1F3FB ; 10.0 # 🧓🏻 older adult: light skin tone
+1F9D3,1F3FC ; 10.0 # 🧓🏼 older adult: medium-light skin tone
+1F9D3,1F3FD ; 10.0 # 🧓🏽 older adult: medium skin tone
+1F9D3,1F3FE ; 10.0 # 🧓🏾 older adult: medium-dark skin tone
+1F9D3,1F3FF ; 10.0 # 🧓🏿 older adult: dark skin tone
+1F9D4 ; 10.0 # 🧔 bearded person
+1F9D4,1F3FB ; 10.0 # 🧔🏻 bearded person: light skin tone
+1F9D4,1F3FC ; 10.0 # 🧔🏼 bearded person: medium-light skin tone
+1F9D4,1F3FD ; 10.0 # 🧔🏽 bearded person: medium skin tone
+1F9D4,1F3FE ; 10.0 # 🧔🏾 bearded person: medium-dark skin tone
+1F9D4,1F3FF ; 10.0 # 🧔🏿 bearded person: dark skin tone
+1F9D5 ; 10.0 # 🧕 woman with headscarf
+1F9D5,1F3FB ; 10.0 # 🧕🏻 woman with headscarf: light skin tone
+1F9D5,1F3FC ; 10.0 # 🧕🏼 woman with headscarf: medium-light skin tone
+1F9D5,1F3FD ; 10.0 # 🧕🏽 woman with headscarf: medium skin tone
+1F9D5,1F3FE ; 10.0 # 🧕🏾 woman with headscarf: medium-dark skin tone
+1F9D5,1F3FF ; 10.0 # 🧕🏿 woman with headscarf: dark skin tone
+1F9D6 ; 10.0 # 🧖 person in steamy room
+1F9D6,1F3FB ; 10.0 # 🧖🏻 person in steamy room: light skin tone
+1F9D6,1F3FB,200D,2640,FE0F ; 10.0 # 🧖🏻‍♀️ woman in steamy room: light skin tone
+1F9D6,1F3FB,200D,2642,FE0F ; 10.0 # 🧖🏻‍♂️ man in steamy room: light skin tone
+1F9D6,1F3FC ; 10.0 # 🧖🏼 person in steamy room: medium-light skin tone
+1F9D6,1F3FC,200D,2640,FE0F ; 10.0 # 🧖🏼‍♀️ woman in steamy room: medium-light skin tone
+1F9D6,1F3FC,200D,2642,FE0F ; 10.0 # 🧖🏼‍♂️ man in steamy room: medium-light skin tone
+1F9D6,1F3FD ; 10.0 # 🧖🏽 person in steamy room: medium skin tone
+1F9D6,1F3FD,200D,2640,FE0F ; 10.0 # 🧖🏽‍♀️ woman in steamy room: medium skin tone
+1F9D6,1F3FD,200D,2642,FE0F ; 10.0 # 🧖🏽‍♂️ man in steamy room: medium skin tone
+1F9D6,1F3FE ; 10.0 # 🧖🏾 person in steamy room: medium-dark skin tone
+1F9D6,1F3FE,200D,2640,FE0F ; 10.0 # 🧖🏾‍♀️ woman in steamy room: medium-dark skin tone
+1F9D6,1F3FE,200D,2642,FE0F ; 10.0 # 🧖🏾‍♂️ man in steamy room: medium-dark skin tone
+1F9D6,1F3FF ; 10.0 # 🧖🏿 person in steamy room: dark skin tone
+1F9D6,1F3FF,200D,2640,FE0F ; 10.0 # 🧖🏿‍♀️ woman in steamy room: dark skin tone
+1F9D6,1F3FF,200D,2642,FE0F ; 10.0 # 🧖🏿‍♂️ man in steamy room: dark skin tone
+1F9D6,200D,2640,FE0F ; 10.0 # 🧖‍♀️ woman in steamy room
+1F9D6,200D,2642,FE0F ; 10.0 # 🧖‍♂️ man in steamy room
+1F9D7 ; 10.0 # 🧗 person climbing
+1F9D7,1F3FB ; 10.0 # 🧗🏻 person climbing: light skin tone
+1F9D7,1F3FB,200D,2640,FE0F ; 10.0 # 🧗🏻‍♀️ woman climbing: light skin tone
+1F9D7,1F3FB,200D,2642,FE0F ; 10.0 # 🧗🏻‍♂️ man climbing: light skin tone
+1F9D7,1F3FC ; 10.0 # 🧗🏼 person climbing: medium-light skin tone
+1F9D7,1F3FC,200D,2640,FE0F ; 10.0 # 🧗🏼‍♀️ woman climbing: medium-light skin tone
+1F9D7,1F3FC,200D,2642,FE0F ; 10.0 # 🧗🏼‍♂️ man climbing: medium-light skin tone
+1F9D7,1F3FD ; 10.0 # 🧗🏽 person climbing: medium skin tone
+1F9D7,1F3FD,200D,2640,FE0F ; 10.0 # 🧗🏽‍♀️ woman climbing: medium skin tone
+1F9D7,1F3FD,200D,2642,FE0F ; 10.0 # 🧗🏽‍♂️ man climbing: medium skin tone
+1F9D7,1F3FE ; 10.0 # 🧗🏾 person climbing: medium-dark skin tone
+1F9D7,1F3FE,200D,2640,FE0F ; 10.0 # 🧗🏾‍♀️ woman climbing: medium-dark skin tone
+1F9D7,1F3FE,200D,2642,FE0F ; 10.0 # 🧗🏾‍♂️ man climbing: medium-dark skin tone
+1F9D7,1F3FF ; 10.0 # 🧗🏿 person climbing: dark skin tone
+1F9D7,1F3FF,200D,2640,FE0F ; 10.0 # 🧗🏿‍♀️ woman climbing: dark skin tone
+1F9D7,1F3FF,200D,2642,FE0F ; 10.0 # 🧗🏿‍♂️ man climbing: dark skin tone
+1F9D7,200D,2640,FE0F ; 10.0 # 🧗‍♀️ woman climbing
+1F9D7,200D,2642,FE0F ; 10.0 # 🧗‍♂️ man climbing
+1F9D8 ; 10.0 # 🧘 person in lotus position
+1F9D8,1F3FB ; 10.0 # 🧘🏻 person in lotus position: light skin tone
+1F9D8,1F3FB,200D,2640,FE0F ; 10.0 # 🧘🏻‍♀️ woman in lotus position: light skin tone
+1F9D8,1F3FB,200D,2642,FE0F ; 10.0 # 🧘🏻‍♂️ man in lotus position: light skin tone
+1F9D8,1F3FC ; 10.0 # 🧘🏼 person in lotus position: medium-light skin tone
+1F9D8,1F3FC,200D,2640,FE0F ; 10.0 # 🧘🏼‍♀️ woman in lotus position: medium-light skin tone
+1F9D8,1F3FC,200D,2642,FE0F ; 10.0 # 🧘🏼‍♂️ man in lotus position: medium-light skin tone
+1F9D8,1F3FD ; 10.0 # 🧘🏽 person in lotus position: medium skin tone
+1F9D8,1F3FD,200D,2640,FE0F ; 10.0 # 🧘🏽‍♀️ woman in lotus position: medium skin tone
+1F9D8,1F3FD,200D,2642,FE0F ; 10.0 # 🧘🏽‍♂️ man in lotus position: medium skin tone
+1F9D8,1F3FE ; 10.0 # 🧘🏾 person in lotus position: medium-dark skin tone
+1F9D8,1F3FE,200D,2640,FE0F ; 10.0 # 🧘🏾‍♀️ woman in lotus position: medium-dark skin tone
+1F9D8,1F3FE,200D,2642,FE0F ; 10.0 # 🧘🏾‍♂️ man in lotus position: medium-dark skin tone
+1F9D8,1F3FF ; 10.0 # 🧘🏿 person in lotus position: dark skin tone
+1F9D8,1F3FF,200D,2640,FE0F ; 10.0 # 🧘🏿‍♀️ woman in lotus position: dark skin tone
+1F9D8,1F3FF,200D,2642,FE0F ; 10.0 # 🧘🏿‍♂️ man in lotus position: dark skin tone
+1F9D8,200D,2640,FE0F ; 10.0 # 🧘‍♀️ woman in lotus position
+1F9D8,200D,2642,FE0F ; 10.0 # 🧘‍♂️ man in lotus position
+1F9D9 ; 10.0 # 🧙 mage
+1F9D9,1F3FB ; 10.0 # 🧙🏻 mage: light skin tone
+1F9D9,1F3FB,200D,2640,FE0F ; 10.0 # 🧙🏻‍♀️ woman mage: light skin tone
+1F9D9,1F3FB,200D,2642,FE0F ; 10.0 # 🧙🏻‍♂️ man mage: light skin tone
+1F9D9,1F3FC ; 10.0 # 🧙🏼 mage: medium-light skin tone
+1F9D9,1F3FC,200D,2640,FE0F ; 10.0 # 🧙🏼‍♀️ woman mage: medium-light skin tone
+1F9D9,1F3FC,200D,2642,FE0F ; 10.0 # 🧙🏼‍♂️ man mage: medium-light skin tone
+1F9D9,1F3FD ; 10.0 # 🧙🏽 mage: medium skin tone
+1F9D9,1F3FD,200D,2640,FE0F ; 10.0 # 🧙🏽‍♀️ woman mage: medium skin tone
+1F9D9,1F3FD,200D,2642,FE0F ; 10.0 # 🧙🏽‍♂️ man mage: medium skin tone
+1F9D9,1F3FE ; 10.0 # 🧙🏾 mage: medium-dark skin tone
+1F9D9,1F3FE,200D,2640,FE0F ; 10.0 # 🧙🏾‍♀️ woman mage: medium-dark skin tone
+1F9D9,1F3FE,200D,2642,FE0F ; 10.0 # 🧙🏾‍♂️ man mage: medium-dark skin tone
+1F9D9,1F3FF ; 10.0 # 🧙🏿 mage: dark skin tone
+1F9D9,1F3FF,200D,2640,FE0F ; 10.0 # 🧙🏿‍♀️ woman mage: dark skin tone
+1F9D9,1F3FF,200D,2642,FE0F ; 10.0 # 🧙🏿‍♂️ man mage: dark skin tone
+1F9D9,200D,2640,FE0F ; 10.0 # 🧙‍♀️ woman mage
+1F9D9,200D,2642,FE0F ; 10.0 # 🧙‍♂️ man mage
+1F9DA ; 10.0 # 🧚 fairy
+1F9DA,1F3FB ; 10.0 # 🧚🏻 fairy: light skin tone
+1F9DA,1F3FB,200D,2640,FE0F ; 10.0 # 🧚🏻‍♀️ woman fairy: light skin tone
+1F9DA,1F3FB,200D,2642,FE0F ; 10.0 # 🧚🏻‍♂️ man fairy: light skin tone
+1F9DA,1F3FC ; 10.0 # 🧚🏼 fairy: medium-light skin tone
+1F9DA,1F3FC,200D,2640,FE0F ; 10.0 # 🧚🏼‍♀️ woman fairy: medium-light skin tone
+1F9DA,1F3FC,200D,2642,FE0F ; 10.0 # 🧚🏼‍♂️ man fairy: medium-light skin tone
+1F9DA,1F3FD ; 10.0 # 🧚🏽 fairy: medium skin tone
+1F9DA,1F3FD,200D,2640,FE0F ; 10.0 # 🧚🏽‍♀️ woman fairy: medium skin tone
+1F9DA,1F3FD,200D,2642,FE0F ; 10.0 # 🧚🏽‍♂️ man fairy: medium skin tone
+1F9DA,1F3FE ; 10.0 # 🧚🏾 fairy: medium-dark skin tone
+1F9DA,1F3FE,200D,2640,FE0F ; 10.0 # 🧚🏾‍♀️ woman fairy: medium-dark skin tone
+1F9DA,1F3FE,200D,2642,FE0F ; 10.0 # 🧚🏾‍♂️ man fairy: medium-dark skin tone
+1F9DA,1F3FF ; 10.0 # 🧚🏿 fairy: dark skin tone
+1F9DA,1F3FF,200D,2640,FE0F ; 10.0 # 🧚🏿‍♀️ woman fairy: dark skin tone
+1F9DA,1F3FF,200D,2642,FE0F ; 10.0 # 🧚🏿‍♂️ man fairy: dark skin tone
+1F9DA,200D,2640,FE0F ; 10.0 # 🧚‍♀️ woman fairy
+1F9DA,200D,2642,FE0F ; 10.0 # 🧚‍♂️ man fairy
+1F9DB ; 10.0 # 🧛 vampire
+1F9DB,1F3FB ; 10.0 # 🧛🏻 vampire: light skin tone
+1F9DB,1F3FB,200D,2640,FE0F ; 10.0 # 🧛🏻‍♀️ woman vampire: light skin tone
+1F9DB,1F3FB,200D,2642,FE0F ; 10.0 # 🧛🏻‍♂️ man vampire: light skin tone
+1F9DB,1F3FC ; 10.0 # 🧛🏼 vampire: medium-light skin tone
+1F9DB,1F3FC,200D,2640,FE0F ; 10.0 # 🧛🏼‍♀️ woman vampire: medium-light skin tone
+1F9DB,1F3FC,200D,2642,FE0F ; 10.0 # 🧛🏼‍♂️ man vampire: medium-light skin tone
+1F9DB,1F3FD ; 10.0 # 🧛🏽 vampire: medium skin tone
+1F9DB,1F3FD,200D,2640,FE0F ; 10.0 # 🧛🏽‍♀️ woman vampire: medium skin tone
+1F9DB,1F3FD,200D,2642,FE0F ; 10.0 # 🧛🏽‍♂️ man vampire: medium skin tone
+1F9DB,1F3FE ; 10.0 # 🧛🏾 vampire: medium-dark skin tone
+1F9DB,1F3FE,200D,2640,FE0F ; 10.0 # 🧛🏾‍♀️ woman vampire: medium-dark skin tone
+1F9DB,1F3FE,200D,2642,FE0F ; 10.0 # 🧛🏾‍♂️ man vampire: medium-dark skin tone
+1F9DB,1F3FF ; 10.0 # 🧛🏿 vampire: dark skin tone
+1F9DB,1F3FF,200D,2640,FE0F ; 10.0 # 🧛🏿‍♀️ woman vampire: dark skin tone
+1F9DB,1F3FF,200D,2642,FE0F ; 10.0 # 🧛🏿‍♂️ man vampire: dark skin tone
+1F9DB,200D,2640,FE0F ; 10.0 # 🧛‍♀️ woman vampire
+1F9DB,200D,2642,FE0F ; 10.0 # 🧛‍♂️ man vampire
+1F9DC ; 10.0 # 🧜 merperson
+1F9DC,1F3FB ; 10.0 # 🧜🏻 merperson: light skin tone
+1F9DC,1F3FB,200D,2640,FE0F ; 10.0 # 🧜🏻‍♀️ mermaid: light skin tone
+1F9DC,1F3FB,200D,2642,FE0F ; 10.0 # 🧜🏻‍♂️ merman: light skin tone
+1F9DC,1F3FC ; 10.0 # 🧜🏼 merperson: medium-light skin tone
+1F9DC,1F3FC,200D,2640,FE0F ; 10.0 # 🧜🏼‍♀️ mermaid: medium-light skin tone
+1F9DC,1F3FC,200D,2642,FE0F ; 10.0 # 🧜🏼‍♂️ merman: medium-light skin tone
+1F9DC,1F3FD ; 10.0 # 🧜🏽 merperson: medium skin tone
+1F9DC,1F3FD,200D,2640,FE0F ; 10.0 # 🧜🏽‍♀️ mermaid: medium skin tone
+1F9DC,1F3FD,200D,2642,FE0F ; 10.0 # 🧜🏽‍♂️ merman: medium skin tone
+1F9DC,1F3FE ; 10.0 # 🧜🏾 merperson: medium-dark skin tone
+1F9DC,1F3FE,200D,2640,FE0F ; 10.0 # 🧜🏾‍♀️ mermaid: medium-dark skin tone
+1F9DC,1F3FE,200D,2642,FE0F ; 10.0 # 🧜🏾‍♂️ merman: medium-dark skin tone
+1F9DC,1F3FF ; 10.0 # 🧜🏿 merperson: dark skin tone
+1F9DC,1F3FF,200D,2640,FE0F ; 10.0 # 🧜🏿‍♀️ mermaid: dark skin tone
+1F9DC,1F3FF,200D,2642,FE0F ; 10.0 # 🧜🏿‍♂️ merman: dark skin tone
+1F9DC,200D,2640,FE0F ; 10.0 # 🧜‍♀️ mermaid
+1F9DC,200D,2642,FE0F ; 10.0 # 🧜‍♂️ merman
+1F9DD ; 10.0 # 🧝 elf
+1F9DD,1F3FB ; 10.0 # 🧝🏻 elf: light skin tone
+1F9DD,1F3FB,200D,2640,FE0F ; 10.0 # 🧝🏻‍♀️ woman elf: light skin tone
+1F9DD,1F3FB,200D,2642,FE0F ; 10.0 # 🧝🏻‍♂️ man elf: light skin tone
+1F9DD,1F3FC ; 10.0 # 🧝🏼 elf: medium-light skin tone
+1F9DD,1F3FC,200D,2640,FE0F ; 10.0 # 🧝🏼‍♀️ woman elf: medium-light skin tone
+1F9DD,1F3FC,200D,2642,FE0F ; 10.0 # 🧝🏼‍♂️ man elf: medium-light skin tone
+1F9DD,1F3FD ; 10.0 # 🧝🏽 elf: medium skin tone
+1F9DD,1F3FD,200D,2640,FE0F ; 10.0 # 🧝🏽‍♀️ woman elf: medium skin tone
+1F9DD,1F3FD,200D,2642,FE0F ; 10.0 # 🧝🏽‍♂️ man elf: medium skin tone
+1F9DD,1F3FE ; 10.0 # 🧝🏾 elf: medium-dark skin tone
+1F9DD,1F3FE,200D,2640,FE0F ; 10.0 # 🧝🏾‍♀️ woman elf: medium-dark skin tone
+1F9DD,1F3FE,200D,2642,FE0F ; 10.0 # 🧝🏾‍♂️ man elf: medium-dark skin tone
+1F9DD,1F3FF ; 10.0 # 🧝🏿 elf: dark skin tone
+1F9DD,1F3FF,200D,2640,FE0F ; 10.0 # 🧝🏿‍♀️ woman elf: dark skin tone
+1F9DD,1F3FF,200D,2642,FE0F ; 10.0 # 🧝🏿‍♂️ man elf: dark skin tone
+1F9DD,200D,2640,FE0F ; 10.0 # 🧝‍♀️ woman elf
+1F9DD,200D,2642,FE0F ; 10.0 # 🧝‍♂️ man elf
+1F9DE ; 10.0 # 🧞 genie
+1F9DE,200D,2640,FE0F ; 10.0 # 🧞‍♀️ woman genie
+1F9DE,200D,2642,FE0F ; 10.0 # 🧞‍♂️ man genie
+1F9DF ; 10.0 # 🧟 zombie
+1F9DF,200D,2640,FE0F ; 10.0 # 🧟‍♀️ woman zombie
+1F9DF,200D,2642,FE0F ; 10.0 # 🧟‍♂️ man zombie
+1F9E0 ; 10.0 # 🧠 brain
+1F9E1 ; 10.0 # 🧡 orange heart
+1F9E2 ; 10.0 # 🧢 billed cap
+1F9E3 ; 10.0 # 🧣 scarf
+1F9E4 ; 10.0 # 🧤 gloves
+1F9E5 ; 10.0 # 🧥 coat
+1F9E6 ; 10.0 # 🧦 socks
+203C ; 1.1 # ‼ double exclamation mark
+2049 ; 3.0 # ⁉ exclamation question mark
+2122 ; 1.1 # ™ trade mark
+2139 ; 3.0 # ℹ information
+2194 ; 1.1 # ↔ left-right arrow
+2195 ; 1.1 # ↕ up-down arrow
+2196 ; 1.1 # ↖ up-left arrow
+2197 ; 1.1 # ↗ up-right arrow
+2198 ; 1.1 # ↘ down-right arrow
+2199 ; 1.1 # ↙ down-left arrow
+21A9 ; 1.1 # ↩ right arrow curving left
+21AA ; 1.1 # ↪ left arrow curving right
+231A ; 1.1 # ⌚ watch
+231B ; 1.1 # ⌛ hourglass done
+2328 ; 1.1 # ⌨ keyboard
+23CF ; 4.0 # ⏏ eject button
+23E9 ; 6.0 # ⏩ fast-forward button
+23EA ; 6.0 # ⏪ fast reverse button
+23EB ; 6.0 # ⏫ fast up button
+23EC ; 6.0 # ⏬ fast down button
+23ED ; 6.0 # ⏭ next track button
+23EE ; 6.0 # ⏮ last track button
+23EF ; 6.0 # ⏯ play or pause button
+23F0 ; 6.0 # ⏰ alarm clock
+23F1 ; 6.0 # ⏱ stopwatch
+23F2 ; 6.0 # ⏲ timer clock
+23F3 ; 6.0 # ⏳ hourglass not done
+23F8 ; 7.0 # ⏸ pause button
+23F9 ; 7.0 # ⏹ stop button
+23FA ; 7.0 # ⏺ record button
+24C2 ; 1.1 # Ⓜ circled M
+25AA ; 1.1 # ▪ black small square
+25AB ; 1.1 # ▫ white small square
+25B6 ; 1.1 # ▶ play button
+25C0 ; 1.1 # ◀ reverse button
+25FB ; 3.2 # ◻ white medium square
+25FC ; 3.2 # ◼ black medium square
+25FD ; 3.2 # ◽ white medium-small square
+25FE ; 3.2 # ◾ black medium-small square
+2600 ; 1.1 # ☀ sun
+2601 ; 1.1 # ☁ cloud
+2602 ; 1.1 # ☂ umbrella
+2603 ; 1.1 # ☃ snowman
+2604 ; 1.1 # ☄ comet
+260E ; 1.1 # ☎ telephone
+2611 ; 1.1 # ☑ ballot box with check
+2614 ; 4.0 # ☔ umbrella with rain drops
+2615 ; 4.0 # ☕ hot beverage
+2618 ; 4.1 # ☘ shamrock
+261D ; 1.1 # ☝ index pointing up
+261D,1F3FB ; 8.0 # ☝🏻 index pointing up: light skin tone
+261D,1F3FC ; 8.0 # ☝🏼 index pointing up: medium-light skin tone
+261D,1F3FD ; 8.0 # ☝🏽 index pointing up: medium skin tone
+261D,1F3FE ; 8.0 # ☝🏾 index pointing up: medium-dark skin tone
+261D,1F3FF ; 8.0 # ☝🏿 index pointing up: dark skin tone
+2620 ; 1.1 # ☠ skull and crossbones
+2622 ; 1.1 # ☢ radioactive
+2623 ; 1.1 # ☣ biohazard
+2626 ; 1.1 # ☦ orthodox cross
+262A ; 1.1 # ☪ star and crescent
+262E ; 1.1 # ☮ peace symbol
+262F ; 1.1 # ☯ yin yang
+2638 ; 1.1 # ☸ wheel of dharma
+2639 ; 1.1 # ☹ frowning face
+263A ; 1.1 # ☺ smiling face
+2640 ; 1.1 # ♀ female sign
+2642 ; 1.1 # ♂ male sign
+2648 ; 1.1 # ♈ Aries
+2649 ; 1.1 # ♉ Taurus
+264A ; 1.1 # ♊ Gemini
+264B ; 1.1 # ♋ Cancer
+264C ; 1.1 # ♌ Leo
+264D ; 1.1 # ♍ Virgo
+264E ; 1.1 # ♎ Libra
+264F ; 1.1 # ♏ Scorpio
+2650 ; 1.1 # ♐ Sagittarius
+2651 ; 1.1 # ♑ Capricorn
+2652 ; 1.1 # ♒ Aquarius
+2653 ; 1.1 # ♓ Pisces
+2660 ; 1.1 # ♠ spade suit
+2663 ; 1.1 # ♣ club suit
+2665 ; 1.1 # ♥ heart suit
+2666 ; 1.1 # ♦ diamond suit
+2668 ; 1.1 # ♨ hot springs
+267B ; 3.2 # ♻ recycling symbol
+267F ; 4.1 # ♿ wheelchair symbol
+2692 ; 4.1 # ⚒ hammer and pick
+2693 ; 4.1 # ⚓ anchor
+2694 ; 4.1 # ⚔ crossed swords
+2695 ; 4.1 # ⚕ medical symbol
+2696 ; 4.1 # ⚖ balance scale
+2697 ; 4.1 # ⚗ alembic
+2699 ; 4.1 # ⚙ gear
+269B ; 4.1 # ⚛ atom symbol
+269C ; 4.1 # ⚜ fleur-de-lis
+26A0 ; 4.0 # ⚠ warning
+26A1 ; 4.0 # ⚡ high voltage
+26AA ; 4.1 # ⚪ white circle
+26AB ; 4.1 # ⚫ black circle
+26B0 ; 4.1 # ⚰ coffin
+26B1 ; 4.1 # ⚱ funeral urn
+26BD ; 5.2 # ⚽ soccer ball
+26BE ; 5.2 # ⚾ baseball
+26C4 ; 5.2 # ⛄ snowman without snow
+26C5 ; 5.2 # ⛅ sun behind cloud
+26C8 ; 5.2 # ⛈ cloud with lightning and rain
+26CE ; 6.0 # ⛎ Ophiuchus
+26CF ; 5.2 # ⛏ pick
+26D1 ; 5.2 # ⛑ rescue worker’s helmet
+26D3 ; 5.2 # ⛓ chains
+26D4 ; 5.2 # ⛔ no entry
+26E9 ; 5.2 # ⛩ shinto shrine
+26EA ; 5.2 # ⛪ church
+26F0 ; 5.2 # ⛰ mountain
+26F1 ; 5.2 # ⛱ umbrella on ground
+26F2 ; 5.2 # ⛲ fountain
+26F3 ; 5.2 # ⛳ flag in hole
+26F4 ; 5.2 # ⛴ ferry
+26F5 ; 5.2 # ⛵ sailboat
+26F7 ; 5.2 # ⛷ skier
+26F8 ; 5.2 # ⛸ ice skate
+26F9 ; 5.2 # ⛹ person bouncing ball
+26F9,1F3FB ; 8.0 # ⛹🏻 person bouncing ball: light skin tone
+26F9,1F3FB,200D,2640,FE0F ; 8.0 # ⛹🏻‍♀️ woman bouncing ball: light skin tone
+26F9,1F3FB,200D,2642,FE0F ; 8.0 # ⛹🏻‍♂️ man bouncing ball: light skin tone
+26F9,1F3FC ; 8.0 # ⛹🏼 person bouncing ball: medium-light skin tone
+26F9,1F3FC,200D,2640,FE0F ; 8.0 # ⛹🏼‍♀️ woman bouncing ball: medium-light skin tone
+26F9,1F3FC,200D,2642,FE0F ; 8.0 # ⛹🏼‍♂️ man bouncing ball: medium-light skin tone
+26F9,1F3FD ; 8.0 # ⛹🏽 person bouncing ball: medium skin tone
+26F9,1F3FD,200D,2640,FE0F ; 8.0 # ⛹🏽‍♀️ woman bouncing ball: medium skin tone
+26F9,1F3FD,200D,2642,FE0F ; 8.0 # ⛹🏽‍♂️ man bouncing ball: medium skin tone
+26F9,1F3FE ; 8.0 # ⛹🏾 person bouncing ball: medium-dark skin tone
+26F9,1F3FE,200D,2640,FE0F ; 8.0 # ⛹🏾‍♀️ woman bouncing ball: medium-dark skin tone
+26F9,1F3FE,200D,2642,FE0F ; 8.0 # ⛹🏾‍♂️ man bouncing ball: medium-dark skin tone
+26F9,1F3FF ; 8.0 # ⛹🏿 person bouncing ball: dark skin tone
+26F9,1F3FF,200D,2640,FE0F ; 8.0 # ⛹🏿‍♀️ woman bouncing ball: dark skin tone
+26F9,1F3FF,200D,2642,FE0F ; 8.0 # ⛹🏿‍♂️ man bouncing ball: dark skin tone
+26F9,FE0F,200D,2640,FE0F ; 5.2 # ⛹️‍♀️ woman bouncing ball
+26F9,FE0F,200D,2642,FE0F ; 5.2 # ⛹️‍♂️ man bouncing ball
+26FA ; 5.2 # ⛺ tent
+26FD ; 5.2 # ⛽ fuel pump
+2702 ; 1.1 # ✂ scissors
+2705 ; 6.0 # ✅ white heavy check mark
+2708 ; 1.1 # ✈ airplane
+2709 ; 1.1 # ✉ envelope
+270A ; 6.0 # ✊ raised fist
+270A,1F3FB ; 8.0 # ✊🏻 raised fist: light skin tone
+270A,1F3FC ; 8.0 # ✊🏼 raised fist: medium-light skin tone
+270A,1F3FD ; 8.0 # ✊🏽 raised fist: medium skin tone
+270A,1F3FE ; 8.0 # ✊🏾 raised fist: medium-dark skin tone
+270A,1F3FF ; 8.0 # ✊🏿 raised fist: dark skin tone
+270B ; 6.0 # ✋ raised hand
+270B,1F3FB ; 8.0 # ✋🏻 raised hand: light skin tone
+270B,1F3FC ; 8.0 # ✋🏼 raised hand: medium-light skin tone
+270B,1F3FD ; 8.0 # ✋🏽 raised hand: medium skin tone
+270B,1F3FE ; 8.0 # ✋🏾 raised hand: medium-dark skin tone
+270B,1F3FF ; 8.0 # ✋🏿 raised hand: dark skin tone
+270C ; 1.1 # ✌ victory hand
+270C,1F3FB ; 8.0 # ✌🏻 victory hand: light skin tone
+270C,1F3FC ; 8.0 # ✌🏼 victory hand: medium-light skin tone
+270C,1F3FD ; 8.0 # ✌🏽 victory hand: medium skin tone
+270C,1F3FE ; 8.0 # ✌🏾 victory hand: medium-dark skin tone
+270C,1F3FF ; 8.0 # ✌🏿 victory hand: dark skin tone
+270D ; 1.1 # ✍ writing hand
+270D,1F3FB ; 8.0 # ✍🏻 writing hand: light skin tone
+270D,1F3FC ; 8.0 # ✍🏼 writing hand: medium-light skin tone
+270D,1F3FD ; 8.0 # ✍🏽 writing hand: medium skin tone
+270D,1F3FE ; 8.0 # ✍🏾 writing hand: medium-dark skin tone
+270D,1F3FF ; 8.0 # ✍🏿 writing hand: dark skin tone
+270F ; 1.1 # ✏ pencil
+2712 ; 1.1 # ✒ black nib
+2714 ; 1.1 # ✔ heavy check mark
+2716 ; 1.1 # ✖ heavy multiplication x
+271D ; 1.1 # ✝ latin cross
+2721 ; 1.1 # ✡ star of David
+2728 ; 6.0 # ✨ sparkles
+2733 ; 1.1 # ✳ eight-spoked asterisk
+2734 ; 1.1 # ✴ eight-pointed star
+2744 ; 1.1 # ❄ snowflake
+2747 ; 1.1 # ❇ sparkle
+274C ; 6.0 # ❌ cross mark
+274E ; 6.0 # ❎ cross mark button
+2753 ; 6.0 # ❓ question mark
+2754 ; 6.0 # ❔ white question mark
+2755 ; 6.0 # ❕ white exclamation mark
+2757 ; 5.2 # ❗ exclamation mark
+2763 ; 1.1 # ❣ heavy heart exclamation
+2764 ; 1.1 # ❤ red heart
+2795 ; 6.0 # ➕ heavy plus sign
+2796 ; 6.0 # ➖ heavy minus sign
+2797 ; 6.0 # ➗ heavy division sign
+27A1 ; 1.1 # ➡ right arrow
+27B0 ; 6.0 # ➰ curly loop
+27BF ; 6.0 # ➿ double curly loop
+2934 ; 3.2 # ⤴ right arrow curving up
+2935 ; 3.2 # ⤵ right arrow curving down
+2B05 ; 4.0 # ⬅ left arrow
+2B06 ; 4.0 # ⬆ up arrow
+2B07 ; 4.0 # ⬇ down arrow
+2B1B ; 5.1 # ⬛ black large square
+2B1C ; 5.1 # ⬜ white large square
+2B50 ; 5.1 # ⭐ star
+2B55 ; 5.2 # ⭕ heavy large circle
+3030 ; 1.1 # 〰 wavy dash
+303D ; 3.2 # 〽 part alternation mark
+3297 ; 1.1 # ㊗ Japanese “congratulations” button
+3299 ; 1.1 # ㊙ Japanese “secret” button
+
+1995
+2002
+2003
+2005
+2008
+2009
+2010
+2012
+2014
+2015
+2016
