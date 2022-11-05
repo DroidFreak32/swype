@@ -489,7 +489,7 @@
 
     const-string/jumbo v4, "SWYPE_BUILD_TYPE"
 
-    invoke-direct {v1, v2, v3, v4, v0}, Lcom/nuance/connect/util/BuildProps$BuildProperty;-><init>(Ljava/lang/String;ILjava/lang/String;Z)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/nuance/connect/util/BuildProps$BuildProperty;-><init>(Ljava/lang/String;ILjava/lang/String;Z)V
 
     sput-object v1, Lcom/nuance/connect/util/BuildProps$BuildProperty;->SWYPE_BUILD_TYPE:Lcom/nuance/connect/util/BuildProps$BuildProperty;
 

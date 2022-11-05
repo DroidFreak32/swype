@@ -110,11 +110,11 @@
 
     iput v0, p0, Lcom/nuance/swypeconnect/ac/ACBuildConfig;->locationDelay:I
 
-    const-string/jumbo v0, "false"
+    const-string/jumbo v0, "true"
 
     iput-object v0, p0, Lcom/nuance/swypeconnect/ac/ACBuildConfig;->developerLogEnabled:Ljava/lang/String;
 
-    const-string/jumbo v0, "6"
+    const-string/jumbo v0, "1"
 
     iput-object v0, p0, Lcom/nuance/swypeconnect/ac/ACBuildConfig;->defaultLogLevel:Ljava/lang/String;
 

@@ -6,9 +6,9 @@
 # static fields
 .field public static final APPLICATION_ID:Ljava/lang/String; = "com.facebook.rebound"
 
-.field public static final BUILD_TYPE:Ljava/lang/String; = "release"
+.field public static final BUILD_TYPE:Ljava/lang/String; = "Dev"
 
-.field public static final DEBUG:Z = false
+.field public static final DEBUG:Z = true
 
 .field public static final FLAVOR:Ljava/lang/String; = ""
 

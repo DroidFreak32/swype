@@ -27,7 +27,7 @@
 
     .prologue
     .line 58
-    const/4 v0, 0x4
+    const/4 v0, 0x1
 
     sput v0, Lcom/nuance/swype/util/LogManager;->loggableLevel:I
 

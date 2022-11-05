@@ -36,7 +36,7 @@
 
 .field private static final developerLog:Lcom/nuance/connect/util/Logger$Log;
 
-.field private static developerLogEnabled:Z
+.field private static developerLogEnabled:Z = true
 
 .field protected static volatile logLevel:I
 
@@ -55,9 +55,9 @@
 .method static constructor <clinit>()V
     .registers 4
 
-    const/4 v3, 0x0
+    const/4 v3, 0x1
 
-    const/4 v0, 0x6
+    const/4 v0, 0x1
 
     sput v0, Lcom/nuance/connect/util/Logger;->logLevel:I
 
@@ -69,7 +69,7 @@
 
     new-instance v0, Lcom/nuance/connect/util/Logger$DeveloperLog;
 
-    sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
+    sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->CUSTOMER:Lcom/nuance/connect/util/Logger$LoggerType;
 
     invoke-direct {v0, v1}, Lcom/nuance/connect/util/Logger$DeveloperLog;-><init>(Lcom/nuance/connect/util/Logger$LoggerType;)V
 
@@ -77,7 +77,7 @@
 
     new-instance v0, Lcom/nuance/connect/util/Logger$DeveloperLog;
 
-    sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->OEM:Lcom/nuance/connect/util/Logger$LoggerType;
+    sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->CUSTOMER:Lcom/nuance/connect/util/Logger$LoggerType;
 
     invoke-direct {v0, v1}, Lcom/nuance/connect/util/Logger$DeveloperLog;-><init>(Lcom/nuance/connect/util/Logger$LoggerType;)V
 
@@ -87,7 +87,7 @@
 
     sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->CUSTOMER:Lcom/nuance/connect/util/Logger$LoggerType;
 
-    const/4 v2, 0x2
+    const/4 v2, 0x1
 
     invoke-direct {v0, v1, v2}, Lcom/nuance/connect/util/Logger$DeveloperLog;-><init>(Lcom/nuance/connect/util/Logger$LoggerType;I)V
 
@@ -188,7 +188,9 @@
 
     if-eq v0, p1, :cond_4c
 
-    sput p1, Lcom/nuance/connect/util/Logger;->logLevel:I
+    const/4 v0, 0x1
+
+    sput v0, Lcom/nuance/connect/util/Logger;->logLevel:I
 
     const-string/jumbo v0, "ConnectSDK"
 

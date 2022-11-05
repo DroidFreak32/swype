@@ -17,7 +17,7 @@
 
 
 # static fields
-.field private static final CUSTOM_LOG_LEVEL_DEFAULT:I = -0x1
+.field private static final CUSTOM_LOG_LEVEL_DEFAULT:I = 0x1
 
 
 # instance fields
@@ -1162,61 +1162,64 @@
 .method public isLoggable(I)Z
     .registers 7
 
-    const/4 v1, 0x1
+    const/4 v0, 0x1
 
-    const/4 v2, 0x0
+    return v0
+    # const/4 v1, 0x1
 
-    iget v0, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->customLogLevel:I
+    # const/4 v2, 0x0
 
-    const/4 v3, -0x1
+    # iget v0, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->customLogLevel:I
 
-    if-ne v0, v3, :cond_1b
+    # const/4 v3, -0x1
 
-    sget v0, Lcom/nuance/connect/util/Logger;->logLevel:I
+    # if-ne v0, v3, :cond_1b
 
-    :goto_9
-    if-lt p1, v0, :cond_1e
+    # sget v0, Lcom/nuance/connect/util/Logger;->logLevel:I
 
-    move v0, v1
+    # :goto_9
+    # if-lt p1, v0, :cond_1e
 
-    :goto_c
-    iget-object v3, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->loggerType:Lcom/nuance/connect/util/Logger$LoggerType;
+    # move v0, v1
 
-    sget-object v4, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
+    # :goto_c
+    # iget-object v3, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->loggerType:Lcom/nuance/connect/util/Logger$LoggerType;
 
-    if-ne v3, v4, :cond_22
+    # sget-object v4, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
-    if-eqz v0, :cond_20
+    # if-ne v3, v4, :cond_22
 
-    # getter for: Lcom/nuance/connect/util/Logger;->developerLogEnabled:Z
-    invoke-static {}, Lcom/nuance/connect/util/Logger;->access$000()Z
+    # if-eqz v0, :cond_20
 
-    move-result v0
+    # # getter for: Lcom/nuance/connect/util/Logger;->developerLogEnabled:Z
+    # invoke-static {}, Lcom/nuance/connect/util/Logger;->access$000()Z
 
-    if-eqz v0, :cond_20
+    # move-result v0
 
-    :goto_1a
-    return v1
+    # if-eqz v0, :cond_20
 
-    :cond_1b
-    iget v0, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->customLogLevel:I
+    # :goto_1a
+    # return v1
 
-    goto :goto_9
+    # :cond_1b
+    # iget v0, p0, Lcom/nuance/connect/util/Logger$DeveloperLog;->customLogLevel:I
 
-    :cond_1e
-    move v0, v2
+    # goto :goto_9
 
-    goto :goto_c
+    # :cond_1e
+    # move v0, v2
 
-    :cond_20
-    move v1, v2
+    # goto :goto_c
 
-    goto :goto_1a
+    # :cond_20
+    # move v1, v2
 
-    :cond_22
-    move v1, v0
+    # goto :goto_1a
 
-    goto :goto_1a
+    # :cond_22
+    # move v1, v0
+
+    # goto :goto_1a
 .end method
 
 .method protected log(ILjava/lang/Object;Ljava/lang/Throwable;)V

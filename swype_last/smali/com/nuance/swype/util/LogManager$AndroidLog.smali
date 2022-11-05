@@ -254,21 +254,9 @@
     .prologue
     .line 168
     # getter for: Lcom/nuance/swype/util/LogManager;->loggableLevel:I
-    invoke-static {}, Lcom/nuance/swype/util/LogManager;->access$000()I
-
-    move-result v0
-
-    if-lt p1, v0, :cond_8
-
     const/4 v0, 0x1
 
-    :goto_7
     return v0
-
-    :cond_8
-    const/4 v0, 0x0
-
-    goto :goto_7
 .end method
 
 .method public v(Ljava/lang/Object;)V

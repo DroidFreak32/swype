@@ -27,9 +27,9 @@
 
 .field public static final DEFAULT_DELAY:I = 0x12c
 
-.field public static final DEFAULT_LOG_LEVEL:Ljava/lang/String; = "6"
+.field public static final DEFAULT_LOG_LEVEL:Ljava/lang/String; = "1"
 
-.field public static final DEVELOPER_LOG_ENABLED:Ljava/lang/String; = "false"
+.field public static final DEVELOPER_LOG_ENABLED:Ljava/lang/String; = "true"
 
 .field public static final LANGUAGE_DOWNLOAD_CLASS:Ljava/lang/String; = "com.nuance.swypeconnect.ac.oem_62314.ACLanguageDownloadServiceNuance"
 

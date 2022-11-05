@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
-    const/4 v0, 0x3
+    const/4 v0, 0x7
 
     iput v0, p0, Lio/fabric/sdk/android/DefaultLogger;->logLevel:I
 
