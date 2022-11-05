@@ -683,6 +683,8 @@
 
 .field public static final ru:I = 0x7f110033
 
+.field public static final rupee:I = 0x7f1101f3
+
 .field public static final screen:I = 0x7f11001a
 
 .field public static final scrollIndicatorDown:I = 0x7f11008a

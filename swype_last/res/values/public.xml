@@ -7544,6 +7544,7 @@
     <public type="array" name="language_English" id="0x7f0c005e" />
     <public type="array" name="language_English_AU" id="0x7f0c005f" />
     <public type="array" name="language_English_UK" id="0x7f0c0060" />
+    <public type="array" name="language_English_IN" id="0x7f0c00cf" />
     <public type="array" name="language_Estonian" id="0x7f0c0061" />
     <public type="array" name="language_Farsi" id="0x7f0c0062" />
     <public type="array" name="language_Finnish" id="0x7f0c0063" />
@@ -8685,5 +8686,6 @@
     <public type="id" name="handwriting_key" id="0x7f1101f0" />
     <public type="id" name="comma_cjk_hwr_config_key" id="0x7f1101f1" />
     <public type="id" name="edit_item" id="0x7f1101f2" />
+    <public type="id" name="rupee" id="0x7f1101f3" />
     <public type="menu" name="languages_options_menu" id="0x7f120000" />
 </resources>
