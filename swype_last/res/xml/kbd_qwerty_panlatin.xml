@@ -104,7 +104,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_s"
             ns:keyLabel="s"
-            ns:altKeyLabel="₹"
+            ns:altKeyLabel="€"
             ns:keyGroup="@id/currency2"
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
@@ -114,6 +114,15 @@
             ns:keyLabel="s"
             ns:altKeyLabel="$"
             ns:keyboardSettings="dollar"
+            ns:keyGroup="@id/currency2"
+            ns:resizeWhenHidden="false"
+            ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key
+            ns:keyHeight="@dimen/key_height_5row"
+            ns:popupCharacters="@string/alternates_for_qwerty_india_s"
+            ns:keyLabel="s"
+            ns:altKeyLabel="₹"
+            ns:keyboardSettings="rupee"
             ns:keyGroup="@id/currency2"
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />

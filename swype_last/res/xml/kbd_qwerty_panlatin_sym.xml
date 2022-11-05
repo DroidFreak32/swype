@@ -118,6 +118,15 @@
             ns:keyBackground="@drawable/btn_keyboard_key_mid"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
+            ns:popupCharacters="@string/alternates_for_qwerty_india_s"
+            ns:keyLabel="$"
+            ns:shiftedKeyLabel="₹"
+            ns:keyboardSettings="rupee"
+            ns:keyGroup="@id/currency2"
+            ns:resizeWhenHidden="false"
+            ns:keyBackground="@drawable/btn_keyboard_key_mid"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
             ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_s"
             ns:keyLabel="£"
             ns:shiftedKeyLabel="$"
