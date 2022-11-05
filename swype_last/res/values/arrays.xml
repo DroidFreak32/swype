@@ -9257,18 +9257,6 @@
         <item>English_UK</item>
         <item>English (UK)</item>
     </string-array>
-    <string-array name="language_English_IN">
-        <item>EN</item>
-        <item>en-in</item>
-        <item>en-rIN</item>
-        <item>0x4009</item>
-        <item>1</item>
-        <item>1</item>
-        <item>.</item>
-        <item>Latin1</item>
-        <item>English_IN</item>
-        <item>English (IN)</item>
-    </string-array>
     <string-array name="language_Estonian">
         <item>ET</item>
         <item>et</item>

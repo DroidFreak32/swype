@@ -4,7 +4,6 @@
     <Locale ns:language_code="EN" ns:country_code="GB" ns:currencyType="pound" />
     <Locale ns:language_code="EN" ns:country_code="NZ" ns:currencyType="dollar" />
     <Locale ns:language_code="EN" ns:country_code="IE" ns:currencyType="euro" />
-    <!-- <Locale ns:language_code="EN" ns:country_code="IN" ns:currencyType="rupee" /> -->
     <Locale ns:language_code="ES" ns:country_code="AD" ns:currencyType="euro" />
     <Locale ns:language_code="ES" ns:country_code="ES" ns:currencyType="euro" />
     <Locale ns:language_code="PT" ns:country_code="PT" ns:currencyType="euro" />

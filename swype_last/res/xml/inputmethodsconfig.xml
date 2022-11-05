@@ -31,11 +31,6 @@
             <Layout ns:layout="@xml/alpha_handwriting_key_pad" ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" />
         </InputMode>
     </Language>
-    <Language ns:language="@array/language_English_IN" ns:defaultInputMode="QWERTY" ns:currencyType="rupee">
-        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
-            <Layout ns:layout="@xml/alpha_handwriting_key_pad" ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" />
-        </InputMode>
-    </Language>
     <Language ns:language="@array/language_French" ns:defaultInputMode="national" ns:defaultGlobalInputMode="AZERTY">
         <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_french_national">
             <Layout ns:layout="@xml/kbd_azertyfr" ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" />

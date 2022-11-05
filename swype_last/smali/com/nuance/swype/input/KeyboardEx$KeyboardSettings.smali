@@ -32,8 +32,6 @@
 
 .field public static final enum CURRENCY_POUND:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
 
-.field public static final enum CURRENCY_RUPEE:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
-
 .field public static final enum EMOJI:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
 
 .field public static final enum HANDWRITING:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
@@ -188,21 +186,8 @@
 
     sput-object v0, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;->EMOJI:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
 
-    .line 112
-    new-instance v0, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
-
-    const-string v1, "CURRENCY_RUPEE"
-
-    const/16 v2, 0xb
-
-    const/16 v3, 0x11
-
-    invoke-direct {v0, v1, v2, v3}, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;-><init>(Ljava/lang/String;II)V
-
-    sput-object v0, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;->CURRENCY_RUPEE:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
-
     .line 107
-    const/16 v0, 0xc
+    const/16 v0, 0xb
 
     new-array v0, v0, [Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
 
@@ -259,12 +244,6 @@
     const/16 v1, 0xa
 
     sget-object v2, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;->EMOJI:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
-
-    aput-object v2, v0, v1
-    
-    const/16 v1, 0xb
-    
-    sget-object v2, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;->CURRENCY_RUPEE:Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;
 
     aput-object v2, v0, v1
 

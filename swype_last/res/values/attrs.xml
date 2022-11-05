@@ -375,7 +375,6 @@
         <flag name="keyboard" value="0x00000100" />
         <flag name="pound" value="0x00000020" />
         <flag name="resizable" value="0x00000008" />
-        <flag name="rupee" value="0x00000011" />
         <flag name="speech" value="0x00000002" />
         <flag name="speechpop" value="0x00000200" />
         <flag name="splitable" value="0x00000080" />
@@ -1057,7 +1056,6 @@
         <flag name="dollar" value="0x00000010" />
         <flag name="euro" value="0x00000040" />
         <flag name="pound" value="0x00000020" />
-        <flag name="rupee" value="0x00000011" />
     </attr>
     <attr name="com_facebook_foreground_color" format="color" />
     <attr name="com_facebook_object_id" format="string" />

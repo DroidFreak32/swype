@@ -1,225 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KeyboardEx
-    ns:keyWidth="@fraction/default_10_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
-    <include
-        ns:src="@xml/kbd_number_row_default" />
-    <Row
-        ns:rowBackground="?firstRowBackground">
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_q"
-        ns:keyEdgeFlags="left"
-        ns:keyLabel="q"
-        ns:altKeyLabel="1"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_w"
-        ns:keyLabel="w"
-        ns:altKeyLabel="2"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_e"
-        ns:keyLabel="e"
-        ns:altKeyLabel="3"
-        ns:keyGroup="@id/currency1"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_e"
-        ns:keyLabel="e"
-        ns:altKeyLabel="3"
-        ns:keyboardSettings="dollar"
-        ns:keyGroup="@id/currency1"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_e"
-        ns:keyLabel="e"
-        ns:altKeyLabel="3"
-        ns:keyboardSettings="pound"
-        ns:keyGroup="@id/currency1"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_r"
-        ns:keyLabel="r"
-        ns:altKeyLabel="4"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_t"
-        ns:keyLabel="t"
-        ns:altKeyLabel="5"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_y"
-        ns:keyLabel="y"
-        ns:altKeyLabel="6"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_u"
-        ns:keyLabel="u"
-        ns:altKeyLabel="7"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_i"
-        ns:keyLabel="i"
-        ns:altKeyLabel="8"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_o"
-        ns:keyLabel="o"
-        ns:altKeyLabel="9"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_p"
-        ns:keyEdgeFlags="right"
-        ns:keyLabel="p"
-        ns:altKeyLabel="0"
-        ns:keyBackground="@drawable/btn_keyboard_key_top" />
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_q" ns:keyEdgeFlags="left" ns:keyLabel="q" ns:altKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_w" ns:keyLabel="w" ns:altKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_e" ns:keyLabel="e" ns:altKeyLabel="3" ns:keyboardSettings="pound" ns:keyGroup="@id/currency1" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_r" ns:keyLabel="r" ns:altKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_t" ns:keyLabel="t" ns:altKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_y" ns:keyLabel="y" ns:altKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_u" ns:keyLabel="u" ns:altKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_i" ns:keyLabel="i" ns:altKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_o" ns:keyLabel="o" ns:altKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_p" ns:keyEdgeFlags="right" ns:keyLabel="p" ns:altKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_top" />
     </Row>
-    <Row
-        ns:rowBackground="?secondRowBackground">
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_a"
-        ns:keyEdgeFlags="left"
-        ns:keyLabel="a"
-        ns:altKeyLabel="\@"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_s"
-        ns:keyLabel="s"
-        ns:altKeyLabel="€"
-        ns:keyGroup="@id/currency2"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_s"
-        ns:keyLabel="s"
-        ns:altKeyLabel="$"
-        ns:keyboardSettings="dollar"
-        ns:keyGroup="@id/currency2"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_s"
-        ns:keyLabel="s"
-        ns:altKeyLabel="£"
-        ns:keyboardSettings="pound"
-        ns:keyGroup="@id/currency2"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_d"
-        ns:keyLabel="d"
-        ns:altKeyLabel="&amp;"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_f"
-        ns:keyLabel="f"
-        ns:altKeyLabel="_"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_g"
-        ns:keyLabel="g"
-        ns:altKeyLabel="("
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_h"
-        ns:keyLabel="h"
-        ns:altKeyLabel=")"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_j"
-        ns:keyLabel="j"
-        ns:altKeyLabel=":"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_k"
-        ns:keyLabel="k"
-        ns:altKeyLabel=";"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_l"
-        ns:keyEdgeFlags="right"
-        ns:keyLabel="l"
-        ns:altKeyLabel="&quot;"
-        ns:keyGroup="@id/currency3"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_l"
-        ns:keyEdgeFlags="right"
-        ns:keyLabel="l"
-        ns:altKeyLabel="&quot;"
-        ns:keyboardSettings="dollar"
-        ns:keyGroup="@id/currency3"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_l"
-        ns:keyEdgeFlags="right"
-        ns:keyLabel="l"
-        ns:altKeyLabel="&quot;"
-        ns:keyboardSettings="pound"
-        ns:keyGroup="@id/currency3"
-        ns:resizeWhenHidden="false"
-        ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_a" ns:keyEdgeFlags="left" ns:keyLabel="a" ns:altKeyLabel="\@" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="€" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="$" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_s" ns:keyLabel="s" ns:altKeyLabel="£" ns:keyboardSettings="pound" ns:keyGroup="@id/currency2" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_d" ns:keyLabel="d" ns:altKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_f" ns:keyLabel="f" ns:altKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_g" ns:keyLabel="g" ns:altKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_h" ns:keyLabel="h" ns:altKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_j" ns:keyLabel="j" ns:altKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_k" ns:keyLabel="k" ns:altKeyLabel=";" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_l" ns:keyEdgeFlags="right" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_l" ns:keyEdgeFlags="right" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyboardSettings="dollar" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_l" ns:keyEdgeFlags="right" ns:keyLabel="l" ns:altKeyLabel="&quot;" ns:keyboardSettings="pound" ns:keyGroup="@id/currency3" ns:resizeWhenHidden="false" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
     </Row>
-    <Row
-        ns:rowBackground="?thirdRowBackground">
-        <Key
-            ns:keyWidth="@fraction/shift_7_10_key_width"
-        ns:codes="@integer/keycode_shift"
-        ns:keyEdgeFlags="left"
-        ns:isModifier="true"
-        ns:isSticky="true"
-        ns:isLockable="true"
-        ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback"
-        ns:keyIcon="@drawable/sym_keyboard_shift_cycle"
-        ns:keyIconRecolor="?iconRecolorShift"
-        ns:keyType="function"
-        ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle"
-        ns:keyContentBaseline="@dimen/key_content_no_baseline" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_z"
-        ns:keyLabel="z"
-        ns:altKeyLabel="*" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_x"
-        ns:keyLabel="x"
-        ns:altKeyLabel="!" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_c"
-        ns:keyLabel="c"
-        ns:altKeyLabel="\#" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_v"
-        ns:keyLabel="v"
-        ns:altKeyLabel="=" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_b"
-        ns:keyLabel="b"
-        ns:altKeyLabel="/" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_n"
-        ns:keyLabel="n"
-        ns:altKeyLabel="+" />
-        <Key
-            ns:popupCharacters="@string/alternates_for_qwerty_panlatin_m"
-        ns:keyLabel="m"
-        ns:altKeyLabel="\?" />
-        <Key
-            ns:keyWidth="@fraction/delete_7_10_key_width"
-        ns:codes="@integer/keycode_delete"
-        ns:keyEdgeFlags="right"
-        ns:isRepeatable="false"
-        ns:iconPreview="?symKeyboardFeedbackDelete"
-        ns:keyIcon="?symKeyboardDelete"
-        ns:keyIconRecolor="?iconRecolorDelete"
-        ns:altPreviewIcon="?symKeyboardFeedbackDelete"
-        ns:keyType="function"
-        ns:keyBackground="@drawable/btn_keyboard_action_key"
-        ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_7_10_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_z" ns:keyLabel="z" ns:altKeyLabel="*" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_x" ns:keyLabel="x" ns:altKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_c" ns:keyLabel="c" ns:altKeyLabel="\#" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_v" ns:keyLabel="v" ns:altKeyLabel="=" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_b" ns:keyLabel="b" ns:altKeyLabel="/" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_n" ns:keyLabel="n" ns:altKeyLabel="+" />
+        <Key ns:popupCharacters="@string/alternates_for_qwerty_panlatin_m" ns:keyLabel="m" ns:altKeyLabel="\?" />
+        <Key ns:keyWidth="@fraction/delete_7_10_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
     </Row>
-    <include
-        ns:src="@xml/kbd_bottom_row_default" />
+    <include ns:src="@xml/kbd_bottom_row_default" />
 </KeyboardEx>
