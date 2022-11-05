@@ -1,5 +1,16 @@
 # Swype 3.2.4.3020400.50699 Black Edition
 
+WIP modding of the last known Swype release with features such as:
+
+- Larger UI scaling in portrait mode (from 80 - 120% to 100 - 140%)
+- Pitch back "Material Dark" theme for AMOLED displays
+- Slightly larger fonts
+- Updated Emojis from Unicode
+- .. Maybe more in the future
+
+Huge thanks to modders over at [4PDA](https://4pda.to/forum/index.php?showtopic=150358), most of the mods were done by diffing the untouched APK against existing mods by 4PDA folks
+
+---
 ### How to build this mod?
 
 1. Install APKtool & Android SDK
