@@ -48,3 +48,23 @@ echo == Done: $OUT_ALIGNED
 ```bash
 
 grep '; fully-qualified' emoji-test-5.0.txt | awk -F ';' '{print $1}' | sort
+```
+
+## Installing custom themes - **Needs ROOT**
+Credit: [4PDA post](https://4pda.to/forum/index.php?showtopic=150358&view=findpost&p=77045845)
+
+Enter adb shell as root / termux root shell
+
+ - Find the UID and GID of the swype app and note it down:  
+`ls -al /data/data/com.nuance.swype.dtc`
+ - Extract all the files from the `com.nuance.swype.dtc_themes.txz` release into the above path
+ - Set the correct ownership:
+```
+chown $UID:$GID -hR /data/data/com.nuance.swype.dtc/files /data/data/com.nuance.swype.dtc/shared_prefs
+```
+ - Open `/data/data/com.nuance.swype.dtc/shared_prefs/com.nuance.swype.dtc_preferences.xml`
+ - Insert all the lines of `Inventory.txt` in this file before a line that looks like:
+`<string name="downloaded.theme">current theme name</string> `
+ - Edit `current theme name` with the **Name** of the theme, ex. `nuance.theme.sand`
+ - Edit `<string name="swype.theme">/data/user/0/com.nuance.swype.dtc/files/themes/name of the theme folder/name of the apk file.apk</string>`
+ - Kill and restart swype
