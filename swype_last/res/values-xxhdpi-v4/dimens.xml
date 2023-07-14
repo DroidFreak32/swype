@@ -2,21 +2,26 @@
 <resources>
         <dimen name="keyboard_forced_height">320.0dip</dimen>
 
-<!--     <dimen name="key_text_size">25dip</dimen>
-    <dimen name="key_text_size_5row">24dip</dimen>
-    <dimen name="key_text_size_small">24dip</dimen>
-    <dimen name="key_label_text_size">21dip</dimen>
-    <dimen name="key_label_text_size_5row">23dip</dimen>
-    <dimen name="key_label_text_size_small">23dip</dimen>
-    <dimen name="key_text_size_large">30dip</dimen>
-    <dimen name="alt_text_size_no_row_on">15dip</dimen>
-    <dimen name="alt_emoji_icon_size">17dip</dimen>
-    <dimen name="alt_label_text_size">17dip</dimen>
-    <dimen name="alt_label_text_size_5row">17dip</dimen>
-    <dimen name="alt_text_size">16dip</dimen>
-    <dimen name="alt_text_size_big">23dip</dimen>
-    <dimen name="alt_text_size_small">17dip</dimen>
-    <dimen name="alt_emoji_icon_size_big">27dip</dimen>
-    <dimen name="alt_emoji_icon_size_small">23dip</dimen>
-    <dimen name="theme_category_title_size">20.0dip</dimen> -->
+    <!-- <dimen name="alt_emoji_icon_size">10.0dip</dimen> -->
+    <!-- <dimen name="alt_emoji_icon_size_big">20.0dip</dimen> -->
+    <!-- <dimen name="alt_emoji_icon_size_small">16.0dip</dimen> -->
+    <!-- <dimen name="alt_label_text_size">10.0dip</dimen> -->
+    <!-- <dimen name="alt_label_text_size_5row">10.0dip</dimen> -->
+    <!-- <dimen name="alt_text_size">9.0dip</dimen> -->
+    <!-- <dimen name="alt_text_size_big">16.0dip</dimen> -->
+    <!-- <dimen name="alt_text_size_no_row_on">8.0dip</dimen> -->
+    <!-- <dimen name="alt_text_size_small">10.0dip</dimen> -->
+
+    <!-- Affects the bottom row's ABC, ?123 font size -->
+    <!-- <dimen name="key_label_text_size">14.0dip</dimen> -->
+    <!-- <dimen name="key_label_text_size_5row">16.0dip</dimen> -->
+    <!-- <dimen name="key_label_text_size_large">21.0dip</dimen> -->
+    <!-- <dimen name="key_label_text_size_small">16.0dip</dimen> -->
+
+    <!-- Affects the actual keyboard characters font size -->
+    <!-- <dimen name="key_text_size">18.0dip</dimen> -->
+    <!-- <dimen name="key_text_size_5row">17.0dip</dimen> -->
+    <!-- <dimen name="key_text_size_large">23.0dip</dimen> -->
+    <!-- <dimen name="key_text_size_small">17.0dip</dimen> -->
+    <!-- <dimen name="theme_category_title_size">20.0dip</dimen> -->
 </resources>
