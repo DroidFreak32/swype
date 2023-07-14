@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d kun avval</item>
+        <item quantity="one">%d kun avval</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">"%d so'z o'chiriladi."</item>
+        <item quantity="one">"Bitta so'z o'chiriladi."</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d soat avval</item>
+        <item quantity="one">%d soat avval</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d daqiqa avval</item>
+        <item quantity="one">%d daqiqa avval</item>
+    </plurals>
+</resources>

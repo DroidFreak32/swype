@@ -1,0 +1,321 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">କହନ୍ତୁ</a></div>
+				<div><a href="#write">ହାତରେ ଲେଖନ୍ତୁ</a></div>
+				<div class="last"><a href="#tap">ଟାଇପ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ସହିତ, ଆପଣଙ୍କ ଚାରୋଟି ବିଭିନ୍ନ ଇନପୁଟ ମୋଡ୍‌ &#45; Swype,କହିବା, ଲେଖିବା କିମ୍ୱା ଟ୍ୟାପ୍‌ କରିବା ମଧ୍ୟରେ ଅବାଧରେ ସ୍ୱିଚ କରିପାରନ୍ତି।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>ପାଠ ପ୍ରବେଶ କରିବା କୁ Swype ହେଉଛି ଏକ ଦ୍ରୁତ ମାର୍ଗ | ଏହା ଅକ୍ଷର ମଧ୍ୟରୁ ଅଙ୍କନ କରି ଆପଣଙ୍କୁ ଏକ ଶବ୍ଦ ପ୍ରବେଶ କରିବାକୁ ଅନୁମତି ଦିଏ | ନିଜର ଆଙ୍ଗୁଠି କୁ ଶବ୍ଦ ର ପ୍ରଥମ ଅକ୍ଷର ଉପରେ ରଖନ୍ତୁ ଏବଂ ଶେଷ ଅକ୍ଷର ପରେ ଉଠାଇ ଅକ୍ଷର ରୁ ଅକ୍ଷର କୁ ଏକ ପଥ ଟାଣନ୍ତୁ | ଯେଉଁଠାରେ ଦରକାର Swype ଶୁନ୍ୟ ସ୍ଥାନ ସନ୍ନିବେଶ କରିବ |</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ଅଧିକ ଜାଣନ୍ତୁ| <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype କୀ
+									<div id="ul_1a" class="open">
+										<p>Swype କୀ ହେଉଛି ସେହି କୀ ଯେଉଁଥରେ Swype ଲୋଗୋ ଅଛି। Swype ସେଟିଙ୍ଗକୁ ଉପଯୋଗ କରିବା ପାଇଁ Swype କୀ କୁ ଦବାନ୍ତୁ ଏବଂ ଧରିରଖନ୍ତୁ।</p>
+										<p>Swype କୀ ମଧ୍ୟ ବହୁ Swype ଗେଶ୍ଚର ପ୍ରାରମ୍ଭ କରିବା ପାଇଁ ବ୍ୟବହୃତ ହୋ‍ଇଥାଏ।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    କୀବୋର୍ଡ ପୂର୍ବାଲୋକନ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ଗେଶ୍ଚର୍‍
+									<div id="ul_1b" class="closed">
+										<p>Swype ଗେଶ୍ଚର୍‍ ହେଉଛି ସାଧାରଣ କାର୍ୟ୍ୟ ଶୀଘ୍ର ସମ୍ପାଦନା କରିବା ପାଇଁ କୀବୋର୍ଡରେ ଥିବା ସର୍ଟକଟ୍‌। କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏନାହିଁ|</p>
+										<ul>
+											<li><span class="gestures">ସମ୍ପାଦନା କୀବୋର୍ଡକୁ ଯିବା</span> ସମ୍ପାଦନା କୀବୋର୍ଡକୁ ଯିବା ପାଇଁ, କିବୋର୍ଡ ରେ ଥିବା ସଂକେତ କି (?123)କୁ <img src="img_swypekey.png" />ରୁ ସ୍ୱାଇପ କରନ୍ତୁ |</li>
+											<li><span class="gestures">ସଂଖ୍ୟା କୀବୋର୍ଡକୁ ଯିବା</span> ସଂଖ୍ୟା କୀବୋର୍ଡକୁ ଶୀଘ୍ର ଯିବା ପାଇଁ, <img src="img_swypekey.png" /> ରୁ ସଂଖ୍ୟା 5 କୁ ସ୍ୱାଇପ କରନ୍ତୁ |</li>
+											<li><span class="gestures">କୀବୋର୍ଡ ଲୁକାୟିତ କରିବା</span> କୀବୋର୍ଡକୁ ସହଜରେ ଲୁକାୟିତ କରିବା ପାଇଁ, କେବଳ Swype କୀ ରୁ ବ୍ୟାକସ୍ପେସ କୀ କୁ Swype କରନ୍ତୁ।</li>
+
+											<li><span class="gestures">ସ୍ୱତଃ ସ୍ପେସିଙ୍ଗ ଅଫ୍‍ କରିବା</span> ପରବର୍ତ୍ତୀ ଶବ୍ଦ ପୂର୍ବରୁ ସ୍ୱତଃ ସ୍ପେସିଙ୍ଗ ଦବାଇବା ପାଇଁ ସ୍ପେସ କୀରୁ ବ୍ୟାକସ୍ପେସ କୀକୁ Swype କରନ୍ତୁ।</li>
+
+
+											<li><span class="gestures">ବିରାମ ଚିହ୍ନ</span> ବିରାମ ଚିହ୍ନ ଦେବା ର ଏକ ସରଳ ଉପାୟ ହେଉଛି ଏହାକୁ ଟ୍ୟାପ୍‌ କରିବା ପରିବର୍ତ୍ତେ ପ୍ରଶ୍ନ ଚିହ୍ନ,କମା, ଅବଧି, କିମ୍ୱା ଅନ୍ୟାନ୍ୟ ବିରାମ ଚିହ୍ ରୁ ସ୍ପେସ କୀକୁ Swype କରିବା।</li>
+
+											<li><span class="gestures">ଆପ୍ଲିକେଶନ ସର୍ଟକଟ୍‍</span>Google Maps: </li>
+											<li><span class="gestures">ସନ୍ଧାନ</span>ଏକ ତ୍ୱରିତ ୱେବ ସନ୍ଧାନ କରିବା ପାଇଁ କିଛି ପାଠ କୁ ହାଇଲାଇଟ କରନ୍ତୁ ଏବଂ <img src="img_swypekey.png" /> ରୁ Swype କୁ S ପର୍ଯ୍ୟନ୍ତ ନେଇଯାଆନ୍ତୁ |</li>
+											<li><span class="gestures">ବ୍ୟବହୃତ ଶେଷ ଭାଷା କୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ</span>ଏକାଧିକ ଭାଷା ବ୍ୟବହାର କରିବା ସମୟ ରେ, ପୁର୍ବ ଭାଷା ରେ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ଏକ ଦ୍ରୁତ ଉପାୟ ହେଉଛି <img src="img_swypekey.png" /> ରୁ Swype ଠାରୁ ସ୍ପେସ କି କୁ ଯାଆନ୍ତୁ |</li>
+										</ul>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ଏକ ଶବ୍ଦ ଚୟନ କରିବା
+									<div id="ul_1d" class="closed">
+										<p>ଶବ୍ଦ ମନୋନୟନ ସୂଚୀ ରେ ପ୍ରସ୍ତାବିତ ଡିଫଲ୍ଟ ଶବ୍ଦ କୁ ଗ୍ରହଣ କରିବା ପାଇଁ, ଟାପ କରିବା ଜାରି ରଖନ୍ତୁ | ଅନ୍ୟଥା, ନିଜର ଆଙ୍ଗୁଠିରେ ଟାଣି ତାଲିକା ମଧ୍ୟରେ ସ୍କ୍ରୋଲ କରନ୍ତୁ, ଏବଂ ଚାହୁଁଥିବା ଶବ୍ଦ ଚୟନ କରନ୍ତୁ। କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏନାହିଁ|</p>
+										<p>ଏକ ତାଲିକାରୁ ପାଠ୍ୟ ଚୟନ କରିବା ପାଇଁ, ତାଲିକା ଏଣ୍ଟ୍ରି ଶୁଣିବା ପାଇଁ ନିଜର ଆଙ୍ଗୁଠିକୁ ଏକ ବୃତ୍ତାକାର ଗତିରେ ଚଲାନ୍ତୁ। ବାମରୁ ଡାହାଣକୁ ଗତି କରିବାରେ ତାଲିକାରେ ଆଗକୁ ; ଡାହାଣରୁ ବାମକୁ ଗତି କରିବାରେ ତାଲିକାରେ ପଛକୁ ଯାଇହୁଏ। ଆଙ୍ଗୁଠି ଉଠାଇବା ବେଳେ ଶେଷ କୁହାଯାଇଥିବା ତାଲିକା ଆଉଟ୍‌ପୁଟ୍‌ ଦିଏ| ଶବ୍ଦ ମନୋନୟନ ତାଲିକାରୁ ଏକ ଶବ୍ଦ ଚୟନ କରିବା ପାଇଁ, ତାଲିକାରୁ ପ୍ରଥମ ଶବ୍ଦ ଶୁଣାଯିବା ପର୍ଯ୍ୟନ୍ତ କୀବୋର୍ଡରୁ ନିଜର ଆଙ୍ଗୁଠିକୁ ଉପରକୁ ସ୍ଲାଇଡ କରନ୍ତୁ, ତାହାପରେ ବୃତ୍ତାକାର ଗତି ଆରମ୍ଭ କରନ୍ତୁ।	କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏ |</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ସସ୍ୱୟଂଚାଳିତ ସ୍ପେସିଙ୍ଗ
+									<div id="ul_1f" class="closed">
+										<p>ଯେତେବେଳେ ଆପଣ ବାକ୍ୟର ପରବର୍ତ୍ତୀ ଶବ୍ଦ Swype କରନ୍ତି Swype ସ୍ୱତଃ ଶବ୍ଦଗୁଡ଼ିକ ମଧ୍ୟରେ ଏକ ଶୂନ୍ୟ ସ୍ଥାନ ପ୍ରବେଶ କରାଏ। ଆପଣ Swype ସେଟିଙ୍ଗରେ ସ୍ୱତଃ&#45;ସ୍ପେସିଙ୍ଗ ସୁବିଧା ବନ୍ଦ କିମ୍ୱା ଚାଲୁ କରିପାରିବେ |</p>
+										<p>ସ୍ପେସ୍‌ କୀକୁ ବ୍ୟାକ୍‌ସ୍ପେସ୍‌ କୀରେ ସ୍ୱାପ୍‌ କରିବା ଦ୍ୱାରା ଆପଣ ଗୋଟିଏ ଶବ୍ଦ ପାଇଁ ସ୍ୱତଃ&#45;ସ୍ପେସିଙ୍ଗ ଅଫ୍‍ କରିପାରିବେ। |</p>
+										<p>କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏନାହିଁ|</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ଏକ ଶବ୍ଦ କୁ ବଦଳାଇବା
+									<div id="ul_1g" class="closed">
+										<p>ଏକ ଶବ୍ଦ ଉପରେ ଟ୍ୟାପ୍‌ କରି ଏହାକୁ ବଦଳାନ୍ତୁ, ତାପରେ ଶବ୍ଦ ମନୋନୟନ ତାଲିକାରୁ ଆପଣ ଚାହୁଁଥିବା ଶବ୍ଦ ଚୟନ କରନ୍ତୁ, କିମ୍ୱା କେବଳ ଶବ୍ଦକୁ ହାଇଲାଇଟ କରନ୍ତୁ ଏବଂ ନୂତନ ଶବ୍ଦକୁ Swype କରନ୍ତୁ। ନନୂତନ ଶବ୍ଦ ଏକ ଭୁଲ୍‌ ଶବ୍ଦ ସ୍ଥାନ ନେବ</p>
+										<p>ଏକ ଶବ୍ଦକୁ ଟ୍ୟାପ୍‌ କରି ଏବଂ <img src="img_swypekey.png" /> କୁ ଦବାଇ କିମ୍ୱା ଶବ୍ଦକୁ ଦୁଇ ଥର ଟ୍ୟାପ୍‌ କରି ହାଇଲାଇଟ କରିପାରିବେ।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ଅକ୍ଷରଗୁଡିକ ମଧ୍ୟରେ ବାଉନସ୍‍ କରିବା
+									<div id="ul_1h" class="closed">
+										<p>କେବେକେବେ Swyping କରିବା ସମୟ ରେ କିଛି ଅକ୍ଷର କୁ ବର୍ଜନ କରିବା ସୁନିଶ୍ଚିତ କରେ କି ଆପଣ ଚାହୁଁଥିବା ଶବ୍ଦ କୁ ପ୍ରଥମ ଥର ରେ ପ୍ରାପ୍ତ କରିବେ |</p>
+										<p>ଉଦାହରଣ ସ୍ୱରୁପ, &quot;ପୋତି&quot; ଏବଂ &quot;ଧୋତି&quot; ସମାନ ପଥରେ ଟଣା ଯାଇପାରିବ &#45; କିନ୍ତୁ ଧ୍ୟାନ ଦିଅନ୍ତୁ, ଆପଣ ଏକ ସରଳ ରେଖାରେ ଅକ୍ଷର ରୁ ଅକ୍ଷର କୁ ସ୍ତାନାନ୍ତରଣ କରିବାକୁ ପଡିବ ନାହିଁ | &quot;ା&quot; ଉପରେ ନିଜର ଆଙ୍ଗୁଠି ସ୍ୱାଇପିଙ୍ଗ କରିବା ସମୟରେ&quot;ଧ&quot; ଏଡାଇବା ସୁନିଶ୍ଚିତ କରେ ଯେ ଶବ୍ଦ &quot;ପୋତି&quot; ଶବ୍ଦ ମନୋନୟନ ତାଲିକାରେ ପ୍ରଥମେଅଛି।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ବିକଳ୍ପ ବର୍ଣ୍ଣଗୁଡ଼ିକ
+									<div id="ul_1i" class="closed">
+
+										<p>ଏକ କି କୁ ଦବାଇ ଧରିରଖିଲେ ସେହି କି ପାଇଁ ଏକ ବୈକଳ୍ପିକ ଅକ୍ଷର ର ତାଲିକା, ଯେପରିକି ସଂକେତ @ ଏବଂ %,ଏବଂ ସଂଖ୍ୟା କୁ ଦର୍ଶାଏ |</p>
+
+										<p>ସଂକେତ କିବୋର୍ଡ କୁ ନେବାକୁ ଥିବା ସଂକେତ କି (?123) କୁ ଟାପ କରନ୍ତୁ |</p>
+										<p>ଧ୍ୟାନ ଦିଅନ୍ତୁ ଯେ ମୂଖ୍ୟ କିବୋର୍ଡ ରୁ ସମସ୍ତ ବର୍ଣ୍ଣ ସ୍ୱାଇପ ଯୋଗ୍ୟ ଅଟେ(ଆପଣ ସେ ଗୁଡିକ କୁ ଦେଖି ପାରନ୍ତି କିମ୍ୱା ନ ପାରନ୍ତି) | ଆପଣ କିବୋର୍ଡ ର ଏହି ଦୃଶ୍ୟ ବ୍ୟବହାର କରି ସ୍ୱାଇପ କରିପାରିବେ, କିନ୍ତୁ ଆପଣ କେବଳ ସେହି ଶବ୍ଦ ଗୁଡିକ ପ୍ରାପ୍ତ କରିବେ ଯେଉଁଥିରେ ଅତିକମ ରେ ଏକ ସଂଖ୍ୟା କିମ୍ୱା ସଂକେତ ରହିଥିବ |</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ଶବ୍ଦ କୁ ଯୋଗ ଏବଂ ବିଲୋପ କରିବା
+									<div id="ul_1j" class="closed">
+										<p>Swype ବୁଦ୍ଧିମତା ର ସହ ଆପଣ ବ୍ୟବହାର କରୁଥିବା କୌଣସି ନୂତନ ଶବ୍ଦ ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ ଶବ୍ଦକୋଷ ରେ ଯୋଗ କରେ |</p>
+										<p>ଆପଣ ମଧ୍ୟ ଏକ ଶବ୍ଦ କୁ ହାଇଲାଇଟ ଏବଂ <img src="img_swypekey.png" /> ଟାପ କରି ଯୋଗ କରିପାରିବେ | ଶବ୍ଦ ଯୋଗ କରିବା ପାଇଁ ଦେଖାଯାଉଥିବା ପ୍ରମ୍ପଟ କୁ ଟାପ କରନ୍ତୁ |</p>
+										<p>ଏକ ଶବ୍ଦ ବିଲୋପ କରିବାକୁ ଶବ୍ଦ ମନୋନୟନ ତାଲିକା ରେ ଶବ୍ଦ କୁ ଦବାଇ ଧରି ରଖନ୍ତୁ ଏବଂ ତାପରେ ସ୍ଥାୟୀକରଣ ସଂବାଦ ରେ ଠିକ ଟାପ କରନ୍ତୁ | କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏନାହିଁ|</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									ବ୍ୟକ୍ତିଗତକରଣ
+									<div id="ul_1k" class="closed">
+										<p>Twitter, ଏବଂ Gmail ରୁ ଆପଣଙ୍କର ଶବ୍ଦକୋଷ କୁ Swype ଶୀଘ୍ର ଶବ୍ଦଗୁଡିକ ଯୋଗ କରିପାରେ | Swype ବ୍ୟକ୍ତିଗତ କରିବା:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> କୁ ଦବାନ୍ତୁ ଏବଂ ଧରି ରଖନ୍ତୁ |</li>
+											<li>Swype ସେଟିଙ୍ଗସ୍‍ ମେନ୍ୟୁରୁ, ମୋ ଶବ୍ଦ &gt; ବ୍ୟକ୍ତିଭିତ୍ତିକକରଣ ଚୟନ କରନ୍ତୁ।</li>
+											<li>ବ୍ୟକ୍ତିଗତକରଣ ବିକଳ୍ପ ଚୟନ କରନ୍ତୁ ଏବଂ ପଚରାଗଲେ ନିଜର ପରିଚୟ ପ୍ରବେଶ କରନ୍ତୁ।</li>
+											<li>ଗୋଟିଏ କିମ୍ୱା ସମସ୍ତ ଉତ୍ସ ରୁ ଆପଣ Swype କୁ ବ୍ୟକ୍ତିଗତ କରିପାରିବେ |</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">କହନ୍ତୁ</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>ଆପଣ Facebook ଏବଂ Twitter ଅପ୍‌ଡେଟ୍‌ରୁ ପାଠ୍ୟ ଏବଂ ଇମେଲ ସନ୍ଦେଶ ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତ ପାଠ୍ୟ ବିଷୟବସ୍ତୁ ପ୍ରବେଶ କରିବା ପାଇଁ କହି ପାରିବେ।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ଅଧିକ ଜାଣନ୍ତୁ| <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									ବିରାମ ଚିହ୍ନ
+									<div id="ul_2a" class="open">
+										<p>ମାନୁଆଲି ବିରାମ ଚିହ୍ନ ଯୋଗ କରିବା ଆବଶ୍ୟକ ନାହିଁ | କେବଳ ଆପଣ ଚାହୁଁଥିବା ବିରାମ ଚିହ୍ନ ଦେବାକୁ କହନ୍ତୁ ଏବଂ ଜାରି ରଖନ୍ତୁ। ଏହାକୁ ଚେଷ୍ଟା କରନ୍ତୁ:</p>
+										<ol>
+											<li>ସ୍ୱର କୀ ଦବାନ୍ତୁ ଏବଂ କହିବା ଆରମ୍ଭ କରନ୍ତୁ।</li>
+											<li>ଆପଣ କଣ କହିଲେ : <i>ଡିନର ରୂଚିକର ଥିଲା ବିସ୍ମୟ୍ସୂଚକ ଚିହ୍ନ</i></li>
+											<li>ଆପଣ କଣ ପାଇଲେ: <i>ଡିନର ରୂଚିକର ଥିଲା!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>କେତେକ କୀବୋର୍ଡରେ ସ୍ୱର ଇନପୁଟ ଉପଲବ୍ଧ ନ ଥାଏ</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ହାତରେ ଲେଖନ୍ତୁ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>ଆପଣ ନିଜର ଆଙ୍ଗୁଠି ବ୍ୟବହାର କରି ଅକ୍ଷର ଏବଂ ଶବ୍ଦ ଅଙ୍କନ କରିପାରିବେ ଏବଂ Swype ଏହାକୁ ପାଠ ରେ ପରିବର୍ତ୍ତନ କରିଦେବ | ଆପଣ ଅକ୍ଷର କୁ ବାମ&#45;ରୁ&#45;ଡାହାଣ କୁ କିମ୍ୱା ପରସ୍ପର ଶୀର୍ଷ ରେ ଅଙ୍କନ କରିପାରିବେ | ଅକ୍ଷର ଏବଂ ସଂକେତ ମୋଡ ମଧ୍ୟରେ ଟଗଲ କରିବା ପାଇଁ ଅଆଇ / 123 ଦବାନ୍ତୁ |					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ଅଧିକ ଜାଣନ୍ତୁ| <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									ହସ୍ତଲିଖନ ସକ୍ଷମ କରନ୍ତୁ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" />କୁ ଦବାଇ ଧରିରଖନ୍ତୁ ଏବଂ ହସ୍ତଲିଖନ ଆଇକନରେ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ସ୍ଲାଇଡ କରନ୍ତୁ।</li>
+											<li>ହସ୍ତଲିଖନ କ୍ଷେତ୍ରରେ ଆପଣଙ୍କ ଆଙ୍ଗୁଠିରେ ଅକ୍ଷର ଅଙ୍କନ କରନ୍ତୁ।</li>
+
+											<li>ପ୍ରତିଟି ଶବ୍ଦ ମଧ୍ୟରେ ସ୍ପେସ ବାର ଟ୍ୟାପ୍‌ କରନ୍ତୁ</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ମଲ୍ଟି&#45;ଟଚ ଗେଶ୍ଚର୍‍
+									<div id="ul_3b" class="closed">
+										<p>ମଲ୍ଟି&#45;ଟଚ ଗେଶ୍ଚର୍‍ ଆପଣଙ୍କୁ ସରଳ କାମ ସମ୍ପୂର୍ଣ୍ଣ କରିବାକୁ ଦିଏ, ଯେପରିକି ଶବ୍ଦ କିମ୍ୱା ଅକ୍ଷରକୁ କ୍ୟାପିଟାଲାଇଜ୍‍ କରିବା।</p>
+										<ol>
+											<li>ଡ୍ର‍ଇଙ୍ଗ ପ୍ୟାଡରେ କିଛି ଲୋୟର କେସ୍‌ ଅକ୍ଷର ଅଙ୍କନ କରନ୍ତୁ</li>
+											<li>ବର୍ଣ୍ଣଗୁଡ଼ିକ ପ୍ରବେଶ କରାଇବା ପରେ, ଲେଖନ କ୍ଷେତ୍ରରେ ଦୁଇଟି ଆଙ୍ଗୁଠି ଉପରକୁ ସ୍ଲାଇଡ କରନ୍ତୁ</li>
+											<li>ହସ୍ତଲିଖନ ସୁବିଧା ମଲ୍ଟି&#45;ଟଚ ଗେଶ୍ଚର୍‍କୁ ଚିହ୍ନଟ କରିବ ଏବଂ ଅକ୍ଷରକୁ କ୍ୟାପିଟାଲାଇଜ୍‍ କରିଦେବ</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>କେତେକ କୀବୋର୍ଡରେ ହସ୍ତଲିଖନ ଉପଲବ୍ଧ ନ ଥାଏ।</i></p>
+									<p><i>କେବଳସିଷ୍ଟମ ଆସେସିବିଲିଟି ସେବା Explore&#45;By&#45;Touch ଅନ୍‌ ଥିବା ବେଳେ ଏହି ବୈଶିଷ୍ଟ୍ୟ ଉପଲବ୍ଧ ହୁଏନାହିଁ|</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ଟାଇପ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>ମାନୁଆଲ କୀବୋର୍ଡ ଇନପୁଟର ପାରମ୍ପରିକ ରୂପ Swype କୀବୋର୍ଡରେ ଟ୍ୟାପ୍‌ ଇନପୁଟକୁ କେତେକ ସହାୟକ ବିଶେଷତା ସହିତ ଅଧିକ ସହଜ ଓ ଉପାଦେୟ କରାଯାଇଛି:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ଅଧିକ ଜାଣନ୍ତୁ| <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ଦ୍ରୁତ ଅସାବଧାନ ଟାଇପିଙ୍ଗ ସଂଶୋଧନ
+									<div id="ul_4a" class="open">
+										<p>ଆପଣ ସଠିକ୍‌ ଭାବରେ ପ୍ରତି ଅକ୍ଷର ଟ୍ୟାପ୍‌ କରିବା ଦରକାର ନାହିଁ। ନିଜର ଯଥାସାଧ୍ୟ ଚେଷ୍ଟା କରନ୍ତୁ ଏବଂ Swype ଚତୁରତା ସହ ଶବ୍ଦ ପ୍ରସ୍ତାବ ପ୍ରଦାନ କରିବ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ଶବ୍ଦ ସମ୍ପାଦାନ
+									<div id="ul_4b" class="closed">
+										<p>ଯେତେବେଳେ ଆପଣ କେବଳ କିଛି ଅକ୍ଷର ଟ୍ୟାପ୍‌ କରନ୍ତି Swype ମଧ୍ୟ ଆପଣଙ୍କର ଶବ୍ଦ ଅନୁମାନ କରିପାରେ।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ଭାଷାଗୁଡ଼ିକ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>କୀବୋର୍ଡରୁ ଭାଷାଗୁଡ଼ିକ ପରିବର୍ତ୍ତନ କରିବା: ସ୍ପେସ ବାରକୁ ଦବାନ୍ତୁ ଏବଂ ଧରି ରଖନ୍ତୁ। ପପ୍‌ ଅପ୍‌ ମେନ୍ୟୁରୁ ନିଜର ବାଞ୍ଛିତ ଭାଷା ଚୟନ କରନ୍ତୁ।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ଆମକୁ ଆପଣଙ୍କ ଡିଭାଇସ୍‍ ପାଇଁ ଅପ୍‌ଡେଟ୍‌ ଏବଂ ଶକ୍ତିଶାଳୀ କାର୍ଯ୍ୟକାରିତା ଅଧିକାର ପ୍ରଦାନ କରିବାକୁ ଅନୁମତି ଦିଏ! ଯଦିଓ Swype Connect 3G ରେ କାମ କରେ, ଆମେ ସର୍ବଦା ଏକ ୱାଇ&#45;ଫାଇ କନେକସନ୍‍ ପ୍ରାପ୍ତ କରିବାକୁ ପରାମର୍ଶ ଦେଉ |</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ଅଧିକ ଜାଣନ୍ତୁ| <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ଭାଷା ଡାଉନଲୋଡ୍‌
+									<div id="ul_6a" class="open">
+										<p>Swypeରେ ଅତିରିକ୍ତ ଭାଷା ଯୋଗ କରିବା ସହଜ ଅଟେ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> କୁ ଦବାନ୍ତୁ ଏବଂ ଧରି ରଖନ୍ତୁ ଏବଂ ଭାଷାଗୁଡ଼ିକ ଚୟନ କରନ୍ତୁ।</li>
+											<li>ଭାଷା ମେନ୍ୟୁରୁ, ଭାଷା ଡାଉନଲୋଡ୍‌ ଚୟନ କରନ୍ତୁ।</li>
+											<li>ଭାଷାରେ କ୍ଲିକ୍‌ କରନ୍ତୁ ଏବଂ ଆପଣଙ୍କର ଡାଉନଲୋଡ୍‌ ସ୍ୱତଃ ଚାଲୁ ହୋଇଯିବ।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ସବୁ କୀବୋର୍ଡରେ ଉପଲବ୍ଧ ନ ଥାଏ।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">ଅଧିକ ସହୟତା</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ବ୍ୟବହାର କ୍ଷେତ୍ରରେ ଅଧିକ ସହାୟତା ପାଇଁ, <a href="http://www.swype.com">www.swype.com</a> ରେ ଏକ Swype ୟୁଜର ମାନୁଆଲ ଏବଂ Swype ବ୍ୟବହାରିକ ସୂଚନା ଏବଂ ଭିଡିଓ ଦେଖନ୍ତୁ, କିମ୍ୱା <a href="http://forum.swype.com">forum.swype.com</a> ରେ Swype ଫୋରମ ଅନଲାଇନ ଚେକ୍‌ଆଉଟ୍‌ କରନ୍ତୁ।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

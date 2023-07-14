@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d दिवसेभ्यः प्राक्</item>
+        <item quantity="one">%d दिवसात् प्राक्</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d शब्दाः विलुप्ताः भविष्यन्ति</item>
+        <item quantity="one">एकः शब्दः विलुप्तः भविष्यति।</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d  होराभ्यः पूर्वम्</item>
+        <item quantity="one">%d  होरायाः पूर्वम्</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d निमेषेभ्यः पूर्वम्</item>
+        <item quantity="one">%d निमेषात् पूर्वम्</item>
+    </plurals>
+</resources>

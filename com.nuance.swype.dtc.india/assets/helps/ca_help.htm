@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Parlar</a></div>
+				<div><a href="#write">Escriure</a></div>
+				<div class="last"><a href="#tap">Puntejar</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Amb Swype teniu la possibilitat de canviar fàcilment entre quatre modes d&#39;entrada: swype, parlar, escriure o puntejar.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>El Swype és una manera ràpida d’introduir text. Permet teclejar una paraula dibuixant sobre les lletres. Poseu el dit sobre la primera lletra de la paraula i dibuixeu el camí de lletra en lletra, sense alçar el dit fins arribar a la darrera. El Swype inserirà espais quan sigui necessari.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Conegueu&#45;ne més detalls <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									La Tecla Swype
+									<div id="ul_1a" class="open">
+										<p>La tecla Swype és la tecla que conté el logo del Swype. Mantingueu premuda la tecla Swype per accedir a la Configuració del Swype.</p>
+										<p>La tecla Swype també s&#39;utilitza per iniciar molts gestos del Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Vista prèvia del teclat
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gestos del Swype
+									<div id="ul_1b" class="closed">
+										<p>Els gestos del Swype són dreceres del teclat que permeten realitzar tasques comunes ràpidament. Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+										<ul>
+											<li><span class="gestures">Com anar al teclat d’edició</span> Per anar al teclat d’edició, llisqueu el dit des de <img src="img_swypekey.png" /> fins a la tecla Símbols (?123) del teclat.</li>
+											<li><span class="gestures">Com anar al teclat numèric</span> Per anar al teclat numèric ràpidament, llisqueu el dit des de <img src="img_swypekey.png" /> fins al número 5.</li>
+											<li><span class="gestures">Ocultació del teclat</span> Per ocultar el teclat fàcilment, llisqueu el dit des de la tecla Swype fins a la tecla retrocés.</li>
+
+											<li><span class="gestures">Desactivació de l’espaiat automàtic</span> Per eliminar l’espaiat automàtic abans de la paraula següent, llisqueu des de la tecla espai fins a la tecla Retrocés.</li>
+
+
+											<li><span class="gestures">Edició de les majúscules d’una paraula</span> Per convertir una paraula en majúscules o minúscules després d’introduir&#45;la, puntegeu&#45;la i a continuació llisqueu des de la <img src="img_swypekey.png" /> fins a la tecla de majúscules <img src="img_shiftkey.png" />. Veureu una Llista de paraules amb opcions de majúscules, que us permetrà triar minúscules, MAJÚSCULES o Format de frase.</li>
+
+											<li><span class="gestures">Puntuació</span> Per entrar puntuació de forma senzilla, feu «swyping» des del signe d&#39;interrogació, la coma, el punt, o des d’altres signes de puntuació fins a la tecla espaiadora enlloc de puntejar&#45;lo.</li>
+
+											<li><span class="gestures">Selecció de Tot, Talla, Copia i Enganxa</span>
+												Selecciona&#45;ho tot: Feu Swype amb el dit des de <img src="img_swypekey.png" /> fins a &quot;a&quot;<br />
+												Talla: Feu Swype amb el dit des de <img src="img_swypekey.png" /> fins a &quot;x&quot;<br />
+												Copia: Feu Swype amb el dit des de <img src="img_swypekey.png" /> fins a &quot;c&quot;<br />
+												Enganxa: Feu Swype amb el dit des de <img src="img_swypekey.png" /> fins a &quot;v&quot;
+											</li>
+
+											<li><span class="gestures">Dreceres d’aplicació</span>Google Maps: Feu Swype amb el dit des de <img src="img_swypekey.png" /> fins a &quot;g&quot;, i després fins a &quot;m&quot;</li>
+											<li><span class="gestures">Cerca</span>Ressalteu text i feu Swype des de <img src="img_swypekey.png" /> fins a «S» per fer una cerca web ràpida.</li>
+											<li><span class="gestures">Canvi al darrer idioma utilitzat.</span>Si utilitzeu múltiples idiomes, una forma ràpida de tornar a l&#39;idioma anterior és lliscar al Swype des de la icona <img src="img_swypekey.png" /> fins a la tecla d&#39;espaiament.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Introducció de lletres dobles
+									<div id="ul_1n" class="closed">
+										<p>Per millorar la precisió en introduir lletres dobles, gargotegeu o dibuixeu un llaç sobre la lletra. Per exemple, per aconseguir la «ss» a «classe», gargotegeu sobre la tecla «s». Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Elecció d’una paraula
+									<div id="ul_1d" class="closed">
+										<p>Per acceptar la paraula predeterminada suggerida a la Llista de paraules, senzillament continueu fent «Swyping». Altrament, desplaceu&#45;vos per la llista arrossegant el dit, i trieu la paraula desitjada. Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+										<p>Per seleccionar text d&#39;una llista, moveu el dit en cercles per escoltar&#45;ne els continguts. En sentit horari, s&#39;avança per la llista; en sentit antihorari, es torna enrere. Alceu el dit per introduir la darrera entrada pronunciada. Per triar un mot de la Llista de paraules, llisqueu el dit des del teclat fins que escolteu el primer mot de la llista; a continuació, moveu el dit en cercles.	Aquesta funció només és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Majúscules i minúscules
+									<div id="ul_1e" class="closed">
+										<p>Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+										<p>Per convertir una lletra en majúscula, llisqueu el dit des de la lletra cap amunt més enllà del teclat i, sense alçar el dit, llisqueu&#45;lo cap avall fins a la lletra següent de la paraula.</p>
+										<p>Per convertir una paraula en majúscules o minúscules després d’introduir&#45;la, puntegeu&#45;la i a continuació llisqueu des de la <img src="img_swypekey.png" /> fins a la tecla de majúscules <img src="img_shiftkey.png" />. Veureu una Llista de paraules amb opcions de majúscules, que us permetrà triar minúscules, MAJÚSCULES o Format de frase.</p>
+										<p>Per canviar a majúscules, puntegeu dos cops la tecla Majúscules <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Espaiat automàtic
+									<div id="ul_1f" class="closed">
+										<p>El Swype insereix automàticament un espai després de cada paraula quan comenceu a introduir la següent. Podeu activar o desactivar la funció d’espaiat automàtic a la Configuració del Swype.</p>
+										<p>Per eliminar l’espaiat automàtic abans d&#39;una paraula, llisqueu des de la tecla Espai fins a la tecla Retrocés.</p>
+										<p>Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Substitució d’una paraula
+									<div id="ul_1g" class="closed">
+										<p>Per substituir una paraula, puntegeu&#45;la, i a continuació trieu la paraula que vulgueu de la Llista de paraules. O bé, senzillament marqueu&#45;la i feu «swype» per introduir una paraula nova. La paraula nova substituirà la incorrecta.</p>
+										<p>Podeu marcar una paraula prement <img src="img_swypekey.png" /> o bé puntejant&#45;la dues vegades.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Rebots entre lletres
+									<div id="ul_1h" class="closed">
+										<p>De vegades evitar algunes lletres en fer «Swyping» us permetrà aconseguir la paraula desitjada més ràpidament.</p>
+										<p>Per exemple, «por» i «pur» es poden dibuixar amb el mateix camí, però tingueu en compte que no és necessari anar de lletra a lletra en línia recta. Si eviteu la «o» en lliscar fins a la «u», aconseguireu que la paraula «pur» es mostri la primera a la Llista de paraules.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Caràcters alternatius
+									<div id="ul_1i" class="closed">
+
+										<p>Si puntegeu una tecla amb el dit i la manteniu premuda, obtindreu una llista de tots els caràcters disponibles a la tecla, com els caràcters amb accents com «é» i «ç», els símbols com @ i %, i els números.</p>
+
+										<p>Puntegeu la tecla Símbols (?123) per anar al teclat de símbols.</p>
+										<p>TOTS els caràcters són accessibles al fer «swype» des del teclat principal (tant si els veieu com si no). Podeu fer «swype» mitjançant aquesta visualització del teclat, però només obtindreu paraules que tenen un número o símbol com a mínim.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Addició i eliminació de paraules
+									<div id="ul_1j" class="closed">
+										<p>Swype incorpora de forma intelligent noves paraules al vostre Diccionari personal.</p>
+										<p>També podeu afegir&#45;hi una paraula si la marqueu i puntegeu <img src="img_swypekey.png" />. Puntegeu el missatge emergent que apareixerà per afegir la paraula.</p>
+										<p>Per eliminar una paraula, mantingueu&#45;la premuda a la Llista de paraules i, seguidament, puntegeu D&#39;acord al diàleg de confirmació. Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalització
+									<div id="ul_1k" class="closed">
+										<p>Swype permet afegir ràpidament una paraula al vostre diccionari des de Twitter i Gmail. Per personalitzar Swype:</p>
+										<ol>
+											<li>Mantingueu premut <img src="img_swypekey.png" />.</li>
+											<li>Des del menú de Configuració de Swype, seleccioneu Les meues paraules &gt; Personalització.</li>
+											<li>Seleccioneu les opcions de personalització desitjades i entreu les vostres credencials si se us solliciten.</li>
+											<li>Podeu personalitzar el Swype des d&#39;una o des de totes les fonts.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Parlar</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Podeu parlar per a introduir tota mena de contingut textual, des de missatges de text i correu electrònic fins a actualitzacions de Facebook i Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Conegueu&#45;ne més detalls <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Puntuació
+									<div id="ul_2a" class="open">
+										<p>No cal introduir manualment la puntuació. Només cal indicar&#45;la verbalment i continuar. Proveu això:</p>
+										<ol>
+											<li>Premeu la tecla de veu i comenceu a parlar.</li>
+											<li>Digueu: <i>El sopar estava molt bo exclamació</i></li>
+											<li>S&#39;escriu: <i>El sopar estava molt bo!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>L&#39;entrada per veu no està disponible en alguns teclats</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Escriure</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Podeu fer servir el dit per dibuixar lletres i paraules, i Swype les convertirà en text. Podeu dibuixar lletres d&#39;esquerra a dreta o una sobre l&#39;altra. Premeu ABC / 123 per canviar entre els modes de lletres i números.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Conegueu&#45;ne més detalls <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Habilita l&#39;escriptura a mà
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Mantingueu premut <img src="img_symkey.png" /> i llisqueu el dit a la icona d’escriptura manual.</li>
+											<li>Dibuixeu lletres amb el dit a la zona d&#39;escriptura a mà.</li>
+
+											<li>Puntegeu la barra d&#39;espai entre paraules</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gest de toc múltiple
+									<div id="ul_3b" class="closed">
+										<p>El gest de toc múltiple us permet realitzar tasques senzilles com ara convertir paraules o lletres en majúscula.</p>
+										<ol>
+											<li>Dibuixeu algunes lletres en minúscula en el teclat de dibuix</li>
+											<li>Després d&#39;entrar els caràcters, feu lliscar dos dits amunt en la zona d&#39;escriptura</li>
+											<li>La funció d&#39;escriptura a mà reconeixerà el gest de toc múltiple i convertirà les lletres en majúscula</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>L&#39;escriptura a mà no està disponible en alguns teclats.</i></p>
+									<p><i>Aquesta funció no és disponible quan el servei d&#39;accessibilitat del sistema Explore&#45;by&#45;Touch està actiu.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Puntejar</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Mètode tradicional d&#39;entrada mitjançant el teclat manual. L&#39;entrada puntejada en el teclat Swype s&#39;ha simplificat i s&#39;ha fet més eficient mitjançant algunes funcions útils:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Conegueu&#45;ne més detalls <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Correcció d&#39;escriptura descuidada
+									<div id="ul_4a" class="open">
+										<p>No cal que puntegeu cada lletra a la perfecció. Feu&#45;ho tan bé com pugueu i Swype us oferirà suggeriments intelligents de paraules.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Compleció de paraules
+									<div id="ul_4b" class="closed">
+										<p>Swype també pot endevinar la paraula tot i que només hageu puntejat unes lletres.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Idiomes</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Per canviar l&#39;idioma del teclat: Mantingueu premuda la barra d&#39;espai. Seleccioneu l&#39;idioma desitjat en el menú emergent.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ens permet proporcionar&#45;vos actualitzacions i una potent funcionalitat directament al vostre dispositiu! Tot i que Swype Connect funciona amb 3G, sempre recomanem trobar una connexió wi&#45;fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Conegueu&#45;ne més detalls <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Baixada d&#39;idiomes
+									<div id="ul_6a" class="open">
+										<p>Afegir idiomes addicionals al Swype es fàcil:</p>
+										<ol>
+											<li>Mantingueu premuda la tecla <img src="img_swypekey.png" /> i seleccioneu Idiomes.</li>
+											<li>Des del menú Idiomes, seleccioneu Baixa idiomes.</li>
+											<li>Feu clic a l&#39;idioma i s&#39;iniciarà automàticament la baixada.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect no està disponible a tots els teclats.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Més ajuda</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Per obtenir més ajuda amb el Swype, consulteu el manual d’usuari del Swype, i els consells i els vídeos a <a href="http://www.swype.com">www.swype.com</a> o consulteu el fòrum del Swype en línia a <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

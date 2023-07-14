@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="one">%d dag geleden</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d woorden zullen verwijderd worden</item>
+        <item quantity="one">Eén woord zal verwijderd worden.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d uren geleden</item>
+        <item quantity="one">%d uur geleden</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="one">%d minuut geleden</item>
+    </plurals>
+</resources>

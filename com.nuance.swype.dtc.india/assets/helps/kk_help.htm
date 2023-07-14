@@ -1,0 +1,342 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Сөйлеу</a></div>
+				<div><a href="#write">Жазу</a></div>
+				<div class="last"><a href="#tap">Теру</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Сіз Swype арқылы әртүрлі бірқалыпты осы төрт режимдер арасында Сырғыту, Сөйлеу, Жазу немесе Түрту ауысу мүмкіндігіңіз бар.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype – жылдам мәтін енгізуі үшін. Ол әріптерді сызып шығу арқылы сөзді енгізуге мүмкіндік береді. Саусағыңызды сөздің бірінші әрпіне қойып, әріптен әріпке сызық салып шығып, саусағыңызды соңғы әріптен кейін алыңыз. Керек жерде, бос аралық автоматты тұрде орнатылады.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Қосымша мәлімет алу <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype туймешігі
+									<div id="ul_1a" class="open">
+										<p>Swype пернесі – Swype белгісі көрсетілген перне. Swype параметрлеріне қол жеткізу ұшін Swype пернесін басып ұстап тұрыңыз.</p>
+										<p>Swype пернесі көптеген Swype ымдарын бастау үшін қолданылады.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Пернетақтаны алдын ала қарау
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype қимылдары
+									<div id="ul_1b" class="closed">
+										<p>Swype қимылдары ол пернетақтадағы негізгі тапсырмаларды жылдам орындау ушін арналған таңбашалар. Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+										<ul>
+											<li><span class="gestures">Өңдеу пернетақтасын орнату</span> Өңдеу пернетақтасын алу үшін <img src="img_swypekey.png" /> пернесінен пернетақтадағы Таңбалар пернесіне (?123) сырғытыңыз.</li>
+											<li><span class="gestures">Сандық пернетақтаны орнату</span> Сандық пернетақтаны жылдам ашу ушін, <img src="img_swypekey.png" /> пернесінен 5 санына сырғытыңыз.</li>
+											<li><span class="gestures">Пернетақтаны жасыру</span> Пернетақтаны оңай жасыру ушін Swype пернесінен backspace пернесіне сырғып өтіңіз.</li>
+
+											<li><span class="gestures">Автоматты түрде жасалатын аралық енгізілуін өшіру</span> Space пернесінен Backspace пернесіне сырғыту арқылы келесі сөздің алдынан автоматты түрде жасалатын аралықты жасыру.</li>
+
+
+											<li><span class="gestures">Сөздің регистрін ауыстыру</span> Сөзді түрту арқылы енгізгеннен кейін оның регистрін өзгертіңіз, одан кейін <img src="img_swypekey.png" /> пернесінен Shift пернесіне <img src="img_shiftkey.png" /> сырғытыңыз. Кіші әріппен, Бас әріппен немесе Барлығын бас әріппен жазу ішінен таңдауға мұмкіндік беретін Бас әріппен енгізу параметрлері көрсетілген Сөзді таңдау тізімі ашылады.</li>
+
+											<li><span class="gestures">Тыныс белгілері</span> Тыныс белгісін енгізудің қарапайым жолы оны басудың орнына сұрақ белгісінен, үтірден, нукте немесе басқа тыныс белгілерінен бос орын пернесіне бірден сырғыту болып табылады.</li>
+
+											<li><span class="gestures">Қолданба таңбашалары</span>Google Maps: <img src="img_swypekey.png" /> пернесінен &#39;g&#39; пернесіне, одан кейін &#39;m&#39; пернесіне сырғыту</li>
+											<li><span class="gestures">Іздеу</span>Жылдам веб іздеу үшін біраз мәтінді және Swype&#45;ті <img src="img_swypekey.png" />&#45;тан S дейін белгілеңіз.</li>
+											<li><span class="gestures">Соңғы тілге ауыстырылғаны қолдануда.</span>Бірнеше тілді қолданып жатқан кезде өткен тілге тез өту үшін <img src="img_swypekey.png" /> нан Бос орын пернесіне өту.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Қос әріптерді енгізу
+									<div id="ul_1n" class="closed">
+										<p>Қос әріптерді енгізгенде дәлдікке жету ушін әріптің үстінен сәл сүйкеңіз немесе бұралаңдаңыз. Мысалы, &quot;ұлттық&quot; сөзіндегі &quot;тт&quot; әріптерін енгізу ушін &quot;т&quot; түймешігінің үстінен сүйкеп сырғыңыз. Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Сөзді таңдау
+									<div id="ul_1d" class="closed">
+										<p>Сөзді таңдау тізімінен ұсынылған әдепкі сөз нұсқасын қабылдау үшін сырғуды жалғастыру қажет. Әйтпесе тізім арқылы саусағыңызбен шарлап өтіп, қажетті сөзді таңдауға болады. Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+										<p>Тізімнен мәтін таңдау үшін, саусағыңызды дөңгелетіп, тізім жазбаларын естіңіз. Оңға дөңгелеткенде тізім алға жылжиды; солға дөңгелеткенде тізімі артқа жылжиды. Саусақ көтерілгенде соңғы айтылған тізім жазбады көрінеді. Сөздер тізімінен бір сөзді таңдау үшін, тізімдегі бірінші сөз естілгенше саусағыңызды пернетақтадан жоғары көтеріп, одан кейін дөңгелетуді бастаңыз.	Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қосылған жағдайда ғана бұл қасиет қол жетімді болады.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Сөздерді бас әріппен енгізу
+									<div id="ul_1e" class="closed">
+										<p>Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+										<p>Сөзді бас әріппен жазу ұшін саусағыңызды бірінші әріпке орнатып, соңғы әріптен пернетақтаның жоғары жағына қарай сырғып, келесі әріпке қарай жылжып, саусағыңызды алмай, теруді жалғастырыңыз.</p>
+										<p>Сөзді түрту арқылы енгізгеннен кейін оның регистрін өзгертіңіз, одан кейін <img src="img_swypekey.png" /> пернесінен Shift пернесіне <img src="img_shiftkey.png" /> сырғытыңыз. Кіші әріппен, Бас әріппен немесе Барлығын бас әріппен жазу ішінен таңдауға мұмкіндік беретін Бас әріппен енгізу параметрлері көрсетілген Сөзді таңдау тізімі ашылады.</p>
+										<p>CAPS Lock режимін таңдау ұшін небәрі Shift пернесін екі рет басу қажет <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Автоматты түрде жасалатын аралық
+									<div id="ul_1f" class="closed">
+										<p>Сөйлемдегі келесі сөзге сырғып өткенде бос аралық автоматты тұрде орнатылады. Авто&#45;бос орын орнату мумкіндігін параметрлері ішінен қосуға немесе өшіруге болады.</p>
+										<p>Авто&#45;бос орын орнатуды бір сөз ушін Space пернесінен Backspace пернесіне сырғып өшіруге болады.</p>
+										<p>Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Сөзді ауыстыру
+									<div id="ul_1g" class="closed">
+										<p>Сөзді түрту арқылы ауыстырып, қажетті сөзді Сөзді таңдау тізімінен таңдаңыз, немесе, сөзді жай бөлектеп жаңа сөзді сырғытып еңгізіңіз. Жаңа сөз дұрыс емес сөзді ауыстырады.</p>
+										<p>Сөзді түрту және <img src="img_swypekey.png" /> пернесін түрту немесе сөзді екі рет түрту арқылы бөлектеуге болады.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Әріптер арасында секіріп өту
+									<div id="ul_1h" class="closed">
+										<p>Сырғу кезінде әріптер устімен суйкемеу бастапқы қажет сөзді енгізуге мумкіндік береді.</p>
+										<p>Мысалы, &quot;өңделді&quot; және &quot;өңдеді&quot; сөздері бір жолмен сырғып енгізіледі, бірақ бір әріптен екіншісіне тұзу жолмен сырғудың қажет еместігін есте сақтаңыз. &quot;д&quot; әрпіне сырғу кезінде &quot;л&quot; әріпіне тимеу &quot;өңдеді&quot; сөзі Сөзді таңдау тізімінде бірінші болып тұрғанына көз жеткізеді.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Балама таңбалар
+									<div id="ul_1i" class="closed">
+
+										<p>Пернені ұ және ё сияқты екпін белгісі бар әріптер, @ және % сияқты таңбалар және сандар үшін баламалы таңбалар тізімін шығару үшін басып тұрыңыз.</p>
+
+										<p>Таңбалар пернетақтасына өту үшін Таңбалар пернесін (?123) түртіңіз.</p>
+										<p>Бұл таңбалардың БАРЛЫҒЫ негізгі пернетақтадан сырғи алатынын есте сақтаңыз (олардың көрінуі не көрінбеуіне байланыссыз). Пернетақтаның бұл көрінісін пайдаланып сырғып енгізу мумкін, бірақ тек бір сан немесе таңбасы бар сөздерді енгізе аласыз.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Сөздерді қосу және жою
+									<div id="ul_1j" class="closed">
+										<p>Swype жеке сөздігіңізге пайдаланатын жаңа сөздерді өзі қосады.</p>
+										<p>Сөзді оны бөлектеу және <img src="img_swypekey.png" /> пернесін түрту арқылы қосуға болады. Сөзді қосу ұшін көрсетілетін еске салғышты басыңыз.</p>
+										<p>Сөзді жою үшін Сөз таңдау тізіміндегі сөзді басып тұрыңыз да, растау терезесіндегі OK пернесін басыңыз. Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Жеке теңшеулер
+									<div id="ul_1k" class="closed">
+										<p>Swype сөздігіңізге Twitter және Gmail сөзді жылдам қоса алады. Swype пернетақтасын теңшеу үшін:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> пернесін басып ұстап тұрыңыз.</li>
+											<li>Swype параметрлері мәзірінен Сөздерім &gt; Жеке түрде реттеу тармағын таңдаңыз.</li>
+											<li>Жеке теңшеу параметрлерін таңдап, тіркелгі деректеріңізді сұралса енгізіңіз.</li>
+											<li>Swype пернетақтасын бір немесе барлық көздерден теңшеуге болады.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Сөйлеу</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Мәтін мазмұнын енгізу үшін барлығын мәтін мен эл.пошта хабарларынан бастап Facebook және Twitter жаңартуларына дейін сөйлей аласыз.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Қосымша мәлімет алу <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Тыныс белгілері
+									<div id="ul_2a" class="open">
+										<p>Тыныс белгілерін қолмен енгізудің қажеті жоқ. Қажетті тыныс белгіні сөйлеңіз де, жалғастырыңыз. Мынаны көріп істеңіз.</p>
+										<ol>
+											<li>дауыс пернесін басып, сөйлеуді бастаңыз.</li>
+											<li>Мынаны айтсаңыз: <i>Кешкі ас өте дәмді болды леп белгісі</i></li>
+											<li>Мынаны аласыз: <i>Кешкі ас өте дәмді болды!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Дауыс енгізу кейбір пернетақталарда қолданылмайды</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Жазу</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Саусағыңызбен әріптер мен сөздердә сызсаңыз, Swype оны мәтінге айналдырады. Әріптерді солдан оңға қарай немесе бір бірінің үстіне салуға болады. Әріп және таңба режимі арасында ауысу үшін ABC / 123 басыңыз.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Қосымша мәлімет алу <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Қолжазба мүмкіндігін қосу
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> басып ұстап тұрыңыз және саусақтарыңызды қолмен жазу белгішесіне сырғытыңыз.</li>
+											<li>Әріптерді қолжазба аймағына саусағыңызбен сызыңыз.</li>
+
+											<li>Әрбір сөз арасындағы бос орын пернесін түртіңіз</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Көп түрту қимылдары
+									<div id="ul_3b" class="closed">
+										<p>Көп түрту қимылы сөздерді немесе әріптерді үлкен әріппен жазу сияқты қарапайым тапсырмаларды аяқтауға мүмкіндік береді.</p>
+										<ol>
+											<li>Кейбір кіші әріптерді сурет салу тақтасына сызыңыз</li>
+											<li>Таңбаларды енгізгеннен кейін екі саусағыңызды жазу аймағында жоғары қарай сырғытыңыз</li>
+											<li>Қолжазба мүмкіндігі көп түрту қимылын таниды және әріптерді үлкен әріппен жазады</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Қолмен жазу кейбір пернетақталарда қолданылмайды.</i></p>
+									<p><i>Explore&#45;by&#45;Touch жүйеге қол жеткізу қызметі іске қослыған болса, бұл қасиет қол жетімсіз.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Теру</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Қолмен теру пернетақтаның дәстүрлі үлгісі. Swype пернетақтасындағы түртіп енгізу кейбір мүмкіндіктер арқылы оңай әрі тиімдірек болады:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Қосымша мәлімет алу <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Ұқыпсыз теруді түзету
+									<div id="ul_4a" class="open">
+										<p>Әрбір әріпті толық түртудің қажеті жоқ. Тырысып көріңіз, Swype сөз ұсыныстарын өзі қамтамасыз етеді.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Сөз аяқтау
+									<div id="ul_4b" class="closed">
+										<p>Оған қоса, Swype бірнеше әріп терілген кезде сөзіңізді тануы мүмкін.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Тілдер</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Пернетақтадағы тілдерді ауыстыру үшін: Бос орын пернесін басып ұстап тұрыңыз. Қажетті тілді қалқыма мәзірінен таңдаңыз.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect бізге жаңартулар мен қуатты функцияларды дәл құрылғыңызға жеткізуге мүмкіндік береді! Swype Connect 3G желісі арқылы жұмыс істеген кезде, біз әрдайым Wi&#45;Fi байланысын табуды ұсынамыз.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Қосымша мәлімет алу <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Тілдерді жүктеу
+									<div id="ul_6a" class="open">
+										<p>Swype пернетақтасына қосымша тілдерді қосу оңай:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> пернесін басып тұрып, Тілдерді таңдаңыз.</li>
+											<li>Тіл параметрлер мәзірінен Тілдерді жүктеу пәрменін таңдаңыз.</li>
+											<li>Тілді таңдаңыз, жүктеу автоматты түрде басталады.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect мүмкіндігі барлық пернетақталарда қолданылмайды.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Қосымша көмек</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype пайдалану бойынша қосымша көмек алу ушін <a href="http://www.swype.com">www.swype.com</a> торабындағы Swype пайдаланушы нусқауы мен Swype анымақтамалары және бейне материалдарды қараңыз немесе <a href="http://forum.swype.com">forum.swype.com</a> мекенжайы бойынша орналасқан онлайн Swype форумына кіріп тексеріңіз.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

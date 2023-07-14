@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d ध्याड़ें पैह्ले</item>
+        <item quantity="one">%d ध्याड़े पैह्ले</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d अक्खर मिटाई दित्ते जाङन</item>
+        <item quantity="one">इक अक्खर मिटाई दित्ता जाग।</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d घैंटे पैहले</item>
+        <item quantity="one">%d घैंटा पैहले</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d मिनटें पैह्ले</item>
+        <item quantity="one">%d मिनट पैह्ले</item>
+    </plurals>
+</resources>

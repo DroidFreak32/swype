@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Rääkimine</a></div>
+				<div><a href="#write">Kirjutamine</a></div>
+				<div class="last"><a href="#tap">Koputamine</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype&#39;iga saate lülituda sujuvalt ümber nelja erineva sisestusrežiimi vahel: svaipimine, rääkimine, kirjutamine või koputamine.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype on kiire viis teksti sisestamiseks. Võimaldab sisestada sõna, libistades üle tähtede. Pange sõrm sõna esimesele tähele ja lohistage sõrm tähelt tähele, viimasel tähel tõstke sõrm ekraanilt. Swype lisab vahed sinna, kus vaja.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Rohkem teavet <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Klahv Swype
+									<div id="ul_1a" class="open">
+										<p>Klahv Swype on klahv, millel on Swype’i logo. Swype’i sätete kuvamiseks toksake ja hoidke sõrme selle klahvil.</p>
+										<p>Klahvi Swype kasutatakse ka paljude Swype&#39;i liigutuste algatamiseks.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Klaviatuuri eelvaade
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype&#39;i liigutused
+									<div id="ul_1b" class="closed">
+										<p>Swype&#39;i liigutused on klaviatuuril leiduvad otseteed, millega kiiresti sooritada tavalisi ülesandeid. See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+										<ul>
+											<li><span class="gestures">Redigeerimisklaviatuuri juurde pääsemine</span> Redigeerimisklaviatuurile juurdepääsuks svaipige üksuselt <img src="img_swypekey.png" /> sümbolite klahvile (?123) klaviatuuril.</li>
+											<li><span class="gestures">Numbriklaviatuuri juurde pääsemine</span> Kiireks juurdepääsuks numbriklaviatuurile svaipige üksuselt <img src="img_swypekey.png" /> numbrile 5.</li>
+											<li><span class="gestures">Klaviatuuri peitmine</span> Klaviatuuri lihtsaks peitmiseks svaipige klahvilt Swype tagasilükkeklahvile.</li>
+
+											<li><span class="gestures">Lülita välja automaatsed märgi&#45; ja sõnavahed</span> Summutage järgmisele sõnale eelnev automaatne sõnavahe, svaipides tühikuklahvilt tagasilükkeklahvile.</li>
+
+
+											<li><span class="gestures">Sõna käände redigeerimine</span> Muutke suurtähestust pärast sõna sisestamist, koputades sõna ja seejärel svaipides üksuselt <img src="img_swypekey.png" /> Shift&#45;klahvile <img src="img_shiftkey.png" />. Kuvatakse sisestusvõimaluste valikuloend, mis võimaldab teil valida sõna sisestuse väiketähtedega, suure algustähega või SUURTÄHTEDEGA.</li>
+
+											<li><span class="gestures">Kirjavahemärgid</span> Lihtne moodus kirjavahemärgi sisestamiseks on svaipida küsimärgi, koma, punkti või muu kirjavahemärgi pealt tühikuklahvile, selle asemel et seda koputada.</li>
+
+											<li><span class="gestures">Käsud Vali kõik, Lõika, Kopeeri ja Kleebi</span>
+												Vali kõik: Svaipige üksuselt <img src="img_swypekey.png" /> üksusele „a”<br />
+												Lõika: Svaipige üksuselt <img src="img_swypekey.png" /> üksusele „x”<br />
+												Kopeeri: Svaipige üksuselt <img src="img_swypekey.png" /> üksusele „c”<br />
+												Kleebi: Svaipige üksuselt <img src="img_swypekey.png" /> üksusele „v”
+											</li>
+
+											<li><span class="gestures">Rakenduse otseteed</span>Google Maps Svaipige üksuselt <img src="img_swypekey.png" /> üksusele „g”, seejärel üksusele „m”</li>
+											<li><span class="gestures">Otsing</span>Tõstke osa tekstist esile ja svaipige ikoonilt <img src="img_swypekey.png" /> klahvile S, et teha kiire veebiotsing.</li>
+											<li><span class="gestures">Ümberlülitumine viimati kasutatud keelele.</span>Mitme keele kasutamisel saab kiiresti eelmisele keelele tagasi lülituda, kui svaipida ikoonilt <img src="img_swypekey.png" /> tühikuklahvile.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Sisestamine tegemine
+									<div id="ul_1n" class="closed">
+										<p>Täpsuse suurendamiseks topelttähtede sisestamisel tehke tähe kohal kerge kritseldav või ringjas liigutus. Näiteks – et saada sõnas „teema” topelttähe „ee”, tehke „e” kohal kritseldavat liigutust. See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Sõna valimine
+									<div id="ul_1d" class="closed">
+										<p>Soovitatud vaikesõna kinnitamiseks sõnavalikute loendis jätkake lihtsalt svaipimist. Või kerige sõrme lohistades läbi loendi ja valige sõna, mida soovite. See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+										<p>Loendist teksti valimiseks liigutage sõrme ringikujuliselt, et kuulata loendikirjeid. Päripäeva liigutused viivad loendis edasi, vastupäeva liigutused tagasi. Sõrme ülestõstmine kuvab viimati esitatud loendikirje. Sõnavalikute loendist sõna valimiseks libistage sõrme klaviatuurilt ülespoole, kuni esitatakse loendi esimest sõna, seejärel alustage ringikujuliste liigutustega.	See funktsioon on saadaval vaid siis, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Sõna algustähe muutmine
+									<div id="ul_1e" class="closed">
+										<p>See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+										<p>Kui soovite alustada sõna suure tähega, lohistage sõrm tähelt klaviatuuri ülemisest servast üle ja seejärel lohistage see klaviatuuril sõna järgmisele tähele. Ärge vahepeal sõrme üles tõstke.</p>
+										<p>Muutke suurtähestust pärast sõna sisestamist, koputades sõna ja seejärel svaipides üksuselt <img src="img_swypekey.png" /> Shift&#45;klahvile <img src="img_shiftkey.png" />. Kuvatakse sisestusvõimaluste valikuloend, mis võimaldab teil valida sõna sisestuse väiketähtedega, suure algustähega või SUURTÄHTEDEGA.</p>
+										<p>SUURTÄHTEDE lukustamiseks topelttoksake Shift&#45;klahvile <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automaatsed sõnavahed
+									<div id="ul_1f" class="closed">
+										<p>Swype sisestab tühiku automaatselt, kui svaibite oma sõnumi järgmist sõna. Automaatsed tühikud saate Swype’i sätetes püsivalt sisse või välja lülitada.</p>
+										<p>Automaatse tühiku võib ühe sõna jaoks välja lülitada, svaipides tühikuklahvilt kustutusklahvile.</p>
+										<p>See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Sõna asendamine
+									<div id="ul_1g" class="closed">
+										<p>Sõna asendamiseks koputage seda, seejärel valige sõnavalikute loendist soovitud sõna või lihtsalt tõstke sõna esile ja svaipige uus sõna. Uus sõna asendab vale sõna.</p>
+										<p>Sõna esiletõstmiseks koputage seda ja vajutage <img src="img_swypekey.png" /> või topeltkoputage sõna.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Tähtede vahel hüplemine
+									<div id="ul_1h" class="closed">
+										<p>Vahel võib svaipides tähtede vältimine tagada, et te saate soovitud sõna kohe esimesel korral.</p>
+										<p>Näiteks sõnu „gripp” ja „grupp” võiks joonistada sama rada mööda – aga pange tähele, et te ei pea lohistama sirgjoones tähelt tähele. Tähe „u” vältimine siis, kui svaibite sõrmega tähe „i” poole, tagab, et sõna „gripp” esineb sõnavalikute loendis esimesena.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternatiivsed märgid
+									<div id="ul_1i" class="closed">
+
+										<p>Vajutage ja hoidke klahvi all, et tuua esile alternatiivsete märkide loend selle klahvi jaoks, nagu katusega tähed š ja ž, sümbolid, nagu @ ja %, ja numbrid.</p>
+
+										<p>Koputage sümbolite klahvi (?123), et liikuda sümbolite klaviatuurile.</p>
+										<p>Pange tähele, et KÕIK märgid on &quot;svaibitavad&quot; põhiklaviatuurilt (olenemata sellest, kas näete neid või mitte). Võite svaipida, kasutades seda klaviatuurivaadet, kuid leiate ainult sõnu, mis sisaldavad vähemalt ühte numbrit või sümbolit.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Sõnade lisamine ja kustutamine
+									<div id="ul_1j" class="closed">
+										<p>Swype lisab intelligentselt uued sõnad, mida te kasutate, teie isiklikku sõnastikku.</p>
+										<p>Te saate ka ise sõna lisada, tõstes selle esile ja koputades üksust <img src="img_swypekey.png" />. Toksake viipa, mis selle sõna nähtavalt lisab.</p>
+										<p>Sõna kustutamiseks vajutage ja hoidke seda sõnavalikute loendis all ja seejärel koputage kinnitusdialoogis üksust OK. See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Isikupäraseks muutmine
+									<div id="ul_1k" class="closed">
+										<p>Swype saab lisada sõnu kiiresti teie sõnastikku Twitterist ja Gmailist. Swype&#39;i isikupäraseks muutmiseks toimige järgmiselt.</p>
+										<ol>
+											<li>Vajutage ja hoidke üksust <img src="img_swypekey.png" /> all.</li>
+											<li>Valige Swype&#39;i sätete menüüs Minu sõnad &gt; Isikupärastamine.</li>
+											<li>Valige isikupärastamise suvandid ja sisestage sisselogimistunnused, kui seda palutakse.</li>
+											<li>Swype&#39;i on võimalik isikupäraseks muuta ühest või kõigist allikatest.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Rääkimine</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Saate sisestada tekstisisu rääkides alates tekstist ja meilisõnumitest kuni Facebooki ja Twitteri värskendusteni.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Rohkem teavet <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Kirjavahemärgid
+									<div id="ul_2a" class="open">
+										<p>Puudub vajadus lisada kirjavahemärke käsitsi. Lihtsalt öelge kirjavahemärgid, mida vajate, ja jätkake. Proovige järgmist.</p>
+										<ol>
+											<li>Vajutage hääleklahvi ja hakake rääkima.</li>
+											<li>Mida te ütlete: <i>„Lõunasöök oli maitsev hüüumärk”</i></li>
+											<li>Mille te saate: <i>„Lõunasöök oli maitsev!”</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Mõnedel klaviatuuridel puudub häälsisestus</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Kirjutamine</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Te saate kasutada oma sõrme, et joonistada tähti ja sõnu, mille Swype teisendab tekstiks. Te saate joonistada tähti vasakult paremale või üksteise peale. Vajutage üksust ABC/123, et lülitada ümber tähe&#45; ja sümbolirežiimi vahel.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Rohkem teavet <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Luba käsitsi kirjutamine
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Vajutage ja hoidke klahvi <img src="img_symkey.png" /> ja libistage oma sõrm käsitsikirjutamise ikoonile.</li>
+											<li>Joonistage käsitsi kirjutamise alas sõrmega tähed.</li>
+
+											<li>Koputage tühikuklahvi kõigi sõnade vahel</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Mitmikpuutelised liigutused
+									<div id="ul_3b" class="closed">
+										<p>Mitmikpuuteline liigutus võimaldab teha lihtsaid toiminguid, nagu sõnade või tähtede suurtähestamine.</p>
+										<ol>
+											<li>Joonistage joonistusplaadile mõned väiketähed</li>
+											<li>Pärast märkide sisestamist libistage kahte sõrme kirjutamisalas ülespoole</li>
+											<li>Käsitsi kirjutamise funktsioon tuvastab mitmikpuutelise liigutuse ja suurtähestab tähed</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Mõnedel klaviatuuridel puudub käsitsi kirjutamise võimalus.</i></p>
+									<p><i>See funktsioon pole saadaval, kui süsteemi hõlbustusteenus Explore&#45;by&#45;Touch on sisse lülitatud.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Koputamine</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Traditsiooniline käsitsi sisestamise vorm klaviatuurilt. Koputamise sisend Swype&#39;i klaviatuuril on mitmete kasulike funktsioonide abil lihtsamaks ja efektiivsemaks tehtud.</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Rohkem teavet <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Lohaka tippimise parandus
+									<div id="ul_4a" class="open">
+										<p>Te ei pea iga tähte ideaalselt tabama. Lihtsalt andke oma parim ja Swype pakub intelligentseid sõnasoovitusi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Sõna ennustamine
+									<div id="ul_4b" class="closed">
+										<p>Swype suudab ka siis sõna ära arvata, kui olete sisestanud ainult mõned tähed.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Keeled</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Keelte ümberlülitamiseks klaviatuurilt toimige järgmiselt. Vajutage ja hoidke tühikuklahvi all. Valige hüpikmenüüst soovitud keel.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect toimetab värskendused ja võimsad funktsioonid otse teie seadmesse! Kuigi Swype Connect töötab üle 3G&#45;võrgu, on alati soovitatav leida Wi&#45;Fi&#45;ühendus.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Rohkem teavet <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Keelte allalaadimised
+									<div id="ul_6a" class="open">
+										<p>Täiendavate keelte lisamine Swype&#39;i on lihtne.</p>
+										<ol>
+											<li>Vajutage ja hoidke ikooni <img src="img_swypekey.png" /> ja valige suvand Keeled.</li>
+											<li>Menüüst Keeled valige käsk Keelte allalaadimine.</li>
+											<li>Klõpsake keelt ja allalaadimine algab automaatselt.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ei ole kõigil klaviatuuridel saadaval.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Veel spikreid</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Kui vajate Swype’i kasutamisel täiendavat abi, vaadake Swype’i kasutusjuhendit ning Swype’i vihjeid ja videoid aadressil <a href="http://www.swype.com">www.swype.com</a> või külastage Swype’i veebifoorumit www.<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

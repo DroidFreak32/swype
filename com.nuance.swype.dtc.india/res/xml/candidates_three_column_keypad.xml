@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CandidatesKeyboardEx ns:keyWidth="33.329998%p" ns:keyHeight="20.000004%p" ns:horizontalGap="0.0px" ns:verticalGap="0.0px" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row>
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="" />
+        <Key ns:keyLabel="" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="" />
+    </Row>
+    <Row>
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="" />
+        <Key ns:keyLabel="" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="" />
+    </Row>
+    <Row>
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="" />
+        <Key ns:keyLabel="" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="" />
+    </Row>
+    <Row>
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="" />
+        <Key ns:keyLabel="" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="" />
+        <Key ns:keyLabel="" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="" />
+    </Row>
+</CandidatesKeyboardEx>

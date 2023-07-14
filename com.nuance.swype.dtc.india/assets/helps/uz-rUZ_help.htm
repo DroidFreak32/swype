@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Gapiring</a></div>
+				<div><a href="#write">Yozish</a></div>
+				<div class="last"><a href="#tap">Terish</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype yordamida siz turli kiritish usullariga tezda o&#39;tishingiz mumkin &#45; Swype, Gapirish, Yozish yoki Chertish.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype yordamida tezkorlik bilan matn kiritishingiz mumkin. U harflar orqali chiziq chizgan holda so&#39;z kiritish imkonini beradi. So&#39;zning birinchi harfiga barmog&#39;ingizni qo&#39;ying va harfdan harfga chiziq chizing, oxirgi harfga chiziqni tutashtirgandan so&#39;ng, barmog&#39;ingizni oling. Swype zarur bo&#39;lgan joylarga oraliqlarni joylashtiradi.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Qo&#39;shimcha ma&#39;lumot olish <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype Tugmasi
+									<div id="ul_1a" class="open">
+										<p>Swype tugmasida logotipi bo&#39;ladi. Swype sozlamalariga kirish uchun Swype tugmasini bosib turing.</p>
+										<p>Ko&#39;pgina Swype imo&#45;ishoralaridan foydalanish uchun ham Swype tugmasidan foydalaniladi.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Klaviatura dastlabki ko&#39;rinishi
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype imo&#45;ishoralari
+									<div id="ul_1b" class="closed">
+										<p>Swype imo&#45;ishoralar umumiy vazifalarni tezda bajarish uchun mo&#39;ljallangan klaviaturadagi yorliqlar. Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+										<ul>
+											<li><span class="gestures">Tahrirlash klaviaturasiga o&#39;tish</span> Tahrirlash klaviaturasiga kirish uchun klaviaturada <img src="img_swypekey.png" /> dan Timsollar tugmasiga (?123) suring.</li>
+											<li><span class="gestures">Raqamlar klaviaturasiga o&#39;tish</span> Tezda Raqamlar klaviaturasiga o&#39;tish uchun <img src="img_swypekey.png" /> dan 5 raqamiga suring.</li>
+											<li><span class="gestures">Klaviaturani yashirish</span> Klaviaturani oson usulda yashirish uchun Swype tugmasidan orqaga o&#39;chirish tugmasiga tomon suring.</li>
+
+											<li><span class="gestures">Avtomatik tarzda oraliq belgilashni o&#39;chirish</span> Swype tugmasidan orqaga o&#39;chirish tugmasiga tomon surgan holda keyingi so&#39;zdan oldin avtomatik joy tashlashni to&#39;xtating.</li>
+
+
+											<li><span class="gestures">So&#39;z turkumini tahrirlash</span> Kiritgan so&#39;zingizning registrini o&#39;zgartirish uchun o&#39;sha so&#39;zni cherting va so&#39;ng, barmoqni <img src="img_swypekey.png" /> dan Registrni o&#39;zgaritirish tugmasi <img src="img_shiftkey.png" /> ga surib keltiring. Katta harf bilan yozish opsiyalariga ega so&#39;z tanlovlari ro&#39;yxati ko&#39;rsatiladi, bu so&#39;zlarni kichik, katta yoki barcha harflarni katta harflarda yozish imkonini beradi.</li>
+
+											<li><span class="gestures">Tinish belgisi</span> Tinish belgilarini kiritishning oddiy usuli klavishni chertishning o&#39;rniga uni so&#39;roq belgisi, vergul, nuqta yoki boshqa tinish belgisidan joy tashlash tugmasi tomon surishdir.</li>
+
+											<li><span class="gestures">Barchasini tanlash, qirqish, nusxa olish va qo&#39;yish</span>
+												Barchasini tanlash: <img src="img_swypekey.png" /> dan &#39;a&#39; ga surish<br />
+												Qirqish: <img src="img_swypekey.png" /> dan &#39;x&#39; ga surish<br />
+												Nusxa olish: <img src="img_swypekey.png" /> dan &#39;c&#39; ga surish<br />
+												Qo&#39;yish: <img src="img_swypekey.png" /> dan &#39;v&#39;ga surish
+											</li>
+
+											<li><span class="gestures">Ilova yorliqlari</span>Google xaritalar: <img src="img_swypekey.png" /> dan &#39;g&#39; ga, so&#39;ng, &#39;m&#39;ga surish</li>
+											<li><span class="gestures">Izlash</span>Tezkor usulda internetda izlashni amalga oshirish uchun ma&#39;lum matnni belgilab oling va <img src="img_swypekey.png" /> dan S ga suring.</li>
+											<li><span class="gestures">Oxirgi foydalanilgan tilga otish</span>Bir nechta tillardan foydalanganda, oldingi tilga qaytishning tezkor usuli <img src="img_swypekey.png" /> dan joy tashlash tugmasiga o&#39;tishdir.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Qo&#39;sh harflarni kiritish
+									<div id="ul_1n" class="closed">
+										<p>Qo&#39;sh harflarni kiritayotganda, aniqlikni oshirish uchun biroz qo&#39;lyozma chizing yoki harfda halqa hosil qiling. Masalan, &quot;katta&quot; da &quot;tt&quot; hosil qilish uchun &quot;t&quot; tugmasida qo&#39;lyozma chizing. Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									So&#39;z tanlash
+									<div id="ul_1d" class="closed">
+										<p>So&#39;z tanlovlari ro&#39;yxatida taklif etilgan sukut bo&#39;yicha so&#39;zni qabul qilish uchun surib turing. Aksincha bo&#39;lsa, barmog&#39;ingizni surib tortgan holda ro&#39;yxatni varaqlang va kerakli so&#39;zni tanlang. Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+										<p>Ro&#39;yxatdan matn tanlash uchun ro&#39;yxat kiritmalarini eshitish uchun barmog&#39;ingizni doira yo&#39;nalishida harakatlantiring. Soat mili yo&#39;nalishida harakatlartirganda ro&#39;yxat oldinga varaqlanadi; soat miliga teskari yo&#39;nalishda harakatlartirganda ro&#39;yxat orqaga varaqlanadi. Barmoqni olganda, oxirgi aytilgan ro&#39;yxat kiritmasi chiqariladi. So&#39;z tanlovlari ro&#39;yxatidan so&#39;z tanlash uchun ro&#39;yxatdagi so&#39;z eshitilmaguncha klaviaturadan barmog&#39;ingizni yuqoriga surib boring, so&#39;ng, doira yo&#39;nalishida harakatni boshlang.	Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanish mumkin.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									So&#39;zlarni katta harfda yozish
+									<div id="ul_1e" class="closed">
+										<p>Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+										<p>So&#39;zni katta harflarda yozish uchun barmog&#39;ingizni so&#39;zning birinchi harfidan klaviatura tepasiga surib keltiring va barmoqni uzmasdan uni pastga tomon surib keltirgan holda so&#39;zning ikkinchi harfiga olib keling.</p>
+										<p>Kiritgan so&#39;zingizning registrini o&#39;zgartirish uchun o&#39;sha so&#39;zni cherting va so&#39;ng, barmoqni <img src="img_swypekey.png" /> dan Registrni o&#39;zgaritirish tugmasi <img src="img_shiftkey.png" /> ga surib keltiring. Katta harf bilan yozish opsiyalariga ega so&#39;z tanlovlari ro&#39;yxati ko&#39;rsatiladi, bu so&#39;zlarni kichik, katta yoki barcha harflarni katta harflarda yozish imkonini beradi.</p>
+										<p>KATTA HARFLAR registrini qulflash rejimiga kirish uchun Registrni almashtirish tugmasini <img src="img_shiftkey.png" /> ikki bor cherting.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Avtomatik tarzda oraliqni belgilash
+									<div id="ul_1f" class="closed">
+										<p>Gapdagi keyingi so&#39;zga o&#39;tganda, Swype so&#39;zlar orasida avtomatik tarzda bo&#39;sh joy qo&#39;yib ketadi. Swype sozlamalariga kirib, avtomatik tarzda oraliqni belgilash funksiyasini yoqishingiz yoki o&#39;chirishingiz mumkin.</p>
+										<p>Bitta so&#39;z uchun avtomatik joy belgilashni o&#39;chirish uchun Registrni o&#39;zgartirish tugmasidan Orqaga o&#39;chirish tugmasiga tomon barmoqni suring.</p>
+										<p>Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									So&#39;zni almashtirish
+									<div id="ul_1g" class="closed">
+										<p>So&#39;zni almashtirish uchun uni cherting, so&#39;ng, o&#39;rniga qo&#39;yiladigan so&#39;zni so&#39;z tanlovlari ro&#39;yxatidan tanlang yoki oddiygina, so&#39;zni belgilab oling va yangi so&#39;zni suring. Noto&#39;g&#39;ri yozilgan so&#39;z yangi so&#39;z bilan almashtiriladi.</p>
+										<p>So&#39;zni belgilab olish uchun uni cherting va <img src="img_swypekey.png" /> ni uring yoki so&#39;zni ikki bor cherting.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Harflar o&#39;rtasida sakrash
+									<div id="ul_1h" class="closed">
+										<p>Barmoqni surayotganda ba&#39;zan harflarni aylanib o&#39;tish siz birinchi marta xohlagan so&#39;zni yozish imkonini beradi.</p>
+										<p>Masalan, &quot;fil&quot; va &quot;fol&quot; ni bir xil chiziqda chizish mumkin &#45; ammo e&#39;tibor bering, harfdan harfga chiziq chizishni to&#39;g&#39;ri chiziqda amalga oshirish mumkin emas. Barmog&#39;ingizni &quot;l&quot; tomon surayotganda, &quot;o&quot; dan aylanib o&#39;tish &quot;fil&quot; so&#39;zi So&#39;z tanlovlari ro&#39;yxatida birinchi bo&#39;lishini ta&#39;minlaydi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Muqobil belgilar
+									<div id="ul_1i" class="closed">
+
+										<p>Tugmadagi á va ë kabi urg&#39;u tushgan harflar, @ va % kabi timsollar, raqamlar kabi muqobil belgilar ro&#39;yxatini chiqarish uchun u tugmani bosib turing.</p>
+
+										<p>Timsollar klaviaturasiga o&#39;tish uchun Timsollar tugmasini (?123) cherting.</p>
+										<p>Shuni qayd etib qo&#39;yingki, BARCHA belgilarni ham klaviaturadan Swype funksiyasi yordamida yozib bo&#39;lmaydi (siz ularni ko&#39;ra olasizmi yoki yo&#39;qmi). Ushbu ko&#39;rinishdagi klaviatura yordamida Swype&#39;dan foydalanishingiz mumkin, ammo kamida bitta raqam yoki timsol qatnashgan so&#39;zlarnigina olishingiz mumkin.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									So&#39;zlar qo&#39;shish va o&#39;chirish
+									<div id="ul_1j" class="closed">
+										<p>Swype intellektual tarzda siz foydalangan barcha yangi so&#39;zlarni shaxsiy lug&#39;atingizga qo&#39;shadi.</p>
+										<p>Shuningdek, so&#39;z qo&#39;shish uchun u so&#39;zni belgilab olib, <img src="img_swypekey.png" /> ni cherting. So&#39;z qo&#39;shish uchun paydo bo&#39;lgan ko&#39;rsatmani cherting.</p>
+										<p>So&#39;zni o&#39;chirish uchun so&#39;z tanlovlari ro&#39;yxatidan o&#39;sha so&#39;zni bosib turing va so&#39;ng tasdiqlash dialogida OK&#39;ni cherting. Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Shaxsiylashtirish
+									<div id="ul_1k" class="closed">
+										<p>Swype Twitter va Gmail&#39;dan lug&#39;atingizga tezkorlik bilan so&#39;zlar qo&#39;shishi mumkin. Swype&#39;ni shaxsiylashtirish uchun:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ni bosib turing.</li>
+											<li>Swype sozlamalari menyusidan, Mening so&#39;zlarim &gt; Shaxsiylashtirishni tanlang.</li>
+											<li>Shaxsiylashtirish opsiyalaridan tanlang va ko&#39;rsatma berilsa, login ma&#39;lumotlaringizni kiriting.</li>
+											<li>Bir yoki barcha manbalardan Swype&#39;ni shaxsiylashtirishingiz mumkin.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Gapiring</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Matnli xabarlar va elektron pochta xabarlaridan tortib Facebook va Twitter&#39;dagi yangiliklaringizgacha bo&#39;lgan barcha matn yozish amallarida matn kontentini gapirib kiritishingiz mumkin.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Qo&#39;shimcha ma&#39;lumot olish <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tinish belgisi
+									<div id="ul_2a" class="open">
+										<p>Tinish belgisini qo&#39;lda kiritishga zarurat yo&#39;q. Shunchaki, kiritmoqchi bo&#39;lgan tinish belgisini ayting va davom eting. Mana buni sinab ko&#39;ring:</p>
+										<ol>
+											<li>Ovozli buyruq rejimiga o&#39;tkazish tugmasini bosing va gapirishni boshlang.</li>
+											<li>Gapiradigan gapingiz: <i>Tushlik mazali bo&#39;libdi undov belgisi</i></li>
+											<li>Nutq matni: <i>Tushlik mazali bo&#39;libdi!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ayrim klaviaturalarda ovozli buyruq funksiyasi yo&#39;q</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Yozish</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Barmog&#39;ingiz bilan harflar va so&#39;zlar chizishingiz mumkin va Swype uni matnga aylantiradi. Chapdan o&#39;ngga yoki har birinining tepasida harflar chizishingiz mumkin. Harflar va timsollar rejimlari o&#39;rtasida o&#39;tishni amalga oshirish uchun ABC / 123 ni bosing.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Qo&#39;shimcha ma&#39;lumot olish <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Qo&#39;lyozmani yoqish
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> ni bosib turing va barmog&#39;ingizni qo&#39;lyozma ikonachasiga suring.</li>
+											<li>Qo&#39;lyozma panelida barmog&#39;ingiz bilan harflar chizing.</li>
+
+											<li>Har bir so&#39;z o&#39;rtasida bo&#39;sh joy tashlash klavishini cherting</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Bir necha bor chertish imo&#45;ishoralari
+									<div id="ul_3b" class="closed">
+										<p>Bir necha bor chertish imo&#45;ishoralari so&#39;zlar yoki harflarni katta harflarda yozish kabi oddiy vazifalarni bajarish imkonini beradi.</p>
+										<ol>
+											<li>Chizish panelida ayrim kichik harflarni chizing</li>
+											<li>Belgilarni kiritgandan so&#39;ng, yozish sohasida ikki barmoqni yuqoriga suring</li>
+											<li>Qo&#39;lyozma funksiyasi bir necha bor chertish imo&#45;ishoralarini taniydi va harflarni katta bilan yozadi</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Ayrim klaviaturalarda qo&#39;lyozma funksiyasi yo&#39;q.</i></p>
+									<p><i>Jismoniy imkoniyati cheklanganlar uchun versiya xizmati Explore&#45;By&#45;Touch yoqilgandagina, bu funksiyadan foydalanib bo&#39;lmaydi.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Terish</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Qo&#39;lda klaviaturada kiritishning an&#39;anaviy shakli. Ayrim foydali funksiyalar yordamida Swype klaviaturada chertib matn kiritish yanada osonroq va samaraliroq bo&#39;ladi:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Qo&#39;shimcha ma&#39;lumot olish <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Ehtiyotsizlik bilan terishni tuzatish
+									<div id="ul_4a" class="open">
+										<p>Har bir harfni adashmay bosishingiz shart emas. Shunchaki qo&#39;ldan kelgancha urinib ko&#39;ring va Swype intellektual tarzda so&#39;z takliflarini taqdim etadi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									So&#39;zni tugallash
+									<div id="ul_4b" class="closed">
+										<p>Swype, shuningdek, bir necha harf kiritganda, so&#39;zlarni taxmin ham qilishi mumkin.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Tillar</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Klaviaturadan tillarga o&#39;tish uchun: Bo&#39;sh joy tashlash klavishini bosib turing. Qalqib chiquvchi menyudan kerakli tilni tanlang.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect 3G orqali ishlayotganda, doim Wi&#45;Fi ulanishni topish tavsiya etiladi. Swype Connect 3G orqali ishlayotganda, doim Wi&#45;Fi ulanishni topish tavsiya etiladi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Qo&#39;shimcha ma&#39;lumot olish <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Til yuklab olishlar
+									<div id="ul_6a" class="open">
+										<p>Swype&#39;ga qo&#39;shimcha tillar qo&#39;shish oson:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ni bosib turing va Tillarni tanlang.</li>
+											<li>Tillar menyusidan Tillarni yuklab olishni tanlang.</li>
+											<li>Biror tilni bosing va yuklab olish avtomatik tarzda boshlanadi.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ayrim klaviaturalarda Swype Connect&#39;dan foydalanib bo&#39;lmaydi.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Qo&#39;shimcha yordam</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype&#39;dan foydalanish bo&#39;yicha qo&#39;shimcha yordam uchun <a href="http://www.swype.com">www.swype.com</a> da Swype foydalanuvchi qo&#39;llanmasi va Swype bo&#39;yicha maslahatlar va videolarni ko&#39;ring yoki <a href="http://forum.swype.com">forum.swype.com</a> da Swype forumiga tashrif buyuring.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

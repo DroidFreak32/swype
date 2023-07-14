@@ -1,0 +1,307 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">ເວົ້າ</a></div>
+				<div><a href="#write">ຂຽນ</a></div>
+				<div class="last"><a href="#tap">ປະເພດ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">ດ້ວຍ Swype, ທ່ານ​ມີ​ຄວາມ​ສາ​ມາດ​ສະ​ຫຼັບ​ລະ​ຫວ່າງ​ໂໝດ​ການ​ປ້ອນ​ຕ່າງໆ​ສີ່​ຢ່າງ​ໂດຍ​ບໍ່​ມີ​ທີ່​ຕິ &#45; Swype, ເວົ້າ, ຂຽນ ຫຼື​ແ​ຕະ.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype ແມ່ນ​ວິ​ທີ​ການ​ປ້ອນ​ຂໍ້​ຄວາມ​ທີ່​ໄວ. ມັນ​ໃຫ້​ທ່ານ​ປ້ອນ​ລະ​ຫັ​ດ​ຜ່ານ​​ເຂົ້າ​ໄປ ໂດຍ​ການ​ແຕ້ມ​ຜ່ານ​ຕົວ​ໜັງ​ສື. ວາງ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ລົງ​ເທິງ​ຕົວໜັງ​ສື​ທຳ​ອິດ​ຂອງ​ຄຳ​ສັບ ແລະ​ແຕ້ມ​ຊ່ອງ​ທາງ​ຈາກ​ຕົວ​ໜັງ​ສື​ຫາ​ຕົວ​ໜັງ​ສື, ຍົກ​ຂຶ້ນ​ຫຼັງ​ຈາກ​ຕົ​ວ​ໜັງ​ສື​ສຸດ​ທ້າຍ. Swype ຈະ​ແຊກ​ຊ່ອງ​ຫວ່າງ​ເຂົ້າ​ໄປ​ໃນ​ບ່ອນ​ທີ່​ຈຳ​ເປັນ.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ຮຽນຮູ້ເພີ່ມເຕີມ <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									ລະ​ຫັດ Swype
+									<div id="ul_1a" class="open">
+										<p>ລະ​ຫັດ Swype ບໍ່​ແມ່ນ​ລະ​ຫັດ​​ດ້ວຍ​ໂລ​ໂກ້ Swype ຢູ່​ເທິງ​ມັນ. ກົດ​ປຸ່ມ Swype ຄ້າງ​ໄວ້ ເພື່ອເ​ຂົ້າ​ໃຊ້​ການ​ຕັ້ງ​ຄ່າ Swype.</p>
+										<p>ປຸ່ມ Swype ຍັງ​ຖືກ​ນຳ​ໄປ​ໃຊ້​ເພື່ອ​​ລິ​ເລີ່ມ​ຫຼາຍ​ທ່າ​ທາງ Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    ການ​ເບິ່ງ​ຕົວ​ຢ່າງແປ້ນ​ພິມ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									ທ່າທາງ Swype
+									<div id="ul_1b" class="closed">
+										<p>ທ່າທາງ Swype ແມ່ນ​ທາງ​ລັດ​ຢູ່​ເທິງ​ແປ້ນ​ພິມ ເພື່ອ​ເຮັດ​ໜ້າ​ວຽກ​ທົ່ວ​ໄປ​ສຳ​ເລັດ​ໂດຍງ່າຍ​ດາຍ. ຄຸນ​ສົມ​ບັດ​ນີ້​ແມ່ນບໍ່​ມີ​ໃຫ້​ ​ເມື່ອ​ການ​ບໍ​ລິ​ການ​ການ​ນຳ​ໃຊ້​ລະ​ບົບ Explore&#45;By&#45;Touch ເປີດ​.</p>
+										<ul>
+											<li><span class="gestures">ການໄປທີ່ແກ້​ໄຂແປ້ນ​ພິມ</span> ເພື່ອໄປ​ທີ່​ແກ້​ໄຂ​ແປ້ນ​ພິມ, ນຳ​ຮອຍຈາກ <img src="img_swypekey.png" /> ໄປ​ຫາ​ປຸ່ມ​ສັນ​ຍາ​ລັກ (?123) ຢູ່​ເທິງ​ແປ້ນ​ພິມ.</li>
+											<li><span class="gestures">ການໄປທີ່ແປ້ນ​ພິມຕົວເລກ</span> ເພື່ອໄປ​ທີ່​​ແປ້ນ​ພິມຕົວ​​ເລກ​ຢ່າງ​ໄວ, ນຳ​ຮອຍຈາກ <img src="img_swypekey.png" /> ໄປ​ຫາໝາຍ​ເລກ 5.</li>
+											<li><span class="gestures">ການ​ເຊື່ອງແປ້ນ​ພິມ</span> ເພື່ອ​ເຊື່ອງ​ແປ້ນ​ພິມ​ຢ່າງ​ງ່າຍ, ພຽງ​ແຕ່​ນຳ​ຮອຍ​ຈາກປຸ່ມ Swype key ໄປ​ຫາ​ປຸ່ມ​ລຶບ​ຄືນ​ຫຼັງ.</li>
+
+
+											<li><span class="gestures">ເຄື່ອງໝາຍວັກຕອນ</span> ວິ​ທີ​ງ່າຍ​ທີ່​ຈະ​ປ້ອນ​ເຄື່ອງ​ໝາຍ​ວັກ​ຕອນ​ເຂົ້າ​ແມ່ນນຳ​ຮອຍຈາກ​ໝາຍ​ຖາມ, ໝາຍ​ຈຸດ, ໝາຍ​ຈ້ຳ, ຫຼື​ເຄື່ອງ​ໝາຍ​ວັກ​ຕອນ​ອື່ນ​ໄປ​ໃສ່​ປຸ່ມ​ຍະ​ຫວ່າງ​ແທນ​ການ​ແຕະ​ມັນ.</li>
+
+											<li><span class="gestures">ທາງ​ລັດແອັບ​ພ​ລິ​ເຄ​ຊັນ</span>Google Maps: ນຳ​ຮອຍ​ຈາກ <img src="img_swypekey.png" /> ຫາ &#39;g&#39;, ຈາກນັ້ນ &#39;m&#39;</li>
+											<li><span class="gestures">ຊອກຫາ</span>ໄຮ​​ໄລ້​ບາງ​ຂໍ້​ຄວາມ ແລະ​ Swype ຈາກ <img src="img_swypekey.png" /> ໄປ​ຫາ S ເພື່ອ​ເຮັດ​ການ​ຄົ້ນ​ຫາ​ເວັບ​ດ່ວນ.</li>
+											<li><span class="gestures">ສະ​ຫຼັບ​ໄປ​ຫາ​ພາ​ສາ​ທີ່​ໃຊ້​ຫຼ້າ​ສຸດ</span>ເມື່ອ​ທ່ານ​ໃຊ້​ຫຼາຍ​ພາ​ສາ, ວິ​ທີ​ດີ​ທີ່​ສຸດ​ທີ່​ຈະ​ສະ​ຫຼັບ​ກັບ​ຄືນ​ຫາ​ພາ​ສາ​ຜ່ານ​ມາ​ແມ່ນນຳ​ຮອຍຈາກ <img src="img_swypekey.png" /> ຫາ​ປຸ່ມ​ຍະ​ຫວ່າງ.</li>
+										</ul>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ການເລືອກຄຳ​ສັບ
+									<div id="ul_1d" class="closed">
+										<p>ເພື່ອຍອມ​ຮັບ​ເອົາ​ຄຳ​ສັບ​ມາດ​ຕະ​ຖານ​ທີ່​ແນະ​ນຳ​ໃຫ້​ຢູ່​ໃນ​ລາຍ​ການ​ຕົວ​ເລືອກຄຳ​ສັບ, ພຽງ​ແຕ່​ນຳ​ຮອຍ​ໄປ​ເທົ່າ​ນັ້ນ. ອີກ​ຢ່າງ​ໜຶ່ງ, ເລື່ອນ​ຜ່ານ​ລາຍ​ການ​ໂດຍ​ການ​ລາກ​ນີ້ວ​ມື​ຂອງ​ທ່ານ, ແລະ​ເລືອກ​ຄຳ​ສັບ​ທີ່​ທ່ານ​ຕ້ອງ​ການ. ຄຸນ​ສົມ​ບັດ​ນີ້​ແມ່ນບໍ່​ມີ​ໃຫ້​ ​ເມື່ອ​ການ​ບໍ​ລິ​ການ​ການ​ນຳ​ໃຊ້​ລະ​ບົບ Explore&#45;By&#45;Touch ເປີດ​.</p>
+										<p>ເພື່ອ​ເລືອກ​ຂໍ້​ຄວາມ​ຈາກ​ລາຍ​ການ, ຍ້າຍ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ຢູ່​ໃນ​ການ​ເຄື່ອນ​ໄຫວ​ເປັນ​ວົງ​ມົນ ເພື່ອ​ຟັງ​ການ​ປ້ອນ​ລາຍ​ການ​ເຂົ້າ. ການ​ຍ້າຍ​ໄປ​ຕາມ​ທິດ​ເຂັມ​ໂມງ​ໄປ​ທາງ​ໜ້າ​ຜ່ານ​ລາຍ​ການ; ການ​ຍ້າຍ​ຕາມ​ທິດ​ທວນ​ເຂັມ​ໂມງ​ກັບ​ຄືນ​ຜ່ານ​ລາຍ​ການ. ການ​ຍົກ​ນີ້ວ​ມື​ໃຫ້​ຜົນ​ໄດ້​ຮັບ​ການ​ປ້ອນ​ລາຍ​ການ​ທີ່​ເວົ້າ​ສຸດ​ທ້າຍ. ເພື່ອ​ເລືອກ​ຄຳ​ສັບ​ຢູ່​ໃນ​ລາຍ​ການ​ຕົວ​ເລືອກ​ຄຳ​ສັບ, ເລື່ອນ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ຂຶ້ນ​ເທິງ​ຈາກ​ແປ້ນ​ພິມ​ຈົນ​ໄດ້​ຍິນ​ຄຳ​ທຳ​ອິດ​ຢູ່​ໃນ​ລາຍ​ການ, ຈາກນັ້ນ​ເລີ່ມ​ການ​ເຄື່ອນ​ທີ່​ເປັນ​ວົງ.	ຄຸນ​ສົມ​ບັດ​ນີ້​ແມ່ນ​ມີ​ໃຫ້​ພຽງ​ແຕ່​ເມື່ອ​ການ​ບໍ​ລິ​ການ​ການ​ນຳ​ໃຊ້​ລະ​ບົບ Explore&#45;By&#45;Touch ເປີດ​ເທົ່າ​ນັ້ນ.</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ການປ່ຽນ​ແທນຄຳ​ສັບ
+									<div id="ul_1g" class="closed">
+										<p>ປ່ຽນ​ແທນ​ຄຳ​ສັບ​ໂດຍ​ການ​ແຕະ​ເທິງ​ມັນ, ຈາກນັ້ນ​ເລືອກ​ຄຳ​ສັບ​ທີ່​ທ່ານ​ຕ້ອງ​ການ​ຈາກ​ລາຍ​ການ​ຕົວ​ເລືອກ​ຄຳ​ສັບ, ຫຼື​ໄຮ​ໄລ້​ຄຳ​ສັບ​ງ່າຍໆ ແລະ​ Swype ຄຳ​ສັບ​ໃໝ່. ຄຳ​ສັບ​ໃໝ່​ຈະ​ປ່ຽນ​ແທນ​ຄຳ​ສັບ​ທີ່​ບໍ່​ຖືກ​ຕ້ອງ.</p>
+										<p>ສາ​ມາດ​ໄຮ​ໄລ້​ຄຳ​ສັບ​ໃໝ່​ໄດ້​ໂດຍ​ການ​ແຕະ​ຄຳ​​ສັບ ແລະ​ເຄາະ <img src="img_swypekey.png" /> ຫຼື​ໂດຍ​ການ​ແຕະ​ຄຳ​ສັບ​ສອງ​ເທື່ອ.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ການ​ກະ​ເດັນ​ລະ​ຫວ່າງ​ຕົວ​ໜັງ​ສື
+									<div id="ul_1h" class="closed">
+										<p>ບາງ​ຄັ້ງ​ການ​ຫຼີກ​ເວັ້ນ​ຕົວ​ໜັງ​ສື ເມື່ອ​ນຳ​ຮອຍ​ຮັບ​ປະ​ກັນ​ໃຫ້​ທ່ານ​ໄດ້​ຄຳ​ສັບ​ທີ່​ທ່ານ​ຕ້ອງ​ການ​ຄັ້ງ​ທຳ​ອິດ.</p>
+										<p>ຕົ​ວ​ຢ່າງ, &quot;ປະຕິ&quot; ແລະ &quot;ປີຕິ&quot; ສາ​ມາດ​ແຕ້ມ​ໄດ້​ດ້ວຍ​ຊ່ອງ​ທາງ​ດຽວ​ກັນ &#45; ແຕ່​ສັງ​ເກດ​ເບິ່ງວ່າ, ທ່ານ​ບໍ່​​ຕ້ອງ​ຍ້າຍ​ຈາກ​ຕົວ​ໜັງ​ສື​ຫາ​ຕົວ​ໜັງ​ສື​ຢູ່​ໃນ​​ແຖວ​ຊື່. ການ​ຫຼີກ​ເວັ້ນ &quot;ະ&quot; ເມື່ອ​ນຳ​ຮອຍ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ໄປ​ຫາ &quot;ຕິ&quot; ຮັບ​ປະ​ກັນ​ວ່າ ຄະ​ສັບ &quot;ປະຕິ&quot; ແມ່ນ​ອັນ​ທຳ​ອິດ​ຢູ່​ໃນ​ລາຍ​ການ​ຕົວ​ເລືອກ​ຄຳ​ສັບ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ຕົວ​ອັກ​ສອນ​ທາງ​ເລືອກ
+									<div id="ul_1i" class="closed">
+
+										<p>ກົດ​ປຸ່ມ​ຄ້າງ​ໄວ້ ເພື່ອ​ນຳ​ເອົາ​ລາຍ​ການ​ຕົວ​ອັກ​ສອນ​ທາງ​ເລືອກ​ສຳ​ລັບ​​ປຸ່ມນັ້ນ, ເຊັ່ນ ຕົວ​ອັກ​ສອນ​ເນັ້ນ​ເຊັ່ນ ສັນ​ຍາ​ລັກ​ ເຊັ່ນ ₭ ແລະ ໑, ແລະ​ຕົວ​ເລກ.</p>
+
+										<p>ແຕະ​ປຸ່ມ​ສັນ​ຍາ​ລັກ (?123) ເພື່ອ​ໃຫ້​ຖືກ​ເອົາ​ໄປ​ຫາ​ແປ້ນ​ພິມ​ສັນ​ຍາ​ລັກ.</p>
+										<p>ຈື່​ໄວ້​ວ່າ ທຸກ​ຕົວ​ອັກ​ສອນ​ແມ່ນ​ສາ​ມາດ​ Swype ​ໄດ້​ຈາກ​ແປ້ນ​ພິມ​ໃຫຍ່ (ບໍ່​ວ່າ​ທ່ານ​ຈະ​ເຫັນ​ມັນ ຫຼື​ບໍ່​ກໍ່​ຕາມ). ທ່ານ​ສາ​ມາດ Swype ໄດ້​ໂດຍ​ການ​ໃຊ້​ມຸມມອງ​​ນີ້​ຂອງ​ແປ້ນ​ພິມ, ແຕ່​ທ່ານ​ຈະ​ເອົາ​ໄດ້​ແຕ່​ຄຳ​ສັບ​ທີ່​ມີ​ຢ່າງ​ໜ້ອຍ​ໜຶ່ງ​ຕົວ​ເລກ ຫຼື​ສັນ​ຍາ​ລັກ​ເທົ່າ​ນັ້ນ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ການ​ເພີ່ມ ແລະ​ການ​ແກ້​ໄຂ​ຄຳ​ສັບ
+									<div id="ul_1j" class="closed">
+										<p>Swype ເພີ່ມ​ຄຳ​ສັບ​ໃໝ່ໃດ​ໜຶ່ງ​ຢ່າງ​ສະ​ຫຼາດທີ່​ທ່ານ​ໃຊ້​ໃສ່​ພົດ​ຈະ​ນາ​ນຸ​ກົມ​ສ່ວນ​ຕົວ​ຂອງ​ທ່ານ.</p>
+										<p>ທ່ານ​ຍັງ​ສາ​ມາດ​ເພີ່ມ​ຄຳ​ສັບ​ໄດ້​ໂດຍ​ການ​ໄຮ​ໄລ້​ມັນ​ອີກ ແລະ​ແຕະ <img src="img_swypekey.png" />. ແຕະ​ໜ້າ​ຕ່າງ​ເຕືອນ​ທີ່​ປະ​ກົດ​ຂຶ້ນ ເພື່ອ​ເພີ່ມ​ຄຳ​ສັບ.</p>
+										<p>ເພື່ອ​ລຶບ​ຄຳ​ສັບ, ກົດ​ຄຳ​ສັບ​ຄ້າງ​ໄວ້​ຢູ່​ໃນ​ລາຍ​ການ​ຕົວ​ເລືອກ​ຄຳ​ສັບ, ແລະ​ຈາກນັ້ນ ແຕະ​ຕົກ​ລົງ​ໃນ​ກ່ອງ​ການ​ຢື​ນ​ຢັນ. ຄຸນ​ສົມ​ບັດ​ນີ້​ແມ່ນບໍ່​ມີ​ໃຫ້​ ​ເມື່ອ​ການ​ບໍ​ລິ​ການ​ການ​ນຳ​ໃຊ້​ລະ​ບົບ Explore&#45;By&#45;Touch ເປີດ​.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									ການ​ເຮັດ​ເປັນ​ສ່ວນ​ຕົວ:
+									<div id="ul_1k" class="closed">
+										<p>Swype ສາ​ມາດ​ເພີ່ມ​ຄຳ​ສັບ​ໃສ່​ພົ​ດ​ຈະ​ນາ​ນຸ​ກົມ​ຂອງ​ທ່ານໄດ້​ຢ່າງ​ໄວ​ຈາກ Twitter ແລະ Gmail. ເພື່ອ​ເຮັດ Swype ເປັນ​ສ່ວນ​ຕົວ:</p>
+										<ol>
+											<li>ກົດ​ <img src="img_swypekey.png" /> ຄ້າງ​ໄວ້.</li>
+											<li>ຈາກ​ເມ​ນູ​ການ​ຕັ້ງ​ຄ່າ Swype, ເລືອກ ຄຳ​ສັບຂອງ​ຂ້ອຍ &gt; ການ​ເຮັດ​ເປັນ​ສ່ວນ​ຕົວ.</li>
+											<li>ເລືອກ​ຈາກ​​ທາງ​ເລືອກ​ການ​ເຮັດ​ເປັນ​ສ່ວນ​ຕົວ ແລະ​ປ້ອນ​ຄຳ​ຢັ້ງ​ຢືນ​ຂອງ​ທ່ານ ຖ້າ​ເຕືອນ​ຂຶ້ນ​ມາ.</li>
+											<li>ທ່ານ​ສາ​ມາດ​ເຮັດ Swype ເປັນ​ສ່ວນ​ຕົວ​ຈາກ​ໜຶ່ງ ຫຼື​ທຸກ​ແຫຼ່ງ​ໄດ້.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">ເວົ້າ</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>ທ່ານ​ສາ​ມາດ​ເວົ້າ ເພື່ອ​ປ້ອນ​ເນື້ອ​ໃນ​ຂໍ້​ຄວາມ​ເຂົ້າ​ສຳ​ລັ​ບ​​ທຸກ​ສິ່ງ​ທຸກ​ຢ່າງ​ຈາກ​ຂໍ້​ຄວາມ ແລະ​ຂໍ້​ຄວາມ​ອີ​ເມວສູ່​ການ​ອັບ​ເດດ Facebook ແລະ Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ຮຽນຮູ້ເພີ່ມເຕີມ <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									ເຄື່ອງໝາຍວັກຕອນ
+									<div id="ul_2a" class="open">
+										<p>ບໍ່​ຈຳ​ເປັນ​ຕ້ອງ​ເພີ່ມ​ເຄື່ອງ​ໝາຍ​ວັກ​ຕອນ​ເອົາ​ເອງ. ພຽງ​ແຕ່​ເວົ້າ​ເຄື່ອງ​ໝາຍ​ວັກ​ຕອນ​ທີ່​ທ່ານ​ຕ້ອງ​ການ ແລະ​ສືບ​ຕໍ່. ລອງ​ອັນ​ນີ້:</p>
+										<ol>
+											<li>ກົດ​ປຸ່ມສຽງ ແລະ​ເລີ່ມ​ຕົ້ນ​ເວົ້າ.</li>
+											<li>ສິ່ງ​ທີ່​ທ່ານ​ເວົ້າ: <i>ອາ​ຫານ​ແລງ​ແຊບ​ ເຄື່ອງ​ໝາຍ​ອຸ​ທານ</i></li>
+											<li>ສິ່ງ​ທີ່​ທ່ານ​ໄດ້​ຮັບ: <i>ອາ​ຫານ​ແລງ​ແຊບ!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ການ​ປ້ອນ​ສຽງ​ບໍ່​ມີ​ໃຫ້​ຢູ່​ໃນ​ບາງ​ແປ້ນ​ພິມ</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ຂຽນ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>ທ່ານ​ສາ​ມາດ​ໃຊ້​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ແຕ້ມ​ຕົວ​ໜັງ​ສື ແລະ​ຄຳ​ສັບ ແລະ Swype ຈະ​ປ່ຽນ​ມັນ​ເປັນ​ຕົວ​ໜັງ​ສື. ທ່ານ​ສາ​ມາດ​ແຕ້ມ​ຕົວ​ໜັງ​ສື​ຈາກ​ຊ້າຍ​ໄປ​ຂວາ ຫຼື​ຢູ່​ເທິງ​ຂອງ​ກັນ​ແລະ​ກັນ​ໄດ້.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ຮຽນຮູ້ເພີ່ມເຕີມ <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									ເປີດ​ໃຊ້​ງານການ​ຂຽນ​ດ້ວຍ​ມື
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>ກົດ <img src="img_symkey.png" /> ຄ້າງ​ໄວ້ ແລະ​ເລື່ອນ​ລາຍ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ໄປ​ໃສ່​ໄອ​ຄອນ​ການ​ຂຽນ​ດ້ວຍ​ມື.</li>
+											<li>ແຕ້ມ​ຕົວ​ໜັງ​ສື​ດ້ວຍ​ນີ້ວ​ມື​ຂອງ​ທ່ານ​ຢູ່​ເທິງ​ບ່ອນ​ຂຽນ​ດ້ວຍ​ມື.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ທ່າ​ທາງສຳ​ພັດ​ຫຼາຍ​ເທື່ອ
+									<div id="ul_3b" class="closed">
+										<p>ທ່າ​ທາງ​ຫຼາຍ​ສຳ​ຜັດ​ອະ​ນຸ​ຍາດ​ໃຫ້​ທ່ານ​ເຮັດ​ໜ້າ​ວຽກ​ງ່າຍ​ໃຫ້​ສຳ​ເລັດ, ເຊັ່ນ ການ​ເຮັດ​ຄຳ​ສັບ ຫຼື​ຕົວ​ອັກ​ສອນ​ເປັນ​ຕົວ​ໃຫຍ່.</p>
+										<ol>
+											<li>ແຕ້ມ​ຕົວ​ອັກ​ສອນ​ນ້ອຍ​ບາງ​ຕົວ​ຢູ່​ເທິງ​ແຜ່ນ​ແຕ້ມ</li>
+											<li>ຫຼັງ​ຈາກ​ປ້ອນ​ຕົວ​ອັກ​ສອນ​ເຂົ້າ​ໄປ​ແລ້ວ, ເລື່ອນ​ນີ້ວ​ມື​ສອງ​ນີ້ວ​ຂຶ້ນ​ເທິງ​ຢູ່​ເທິງ​ບ່ອນ​ຂຽນ</li>
+											<li>ຄຸນ​ສົມ​ບັດ​ການ​ຂຽນ​ດ້ວຍ​ມື​ຈະ​ຮັບ​ຮູ້​ທ່າ​ທາງ​ຫຼາຍ​ສຳ​ພັດ ແລະ​ເຮັດ​ເປັນ​ຕົວ​ອັກ​ສອນ​ໃຫຍ່</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>ການ​ຂຽນ​ດ້ວຍ​ມືບໍ່​ມີ​ໃຫ້​ຢູ່​ໃນ​ບາງ​ແປ້ນ​ພິມ.</i></p>
+									<p><i>ຄຸນ​ສົມ​ບັດ​ນີ້​ແມ່ນບໍ່​ມີ​ໃຫ້​ ​ເມື່ອ​ການ​ບໍ​ລິ​ການ​ການ​ນຳ​ໃຊ້​ລະ​ບົບ Explore&#45;By&#45;Touch ເປີດ​.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ປະເພດ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>ຮູບ​ແບບ​ເດີມ​ຂອງ​ກາ​ນ​ປ້ອນ​ແປ້ນ​ພິມ​ເຂົ້າ​ເອົາ​ເອງ. ແຕະ​ການ​ປ້ອນ​ເຂົ້າ​ຢູ່​ເທິງ​ແປ້ນ​ພິມ Swype ແມ່ນ​ເຮັດ​ໄດ້​ງ່າຍ​ຂຶ້ນ ແລະ​ມີ​ປະ​ສິດ​ທິ​ພາບ​ເພີ່ມ​ເຂຶ້ນ​ໂດຍ​ບາງ​ຄຸນ​ສົມ​ບັດ​ພື້ນ​ຖານ:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ຮຽນຮູ້ເພີ່ມເຕີມ <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ການ​ເຊື່ອມ​ຕໍ່​ການ​ພິມ​ບໍ່​ໄດ້​ລະ​ມັດ​ລະ​ວັງ
+									<div id="ul_4a" class="open">
+										<p>ທ່ານ​ບໍ່​ຕ້ອງ​ແຕະ​ແຕ່​ລະ​ຕົວ​ອັກ​ສອນ​ຢ່າງ​ສົມ​ບູນ​ແບບ. ພຽງ​ແຕ່​ພະ​ຍາ​ຍາມ​ຕົວ​ທ່ານ​ເອງ​ໃຫ້​ດີ​ທີ່​ສຸດ ແລະ Swype ຈະ​ໃຫ້​ການ​ແນະ​ນຳ​ຄຳ​ສັບ​ໃຫ້​ຢ່າງ​ສະ​ຫຼາດ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ການ​ເຮັດ​ໃຫ້​ຄຳ​​ສັບ​ສຳ​ເລັດ
+									<div id="ul_4b" class="closed">
+										<p>Swype ຍັງ​ສາ​ມາດ​ເດົາ​ຄຳ​ສັບ​ຂອງ​ທ່ານ​ໄດ້ ເມື່ອ​ທ່ານ​ແຕະ​ສອງ​ສາມ​ຕົວ​ໜັງ​ສືເທົ່າ​ນັ້​ນ.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ພາ​ສາ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>ເພື່ອ​ສະ​ຫຼັບ​ພາ​ສາ​ຈາກ​ແປ້ນ​ພິມ: ກົດ​ແຖບ​ຍະ​ຫວ່າງຄ້າງ​ໄວ້. ເລືອກ​ພາ​ສາ​ທີ່​ທ່ານ​ມັກ​ຈາກ​ເມ​ນູ​ປັອບ​ອັບ.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>ໃນ​ຂະ​ນະ​ທີ່ Swype Connect ຈະ​ເຮັດ​ວຽກ​ຢູ່​ເທິງ 3G, ພວກ​ເຮົາ​ແນະ​ນຳ​ໃຫ້​ຊອກ​ຫາ​ການ​ເຊື່ອມ​ຕໍ່ Wi&#45;Fi ທຸກ​ຄັ້ງ. ໃນ​ຂະ​ນະ​ທີ່ Swype Connect ຈະ​ເຮັດ​ວຽກ​ຢູ່​ເທິງ 3G, ພວກ​ເຮົາ​ແນະ​ນຳ​ໃຫ້​ຊອກ​ຫາ​ການ​ເຊື່ອມ​ຕໍ່ Wi&#45;Fi ທຸກ​ຄັ້ງ.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ຮຽນຮູ້ເພີ່ມເຕີມ <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ການ​ດາວ​ໂຫຼດພາ​ສາ
+									<div id="ul_6a" class="open">
+										<p>ການ​ເພີ່ມ​ພາ​ສາ​ເພີ່ມ​ເຕີມ​ໃສ່ Swype ເຮັດ​ໄດ້​ງ່າຍ:</p>
+										<ol>
+											<li>ກົດ <img src="img_swypekey.png" /> ຄ້າງ​ໄວ້ ແລະ​ເລືອກ​​ພາ​ສາ.</li>
+											<li>ຈາກ​ເມ​ນູ​ພາ​ສາ, ເລືອກ​ພາ​ສາ.</li>
+											<li>ຄ​ລິກ​ໃສ່​ພາ​ສາ ແລະ​ການ​ດາວ​ໂຫຼດ​ຂອງ​ທ່ານ​ຈະ​ເລີ່ມ​ຕົ້ນ​ອັດ​ຕະ​ໂນ​ມັດ.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ​ບໍ່​ມີ​ໃຫ້​ຢູ່​ໃນທຸກ​ແປ້ນ​ພິມ.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">ຊ່ວຍ​ເຫຼືອເພີ່ມ​ເຕີມ</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>ສຳ​ລັບ​ການ​ຊ່ວຍ​ເຫຼືອ​ເພີ່ມ​ເຕີມ​ດ້ວຍ​ການ​ໃຊ້ Swype, ເບິ່ງ​ຄູ່​ມື​ຜູ້​ໃຊ້ Swype ແລະ​ຄຳ​ແນະ​ນຳ Swype ແລະວິ​ດີ​ໂອ <a href="http://www.swype.com">www.swype.com</a>, ຫຼື​ກວດ​ເບິ່ງ​ເວ​ທີ Swype ອອນ​ລາຍ​ນ໌​ຢູ່​ທີ່ <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

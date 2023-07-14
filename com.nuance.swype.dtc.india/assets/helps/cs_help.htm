@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Řeč</a></div>
+				<div><a href="#write">Psaní</a></div>
+				<div class="last"><a href="#tap">Poklep</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Se systémem Swype můžete plynule přecházet mezi čtyřmi různými režimy vstupu &#45; Swype, Řeč, Psaní nebo Poklep.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype je rychlý způsob, jak zadávat text. Umožňuje vám zadat slovo tak, že prstem přejíždíte po písmenech. Položte prst na první písmeno slova a kreslete čáru od jednoho písmene ke druhému; po posledním písmenu prst zvedněte. Swype vloží mezery tam, kde je to potřeba.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Další informace <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Klávesa Swype
+									<div id="ul_1a" class="open">
+										<p>Klávesa Swype je klávesa s logem Swype. Stiskem a podržením klávesy Swype přejdete do Nastavení Swype.</p>
+										<p>Klávesa Swype se také používá pro vyvolání mnoha tahů Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Náhled klávesnice
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Tahy Swype
+									<div id="ul_1b" class="closed">
+										<p>Tahy Swype jsou zkrácené povely na klávesnici, které slouží k rychlému provedení běžných činností. Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+										<ul>
+											<li><span class="gestures">Přechod ke klávesnici pro úpravy</span> Chcete&#45;li zobrazit klávesnici pro úpravy přejeďte na klávesnici prstem z klávesy <img src="img_swypekey.png" /> ke klávese Symboly (?123).</li>
+											<li><span class="gestures">Přechod k numerické klávesnici</span> Nmerickou klávesnici rychle aktivujete tak, že přejedete z klávesy <img src="img_swypekey.png" /> k číslu 5.</li>
+											<li><span class="gestures">Skrytí klávesnice</span> Klávesnici lze snadno skrýt přejetím z klávesy Swype na klávesu Backspace.</li>
+
+											<li><span class="gestures">Vypnutí automatického vkládání mezer</span> Automatické vkládání mezery před další slovo potlačíte tak, že z mezerníku přejedete prstem ke klávese Backspace.</li>
+
+
+											<li><span class="gestures">Změna velikosti písmen ve slově</span> Velikost písmen v právě napsaném slově můžete změnit tak, že na slovo v textu klepnete a potom z klávesy <img src="img_swypekey.png" /> přejedete ke klávese Shift <img src="img_shiftkey.png" />. Zobrazí se Seznam volby slov s různými variantami psaní velkých písmen, což vám umožní rozhodnout se mezi malým nebo velkým prvním písmenem nebo možností VŠECHNA VELKÁ.</li>
+
+											<li><span class="gestures">Interpunkční znaménka</span> Jednoduchým způsobem zadání interpunkčního znaménka je místo klepnutí na příslušné znaménko přejet od otazníku, čárky či jiného interpunkčního znaménka k mezerníku.</li>
+
+											<li><span class="gestures">Označit vše, Vyjmout, Kopírovat a Vložit</span>
+												Označit vše: Přejeďte z klávesy <img src="img_swypekey.png" /> na „a“<br />
+												Vyjmout: Přejeďte z klávesy <img src="img_swypekey.png" /> na „x“<br />
+												Kopírovat: Přejeďte z klávesy <img src="img_swypekey.png" /> na „c“<br />
+												Vložit: Přejeďte z klávesy <img src="img_swypekey.png" /> na „v“
+											</li>
+
+											<li><span class="gestures">Klávesové zkratky aplikace</span>Mapy Google: Přejeďte z klávesy <img src="img_swypekey.png" /> na „g“ a potom na &quot;m&quot;</li>
+											<li><span class="gestures">Hledat</span>Zvýrazněte nějaký text a přejeďte z klávesy <img src="img_swypekey.png" /> na písmeno S pro rychlé webové hledání.</li>
+											<li><span class="gestures">Přepnutí na naposledy používaný jazyk.</span>Při používání více jazyků lze rychle přepnout zpět na předchozí jazyk tak, že v programu Swype přejedete z klávesy <img src="img_swypekey.png" /> na mezerník.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Psaní dvou stejných písmen za sebou
+									<div id="ul_1n" class="closed">
+										<p>Chcete&#45;li zvýšit přesnost při zadávání dvou stejných písmen za sebou, udělejte na příslušném písmenu lehký „klikyhák“ nebo kolečko. Pokud například chcete napsat „nn“ ve slově „činní“, udělejte „klikyhák“ na klávese „n“. Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Výběr slova
+									<div id="ul_1d" class="closed">
+										<p>Chcete&#45;li přijmout výchozí navrhované slovo v Seznamu volby slov, prostě v tahu prstem pokračujte. Nebo tahem prstu projíždějte seznamem a zvolte slovo, které chcete. Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+										<p>Pokud chcete vybrat text ze seznamu, proveďte prstem kruhový pohyb a uslyšíte položky seznamu. Ve směru hodinových ručiček budete v seznamu postupovat vpřed; proti směru hodinových ručiček budete v seznamu postupovat vzad. Po zvednutí prstu bude vybrána poslední vyslovená položka seznamu. Pokud chcete vybrat slovo ze Seznamu volby slov, přejeďte prstem z klávesnice nahoru, dokud neuslyšíte první slovo v seznamu, a potom začněte s kruhovým pohybem.	Tato funkce je k dispozici pouze tehdy, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Psaní slov s velkým písmenem
+									<div id="ul_1e" class="closed">
+										<p>Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+										<p>Při zadávání můžete slovo s velkým písmenem napsat tak, že z prvního písmena přejedete prstem nad horní okraj klávesnice, a aniž byste prst zvedli, zase s ním sklouznete k dalšímu písmenu slova.</p>
+										<p>Velikost písmen v právě napsaném slově můžete změnit tak, že na slovo v textu klepnete a potom z klávesy <img src="img_swypekey.png" /> přejedete ke klávese Shift <img src="img_shiftkey.png" />. Zobrazí se Seznam volby slov s různými variantami psaní velkých písmen, což vám umožní rozhodnout se mezi malým nebo velkým prvním písmenem nebo možností VŠECHNA VELKÁ.</p>
+										<p>Pokud chcete vstoupit do režimu psaní velkých písmen, dvakrát klepněte na klávesu Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatické vkládání mezer
+									<div id="ul_1f" class="closed">
+										<p>Když ve větě začnete zadávat další slovo, Swype mezi slova automaticky vloží mezeru. Funkci automatického vkládání mezer můžete vypnout nebo zapnout v Nastavení Swype.</p>
+										<p>Automatické vkládání mezer lze vypnout pro jedno slovo tak, že přejedete z mezerníku na klávesu Backspace.</p>
+										<p>Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Nahrazení slova
+									<div id="ul_1g" class="closed">
+										<p>Slovo změňte tak, že na něj poklepete a ze Seznamu volby slov vyberete slovo, které chcete, anebo slovo prostě jen zvýrazněte a tahem prstu zadejte slovo nové. Nové slovo nahradí to nesprávné.</p>
+										<p>Slovo lze zvýraznit poklepáním a stisknutím klávesy <img src="img_swypekey.png" />, nebo dvojitým poklepáním na slovo.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Zhoupnutí mezi písmeny
+									<div id="ul_1h" class="closed">
+										<p>Vyhýbáním se písmenům při zadávání někdy docílíte toho, že napíšete slovo, které jste chtěli, hned napoprvé.</p>
+										<p>Například „stup“ a „stop“ lze napsat stejným způsobem – všimněte si ale, že se nemusíte od jednoho písmena ke druhému pohybovat v přímé linii. Pokud se při tahu prstem k písmenu „p“ vyhnete písmenu „u“, zajistíte, aby se v Seznamu volby slov jako první objevilo slovo „stop“.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternativní znaky
+									<div id="ul_1i" class="closed">
+
+										<p>Stisknutím a podržením některé klávesy vyvoláte seznam alternativních znaků pro tuto klávesu, například písmena s diakritikou, jako je ý a č, symboly jako @ a % nebo čísla.</p>
+
+										<p>Pro přechod na klávesnici Symboly klepněte na klávesu Symboly (?123).</p>
+										<p>Upozorňujeme, že tahem lze zobrazit VŠECHNY znaky z hlavní klávesnice (ať už je vidíte nebo ne). Pomocí tohoto zobrazení klávesnice lze tahem zadávat znaky, avšak budete moci psát pouze taková slova, která obsahují alespoň jednu číslici nebo jeden symbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Přidávání a odstraňování slov
+									<div id="ul_1j" class="closed">
+										<p>Nová použitá slova Swype inteligentně přidává do vašeho Osobního slovníku.</p>
+										<p>Slovo můžete také přidat tím, že je zvýrazníte a klepnete na klávesu<img src="img_swypekey.png" />. Slovo přidáte klepnutím na výzvu, která se objeví.</p>
+										<p>Chcete&#45;li slovo odstranit, stiskněte a přidržte jej v Seznamu volby slov, a potom v potvrzovacím dialogovém okně klepněte na OK. Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Přizpůsobení
+									<div id="ul_1k" class="closed">
+										<p>Swype dokáže do vašeho slovníku rychle přidat slovo z Twitteru a Gmailu. Chcete&#45;li Swype přizpůsobit:</p>
+										<ol>
+											<li>Stiskněte a podržte klávesu <img src="img_swypekey.png" />.</li>
+											<li>V nabídce Nastavení klávesnice Swype vyberte možnosti Moje slova &gt; Přizpůsobení.</li>
+											<li>Vybírejte z možností přizpůsobení a pokud budete vyzváni, zadejte své přihlašovací údaje.</li>
+											<li>Swype můžete přizpůsobovat z jednoho nebo ze všech zdrojů.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Řeč</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Hlasem můžete zadávat textový obsah čehokoli, od textových a e&#45;mailových zpráv po aktualizace na Facebooku a Twitteru.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Další informace <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Interpunkční znaménka
+									<div id="ul_2a" class="open">
+										<p>Není třeba interpunkci přidávat ručně. Prostě jen vyslovte interpunkční znaménko, které chcete, a pokračujte. Vyzkoušejte toto:</p>
+										<ol>
+											<li>Stiskněte klávesu pro řeč a začněte mluvit.</li>
+											<li>Co řeknete: <i>Večeře byla výborná vykřičník</i></li>
+											<li>Co se napíše: <i>Večeře byla výborná!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Hlasový vstup není na některých klávesnicích k dispozici</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Psaní</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Písmena a slova můžete psát prstem a Swype je změní na text. Můžete psát písmena zleva doprava nebo je psát na sebe. Chcete&#45;li přepnout mezi režimem písmen a režimem symbolů, stiskněte klávesu ABC/123.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Další informace <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Povolit ruční psaní
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Stiskněte a podržte klávesu <img src="img_symkey.png" /> a přejeďte prstem na ikonu psaní rukou.</li>
+											<li>Písmena napište prstem v oblasti pro ruční psaní.</li>
+
+											<li>Za každým slovem klepněte na mezerník</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Vícedotykový tah
+									<div id="ul_3b" class="closed">
+										<p>Vícedotykovým tahem můžete provádět jednoduché úkony, jako je změna velikosti začátečních písmen nebo všech písmen slova.</p>
+										<ol>
+											<li>Na psací podložku napište několik malých písmen</li>
+											<li>Po zadání znaků táhněte dva prsty v oblasti psaní směrem nahoru</li>
+											<li>Funkce ručního psaní rozpozná vícedotykový tah, a písmena změní na velká</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Psaní rukou není na některých klávesnicích k dispozici.</i></p>
+									<p><i>Tato funkce není k dispozici, máte&#45;li funkci usnadnění používání systému Explore&#45;by&#45;Touch zapnutou.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Poklep</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradiční forma ručního zadávání z klávesnice. Poklepový vstup na klávesnici Swype je díky některým užitečným funkcím jednodušší a efektivnější:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Další informace <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Oprava nedbalého psaní
+									<div id="ul_4a" class="open">
+										<p>Nemusíte na každé písmeno klepat dokonale. Jen se co nejvíc snažte a Swype bude inteligentně nabízet návrhy slov.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Dokončování slov
+									<div id="ul_4b" class="closed">
+										<p>Swype dokáže uhodnout vaše slovo, i když napíšete jen několik písmen.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Jazyky</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Pokud chcete z klávesnice přepnout jazyky: Stiskněte a podržte mezerník. Z kontextové nabídky vyberte požadovaný jazyk.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect nám umožňuje doručovat aktualizace a výkonné funkce přímo do zařízení! I když Swype Connect funguje i s připojením 3G, vždy doporučujeme vyhledat nějaké připojení Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Další informace <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Stažení jazyků
+									<div id="ul_6a" class="open">
+										<p>Přidání dalších jazyků do systému Swype je snadné:</p>
+										<ol>
+											<li>Stiskněte a podržte klávesu <img src="img_swypekey.png" /> a zvolte Jazyky.</li>
+											<li>Z nabídky Jazyky vyberte položku Stáhnout jazyky.</li>
+											<li>Klepněte na některý z jazyků a stahování se spustí automaticky.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect není k dispozici na všech klávesnicích.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Podrobnější nápověda</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Chcete&#45;li získat další nápovědu k používání systému Swype, přečtěte si Uživatelskou příručku Swype a Tipy a videa pro Swype na adrese <a href="http://www.swype.com">www.swype.com</a> nebo navštivte internetové fórum Swype na adrese <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

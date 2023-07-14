@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="use_device_default_light_theme">true</bool>
+</resources>

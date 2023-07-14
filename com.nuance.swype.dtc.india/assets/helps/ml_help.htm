@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">സംസാരിക്കുക</a></div>
+				<div><a href="#write">എഴുതുക</a></div>
+				<div class="last"><a href="#tap">ടൈപ്പുചെയ്യുക</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ഉപയോഗിച്ച് അനായാസമായി നാല് വ്യത്യസ്ത ഇൻപുട്ട് മോഡുകളിലേക്ക് മാറാനുള്ള കഴിവ് നിങ്ങൾക്കുണ്ട് &#45; സൈപ്പുചെയ്യുക, വായിക്കുക, എഴുതുക അല്ലെങ്കിൽ ടാപ്പുചെയ്യുക.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>വാക്ക് വേഗത്തിൽ നൽകാനുള്ള ഒരു മാർഗമാണ് Swype. അക്ഷരങ്ങളിലൂടെ വരയ്ക്കുന്നതുവഴി ഒരു വാക്ക് നൽകാൻ ഇത് നിങ്ങളെ അനുവദിക്കുന്നു. വാക്കിന്റെ ആദ്യ അക്ഷരത്തിൽ നിങ്ങളുടെ വിരൽ വച്ച് അക്ഷരത്തിൽ നിന്ന് അക്ഷരങ്ങളിലേക്ക് ഒരു പാത വരച്ച് അവസാന അക്ഷരത്തിന് ശേഷം കൈ ഉയർത്തുക. ആവശ്യമായിടത്ത് Swype യാന്തികമായി സ്പെയ്സുകൾ ചേർക്കും.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							കൂടുതൽ മനസിലാക്കുക <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype കീ
+									<div id="ul_1a" class="open">
+										<p>Swype ലോഗോ ഉള്ള കീയാണ് Swype കീ. Swype ക്രമീകരണങ്ങളിൽ പ്രവേശിക്കാൻ Swype കീ അമർത്തിപ്പിടിക്കുക.</p>
+										<p>വളരെയധികം Swype ഗെസ്ചറുകൾ സമാരംഭിക്കാനും Swype കീ ഉപയോഗിക്കുന്നു.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    കീബോർഡ് പ്രിവ്യൂ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ഗെസ്ചറുകൾ
+									<div id="ul_1b" class="closed">
+										<p>സാധാരണ ജോലികൾ വേഗത്തിൽ പൂർത്തിയാക്കാൻ കീബോർഡിലുള്ള എളുപ്പഴികളാണ് Swype ഗെസ്ചറുകൾ. സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</p>
+										<ul>
+											<li><span class="gestures">എഡിറ്റ് കീബോർഡിലേക്ക് പോകൽ</span> എഡിറ്റ് കീബോർഡ് നേടാൻ, കീ ബോർഡിൽ <img src="img_swypekey.png" />&#45;ൽ നിന്ന് അടയാള കീയിലേക്ക് (?123) സൈപ്പുചെയ്യുക.</li>
+											<li><span class="gestures">നമ്പർ കീബോർഡിലേക്ക് പോകൽ</span> നമ്പർ കീ ബോർഡ് വേഗത്തിൽ ലഭിക്കാൻ, <img src="img_swypekey.png" />&#45;ൽ നിന്ന് അക്കം 5&#45;ലേക്ക് സൈപ്പുചെയ്യുക.</li>
+											<li><span class="gestures">കീബോർഡ് മറയ്ക്കൽ</span> കീബോർഡ് എളുപ്പത്തിൽ മറയ്ക്കാൻ, Swype നിന്ന് ബാക്ക്സ്പെയ്സ് കീയിലേക്ക് Swype ചെയ്താൽ മതി.</li>
+
+											<li><span class="gestures">യാന്ത്രികമായി സ്പെയ്സിടുന്നത് ഓഫാക്കുക</span> സ്പെയ്സ് കീയിൽ നിന്ന് ബാക്ക്സ്പെയ്സ് കീയിലേക്ക് സൈപ്പുചെയ്യുന്നതിലൂടെ അടുത്ത വാക്കിന് മുമ്പേ യാന്ത്രികമായി സ്പെയ്സിടൽ ഒഴിവാക്കുക.</li>
+
+
+											<li><span class="gestures">വിരാമചിഹ്നം</span> ചോദ്യ ചിഹ്നം, കോമ, പിരീഡ്, അല്ലെങ്കിൽ മറ്റ് വിരാമചിഹ്നങ്ങൾ മുതൽ സ്പെയ്സ് കീ വരെ അതിൽ ടാപ്പുചെയ്യാതെ സൈപ്പുചെയ്യുകയാണ് വിരാമ ചിഹ്നം നൽകുന്നതിനുള്ള ലളിതമായ ഒരു മാർഗം.</li>
+
+											<li><span class="gestures">ആപ്ലിക്കേഷൻ എളുപ്പവഴികൾ</span>Google മാപ്സ്: <img src="img_swypekey.png" />&#45;ൽ നിന്ന് &#39;g&#39; വരെയും തുടർന്ന് &#39;m&#39;&#45;വരെയും സൈപ്പുചെയ്യുക</li>
+											<li><span class="gestures">തിരയൽ</span>വേഗത്തിൽ ഒരു വെബ് തിരയൽ നടത്താൻ, കുറച്ച് ടെക്സ്റ്റ് ഹൈലൈറ്റുചെയ്ത് <img src="img_swypekey.png" /> &#45;ൽ നിന്ന് S&#45;ലേക്ക് Swype ചെയ്യുക.</li>
+											<li><span class="gestures">അവസാനം ഉപയോഗിച്ച ഭാഷയിലേക്ക് മാറൽ</span>ഒന്നിലധികം ഭാഷകൾ ഉപയോഗിക്കുമ്പോൾ, <img src="img_swypekey.png" />&#45;ൽ നിന്ന് സ്പെയ്സ് കീയിലേക്ക് സൈപ്പുചെയ്യലാണ് പഴയ ഭാഷയിലേക്ക് മടങ്ങാനുള്ള ഒരു വേഗതയേറിയ മാർഗം.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									ഇരട്ട അക്ഷരങ്ങൾ നൽകൽ
+									<div id="ul_1n" class="closed">
+										<p>ഇരട്ട അക്ഷരങ്ങൾ നൽകുമ്പോൾ കൃത്യത മെച്ചപ്പെടുത്താൻ, ലഘുവായി കോറുക അല്ലെങ്കിൽ അക്ഷരത്തിൽ വൃത്തം വരയ്ക്കുക. ഉദാഹരണത്തിന്, &quot;ലോകകപ്പ്&quot;&#45;ൽ &quot;കക&quot; നേടാൻ, &quot;ക&quot; കീയിൽ കോറുക. സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ഒരു വാക്ക് തിരഞ്ഞെടുക്കൽ
+									<div id="ul_1d" class="closed">
+										<p>വാക്ക് തിരഞ്ഞെടുപ്പ് ലിസ്റ്റിൽ നിർദേശിക്കപ്പെട്ട സ്ഥിരം വാക്ക് സ്വീകരിക്കാൻ സൈപ്പ് തുടർന്നാൽ മാത്രം മതി. അല്ലെങ്കില്നിങ്ങളുടെ വിരൽ ഇഴച്ചുകൊണ്ട് ലിസ്റ്റിലൂടെ സ്ക്രോൾചെയ്ത് നിങ്ങൾക്കാവശ്യമായ വാക്ക് തിരഞ്ഞെടുക്കുക. സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</p>
+										<p>ലിസ്‌റ്റിൽ നിന്ന് ടെക്‌സ്റ്റ് തിരഞ്ഞെടുക്കാൻ ലിസ്‌റ്റ് എൻട്രികൾ കേൾക്കുന്നതിന് വിരൽ വട്ടത്തിൽ ചലിപ്പിക്കുക. ഘടികാര ദിശയിൽ ചലിപ്പിക്കുന്നത്, ലിസ്‌റ്റിനെ മുന്നോട്ടും എതിർ ഘടികാര ദിശയിൽ ചലിപ്പിക്കുന്നത് ലിസ്‌‌റ്റിനെ പിന്നോട്ടും നീക്കും. വിരൽ എടുക്കുമ്പോൾ അവസാനമായുള്ള സ്‌പോക്കൺ ലി‌സ്‌റ്റ് എൻ‌ട്രി ഔ‌പുട്ട് ലഭിക്കും പദ ചോയ്‌സ് ലിസ്‌റ്റിൽ നിന്നും ഒരു പദം തിരഞ്ഞെടുക്കുന്നതിന്, ലിസ്‌റ്റിലെ ആദ്യത്തെ പദം കേൾക്കുന്നതുവരെ മുകളിൽ നിന്നും വിരൽ സ്ലൈഡുചെയ്യുക അതിനുശേഷം വട്ടത്തിൽ വിരൽ ചലിപ്പിക്കുക.	സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ മാത്രം ഈ സവിശേഷത ലഭ്യമാണ്.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									യാന്ത്രികമായി സ്പെയ്സ് നൽകൽ
+									<div id="ul_1f" class="closed">
+										<p>ഒരു വാചകത്തിൽ നിങ്ങൾ അടുത്ത വാക്ക് സൈപ്പുചെയ്യുമ്പോൾ Swype യാന്ത്രികമായി ഒരു സ്പെയ്സ് ചേർക്കുന്നു. Swype ക്രമീകരണങ്ങളിൽ നിങ്ങൾക്ക് യാന്ത്രികമായി സ്പെയ്സിടാനുള്ള ഫീച്ചർ ഓണാക്കാനോ ഓഫാക്കാനോ കഴിയും.</p>
+										<p>സ്പെയ്സ് കീയിൽ നിന്ന് ബാക്ക്സ്പെയ്സ് കീയിലേക്ക് Swype ചെയ്ത് ഒരു വാക്കിനായി യാന്ത്രികമായി സ്പെയ്സ് നൽകൽ ഓഫ് ചെയ്യാനാകും.</p>
+										<p>സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ഒരു വാക്ക് മാറ്റി മറ്റൊന്നുവയ്ക്കൽ
+									<div id="ul_1g" class="closed">
+										<p>ഒരു വാക്കിൽ ടാപ്പുചെയ്ത് അതിനെ മാറ്റി മറ്റൊന്ന് വച്ച് വാക്ക് തിരഞ്ഞെടുപ്പ് ലിസ്റ്റിൽ നിന്ന് നിങ്ങൾക്കാവശ്യമായ വാക്ക് തിരഞ്ഞെടുക്കുക, അല്ലെങ്കിൽ വാക്ക് വെറുതെ ഹൈലൈറ്റുചെയ്ത് ഒരു പുതിയ വാക്ക് Swype ചെയ്യുക. പുതിയ വാക്ക് തെറ്റായ വാക്കിനെ മാറ്റി വയ്ക്കും.</p>
+										<p>ഒരു വാക്കിൽ ടാപ്പുചെയ്ത് <img src="img_swypekey.png" /> ഹിറ്റുചെയ്തോ അല്ലെങ്കിൽ വാക്കിൽ ഇരട്ട ടാപ്പുചെയ്തോ ഒരു വാക്ക് ഹൈലൈറ്റുചെയ്യാനാകും.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									അക്ഷരങ്ങൾക്കിടയിൽ ബൗൺസുചെയ്യൽ
+									<div id="ul_1h" class="closed">
+										<p>ചിലപ്പോൾ, Swype ചെയ്യുമ്പോൾ അക്ഷരങ്ങൾ ഒഴിവാക്കുന്നത് നിങ്ങൾക്കാവശ്യമായ വാക്ക് ആദ്യം തന്നെ കിട്ടുന്നത് ഉറപ്പാക്കുന്നു.</p>
+										<p>ഉദാഹരണത്തിന്, &quot;അതാണ്&quot; ഉം &quot;അതാത്&quot; ഉം ഒരേ പാതയിൽ വരയ്ക്കാനാകും &#45; പക്ഷേ ഒരു നേർ രേഖയിൽ ഒരു അക്ഷരത്തിൽ നിന്ന് മറ്റൊരു അരക്ഷരത്തിലേക്ക് നിങ്ങൾ നീങ്ങേണ്ടതില്ലെന്ന് ശ്രദ്ധിക്കുക. &quot;്&quot;&#45;ലേക്ക് നിങ്ങളുടെ വിരൽ Swype ചെയ്യുമ്പോൾ &quot;ണ&quot; ഒഴിവാക്കുന്നത്, വാക്ക് തിരഞ്ഞെടുപ്പ് ലിസ്റ്റിൽ &quot;അതാണ്&quot; വാക്ക് ആദ്യമാണെന്ന് ഉറപ്പിക്കുന്നു.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									പകരമുള്ള അക്ഷരങ്ങൾ
+									<div id="ul_1i" class="closed">
+
+										<p>ഒരു കീയിലെ %&#45;ഉം @&#45;ഉം പോലുള്ള ചിഹ്നങ്ങളും അക്കങ്ങളും പോലുള്ള ആ കീയുടെ പകരമുള്ള അക്ഷരങ്ങളുടെ ഒരു ലിസ്റ്റ് കൊണ്ടുവരാൻ അതിൽ അമർത്തിപ്പിടിക്കുക.</p>
+
+										<p>അടയാള കീബോർഡിലേക്ക് കൊണ്ടുവരുന്നതിനായി അടയാള കീ (?123) ടാപ്പുചെയ്യുക.</p>
+										<p>പ്രധാന കീബോർഡിൽ നിന്നുള്ള എല്ലാ അക്ഷരങ്ങളും Swype പ്രാപ്തമാണെന്ന് ശ്രദ്ധിക്കുക (നിങ്ങൾക്ക് അവ കാണാൻ കഴിയുമെങ്കിലും ഇല്ലെങ്കിലും). ഈ കീബോർഡിന്റെ കാഴ്ച ഉപയോഗിച്ച് നിങ്ങൾക്ക് Swype ചെയ്യാനാകും, പക്ഷേ ഒരു അക്കമോ അടയാളമോ എങ്കിലും ഉള്ള വാക്കുകൾ മാത്രമേ നിങ്ങൾക്ക് ലഭിക്കൂ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									വാക്കുകൾ ചേർക്കലും ഇല്ലാതാക്കലും
+									<div id="ul_1j" class="closed">
+										<p>നിങ്ങൾ ഉപയോഗിക്കുന്ന ഏത് പുതിയ വാക്കും നിങ്ങളുടെ വ്യക്തിപര നിഘണ്ടുവിലേക്ക് Swype ബുദ്ധിപൂർവം ചേർക്കുന്നു.</p>
+										<p>ഒരു വാക്ക് ഹൈലൈറ്റുചെയ്ത് <img src="img_swypekey.png" /> ടാപ്പുചെയ്യുന്നതിലൂടെയും ഒരു വാക്ക് ചേർക്കാനാകും. വാക്ക് ചേർക്കാനായി ദൃശ്യമാകുന്ന നിർദേശം ടാപ്പുചെയ്യുക.</p>
+										<p>ഒരു വാക്ക് ഇല്ലാതാക്കാൻ വാക്ക് തിരഞ്ഞെടുപ്പ് ലിസ്റ്റിൽ ഒരു വാക്ക് അമർത്തിപ്പിടിച്ച്, കണ്ഫോമേഷന് ഡയലോഗിൽ ഓകെ ടാപ്പുചെയ്യുക. സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									വ്യക്തിപരമാക്കൽ
+									<div id="ul_1k" class="closed">
+										<p>Twitter, Gmail എന്നിവിടങ്ങളിൽ നിന്ന് വേഗത്തിൽ നിങ്ങളുടെ നിഘണ്ടുവിലേക്ക് വാക്കുകൾ ചേർക്കാനും Swype&#45;ന് കഴിയുന്നു. Swype വ്യക്തിപരമാക്കാൻ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> അമർത്തിപ്പിടിക്കുക.</li>
+											<li>Swype ക്രമീകരണ മെനുവിൽ നിന്നും എന്റെ പദങ്ങൾ &gt; വ്യക്തിഗതമാക്കൽ എന്നത് തിരഞ്ഞെടുക്കുക.</li>
+											<li>വ്യക്തിപരമാക്കൽ ഓപ്ഷനുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക, ആവശ്യപ്പെട്ടാൽ നിങ്ങളുടെ ക്രെഡൻഷ്യലുകൾ നൽകുക.</li>
+											<li>ഒന്നോ അല്ലെങ്കിൽ എല്ലാ ഉറവിടങ്ങളിലുമോ നിങ്ങൾക്ക് Swype വ്യക്തിപരമാക്കാനാകും.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">സംസാരിക്കുക</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>വാചക, സന്ദേശ ഇമെയിൽ സന്ദേശങ്ങൾ മുതൽ Facebook, Twitter അപ്ഡേറ്റുകൾ വരെ എന്തിനും വാചക ഉള്ളടക്കം നൽകുന്നതിനായി സംസാരിക്കാനുമാകും.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							കൂടുതൽ മനസിലാക്കുക <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									വിരാമചിഹ്നം
+									<div id="ul_2a" class="open">
+										<p>വിരാമചിഹ്നം മാനുവലായി ചേർക്കേണ്ടതില്ല. നിങ്ങൾക്കാവശ്യമായ വിരാമചിഹ്നം പറഞ്ഞ് തുടരുക. ഇത് പരീക്ഷിക്കുക:</p>
+										<ol>
+											<li>വോയ്സ് കീ അമർത്തി സംസാരിക്കാൻ തുടങ്ങുക.</li>
+											<li>നിങ്ങൾ എന്ത് പറയുന്നു: <i>വിരുന്ന് സ്വാദിഷ്ഠമായിരുന്നു ആശ്ചര്യചിഹ്നം</i></li>
+											<li>നിങ്ങൾക്ക് ലഭിക്കുന്നവ: <i>വിരുന്ന് സ്വാദിഷ്ഠമായിരുന്നു</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ചില കീബോർഡുകളിൽ വോയ്സ് ഇൻപുട്ട് ലഭ്യമല്ല</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">എഴുതുക</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>അക്ഷരങ്ങളും വാക്കുകളും വരയ്ക്കാൻ നിങ്ങളുടെ വിരലുകൾ ഉപയോഗിക്കാം, Swype അവ വാചകമാക്കി മാറ്റും. ഇടത്തുനിന്ന് വലത്തേക്കും ഓരോന്നിന്റെയും മുകളിൽ അന്യോന്യവും വരയ്ക്കാനാകും. അക്ഷര, അടയാള മോഡുകൾക്കിടയിൽ ടോഗിൾ ചെയ്യാൻ ABC / 123 അമർത്തുക.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							കൂടുതൽ മനസിലാക്കുക <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									ഹാൻഡ്റൈറ്റിംഗ് പ്രാപ്തമാക്കുക
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> അമർത്തിപ്പിടിച്ച് ഹാൻഡ്റൈറ്റിംഗ് ഐക്കണിലേക്ക് നിങ്ങളുടെ വിരൽ സ്ലൈഡുചെയ്യുക.</li>
+											<li>നിങ്ങളുടെ വിരലുപയോഗിച്ച് ഹാൻഡ്റൈറ്റിംഗ് പ്രദേശത്ത് അക്ഷരങ്ങൾ വരയ്ക്കുക</li>
+
+											<li>ഓരോ വാക്കിനും ഇടയിലുള്ള സ്പെയ്സ് ബാർ ടാപ്പുചെയ്യുക</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									മൾട്ടി ടച്ച് ഗെസ്ചർ
+									<div id="ul_3b" class="closed">
+										<p>വാക്കുകളും അക്ഷരങ്ങളും വലിയക്ഷരത്തിലാക്കുന്നതുപോലുള്ള ലളിതമായ പൂർത്തിയാക്കാൻ ചെയ്യാൻ മൾട്ടി ടച്ച് ഗെസ്ചർ നിങ്ങളെ അനുവദിക്കുന്നു.</p>
+										<ol>
+											<li>ഡ്രോയിംഗ് പാഡിൽ കുറച്ച് ചെറിയക്ഷരങ്ങൾ വരയ്ക്കുക</li>
+											<li>അക്ഷരങ്ങൾ നൽകിയതിനുശേഷം, എഴുതൽ ഏരിയയിൽ രണ്ട് വിരലുകൾ മുകളിലേക്ക് സ്ലൈഡുചെയ്യുക</li>
+											<li>ഹാൻഡ്റൈറ്റിംഗ് ഫീച്ചർ, മൾട്ടി ടച്ച് ഗെസ്ചർ തിരിച്ചറിയുകയും വാക്കുകൾ വലിയക്ഷരത്തിലാക്കുകയും ചെയ്യുന്നു</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>ചില കീബോർഡുകളിൽ ഹാൻഡ്റൈറ്റിംഗ് ലഭ്യമല്ല.</i></p>
+									<p><i>സിസ്റ്റം പ്രവേശനക്ഷമതാ സേവനം Explore&#45;by&#45;Touch ഓണായിരിക്കുമ്പോൾ ഈ സവിശേഷത ലഭ്യമല്ല.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ടൈപ്പുചെയ്യുക</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>മാനുവൽ കീബോർഡ് ഇൻപുട്ടിന്റെ പരമ്പരാഗത രൂപം. ചില സഹായകരമായ ഫീച്ചറുകളോടെ ലളിതമായും കൂടുതൽ കാര്യപ്രാപ്തമായും Swype കീബോർഡിലെ ടാപ് ഇൻപുട്ട് നിർമ്മിച്ചിരിക്കുന്നു:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							കൂടുതൽ മനസിലാക്കുക <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									തെറ്റായ ടൈപ്പിംഗ് തിരുത്തൽ
+									<div id="ul_4a" class="open">
+										<p>നിങ്ങൾ ഓരോ അക്ഷരവും കൃത്യമായി ടാപ്പുചെയ്യേണ്ടതില്ല. നിങ്ങൾക്ക് ചെയ്യാവുന്നത്ര നന്നായി ചെയ്യുക, Swype ബുദ്ധിപൂർവം വാക്ക് നിർദേശങ്ങൾ നൽകും.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									വാക്ക് പൂർത്തിയാക്കൽ
+									<div id="ul_4b" class="closed">
+										<p>കുറച്ച് അക്ഷരങ്ങൾ മാത്രം ടാപ്പുചെയ്യുമ്പോൾ നിങ്ങളുടെ വാക്ക് ഊഹിക്കാനും Swype&#45;ന് കഴിയുന്നു.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ഭാഷകൾ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>കീബോർഡിൽ നിന്ന് ഭാഷകൾ മാറാൻ: സ്പെയ്സ് ബാറിൽ അമർത്തിപ്പിടിക്കുക. പോപ്പപ്പ് മെനുവിൽ നിന്ന് നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട ഭാഷ തിരഞ്ഞെടുക്കുക.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>നിങ്ങളുടെ ഉപകരണത്തിലേക്ക് നേരിട്ട് അപ്ഡേറ്റുകളും ശക്തിയേറിയ പ്രവർത്തനങ്ങളും നൽകാൻ Swype കണക്റ്റ് ഞങ്ങളെ അനുവദിക്കുന്നു! 3G ഉപയോഗിച്ച് Swype Connect&#45;ൽ പ്രവർത്തിക്കുകയാണെങ്കിൽ, ഒരു Wi&#45;Fi കണക്ഷൻ കണ്ടെത്താൻ ഞങ്ങൾ ശുപാർശചെയ്യുന്നു.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							കൂടുതൽ മനസിലാക്കുക <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ഭാഷാ ഡൗൺലോഡുകൾ
+									<div id="ul_6a" class="open">
+										<p>Swype&#45;ലേയ്ക്ക് അധിക ഭാഷകൾ ചേർക്കുന്നത് എളുപ്പമാണ്:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> അമർത്തിപ്പിടിച്ച് ഭാഷ തിരഞ്ഞെടുക്കുക.</li>
+											<li>ഭാഷ മെനുവിൽ നിന്നും ഭാഷകൾ ഡൗൺലോഡുചെയ്യുക, തിരഞ്ഞെടുക്കുക.</li>
+											<li>ഒരു ഭാഷയിൽ ക്ലിക്കുചെയ്യുമ്പോൾ നിങ്ങളുടെ ഡൗൺലോഡുചെയ്യൽ യാന്ത്രികമായി ആരംഭിക്കും.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>എല്ലാ കീബോർഡുകളിലും Swype Connect ലഭ്യമല്ല.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">കൂടുതൽ സഹായം</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ഉപയോഗിക്കുന്നതിനുള്ള കൂടുതൽ സഹായത്തിന്, <a href="http://www.swype.com">www.swype.com</a>&#45;ൽ Swype യൂസർ മാന്വലും Swype നുറുങ്ങുകളും കാണുകയോ ഓൺലൈനായി <a href="http://forum.swype.com">forum.swype.com</a>&#45;ൽ Swype ഫോറം പരിശോധിക്കുകയോ ചെയ്യുക.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

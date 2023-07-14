@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nuance.swype.dtc.india">
+
+    <application>
+        <!-- Two test activities for changing the languages and themes through adb -->
+        <activity android:name="com.nuance.swype.bvt.BvtLanguageChangeActivity" android:exported="true"/>
+        <activity android:name="com.nuance.swype.bvt.BvtThemeChangeActivity" android:exported="true"/>
+        <!-- Activity to check the status of Settings options-->
+        <activity android:name="com.nuance.swype.bvt.BvtParseSettingsLogs" android:exported="true"/>
+    </application>
+
+</manifest>

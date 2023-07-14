@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_tablet_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="?keyCharacterSize5row" ns:altTextSize="19.0dip" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?symKeyboardKeypad" ns:keyIconRecolor="?iconRecolorKeypad" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ą" ns:keyLabel="ą" ns:altKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_č" ns:keyLabel="č" ns:altKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ę" ns:keyLabel="ę" ns:altKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ė" ns:keyLabel="ė" ns:altKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_į" ns:keyLabel="į" ns:altKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_š" ns:keyLabel="š" ns:altKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ų" ns:keyLabel="ų" ns:altKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ū" ns:keyLabel="ū" ns:altKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_ž" ns:keyLabel="ž" ns:altKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_at" ns:keyLabel="\@" ns:altKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/delete_key_tablet_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTabTablet" ns:keyIconRecolor="?iconRecolorTabTablet" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_q" ns:keyLabel="q" ns:altKeyLabel="£" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_w" ns:keyLabel="w" ns:altKeyLabel="\#" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_e" ns:keyLabel="e" ns:altKeyLabel="€" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_r" ns:keyLabel="r" ns:altKeyLabel="~" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_t" ns:keyLabel="t" ns:altKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_y" ns:keyLabel="y" ns:altKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_u" ns:keyLabel="u" ns:altKeyLabel="[" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_i" ns:keyLabel="i" ns:altKeyLabel="]" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_o" ns:keyLabel="o" ns:altKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_p" ns:keyLabel="p" ns:altKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:altTextSize="@dimen/alt_emoji_icon_size_big" ns:altTextGravity="right" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:altIcon="?emojiIconKeySecondary" ns:altPreviewIcon="?emojiIconPopupKeypress" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_a" ns:keyEdgeFlags="left" ns:keyLabel="a" ns:altKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_s" ns:keyLabel="s" ns:altKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_d" ns:keyLabel="d" ns:altKeyLabel="†" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_f" ns:keyLabel="f" ns:altKeyLabel=";" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_g" ns:keyLabel="g" ns:altKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_h" ns:keyLabel="h" ns:altKeyLabel="«" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_j" ns:keyLabel="j" ns:altKeyLabel="»" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_k" ns:keyLabel="k" ns:altKeyLabel="„" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_l" ns:keyEdgeFlags="right" ns:keyLabel="l" ns:altKeyLabel="“" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?fourthRowBackground">
+        <Key ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_z" ns:keyLabel="z" ns:altKeyLabel="!" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_x" ns:keyLabel="x" ns:altKeyLabel="+" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_c" ns:keyLabel="c" ns:altKeyLabel="=" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_v" ns:keyLabel="v" ns:altKeyLabel="*" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_b" ns:keyLabel="b" ns:altKeyLabel="/" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_n" ns:keyLabel="n" ns:altKeyLabel="\\" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_lithuanian_m" ns:keyLabel="m" ns:altKeyLabel="\?" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyLabel="\@" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/shift_10_8_key_tablet_width" ns:codes="@integer/keycode_shift" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row_tablet" />
+</KeyboardEx>

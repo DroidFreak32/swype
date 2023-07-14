@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nuance.swype.widget.MultilineSwitchPreference android:title="@string/back_and_sync_title" android:key="pref_backup_enabled" android:defaultValue="@bool/connect_dlm_sync_default" />
+    <PreferenceCategory android:title="@string/pref_connect_account" android:key="your_account">
+        <com.nuance.swype.preference.ClassActionPreference android:title="example@nuance.com" android:key="pref_account" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_devices_title" android:key="account_my_devices" />
+    <PreferenceCategory android:title="@string/pref_connect_options" android:key="account_options">
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_sync_now_title" android:key="pref_account_sync_now" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_connect_delete_account" android:key="pref_account_delete" android:summary="@string/pref_delete_account_desc" />
+    </PreferenceCategory>
+</PreferenceScreen>

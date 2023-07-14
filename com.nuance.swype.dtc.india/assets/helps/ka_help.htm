@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">წარმოთქვით</a></div>
+				<div><a href="#write">დაწერეთ</a></div>
+				<div class="last"><a href="#tap">შეხება</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype&#45;ი გაძლევთ საშუალებას ადვილად გადახვიდეთ ტექსტის შეყვანის ოთხ მეთოდ შორის – Swype, ლაპარაკი, წერა და შეხება.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype წარმოადგენს ტექსტის სწრაფად აკრეფის მეთოდი. ის საშუალებას გაძლევთ სიტყვა აკრიფოთ ასოებს შორის ხაზვის გზით. დაადეთ თითი სიტყვის პირველ ასოს, მოხაზეთ წირი ასოდან ასოზე და ბოლო ასოზე თითის მიტანის შემდეგ ასწიეთ ის. ინტერვალები ავტომატურად ჩაჯდება, სადაც საჭიროა.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							შეიტყვეთ მეტი <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype ღილაკი
+									<div id="ul_1a" class="open">
+										<p>Swype ღილაკი არის ღილაკი, მასზე აღნიშნული Swype ლოგოთი. დაყოვნებით დააჭირეთ Swype ღილაკს Swype&#45;ის პარამეტრების სანახავად.</p>
+										<p>Swype ღილაკი ასევე გამოიყენება მრავალი Swype მოქმედების განსახორციელებლად.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    კლავიატურის დათვალიერება
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ჟესტები
+									<div id="ul_1b" class="closed">
+										<p>Swype ჟესტები წარმოადგენს კლავიატურის სწრაფ ღილაკებს, ძირითადი ოპერაციების სწრაფად შესასრულებლად. ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+										<ul>
+											<li><span class="gestures">რედაქტირების ღილაკების გამოყენება</span> რედაქტირებისთვის კლავიატურის მისაღებად გადაუსვით თითი კლავიატურაზე <img src="img_swypekey.png" /> ღილაკიდან სიმბოლოების ღილაკამდე (?123).</li>
+											<li><span class="gestures">ციფრების ღილაკების გამოყენება</span> ციფრების კლავიატურის სწრაფად მისაღებად, გადაუსვით თითი <img src="img_swypekey.png" /> ღილაკიდან ციფრამდე 5.</li>
+											<li><span class="gestures">კლავიატურის დამალვა</span> კლავიატურის ადვილად დასამალად, გაგაუსვით თითი Swype ღილაკიდან უკუსვლის ღილაკამდე.</li>
+
+											<li><span class="gestures">ინტერვალის ავტომატურად ჩასმის გამორთვა</span> შემდეგი სიტყვის წინ ინტერვალის ავტომატურად ჩასმის გამოსართავად, გადაუსვით ხელი ინტერვალის ღილაკიდან უკუსვლის ღილაკამდე.</li>
+
+
+											<li><span class="gestures">პუნქტუაცია</span> სასვენი ნიშნების მარტივად შესაყვანად გააკეთეთ Swype მოძრაობა ბრჭყალები, მძიმე, წერტილი ან სხვა პუნქტუაციის ნიშნიდან ინტერვალის ღილაკისკენ მასზე შეხების ნაცვლად.</li>
+
+											<li><span class="gestures">პროგრამის სწრაფი ღილაკები</span>Google რუკები: გააკეთეთ Swype მოძრაობა <img src="img_swypekey.png" />&#45;დან &quot;g&quot;, შემდეგ &quot;m&quot;&#45;სკენ</li>
+											<li><span class="gestures">ძებნა</span>ინტერნეტში სწრაფი ძებნისთვის მონიშნეთ ტექსტის ნაწილი და გააკეთეთ Swype მოძრაობა <img src="img_swypekey.png" />&#45;დან S&#45;სკენ.</li>
+											<li><span class="gestures">ბოლოს გამოყენებულ ენაზე გადართვა.</span>რამდენიმე ენის გამოყენების შემთხვევაში წინა ენაზე სწრაფად დაბრუნება შეიძლება <img src="img_swypekey.png" /> ღილაკიდან ინტერვალის ღილაკზე Swype მოძრაობით.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									ორმაგი ასოების დაწერა
+									<div id="ul_1n" class="closed">
+										<p>უფრო მეტი სიზუსტისთვის ორმაგი ასოს ასაკრეფად გააკეთეთ მსუბუქი გასმა ან მოხაზეთ მარყუჟი ასოზე. მაგალითად, რომ დაწეროთ ”იი” სიტყვაში ”პარტიის”, გააკეთეთ გასმა ”ი” ღილაკზე. ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									სიტყვის არჩევა
+									<div id="ul_1d" class="closed">
+										<p>არჩევის სიის მიერ შეთავაზებული პირველივე სიტყვის ასარჩევად უბრალოდ გააგრძელეთ Swype მეთოდით წერა. სხვა შემთხვევაში, გადაახვიეთ სია თითის გადასმით და შეარჩიეთ სასურველი სიტყვა. ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+										<p>სიიდან ტექსტის ასარჩევად, გადააადგილეთ თითი წრიულად და მოისმინეთ სიაში არსებული ჩანაწერები. საათის ისრის მიმართულებით სიაში წინ გადაადგილება ხდება; საათის ისრის საწინააღმდეგო მიმართულებით კი უკან დაბურნება. თითის აწევით ბოლოს წარმოთქმული სიის ჩანაწერის გამოტანა ხდება. სიტყვათა შერჩევის სიიდან სიტყვის ასარჩევად, გაუსვით თითი კლავიატურიდან ზემოთ, სანამ სიაში პირველ სიტყვას არ მოისმენთ; შემდეგ დაიწყეთ წრიული მოძრაობა.	ეს ფუნქცია მუშაობს მხოლოდ მაშინ, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ინტერვალის ავტომატურად ჩასმა
+									<div id="ul_1f" class="closed">
+										<p>ინტერვალები ავტომატურად ჩაჯდება სიტყვებს შორის, წინადადების შემდეგი სიტყვის დაწერის დაწყებისთანავე. შეგიძლიათ Swype პარამეტრებიდან ჩართოთ ან გამორთოთ ინტერვალების ავტომატურად ჩასმის ფუნქცია.</p>
+										<p>ინტერვალის ავტომატურად ჩასმის ფუნქცია შეიძლება გამოირთოს ერთი სიტყვისთვის Space ღილაკიდან Backspace ღილაკისკენ Swype მოძრაობით.</p>
+										<p>ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									სიტყვის შეცვლა
+									<div id="ul_1g" class="closed">
+										<p>შეცვალეთ სიტყვა მასზე შეხებით, შემდეგ სიტყვის არჩევის სიიდან სასურველი სიტყვის შერჩევით ან უბრალოდ მონიშნეთ სიტყვა და დაწერეთ Swype მეთოდით ახალი სიტყვა. ახალი სიტყვა ჩაანაცვლებს არასწორს.</p>
+										<p>სიტყვა შეიძლება მოინიშნოს მასზე შეხებით და <img src="img_swypekey.png" />&#45;ზე დაჭერით, ან ამ სიტყვაზე ორჯერ შეხებით.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ასოებს შორის შემოვლა
+									<div id="ul_1h" class="closed">
+										<p>ზოგჯერ Swype მოძრაობისას იმ ასოების არიდება, რომლებიც არ გჭირდებათ, გაძლევთ სასურველ სიტყვას პირველივე ჯერზე.</p>
+										<p>მაგალითად, ”პირი” და ”პური” შეიძლება მოიხაზოს ერთიდაიგივე წირით, მაგრამ მიაქციეთ ყურადღება, არაა აუცილებელი ასოდან ასოზე სწორი ხაზით გადახვიდეთ. ”რ” ასოსთან თითის გასრიალებისას ”ი” და ”ო” ასოების არიდებით, ასარჩევი სიტყვების სიაში სიტყვა ”პური” გექნებათ პირველი.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ალტერნატიული სიმბოლოები
+									<div id="ul_1i" class="closed">
+
+										<p>ხანგრძლივად დააჭირეთ ამ ღილაკს ალტერნატიული სიმბოლოების სიის გამოსატანად, როგორიცაა სიმბოლოები % და @ და ციფრები.</p>
+
+										<p>სიმბოლოების დონეზე გადასასვლელად შეეხეთ სიმბოლოების ღილაკს (?123),.</p>
+										<p>მიაქციეთ ყურადღება, რომ ყველა სიმბოლოს Swype მოძრაობით დაწერა შეიძლება მთავარი კლავიატურიდან (იმის მიუხედავად, ხედავთ მას თუ ვერა). Swype მეთოდით წერა შეგიძლიათ კლავიატურის ამ ხედის გამოყენებით, მაგრამ მხოლოდ იმ სიტყვების დაწერას შეძლებთ, რომლებიც შეიცავს მინიმუმ ერთ ციფრს ან სიმბოლოს.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									სიტყვების დამატება და წაშლა
+									<div id="ul_1j" class="closed">
+										<p>Swype აზრიანად ამატებს თქვენს მიერ გამოყენებულ ახალ სიტყვებს თქვენს პირად ლექსიკონში.</p>
+										<p>ახალი სიტყვის დამატება ასევე შეგიძლიათ ამ სიტყვის მონიშვნით და <img src="img_swypekey.png" />&#45;ზე შეხებით. სიტყვის დასამატებლად შეეხეთ შეთავაზებას, რომელიც გამოჩნდება.</p>
+										<p>სიტყვის წასაშლელად ხანგრძლივად დააჭირეთ მას სიტყვის არჩევის სიაში და შემდეგ დადასტურების დიალოგის ფანჯარაში შეეხეთ OK. ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									საკუთარი გემოვნებით მოწყობა
+									<div id="ul_1k" class="closed">
+										<p>Swype&#45;ს უცებ შეუძლია თქვენს ლექსიკონში დაამატოს სიტყვა Twitter და Gmail. Swype&#45;ის საკუთარი გემოვნებით მოწყობა:</p>
+										<ol>
+											<li>ხანგრძლივად დააჭირეთ ღილაკს <img src="img_swypekey.png" />.</li>
+											<li>Swype&#45;ის პარამეტრების მენიუდან აირჩიეთ: ჩემი სიტყვები &gt; პერსონალიზება.</li>
+											<li>შეარჩიეთ პირადი მოწყობის ოფციებიდან და შეიტანეთ თქვენი რეკვიზიტები, თუ მოგეთხოვებათ.</li>
+											<li>Swype&#45;ის მოწყობა შეგიძლიათ ერთი ან რამდენიმე წყაროდან.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">წარმოთქვით</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>შეგიძლიათ ილაპარაკოთ ტექსტური მასალის შესაყვანად, ტექსტის, ელფოსტის წერილის, Facebook და Twitter&#45;ის განახლებებისთვის.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							შეიტყვეთ მეტი <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									პუნქტუაცია
+									<div id="ul_2a" class="open">
+										<p>სასვენი ნიშნების ხელით დამატება საჭირო არაა. უბრალოდ წარმოთქვით საჭირო სასვენი ნიშანი და გააგრძელეთ. ცადეთ:</p>
+										<ol>
+											<li>დააჭირეთ ხმის ღილაკს და დაიწყეთ საუბარი.</li>
+											<li>თქვით ასეთი რამ: <i>სადილი უგემრიელესი იყო ძახილის ნიშანი</i></li>
+											<li>მიიღებთ: <i>სადილი უგემრიელესი იყო!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ტექსტის შეყვანა ხმით არ არის შესაძლებელი ზოგიერთი კლავიატურისთვის</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">დაწერეთ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>შეგიძლიათ თითით დახატოთ ასოები და სიტყვები და Swype მას ტექსტად გადააკეთებს. შეგიძლიათ დახატოთ ასოები მარცხნიდან მარჯვნივ ან ერთმანეთის თავზე. დააჭირეთ ABC / 123, რომ გადართოთ ასოების და სიმბოლოების რეჟიმებს შორის.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							შეიტყვეთ მეტი <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									ხელწერის მეთოდის ჩართვა
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>ხანგრძლივად დააჭირეთ ღილაკს <img src="img_symkey.png" /> და გაასრიალეთ თითი ხელნაწერის ხატულასკენ.</li>
+											<li>დახატეთ თითით ასოები ხელწერის ზონაში.</li>
+
+											<li>დააჭირეთ ინტერვალის კლავიშს ყოველი სიტყვის შემდეგ</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									მრავალშეხებიანი ჟესტები
+									<div id="ul_3b" class="closed">
+										<p>მრავალშეხებიანი ჟესტები საშუალებას გაძლევთ შეასრულოთ მარტივი ოპერაციები, როგორიცაა ასოების ან სიტყვების რეგისტრის შეცვლა.</p>
+										<ol>
+											<li>დაბალი რეგისტრის ასოების დახატვა სახატავ დაფაზე</li>
+											<li>ასოების დაწერის შემდეგ აასრიალეთ ორი თითი ზემოთ, საწერი ზონისკენ</li>
+											<li>ხელწერის ფუნქცია ამოიცნობს მრავალ შეხებიან ჟესტს და გადაიყვანს ასოებს მაღალ რეგისტრში</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>ხელნაწერით ტექსტის შეტანა ზოგიერთ კლავიატურაზე არ შეიძლება.</i></p>
+									<p><i>ეს ფუნქცია არ მუშაობს, როდესაც ჩართულია სისტემაზე წვდომის სერვისი Explore&#45;by&#45;Touch.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">შეხება</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>კლავიატურით აკრეფის ტრადიციული ფორმა. Swype კლავიატურაზე შეხებით აკრეფა უფრო მარტივი და ეფექტური გახდა რამდენიმე დამხმარე მახასიათებლის წყალობით:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							შეიტყვეთ მეტი <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									დაუდევრად აკრეფილის შესწორება
+									<div id="ul_4a" class="open">
+										<p>ყველა ასოს ზუსტად აკრეფა საჭირო არ არის. უბრალოდ დაწერეთ როგორც შეგიძლიათ და Swype გონივრულად შემოგთავაზებთ შესწორებულ სიტყვას.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									სიტყვის დასრულება
+									<div id="ul_4b" class="closed">
+										<p>Swype&#45;ს ასევე შეუძლია გამოიცნობს რა სიტყვის აკრეფას აპირებთ სულ რამოდენიმე ასოს აკრეფის შემდეგ.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ენები</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>ენების შეცვლა კლავიატურიდან: ხანგრძლივად დააჭირეთ ინტერვალის კლავიშს. ჩამოშლილი მენიუდან აირჩიეთ სასურველი ენა.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect საშუალებას გვაძლევს პირდაპირ თქვენს აპარატზე მოგაწოდოთ განახლებები და სხვა მძლავრი საშუალებები! რამდენადაც Swype Connect იყენებს 3G&#45;ს, ყოველთვის გირჩევთ იპოვნოთ Wi&#45;Fi კავშირები.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							შეიტყვეთ მეტი <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ენების ჩამოტვირთვა
+									<div id="ul_6a" class="open">
+										<p>Swype&#45;ში ახალი ენების დამატება ადვილია:</p>
+										<ol>
+											<li>ხანგრძლივად დააჭირეთ ღილაკს <img src="img_swypekey.png" />&#45;ს და შეარჩიეთ ენა.</li>
+											<li>ენის მენიუდან შეარჩიეთ ენების ჩატვირთვა.</li>
+											<li>დააწკაპუნეთ სასურველ ენაზე და ჩატვირთა ავტომატურად დაიწყება.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect არ არის ხელმისაწვდომი ყველა კლავიატურაზე.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">მეტი დახმარება</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype&#45;ის გამოყენების თაობაზე დამატებითი დახმარების მისაღებად, გაეცანით Swype&#45;ის მომხმარებლის სახელმძღვანელოს, Swype&#45;ის მითიებებსა და ვიდეოებს საიტზე <a href="http://www.swype.com">www.swype.com</a>, ან გადახედეთ Swype&#45;ის ფორუმს ინტერნეტში <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

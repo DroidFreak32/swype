@@ -1,0 +1,116 @@
+/* ------------- main ------------- */
+* { margin: 0; }
+html,
+body {
+	font-family: Droid Sans, Arial, sans-serif;
+	text-align: center;
+	background: #fff;
+	color: #333;
+}
+/* ------------- text ------------- */
+h3 {
+	color: #000;
+	text-align: left;
+	vertical-align: center;
+	font-weight: 100;
+	margin: 0 0 0 35px;
+}
+p {
+	color: #333;
+	padding: 0 15px;
+	font: 0.95em Droid Sans, sans-serif;
+}
+b {
+	color: #ffa200;
+	font-style: italic;
+	display: block;
+	margin: 10px 0 2px 0;
+}
+/* ------------- wraps ------------- */
+.wrapper {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	min-height: 20px;
+	padding: 8px;
+	margin: 0 0 10px 0;
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+}
+.content {
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	max-width: 750px;
+}
+/* ------------- content ------------- */
+.content p {
+	max-width: 550px;
+	margin: 0 auto;
+}
+.info {
+	float: left;
+	width: 21px;
+	margin: 1px 0 0 3px;
+}
+.image {
+	text-align: center;
+	width: 100%;
+	padding: 15px 0;
+}
+	.image img {
+		width: 80%;
+		max-width: 500px;
+		background: #000;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		padding: 7px;
+	}
+/* ------------- footer ------------- */
+.footer {
+	height: auto;
+	background: #fff;
+}
+td.space { padding: 5px; }
+.btncontainer {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	height: auto;
+	clear: both;
+}
+.column {
+	background: #ccc;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#ccc));
+	background: -moz-linear-gradient(0% 90% 90deg, #ddd, #ccc);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #000;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	padding: 7px;
+}
+/* ------------- no highlight ------------- */
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+/* --------------- RTL -------------------*/
+/* NOTE: RTL definitions must come after all others to override */
+html[dir=rtl] {
+	direction: rtl;
+}
+html[dir=rtl] h3 {
+	text-align: right;
+	margin-right: 5px;
+}
+html[dir=rtl] .content {
+	text-align: right;
+}

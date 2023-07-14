@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key1" ns:keyEdgeFlags="left" ns:keyLabel="چ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key2" ns:keyLabel="ۋ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key3" ns:keyLabel="ې" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key4" ns:keyLabel="ر" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key5" ns:keyLabel="ت" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key6" ns:keyLabel="ي" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key7" ns:keyLabel="ۇ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key8" ns:keyLabel="ڭ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key9" ns:keyLabel="و" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key10" ns:keyEdgeFlags="right" ns:keyLabel="پ" ns:keyBackground="@drawable/btn_keyboard_key_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key11" ns:keyEdgeFlags="left" ns:keyLabel="ھ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key12" ns:keyLabel="س" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key13" ns:keyLabel="د" ns:altKeyLabel="د" ns:shiftedKeyLabel="ژ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key14" ns:keyLabel="ا" ns:altKeyLabel="ا" ns:shiftedKeyLabel="ف" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key15" ns:keyLabel="ە" ns:altKeyLabel="ە" ns:shiftedKeyLabel="گ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key16" ns:keyLabel="ى" ns:altKeyLabel="ى" ns:shiftedKeyLabel="خ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key17" ns:keyLabel="ق" ns:altKeyLabel="ق" ns:shiftedKeyLabel="ج" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key18" ns:keyLabel="ك" ns:altKeyLabel="ك" ns:shiftedKeyLabel="ۆ" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key19" ns:keyEdgeFlags="right" ns:keyLabel="ل" ns:keyBackground="@drawable/btn_keyboard_key_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle" ns:keyContentBaseline="@dimen/shift_key_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key20" ns:keyLabel="ز" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key21" ns:keyLabel="ش" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key22" ns:keyLabel="غ" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key23" ns:keyLabel="ۈ" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key24" ns:keyLabel="ب" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key25" ns:keyLabel="ن" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key26" ns:keyLabel="م" />
+        <Key ns:popupCharacters="@string/alternates_for_uyghur_key27" ns:keyLabel="ئ" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_uyghur" />
+</KeyboardEx>

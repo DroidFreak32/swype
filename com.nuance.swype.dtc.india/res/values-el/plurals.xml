@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">πριν από %d ημέρα</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Θα διαγραφούν %d λέξεις</item>
+        <item quantity="one">Θα διαγραφεί μία λέξη.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από %d ώρα</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από %d λεπτό</item>
+    </plurals>
+</resources>

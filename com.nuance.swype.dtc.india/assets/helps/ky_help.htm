@@ -1,0 +1,342 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Сүйлө</a></div>
+				<div><a href="#write">Жаз</a></div>
+				<div class="last"><a href="#tap">Териңиз</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype менен сиз төрт түрдүү киргизүү абалдын – Swype, Сүйлө, Жаз же Тапта – биринен бирине байкатпастан которуштура аласыз.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype – текст жазуунун бат жолу. Ал сизге тамгаларды аралап тартуу менен сөз жазууга мүмкүнчүлүк берет. Сөздүн биринчи тамгасына манжаңызды коюп, тамгадан тамгага жол сызып, акыркы тамгадан кийин көтөрүңүз. Swype керек жерлерге орун калтырат.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Дагы үйрөнмөй <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype Баскычы
+									<div id="ul_1a" class="open">
+										<p>Swype баскычы – үстүндө Swype логотиби бар баскыч. Swype Баптоосуна баруу үчүн Swype баскычын басып туруңуз.</p>
+										<p>Swype баскычы Swype жаңдоолорунун көбүн ишке киргизүү үчүн да колдонулат.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Клавиатураны Алдын ала көрүү
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype Жаңдоолор
+									<div id="ul_1b" class="closed">
+										<p>Swype Жаңдоолору – жалпы тапшырмаларды бат аткарууга клавиатурадагы тик жолдор. Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+										<ul>
+											<li><span class="gestures">Түзөтүү клавиатурасына баруу</span> Түзөтүү клавиатурасына барыш үчүн клавиатурадагы <img src="img_swypekey.png" /> дегенден Символдор баскычына (?123) карай Swype&#45;таңыз.</li>
+											<li><span class="gestures">Сан клавиатурасына баруу</span> Сан клавиатурасына бат барыш үчүн <img src="img_swypekey.png" /> дегенден 5 санына Swype&#45;таңыз.</li>
+											<li><span class="gestures">Клавиатураны катуу</span> Клавиатураны оңой катыш үчүн болгону Swype баскычынан Артка боштук баскычына карай Swype&#45;таңыз.</li>
+
+											<li><span class="gestures">Автоматтык түрдө орун калтырууну өчүрүү</span> Боштук баскычынан Артка боштук баскычына карай Swype&#45;тоо менен автоматтык түрдө орун калтырууну токтотуңуз.</li>
+
+
+											<li><span class="gestures">Сөздүн чоң же кичине тамгадан жазылышын өзгөртүү</span> Сөздү таптап киргизгенден кийин <img src="img_swypekey.png" /> дегенден <img src="img_shiftkey.png" /> Котор баскычына Swype&#45;тоо менен сөздүн чоң же кичине тамгадан жазылышын өзгөртүңүз. Баш тамгалар менен жазуу тандоосу менен Сөз Тандоо Тизмеси экранга чыгып, сизге кичине тамга, Баш тамга, же БААРЫ БАШ ТАМГА тандап алууга мүмкүнчүлүк түзөт.</li>
+
+											<li><span class="gestures">Тыныш белгилери</span> Тыныш белгилерин жазуунун оңой жолу – суроо белгиси, үтүр, чекит, же башка тыныш белгисин таптабай, алардан Боштук баскычын көздөй Swype&#45;таңыз.</li>
+
+											<li><span class="gestures">Колдонмо тик жолдору</span>Google Maps: <img src="img_swypekey.png" /> дегенден &#39;g&#39; көздөй, андан ‘m’ көздөй Swype</li>
+											<li><span class="gestures">Издөө</span>Бир аз текст бөлүп алып, желеден бат издеп чыгыш үчүн <img src="img_swypekey.png" /> дегенден S&#45;ке чейин Swype&#45;таңыз.</li>
+											<li><span class="gestures">Акыркы колдонулган тилге которуу.</span>Көп тилдерди колдонууда мурунку тилге кайтуунун бат жолу – <img src="img_swypekey.png" /> дегенден Боштук баскычын көздөй Swype&#45;таңыз.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Кош тамгаларды жазуу
+									<div id="ul_1n" class="closed">
+										<p>Кош тамгаларды жазууда кылдатыраак болуш үчүн, ары&#45;бери жазып кете бериңиз же тамганын үстүнөн илмек жасаңыз. Мисалы, &quot;чыккан&quot; дегенде &quot;кк&quot; тамгаларын алыш үчүн &quot;к&quot; баскычын ары&#45;бери жазыңыз. Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Сөз тандоо
+									<div id="ul_1d" class="closed">
+										<p>Сөз Тандоо Тизмесиндеги сунушталган негизги сөздү кабыл алыш үчүн Swype&#45;тай бериңиз. Же болбосо, манжаңызды тартуу менен тизмени аралай түрүп, каалаган сөзүңүздү тандаңыз. Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+										<p>Тизме жазууларын угууга, тизмеден текст тандоо үчүн манжаңызды тегерек кыймылга салып, жылдырыңыз. Жебе боюнча жылуулар тизмектен башына алып барат; жебеге каршы жылуулар тизмектин астына алып барат. Манжаны алып салуу акыркы айтылган тизмектин жазуусун чыгарат. Сөз Ылгоо тизмегинен сөздү ылгоо үчүн, манжаңызды ариптактадан нары, тизмектеги биринчи сөз угулмайынча жылдырыңыз да, жана тегерете кыймылды баштаңыз.	Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда гана иштейт.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Сөздөрдү баш тамгадан жазуу
+									<div id="ul_1e" class="closed">
+										<p>Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+										<p>Манжаңызды биринчи тамгадан баштап клавиатуранын үстүнөн Swype&#45;тоо менен баш тамгадан жазыңыз да, көтөрбөй туруп, манжаңызды кайра артка сөздүн кийинки тамгасына тартыңыз.</p>
+										<p>Сөздү таптап киргизгенден кийин <img src="img_swypekey.png" /> дегенден <img src="img_shiftkey.png" /> Котор баскычына Swype&#45;тоо менен сөздүн чоң же кичине тамгадан жазылышын өзгөртүңүз. Баш тамгалар менен жазуу тандоосу менен Сөз Тандоо Тизмеси экранга чыгып, сизге кичине тамга, Баш тамга, же БААРЫ БАШ ТАМГА тандап алууга мүмкүнчүлүк түзөт.</p>
+										<p>Чоң Тамганы бөгөө абалын киргизүү үчүн болгону Котор баскычын эки жолу таптаңыз <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Автоматтык түрдө орун калтыруу
+									<div id="ul_1f" class="closed">
+										<p>Сиз сүйлөмгө кийинки сөздү Swype&#45;таганда Swype сөздөрдүн ортосуна автоматтык түрдө орун калтырат. Swype Баптоодон автоматтык түрдө орун калтыруу өзгөчөлүгүн күйгүзүп же өчүрүп койсоңуз болот.</p>
+										<p>Автоматтык түрдө орун калтыруу Боштук баскычынан Артка боштук баскычына Swype&#45;тоо менен бир сөз үчүн өчүрүлүп турат.</p>
+										<p>Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Сөздү алмаштыруу
+									<div id="ul_1g" class="closed">
+										<p>Сөздү таптоо менен аны алмаштырыңыз да, Сөз Тандоо Тизмесинен каалаган сөзүңүздү тандаңыз же жөн гана сөздү бөлүп алып, жаңы сөз Swype&#45;таңыз. Туура эмес сөздүн ордуна жаңы сөз келет.</p>
+										<p>Сөздү бөлүп алыш үчүн аны таптап, <img src="img_swypekey.png" /> басуу же сөздү эки жолу тапташ керек.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Бир тамгадан экинчисине секирүү
+									<div id="ul_1h" class="closed">
+										<p>Кээде Swype&#45;тап жатканда тамгаларды таштап кетүү сиз биринчи жолу жазгыңыз келип жаткан сөздү алууга өбөлгө түзөт.</p>
+										<p>Мисалы, &quot;артына&quot; жана &quot;аптына&quot; бирдей ыкма менен чийилиши мүмкүн – бирок байкасаңыз, сизге бир тамгадан экинчисине түз сызык менен жылууга туура келбейт. Манжаңызды &quot;т&quot; тамгасын көздөй Swype&#45;тап жатканда &quot;п&quot; дегенди таштап кетүү Сөз Тандоо Тизмесинде &quot;артыга&quot; деген сөз биринчи болушуна өбөлгө түзөт.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Башка тамгалар
+									<div id="ul_1i" class="closed">
+
+										<p>Ошол баскыч үчүн басым коюлуучу ө жана ң сыяктуу тамгалар, @ жана %, жана сандар сыяктуу башка тамгалардын тизмесин алып чыгуу үчүн баскычты басып туруңуз.</p>
+
+										<p>Символдор клавиатурасына алынуучу Символдор баскычын (?123) таптаңыз.</p>
+										<p>Тамгалардын БААРЫН башкы клавиатурадан (аларды сиз көргөн&#45;көрбөгөнүңүзгө карабай) Swype&#45;таса болот экенин эске алыңыз. Клавиатуранын бул көрүнүшүндө сиз Swype&#45;тай аласыз, бирок сиз кеминде бир сан же символу бар сөздөрдү гана аласыз.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Сөздөрдү кошуу жана өчүрүү
+									<div id="ul_1j" class="closed">
+										<p>Swype сиз колдонгон жаңы сөздөрдүн баарын Жеке Сөздүгүңүзгө акыл&#45;эс менен кошот.</p>
+										<p>Сиз ошондой эле сөздү бөлүп алып, <img src="img_swypekey.png" /> таптоо менен сөз кошсоңуз да болот. Сөздү кошууну сураган билдирүүнү таптаңыз.</p>
+										<p>Сөздү өчүрүш үчүн, сөздү Сөз Тандоо Тизмесинде басып туруңуз да, ырастоо диалогундагы ОК дегенди таптаңыз. Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Жекечелештирүү
+									<div id="ul_1k" class="closed">
+										<p>Swype Twitter жана Gmail&#45;ден сиздин сөздүгүңүзгө сөздөрдү бат кошо алат. Swype&#45;ты жекечелештирүү үчүн:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> басып туруңуз</li>
+											<li>Swype Орнотуулар менюсунан, Сөздөрүм &gt; Жекелештирүү тандаңыз.</li>
+											<li>Жекечелештирүү тандоолорунан тандап, суроо чыкса уруксат маалыматыңызды жазыңыз.</li>
+											<li>Сиз Swype&#45;ты биздин булактарыбыздын биринен жекечелештире аласыз.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Сүйлө</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Facebook жана Twitter жаңыртууларына текст жана имейл билдирүүлөрүнөн баары үчүн текст мазмунун киргизиш үчүн сүйлөсөңүз болот.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Дагы үйрөнмөй <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Тыныш белгилери
+									<div id="ul_2a" class="open">
+										<p>Тыныш белгилерин колго кошуунун кереги жок. Болгону өзүңүз каалаган тыныш белгисин айтып коюп, улантыңыз. Буларды жасап көрүңүз:</p>
+										<ol>
+											<li>Үн баскычын басып, сүйлөй баштаңыз.</li>
+											<li>Сиз эмне дейсиз: <i>Тамак даамдуу болуптур илеп белги</i></li>
+											<li>Сиз эмне аласыз: <i>Тамак даамдуу болуптур!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Үн киргизүү айрым клавиатураларда жок</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Жаз</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Манжаңыз менен тамгаларды жана сөздөрдү чийсеңиз болот, аны Swype текстке айландырат. Тамгаларды солдон&#45;оңго же биринин үстүнө бирин тартсаңыз болот. Тамга жана символ режимдеринин биринен бирине которуу үчүн ABC / 123 басыңыз.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Дагы үйрөнмөй <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Кол жазманы жандандыруу
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> басып туруп, манжаңызды кол жазма белгисине тартыңыз.</li>
+											<li>Тамгаларды манжаңыз менен кол жазма аймагына тартып келиңиз.</li>
+
+											<li>Ар бир сөздүн ортосуна боштук тилкесин таптаңыз</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Мулти&#45;тач Жаңдоо
+									<div id="ul_3b" class="closed">
+										<p>Мулти&#45;тач жаңдоо сизге сөздөрдү же тамгаларды чоң кылып жазуу сыяктуу жөнөкөй тапшырмаларды аткарууга жардам берет.</p>
+										<ol>
+											<li>Айрым кичине тамгаларды сүрөт тартуу тактасында тартуу</li>
+											<li>Тамгаларды терген соң, эки манжаңызды жазуу аймагына өйдө тартыңыз</li>
+											<li>Кол жазма өзгөчөлүгү мулти&#45;тач жаңдоону таанып, тамгаларды чоң тамга менен жазат</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Кол жазма айрым клавиатураларда жок.</i></p>
+									<p><i>Бул функция системдин жеткиликтүүлүк кызматы Explore&#45;by&#45;Touch күйүп турганда иштебейт.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Териңиз</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Колго клавиатурадан киргизүүнүн салттуу формасы. Swype клавиатурасындагы таптап киргизүү айрым пайдалуу өзгөчөлүктөрү менен мурдагыдан оңой жана үзүрлүү кылынды:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Дагы үйрөнмөй <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Кол учунан Терүүнү Оңдоо
+									<div id="ul_4a" class="open">
+										<p>Ар бир тамганы туура тапташыңыз керек эмес. Жазышыңызча жазыңыз, а Swype болсо акыл менен сөздөрдү сунуш кылат.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Сөздүн Аякташы
+									<div id="ul_4b" class="closed">
+										<p>Сиз бир нече тамга жазганда эле Swype сиз каалаган сөздү таба алат.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Тилдер</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Тилдерди клавиатурадан алмаштыруу үчүн: Боштук тилкесин басып туруңуз. Калкып чыкма менүдөн каалаган тилиңизди тандаңыз.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect жаңыртуулар менен кубаттуу фунцияларды дароо сиздин түзмөгүңүзгө жеткирүүгө мүмкүнчүлүк берет! Swype Connect 3G аркылуу иштейт, биз ар дайым Wi&#45;Fi туташуу табышыңызды сунуш кылабыз.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Дагы үйрөнмөй <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Тил жүктөмөлөрү
+									<div id="ul_6a" class="open">
+										<p>Swype&#45;ка кошумча тилдерди кошкон оңой:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> басып туруңуз да, Тилдерди тандаңыз.</li>
+											<li>Тилдер менүсүнөн Тилдерди жүктөө дегенди дандаңыз.</li>
+											<li>Тилди бассаңыз, ал автоматтык түрдө жүктөлө баштайт.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect бардык клавиатураларда эле жеткиликтүү боло бербейт.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Дагы жардам</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype&#45;ты колдонуу боюнча дагы жардам алуу үчүн Swype Колдонуучунун Куралын жана Swype Кеңештерин жана Видеолорун <a href="http://www.swype.com">www.swype.com</a> сайтынан көрүңүз, же <a href="http://forum.swype.com">forum.swype.com</a> дарегинен Swype Форумун текшериңиз.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

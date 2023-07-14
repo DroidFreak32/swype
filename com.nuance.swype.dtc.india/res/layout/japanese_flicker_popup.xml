@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nuance.swype.widget.PreviewView android:textColor="@color/color_popup_text" android:id="@id/flicker_two" android:background="?keyboardPopupBackground" android:layout_width="@dimen/key_height_5row" android:layout_height="@dimen/key_height_5row" android:layout_marginLeft="@dimen/key_height_5row" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nuance.swype.widget.PreviewView android:textColor="@color/color_popup_text" android:id="@id/flicker_one" android:background="?keyboardPopupBackground" android:layout_width="@dimen/key_height_5row" android:layout_height="@dimen/key_height_5row" />
+        <com.nuance.swype.widget.PreviewView android:textColor="@color/color_popup_text" android:id="@id/flicker_zero" android:background="?keyboardPopupBackground" android:layout_width="@dimen/key_height_5row" android:layout_height="@dimen/key_height_5row" />
+        <com.nuance.swype.widget.PreviewView android:textColor="@color/color_popup_text" android:id="@id/flicker_three" android:background="?keyboardPopupBackground" android:layout_width="@dimen/key_height_5row" android:layout_height="@dimen/key_height_5row" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nuance.swype.widget.PreviewView android:textColor="@color/color_popup_text" android:id="@id/flicker_four" android:background="?keyboardPopupBackground" android:layout_width="@dimen/key_height_5row" android:layout_height="@dimen/key_height_5row" android:layout_marginLeft="@dimen/key_height_5row" />
+    </LinearLayout>
+</LinearLayout>

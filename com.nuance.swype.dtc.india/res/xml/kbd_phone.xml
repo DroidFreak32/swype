@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_4_key_width" ns:invalidDockModes="split" ns:showPopup="false" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:keyLabel="2" ns:altKeyLabel="ABC" ns:shiftedKeyLabel="/" ns:shiftTransition="drop_hide" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:keyLabel="3" ns:altKeyLabel="DEF" ns:shiftedKeyLabel=")" ns:shiftTransition="drop_hide" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="-" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="4" ns:altKeyLabel="GHI" ns:shiftedKeyLabel="N" ns:shiftTransition="drop_hide" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:shiftCode="@integer/keycode_phone_pause" ns:keyLabel="5" ns:altKeyLabel="JKL" ns:shiftedKeyLabel="@string/label_pause" ns:shiftTransition="drop_hide" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:keyLabel="6" ns:altKeyLabel="MNO" ns:shiftedKeyLabel="," ns:shiftTransition="drop_hide" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:keyEdgeFlags="right" ns:keyLabel="." ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyEdgeFlags="left" ns:keyLabel="7" ns:altKeyLabel="PQRS" ns:shiftedKeyLabel="*" ns:shiftTransition="drop_hide" />
+        <Key ns:shiftCode="@integer/keycode_phone_wait" ns:keyLabel="8" ns:altKeyLabel="TUV" ns:shiftedKeyLabel="@string/label_wait" ns:shiftTransition="drop_hide" />
+        <Key ns:keyLabel="9" ns:altKeyLabel="WXYZ" ns:shiftedKeyLabel="\#" ns:shiftTransition="drop_hide" />
+        <Key ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom" ns:rowBackground="?bottomRowBackground">
+        <Key ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_shift" ns:shiftCode="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isSticky="true" ns:keyLabel="@string/label_phone_symbol_key" ns:shiftedKeyLabel="@string/label_phone_key" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyLabel="0" ns:shiftedKeyLabel="+" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:codes="@integer/keycode_space" ns:keyIcon="?symKeyboardSpaceKey" ns:keyIconRecolor="?iconRecolorSpaceKey" ns:keyContentBaseline="?keyContentBaseline" />
+        <Key ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="@drawable/sym_keyboard_return_feedback" ns:keyIcon="@drawable/sym_keyboard_return" ns:keyIconRecolor="?iconRecolorReturn" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+</KeyboardEx>

@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">वदतु</a></div>
+				<div><a href="#write">लिखतु</a></div>
+				<div class="last"><a href="#tap">टङ्कयतु</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype इत्यनेन भवान् परस्परसंयोगहीनतयापि Swype, कथनं, लेखनं, अथवा ईषदाघातं इत्ये चतुर्षु निवेश्यप्रकारेषु परिवर्तयितुं शक्नोति।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype इति पाठ्यशब्द&#45;निवेशनस्य त्वरित&#45;पद्धतिः। एतत्, अक्षरेषु अग्कनेन भवन्तं शब्दं निवेशयितुम् अनुमोदयति। शब्दस्य प्रथमाक्षरे अङुलीं स्थापयित्वा, ततः अक्षरात् अक्षरं प्रति मार्गं अङ्कयित्वा, ततश्च अन्तिमाक्षरं गत्वा अङ्गुलीम् उत्थापयतु। आवश्यकस्थले Swype रिक्तस्थानं अनुप्रवेशयिष्यति।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							तोऽप्यधिकं जानतु <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype कुञ्जी
+									<div id="ul_1a" class="open">
+										<p>Swype प्रमाणकचिह्नयुक्ता कुञ्जी हि Swype कुञ्जी। Swype सेटिंग्स अभिगन्तुं Swype कुञ्जीं नोदयित्वा धारयतु।</p>
+										<p>बहूनां Swype इङ्गितानि आरम्भं सूचयितुमपि Swype कुञ्जी प्रयुज्यते।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    कुञ्जीपटल&#45;पूर्वावलोकनम्
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype इङ्गितानि
+									<div id="ul_1b" class="closed">
+										<p>Swype इङ्गितानि वस्तुतः साधारण&#45;कार्याणि शीघ्रं सम्पादनार्थं कुञ्जीपटलस्योपरि लघूपायकीलानि। एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+										<ul>
+											<li><span class="gestures">सम्पादनं&#45;कुञ्जीपटलं प्रति गम्यते</span> कुञ्जीपटल&#45;सम्पादनं प्रति गन्तुं कुञ्जीपटले <img src="img_swypekey.png" /> कुञ्जीतः चिह्न&#45;कुञ्जीं (?123)प्रति स्वाइप करोतु।</li>
+											<li><span class="gestures">संख्याः कुञ्जीपटलं प्रति गम्यते</span> सांख्यिक&#45;कुञ्जीपटलं प्रति शीघ्रं गन्तुं <img src="img_swypekey.png" /> इत्यतः 5 संख्यां प्रति स्वाइप करोतु।</li>
+											<li><span class="gestures">कुञ्जीपटलः गोप्यते</span> कुञ्जीपटलं सरलतया गोपयितुम् अक्षरद्वयं प्रवेशयितुं Swype कुञ्जीतः वामोच्छेदनकुञ्जीं प्रति स्वाइप करोतु।</li>
+
+											<li><span class="gestures">स्वयंक्रियं रिक्तस्थानव्यवस्थापनं निष्क्रियं करोतु</span> रिक्तस्थानक&#45;कुञ्जीतः वामोच्छेदनकुञ्जीं यावत् स्वाइप कृत्वा स्वयंक्रियं रिक्तस्थानव्यवस्थापकम् अवदमयतु।</li>
+
+
+											<li><span class="gestures">यतिचिह्नम्</span> यतिचिह्नान् प्रवेशयितुं एकः साधारणोपायः हि, जिज्ञासासूचक&#45;चिह्नतः, अर्द्धविराम&#45;यतिचिह्नतः, पिरीयड तथा अन्यस्मात् यतिचिह्नात् रिक्तस्थानक&#45;कुञ्जीं प्रति स्वाइप&#45;करणम्, ईषदाघातम् विनैव।</li>
+
+											<li><span class="gestures">अनुप्रयोग&#45;लघुमार्गसंकेतः</span>Google Maps: </li>
+											<li><span class="gestures">अन्वेषयतु</span>शीघ्रम् अन्तर्जालान्वेषणाय कञ्चन पाठ्यं उल्लिखितं करोतु तथा <img src="img_swypekey.png" /> इत्यतः एस&#45;पर्यन्तं स्वाइप करोतु।</li>
+											<li><span class="gestures">अन्तिमं प्रयुक्तायां भाषायां परिवर्त्यते</span>एकाधिक&#45;भाषाणां प्रयोगसमये, पूर्वप्रयुक्तभाषायां प्रत्यावर्तयितुं एका त्वरितः उपायो हि <img src="img_swypekey.png" /> कुञ्जीतः रिक्तस्थानक&#45;कुञ्जीं प्रति स्वाइप करोतु।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									द्वैतशब्दाः निवेश्यन्ते
+									<div id="ul_1n" class="closed">
+										<p>द्वैतशब्द&#45;निवेशनकाले सटीकतां प्रवर्धयितुं स्वल्प&#45;कुरेखनं करोतु अथवा अक्षरस्य उपरि परिक्रमं निर्मातु। उदाहरणतः, &quot;उत्तर&quot; इत्यस्मिन् &quot;त्त्&quot; इति प्राप्तुं &quot;त्&quot; कुञ्ज्याः उपरि करेखनं करोतु। एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									एकस्य शब्दस्य चयनम्
+									<div id="ul_1d" class="closed">
+										<p>शब्दचयनसूच्यां प्रस्तावित&#45;मूलभूत&#45;शब्दं स्वीकर्तुं केवलं स्वाइप करोतु। अन्यथा, सूच्यां भवतः अङ्गुलीम् आकृष्ट्वा सारयतु तथा भवान् यं शब्दं वाञ्छति तं चिनोतु। एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+										<p>सूचीतः पाठ्य&#45;चयनार्थं सूची&#45;निविष्टानि श्रोतुं भवतः अङ्गुलीं वृत्ताकार&#45;दिशि भ्रामयतु। प्रतिघटीवत् चलनं सूच्याम् अग्रे सरति; विपरीतघटीवत् च चलनं सूच्यां पश्चात् सरति। अङ्गुल्युत्तोलनेन अन्तिमोक्तं सूचीनिवेशनम् प्रतिफलितं भवति। शब्द&#45;चयन&#45;सूच्यां एकं शब्दं चितुं भवतः अङ्गुलीं कुञ्जीपटलतः ऊर्ध्वम् आकर्षतु यावत् सूच्यां प्रथमः शब्दः न श्रूयते, ततश्च वृत्ताकार&#45;भ्रामणं प्रारम्भयतु।	एतत् वैशिष्ट्यं केवलं तदैव उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									स्वयंकृतं रिक्तस्थानप्रदानम्
+									<div id="ul_1f" class="closed">
+										<p>भवान् यदा वाक्यस्य द्वितीयं पाठ्यं स्वाइप करोति तदा Swype स्वतः शब्दानां मध्ये रिक्तस्थानं प्रवेशयति। भवान् Swype सेटिंग्स इत्यस्मिन् स्वतः&#45;रिक्तस्थानप्रदान&#45;वैशिष्ट्यं चालितं विचालितं वा कर्तुं शक्नोति।</p>
+										<p>रिक्तस्थानक&#45;कुञ्जीतः वामोच्छेदक&#45;कुञ्जीं स्वाइप कृत्वा एकस्य शब्दस्य कृते स्वयंकृत&#45;रिक्तस्थानप्रदानं निष्क्रियं कर्तुं शक्यते।</p>
+										<p>एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									प्रतिस्थापक &#45;शब्दः
+									<div id="ul_1g" class="closed">
+										<p>कस्यचित् शब्दस्य उपरि ईषदाघातम् कृत्वा तं शब्दं परिवर्तयतु, ततः भवान् यं शब्दं वाञ्छति तं शब्द&#45;चयन &#45;सूचीतः चिनोतु अथवा सरलतया तं शब्दम् उल्लिखतु तथा एकं नूतनं शब्दं स्वाइप करोतु। नूतनशब्दः अशुद्धं शब्दं पुनःस्थपयिष्यति।</p>
+										<p>शब्दे ईषदाघातं कृत्वा तथा <img src="img_swypekey.png" /> इत्यस्मिन् आघातं कृत्वा अथवा शब्दे द्विर्नोदयित्वा तं शब्दं विशेष&#45;चिह्नितं कर्तुं शक्यते।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									अक्षरयोः अभिहति
+									<div id="ul_1h" class="closed">
+										<p>कदाचित् प्रथमवारं यदा भवान् भवतः कांक्षितं शब्दं प्राप्नोति तदा कदाचित् केचित शब्दाः वर्ज्यन्ते।</p>
+										<p>उदाहरणार्थं, &quot;अटकलना&quot; एवं &quot;अटकना&quot; समानमार्गेण अंकितुम् शक्नोति &#45; परन्तु ध्यातव्यं, भवान् अक्षरेण अक्षरपर्यन्तम् ऋजुपंक्तिं न भ्रामयतु । &quot;न&quot; प्रति स्वाइप&#45;करण&#45;काले &quot;ल&quot; इत्यस्य परित्यागेन निश्चितः भवति यत् &quot;अटकना&quot; इति शब्द&#45;निर्वाचन&#45;सूच्यां प्रथम इति।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									पर्याय &#45;अक्षराः
+									<div id="ul_1i" class="closed">
+
+										<p>कस्याश्चित् कुञ्ज्याः कृते @ तथा % इत्यादिरूपाणां पर्यायचिह्नानां, तथा संख्यानां सूचीम् आनेतुं तां कुञ्जीं नोदयित्वा धारयतु।</p>
+
+										<p>चिह्न&#45;कुञ्जीपटले आनेये कुञ्जी&#45;पटले (?123) ईषदाघातं करोतु।</p>
+										<p>कृपया ध्यानं देयं यत्, सर्वे अक्षराः मूलकुञ्जीपटलतः स्वाइप&#45;करणयोग्याः (भवान् द्रष्टुं शक्नोति न वेति)। भवान् कुञ्जीपटलस्य एतत् दृश्यं प्रयोज्य स्वाइप कर्तुं शक्नोति, किन्तु भवान् तादृशं शब्दं प्राप्स्यति यस्मिन् न्यूनतया एका संख्या चिह्नं वा अस्ति।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									शब्दानां योजनं विलोपनं च
+									<div id="ul_1j" class="closed">
+										<p>भवान् यमपि शब्दं प्रयुञ्जति तमपि बुद्धिदीप्ततया Swype व्यक्तिगत&#45;अभिधाने योजयति।</p>
+										<p>भवान् विशेषेण चिह्नितं कृत्वा अथवा <img src="img_swypekey.png" /> इत्यत्र ईषदाघातं कृत्वा भवान् नूतनशब्दं यजयितुं शक्नोति। शब्दं योजयितुम् आविर्भूतं संसूचके ईषदाघातं करोतु।</p>
+										<p>कंचन शब्दं निष्कासयितुं, शब्द&#45;चयन&#45;सूच्यां तं शब्दं नोदयित्वा धारयतु, ततश्च दृढीकरण&#45;निर्देशे अस्तु इत्यस्मिन् ईषदाघातं करोतु। एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									स्वानुकूलीकरणम्
+									<div id="ul_1k" class="closed">
+										<p>Swype इति Twitter तथा Gmail&#45;तः झटिति शब्दान् भवतः अभिधाने योजयितुं शक्नोति। Swype इत्येनं स्वानुकूलं कर्तुम्   :</p>
+										<ol>
+											<li><img src="img_swypekey.png" />. नोदयतु तथा धारयतु।</li>
+											<li>Swype सेटिंग्स &#45;सूचिकायाः , मम शब्दाः &gt; स्वानुकूलीकरणं इति चिनोतु</li>
+											<li>स्वानुकूलीकरण&#45;विकल्पतः चिनोतु तथा जिज्ञासिते सति भवतः प्रत्ययकूटान् प्रयच्छत</li>
+											<li>भवान् एकस्मात् अथवा सर्वस्मात् स्रोतसः Swype इत्येनं स्वानुकूलं कर्तुं शक्नोति।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">वदतु</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>भवान् पाठ्यसनेदेशतः तथा ई मेल&#45;तःसन्देशेभ्यः आरभ्य Facebook Twitter नवीकरणं यावत् सर्वं सर्वस्य कृते पाठ्य&#45;शब्द&#45;सामग्रयाः निवेशयनाय वक्तुं शक्नोति</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							तोऽप्यधिकं जानतु <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									यतिचिह्नम्
+									<div id="ul_2a" class="open">
+										<p>यतिचिह्नानां स्वयं योजनेन प्रयोजनं नास्ति। भवान् यत् यतिचिह्नं वाञ्छति तत् कथयतु तथा अनुवर्ततु। एतेन प्रयततु:</p>
+										<ol>
+											<li>ध्वनि&#45;कुञ्जीं नोदयतु तथा वाचनम् आरम्भयतु।</li>
+											<li>भवान् यत् कथयति: <i>रात्रिभोजः स्वादिष्टः आसीत् विस्मयवोधकः विन्दुः।</i></li>
+											<li>भवान् यत् प्राप्नोति: <i>रात्रिभोजः स्वादिष्टः आसीत् !</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>केषुचित् कुञ्जीपटलेषु ध्वनि&#45;निवेश्यं नोपलब्धम्</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">लिखतु</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>भवान् अक्षरान् शब्दान् वा अङ्कयितुं भवतः अङ्गुलीं प्रयोक्तुं शक्नोति, Swype तं पाठ्ये परिवर्तयिष्यति। भवान् वामतः दक्षिणं प्रति अथवा एकमपरस्योपरि अक्षरान् आकर्ष्टुं शक्नोति। अक्षर&#45;चिह्न&#45;अवस्थयोः अन्तःपर्रिवर्तयितुं कखग / 123 चिनोतु।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							तोऽप्यधिकं जानतु <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									हस्त&#45;लेखं सक्रियं करोतु
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> कुञ्जीं नोदयतु तथा धारयतु, ततश्च हस्त&#45;लेख&#45;क्षेत्रं प्रति भवतः अङ्गुलीं कर्षतु।</li>
+											<li>हस्त&#45;लेख&#45;क्षेत्रे भवतः अङ्गुलीभिः अक्षरान् निर्मातु।</li>
+
+											<li>प्रत्येकं शब्दस्य अन्तः रिक्तस्थानक&#45;शलाकायां ईषदाघातं करोतु</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									बहु&#45;स्पर्शीयम् इङ्गितम्
+									<div id="ul_3b" class="closed">
+										<p>बहु&#45;स्पर्शीयम् इङ्गितम् इति भवन्तं साधारण&#45;कार्याणि सम्पादयितुम् अनुमोदयति, यथा शब्दानां वर्णानां वा ऊर्ध्वाक्षरीकरणम्।</p>
+										<ol>
+											<li>अग्कन&#45;पट्टे कांश्चन अध्र्राक्षरान् अंकयतु</li>
+											<li>अक्षराणां निवेशनान्तरं, लेखनक्षेत्रे अङ्गुलीद्वयं उपरि कर्षतु</li>
+											<li>हस्त&#45;लेख&#45;वैशिष्ट्यं बहु&#45;स्पर्शीय&#45;इङ्गितानि अभिञ्जास्यति तथा अक्षरान् ऊर्ध्वाक्षरीकरिष्यति</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>केषुचित् कुञ्जीपटलेषु हस्त&#45;लेखनं नोपलब्धम्।</i></p>
+									<p><i>एतत् वैशिष्ट्यं तदा न उपलब्धं भवति यदा संविधायाः अभिगम्यता&#45;परिषेवा Explore by&#45;Touch इति सक्रियं भवति।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">टङ्कयतु</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>स्वयंचालित &#45;कुञ्जीपटल&#45;निवेशनस्य &#45;पारम्परिकरूपम्। Swype कुञ्जीपटले निवेश्ये ईषदाघातः कैश्चित् वैशिष्टैः सरलीकृतः तथा इतोऽप्यधिक&#45;सक्षमः कृतः :</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							तोऽप्यधिकं जानतु <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									अयत्नपत्वरित&#45;टंकण संशोधनम्
+									<div id="ul_4a" class="open">
+										<p>भवान् प्रत्येकशब्दः ईषदाघातमावश्यकं नास्ति। भवतः यथासाध्यं प्रयत्नं करोतु, Swype बुद्धिदीप्ततया शब्दोपदेशं प्रदाष्यति।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									शब्द&#45;समाप्तिः
+									<div id="ul_4b" class="closed">
+										<p>कतिपयेषु अक्षरेषु ईषदाघातमनन्तरं Swype इति भवतः शब्दम् अनुमातुं शक्नोति।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">भाषाः</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>कुञ्जीपटलतः भाषां परिवर्तयितुम्   : रिक्तस्थानक&#45;शलाकां नोदयित्वा धारयतु। पॉपअप सूचिकायाः भवतः कांक्षितां भाषां चिनोतु।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect भवन्तं नवीकरणम् तथा साक्षात् भवतः साधने सशक्तां कार्यकारिताम् उपथापयितुं अनुमोदयति! यद्यपि Swype Connect सर्वदा 3जी इत्यस्मिन् चलिष्यति, तथापि वयम् एकस्य वाई&#45;फाई&#45;संयोगस्य अनुसन्धानार्थं अनुशास्यामः।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							तोऽप्यधिकं जानतु <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									भाषाभिः अवतारितानि
+									<div id="ul_6a" class="open">
+										<p>Swype इत्यस्मिन् नूतनभाषायाः योजनं सरलम्  :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> कुञ्जीं नोदयोत्व धारयतु तथा भाषाः चिनोतु।</li>
+											<li>भाषा&#45;सूचीकायाः, भाषा&#45;अवतारणं चिनोतु।</li>
+											<li>भवतः भाषां चिनोतु तथा अवतारणं स्वतः आरब्धं भविष्यति।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>सर्वेषु कुञ्जीपटलेषु Swype Connect नोपलब्धम्।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">इतोऽप्यधिका सहायता</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype इत्यस्य प्रयोगविषये अधिकसहायतार्थं <a href="http://www.swype.com">www.swype.com</a> इत्यत्र Swype उपयोक्ता&#45;प्रयोगपुस्तिका तथा Swype परामर्शः तथा Swype दृश्यलेखं पश्यतु अथवा <a href="http://forum.swype.com">forum.swype.com</a> इत्यत्र Swype वाक्पीठं पश्यतु।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

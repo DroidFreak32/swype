@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">নুমিৎ %d গী ম</item>
+        <item quantity="one">নুমিৎ %d গী মমাংদা</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">ৱাহৈ %d ককখ্রনি</item>
+        <item quantity="one">ৱাহৈ অমা ককখ্রনি।</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">পুং %d মমাংদা</item>
+        <item quantity="one">পুং %d গী মমাংদা</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">মিনিত %d গী মমাংদা</item>
+        <item quantity="one">মিনিত %d গী মমাংদা</item>
+    </plurals>
+</resources>

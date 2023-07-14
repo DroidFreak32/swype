@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_11_key_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="?keyCharacterSize5row" ns:altTextSize="11.0dip" ns:canSwypePopupCharacters="false" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ā" ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_č" ns:keyLabel="2" ns:shiftedKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ē" ns:keyLabel="3" ns:shiftedKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ģ" ns:keyLabel="4" ns:shiftedKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ī" ns:keyLabel="5" ns:shiftedKeyLabel="5" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ķ" ns:keyLabel="6" ns:shiftedKeyLabel="6" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ļ" ns:keyLabel="7" ns:shiftedKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ņ" ns:keyLabel="8" ns:shiftedKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_š" ns:keyLabel="9" ns:shiftedKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ū" ns:keyLabel="0" ns:shiftedKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_ž" ns:keyEdgeFlags="right" ns:keyLabel="\@" ns:shiftedKeyLabel="\@" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_latvian_q" ns:keyLabel="£" ns:shiftedKeyLabel="¦" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_w" ns:keyLabel="\#" ns:shiftedKeyLabel="¤" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_e" ns:keyLabel="€" ns:shiftedKeyLabel="½" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_r" ns:keyLabel="~" ns:shiftedKeyLabel="…" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_t" ns:keyLabel="_" ns:shiftedKeyLabel="—" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_y" ns:keyLabel="%" ns:shiftedKeyLabel="‰" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_u" ns:keyLabel="[" ns:shiftedKeyLabel="©" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_i" ns:keyLabel="]" ns:shiftedKeyLabel="®" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_o" ns:keyLabel="(" ns:shiftedKeyLabel="™" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_p" ns:keyEdgeFlags="right" ns:keyLabel=")" ns:shiftedKeyLabel="¶" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_latvian_a" ns:keyEdgeFlags="left" ns:keyLabel="&amp;" ns:shiftedKeyLabel="¥" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_s" ns:keyLabel="$" ns:shiftedKeyLabel="¢" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_d" ns:keyLabel="†" ns:shiftedKeyLabel="‡" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_f" ns:keyLabel=";" ns:shiftedKeyLabel="{" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_g" ns:keyLabel=":" ns:shiftedKeyLabel="}" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_h" ns:keyLabel="«" ns:shiftedKeyLabel="&lt;" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_j" ns:keyLabel="»" ns:shiftedKeyLabel=">" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_k" ns:keyLabel="„" ns:shiftedKeyLabel="•" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_l" ns:keyEdgeFlags="right" ns:keyLabel="“" ns:shiftedKeyLabel="°" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <Row ns:rowBackground="?fourthRowBackground">
+        <Key ns:keyWidth="@fraction/delete_7_11_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_sym_toggle_feedback" ns:keyIcon="@drawable/sym_keyboard_sym_toggle" ns:keyIconRecolor="?iconRecolorSymbolsToggle" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_z" ns:keyLabel="!" ns:shiftedKeyLabel="|" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_x" ns:keyLabel="+" ns:shiftedKeyLabel="×" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_c" ns:keyLabel="=" ns:shiftedKeyLabel="¬" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_v" ns:keyLabel="*" ns:shiftedKeyLabel="^" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_b" ns:keyLabel="/" ns:shiftedKeyLabel="÷" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_n" ns:keyLabel="\\" ns:shiftedKeyLabel="`" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_latvian_m" ns:keyLabel="\?" ns:shiftedKeyLabel="§" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:keyWidth="@fraction/delete_7_11_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row_sym" />
+</KeyboardEx>

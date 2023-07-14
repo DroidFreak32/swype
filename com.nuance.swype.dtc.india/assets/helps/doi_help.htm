@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">बोलो</a></div>
+				<div><a href="#write">लिखो</a></div>
+				<div class="last"><a href="#tap">टाईप</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype कन्नै, तुस इक्कै बेल्लै Swype,बोलने, लिखने जां थपथपाने जनेह् चार बक्ख&#45;बक्ख खाकें च जाई सकदे ओ।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>मज़मून लिखने लेई Swype सब्भनें शा तेज़ सरिस्ता ऐ। एदे कन्नै तुस अक्खरें गी चुनियै शब्द दर्ज करी सकदे ओ। अपनी उंगली पैह्ले अक्खर दे पैह्ले शब्द पर रक्खियै खीरी शब्द तोड़ी चुनो। जित्थै जरूरत होग Swype शिंडा छोड़ी देग।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							होर सिक्खो <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype बटन
+									<div id="ul_1a" class="open">
+										<p>Swype बटन पर Swype दा निशान बने दा ऐ। Swype सैटिंग्ज़ च जाने लेई Swype बटन गी किश चिर दबाइयै रक्खो।</p>
+										<p>Swype बटन दा इस्तेमाल Swype दे बक्ख&#45;बक्ख विकल्पें गी शुरू करने लेई बी कीत्ता जंदा ऐ।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    की&#45;बोर्ड दा प्री&#45;व्यू
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype जेस्चरज़
+									<div id="ul_1b" class="closed">
+										<p>Swype जेस्चरज़ की&#45;बोर्ड पर शार्टकट हैन, जिंदे राएं अस कुसै बी आम कम्मै गी तौले अंजाम देई सकने आं। एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+										<ul>
+											<li><span class="gestures">एडिट की&#45;बोर्ड च जाने लेई</span> एडिट की&#45;बोर्ड च जाने लेई, की&#45;बोर्ड उप्पर, <img src="img_swypekey.png" /> थमां निशानें आले बटन (?123) तोड़ी स्वाईप करो।</li>
+											<li><span class="gestures">नम्बर आले की&#45;बोर्ड पर जाने लेई</span> फौरन नम्बरें आले की&#45;बोर्ड पर जाने लेई, <img src="img_swypekey.png" /> थमां नम्बर 5 तोड़ी स्वाईप करो।</li>
+											<li><span class="gestures">की&#45;बोर्ड गी छपालने लेई</span> सौक्खे ढंगै कन्नै की&#45;बोर्ड छपाने लेई, Swype बटन थमां बैकस्पेस आले बटन तोड़ी स्वाईप करो।</li>
+
+											<li><span class="gestures">अपने आप शिंडा छोड़ने आली स्हूलत गी बंद करो</span> अगले अक्खर शा पैह्ले अपने&#45;आप शिंडा छोड़ने आली स्हूलत गी, शिंडा छोड़ने आले बटन, स्पेस की थमां बैकस्पेस बटन तोड़ी स्वाईप करदे होई, बंद करो।</li>
+
+
+											<li><span class="gestures">विराम चिन्ह</span> विराम चिन्ह च असानी कन्नै दाखल होने लेई थपथपाने दे बजाय सोआलिया निशान, कौमा, पीरियड, जां फ्ही होर विराम चिन्ह थमां शिंडा बदाने आले बटन, स्पेस की तोड़ी स्वाईप करो।</li>
+
+											<li><span class="gestures">एप्लीकेशन दे शार्टकट</span>Google Maps: </li>
+											<li><span class="gestures">ढूंढो</span>वैब च तौले ढूंढने लेई किश अक्खरें गी हाईलाईट करियै <img src="img_swypekey.png" /> थमां एस अक्खर तक्कर स्वाईप करो।</li>
+											<li><span class="gestures">खीरी बारी बरती गेदी भाषा चुनने लेई</span>बक्ख&#45;बक्खा भाषां बरतदे होई, पैह्ले इस्तेमाल कीत्ती गेदी भाषा तोड़ी जाने दा तेज तरीका <img src="img_swypekey.png" /> गी स्पेस आले बटन तोड़ी स्वाईप करो।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									दौह्रे शब्द लिखने लेई
+									<div id="ul_1n" class="closed">
+										<p>दौह्रे अक्खरें गी लिखदे होई शुद्धता दी बेह्तरी लेई हौले जनेह् अक्खर गी स्क्रिबल करो जां अक्खर पर लूप यानि कुंडली बनाओ। मिसाल दे तौर पर &quot;उत्तर&quot; च &quot;त्त&quot; पाने लेई &quot;त्&quot; बटन पर स्क्रिबल करो। एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									इक अक्खर किआं चुनो
+									<div id="ul_1d" class="closed">
+										<p>सुझाए गेदे निर्धारित अक्खर गी चुनने लेई शब्दें दी चैन आली सूची च स्वाईप करदे जाओ। नेईं तां, अपनी उंगली कन्नै सूची थमां चुनदे होई अपना मनपसंद अक्खर चुनो। एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+										<p>इक सूची थमां मज़मून चुनने लेई, अपनी उंगली गी स्क्रीन पर गोल&#45;गोल घुमांदे होई सूची च दर्ज एंट्रियें गी सुनो। सूची च अग्गै बदने लेई घड़ी दे मताबक दिशा च उंगली घुमाओ, ते सूची थमां बाह्र औने लेई घड़ी दे उलट दिशा च उंगली घुमाओ। उंगली चुक्कने दा नतीजा, सूची मताबक बोली गेदी खीरी एंट्री होग। अक्खर चुनने आली सूची थमां अक्खर चुनने लेई, अपनी उंगली गी की&#45;बोर्ड पर उप्परली बक्खी स्लाईड करो जिस्सलै तोड़ी तुसेंगी सूची च दर्ज पैह्ली अक्खर नेईं सनोचदा, मगरा उंगली गी गोल&#45;गोल घुमाना शुरू करो।	एह् लक्षण सिर्फ उस्सलै उपलब्ध होग जिस्स्लै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									अपनेआप शिंडा छोड़ना
+									<div id="ul_1f" class="closed">
+										<p>जिस्सलै तुस इक वाक्य च अगला अक्खर स्वाईप करगै तां Swype अपने आप दऊं अक्खरें बष्कार शिंडा छोड़ी देग। तुस Swype सैटिंग्ज़ च जाइयै आटो&#45;स्पेसिंग यानि अपने आप शिंडा छोड़ने आले लक्षण गी आन जां आफ करी सकदे ओ।</p>
+										<p>कुसै इक शब्द लेई अपने आप शिंडा छोड़ने आले लक्षण गी स्पेस बटन थमां बैकस्पेस बटन तोड़ी स्वाईप करियै आफ करी सकदे ओ।</p>
+										<p>एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									कुसै शब्द गी बदलना
+									<div id="ul_1g" class="closed">
+										<p>इक शब्द उप्पर थपथपाइयै उस्सी बदलो, फ्ही शब्द चुनने आली सूची थमां अपनी पसंद दा शब्द चुनो, जां शब्द गी हाईलाईट करियै ओदी थाह्र पर नमां शब्द स्वाईप करो। नमां शब्द गलत शब्द गी बदली देग।</p>
+										<p>इक शब्द गी थपथपाइयै <img src="img_swypekey.png" /> गी दबाइयै जां फ्ही दौ बारी शब्द गी थपथपाइयै हाईलाईट कीत्ता जाई सकदा ऐ।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									इक अक्खर थमां दुए अक्खर पर जाना
+									<div id="ul_1h" class="closed">
+										<p>स्वाइपिंग राएं मनपसंद अक्खर दे थ्होने दे यकीनी बनाए जाने पर केईं बारी अक्खरें गी अनदिक्खा करना।</p>
+										<p>मिसाल दे तौरे पर, &quot;अटकलना&quot; ते &quot;अटकना&quot; इक्कै बारी बनाया जाई सकदा ऐ पर ध्यान रवै जे तुसेंगी इक्क अक्खर थमां दुए अक्खर तोड़ी सिद्दे चलने दी ज़रुरत नेई ऐ। जिस्सलै अपनी उंगली कन्नै &quot;न&quot; पर स्वाईप करदे होई एह् पक्का होई जा जे &quot;अटकना&quot; शब्द चुनने आली सूची च पैह्ला शब्द ऐ तां &quot;ক&quot; दी अनदिक्खी करना।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									वैकल्पिक शब्द
+									<div id="ul_1i" class="closed">
+
+										<p>कुसै बटन दे वैकल्पिक कैरेक्टरें, जियां कि निशान लेई @ ते % ते नबंर जनेह् एक्सेंटेड लैटरज़ दी सूची आन्नने लेई उस बटन गी किश चिर तोड़ी दबाई रक्खो।</p>
+
+										<p>सिम्बलज़ आले की&#45;बोर्ड पर जाने लेई सिम्बलज़ आले बटन (?123) गी थपथपाओ।</p>
+										<p>ध्यानजोग ऐ जे मुक्ख की&#45;बोर्ड परां हर इक अक्खर (भाएं तुस उनेंगी दिक्खी सको ते भाएं नेईं) गी स्वाईप करी सकदे ओ। तुस की&#45;बोर्ड दा इस्तेमाल करदे होई स्वाईप करी सकदे ओ, पर तुसेंगी सिर्फ ओह् अक्खर हासिल होङन जिंदे च घट्टो&#45;घट्ट इक नंबर जां फ्ही सिम्बलज़ होग।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									अक्खर जोड़ने जां कट्टने
+									<div id="ul_1j" class="closed">
+										<p>समझदारी कन्नै Swype करने कन्नै कोई बी नमां अक्खर तोआढ़ी निजी डिक्शनरी च जुड़ी जाग।</p>
+										<p>तुस हाईलाईट करियै <img src="img_swypekey.png" /> गी थपथपांदे होई बी कुसै अक्खर गी जोड़ी सकदे ओ। अक्खर जोड़ने दे सिलसिले च सामने आये दे विकल्प गी थपथपाओ।</p>
+										<p>कुसै अक्खर गी कट्टने लेई, अक्खरें दी चैन आली सूची च अक्खर गी किश चिर तोड़ी दबाइयै रक्खो, ते मगरा एदी पुश्टि करने आले डब्बे च “ओके“ गी थपथपाओ। एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									पर्सनलाईजे़शन
+									<div id="ul_1k" class="closed">
+										<p>Swype Twitter ते Gmail थमां फौरन अक्खर तोआढ़ी डिक्शनरी च जोड़ी सकदा ऐ। पर्सनलाईज़ करने लेई Swype करो :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> गी किश चिर लेई दबाइयै रक्खो।</li>
+											<li>Swype सैटिंग्ज दी सूची थमां माई वर्डज़ &gt; पर्सनलाईज़ेशन गी चुनो।</li>
+											<li>पर्सनलाईजे़शन आलें विकल्पें चा चुनो ते जेक्कर आक्खेआ जा तां अपनी जानकारी दर्ज करो।</li>
+											<li>तुस इक जां फ्ही सब्भनें स्रोतें थमां Swype गी पर्सनलाईज़ करी सकदे ओ।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">बोलो</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>तुस टैकस्ट ते ई&#45;मेल मैसजेज़ थमां लेइयै Facebook ते Twitter दी ताज़ा जानकारी तोड़ी दे मज़मून च दाखिल होने लेई बोली सकदे ओ।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							होर सिक्खो <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									विराम चिन्ह
+									<div id="ul_2a" class="open">
+										<p>आपूं गलतियां सुरधारने दी कोई जरूरत नेईं ऐ। सिर्फ दस्सो जे तुसेंगी केह्ड़ी गलती सुधारनी ऐ ते कम्म करो। इस्सी इस्तेमाल करो:</p>
+										<ol>
+											<li>आवाज़ आले बटन गी दबाओ ते बोलना शुरू करो।</li>
+											<li>तुस केह् बोलदे ओ: <i>रातीं दी रूट्टी बड़ी सोआद ही खुशी ते संदोख जाहिर करने आला चिन्ह</i></li>
+											<li>तुसेंगी केह् मिलेआ: <i>रातीं दी रूट्टी सोआदली ही!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>किश की&#45;बोर्डें पर वायस इनपुट दा सरिस्ता उपलब्ध नेईं ऐ</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">लिखो</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>तुस अक्खर ते शब्द चुनने लेई उंगली दा इस्तेमाल करी सकदे ओ ते Swype अपने आप उस्सी मज़मून च बदली देग। तुस शब्दें गी खब्भी थमां सज्जी बक्खी जां फ्ही इक्क&#45;दुए दे उप्पर लाई सकदे ओ। अक्खरें ते निशानें दे खाकें बश्कार टागल करने लेई ABC / 123 गी दबाओ।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							होर सिक्खो <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									हत्थैं कन्नै लिखने दी स्हूलत गी संभव बनाओ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> गी दबाइयै अपनी उंगली गी हत्थै कन्नै लिखने आले निशान तोड़ी लेई जाओ।</li>
+											<li>अपनी उंगलियें कन्नै हत्थै कन्नै लिखने आले क्षेत्र च अक्खर बनाओ।</li>
+
+											<li>हर शब्द लिखने मगरा स्पेस बार दबाओ</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									मल्टी टच जेस्चर
+									<div id="ul_3b" class="closed">
+										<p>मल्टी टच जेस्चर तुसेंगी अक्खरें ते शब्दें गी बड्डा करने जनेह् सादे नेह् कम्में च, मदद दिंदा ऐ।</p>
+										<ol>
+											<li>ड्राईंग पैड उप्पर किश लौह्के शब्द बनाओ</li>
+											<li>अक्खर दर्ज करने परैंत, दऊं उंगलियें गी लिखने आले क्षेत्र च उप्परली बक्खी स्लाईड करो</li>
+											<li>हत्थै कन्नै लिखने आला लक्षण मल्टी टच जेस्चर गी पंछानी लैग ते शब्दें गी बड्डा करी देग</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>किश की&#45;बोर्डें पर लिखाई दी स्हूलत उपलब्ध नेईं ऐ।</i></p>
+									<p><i>एह् लक्षण उस्सलै उपलब्ध नेईं होग जिस्सलै सिस्टम दी Explore&#45;By&#45;Touch दी पहुंच आली सेवा आन होग।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">टाईप</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>हत्थै कन्नै लिखने आला रिवायती तरीका Swype की&#45;बोर्ड पर थपथपाने आले इनपुट गी किश मददगार लक्ष्णें कन्नै सखाला ते मता कारगर बनाया गेदा ऐ:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							होर सिक्खो <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									गल्त टाईपिंग सुधार
+									<div id="ul_4a" class="open">
+										<p>तुसेंगी हर इक अक्खर गी थपथपाने दी जरूरत नेईं ऐ। तुस बस अपनी तरफां चंगी चाल्लीं कोशश करो Swype तुसेंगी शब्द लेई सुझाव उपलब्ध करोआग।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									शब्द पूरा करना
+									<div id="ul_4b" class="closed">
+										<p>Swype सिर्फ किश अक्खर लिखने पर गै तोआढ़े शब्द दा अंदाजा बी लाई सकदा ऐ।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">भाषां</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>की&#45;बोर्ड थमां भाषाएं कन्नै जुड़ने लेई: स्पेस बार गी किश चिर तोड़ी दबाइयै रक्खो। पाप&#45;अप आली सूची थमां अपनी मनपसंद भाषा चुनो।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect असेंगी तुंदे फोन पर असरदार ढंगै कन्नै कम्म करने दे अधिकार ते नमीं जानकारी उपलब्ध करोआनै दी मंजूरी दिंदा ऐ। जिस्सलै Swype Connect 3जी पर कम्म करोग, अस म्हेशां वाई&#45;फाई कन्नैशन इस्तेमाल करने दी सलाह् देगे।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							होर सिक्खो <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									भाषा डाउनलोड
+									<div id="ul_6a" class="open">
+										<p>Swype च बाद्दू भाषां जोड़ना सौक्खा ऐ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> गी किश चिर लेई दबाई रक्खो ते भाषा चुनो।</li>
+											<li>भाषा दी सूची थमां भाषा डाउनलोड करो।</li>
+											<li>भाषा पर क्लिक करो ते अपने&#45;आप डाउनलोड शुरू होई जाग।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>हर की&#45;बोर्ड पर Swype Connect उपलब्ध नेईं ऐ।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">होर मदद</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype दा इस्तेमाल करने लेई होर मदद गित्ते, Swype यूज़र मैन्युल दिक्खो ते <a href="http://www.swype.com">www.swype.com</a> पर Swype टिप्स ते वीडियो दिक्खो, जां फ्ही <a href="http://forum.swype.com">forum.swype.com</a> पर Swype फोरम आनलाईन चैक करो।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

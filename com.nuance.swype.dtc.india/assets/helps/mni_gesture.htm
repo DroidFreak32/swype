@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Swype কি জেচরশিং</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>সেলেক ওল তৌবা:</b> 
+                </p>
+                <p>
+                    <b>কোপি তৌবা:</b> 
+                </p>
+                <p>
+                    <b>কত তৌবা:</b> 
+                </p>
+                <p>
+                    <b>পেস্ত তৌবা:</b> 
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        অমুক হন্না উৎকনু
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        কেনসেল
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

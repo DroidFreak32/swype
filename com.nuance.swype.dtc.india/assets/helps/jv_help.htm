@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Ngomong</a></div>
+				<div><a href="#write">Tulis</a></div>
+				<div class="last"><a href="#tap">Ketik</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Kanthi Swype, sampeyan bisa ngalihake patang mode input kanthi gampang &#45; Swype, Ngomong, Nulis, utawa Nutul.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype iku cara sing cepet kanggo ngetik teks. Swype bisa sampeyan gunakake kanggo ngetik tembung kanthi ngusap ngliwati aksara&#45;aksara. Deleh driji sampeyan ana aksara sepisan saka tembung sing sampeyan karepake, lan gambar pola antar aksara, angkat driji sak uwise huruf terakhir. Swype bakal nyisipake spase yen dibutuhake.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Pelajari luwih rinci <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Tombol Swype
+									<div id="ul_1a" class="open">
+										<p>Tombol Swype iku arupa tombol kanthi logo Swype. Penet lan tahan tombol Swype kanggo ngakses Setelan Swype.</p>
+										<p>Tombol Swype uga digunakake kanggo ngawali saperangan isyarat Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pratinjau Keyboard
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Isyarat Swype
+									<div id="ul_1b" class="closed">
+										<p>Isyarat Swype iku trabasan ana ing keyboard kanggo ngrampungi pakaryan kanthi cepet. Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+										<ul>
+											<li><span class="gestures">Nggunakake Keyboard Edit</span> Kanggo nggunakake Keyboard Edit, Swype saka <img src="img_swypekey.png" /> menyang tombol Simbol (?123) ana ing keyboard.</li>
+											<li><span class="gestures">Nggunakake keyboard angka</span> Kanggo nggunakake Keyboard angka kanthi cepet, Swype saka <img src="img_swypekey.png" /> menyang angka 5.</li>
+											<li><span class="gestures">Ndhelikake keyboard</span> Kanggo ndhelikake keyboard kanthi cepet, cukup Swype saka tombol Swype menyang tombol Backspace.</li>
+
+											<li><span class="gestures">Mateni spasi otomatis</span> Nonaktifake spasi otomatis sadurunge tembung sabanjure kanthi nge&#45;Swype saka tombol Spasi menyang tombol Backspace.</li>
+
+
+											<li><span class="gestures">Ngedit huruf gedhe&#45;cilik tembung</span> Owahi huruf gedhe&#45;cilik tembung sauwise sampeyan ngetik kanthi nutul tembung, banjur nge&#45;swype saka <img src="img_swypekey.png" /> menyang tombol Shift <img src="img_shiftkey.png" />. Dhaftar Pilihan Tembung kanthi opsi kapitalisasi bakal ditampilake, ngidini sampeyan kanggo milih aksara cilik, Dikapitalisasi, utawa KAPITAL KABEH.</li>
+
+											<li><span class="gestures">Tandha wacan</span> Cara gampang kanggo ngetik tandha wacan yaiku kanthi men&#45;Swype saka tandha pitakon, koma, titik, utawa tandha wacan liyane menyang tombol Spasi, timbangane nutuli.</li>
+
+											<li><span class="gestures">Milih Kabeh, Motong, Nyalin lan Nempel</span>
+												Pilih Kabeh: Swype saka <img src="img_swypekey.png" /> menyang &#39;a&#39;<br />
+												Potong: Swype saka <img src="img_swypekey.png" /> menyang &#39;x&#39;<br />
+												Salin: Swype saka <img src="img_swypekey.png" /> menyang &#39;c&#39;<br />
+												Tempel: Swype saka <img src="img_swypekey.png" /> menyang &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Trabasan aplikasi</span>Google Maps: Swype saka <img src="img_swypekey.png" /> menyang &#39;g&#39;, banjur &#39;m&#39;</li>
+											<li><span class="gestures">Telusuri</span>Sorot saperangan teks lan Swype saka <img src="img_swypekey.png" /> menyang S kanggo nindakake panelusuran web cepet.</li>
+											<li><span class="gestures">Ngalihake menyang basa sing mentas digunakake.</span>Nalika nggunakake saperangan basa, cara sing paling cepet kanggo ngalihake mbalik menyang basa sadurunge yaiku kanthi men&#45;Swype saka <img src="img_swypekey.png" /> menyang tombol Spasi.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Ngetik aksara dobel
+									<div id="ul_1n" class="closed">
+										<p>Kanggo ningkatake akurasi nalika ngetik aksara dobel, coret bolak&#45;balik utawa gawe bunderan ana ing aksara mau. Conto, kanggo nulis &quot;gg&quot; ing &quot;inggih&quot;, coret bolak&#45;balik ana ing tombol &quot;g&quot;. Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Milih tembung
+									<div id="ul_1d" class="closed">
+										<p>Kanggo nampa tembung gawan sing disaranake ing Dhaftar Pilihan Tembung, terusake nge&#45;Swype. Yen ora, tlusuri daftar kanthi nyeret driji sampeyan, bajur pilih tembung sing sampeyan karepake. Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+										<p>Kanggo milih teks saka dhaftar, obahake driji sampeyan mbunder kanggo ngrungokake entri dhaftar. Sak arah jarum jam bakal nlusuri dhaftar maju; nglawan arah jarum jam bakal nlusuri dhaftar mundur. Ngangkat driji bakal ngasilake entri dhaftar sing kaucap paling kari. Kanggo milih tembung saka Dhaftar Pilihan Tembung, geser munggah driji sampeyan saka keyboard nganti tembung kapisan ana ing dhaftar kaucap, banjur wiwiti gerakan mbunder.	Fitur iki mung kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Ngapitalisasi tembung
+									<div id="ul_1e" class="closed">
+										<p>Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+										<p>Kapitalisasi tembung kanthi nge&#45;Swype driji sampeyan saka huruf pertama ngliwati bagean dhuwur keyboard lan, tanpa ngangkat driji, geser driji mudhun menyang aksara sabanjure ing tembung iku mau.</p>
+										<p>Owahi huruf gedhe&#45;cilik tembung sauwise sampeyan ngetik kanthi nutul tembung, banjur nge&#45;swype saka <img src="img_swypekey.png" /> menyang tombol Shift <img src="img_shiftkey.png" />. Dhaftar Pilihan Tembung kanthi opsi kapitalisasi bakal ditampilake, ngidini sampeyan kanggo milih aksara cilik, Dikapitalisasi, utawa KAPITAL KABEH.</p>
+										<p>Kanggo ngetik ing mode CAPS Lock, cukup tutul ping pindho ana ing tombol Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Spasi otomatis
+									<div id="ul_1f" class="closed">
+										<p>Swype otomatis nyisipake spasi antarane tembung nalika sampeyan ny&#45;Swype tembung sabajure ing ukara mau. Sampeyan bisa nguripi utawa mateni fitur spasi otomatis ing Setelan Swype.</p>
+										<p>Spasi otomatis bisa dipateni kanggo sak tembung kanthi nge&#45;Swype saka tombol spasi menyang tombol Backspace.</p>
+										<p>Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Ngganti tembung
+									<div id="ul_1g" class="closed">
+										<p>Ganti tembung kathi nutul ana ing tembung iku mau, banjur pilih tembung sing sampeyan karepake saka Dhaftar Pilihan Tembung, utawa cukup sorot tembung lan Swype tembung anyar. Tembung anyar bakal ngganti tembung sing salah.</p>
+										<p>Tembung bisa disorot kanthi nutul tembung lan nyenggol <img src="img_swypekey.png" /> utawa nutul pindho tembung mau.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Mendhal antarane aksara
+									<div id="ul_1h" class="closed">
+										<p>Kadang ngendhani aksara nalika nge&#45;Swype bisa njamin sampeyan bisa entuk tembung sing sampeyan karepake dhisik.</p>
+										<p>Contone, &quot;tipi&quot; lan &quot;topi&quot; bisa nggambar kanthi pola sing padha &#45; ananging, sampeyan kudu mindhah antarane aksara ing garis lurus. Ngendhani &quot;o&quot; nalika nge&#45;swype driji sampeyan menyang &quot;p&quot; bisa njamin menawa tembung &quot;tipi&quot; iku sing sepisanan ing Dhaftar Pilihan Tembung.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Karakter alternatif
+									<div id="ul_1i" class="closed">
+
+										<p>Penet lan tahan ana ing salah siji tombol kanggo ngatonake dhaftar karakter alternatif kanggo tombol iku mau, contone aksara beraksen kayata é lan è, simbol kayata @ lan %, sarta angka.</p>
+
+										<p>Tutul tombol Simbol (?123) kanggo mbukak Keyboard simbol.</p>
+										<p>Wigati dimangerteni, KABEH karakter bisa di&#45;Swype saka keyboard utama (bisa sampeyan deleng utawa ora). Sampeyan bisa men&#45;Swype nggunakake tampilan keyboard, ananging sampeyan mung oleh tembung sing nduweni paling ora siji angka utawa simbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Nambah lan mbusak tembung
+									<div id="ul_1j" class="closed">
+										<p>Swype kanthi wasis nambah tembung anyar sing sampeyan gunakake menyang Kamus Personal.</p>
+										<p>Sampeyan uga bisa nambah tembung kanthi nyorot tembung iku mau, banjur nutul <img src="img_swypekey.png" />. Tutul pituduh sing katon kanggo nambahake tembung.</p>
+										<p>Kanggo mbusak tembung, penet lan tahan tembung ing Dhaftar Pilihan Tembung, banjur tutul Oke ing dialog konfirmasi. Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalisasi
+									<div id="ul_1k" class="closed">
+										<p>Swype bisa kanthi cepet nambahake tembung menyang kamus saka Twitter lan Gmail. Kanggo mersonalisasi Swype:</p>
+										<ol>
+											<li>Penet lan tahan <img src="img_swypekey.png" />.</li>
+											<li>Saka menu Setelan Swype, pilih Tembungku &gt; Personalisasi.</li>
+											<li>Pilih saka opsi personalisasi lan ketik kredensial yen dijaluk.</li>
+											<li>Sampeyan bisa mersonalisasi Swype saka salah siji utawa kabeh sumber.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Ngomong</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Sampeyan bisa ngomong kanggo ngetik konten teks kanggo apa wae, mulai saka ngirim pesen teks lan pesen email nganti update Facebook lan Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Pelajari luwih rinci <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tandha wacan
+									<div id="ul_2a" class="open">
+										<p>Ora perlu nambahake tandha wacan kanthi manual. Cukup ucapake tandha wacan sing sampeyan karepake lan lanjut. Coba iki:</p>
+										<ol>
+											<li>Penet tombol swara lan mulai ngomong.</li>
+											<li>Apa sing sampeyan ucapake: <i>Mangan wengi lezat tanda seru</i></li>
+											<li>Apa sing sampeyan olehi: <i>Mangan wengi lezat!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Input swara ora kasedhiya ana ing saperangan keyboard</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Tulis</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Sampeyan uga bisa nggunakake driji kanggo nggambar aksara lan tembung, Swype uga bakal ngubah menyang teks. Sampeyan bisa nggambar aksara saka kiwa menyang tengen utawa ana ing bagean ndhuwure. Penet ABC / 123 kanggo ngalihake antarane mode aksara lan simbol.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Pelajari luwih rinci <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktifake tulisan tangan
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Penet lan tahan <img src="img_symkey.png" /> lan geser driji sampeyan menyang ikon tulisan tangan.</li>
+											<li>Gambar aksara nganggo driji ana ing area tulisan tangan.</li>
+
+											<li>Tutul spasi antarane saben tembung</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Isyarat Multi&#45;Demok
+									<div id="ul_3b" class="closed">
+										<p>Isyarat multi&#45;demok mbantu sampeyan nglengkapi tugas sederhana, kayata ngapitalisasi tembung lan aksara.</p>
+										<ol>
+											<li>Gambar saperangan aksara cilik ana ing papan gambar</li>
+											<li>Sak uwise ngetik karakter&#45;karakter mau, geser rong driji munggah ana ing area tulis</li>
+											<li>Fitur tulisan tangan bakal ngenali isyarat multi&#45;demok lan ngapitalisasi aksara</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Tulisan tangan kasedhiya ana ing saperangan keyboard.</i></p>
+									<p><i>Fitur iki ora kasedhiya yen sistem layanan aksesibilitas Explore&#45;by&#45;Touch mati.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Ketik</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Wujud tradisional input keyboard manual. Tutul input ana ing keyboard Swype digawe luwih gampang lan luwih efisien kanthi saperangan fitur sing banget mbantu:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Pelajari luwih rinci <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Koreksi Ketikan Ora Rapi
+									<div id="ul_4a" class="open">
+										<p>Sampeyan ora kudu nutul saben&#45;saben aksara kanti sempurna. Cukup usahakne saapike lan Swype bakal kanthi wasis menehi usulan tembung.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Ngrampungake Tembung
+									<div id="ul_4b" class="closed">
+										<p>Swype uga bakal mrakirakake tembung nalika sampeyan nutul mung saperangan aksara.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Basa</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Kanggo ngalihake basa saka keyboard: Penet lan tahan tombol spasi. Pilih basa sing sampeyan karepake saka menu popup.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Kanthi Swype Connect, sampeyan bisa ngirimake update lan fungsionalitas hebat langsung saka perangkat sampeyan! Amarga Swype Connect nggunakake 3G, murih apike gunakake koneksi Wi&#45;Fi</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Pelajari luwih rinci <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Undhuhan Basa
+									<div id="ul_6a" class="open">
+										<p>Nambah basa tambahan menyang Swype iku gampang:</p>
+										<ol>
+											<li>Penet lan tahan <img src="img_swypekey.png" /> lan pilih Basa.</li>
+											<li>Saka menu Basa, pilih Undhuh basa.</li>
+											<li>Klik basa lan undhuhan sampeyan bakal miwiti kanthi otomatis.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ora kasedhiya ana ing kabeh keyboard.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Bantuan liyane</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Kanggo bantuan luwih lengkap cara migunakake Swype, deleng Petunjuk Pengguna Swype lan Tips Swype uga Video ana <a href="http://www.swype.com">www.swype.com</a>, utawa waca Swype Forum online ana <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

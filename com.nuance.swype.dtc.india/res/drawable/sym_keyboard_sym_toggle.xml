@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardSym2" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardSym1" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="1">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardSym2" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardSym1" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="2">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardSym2" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardSym1" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="3">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardSym2" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardSym1" />
+            </item>
+        </selector>
+    </item>
+    <item android:maxLevel="4">
+        <selector>
+            <item android:state_checkable="true">
+                <bitmap android:src="?symKeyboardSym2" />
+            </item>
+            <item>
+                <bitmap android:src="?symKeyboardSym1" />
+            </item>
+        </selector>
+    </item>
+</level-list>

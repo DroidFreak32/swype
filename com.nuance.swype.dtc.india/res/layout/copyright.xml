@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_nuance" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Large" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nuance_communications" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyright" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+    <TextView android:gravity="center" android:id="@id/version" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+    <TextView android:gravity="center" android:id="@id/eula" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legal_doc_eula" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+    <TextView android:gravity="center" android:id="@id/tos" android:paddingBottom="35.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms_of_service" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d words will be deleted</item>
+        <item quantity="one">One word will be deleted</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+</resources>

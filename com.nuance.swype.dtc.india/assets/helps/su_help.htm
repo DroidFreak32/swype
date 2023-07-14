@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Ngucap</a></div>
+				<div><a href="#write">Tulis</a></div>
+				<div class="last"><a href="#tap">Ketok</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Maké Swype, anjeun bisa bébas mipindah di opat modeu input nu béda tanpa aya masalah &#45; Swype, Ucapkeun, Tulis, atawa Ketok.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype téh cara gancang ngasupkeun téks. Anjeun bisa ngasupkeun kecap ku cara ngagambar hurup. Simpen ramo dina hurup kahiji dina kecap terus gambar jalur ti hurup ka hurup, diangkat saenggeus hurup terahir. Swype bakal nyelapkeun spasi di tempat nu diperlukeun.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Info nu séjén <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Kenop Swype
+									<div id="ul_1a" class="open">
+										<p>Kenop Swype téh kenop nu boga logo Swype di luhurna. Pencét jeung tahan kenop Swype jang ngaksés Setélan Swype.</p>
+										<p>Kenop Swype oge dipaké jang ngamimitian réa gerak Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pratilik Kibor
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gerak Swype
+									<div id="ul_1b" class="closed">
+										<p>Géstur Swype téh kenop gancang dina kibor jang ngaréngsékeun gancang sababaraha tugas umum. Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+										<ul>
+											<li><span class="gestures">Ka kibor édit</span> Jang muka ka kibor Édit, Swype ti <img src="img_swypekey.png" /> ka kenop Simbul (?123) di kibor.</li>
+											<li><span class="gestures">Ka kibor angka</span> Jang muka gancang ka kibor Angka, Swype ti <img src="img_swypekey.png" /> ka angka 5.</li>
+											<li><span class="gestures">Nyumputkeun kibor</span> Jang gampang nyumputkeun kibor, cukup Swype ti kenop Swype ka kenop Spasi Mulang.</li>
+
+											<li><span class="gestures">Mareuman spasi otomatis</span> Paksa spasi otomatis saméméh kecap saenggeusna ku cara nga&#45;Swype ti kenop Spasi ka kenop Spasi Mulang.</li>
+
+
+											<li><span class="gestures">Ngédit hurup gedé leutikna hiji kecap</span> Robah leutik gedéna kecap saenggeus diasupkeun ku cara ngetok éta kecap terus digésér ti <img src="img_swypekey.png" /> ka kenop Shift <img src="img_shiftkey.png" />. Daptar Pilihan Kecap nu eusina pilihan kapitalisasi bakal ditempokeun, ngidinan anjeun jang milih hurup leutik, dibéré hurup gedé, atawa KABÉH GEDÉ.</li>
+
+											<li><span class="gestures">Tanda baca</span> Cara sederhana jang ngasupkeun tanda baca téh ku cara nga&#45;Swype ti tanda tanya, koma, titik, atawa tanda baca séjén ka kenop Spasi, lain ku cara ngetok.</li>
+
+											<li><span class="gestures">Milih Kabéh, Potong, Tiron, jeun Témpél</span>
+												Pilih Kabéh: Swype ti <img src="img_swypekey.png" /> ka &#39;a&#39;<br />
+												Potong: Swype ti <img src="img_swypekey.png" /> ka &#39;x&#39;<br />
+												Tiron: Swype ti <img src="img_swypekey.png" /> ka &#39;c&#39;<br />
+												Témpél: Swype ti <img src="img_swypekey.png" /> ka &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Kenop gancang aplikasi</span>Google Maps: Swype ti <img src="img_swypekey.png" /> ka &#39;g&#39;, terus &#39;m&#39;</li>
+											<li><span class="gestures">Téang</span>Sorot sababaraha téks tur Swype ti <img src="img_swypekey.png" /> ka S jang néangan gancang di wéb.</li>
+											<li><span class="gestures">Ngaganti ka basa terakhir nu dipaké.</span>Lamun maké sababaraha basa, cara gancang jang ngaganti deui ka basa saméméhna téh ku cara nga&#45;Swype ti <img src="img_swypekey.png" /> ka kenop Spasi.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Ngasupkeun hurup ganda
+									<div id="ul_1n" class="closed">
+										<p>Jang nambah kaakuratan lamun ngasupkeun hurup ganda, orétkeun saeutik atawa jieun buleudan dina hurup. Upamana, jang nyieun &quot;nn&quot; dina &quot;ngaranna&quot;, orétkeun di kenop &quot;n&quot;. Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Milih kecap
+									<div id="ul_1d" class="closed">
+										<p>Jang nampa kecap standar nu disarankeun dina Daptar Pilihan Kecap, coba teruskeun Nga&#45;Swype. Lamun henteu, tempoan dina daptar ku cara nyéréd ramo, tur milih kecap nu dipikahayang. Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+										<p>Jang milih téks tina daptar, pindahkeun ramo dina gerakan nguriling jang ngadéngé éntri daptar. Gerakan saarah puteran jarum jam ngaliwatan daptar; gerakan ngalawan puteran jarum jam ngaliwatan daptar. Ngangkat ramo ngaluarkeun éntri daptar terahir nu diucapkeun. Jang milih kecap dina Daptar Pilihan Kecap, késérkeun ramo ka luhur tina kibor nepi ka kecap kahiji dina daptar kadéngé terus mimitian gerakan nguriling.	Fitur ieu ngan sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Nambah hurup gedé dina kecap
+									<div id="ul_1e" class="closed">
+										<p>Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+										<p>Pasang hurup gedé dina kecap ku cara nga&#45;Swype ramo anjeun ti hurup kahiji ka luhur ngaliwatan luhur kibor terus, tanpa ngangkat, ngalayangkeun ramo balik ka handap ka hurup kecap saenggeusna.</p>
+										<p>Robah leutik gedéna kecap saenggeus diasupkeun ku cara ngetok éta kecap terus digésér ti <img src="img_swypekey.png" /> ka kenop Shift <img src="img_shiftkey.png" />. Daptar Pilihan Kecap nu eusina pilihan kapitalisasi bakal ditempokeun, ngidinan anjeun jang milih hurup leutik, dibéré hurup gedé, atawa KABÉH GEDÉ.</p>
+										<p>Pikeun asup ka modeu CAPS Lock, cukup ketok dua kali dina kenop Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Spasi otomatis
+									<div id="ul_1f" class="closed">
+										<p>Swype otomatis nyelapkeun ruang di antara kecap lamun anjeun nga&#45;Swype di kecap saenggeusna dina kalimah. Anjeun bisa ngahurungkeun atawa mareuman pitur spasi otomatis di Setélan Swype.</p>
+										<p>Spasi otomatis bisa dipareuman jang hiji kecap ku cara nga&#45;Swype ti kenop Spasi ka Kenop Spasi Mulang.</p>
+										<p>Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Ngaganti kecap
+									<div id="ul_1g" class="closed">
+										<p>Ganti kecap ku cara ngetok, terus pilih kecap nu rék diganti ti Daptar Pilihan Kecap, atawa cukup sorot kecap jeung Swype kecap nu anyar. Kecap anyar bakal ngaganti kecap nu salah.</p>
+										<p>Kecap bisa disorot ku cara ngetok kecap terus mencét <img src="img_swypekey.png" /> atau ketok dua kali dina kaca.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Mental di antara hurup
+									<div id="ul_1h" class="closed">
+										<p>Kadang ngahindar hurup pas nga&#45;Swype mastikeun anjeun nyokot langsung kecap nu dipikahayang.</p>
+										<p>Upamana, &quot;dipara&quot; jeung &quot;dopara&quot; bisa digambar maké jalur nu sarua &#45; ngan perhatikeun yén anjeun teu kudu pindah ti hiji hurup ka hurup dina garis nu lempeng. Ngahindar &quot;o&quot; pas nga&#45;swype ramo ka &quot;p&quot; mastikeun kecap &quot;dipara&quot; jadi nu pangluhurna dina Daptar Pilihan Kecap.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Karakter alternatip
+									<div id="ul_1i" class="closed">
+
+										<p>Pencét tur tahan kenop jang nembongkeun daptar karakter alternatip jang kenop eta, kawas simbul @ jeung %, tur angka.</p>
+
+										<p>Ketok kenop Simbul (?123) nu rék dibawa ka kibor Simbul.</p>
+										<p>Perhatikeun yén KABÉH karakter bisa di&#45;Swype ti kibor utami (sanajan katingali atawa teu katingali). Anjeun bisa nga&#45;Swype maké pintonan kibor ieu, mung bakal narima kecap nu sakurangnya boga hiji angka atawa simbul.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Nambahkeun jeung mupus kecap.
+									<div id="ul_1j" class="closed">
+										<p>Swype bakal nambah kecap anyar mana waé nu dipaké anjeun ka Kamus Pribados.</p>
+										<p>Anjeun ogé bisa nambahan kecap ku cara nyorot éta kecap terus ngetok <img src="img_swypekey.png" />. Ketok paréntah nu ditempokeun jang nambahan kecap.</p>
+										<p>Jang mupus kecap, pencét terus tahan kecap dina Daptar Pilihan Kecap, terus ketok OKÉ dina dialog konpirmasi. Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Mribadoskeun
+									<div id="ul_1k" class="closed">
+										<p>Swype bisa gancang nambahkeun kecap ka kamus anjeun ti Twitter tur Gmail. Jang ngapribadoskeun Swype.</p>
+										<ol>
+											<li>Pencét jeung tahan <img src="img_swypekey.png" />.</li>
+											<li>Tina menu Setelan Swype, pilih Kecap Abdi &gt; Personalisasi.</li>
+											<li>Pilih ti pilihan personalisasi tur tuliskeun kredensial Anjeun upami dipenta.</li>
+											<li>Anjeun bisa mribadoskeun Swype ti hiji atawa kabéh sumber.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Ngucap</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Anjeun bisa ngucap jang ngasupkeun eusi téks jang kabéhan, mimiti ti SMS tur talatah surélék nepi ka status Facebook jeung Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Info nu séjén <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tanda baca
+									<div id="ul_2a" class="open">
+										<p>Teu kudu nambahkeun tanda baca ku cara manual. Cukup ngucapkeun tanda baca nu dipikahayang tur neruskeun. Cobaan ieu:</p>
+										<ol>
+											<li>Pencét kenop sora terus mimitian ngucap.</li>
+											<li>Nu diucapkeun: <i>Karédok meni raos pisan tanda seru</i></li>
+											<li>Nu ditampa: <i>Karédok meni raos pisan!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Input sora teu sadia di sababaraha kibor</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Tulis</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Anjeun bisa maké ramo jang ngagambar hurup jeung kecap saterasna Swype bakal ngarobah kana téks. Anjeun bisa ngagambar hurup ti kénca ka katuhu atawa di luhur nu séjén. Pencét ABC / 123 jang mipindah antar hurup jeung modeu simbol.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Info nu séjén <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktipkeun tulisan leungeun
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Pencét terus tahan <img src="img_symkey.png" /> terus gésérkeun ramo ka ikon tulisan leungeun.</li>
+											<li>Tulis hurup maké ramo dina area tulisan leungeun.</li>
+
+											<li>Ketok baris spasi di antara unggal kecap</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gerak Multi&#45;Rampa
+									<div id="ul_3b" class="closed">
+										<p>Gerak multi&#45;rampa ngidinan anjeun jang ngalengkepan tugas sederhana kawas napelkeun hurup gedé dina kecap atawa hurup.</p>
+										<ol>
+											<li>Gambar sababaraha hurup leutik dina alas gambar</li>
+											<li>Saenggeus ngasupkeun karakter, gésér dua ramo ka luhur di aréa nulis</li>
+											<li>Pitur tulisan leungeun bakal ngawanoh gerak multi&#45;rampa tur nyieun hurup gedé dina éta hurup</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Tulisan leungeun teu sadia di sababaraha kibor.</i></p>
+									<p><i>Fitur ieu teu sadia lamun ladénan aksésibilitas Explore&#45;by&#45;Touch hurung.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Ketok</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Rupa tradisionalna input kibor manual. Ketok input di kibor Swype dijieun leuwih gampang tur efisién kusabab aya sababaraha pitur nu méré mangpaat:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Info nu séjén <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Menerkeun Ketikan
+									<div id="ul_4a" class="open">
+										<p>Anjeun teu kudu sampurna ngetok unggal hurupna. Coba sabisana, Swype bakal méré saran kecap nu pinter.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Ngumplitan Kecap
+									<div id="ul_4b" class="closed">
+										<p>Swype ogé bisa nebak kecap anjeun lamun anjeun ngetok sababaraha hurup wungkul.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Basa</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Jang ngaganti basa ti kibor: Pencét tur tahan baris spasi. Pilih basa nu dipikahayang ti ménu popup.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connéct</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connéct ngidinan urang jang ngirim apdét tur pungsi nu mangpaat langsung ka alat anjeun! Sanajan Swype Connéct bisa dipaké dina jaringan 3G, kami nyarankeun néang sambungan Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Info nu séjén <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Undeuran basa
+									<div id="ul_6a" class="open">
+										<p>Nambahkeun basa nu séjén ka Swype téh gampil:</p>
+										<ol>
+											<li>Pencét jeung tahan <img src="img_swypekey.png" /> terus pilih Basa.</li>
+											<li>Ti ménu Basa, pilih Undeur basa.</li>
+											<li>Klik dina basa, terus undeuran bakal dimimitian otomatis.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connéct teu sadia di kabéh kibor.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Pitulung séjén</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Jang nampa pitulung nu séjén ihwal cara maké Swype, tempo Panungtun Swype Jang Pamaké terus Tips Swype ogé Vidéo di <a href="http://www.swype.com">www.swype.com</a>, atawa tingal Forum Swype online di <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

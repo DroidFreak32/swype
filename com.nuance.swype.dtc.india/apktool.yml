@@ -1,0 +1,36 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.nuance.swype.dtc.india_3.2.4.3020400.50699-3020400_minAPI19(armeabi)(nodpi)_apkmirror.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- mp3
+- assets/buildsettings.dat
+- assets/config.properties
+- assets/license.dat
+- png
+- wav
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '24'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  bvt/AndroidManifest.xml: '8'
+  com/fasterxml/jackson/core/json/VERSION.txt: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  main/AndroidManifest.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '3020400'
+  versionName: 3.2.4.3020400.50699

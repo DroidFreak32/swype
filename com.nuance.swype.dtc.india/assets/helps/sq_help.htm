@@ -1,0 +1,349 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Flisni</a></div>
+				<div><a href="#write">Shkruaj</a></div>
+				<div class="last"><a href="#tap">Shtypni</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Me Swype, keni mundësinë për të kaluar lehtësisht midis katër metodave të hyrjes – Swype, Fol, Shkruaj ose Godit.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype është mënyrë e shpejtë për të shkruar tekst. Ju lejon të shkruani një fjalë duke vizatuar përmes shkronjave. Vendosni gishtin në shkronjën e parë të fjalës dhe vizatoni një shteg nga shkronja në shkronjë, duke e ngritur gishtin pas shkronjës së fundit. Swype do të fusë hapësira aty ku duhet.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Mësoni më shumë <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Tasti Swype
+									<div id="ul_1a" class="open">
+										<p>Tasti Swype është tasti me logon e Swype. Mbani të shtypur tastin Swype për të pasur akses në Parametrat e Swype.</p>
+										<p>Tasti Swype përdoret gjithashtu për të bërë shumë gjeste Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pamja e tastierës
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gjeste të Swype
+									<div id="ul_1b" class="closed">
+										<p>Gjestet e Swype janë shkurtore të tastierës për të mbaruar shpejt detyra të zakonshme. Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+										<ul>
+											<li><span class="gestures">Shkuarja te Tastiera e Editimit</span> Për të shkuar në tastierën e Editimit, Swype nga <img src="img_swypekey.png" /> deri te tasti i Simboleve (?123) në tastierë.</li>
+											<li><span class="gestures">Shkuarja te Tastiera e Numrave</span> Për të shkuar shpejt te tastiera e Numrave, Swype nga tasti <img src="img_swypekey.png" /> në numrin 5.</li>
+											<li><span class="gestures">Fshehja e Tastierës</span> Për ta fshehur me lehtësi tastierën, thjesht Swype nga tasti i Swype deri te tasti i prapësimit.</li>
+
+											<li><span class="gestures">Fikni opsionin e Hapësirave Automatike</span> Ndal hapësirën automatike para fjalës pasuese me Swype nga tasti i Hapësirës tek ai Prapësues.</li>
+
+
+											<li><span class="gestures">Editimi i Shkronjave Kapitale të Fjalës</span> Ndryshoni formatin e një fjale pasi ta shkruani atë duke goditur fjalën dhe pastaj me swyping nga tasti <img src="img_swypekey.png" /> në tastin Shift <img src="img_shiftkey.png" />. Do të shfaqet një Listë e Zgjedhjes së Fjalëve me opsion shkronjash kapitale, që ju lejon të zgjidhni shkronjat e vogla, kapitale ose ALL CAPS.</li>
+
+											<li><span class="gestures">Pikësimi</span> Një mënyrë e thjeshtë për të futur pikësim është me Swype nga pikëpyetja, presja, pika ose shenja të tjera pikësimi deri te tasti i Hapësirës në vend që ta godisni.</li>
+
+											<li><span class="gestures">Zgjidh të gjitha, Prit, Kopjo dhe Ngjit</span>
+												Zgjidh të gjitha: Swype nga <img src="img_swypekey.png" /> deri tek &#39;a&#39;<br />
+												Prit: Swype nga <img src="img_swypekey.png" /> deri tek &#39;x&#39;<br />
+												Kopjo: Swype nga <img src="img_swypekey.png" /> deri tek &#39;c&#39;<br />
+												Ngjit: Swype nga <img src="img_swypekey.png" /> deri tek &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Shkurtore aplikacioni</span>Google Maps: Swype nga <img src="img_swypekey.png" /> deri tek &#39;g&#39;, pastaj &#39;m&#39;</li>
+											<li><span class="gestures">Kërko</span>Theksoni një pjesë teksti dhe Swype nga <img src="img_swypekey.png" /> në S për të bërë një kërkim të shpejtë uebi.</li>
+											<li><span class="gestures">Kalimi në gjuhën e përdorur e fundit.</span>Kur përdoni disa gjuhë, një mënyrë e shpejtë për t‘u rikthyer në gjuhën e mëparshme është të bëni Swype nga <img src="img_swypekey.png" /> në tastin Hapësirë.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Futja e shkronjave dyshe
+									<div id="ul_1n" class="closed">
+										<p>Për të përmirësuar saktësinë kur futni shkronja dyshe, hiqni një vizë ose bëni një lak mbi shkronjë. Për shembull, për të shkruar &quot;ll&quot; në &quot; shekulli&quot;, hiqni një vizë në tastin &quot;l&quot;. Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Zgjedhja e një fjale
+									<div id="ul_1d" class="closed">
+										<p>Për të pranuar fjalën e sugjeruar në Listën e zgjedhjes së fjalëve, thjesht vazhdoni të bëni Swyping. Përndryshe, lëvizni nëpër listë duke zvarritur gishtin dhe zgjidhni fjalën që dëshironi. Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+										<p>Për të zgjedhur tekst nga një listë, lëviz gishtin në lëvizje rrethore për të dëgjuar shënimet e listës. Në drejtim të akrepave të orës lëvizet përpara në listë; në drejtim të kundërt të akrepave të orës lëvizet prapa në listë. Ngritja e gishtit nxjerr shënimin e fundit të folur në listë. Për të zgjedhur një fjalë në Listën e Zgjedhjes së Fjalës, rrëshqit gishtin lart nga tastiera derisa të dëgjohet fjala e parë në listë, pastaj fillo një lëvizje rrethore.	Ky tipar është në dispozicion kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Fjalë me shkronja kapitale
+									<div id="ul_1e" class="closed">
+										<p>Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+										<p>Shkruajeni me shkronjë të madhe një fjalë teksa Swyping duke kaluar me gisht nga shkronja e parë te kreu i tastierës dhe pa ngritur, kalojeni gishtin prapë te shkronja tjetër e fjalës.</p>
+										<p>Ndryshoni formatin e një fjale pasi ta shkruani atë duke goditur fjalën dhe pastaj me swyping nga tasti <img src="img_swypekey.png" /> në tastin Shift <img src="img_shiftkey.png" />. Do të shfaqet një Listë e Zgjedhjes së Fjalëve me opsion shkronjash kapitale, që ju lejon të zgjidhni shkronjat e vogla, kapitale ose ALL CAPS.</p>
+										<p>Për t&#39;u futur në modalitetin CAPS LOCK, thjesht godit dy herë në tastin Shift <img src="img_shiftkey.png" />.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Hapësirë automatike
+									<div id="ul_1f" class="closed">
+										<p>Midis fjalëve futen automatikisht hapësira kur gjurmohet fjala e radhës në fjali. Mund ta aktivizoni ose çaktivizoni tiparin auto&#45;hapësirë në Parametrat e Swype.</p>
+										<p>Auto&#45;hapësira mund të çaktivizohet për një fjalë duke bërë Swyping nga tasti i Hapësirës tek ai i Prapësimit.</p>
+										<p>Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Zëvendësimi i një fjale
+									<div id="ul_1g" class="closed">
+										<p>Zëvendësoni një fjalë duke goditur në të, pastaj zgjidhni fjalën që doni nga Lista e zgjedhjes së fjalëve ose thjesht theksoni fjalën dhe Swype një fjalë të re. Fjala e re do të zëvendësojë rreshtin e gabuar.</p>
+										<p>Një fjalë mund të theksohet duke goditur fjalën dhe duke prekur <img src="img_swypekey.png" /> ose duke goditur dy herë fjalën.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Kërcim ndërmjet shkronjave
+									<div id="ul_1h" class="closed">
+										<p>Ndonjëherë evitimi i shkronjave gjatë Swyping ju lejon të gjeni fjalën e dëshiruar me herën e parë.</p>
+										<p>Për shembull, &quot;pore &quot; dhe &quot;pire&quot; mund të vizatohen me të njëjtën rrugë &#45; por vini re se nuk keni nevojë të kaloni nga njëra shkronjë te tjetra në vijë të drejtë. Shmangia e &quot;o&quot; kur kaloni gishtin mbi &quot;i&quot; siguron që fjala &quot;pore&quot; është e para në Listën e zgjedhjes së fjalëve.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alterno Shkronjat
+									<div id="ul_1i" class="closed">
+
+										<p>Shtypni dhe mbani shtypur një tast për të hapur një listë karakteresh alternative për atë tast, si për shembull shkronjat me theks si ğ dhe ö, simbole si @ dhe %, dhe numra.</p>
+
+										<p>Goditni tastin e Simboleve (?123) që të ktheheni te tastiera e Simboleve.</p>
+										<p>Vini re se TË GJITHA shkronjat mund të shkruhen me Swype nga tastiera kryesore (nëse i shihni apo jo). Ju mund të Swype duke përdorur këtë pamje të tastierës, por do të shikoni vetëm fjalë që kanë të paktën një numër ose simbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Shtimi dhe fshirja e fjalëve
+									<div id="ul_1j" class="closed">
+										<p>Swype shton në mënyrë të zgjuar fjalët të reja që përdorni në Fjalorin tuaj personal.</p>
+										<p>Gjithashtu mund të shtoni një fjalë duke e theksuar atë dhe duke goditur <img src="img_swypekey.png" />. Goditni sugjerimin që shfaqet për të shtuar fjalën.</p>
+										<p>Për të fshirë një fjalë, shtypni dhe mbajeni fjalën në Listën e zgjedhjes së fjalëve, dhe pastaj goditni OK në dialogun e konfirmimit. Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizimi
+									<div id="ul_1k" class="closed">
+										<p>Swype mund të shtojë shpejt fjalën në fjalorin tuaj nga Twitter dhe Gmail. Për të personalizuar Swype</p>
+										<ol>
+											<li>Shtypni dhe mbani të shtypur <img src="img_swypekey.png" />.</li>
+											<li>Nga menuja e Cilësimeve të Swype, përzgjidhni Fjalët e mia &gt; Personalizimi.</li>
+											<li>Zgjidhni nga opsionet e personalizimit dhe futni kredencialet tuaja nëse ju kërkohen.</li>
+											<li>Mund të personalizoni Swype nga një ose të gjitha burimet.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Flisni</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Mund të flisni për të futur përmbajtje tekst për çdo gjë duke filluar nga teksti dhe mesazhet email deri në përditësimet e Facebook dhe Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Mësoni më shumë <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Pikësimi
+									<div id="ul_2a" class="open">
+										<p>Nuk ka nevojë të shtohet manualisht pikësimi. Vetëm thuajeni shenjën e pikësimit që dëshironi dhe vazhdoni. Provo këtë:</p>
+										<ol>
+											<li>Shtypni tastin e zërit dhe filloni të flisni.</li>
+											<li>Çfarë të thoni: <i>Darka ishte e shijshme pikë çuditëse</i></li>
+											<li>Ajo që do të dalë: <i>Darka ishte e shijshme!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Futja e zërit nuk është e disponueshme në disa tastiera</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Shkruaj</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Mund të përdorni gishtat tuaj për të vizatuar shkronja dhe fjalë dhe Swype do ta kthejnë në tekst. Mund të vizatoni shkronja nga e majta në të djathtë ose në krye të secilës. Shtypni ABC / 123 për të kaluar midis modalitetit të shkronjave dhe simboleve.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Mësoni më shumë <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Aktivizim i shkrimit me dorë
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Shtyp dhe mbaj shtypur <img src="img_symkey.png" /> dhe rrëshqite gishtin në ikonën e shkrimit të dorës.</li>
+											<li>Vizatoni shkronjat me gisht në zonën e shkrimit me dorë.</li>
+
+											<li>Goditni shiritin e hapësirës ndërmjet çdo fjale</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gjeste me prekje të shumëfishtë
+									<div id="ul_3b" class="closed">
+										<p>Gjestet me prekje të shumëfishtë ju lejojnë të kryeni detyra të thjeshta, si për shembull kapitalizimin e fjalëve ose shkronjave.</p>
+										<ol>
+											<li>Vizatoni disa shkronja të vogla në fushën e vizatimit</li>
+											<li>Pasi të keni futur karakteret rrëshqitni dy gishtat lart në zonën e shkrimit</li>
+											<li>Tipari i shkrimit me dorë do të njohë gjestet me prekje të shumëfishtë dhe do të kapitalizojë shkronjat</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>Shkrimi me dorë nuk është i disponueshëm në disa tastiera.</i></p>
+									<p><i>Ky funksion nuk është në dispozicion, kur shërbimi i aksesit të sistemit Explore&#45;by&#45;Touch është aktiv.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Shtypni</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Forma e zakonshme e shkrimit manual në tastierë. Futja e tekstit me goditje në tastierën Swype është bërë edhe më e lehtë dhe më efikase me anë të disa tipareve ndihmëse:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Mësoni më shumë <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Korrigjimi i shkrimit të turbullt
+									<div id="ul_4a" class="open">
+										<p>Nuk keni pse ta godisni çdo shkronjë në mënyrë perfekte. Vetëm mundohuni të bëni më të mirën dhe Swype do të japë sugjerime fjalësh në mënyrë inteligjente.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Kompletimi i fjalës
+									<div id="ul_4b" class="closed">
+										<p>Swype mund të supozojë gjithashtu fjalën edhe kur keni goditur vetëm disa shkronja.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Gjuhët</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Për të ndërruar gjuhë nga tastiera: Shtypni dhe mbani shtypur shiritin e hapësirës. Zgjidhni gjuhën tuaj të dëshiruar nga menyja kërcyese.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ju lejon t’i jepni pajisjes tuaj përditësime dhe funksionalitete të fuqishme! Ndërsa Swype Connect do të punojë me 3G, ju rekomandojmë që gjithmonë të gjeni një lidhje Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Mësoni më shumë <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Shkarkime gjuhësh
+									<div id="ul_6a" class="open">
+										<p>Shtimi i gjuhëve shtesën në Swype është i lehtë:</p>
+										<ol>
+											<li>Shtyp dhe mbaj shtypur <img src="img_swypekey.png" /> dhe zgjidh Gjuhët.</li>
+											<li>Nga menyja Gjuhët, zgjidh Shkarko gjuhët.</li>
+											<li>Klikoni mbi një gjuhë dhe shkarkimi juaj do të fillojë automatikisht.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect nuk është e disponueshme në të gjitha tastierat.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Më Shumë Ndihmë</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Për më shumë ndihmë mbi përdorimin e Swype, shikoni një Manual përdoruesi të Swype dhe Këshillat dhe videot e Swype në <a href="http://www.swype.com">www.swype.com</a>, ose ndiqni Forumin Swype në linjë në <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

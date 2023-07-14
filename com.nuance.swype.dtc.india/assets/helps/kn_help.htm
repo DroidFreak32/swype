@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">ಮಾತನಾಡಿ</a></div>
+				<div><a href="#write">ಬರೆಯಿರಿ</a></div>
+				<div class="last"><a href="#tap">ಟೈಪ್ ಮಾಡಿ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ನೊಂದಿಗೆ ನಿಮಗೆ ನಾಲ್ಕು ವಿವಿಧ ಇನ್ಪುಟ್ ವಿಧಾನಗಳಾದ Swype, ಮಾತನಾಡುವುದು, ಬರೆಯುವುದು ಅಥವಾ ತಟ್ಟುವುದರ ನಡುವೆ ಯಾವುದೇ ತಡೆಯಿಲ್ಲದೆ ಬದಲಾವಣೆ ಮಾಡುವ ಸಾಮರ್ಥ್ಯವಿರುತ್ತದೆ.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype ಟೆಕ್ಸ್ಟ್ ನಮೂದಿಸಲು ಒಂದು ತ್ವರಿತ ಮಾರ್ಗ. ಅಕ್ಷರಗಳ ಮೂಲಕ ಎಳೆಯುವ ವಿಧಾನದಲ್ಲಿ ಒಂದು ಪದವನ್ನು ನಮೂದಿಸಲು ಅದು ನಿಮಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ. ಪದದ ಮೊದಲ ಅಕ್ಷರದ ಮೇಲೆ ನಿಮ್ಮ ಬೆರಳಿಟ್ಟು ಅಕ್ಷರದಿಂದ ಅಕ್ಷರಕ್ಕೆ ಒಂದು ಮಾರ್ಗವನ್ನು ಎಳೆಯಿರಿ, ಕೊನೆಯ ಅಕ್ಷರದ ನಂತರ ಬೆರಳೆತ್ತಿ. ಅಗತ್ಯವಿದ್ದಲ್ಲಿ Swype ಅಂತರಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿರಿ <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype ಕೀ।
+									<div id="ul_1a" class="open">
+										<p>Swype ಕೀ ತನ್ನ ಮೇಲೆ Swype ಚಿಹ್ನೆಯನ್ನು ಹೊಂದಿರುತ್ತದೆ. Swype ಸೆಟಿಂಗ್ ಗಳಿಗೆ ಪ್ರವೇಶಾವಕಾಶ ಪಡೆಯಲು Swype ಕೀಯನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</p>
+										<p>ಅನೇಕ Swype ಸೂಚ್ಯವರ್ತನೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸಲು ಕೂಡ Swype ಕೀಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    ಕೀಬೋರ್ಡ್ ಮುನ್ನೋಟ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ಸೂಚ್ಯವರ್ತನೆಗಳು
+									<div id="ul_1b" class="closed">
+										<p>Swype ಸೂಚ್ಯವರ್ತನೆಗಳು ಸಾಮಾನ್ಯ ಕೆಲಸಗಳನ್ನು ಬೇಗನೆ ನೆರವೇರಿಸುವ ಸಲುವಾಗಿ ಕೀಬೋರ್ಡ್ ಮೇಲಿರುವ ಶಾರ್ಟ್ ಕಟ್ ಗಳು. ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</p>
+										<ul>
+											<li><span class="gestures">ಎಡಿಟ್ ಕೀಬೋರ್ಡಿಗೆ ಬರುವುದು</span> ಎಡಿಟ್ ಕೀಬೋರ್ಡಿಗೆ ಬರಲು, <img src="img_swypekey.png" /> ನಿಂದ ಸಂಕೇತಗಳು ಕೀಗೆ (?123) Swype ಮಾಡಿ</li>
+											<li><span class="gestures">ಸಂಖ್ಯಾ ಕೀಬೋರ್ಡಿಗೆ ಬರುವುದು</span> ಸಂಖ್ಯಾ ಕೀಬೋರ್ಡಿಗೆ ಬೇಗನೆ ಬರಲು <img src="img_swypekey.png" /> ನಿಂದ ಸಂಖ್ಯೆ 5ಕ್ಕೆ Swype ಮಾಡಿ.</li>
+											<li><span class="gestures">ಕೀಬೋರ್ಡ್ಅನ್ನು ಅಡಗಿಸುವುದು</span> ಕೀಬೋರ್ಡ್ಅನ್ನು ಸುಲಭವಾಗಿ ಅಡಗಿಸಿಡಲು, Swype ಕೀನಿಂದ ಬ್ಯಾಕ್ ಸ್ಪೇಸ್ ಕೀಗೆ Swype ಮಾಡಿ, ಅಷ್ಟೇ.</li>
+
+											<li><span class="gestures">ಸ್ವಯಂಚಾಲಿತ ಅಂತರ ಬಿಡುವಿಕೆ ಆಫ್ ಮಾಡುವುದು</span> ಸ್ಪೇಸ್ ಕೀನಿಂದ ಬ್ಯಾಕ್ ಸ್ಪೇಸ್ ಕೀಗೆ Swype ಮಾಡುವ ಮೂಲಕ ಮುಂದಿನ ಪದಕ್ಕಿಂತ ಮೊದಲು ಸ್ವಯಂಚಾಲಿತ ಅಂತರ ಬಿಡುವಿಕೆಯನ್ನು ತಡೆಯಿರಿ.</li>
+
+
+											<li><span class="gestures">ವಿರಾಮಚಿಹ್ನೆ</span> ವಿರಾಮಚಿಹ್ನೆ ನಮೂದಿಸಲು ಒಂದು ಸರಳ ಮಾರ್ಗ ಎಂದರೆ ಸ್ಪೇಸ್ ಕೀಯನ್ನು ತಟ್ಟುವ ಬದಲು ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆ, ಅಲ್ಪ ವಿರಾಮ, ಪೂರ್ಣ ವಿರಾಮ, ಅಥವಾ ಇತರ ವಿರಾಮಚಿಹ್ನೆಗಳಿಂದ ಸ್ಪೇಸ್ ಕೀಗೆ Swype ಮಾಡುವುದು.</li>
+
+											<li><span class="gestures">ಅಪ್ಲಿಕೇಷನ್ ಶಾರ್ಟ್ ಕಟ್ ಗಳು</span>Google ನಕ್ಷೆಗಳು: <img src="img_swypekey.png" /> ನಿಂದ ’g’ ಗೆ, ನಂತರ ’m’ ಗೆ Swype ಮಾಡಿ।</li>
+											<li><span class="gestures">ಶೋಧ</span>ಸ್ವಲ್ಪ ಟೆಕ್ಸ್ಟನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಮತ್ತು ಕ್ಷಿಪ್ರ ವೆಬ್ ಸರ್ಚ್ ಮಾಡಲು <img src="img_swypekey.png" /> ನಿಂದ S ವರೆಗೆ Swype ಮಾಡಿ.</li>
+											<li><span class="gestures">ಕೊನೆಗೆ ಬಳಸಿದ ಭಾಷೆಗೆ ಬದಲಾಯಿಸುವುದು.</span>ಅನೇಕ ಭಾಷೆಗಳನ್ನು ಉಪಯೋಗಿಸುವಾಗ, ಹಿಂದಿನ ಭಾಷೆಗೆ ಬದಲಾವಣೆ ಮಾಡಲು ಒಂದು ತ್ವರಿತ ಮಾರ್ಗ ಎಂದರೆ <img src="img_swypekey.png" /> ನಿಂದ ಸ್ಪೇಸ್ ಕೀಗೆ Swype ಮಾಡುವುದು.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									ಎರಡಕ್ಷರಗಳನ್ನು ನಮೂದಿಸುವುದು
+									<div id="ul_1n" class="closed">
+										<p>ಎರಡಕ್ಷರಗಳನ್ನು ನಮೂದಿಸುವಾಗ ನಿಖರತೆಯನ್ನು ಸುಧಾರಿಸಲು, ಸ್ವಲ್ಪ ಗೀಚಿ ಅಥವಾ ಅಕ್ಷರದ ಮೇಲೆ ಕುಣಿಕೆ ಮಾಡಿ. ಉದಾಹರಣೆಗೆ, &quot;ಬಂದದ್ದು&quot; ನಲ್ಲಿ &quot;ದದ&quot; ಪಡೆಯಲು, &quot;ದ&quot; ಕೀ ಮೇಲೆ ಗೀಚಿ. ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ಒಂದು ಪದವನ್ನು ಆರಿಸುವುದು
+									<div id="ul_1d" class="closed">
+										<p>ಪದಗಳ ಆಯ್ಕೆ ಪಟ್ಟಿಯಲ್ಲಿ ಸಲಹೆ ಮಾಡಲಾದ ಡಿಫಾಲ್ಟ್ ಪದವನ್ನು ಸ್ವೀಕರಿಸಲು, Swype ಮಾಡುತ್ತಲೇ ಇರಿ. ಇಲ್ಲವಾದಲ್ಲಿ, ನಿಮ್ಮ ಬೆರಳನ್ನು ಎಳೆಯುವ ಮೂಲಕ ಪಟ್ಟಿಯಾದ್ಯಂತ ಉರುಳಿಸಿ, ಮತ್ತು ನಿಮಗೆ ಬೇಕಾದ ಪದವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ. ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</p>
+										<p>ಪಟ್ಟಿಯಿಂದ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಲು, ಪಟ್ಟಿ ನಮೂದುಗಳನ್ನು ಕೇಳಲು ವೃತ್ತಾಕಾರದ ಚಲನೆಯಲ್ಲಿ ನಿಮ್ಮ ಬೆರಳನ್ನು ಸರಿಸಿ. ಪಟ್ಟಿಯಿಂದ ಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ಚಲಿಸುವುದರಿಂದಾಗಿ ಮುಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ; ಅಪ್ರದಕ್ಷಿಣಾಕಾರವಾಗಿ ಚಲಿಸುವುದರಿಂದಾಗಿ ಪಟ್ಟಿಯಿಂದ ಹಿಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ. ಬೆರಳನ್ನು ಎತ್ತುವುದರಿಂದ ಕೊನೆಯ ಬಾರಿ ಮಾತನಾಡಿದ ಪಟ್ಟಿ ನಮೂದನ್ನು ಔಟ್‌ಪುಟ್ ಮಾಡುತ್ತದೆ. ಪದದ ಆಯ್ಕೆಯ ಪಟ್ಟಿಂದ ಪದವನ್ನು ಆರಿಸಿಕೊಳ್ಳಲು, ಪಟ್ಟಿಯಲ್ಲಿರುವ ಮೊದಲ ಪದವನ್ನು ಆಲಿಸುವವರೆಗೂ ಕೀಬೋರ್ಡ್‌ನಿಂದ ನಿಮ್ಮ ಬೆರಳನ್ನು ಮೇಲಕ್ಕೆ ಸ್ಲೈಡ್ ಮಾಡಿ, ನಂತರ ವೃತ್ತಾಕಾರದ ಚಲನೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ.	ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಮಾತ್ರ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿದೆ.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ಸ್ವಯಂಚಾಲಿತ ಅಂತರ ಬಿಡುವಿಕೆ
+									<div id="ul_1f" class="closed">
+										<p>ವಾಕ್ಯದಲ್ಲಿ ಮುಂದಿನ ಪದವನ್ನು ನೀವು Swype ಮಾಡುವಾಗ, Swype ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪದಗಳ ನಡುವೆ ಅಂತರವನ್ನು ಸೇರಿಸುತ್ತದೆ. ನೀವು Swype ಸೆಟಿಂಗ್ಸ್ ನಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತ ಅಂತರ ಬಿಡುವಿಕೆ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆನ್ ಅಥವಾ ಆಫ್ ಮಾಡಬಹುದು.</p>
+										<p>ಸ್ಪೇಸ್ ಕೀನಿಂದ ಬ್ಯಾಕ್ ಸ್ಪೇಸ್ ಕೀಗೆ Swype ಮಾಡುವ ಮೂಲಕ ಒಂದು ಪದಕ್ಕೆ ಸ್ವಯಂಚಾಲಿತ ಅಂತರ ಬಿಡುವಿಕೆಯನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</p>
+										<p>ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ಒಂದು ಪದವನ್ನು ಬದಲಿ ಮಾಡುವುದು
+									<div id="ul_1g" class="closed">
+										<p>ಒಂದು ಪದದ ಮೇಲೆ ತಟ್ಟಿ ಅದನ್ನು ಬದಲಿ ಮಾಡಿ, ನಂತರ ನಿಮಗೆ ಬೇಕಾದ ಪದವನ್ನು ಪದಗಳ ಆಯ್ಕೆ ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿ, ಅಥವಾ ಪದವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಒಂದು ಹೊಸ ಪದವನ್ನು Swype ಮಾಡಿ. ಹೊಸ ಪದ ತಪ್ಪು ಪದಕ್ಕೆ ಬದಲಿಯಾಗುತ್ತದೆ.</p>
+										<p>ಪದವನ್ನು ತಟ್ಟಿ <img src="img_swypekey.png" /> ಹೊಡೆಯುವ ಮೂಲಕ ಅಥವಾ ಪವನನು ಎರಡು ಬಾರಿ ತಟ್ಟುವ ಮೂಲಕ ಒಂದು ಪದವನ್ನು ಹೈಲೈಟ್ ಮಾಡಬಹುದು.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ಅಕ್ಷರಗಳ ನಡುವೆ ನೆಗೆಯುವುದು
+									<div id="ul_1h" class="closed">
+										<p>ಕೆಲವೊಮ್ಮೆ Swype ಮಾಡುವಾಗ ಅಕ್ಷರಗಳನ್ನು ತಪ್ಪಿಸುವುದು ನಿಮಗೆ ಬೇಕಾದ ಪದವನ್ನು ಮೊದಲ ಬಾರಿಗೆ ಪಡೆಯುವುದನ್ನು ಖಾತ್ರಿಪಡಿಸುತ್ತದೆ.</p>
+										<p>ಉದಾಹರಣೆಗೆ, &quot;ಕಾರದ&quot; ಮತ್ತು &quot;ಕಾಯದ&quot; ಗಳನ್ನು ಒಂದೇ ಮಾರ್ಗದಿಂದ ಎಳೆಯಬಹುದು &#45; ಆದರೆ ಗಮನಿಸಿ, ನೀವು ಅಕ್ಷರದಿಂದ ಅಕ್ಷರಕ್ಕೆ ನೇರ ಗೆರೆಯಲ್ಲಿ ಚಲಿಸಬೇಕಾಗಿಲ್ಲ. &quot;ದ&quot; ಗೆ ನಿಮ್ಮ ಬೆರಳನ್ನು Swype ಮಾಡುವಾಗ &quot;ರ&quot; ಅನ್ನು ತಪ್ಪಿಸುವುದು &quot;ಕಾಯದ&quot; ಪದಗಳ ಆಯ್ಕೆ ಪಟ್ಟಿಯಲ್ಲಿ ಮೊದಲನೆ ಪದ ಎಂಬುದನ್ನು ಖಾತ್ರಿಪಡಿಸುತ್ತದೆ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ಪರ್ಯಾಯ ಕ್ಯಾರೆಕ್ಟರ್ ಗಳು
+									<div id="ul_1i" class="closed">
+
+										<p>ಒಂದು ಕೀಗಿರುವ ಪರ್ಯಾಯ ಕ್ಯಾರೆಕ್ಟರ್ ಗಳ ಒಂದು ಪಟ್ಟಿಯನ್ನು ಮೇಲ್ತರಲು ಆ ಕೀಯನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ, ಉದಾಹರಣೆಗೆ @ ಮತ್ತು % ಗಳಂತಹ ಸಂಕೇತಗಳು, ಮತ್ತು ಸಂಖ್ಯೆಗಳು.</p>
+
+										<p>ಸಂಕೇತಗಳ ಕೀಬೋರ್ಡಿಗೆ ಕರೆದೊಯ್ಯಲ್ಪಡಲು ಸಿಂಬಲ್ಸ್ ಕೀಯನ್ನು (?123) ತಟ್ಟಿ.</p>
+										<p>ಎಲ್ಲಾ ಕ್ಯಾರೆಕ್ಟರ್ ಗಳನ್ನು ಮುಖ್ಯ ಕೀಬೋರ್ಡಿನಿಂದ Swype ಮಾಡಬಹುದು (ಅವು ನಿಮಗೆ ಕಾಣಲಿ ಅಥವಾ ಕಾಣದಿರಲಿ) ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ನೀವು ಕೀಬೋರ್ಡಿನ ಈ ನೋಟವನ್ನು ಬಳಸಿ Swype ಮಾಡಬಹುದು, ಆದರೆ ಕನಿಷ್ಠ ಒಂದು ಸಂಖ್ಯೆ ಅಥವಾ ಸಂಕೇತವನ್ನು ಹೊಂದಿರುವ ಪದಗಳು ಮಾತ್ರ ನಿಮಗೆ ದೊರೆಯುತ್ತವೆ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ಪದಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ಡಿಲೀಟ್ ಮಾಡುವುದು
+									<div id="ul_1j" class="closed">
+										<p>ನೀವು ಬಳಸುವ ಯಾವುದೇ ಹೊಸ ಪದಗಳನ್ನು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ನಿಘಂಟಿಗೆ Swype ಜಾಣ್ಮೆಯಿಂದ ಸೇರಿಸುತ್ತದೆ.</p>
+										<p>ಒಂದು ಪದವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ <img src="img_swypekey.png" /> ತಟ್ಟುವ ಮೂಲಕ ಕೂಡ ನೀವು ಒಂದು ಪದವನ್ನು ಸೇರಿಸಬಹುದು. ಪದವನ್ನು ಸೇರಿಸಲು ಕಾಣಿಸುವ ಪ್ರಾಂಪ್ಟ್ ಅನ್ನು ತಟ್ಟಿ.</p>
+										<p>ಒಂದು ಪದವನ್ನು ಡಿಲೀಟ್ ಮಾಡಲು, ಪದಗಳ ಆಯ್ಕೆ ಪಟ್ಟಿಯಲ್ಲಿರುವ ಪದವನ್ನು ಒತ್ತಿ ಹಿಡಿದು ದೃಢೀಕರಣ ಡಯಲಾಗ್ ನಲ್ಲಿ ಓಕೆ ತಟ್ಟಿ. ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									ವ್ಯಕ್ತಿ ವಿಶಿಷ್ಟಗೊಳಿಸುವಿಕೆ
+									<div id="ul_1k" class="closed">
+										<p>Twitter, ಮತ್ತು Gmail ಗಳಿಂದ Swype ನಿಮ್ಮ ನಿಘಂಟಿಗೆ ಪದಗಳನ್ನು ಬೇಗನೆ ಸೇರಿಸಬಹುದು. Swypeಅನ್ನು ವ್ಯಕ್ತಿ ವಿಶಿಷ್ಟಗೊಳಿಸಲು:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</li>
+											<li>Swype ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುನಿಂದ, ನನ್ನ ಪದಗಳು &gt; ವೈಯಕ್ತೀಕರಣ ಆಯ್ಕೆಮಾಡಿ.</li>
+											<li>ವ್ಯಕ್ತಿ ವಿಶಿಷ್ಟಗೊಳಿಸುವಿಕೆ ಆಯ್ಕೆಗಳಿಂದ ಆಯ್ಕೆ ಮಾಡಿ, ಪ್ರಾಂಪ್ಟ್ ಮಾಡಿದರೆ ನಿಮ್ಮ ಪರಿಚಯಗಳನ್ನು ನಮೂದಿಸಿ.</li>
+											<li>ನೀವು Swypeಅನ್ನು ಒಂದು ಅಥವಾ ಎಲ್ಲ ಮೂಲಗಳಿಂದ ವ್ಯಕ್ತಿ ವಿಶಿಷ್ಟಗೊಳಿಸಬಹುದು.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">ಮಾತನಾಡಿ</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>ಟೆಕ್ಸ್ಟ್ ಮತ್ತು ಇಮೇಲ್ ಸಂದೇಶಗಳಿಂದ ಹಿಡಿದು Facebook ಮತ್ತು Twitter ಅಪ್ ಡೇಟ್ ಗಳಿಗೆ ಟೆಕ್ಸ್ಟ್ ವಿಷಯ ನಮೂದಿಸಲು ನೀವು ಮಾತನಾಡಬಹುದು.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿರಿ <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									ವಿರಾಮಚಿಹ್ನೆ
+									<div id="ul_2a" class="open">
+										<p>ಸ್ವತಃ ವಿರಾಮಚಿಹ್ನೆಗಳನ್ನು ಸೇರಿಸುವ ಅಗತ್ಯವಿಲ್ಲ. ನಿಮಗೆ ಬೇಕಾದ ವಿರಾಮಚಿಹ್ನೆಯನ್ನು ಹೇಳಿ ಮುಂದುವರಿಯಿರಿ. ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ:</p>
+										<ol>
+											<li>ಧ್ವನಿ ಕೀ ಒತ್ತಿ ಮಾತನಾಡಲು ಆರಂಭಿಸಿ.</li>
+											<li>ನೀವು ಏನು ಹೇಳುವಿರಿ: <i>ಊಟ ರುಚಿಕರವಾಗಿತ್ತು ಆಶ್ಚರ್ಯ ಚಿಹ್ನೆ</i></li>
+											<li>ನಿಮಗೆ ಏನು ಸಿಗುತ್ತದೆ: <i>ಊಟ ರುಚಿಕರವಾಗಿತ್ತು!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ಕೆಲವು ಕೀಬೋರ್ಡುಗಳಲ್ಲಿ ಧ್ವನಿ ಇನ್ಪುಟ್ ಲಭ್ಯವಿಲ್ಲ।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ಬರೆಯಿರಿ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>ಅಕ್ಷರಗಳನ್ನು ಮತ್ತು ಪದಗಳನ್ನು ರಚಿಸಲು ನೀವು ನಿಮ್ಮ ಬೆರಳನ್ನು ಬಳಸಬಹುದು ಮತ್ತು Swype ಅದನ್ನು ಟೆಕ್ಸ್ಟಿಗೆ ಪರಿವರ್ತಿಸುತ್ತದೆ. ನೀವು ಎಡದಿಂದ ಬಲಕ್ಕೆ ಅಥವಾ ಒಂದರ ಮೇಲೊಂದಾಗಿ ಅಕ್ಷರಗಳನ್ನು ರಚಿಸಬಹುದು. ಅಕ್ಷರ ಮತ್ತು ಸಂಕೇತ ವಿಧಾನಗಳ ನಡುವೆ ಟಾಗಲ್ ಮಾಡಲು ABC / 123 ಒತ್ತಿ.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿರಿ <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									ಕೈಬರಹ ಸಮರ್ಥಗೊಳಿಸಿ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> ಯನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಮತ್ತು ನಿಮ್ಮ ಕೈಬೆರಳನ್ನು ಕೈಬರಹ ಐಕಾನ್ ಮೇಲೆ ಜಾರಿಸಿ.</li>
+											<li>ಕೈಬರಹದ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಿಮ್ಮ ಬೆರಳಿನೊಂದಿಗೆ ಅಕ್ಷರಗಳನ್ನು ರಚಿಸಿ.</li>
+
+											<li>ಪ್ರತಿ ಪದದ ನಡುವೆ ಸ್ಪೇಸ್ ಬಾರ್ ತಟ್ಟಿ।</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ಮಲ್ಟಿ&#45;ಟಚ್ ಸೂಚ್ಯವರ್ತನೆ
+									<div id="ul_3b" class="closed">
+										<p>ಮಲ್ಟಿ&#45;ಟಚ್ ಸೂಚ್ಯವರ್ತನೆ, ಪದಗಳನ್ನು ಅಥವಾ ಅಕ್ಷರಗಳನ್ನು ದೊಡ್ಡಕ್ಷರಗಳನ್ನಾಗಿಸುವಂತಹ ಸರಳ ಕೆಲಸಗಳನ್ನು ಪೂರ್ತಿಗೊಳಿಸಲು ನಿಮಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ.</p>
+										<ol>
+											<li>ಚಿತ್ರ ಬಿಡಿಸುವ ಪ್ಯಾಡ್ ಮೇಲೆ ಕೆಲವು ಸಣ್ಣಕ್ಷರಗಳನ್ನು ಬಿಡಿಸಿ।</li>
+											<li>ಕ್ಯಾರೆಕ್ಟರ್ ಗಳನ್ನು ನಮೂದಿಸಿದ ಬಳಿಕ, ಎರಡು ಬೆರಳುಗಳನ್ನು ಬರೆಯುವ ಕ್ಷೇತ್ರಕ್ಕೆ ಮೇಲಕ್ಕೆ ಜಾರಿಸಿ।</li>
+											<li>ಕೈಬರಹದ ವೈಶಿಷ್ಟ್ಯ ಮಲ್ಟ್&#45;ಟಚ್ ಸೂಚ್ಯವರ್ತನೆಯನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಅಕ್ಷರಗಳನ್ನು ದೊಡ್ಡಕ್ಷರಗಳನ್ನಾಗಿಸುತ್ತದೆ.।</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>ಕೆಲವು ಕೀಬೋರ್ಡುಗಳ ಮೇಲೆ ಕೈಬರಹ ಲಭ್ಯವಿಲ್ಲ.</i></p>
+									<p><i>ವ್ಯವಸ್ಥೆಯ ಲಭ್ಯತೆ ಸೇವೆ ಅನ್ವೇಷಿಸಿ ಮೂಲಕ ಟಚ್ ಆನ್ ಇರುವಾಗ ಈ ಸವಲತ್ತು ಲಭ್ಯವಿಲ್ಲ.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ಟೈಪ್ ಮಾಡಿ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>ಕೈಯಿಂದ ಕೀಬೋರ್ಡ್ ಇನ್ಪುಟ್ ಮಾಡುವ ಸಾಂಪ್ರದಾಯಿಕ ವಿಧಾನ. Swype ಕೀಬೋರ್ಡ್ ಮೇಲೆ ತಟ್ಟುವ ಇನ್ಪುಟ್ಅನ್ನು ಕೆಲವು ಸಹಾಯಕ ವೈಶಿಷ್ಟ್ಯಗಳು ಹೆಚ್ಚು ಸುಲಭ ಮತ್ತು ಹೆಚ್ಚು ಪರಿಣಾಮಕಾರಿಯಾಗಿಸಿವೆ:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿರಿ <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ಸ್ಲಾಪಿ ಟೈಪಿಂಗ್ ಕರೆಕ್ಷನ್
+									<div id="ul_4a" class="open">
+										<p>ನೀವು ಪ್ರತಿಯೊಂದು ಅಕ್ಷರವನ್ನು ಪರಿಪೂರ್ಣವಾಗಿ ತಟ್ಟಬೇಕಿಲ್ಲ. ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಪ್ರಯತ್ನ ಮಾಡಿ ಮತ್ತು Swype ಜಾಣತನದಿಂದ ಪದ ಸಲಹೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ಶಬ್ದ ಪೂರ್ಣಗೊಳಿಸುವುದು
+									<div id="ul_4b" class="closed">
+										<p>ನೀವು ಕೇವಲ ಕೆಲವೇ ಅಕ್ಷರಗಳನ್ನು ತಟ್ಟಿದಾಗ Swype ನಿಮ್ಮ ಪದವನ್ನು ಊಹಿಸಲೂಬಹುದು.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ಭಾಷೆಗಳು</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>ಕೀಬೋರ್ಡಿನಿಂದ ಭಾಷೆಗಳನ್ನು ಬದಲಾಯಿಸಲು: ಸ್ಪೇಸ್ ಬಾರನ್ನು ಒತ್ತಿ ಹಿಡಿಯಿರಿ. ಪಾಪ್&#45;ಅಪ್ ಮೆನುವಿನಿಂದ ನಿಮಗೆ ಬೇಕಾದ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ನೇರವಾಗಿ ಅಪ್ ಡೇಟ್ ಗಳನ್ನು ಮತ್ತು ಶಕ್ತಿಶಾಲಿ ಫಂಕ್ಷನಾಲಿಟಿಗಳನ್ನು ನೀಡಲು ನಮಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ! Swype Connect 3G ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತದೆಯಾದರೂ ನಾವು ಯಾವಾಗಲೂ ವೈಪೈ ಸಂಪರ್ಕವನ್ನು ಕಂಡುಕೊಳ್ಳುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿರಿ <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ಭಾಷಾ ಡೌನ್ಲೋಡ್ ಗಳು
+									<div id="ul_6a" class="open">
+										<p>Swype ಗೆ ಹೆಚ್ಚುವರಿ ಭಾಷೆಗಳನ್ನು ಸೇರಿಸುವುದು ಸುಲಭ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ಒತ್ತಿ ಹಿಡಿಯಿರಿ ಮತ್ತು ಭಾಷೆಗಳು ಅನ್ನು ಆರಿಸಿ.</li>
+											<li>ಭಾಷೆಗಳು ಮೆನುನಿಂದ, ಡೌನ್ಲೋಡ್ ಭಾಷೆಗಳು ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.</li>
+											<li>ಒಂದು ಭಾಷೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಡೌನ್ಲೋಡ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆರಂಭವಾಗುತ್ತದೆ.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect ಎಲ್ಲಾ ಕೀಬೋರ್ಡುಗಳ ಮೇಲೆ ಲಭ್ಯವಿಲ್ಲ.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">ಹೆಚ್ಚಿನ ನೆರವು</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ಬಳಕೆಯೊಂದಿಗೆ ಹೆಚ್ಚಿನ ನೆರವಿಗಾಗಿ, <a href="http://www.swype.com">www.swype.com</a> ನಲ್ಲಿ Swype ಬಳಕೆದಾರರ ಕೈಪಿಡಿ ಮತ್ತು Swype ಟಿಪ್ಸ್ ಮತ್ತು ವಿಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಅಥವಾ <a href="http://forum.swype.com">forum.swype.com</a> ನಲ್ಲಿ ಆನ್&#45;ಲೈನ್ Swype ವೇದಿಕೆ ನೋಡಿ.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

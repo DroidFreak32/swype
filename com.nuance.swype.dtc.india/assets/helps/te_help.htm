@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">మాట్లాడు</a></div>
+				<div><a href="#write">వ్రాయి</a></div>
+				<div class="last"><a href="#tap">టైప్ చెయ్యి</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype తో, నాలుగు విభిన్న ఇన్పుట్ మోడ్లలో ఏ పొరపాటు లేకుండా మీరు మార్చగలరు &#45; Swype, మాట్లాడు, వ్రాయి లేదా తట్టు.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>వచనం ఎంటర్ చేసే ఒక త్వరిత మార్గం Swype. అక్షరాలలో లాగడం ద్వారా నిన్ను ఒక పదాన్ని ఎంటర్ చేసే వీలు కల్పిస్తుంది. పదము యొక్క మొదటి అక్షరం మీద మీ వ్రేలిని పెట్టి అక్షరం నుండి అక్షరం వరకు ఒక మార్గాన్ని గీస్తూ చివరి అక్షరం తరువాత లేపండి. అవసరమైన చోట Swype ఖాళీలను ప్రవేశ పెడుతుంది.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							మరింత నేర్చుకో <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype కీ
+									<div id="ul_1a" class="open">
+										<p>Swype కీ అంటే Swype లోగోతో ఉన్న కీ. Swype సెట్టింగుల ప్రాప్యత పొందడానికి Swype కీని నొక్కి ఉంచండి.</p>
+										<p>చాలా Swype చిహ్నాలు ప్రారంభించడానికి Swype కీని కూడా ఉపయోగించబడుతుంది.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    కీ బోర్డు ప్రివ్యూ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype చిహ్నాలు
+									<div id="ul_1b" class="closed">
+										<p>కీ బోర్డు మీద సాధారణ పనులను త్వరగా చేయడానికి Swype చిహ్నాలు షార్ట్కట్లు. సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</p>
+										<ul>
+											<li><span class="gestures">ఎడిట్ కీ బోర్డుకి వెళ్ళడం</span> ఎడిట్ కీ బోర్డుకి వెళ్ళడానికి, కీ బోర్డులో <img src="img_swypekey.png" /> నుండి చిహ్నాల కీ (?123) వరకు Swype చెయ్యి.</li>
+											<li><span class="gestures">నంబరు కీ బోర్డుకి వెళ్ళడం</span> నంబరు కీ బోర్డుకి త్వరగా వెళ్ళడానికి, <img src="img_swypekey.png" /> నుండి 5 నంబరు వరకు Swype చెయ్యి.</li>
+											<li><span class="gestures">కీ బోర్డుని దాయడం</span> సులువుగా కీ బోర్డుని దాయడానికి, Swype కీ నుండి బ్యాక్ స్పేస్ వరకు Swype చెయ్యి చాలు.</li>
+
+											<li><span class="gestures">ఆటోమేటిక్ స్పేసింగ్ని ఆఫ్ చెయ్యి</span> స్పేస్ కీ నుండి బ్యాక్ స్పేస్కీ వరకు Swyping చేయడం ద్వారా తరువాత పదం ముందు ఆటోమేటిక్ ఖాళీని కుదించు.</li>
+
+
+											<li><span class="gestures">పంక్చ్యుయేషన్</span> పంక్చ్యుయేషన్ ఎంటర్ చేయడానికి ఒక మామూలు మార్గం ఏమిటంటే ప్రశ్నార్ధకం, కామా, వ్యవధి, లేదా ఇతర పంక్చ్యుయేషన్ నుండి స్పేస్ కీ లని తట్టడానికి బదులుగా, Swype చెయ్యి.</li>
+
+											<li><span class="gestures">అనువర్తన షార్ట్కట్లు</span>Google మ్యాప్లు: <img src="img_swypekey.png" /> నుండి &#39;g&#39; వరకు ఆ తరువాత &#39;m&#39; Swype చెయ్యి</li>
+											<li><span class="gestures">వెతకండి</span>కొంత టెక్స్టును హైలైటు చెయ్యండి మరియు త్వరగా వెబ్లో వెతకటానికి <img src="img_swypekey.png" /> నుండి &#39;S&#39; వరకు Swype చెయ్యండి</li>
+											<li><span class="gestures">చివరిసారిగా ఉపయోగించిన భాషకి మారుతుంది.</span>వివిధ భాషలు ఉపయోగిస్తున్నపుడు, ఇదివరకటి బాషకి త్వరగా మారాలంటే <img src="img_swypekey.png" /> నుండి స్పేస్ కీ వరకు Swype చేయాలి.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									రెండు అక్షరాలను ఎంటర్ చేయడం
+									<div id="ul_1n" class="closed">
+										<p>రెండు అక్షరాలను ఎంటర్ చేసేటప్పుడు కచ్చితత్వాన్ని మెరుగు పరచడానికి, కొంచెం వ్రాసి లేదా అక్షరం మీద వలయం చెయ్యండి. ఉదాహరణకి, &quot;నెలల&quot; లో &quot;లల&quot; పొందడానికి, &quot;ల&quot; కీ పై వ్రాయండి. సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ఒక పదాన్ని ఎంపిక చేయడం
+									<div id="ul_1d" class="closed">
+										<p>పద వికల్ప లిస్టులో సూచించిన డిఫాల్ట్ పదాన్ని ఆమోదించడానికి, Swyping చేస్తూ ఉండండి. కాకపోతే, మీ వ్రేలితో లాగడం ద్వారా లిస్టుని జరిపి, మీకు కావలసిన పదాన్ని ఎంపిక చెయ్యి. సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</p>
+										<p>జాబితా నుండి వచనాన్ని ఎంచుకోవడం కోసం, జాబితా నమోదులను వినడానికి మీ వేలిని వృత్తాకారంగా తిప్పండి. సవ్యదిశలో కదలడం ద్వారా జాబితాలో ముందుకు కొనసాగవచ్చు; అప&#45;సవ్యదిశలో కదలడం ద్వారా జాబితాలో వెనుకకు వెళ్లవచ్చు. వేలిని పైకి ఎత్తడం ద్వారా చివరిగా చెప్పిన జాబితా నమోదు అవుట్‌పుట్ చేయబడుతుంది. పద ఎంపిక జాబితాలో పదాన్ని ఎంచుకోవడం కోసం, జాబితాలోని మొదటి పదం వినబడే వరకు కీబోర్డ్ నుండి మీ వేలిని ఎగువకు స్లయిడ్ చేస్తూ ఉండండి, ఆపై వృత్తాకార కదలికను ప్రారంభించండి.	సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడే ఈ ఫీచ. లభిస్తుంది.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ఆటోమేటిక్ ఖాళీ
+									<div id="ul_1f" class="closed">
+										<p>వాక్యములో తరువాత పదాన్ని మీరు Swype చేసేటప్పుడు పదాల మధ్య ఖాళీని Swype ఆటోమేటిక్గా ప్రవేశ పెడుతుంది. Swype సెట్టింగులలో స్వయంచాలక &#45; ఖాళీ ముఖ్యాంశాన్ని మీరు ఆన్ లేదా ఆఫ్ చేయవచ్చు.</p>
+										<p>స్పేస్ కీ నుండి బ్యాక్ స్పేస్ వరకు Swyping ద్వారా ఒక పదానికి స్వయంచాలక &#45; ఖాళీని మీరు ఆఫ్ చేయవచ్చు.</p>
+										<p>సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ఒక పదాన్ని మార్చడం
+									<div id="ul_1g" class="closed">
+										<p>దాని మీద తట్టి అపుడు పద వికల్ప లిస్టు నుండి మీరు కావాలనుకున్న పదాన్ని ఎంపిక చెయ్యి, లేదా పదాన్ని హైలైట్ చేసి ఒక కొత్త పదాన్ని Swype చేయడం ద్వారా పదాన్ని మార్చవచ్చు కొత్త పదం సరికాని పదాన్ని మార్చుతుంది.</p>
+										<p>ఒక పదాన్ని తట్టి మరియు <img src="img_swypekey.png" /> ని కొట్టడం లేదా రెండు సార్లు పదాన్ని తట్టడం ద్వారా ఒక పదాన్ని హైలైట్ చేయవచ్చు.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									అక్షరాల మధ్య చెంగున మారడం
+									<div id="ul_1h" class="closed">
+										<p>మీకు మొదట కావలసిన పదం మీరు పొందేలా Swyping చేస్తున్నపుడు అక్షరాలను అప్పుడప్పుడు పట్టించుకోకపోవడం.</p>
+										<p>ఉదాహరణకి, &quot;అంతగా&quot; మరియు &quot;అండగా&quot; ఒకే మార్గంలో తీసుకోవచ్చు &#45; కాని సరళ రేఖలో ఒక అక్షరం నుండి మరియొక అక్షరానికి మీరు కదలనక్కర లేదని గమనించండి. పద వికల్ప లిస్టులో &quot;అండగా&quot; పదం మొదటిది అయ్యేలా మీ వ్రేలుని &quot;గ&quot; కి Swyping చేసినపుడు &quot;త&quot; పట్టించుకోకపోవడం.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ప్రత్యామ్నాయ అక్షరాలు
+									<div id="ul_1i" class="closed">
+
+										<p>ఆ కీ కోసం @ మరియు % వంటి చిహ్నాలు, మరియు నంబర్ల ప్రత్యామ్నాయ అక్షరాల ఒక లిస్టును తీసుకురావడానికి కీని నొక్కి మరియు పట్టుకోండి.</p>
+
+										<p>చిహ్నాల కీ బోర్డుకి తీసుకువెళ్ళే చిహ్నాల కీ (?123)ని తట్టు.</p>
+										<p>ప్రధాన కీ బోర్డు నుండి (మీరు వాటిని చూడగలిగినా లేకపోయినా) అన్ని అక్షరాలు Swype అవుతాయని గమనించండి. కీ బోర్డు యొక్క ఈ వీక్షణ ఉపయోగించి మీరు Swype చేయవచ్చు, కాని కనీసం ఒక నంబరు లేదా చిహ్నం ఉండే పదాలు మాత్రమే మీరు పొందగలరు.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									పదాలను చేర్చడం లేదా తొలగించడం
+									<div id="ul_1j" class="closed">
+										<p>మీరు ఉపయోగించే ఏ కొత్త పదాలనైనా Swype మీ వ్యక్తిగత నిఘంటువుకి చాకచక్యంగా చేర్చుతుంది.</p>
+										<p>హైలైట్ చేసి <img src="img_swypekey.png" /> ని తట్టడం ద్వారా మీరు ఒక పదాన్ని కూడా చేర్చవచ్చు. పదాన్ని చేర్చమని కనిపించే ప్రాంప్ట్ని తట్టు.</p>
+										<p>ఒక పదాన్ని తొలగించడానికి, పద వికల్ప లిస్టులో పదాన్ని నొక్కి పట్టుకుని అపుడు నిశ్చయపరచు డైలాగ్లో సరే ని తట్టండి. సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									వ్యక్తిగతీకరణ
+									<div id="ul_1k" class="closed">
+										<p>Twitter మరియు Gmail నుండి మీ నిఘంటువుకి త్వరగా పదాలను Swype చేర్చుతుంది. Swype ని వ్యక్తీకరించడానికి:</p>
+										<ol>
+											<li><img src="img_swypekey.png" />ని నొక్కి పట్టుకోండి.</li>
+											<li>Swype సెట్టింగ్‌ల మెను నుండి, నా పదాలు &gt; వ్యక్తిగతీకరణను ఎంచుకోండి.</li>
+											<li>వ్యక్తీకరణ వికల్పాలు నుండి ఎంపిక చేసి ప్రాంప్ట్ చేస్తే మీ రికార్డులను ఎంటర్ చెయ్యి.</li>
+											<li>ఒకటి లేదా అన్ని మూలాల నుండి మీరు Swypeని వ్యక్తీకరించవచ్చు</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">మాట్లాడు</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Facebook మరియు Twitter అప్డేట్లకి వచన మరియు ఈమెయిల్ సందేశాల నుండి ప్రతి వచన విషయాన్ని ఎంటర్ చేయడానికి మీరు మాట్లాడవచ్చు.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							మరింత నేర్చుకో <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									పంక్చ్యుయేషన్
+									<div id="ul_2a" class="open">
+										<p>మానవీయంగా పంక్చ్యుయేషన్ని చేర్చడం అవసరం లేదు. మీకు కావలసిన పంక్చ్యుయేషన్ చెప్పి కొనసాగించండి చాలు. దీనిని ప్రయత్నించు:</p>
+										<ol>
+											<li>స్వర కీ ని నొక్కి మాట్లాడడం ప్రారంభించండి.</li>
+											<li>మీరు ఏమి చెబుతారు: <i>రాత్రి భోజనం రుచికరంగా ఉంది ఎక్సక్లెమేషన్ పాయింట్</i></li>
+											<li>మీరు ఏమి పొందుతారు: <i>రాత్రి భోజనం రుచికరంగా ఉంది!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>కొన్ని కీ బోర్డులలో స్వర ఇన్పుట్ అందుబాటులో లేదు</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">వ్రాయి</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>అక్షరాలను మరియు పదాలను గీయడానికి మీరు మీ వ్రేలిని ఉపయోగించవచ్చు మరియు Swype దానిని వచనంగా మారుస్తుంది. అక్షరాలను ఎడమ నుండి కుడి వైపుకి లేదా ఒక దానిపై ఇకొక దానిని మీరు గీయవచ్చు. అక్షరం మరియు చిహ్నం మోడ్ల మధ్య టోగుల్ చేయడానికి ABC / 123ని నొక్కు.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							మరింత నేర్చుకో <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									చేతివ్రాతని ప్రారంభించు
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" />ని నొక్కండి మరియు పట్టుకుని ఇంకా మీ వ్రేలిని చేతిరాత ఐకానుకి చేర్చండి.</li>
+											<li>చేతివ్రాత ప్రాంతంలో మీ వ్రేలితో అక్షరాలను వ్రాయి.</li>
+
+											<li>ప్రతి పదం మధ్యలో స్పేస్ బార్ని తట్టండి</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									మల్టి&#45;టచ్ చిహ్నం
+									<div id="ul_3b" class="closed">
+										<p>మల్టి&#45;టచ్ చిహ్నం మిమ్మల్ని పదాలను లేదా అక్షరాలను పెద్దవిగా చేయడం వంటి సాధారణ పనులను పూర్తి చేయనిస్తుంది.</p>
+										<ol>
+											<li>డ్రాయింగ్ ప్యాడ్లో కొన్ని అధమ కేస్ అక్షరాలను గీయండి</li>
+											<li>అక్షరాలను ఎంటర్ చేసిన తరువాత, వ్రాసే ప్రాంతంలో రెండు వ్రేళ్ళని పైకి జరపండి</li>
+											<li>చేతివ్రాత ముఖ్యాంశము మల్టి&#45;టచ్ చిహ్నాన్ని గుర్తించి మరియు అక్షరాలను పెద్దవిగా చేస్తుంది</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>కొన్ని కీ బోర్డులలో చేతివ్రాత అందుబాటులో లేదు.</i></p>
+									<p><i>సిస్ట. యాక్సె. సర్వీ. Explore&#45;by&#45;Touch ఆన్‍లో ఉన్నప్పుడు ఈ ఫీచ. లభించదు.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">టైప్ చెయ్యి</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>మానవీయ కీ బోర్డు ఇన్పుట్ యొక్క సాంప్రదాయ ఫార్మ్. కొన్ని సహాయపడే ముఖ్యాంశాల ద్వారా Swype కీ బోర్డులో ట్యాప్ ఇన్ పుట్ సులువుగా మరియు సమర్ధవంతంగా చేయబడింది:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							మరింత నేర్చుకో <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									మామూలు టైపింగ్ దిద్దుబాటు
+									<div id="ul_4a" class="open">
+										<p>కచ్చితంగా ప్రతి అక్షరం మీరు తట్టనక్కరలేదు. మీరు మంచిగా ప్రయత్నించండి అంతే Swype చాకచక్యంగా పదాల సూచనలను ఇస్తుంది.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									పదం పూర్తి
+									<div id="ul_4b" class="closed">
+										<p>కొన్ని అక్షరాలు మాత్రమే మీరు తట్టినపుడు Swype మీ పదాన్ని కూడా ఊహించగలదు.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">భాషలు</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>కీ బోర్డు నుండి భాషలు మార్చడానికి: స్పేస్ బార్ నొక్కి పట్టుకోండి. పాపప్ మెనూ నుండి మీకు కావలసిన భాషని ఎంచుకోండి.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>మీ పరికరానికి అప్డేట్లను మరియు శక్తివంతమైన పనితీరును నేరుగా ఇవ్వడానికి Swype కనెక్ట్ మనల్ని అనుమతిస్తుంది. Swype Connect 3Gలో పని చేస్తున్నప్పటికీ, మేము ఎల్లప్పుడూ Wi&#45;Fi కనెక్షన్‌ను కనుగొనమని సిఫార్సు చేస్తాము.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							మరింత నేర్చుకో <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									భాష డౌన్లోడ్లు
+									<div id="ul_6a" class="open">
+										<p>Swype కి అదనపు భాషలను చేర్చడం సులువు:</p>
+										<ol>
+											<li><img src="img_swypekey.png" />ని నొక్కి పట్టుకుని మరియు భాష ఎంపికలను ఎంపిక చెయ్యండి.</li>
+											<li>భాష వికల్పాల మెనూ నుండి, డౌన్లోడ్ భాషలను ఎంపిక చెయ్యండి.</li>
+											<li>ఒక భాషని నొక్కండి మరియు మీ డౌన్లోడ్ ఆటోమేటిక్గా మొదలవుతుంది.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect అన్ని కీబోర్డ్‌ల్లో అందుబాటులో లేదు.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">మరింత సహాయం</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ఉపయోగంతో మరింత సహాయానికి, <a href="http://www.swype.com">www.swype.com</a> వద్ద ఒక Swype యూజర్ మేన్యువల్ మరియు Swype చిట్కాలు మరియు వీడియోలు చూడండి, లేదా <a href="http://forum.swype.com">forum.swype.com</a> వద్ద Swype ఫోరంని చెక్ చెయ్యండి.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

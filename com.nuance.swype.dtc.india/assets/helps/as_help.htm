@@ -1,0 +1,321 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">কথা কওক</a></div>
+				<div><a href="#write">লিখক</a></div>
+				<div class="last"><a href="#tap">টাইপ কৰক</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ৰ দ্বাৰা আপুনি Swype, কথা কোৱা, লিখা বা লাহেকৈ টুকুৰিওয়া&#45; এই চাৰিটা ভিন্ন ইনপুট ম&#39;ডৰ মাজত বাধাহীন ভাবে অদল&#45;বদল কৰিবলৈ সক্ষম হ&#39;ব</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>আখৰ প্ৰবিষ্ট কৰিবলৈ Swype&#45;ই দ্ৰুততম উপায় ই আপোনাৰ আখৰবোৰৰ মাধ্যমেৰে আঁকি কোনো শব্দ প্রবিষ্ট কৰিবলৈ দিয়ে শব্দটোৰ প্রথম আখৰটোৰ ওপৰত আপোনাৰ আঙুলি ৰাখক আৰু আখৰৰ পৰা আখৰলৈ এটা পথ আঁকক, শেষ আখৰটোতহে আঙুলি ডাঙিব পাৰিব। Swype য&#39;ত আৱশ্যক স্পেচ প্রবিষ্ট কৰিব</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							আৰু অধিক শিকক <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype কী
+									<div id="ul_1a" class="open">
+										<p>Swype ল&#39;গ&#39; থকা কীটোৱেই হৈছে Swype কী Swype চেটিংছত প্রৱেশ কৰিবলৈ Swype কী টিপক আৰু ধৰি থাকক</p>
+										<p>Swype ইঙ্গিতসমূহ আৰম্ভ কৰিবলৈকো Swype কী ব্যৱহাৰ কৰা হয়</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    কীব&#39;র্ড প্রিভিউ
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype ইঙ্গিতসমূহ
+									<div id="ul_1b" class="closed">
+										<p>সাধাৰণ কামবোৰ সোনকালে সমাধা কৰিবলৈ কীব&#39;র্ডত Swype ইঙ্গিতসমূহ শ্বর্টকাট হিচাবে ব্যৱহাৰ কৰা হয় যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া এই বৈশিষ্ট্যটো উপলভ্য নহয়।</p>
+										<ul>
+											<li><span class="gestures">সম্পাদনা কীব&#39;র্ড লাভ কৰা</span> সম্পাদনা কীব&#39;র্ড লাভ কৰিবলৈ, কীব&#39;র্ডত <img src="img_swypekey.png" /> পৰা চিহ্নবোৰৰ কীলৈ (?123) Swype কৰক</li>
+											<li><span class="gestures">সংখ্যা কীব&#39;র্ড লাভ কৰা</span> সংখ্যা কীব&#39;র্ড লাভ কৰিবলৈ, কীব&#39;র্ডত <img src="img_swypekey.png" /> পৰা 5 সংখ্যালৈ Swype কৰক</li>
+											<li><span class="gestures">কীব&#39;র্ডখন লুকুওৱা</span> সহজে কীব&#39;র্ড লুকুৱাবলৈ, কেৱল Swype কীৰ পৰা বেকস্পেচ কীলৈ Swype কৰক</li>
+
+											<li><span class="gestures">স্বয়ংক্রিয় স্পেচিং বন্ধ কৰক</span> পিছৰ শব্দটোৰ আগতে স্পেচ কীৰ পৰা বেকস্পেচ কীলৈ Swyping ৰ দ্বাৰা স্বয়ংক্রিয় স্পেচিং দমন কৰক</li>
+
+
+											<li><span class="gestures">যতি চিহ্ন</span> যতিচিহ্ন প্রবিষ্ট কৰাৰ এটা সাধাৰণ উপায় হৈছে প্রশ্নবোধক চিন, কমা, দাড়ি বা অন্যান্য যতিচিহ্নবোৰ ইয়াক লাহেকৈ টুকুৰিয়াই দিয়াতকৈ স্পেচ কীলৈ Swype কৰা</li>
+
+											<li><span class="gestures">প্রয়োগ শ্বর্টকাটবোৰ</span>Google Maps: <img src="img_swypekey.png" /> পৰা &#39;g&#39; লৈ আৰু তাৰ পিছচ &#39;m&#39; লৈ Swype কৰক</li>
+											<li><span class="gestures">সন্ধান কৰক</span>কিছুমান পাঠ লক্ষণীয় কৰক আৰু খৰকৈ কোনো ৱেব সন্ধান কৰিবলৈ <img src="img_swypekey.png" /> ৰ পৰা S লৈ Swype কৰক</li>
+											<li><span class="gestures">ব্যৱহৃত শেষ ভাষাটোলৈ অদল&#45;বদল কৰক</span>একাধিক ভাষা ব্যৱহাৰ কৰাৰ সময়ত <img src="img_swypekey.png" /> ৰ পৰা স্পেচ কীলৈ Swype কৰি আগৰ ভাষাটোলৈ খৰতকীয়াকৈ উভতি যাব পাৰি।</li>
+										</ul>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									শব্দ বাছনি কৰা
+									<div id="ul_1d" class="closed">
+										<p>শব্দ বিকল্প তালিকাত পৰামর্শ দিয়া ডিফল্ট শব্দটো গ্রহণ কৰিবলৈ কেৱল Swyping কৰি থাকক অন্যথা, আপোনাৰ আঙুলি টানি নি তালিকাখনৰ মাজেৰে স্ক্রল কৰক আৰু আপুনি বিচৰা শব্দটো বাছনি কৰক যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া এই বৈশিষ্ট্যটো উপলভ্য নহয়।</p>
+										<p>তালিকাৰ পৰা টেক্সট্‌ চয়ন কৰাৰ বাবে তালিকাভুক্ত টেক্সট্‌ শুনাৰ বাবে আপোনাৰ আঙুলি বৃত্তাকাৰে ঘুৰাওক। তালিকাত আগুৱাই যাবৰ বাবে ঘড়ীৰ কাটাৰ দিশত আৰু উভতি যাবলৈ বিপৰীত দিশত আঙুলি বুলাওক। আঙুলি য&#39;ত উঠাব তাত শেষৰবাৰ কোৱা তালিকাভুক্ত আউটপুট পাব শব্দ চয়ন তালিকাৰপৰা এটা শব্দ চয়ন কৰাৰ বাবে তালিকাৰ প্রথমটো শব্দ নুশুনালৈকে কীব&#39;র্ডত আপোনাৰ আঙুলি ওপৰলৈ চোঁচৰাই নি থাকক, তাৰপিছত বৃত্তাকাৰে আঙুলি ঘূৰাওক।	যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া কেৱল এই বৈশিষ্ট্যটো উপলভ্য হয়।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									স্বয়ংক্রিয় স্পেচিং
+									<div id="ul_1f" class="closed">
+										<p>আপুনি বাক্যৰ পিছৰ শব্দটো Swype কৰোতে Swype এ স্বয়ংক্রিয় ভাবে শব্দবোৰৰ ভিতৰত স্পেচ প্রবিষ্ট কৰে আপুনি Swype চেটিংছত অট&#39;&#45;স্পেচিং বৈশিষ্ট্য অন বা অফ কৰিব পাৰিব।</p>
+										<p>এটা শব্দৰ বাবে স্বয়ং&#45;স্পেচিং স্পেচ কীৰ পৰা বেকস্পেচ কীলৈ Swyping ৰ দ্বাৰা বন্ধ কৰিব পৰা যায়</p>
+										<p>যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া এই বৈশিষ্ট্যটো উপলভ্য নহয়।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									শব্দ সলনি কৰা
+									<div id="ul_1g" class="closed">
+										<p>কোনো শব্দৰ ওপৰত লাহেকৈ টুকুৰিয়াই ইয়াক সলনি কৰক, তাৰ পিছত আপুনি বিচৰা শব্দটো শব্দ বিকল্প তালিকাৰ পৰা বাছনি কৰক বা কেৱল শব্দটো লক্ষণীয় কৰক আৰু কোনো নতুন শব্দ এটা Swype কৰক নতুন শব্দটোৱে ভুল শব্দটো সলনি কৰিব</p>
+										<p>কোনো শব্দ এটাৰ ওপৰত লাহেকৈ টুকুৰিয়াই আৰু <img src="img_swypekey.png" /> ক আঘাত কৰি বা শব্দটো দুবাৰ টুকুৰিয়াই ইয়াক লক্ষণীয় কৰিব পাৰি</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									আখৰবোৰৰ মাজত জঁপিওৱা
+									<div id="ul_1h" class="closed">
+										<p>আপুনি প্রথমবাৰতে বিচৰা শব্দটো পাবলৈ যেতিয়া Swyping এ নিশ্চিত কৰে তেতিয়া কেতিয়াবা আখৰবোৰ এৰাই চলক</p>
+										<p>উদাহৰণ স্বৰূপে, &quot;জিলা&quot; আৰু &quot;চিলা&quot; একেটা পথতে আঁকিব পাৰি &#45; কিন্তু মন কৰক, আপুনি এটা আখৰৰ পৰা আনটোলৈ এটা সৰল ৰেখাত যাব নালাগে আপোনাৰ আঙুলি &quot;ল&quot; ত Swyping কৰোতে &quot;চ&quot; এৰাই চলিলে শব্দ বিকল্প তালিকাত প্রথম শব্দ ৰূপে &quot;জিলা&quot; থকাতো নিশ্চিত কৰিব পাৰি</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									একান্তৰ বর্ণবোৰ
+									<div id="ul_1i" class="closed">
+
+										<p>কোনো এটা কীৰ একান্তৰ বর্ণবোৰৰ তালিকা এখন উলিয়াবলৈ সেই কীটো টিপক আৰু ধৰি থাকক, যেনে @ আৰু % ৰ দৰে চিহ্নবোৰ আৰু সংখ্যাবোৰ</p>
+
+										<p>চিহ্ন কীব&#39;র্ডলৈ লৈ যাবলৈ ওলোৱা চিহ্নবোৰৰ (?123) কীত লাহেকৈ টুকুৰিয়াওক</p>
+										<p>মন কৰিব যে এই সকলোবোৰ বর্ণকে মুখ্য কীব&#39;র্ডৰপৰা Swype&#45;সক্ষম কৰা হয় (আপুনি সেইবোৰ দেখা পাবও পাৰে নাপাবও পাৰে) আপুনি কীব&#39;র্ডৰ এই দৃশ্য ব্যৱহাৰ কৰি Swype কৰিব পাৰে, কিন্তু আপুনি অন্ততঃ এটা সংখ্যা বা চিহ্ন থকা শব্দবোৰহে কেৱল পাব পাৰিব</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									শব্দবোৰ যোগ কৰা আৰু বিলোপ কৰা
+									<div id="ul_1j" class="closed">
+										<p>আপুনি আপোনাৰ ব্যক্তিগত অভিধানত কোনো নতুন ব্যৱহাৰ কৰিলে Swype এ বুদ্ধিমানৰ দৰে শব্দটো যোগ কৰে</p>
+										<p>আপুনি কোনো এটা শব্দ লক্ষণীয় কৰি আৰু <img src="img_swypekey.png" /> ক লাহকৈ টুকুৰিয়াই ইয়াক যোগ কৰিব পাৰিব শব্দটো যোগ কৰিবলৈ ওলোৱা প্রম্পটটোত লাহেকৈ টুকুৰিয়াওক</p>
+										<p>কোনো এটা শব্দ বিলোপ কৰিবলৈ, শব্দ বিকল্প তালিকাত সেই শব্দটো টিপক তথা ধৰি থাকক আৰু তাৰ পিছত নিশ্চিতকৰণ ডায়লগত ঠিক&#45;ত লাহেকৈ টুকুৰিয়াওক যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া এই বৈশিষ্ট্যটো উপলভ্য নহয়।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									ব্যক্তিগতকৰণ
+									<div id="ul_1k" class="closed">
+										<p>Swype Twitter আৰু Gmail&#45;ৰ পৰা আপোনাৰ অভিধানত শব্দবোৰ খৰকৈ যোগ কৰিব পাৰে Swype ব্যক্তিগতকৰণ কৰিবলৈ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> টিপক আৰু ধৰি থাকক</li>
+											<li>Swypeছেটিংছ তালিকাৰপৰা মাই ৱর্ড&gt;নিজস্বকৰণ চয়ন কৰক।</li>
+											<li>নিজস্বকৰণ বিকল্প চয়ন কৰক আৰু অনুৰোধ জনালে নিজৰ পৰিচয় নিবেশ কৰক।</li>
+											<li>আপুনি এটা বা সকলোবোৰ উৎসৰ পৰা Swype ৰ ব্যক্তিগতকৰণ কৰিব পাৰে</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">কথা কওক</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>আপুনি পাঠৰ পৰা আৰম্ভ কৰি ই&#45;মেইল বার্তা, Facebook আৰু Twitter আপডেটলৈকে সকলোবোৰৰ বাবে পাঠ বিষয়বস্তু প্রবিষ্ট কৰিবলৈ কথা ক&#39;ব পাৰিব</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							আৰু অধিক শিকক <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									যতি চিহ্ন
+									<div id="ul_2a" class="open">
+										<p>হাতেৰে যতিচিনবোৰ যোগ কৰাৰ কোনো আৱশ্যক নাই কেৱল আপুনি বিচৰা যতিচিহ্নটো কওক আৰু অব্যাহত ৰাখক এইটো চেষ্টা কৰক:</p>
+										<ol>
+											<li>ধ্বনি কী টিপক আৰু কথা ক&#39;বলৈ আৰম্ভ কৰক</li>
+											<li>আপুনি যি কয়: <i>নৈশভোজন সুস্বাদু আছিল ভাববোধক বিন্দু</i></li>
+											<li>আপুনি যি লাভ কৰে: <i>নৈশভোজন সুস্বাদু!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>কিছুমান কীব&#39;র্ডত ধ্বনি ইনপুট উপলভ্য নহয়</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">লিখক</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>আপুনি আঙুলি ব্যৱহাৰ কৰি আখৰ আৰু শব্দবোৰ আঁকিব পাৰিব আৰু Swype এ এইবোৰ পাঠলৈ ৰূপান্তৰিত কৰিব আপুনি বাঁওফালৰ&#45;পৰা&#45;সোঁফালে বা এটাৰ ওপৰত এটাকৈ আখৰবোৰ আঁকিব পাৰিব আখৰ আৰু চিহ্ন ম&#39;ডৰ মাজত টগল কৰিবলৈ ABC/123 টিপক					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							আৰু অধিক শিকক <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									হাতৰ আখৰ সক্ষম কৰক
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> টিপক আৰু ধৰি থাকক আৰু আপোনাৰ আঙুলি হাতৰ আখৰৰ ক্ষেত্রত চোঁচোৰাওক</li>
+											<li>হাতৰ আখৰৰ ক্ষেত্রত আপোনাৰ আঙুলিৰে আখৰবোৰ আঁকক</li>
+
+											<li>প্রত্যেক শব্দৰ মাজত স্পেচ বাৰত লাহেকৈ টুকুৰিয়াওক</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									বহু&#45;স্পর্শ ইঙ্গিত
+									<div id="ul_3b" class="closed">
+										<p>বহু&#45;স্পর্শ ইঙ্গিতে আপোনাক সাধাৰণ কামবোৰ সম্পূর্ণ কৰিবলৈ অনুমতি দিয়ে, যেনে শব্দবোৰ বা আখৰবোৰ বৰফলা কৰা ইত্যাদি</p>
+										<ol>
+											<li>অঙ্কণ পেডত কিছুমান সৰুফলা আখৰ আঁকক</li>
+											<li>বর্ণবোৰ প্রবিষ্ট কৰাৰ পিছত, অঙ্কণ ক্ষেত্রত দুটা আঙুলি ওপৰৰ ফালে চোঁচোৰাওক</li>
+											<li>হাতৰ আখৰৰ বৈশিষ্ট্যই বহু&#45;স্পর্শ ইঙ্গিতবোৰ আৰু আখৰবোৰ বৰফলা কৰাতো চিনাক্ত কৰিব</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>কিছুমান কীব&#39;র্ডত হাতৰ আখৰ উপলভ্য নহয়</i></p>
+									<p><i>যেতিয়া চিষ্টেম এক্সেচিবিলিটি চাৰ্ভিছ এক্সপ্ল’ৰ&#45;বাই&#45;টাচ্ছ অ’ন হৈ থাকে তেতিয়া এই বৈশিষ্ট্যটো উপলভ্য নহয়।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">টাইপ কৰক</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>পৰম্পৰাগত হাতেৰে ভৰোৱা কীব&#39;র্ড ইনপুট Swype কীব&#39;র্ডৰ ওপৰত ইনপুটত লাহেকৈ টুকুৰিয়াই দিয়াতো সহজ কৰা হৈছে আৰু কিছুমান উপযোগী বৈশিষ্ট্যৰ দ্বাৰা আৰু অধিক দক্ষ কৰি তোলা হৈছে:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							আৰু অধিক শিকক <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									অসাৱধান টাইপিঙৰ শুধৰণি
+									<div id="ul_4a" class="open">
+										<p>আপুনি প্রত্যেকটো আখৰৰ নির্ভুলকৈ লাহেকৈ টুকুৰিয়াই দিব নালাগে। কেৱল আপুনি যিমান পাৰে সিমান চেষ্টা কৰক আৰু Swype এ বুদ্ধিমানতাৰে শব্দৰ পৰামর্শ আগবঢ়াব</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									শব্দ সম্পূর্ণ কৰা
+									<div id="ul_4b" class="closed">
+										<p>ইয়াৰ বাহিৰেও, আপুনি কেইটামান আখৰৰ ওপৰত লাহেকৈ টুকুৰিয়াই দিওতেই Swype এ আপোনাৰ শব্দটো অনুমান কৰিব পাৰিব</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ভাষাসমূহ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>কীব&#39;র্ডৰ পৰা ভাষা অদল&#45;বদল কৰা: স্পেচ বাৰ টিপক আৰু ধৰি থাকক পপআপ মেনুৰ পৰা আপুনি বিচৰা ভাষাটো বাছনি কৰক</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect এ আমাক আপডেটবোৰ আৰু ঠিক আপোনাৰ উপকৰণতে শক্তিশালী ক্রিয়াবোৰ বিতৰণ কৰিবলৈ অনুমতি দিয়ে! যেতিয়া Swype Connect 3G ত কাম কৰিব, আমি সদায় কোনো Wi&#45;Fi সংযোগ বিচাৰি ল&#39;বলৈ পৰামর্শ দিম</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							আৰু অধিক শিকক <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ভাষা ডাউনলোডসমূহ
+									<div id="ul_6a" class="open">
+										<p>Swype ত অতিৰিক্ত ভাষাসমূহ সহজে যোগ কৰিব পাৰি:</p>
+										<ol>
+											<li><img src="img_swypekey.png" />টিপক আৰু ধৰি থাকক আৰু ভাষাসমূহ বাছনি কৰক</li>
+											<li>ভাষা মেনুৰ পৰা ভাষাবোৰ ডাউনলোড কৰক</li>
+											<li>কোনো এটা ভাষাত ক্লিক কৰক আৰু আপোনাৰ ডাউনলোড স্বয়ংক্রিয় ভাবে আৰম্ভ হ&#39;ব</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>সকলো কীব&#39;র্ডত Swype Connect উপলভ্য নহয়</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">আৰু অধিক সহায়</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype ব্যৱহাৰ কৰাৰ বিষয়ে আৰু অধিক সহায়ৰ বাবে, <a href="http://www.swype.com">www.swype.com</a> Swype ব্যৱহাৰকাৰীৰ হাতপুথি আৰু Swype আভাষ আৰু ভিডিঅ&#39; চাওক বা <a href="http://forum.swype.com">forum.swype.com</a> ত অনলাইন Swype ফোৰাম চাওক</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

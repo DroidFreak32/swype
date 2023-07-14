@@ -1,0 +1,307 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">སྐད་ཆ་ཤོད་</a></div>
+				<div><a href="#write">བྲིས།</a></div>
+				<div class="last"><a href="#tap">རིགས་</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swypeསྟེང་ནས། ཉིད་ལ་ནང་འཇུག་ལམ་ལུགས་འདྲ་མིན་བཞིའི་དབར་སྲུབས་ཁ་མེད་པར་བརྗེ་སྒྱུར་གནང་ཐུབ་ཀྱི་རེད། Swype སྐད་ཆ་ཤོད་པ། བྲིས་པ། ཐུག་ཐུག་གཞུ་བ།</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>དཀྱུས་ཡིག་བླུག་པའི་ཆེད་Swypeའདི་ཐབས་ལམ་མགྱོགས་པོ་རེད། ཡི་གེའི་རིས་མོ་བྲིས་ནས་ཁྱེད་རང་གི་ཚིག་དེ་འཇུག་གི་རེད། ཚིག་གི་ཡི་གེ་དང་པོར་མཛུབ་མོ་བཙུགས་ནས་ཡི་གེ་ནས་ཡི་གེ་ལ་ལམ་རིས་འཐེན་ནས་ཐ་མའི་ཡི་གེ་ལ་འདེགས་དགོས། Swypeགིས་བར་སྟོང་གང་དུ་དགོས་སར་བར་སྟོང་འཇོག་གི་རེད།</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							མང་བ་སྦྱོང་།. <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swypeམཛུབ་མཐེབ་.
+									<div id="ul_1a" class="open">
+										<p>Swypeམཛུབ་མཐེབ་འདི་སི་ཝེ་པིའི་མཚོན་རྟགས་ཡོད་པའི་མཛུབ་མཐེབ་ཞིག་རེད། Swypeསྒྲིག་སྦྱོར་གོང་སྤེལ་ཆེད་Swypeམཛུབ་མཐེབ་མནན་ནས་བཟུང་དགོས།</p>
+										<p>Swype གི་མཛུབ་ཐེབ་དེ་Swype བརྡ་སྟོན་མང་པོ་ཆེད་དུ་ཡང་བེད་སྤྱོད་བྱེད་ཀྱི་རེད།</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    མཐེབ་གཞོང་སྔོན་ལྟ་
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swypeབརྡ་སྟོན་
+									<div id="ul_1b" class="closed">
+										<p>འཆར་ཅན་ལས་ཀ་མགྱོགས་པོ་བྱེད་ཐུབ་པའི་ཆེད་མཐེབ་གཞོང་སྟེང་Swypeབརྡ་སྟོན་རྣམས་མགྱོགས་ཇུས་རེད། ལག་རེག་ཙམ་གྱིས་འཚོལ་བདེ་ཞབས་ལུགས་ལམ་ལུགས་དེ་སྤོར་ཡོད་ཀྱང་ཁྱད་ཆོས་འདི་མི་འདུག</p>
+										<ul>
+											<li><span class="gestures">རྩོམ་སྒྲིག་མཐེབ་གཞོང་དུ་སླེབས་པ།</span> རྩོམ་སྒྲིག་མཐེབ་གཞོང་ལ་སླེབས་པར་མཐེབ་གཞོང་སྟེང་གི་ <img src="img_swypekey.png" />མཚོན་རྟགས་མཛུབ་མཐེབ་ལ་(?123)Swypeབྱེད་དགོས།</li>
+											<li><span class="gestures">ཨང་ཀིའི་མཐེབ་གཞོང་ལ་འགྲོ་</span> ཨང་ཀི་མཐེབ་གཞོང་ལ་མགྱོགས་པོ་སླེབས་པའི་ཆེད་དུ་, Swype <img src="img_swypekey.png" /> ཨང་ཀི་ 5 ལ་Swypeབྱེད་དགོས།</li>
+											<li><span class="gestures">མཐེབ་གཞོང་སྦེད་པ།</span> མཐེབ་གཞོང་ལས་སླ་པོའི་ངང་སྦེད་པའི་ཆེད་Swype མཛུབ་ཐེབ་ནས་ཕྱིར་འདྲེན་མཛུབ་མཐེབ་Swypeབྱེད་ཆོག་གི་རེད།</li>
+
+
+											<li><span class="gestures">མཚམས་རྟགས་</span> མཚམས་རྟགས་བླུགས་སྟངས་ལས་སླ་ཤོས་དེ་དྲི་རྟགས། བར་ཚེག དུས་ཡུན། མཚམས་རྟགས་གཞན་ནས་ཐུག་ཐུག་གཞུ་བའི་ཚབ་ཏུ་བར་སྟོང་མཛུབ་མཐེབ་Swypeབྱེད་དགོས།</li>
+
+											<li><span class="gestures">བེད་སྤྱོད་མགྱོགས་ཇུས།</span>Google ས་ཁྲ་ཁག <img src="img_swypekey.png" /> &#39;g&#39;དང་དེ་&#39;m&#39;ལ་Swypeགཏོང་།</li>
+											<li><span class="gestures">འཚོལ།</span>དྲ་འཚོལ་མགྱོགས་པོ་ཡོང་བའི་ཆེད་དུ་ཡིག་ཞིག་རེས་འགའ་ལ་ནན་རྟགས་རྒྱབ་ནས་<img src="img_swypekey.png" /> ནས་S ལ་Swype བྱེད་དགོས།</li>
+											<li><span class="gestures">སྐད་ཡིག་བེད་སྤྱོད་མཐའ་མར་བརྗེ་སྒྱུར་བྱེད།</span>སྐད་ཡིག་མང་པོ་བེད་སྤྱོད་བྱེད་སྐབས་སྔོན་གྱི་སྐད་ཡིག་ཏུ་བརྗེ་སྒྱུར་མགྱོགས་པོ་ཡོང་བར་<img src="img_swypekey.png" />  བར་སྟོང་མཛུབ་མཐེབ་ལ་Swypeབྱེད་དགོས།</li>
+										</ul>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ཚིག་་འདེམ་བཞིན་པ།
+									<div id="ul_1d" class="closed">
+										<p>ཚིག་གདམ་གའི་ཐོ་གཞུང་ནང་གི་གྲོས་བཏོན་པའི་འགལ་ཚིག་ངོས་ལེན་ཆེད་Swyping མུ་མཐུད་གནང་དགོས། དེ་མིན་ཐོ་གཞུང་རིམ་བཞིན་མཛུབ་མོས་བརྡར་གྱིན་གཟིགས་ཏེ་སོ་སོས་འདོད་པའི་ཚིག་དེ་གདམ་དགོས། ལག་རེག་ཙམ་གྱིས་འཚོལ་བདེ་ཞབས་ལུགས་ལམ་ལུགས་དེ་སྤོར་ཡོད་ཀྱང་ཁྱད་ཆོས་འདི་མི་འདུག</p>
+										<p>ཐོ་གཞུང་ནས་དཀྱུས་ཡིག་འདེམས་པའི་ཆེད་ཐོ་གཞུང་མིང་ཁག་ཉན་པའི་ཆེད་ཉིད་ཀྱི་མཛུབ་མོས་སྒོར་སྒོར་ཤུད་འགྲོས་རྒྱག་དགོས། ཚོུད་འཁོར་འགྲོས་ལྟར་ཐོ་གཞུང་མདུན་བསྐྱོད་དང་ཚོུད་ལྡོག་ནས་འགྲོ་ན་ཐོ་གཞུང་ཕྱིར་ལྡོག་རྒྱག་གི་ཡོད། མཛུབ་མོ་བཏེགས་པ་དེས་ཐོ་གཞུང་གི་མིང་བརྗོད་ཐ་མ་བསྟན་གྱི་རེད། ཚིག་གི་གདམ་གའི་ཐོ་གཞུང་ནང་གི་ཚིག་འདེམས་པའི་ཆེད་ཐོ་གཞུང་གི་ཚིག་དང་པོ་མ་གོ་བར་མཐེབ་གཞོང་ནས་གྱེན་ལ་མཛུབ་མོ་འཐེན་ཏེ་སྒོར་སྒོར་གྱི་གཡོ་འགུལ་འགོ་འཛུགས་དགོས།	ལག་རེག་ཙམ་གྱིས་འཚོལ་བདེ་ཞབས་ལུགས་ལམ་ལུགས་དེ་སྤོར་ན་ལས་ཁྱད་ཆོས་འདི་ཡོང་གི་མེད།</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ཚིག་བརྗེ་ལེན་རྒྱག་པ།
+									<div id="ul_1g" class="closed">
+										<p>ཚིག་བརྗེ་ལེན་ཆེད་ཐུག་ཐུག་གཞུས་དགོས། དེ་ནས་ཚིག་གདམ་གའི་ཐོ་གཞུང་ནས་འདོད་པའི་ཚིག་འདེམས་པའམ་ཚིག་དེ་མངོན་གསལ་བཟོས་ཏེ་ཚིག་གསར་པ་Swype བྱེད་དགོས། ཚིག་གསར་པས་ཚིག་ནོར་བ་དེ་བརྗེ་ལེན་རྒྱག་གི་རེད།</p>
+										<p>ཚིག་དེ་ལ་ཐུག་ཐུག་གཞུ་བ་དང་<img src="img_swypekey.png" />ལ་གཞུས་སམ་ཚིག་ལ་ཐུག་ཐུག་ཉིས་ལྡབ་གཞུས་ནས་མངོན་གསལ་བཟོས་ཐུབ་པ་ཡིན།</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									གསལ་བྱེད་ཡི་གེ་དབར་འཕར་བཞིན་པ།
+									<div id="ul_1h" class="closed">
+										<p>མཚམས་རེ་Swypingབྱེད་སྐབས་གསལ་བྱེད་ཡི་གེ་མེད་པ་བཟོ་རྒྱུ་དེས་ཉིད་ལ་ཐེངས་དང་པོར་འདོད་པའི་ཚིག་རག་པར་་ངེས་ཤེས་སྟེར་གྱི་རེད།</p>
+										<p>དཔེར་ན(&quot;ལའུ&quot;) དང་ (&quot;ལའི&quot;)གཉིས་ལམ་དཀྱུས་གཅིག་ཐོག་འཐེན་ཐུབ་ཀྱི་རེད། འོན་ཀྱང་ཐིག་ཁ་ཐུག་གཅིག་ཐོག་ཡི་གེ་གཅིག་ནས་གཅིག་འགྲོ་དགོས་མེད་པ་ཤེས་དགོས། ཉིད་ཀྱིས་མཛུབ་མོས་&quot;འ&quot; ཐོག་swypingབྱེད་སྐབས་&quot;ི&quot;མེད་པ་བཟོ་རྒྱུ་དེས་&quot;ལའི&quot;ཞེས་པའི་ཚིག་དེ་ཚིག་གི་གདམ་གའི་ཐོ་གཞུང་ནང་དང་པོ་ཡིན་པ་ངེས་ཤེས་སྟེར་གྱི་རེད།</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									ཡིག་འབྲུ་རེས་མོས།
+									<div id="ul_1i" class="closed">
+
+										<p>མཛུབ་ཐེབ་དེའི་ཁྱད་ཆོས་གཞན་གྱི་ཐོ་གཞུང་བཟོས་པའི་ཆེད་མཛུབ་ཐེབ་ལ་མནན་ཏེ་བཟུང་དགོས། དཔེར་ན་མཚོན་རྟགས་ ༄ དང་༡ འདྲ་བ་དང་ཨང་ཀི་བཅས།</p>
+
+										<p>མཚོན་རྟགས་མཐེབ་གཞོང་སྟེང་སླེབས་པའི་ཆེད་དུ་མཚོན་རྟགས་མཛུབ་མཐེབ་ (?123)ལ་ཐུག་ཐུག་གཞུས་དགོས།</p>
+										<p>མཐེབ་གཞོང་གཙོ་བོ་ (ཉིད་ཀྱིས་མཐོང་ངམ་མ་མཐོང་ཡང་རུང་།)ནས་ཁྱད་ཆོས་རྣམས་Swypeབྱེད་རུང་བ་ཡིན་པ་མཁྱེན་དགོས། མཐེབ་གཞོང་གི་མཐོང་ཚུལ་བེད་སྤྱོད་བྱེད་ཀྱིན་Swypeགཏང་ཐུབ་ཀྱི་རེད། འོན་ཀྱང་ཁྱེད་ལ་མ་མཐའ་ཨང་ཀི་གཅིག་གམ་མཚོན་རྟགས་གཅིག་ཡོད་མཁན་ཚིག་གཅིག་པུ་རག་གི་རེད།</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ཚིག་བླུགས་རྒྱུ་དང་སུབ་རྒྱུ་
+									<div id="ul_1j" class="closed">
+										<p>ཉིད་ཀྱི་ཚིག་མཛོད་ནང་Swypeགིས་སྤྱང་པོའི་ཐོག་ནས་ཉིད་ཀྱིས་བེད་སྤྱད་པའི་ཚིག་གསར་པ་གང་ཡང་བླུག་གི་རེད།</p>
+										<p>ཉིད་ནས་ཀྱང་ཚིག་ལ་མངོན་གསལ་བཟོས་སམ་<img src="img_swypekey.png" />ལ་ཐུག་ཐུག་གཞུས་ནས་བླུག་ཐུབ་ཀྱི་རེད། ཚིག་བླུག་པའི་ཆེད་དུ་མགྱོགས་པོ་ཞེས་པ་དེར་ཐུག་ཐུག་གཞུས།</p>
+										<p>ཚིག་སུབ་པའི་ཆེད་དུ་ཚིག་གདམ་གའི་ཐོ་གཞུང་ནང་གི་ཚིག་ལ་མནན་ནས་བཟུང་དགོས། དེ་ནས་གཏན་འབེབས་གྲོས་མོལ་ནང་ལེགས་ཞེས་པའི་མཛུབ་ཐེབ་སྟེང་ཐུག་ཐུག་གཞུ་དགོས། ལག་རེག་ཙམ་གྱིས་འཚོལ་བདེ་ཞབས་ལུགས་ལམ་ལུགས་དེ་སྤོར་ཡོད་ཀྱང་ཁྱད་ཆོས་འདི་མི་འདུག</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									སྒེར་བདག་
+									<div id="ul_1k" class="closed">
+										<p>Twitterདང་། Gmail བཅས་ནས་ཉིད་ཀྱི་ཚིག་མཛོད་ནང་Swypeགིས་ཚིག་རྣམས་མགྱོགས་པོ་བླུག་ཐུབ་ཀྱི་རེད། Swype ཐུན་མིན་བཟོ་ཆེད :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> མནན་ནས་བཟུང་དགོས།</li>
+											<li>Swypeགི་སྒྲིག་སྦྱོར་ཐོ་གཞུང་ནང་ནས་ངའི་ཚིག་ཅེས་པ་འདེམ་དགོས། &gt; སྒེར་བདག</li>
+											<li>མི་ཐོུང་གདམ་ག་ནས་འདེམ་རྒྱུ་དང་དྲན་བསྐུལ་བྱས་ཚེ་རྒྱལ་ཡིག་བླུག་དགོས།</li>
+											<li>ཁུངས་གཅིག་གམ་ཚང་མ་ནས་ཁྱེད་ཀྱིས་Swypeཐོུང་ལྟར་བཟོ་དགོས།</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">སྐད་ཆ་ཤོད་</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Facebook དང་Twitter ཁ་སྐོང་བརྒྱུད་ནས་དཀྱུས་ཡིག་དང་གློག་འཕྲིན་བརྡ་ལན་ནས་གང་ཡང་དཀྱུས་ཡིག་དཀར་ཆག་བླུག་པའི་ཆེད་སྐད་ཆ་ཤོད་ན་འགྲིགས་ཀྱི་རེད།</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							མང་བ་སྦྱོང་།. <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									མཚམས་རྟགས་
+									<div id="ul_2a" class="open">
+										<p>ལག་པས་མཚམས་རྟགས་བླུག་དགོས་མ་རེད། འདོད་པའི་མཚམས་རྟགས་དེ་ལབ་ནས་མུ་མཐུད་དགོས། འདི་བྱེད་</p>
+										<ol>
+											<li>སྐད་སྒྲའི་མཛུབ་མཐེབ་དང་སྐད་ཆ་འགོ་འཛུགས་ལ་ནོན།</li>
+											<li>ཁྱེད་ཀྱིས་ཅི་ལབ་ <i>དགོང་ཚིགས་དེ་བྲོ་བ་ཆེན་པོ་འདུག འབོད་སྒྲའི་གནས།</i></li>
+											<li>ཉིད་ལ་གང་རག་སོང་། <i>དགོང་ཚིགས་དེ་ཞིམ་སོང་།</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>མཐེབ་གཞོང་འགའ་རེའི་ནང་སྐད་སྒྲ་ནང་འཇུག་བྱེད་པ་མི་འདུག</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">བྲིས།</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>ཉིད་ཀྱིས་མཛུབ་མོ་བེད་སྤྱོད་བྱེད་ནས་གསལ་བྱེད་ཡི་གེ་དང་ཚིག་རྣམས་བྲིས་པའི་ཆེད་ཉིད་ཀྱིས་མཛུབ་མོ་བེད་སྤྱོད་བྱེད་ནས་Swypeགིས་དཀྱུས་ཡིག་ལ་སྒྱུར་གྱི་རེད། ཉིད་ནས་གསལ་བྱེད་ཡི་གེ་གཡོན་ནས་གཡས་ཕྱོགས་སམ་གཅིག་ཐོག་གཅིག་བྲི་ཐུབ་ཀྱི་རེད།					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							མང་བ་སྦྱོང་།. <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									བྲིས་གཟུགས་ལས་སུ་འཇུག
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>%མཚོན་རྟགས་མཛུབ་མཐེབ (<img src="img_symkey.png" />) མནན་ནས་བཟུང་རྒྱུ་དང་བྲིས་གཟུགས་ཀྱི་འདྲ་གཟུགས་ལ་མཛུམ་མོས་བརྡར་དགོས།</li>
+											<li>ཡིག་གཟུགས་སྡེ་ཚན་ནས་རང་གི་མཛུབ་མོས་གསལ་བྱེད་ཡི་གེ་བྲིས།</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ཐུག་རེག་མང་པོའི་བརྡ་སྟོན་
+									<div id="ul_3b" class="closed">
+										<p>ཐུག་ཐུག་མང་པོའི་བརྡ་སྟོན་གྱིས་ཉིད་ལ་ལས་ཀ་ཆུང་རིགས་མཐར་ཕྱིན་པ་བྱེད་ཀྱི་ཡོད། དཔེར་ན་ཚིག་དང་ཡི་གེ་མགོ་ཡིག་ཅན་དུ་སྒྱུར་བ་སོགས།</p>
+										<ol>
+											<li>གཟུགས་རིས་མཐེབ་སྡེར་སྟེང་སྒམ་འོག་མའི་ཡི་གེ་ཁ་ཤས་བྲིས།</li>
+											<li>ཁྱད་ཆོས་མང་པོ་བླུགས་པའི་རྗེས་མཛུབ་མོ་གཉིས་ཀྱིས་བྲིས་གཞིའི་སྟེང་གྱེན་ལ་བརྡར་དགོས།</li>
+											<li>ཡིག་གཟུགས་ཁྱད་ཆོས་ཀྱིས་ཐུག་ཐུག་མང་པོའི་བརྡ་སྟོན་ངོས་ལེན་བྱེད་ནས་གསལ་བྱེད་ཡི་གེ་མགོ་ཡིག་ཅན་དུ་སྒྱུར་གྱི་རེད།</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>མཐེབ་གཞོང་འགའ་རེ་སྟེང་ཡིག་གཟུགས་ཡོད་མ་རེད།</i></p>
+									<p><i>ལག་རེག་ཙམ་གྱིས་འཚོལ་བདེ་ཞབས་ལུགས་ལམ་ལུགས་དེ་སྤོར་ཡོད་ཀྱང་ཁྱད་ཆོས་འདི་མི་འདུག</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">རིགས་</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>མཐེབ་མིག་མཐེབ་གཞོང་ནང་འཇུག་གི་རིག་གཞུང་། Swype མཐེབ་གཞོང་སྟེང་གི་ཐུག་ཐུག་ནང་འཇུག་དེས་ཕན་ཐོགས་ཅན་གྱི་ཁྱད་ཆོས་འགའ་རེ་ལས་སླ་པོ་དང་ཕན་རླབས་ཆེ་བ་བཟོས་ཡོད།</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							མང་བ་སྦྱོང་།. <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ལྕགས་པར་ར་ལང་ཆ་ལང་ནོར་བཅོས་
+									<div id="ul_4a" class="open">
+										<p>ཁྱེད་རང་ཡི་གེ་རེ་རེར་ཡོངས་རྫོགས་ཐུག་ཐུག་གཞུས་དགོས་མ་རེད། གང་ཡོང་ཐབས་ཤེས་གནང་དང་། Swypeགིས་ཚིག་གི་བསམ་འཆར་མཁས་པ་བྱེད་ནས་སྤྲོད་ཀྱི་རེད།</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ཚིག་མཐར་ཕྱིན་པ།
+									<div id="ul_4b" class="closed">
+										<p>ཁྱེད་རང་གིས་ཡི་གེ་ཉུང་ཤས་ཐུག་ཐུག་གཞུས་སྐབས་Swypeགིས་ཁྱེད་ཀྱི་ཚིག་གང་ཡིན་ཚོད་དཔག་བྱེད་ཐུབ་ཀྱི་རེད།</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">སྐད་ཡིག</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>མཐེབ་གཞོང་ནས་སྐད་ཡིག་བརྗེ་སྒྱུར། བར་སྟོང་དྲ་བཅད་མནན་ནས་བཟུང་དགོས། popup menu ནས་སོ་སོའི་འདོད་མོས་ཡོད་པའི་སྐད་ཡིག་འདེམས་ཤིག</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>3G ཐོག་ Swype Connect གིས་ལས་ཀ་བྱེད་སྐབས་ང་ཚོས་རྟག་པར་སྐུད་མེད་དྲ་རྒྱ་ (Wi&#45;Fi) འཚོལ་དགོས་རྒྱུར་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད། 3G ཐོག་ Swype Connect གིས་ལས་ཀ་བྱེད་སྐབས་ང་ཚོས་རྟག་པར་སྐུད་མེད་དྲ་རྒྱ་ (Wi&#45;Fi) འཚོལ་དགོས་རྒྱུར་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད།</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							མང་བ་སྦྱོང་།. <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									སྐད་ཡིག་ཕབ་ལེན་
+									<div id="ul_6a" class="open">
+										<p>Swype་ལ་སྐད་ཡིག་འཕར་མ་བླུགས་རྒྱུ་ལས་སླ་པོ་རེད།</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> མནན་ནས་བཟུང་བ་དང་སྐད་ཡིག་འདེམས་དགོས།</li>
+											<li>སྐད་ཡིག་ཐོ་གཞུང་ནས་སྐད་ཡིག་ཕབ་ལེན་འདེམས།</li>
+											<li>སྐད་ཡིག་སྟེང་ནོན་དང་ཉིད་ཀྱི་ཕབ་ལེན་རང་འགུལ་འགོ་འཛུགས་ཀྱི་རེད།</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>མཐེབ་གཞོང་ཚང་མ་ལ་Swype Connectཡོད་མ་རེད།</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">རོགས་རམ་མང་བ་</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swypeབེད་སྤྱོད་ཆེད་རོགས་རམ་མང་བ་དགོས་ཚེ་Swypeབེད་སྤྱོད་ལམ་སྟོན་གཟིགས་དགོས་པ་དང <a href="http://www.swype.com">www.swype.com</a>ནས་Swypeཐབས་ལམ་དང་གློག་བརྙན་བསྟན་གྱི་རེད། དྲ་ཐོག་ <a href="http://forum.swype.com">forum.swype.com</a>ནས་Swype་པི་ཚོང་རྭ་འཚོལ་དགོས།</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

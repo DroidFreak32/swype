@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">စကားေျပာ</a></div>
+				<div><a href="#write">ေရးပါ</a></div>
+				<div class="last"><a href="#tap">တိုက္႐ိုက္ပါ</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype ကို သုံးျခင္းျဖင့္ သင္ဟာ Swype၊ စကားေျပာ၊ ေရး သို႔မဟုတ္ ပုတ္ျခင္း ဆိုတဲ့ ထည့္သြင္းေရး ပုံစံ ေလးမ်ိဳး အၾကားမွာ စိတ္ႀကိဳက္ ေျပာင္းလဲႏိုင္စြမ္း ရွိလာမယ္။</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype ဟာ စာသား ထည့္သြင္းဖို႔အတြက္ ျမန္တဲ့ နည္းလမ္းပါ။ ၎က သင့္အေနႏွင့္ စာလုံးမ်ားကို ေရးဆြဲေပးလ်က္ စကားလုံးမ်ားကို ထည့္ေပးခြင့္ကို ေပးပါတယ္။ သင့္ လက္ေခ်ာင္းကို စကားလုံးရဲ႕ ပထမ စာလုံး ေပၚကို တင္လိုက္ၿပီး စာလုံး တစ္လုံးခ်င္းကို ျဖတ္သြားလ်က္ ေနာက္ဆုံးစာလုံးက်မွ ျပန္ၿပီး မယူလိုက္ပါ။ Swype က လိုအပ္တဲ့ ေနရာမ်ားမွာ ေနရာျခားေပးပါမယ္။</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ထပ္ ေလ့လာပါ <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype ကီး
+									<div id="ul_1a" class="open">
+										<p>Swype ကီးမွာ Swype တံဆိပ္ပါတဲ့ ခလုတ္ပါပဲ။ Swype Settings မ်ားကို သုံးလိုလၽႇင္ Swype ခလုတ္ကို ႏွိပ္ၿပီး ကိုင္ထားပါ။</p>
+										<p>Swype လက္ဟန္ အမ်ားအျပားတို႔ကို စသုံးရန္အတြက္ Swype ခလုတ္ကို အသုံးျပဳႏိုင္ပါေသးတယ္။</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    ကီးဘုတ္ အစမ္းၾကည့္႐ႈျခင္း
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype လက္ဟန္မ်ား
+									<div id="ul_1b" class="closed">
+										<p>Swype လက္ဟန္မ်ားမွာ လုပ္ေနက် အလုပ္မ်ားကို လ်င္ျမန္စြာ ၿပီးဆုံးေစတဲ့ ကီးဘုတ္ေပၚက ျဖတ္လမ္းမ်ားပါပဲ။ တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</p>
+										<ul>
+											<li><span class="gestures">ကီးဘုတ္ တည္းျဖတ္ေရးဆီကို သြားၾကပါစို႔</span> ကီးဘုတ္ တည္းျဖတ္ေရးဆီကို သြားဖို႔အတြက္ <img src="img_swypekey.png" /> ကေန သေကၤတမ်ား ကီး (+!=) ဆီကို Swype လိုက္ပါ။</li>
+											<li><span class="gestures">နံပါတ္ ကီးဘုတ္ဆီကို သြားၾကပါစို႔။</span> နံပါတ္ ကီးဘုတ္ဆီကို အျမန္သြားႏိုင္ရန္အတြက္ <img src="img_swypekey.png" /> ကေန နံပါတ္ 5 ဆီကို Swype လိုက္ပါ။</li>
+											<li><span class="gestures">ကီးဘုတ္ကို ဝွက္ထားျခင္း</span> ကီးဘုတ္ကို အလြယ္တကူ ဝွက္ႏိုင္ရန္၊ Swype ကေန Backspace ကီးဆီကို Swype လိုက္႐ုံပါပဲ။</li>
+
+											<li><span class="gestures">အလိုအေလ်ာက္ ေနရာျခားေပးမႈကို ပိတ္လိုက္ပါ</span> ေနာက္စကားလုံး မတိုင္မီ အလိုအေလ်ာက္ ေနရာျခားေပးမႈကို ပိတ္ပစ္ရန္ စပိတ္စ္ ကီးကေန Backspace ကီးဆီကို Swype လိုက္ပါ။</li>
+
+
+											<li><span class="gestures">ပုဒ္ျဖတ္ပုဒ္ရပ္</span> ပုဒ္ျဖတ္ပုဒ္ရပ္မ်ားကို ထည့္ေပးရန္ အလြယ္နည္းမွာ၊ ၎ကို ပုတ္မယ့္အစား၊ ေမးခြန္း၊ ေကာ္မာ၊ ပုဒ္ရပ္ သို႔မဟုတ္ အျခား ပုဒ္ျဖတ္ပုဒ္ရပ္ အမွတ္ကေန စပိတ္စ္ ကီးဆီကို Swype လိုက္ပါ။</li>
+
+											<li><span class="gestures">ပ႐ိုဂရမ္ ျဖတ္လမ္းမ်ား</span>Google Maps: <img src="img_swypekey.png" /> ကေန &#39;g&#39; ဆီကို၊ ၎ေနာက္ &#39;m&#39; အထိ Swype လိုက္ပါ</li>
+											<li><span class="gestures">ရွာပါ</span>သင္ဟာ ဝက္ဘ္ ရွာၾကည့္မႈကို အျမန္ ျပဳလုပ္ႏိုင္ရန္အတြက္ စာသား အခ်ိဳ႕ကို ခြဲျခား သတ္မွတ္ေပးလိုက္ၿပီး <img src="img_swypekey.png" /> မွ S ဆီကို Swype လိုက္ပါ။</li>
+											<li><span class="gestures">ေနာက္ဆုံး အသုံးျပဳခဲ့တဲ့ ဘာသာစကားဆီကို ျပန္သြားမယ္</span>ဘာသာစကား မ်ိဳးစုံကို အသုံးျပဳလၽႇင္၊ အရင္ ဘာသာစကားဆီကို ျပန္သြားရန္ အျမန္နည္း တစ္ခုမွာ <img src="img_swypekey.png" /> ကေန Space ခလုတ္အထိ Swype လိုက္ပါ။</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									ႏွစ္လုံးတူ စာလုံးမ်ား ထည့္သြင္းျခင္း
+									<div id="ul_1n" class="closed">
+										<p>စာလုံး ႏွစ္လုံးတူကို ထည့္သြင္းရာတြင္ ပိုၿပီး မွန္ကန္ဖို႔အတြက္၊ စာလုံးကို မသိမသာ ကုတ္ျခစ္ပါ သို႔မဟုတ္ စာလုံး အေပၚမွာ အဝိုင္းကိုကြင္းေပးပါ။ ဥပမာ၊ &quot;ကလလေရၾကည္&quot; ဆိုတဲ့ စကားလုံးထဲမွာ &quot;လလ&quot;ကို ႐ိုက္ထည့္ရန္အတြက္၊ &quot;လ&quot; ခလုတ္ကို ကုတ္ျခစ္ေပးပါ။ တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									စကားလုံးကို ေရြးျခင္း
+									<div id="ul_1d" class="closed">
+										<p>ေရြးစရာ စကားလုံးမ်ား စာရင္းက အႀကံေပးလာတဲ့ စကားလုံးကို လက္ခံဖို႔အတြက္၊ တစ္ခ်ိန္လုံး Swype လုပ္ေနပါ။ အဲဒီလိုမဟုတ္လၽႇင္၊ သင့္ လက္ေခ်ာင္းျဖင့္ စာရင္းကို လွိမ့္ၾကည့္ေနရင္း သင္လိုခ်င္တဲ့ စကားလုံးကို ေရြးပါ။ တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</p>
+										<p>စာရင္းမွ စာသားကို ေ႐ြးခ်ယ္ရန္ စာရင္းသို႕ထည့္သြင္းမႈၾကားရရန္ သင့္လက္ေခ်ာင္းကို စက္၀ိုင္းပံု ေ႐ႊ႕ပါ။ နာရီလက္တံ ေ႐ြ႕လ်ားမႈက စာရင္းတေလွ်ာက္ အေ႐ွ႕ဘက္သြားရန္ျဖစ္သည္။ နာရီလက္တံဆန္႕က်င္ဘက္ ေ႐ြ႕လ်ားမႈက စာရင္းတေလွ်ာက္ အေနာက္ဘက္သြားရန္ျဖစ္သည္။ လက္ေခ်ာင္းကို မ တင္ျခင္းက စာရင္းတြင္ေနာက္ဆံုးထည့္သြင္းထားမႈကို ရ႐ွိေစသည္။ စကားလံုး ေ႐ြးခ်ယ္မႈ စာရင္းမွ စကားလံုးကို ေ႐ြးခ်ယ္ရန္ သင့္လက္ေခ်ာင္းကို စာရင္းမွ ပထမစာလံုးကို ၾကားရသည္အထိ ကီးဘုတ္အေပၚတြင္ ပြတ္ဆြဲပါ၊ ထို႕ေနာက္ စက္၀ိုင္းပံု ေ႐ြ႕လ်ားမႈ စတင္ပါ။	တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ သာလၽႇင္ ဤအဂၤါရပ္ကို သုံး၍ရႏိုင္သည္။</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ကြက္လပ္ကို အလိုအေလ်ာက္ ထည့္ေပးျခင္း
+									<div id="ul_1f" class="closed">
+										<p>သင္က ဝါက် တေၾကာင္းထဲမွာ ေနာက္ စကားလုံးကို Swype လုပ္လိုက္တဲ့ အခါမွာ စကားလုံးမ်ား အၾကားမွာ ပလာကြက္ကို Swype က အလိုအေလ်ာက္ ထည့္ေပးတယ္။ Swype Settings ထဲမွာ သင္ဟာ အလိုအေလ်ာက္ ပလာ ထည့္သြင္းမႈကို ပိတ္ သို႔မဟုတ္ ဖြင့္ေပးႏိုင္တယ္။</p>
+										<p>စကားလုံး တစ္လုံးအတြက္ အလိုအေလ်ာက္ ပလာ ထည့္သြင္းမႈကို ပိတ္လိုပါက စပိတ္စ္ကီး ကေန Backspace ကီးဆီကို Swype လုပ္လိုက္ျခင္းျဖင့္ ပိတ္ႏိုင္ပါတယ္။</p>
+										<p>တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									စကားလုံးကို အစားထိုးျခင္း
+									<div id="ul_1g" class="closed">
+										<p>စကားလုံး တစ္လုံးကို အစားထိုးရန္အတြက္ ၎ကို ပုတ္လိုက္ပါ၊ ထို႔ေနာက္မွာ သင္ လိုခ်င္တဲ့ စကားလုံးကို ေရြးစရာ စကားလုံးမ်ား စာရင္းထဲမွ ေရြးယူပါ၊ သို႔မဟုတ္ ထိုစကားလုံးကို ခြဲျခားမွတ္ေပးလိုက္ကာ စကားလုံးအသစ္ကို Swype လိုက္ပါ။ စကားလုံး အသစ္က မမွန္တဲ့ စကားလုံးကို အစားထိုးသြားမယ္။</p>
+										<p>စကားလုံး တစ္လုံးကို ခြဲျခားမွတ္သားေပးရန္ အတြက္ ထိုစကားလုံးကို ပုတ္လိုက္ကာ <img src="img_swypekey.png" /> ကို ႐ိုက္လိုက္ပါ သို႔မဟုတ္ စကားလုံးကို ႏွစ္ႀကိမ္ ပုတ္လိုက္ပါ။</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									စာလုံးမ်ားအၾကား ခုန္ဆြျခင္း
+									<div id="ul_1h" class="closed">
+										<p>တခါတရံမွာ Swype လုပ္ေနစဉ္ စာလုံးမ်ားကို ေရွာင္ကြင္းျခင္းက သင္လိုခ်င္တဲ့ စကားလုံးကို တစ္ခ်က္တည္းႏွင့္ ရရွိေရးကို အာမခံေပးႏိုင္တယ္။</p>
+										<p>ဥပမာ၊ &quot;ဉေတာ္&quot; ႏွင့္ &quot;ဋေတာ္&quot; ကို လမ္းေၾကာင္း တစ္မ်ိဳးတည္းျဖင့္ ေရးဆြဲလို႔ ရႏိုင္ေပမဲ့၊ သင္ဟာ စာလုံး တစ္လုံးမွ ေနာက္တစ္လုံးဆီကို တေျဖာင့္တည္း ေရြ႕ရန္ မလိုတာကို သတိထားမိပါ။ သင့္ လက္ေခ်ာင္းကို &quot;တ&quot; ဆီကို ေရြ႕သြားစဉ္ &quot;ဋ&quot; ကို ေက်ာ္လိုက္လၽႇင္ ေရြးစရာ စကားလုံးမ်ား စာရင္းထဲတြင္ ေရွ႕ဆုံးမွ ပါေနတဲ့ &quot;ဉေတာ္&quot; ကို ရဖို႔ ေသခ်ာလာေစပါတယ္။</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									အစားထိုး စာလုံးမ်ား
+									<div id="ul_1i" class="closed">
+
+										<p>ကီး တစ္ခုကို ႏွိပ္လ်က္ ကိုင္ထားျခင္းျဖင့္ ထိုကီးအတြက္၊ ၽ ႏွင့္ ဏ၊ @ ႏွင့္ % လို သေကၤတမ်ား ႏွင့္ နံပါတ္မ်ားလို၊ အစားထိုး စာလုံးမ်ားကို ျပေပးပါမယ္။</p>
+
+										<p>Symbols ကီးဘုတ္ဆီကို သြားလိုလၽႇင္ Symbols ကီးကို ပုတ္လိုက္ပါ။</p>
+										<p>အားလုံးေသာ စာလုံးမ်ားမွာ (သင္က ၎တို႔ကို ျမင္သည္ ျဖစ္ေစ၊ မျမင္သည္ ျဖစ္ေစ) Swype ျဖင့္ သုံး၍ရႏိုင္တာကို သတိထားပါ။ သင္ဟာ လက္ရွိ ကီးဘုတ္ ျမင္ကြင္းကို သုံးလ်က္ Swype ႏိုင္ေပမဲ့၊ နံပါတ္ သို႔မဟုတ္ သေကၤတ အနည္းဆုံး တစ္ခုရွိတဲ့ စကားလုံးမ်ားကိုသာ သင္ ရရွိပါမယ္။</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									စကားလုံးမ်ားကို ထည့္ျခင္း ႏွင့္ ဖ်က္ျခင္း
+									<div id="ul_1j" class="closed">
+										<p>သင္က သင့္ ကိုယ္ပိုင္ အဘိဓာန္မွာ သုံးလိုက္တဲ့ ဘယ္စကားလုံး အသစ္ကိုမဆို Swype ဟာ ဆင္ျခင္စဉ္းစားလ်က္ ထည့္သြင္းေပးမယ္။</p>
+										<p>ထို႔အျပင္ သင္ဟာ စကားလုံး တစ္လုံးကို ခြဲျခားမွတ္ေပးလ်က္ <img src="img_swypekey.png" /> ကို ပုတ္ေပးျခင္းျဖင့္ ထည့္ေပးႏိုင္ပါေသးတယ္။ စကားလုံးကို ထည့္ေပးရန္ ေပၚလာတဲ့ ၫႊန္ျပခ်က္ကို ပုတ္ပါ။</p>
+										<p>စာလုံး တစ္လုံးကို ဖ်က္လိုလၽႇင္၊ ေရြးစရာ စကားလုံးမ်ား စာရင္းထဲက ထိုစကားလုံးကို ႏွိပ္ထားကာ ကိုင္ထားပါ၊ ထို႔ေနာက္ အတည္ျပဳေရး ဒိုင္ယာေလာ့ထဲတြင္ OK ကို ပုတ္လိုက္ပါ။ တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									လူမႈေရး စုစည္းမႈ
+									<div id="ul_1k" class="closed">
+										<p>Twitter ႏွင့္ Gmail တို႔ထဲက စကားလုံးမ်ားကို Swype က သင့္ အဘိဓာန္ထဲကို လြယ္ကူစြာ ထည့္ေပးႏိုင္တယ္။ Swype ကို မိမိစိတ္ႀကိဳက္ ျပဳလုပ္ယူရန္</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ကို ႏွိပ္ကိုင္ထားပါ။</li>
+											<li>Swype ဆက္တင္မီႏ်ဴးမွတဆင့္ ကြ်ႏ္ုပ္၏ စကားလံုးမ်ား &gt; ပုဂိၢဳလ္ေရးရာျပင္ဆင္ျခင္း ကိုေ႐ြးခ်ယ္ႏုိင္သည္။</li>
+											<li>မိမိစိတ္ႀကိဳက္ ျပဳလုပ္ေရး ေရြးစရာမ်ားထဲမွ ေရြးလိုက္ကာ ေမးလာလၽႇင္ သင္ရဲ႕ အေထာက္အထား အခ်က္အလက္မ်ားကို ထည့္သြင္းပါ။</li>
+											<li>သင္ဟာ Swype ကို အရင္းအျမစ္ တစ္ခု သို႔မဟုတ္ အားလုံးတို႔ထံမွ မိမိစိတ္ႀကိဳက္ ျပဳလုပ္ႏိုင္တယ္။</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">စကားေျပာ</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>သင္ဟာ စာသား ႏွင့္ အီးေမးလ္ မက္ေဆ့မ်ားမွအစ Facebook ႏွင့္ Twitter အဆုံး ဘာမဆိုအတြက္ စာသား အေၾကာင္းအရာကို စကားေျပာ ထည့္သြင္းႏိုင္တယ္။</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ထပ္ ေလ့လာပါ <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									ပုဒ္ျဖတ္ပုဒ္ရပ္
+									<div id="ul_2a" class="open">
+										<p>ပုဒ္ျဖတ္ပုဒ္ရပ္မ်ားကို လက္ျဖင့္ ထည့္သြင္းရန္ မလိုပါ။ သင္က လိုခ်င္တဲ့ ပုဒ္ျဖတ္ပုဒ္ရပ္ကို ေျပာလိုက္ကာ ဆက္သြားပါ။ ဒီလို စမ္းၾကည့္ပါ:</p>
+										<ol>
+											<li>အသံကီးကို ႏွိပ္လ်က္ စကား စေျပာပါ။</li>
+											<li>သင္ ေျပာတာက: <i>ညစာစားပြဲဟာ ႏွစ္လိုဖြယ္ ေကာင္းလိုက္တာ အာေမဍိတ္ သေကၤတ</i></li>
+											<li>သင္ ရရွိမွာက: <i>ညစာစားပြဲဟာ ႏွစ္လိုဖြယ္ ေကာင္းလိုက္တာ!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>အခ်ိဳ႕ ကီးဘုတ္မ်ားမွာ အသံ ထည့္သြင္းမႈ မရွိပါ။</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ေရးပါ</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>သင္ဟာ စာလုံးမ်ား ႏွင့္ စကားလုံးမ်ားကို ေရးဆြဲရန္ သင့္ လက္ေခ်ာင္းမ်ားကို အသုံးျပဳႏိုင္ရာ Swype က ၎ကို စာသားအျဖစ္ ေျပာင္းလဲေပးမယ္။ သင္ဟာ စာလုံးမ်ားကို ဘယ္မွညာဘက္သို႔ သို႔မဟုတ္ တစ္လုံး အေပၚ တစ္လုံး ေရးဆြဲႏိုင္ပါတယ္။ စာလုံးမ်ား ႏွင့္ သေကၤတ အေနအထား အၾကားမွာ လႊဲေျပာင္းဖို႔အတြက္ ABC /123 ကို ႏွိပ္ပါ။					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ထပ္ ေလ့လာပါ <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									လက္ျဖင့္ေရးကို ဖြင့္ေပးပါ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> ကို ႏွိပ္ကိုင္ထားကာ သင့္လက္ေခ်ာင္းမ်ားကို လက္ႏွင့္ေရး အိုင္ကြန္ဆီကို ပြတ္ဆြဲပါ။</li>
+											<li>လက္ျဖင့္ေရးရန္ ေနရာမွာ စာလုံးမ်ားကို သင့္လက္ေခ်ာင္းမ်ားျဖင့္ ေရးဆြဲပါ။</li>
+
+											<li>စကားလုံးတိုင္း အၾကားမွာ စပိတ္စ္ ဘားကို ပုတ္ပါ။</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ထိေတြ႕မႈမ်ိဳးစုံ လက္ဟန္
+									<div id="ul_3b" class="closed">
+										<p>ထိေတြ႕မႈမ်ိဳးစုံ လက္ဟန္ကို အသုံးျပဳျခင္းျဖင့္ သင္ဟာ၊ စကားလုံး သို႔မဟုတ္ စာလုံးကို စာလုံးႀကီး လုပ္ေပးျခင္းလို လြယ္ကူတဲ့ လုပ္ငန္းမ်ားကို ၿပီးဆုံးေအာင္ လုပ္ႏိုင္ပါတယ္။</p>
+										<ol>
+											<li>ေရးဆြဲေရး ပက္ဒ္မွာ စာလုံး အေသး အခ်ိဳ႕ကို ေရးဆြဲပါ</li>
+											<li>စာလုံးမ်ားကို ထည့္သြင္းၿပီး ေနာက္မွာ၊ စာေရးရန္ေနရာမွာ လက္ႏွစ္ေခ်ာင္းျဖင့္ အေပၚဘက္ကို ပြတ္ဆြဲလိုက္ပါ</li>
+											<li>လက္ႏွင့္ေရးသားမႈ အဂၤါရပ္က ယင္း ထိေတြ႕မႈမ်ိဳးစုံ လက္ဟန္ကို မွတ္မိလ်က္ စာလုံးမ်ားကို အႀကီးလုပ္ေပးပါမယ္။</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>အခ်ိဳ႕ေသာ ကီးဘုတ္မ်ားမွာ လက္ျဖင့္ေရးမႈ မရွိပါ။</i></p>
+									<p><i>တို႔ထိ&#45;လ်က္&#45;စူးစမ္းေရး ဝန္ေဆာင္မႈ အသုံးခ်ေရး စနစ္ကို ဖြင့္ထားခ်ိန္မွာ ဤအဂၤါရပ္ကို သုံး၍မရႏိုင္ပါ။</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">တိုက္႐ိုက္ပါ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>လက္ျဖင့္ ကီးဘုတ္ ထည့္သြင္းေရး အစဉ္အလာ ပုံစံ။ Swype ကီးဘုတ္ ထဲတြင္ ပုတ္လ်က္ ထည့္သြင္းေပးမႈကို ေထာက္ကူေရး အဂၤါရပ္ အခ်ိဳ႕တို႔ရဲ႕ အကူအညီျဖင့္ ပိုလြယ္ကာ ပိုထိေရာက္ေအာင္ လုပ္ေပးထားပါတယ္။</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ထပ္ ေလ့လာပါ <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									ျဖစ္ကတတ္ဆန္း တိုက္႐ိုက္မိတာကို ျပင္ေပးျခင္း
+									<div id="ul_4a" class="open">
+										<p>သင္ဟာ စာလုံး တစ္လုံးခ်င္းစီကို က်က်နန ပုတ္ေပးရန္ မလိုပါ။ သင့္အေနႏွင့္ အေကာင္းဆုံး ျဖစ္ေအာင္ ႀကိဳးစားပါ၊ Swype က ဆင္ဆင္ျခင္ျခင္ စကားလုံးကို အႀကံေပးပါမယ္။</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									စကားလုံး ၿပီးဆုံးေစျခင္း
+									<div id="ul_4b" class="closed">
+										<p>သင္က စာလုံး အခ်ိဳ႕ကို ပုတ္ေပးလိုက္႐ုံႏွင့္ Swype က သင့္စကားလုံးကို ခန္႔မွန္းႏိုင္ပါတယ္။</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ဘာသာစကားမ်ား</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>ဘာသာစကားမ်ားကို ကီးဘုတ္ျဖင့္ ေျပာင္းလဲေပးရန္: စပိတ္စ္ ဘားကို ႏွိပ္ၿပီး ကိုင္ထားပါ။ ေပၚလာတဲ့ မီႏူးထဲမွ ေနၿပီး သင္လိုခ်င္တဲ့ ဘာသာစကားကို ေရြးပါ။</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect က သင့္ကိရိယာအတြက္ အာပ္ဒိတ္မ်ား ႏွင့္ အားေကာင္းစြာ လုပ္ႏိုင္စြမ္းကို စီးမံေပးႏိုင္တယ္။ Swype Connect ဟာ 3G ထဲ အလုပ္လုပ္ႏိုင္ရာ၊ Wi&#45;Fi ဆက္သြယ္မႈ တစ္ခုကို ရွာရန္ က်န္ုပ္တို႔က အစဉ္ပဲ အႀကံေပးမွာပါ။</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ထပ္ ေလ့လာပါ <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ဘာသာစကား ေဒါင္းလုဒ္မ်ား
+									<div id="ul_6a" class="open">
+										<p>Swype ထဲကို ဘာသာစကားမ်ား ထပ္ၿပီး ထည့္ေပးရတာ လြယ္ပါတယ္:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ကို ႏွိပ္ကိုင္ထားကာ ဘာသာစကားမ်ားကို ေရြးပါ။</li>
+											<li>ဘာသာစကား ေရြးစရာမ်ား ထဲမွေနၿပီး ဘာသာစကားမ်ား ေဒါင္းလုဒ္ကို ေရြးပါ။</li>
+											<li>ဘာသာစကား တစ္ခုကို ကလစ္လိုက္လၽႇင္ သင္ရဲ႕ ေဒါင္းလုဒ္ အလိုလို စတင္မယ္။</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ကီးဘုတ္ အားလုံးတို႔မွာ Swype Connect ရခ်င္မွ ရပါမယ္။</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">ေနာက္ထပ္ အကူအညီမ်ား</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype အသုံးျပဳမႈဆိုင္ရာ အကူအညီ ေနာက္ထပ္ လိုလၽႇင္၊ <a href="http://www.swype.com">www.swype.com</a> ရွိ Swype User Manual၊ Swype အႀကံေပးခ်က္မ်ား ႏွင့္ ဗီဒီယိုမ်ားကို ၾကည့္ပါ၊ သို႔မဟုတ္ <a href="http://forum.swype.com">forum.swype.com</a> ရွိ အြန္လိုင္း Swype ဖိုရမ္ထဲ ဝင္ၾကည့္ပါ။</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

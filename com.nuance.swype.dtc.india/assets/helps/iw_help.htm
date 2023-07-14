@@ -1,0 +1,332 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html dir="rtl">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<!-- include RTL language css overrides -->
+		<link rel="stylesheet" href="style_help_rtl.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+             
+				<div class="first"><a href="#tap">הקשה</a></div>
+				<div><a href="#write">כתיבה</a></div>
+				<div><a href="#speak">דיבור</a></div>
+				<div class="last"><a href="#swype"><span dir="ltr">Swype</span></a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">עם <span dir="ltr">Swype,</span> תוכל לעבור באופן חלק בין ארבעה מצבי קלט שונים &#45; <span dir="ltr">Swype,</span> דיבור, כתיבה או הקשה.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title"><span dir="ltr">Swype</span></span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p><span dir="ltr">Swype</span> מספק דרך מהירה להזנת טקסט. הוא מאפשר לך להזין מילה על&#45;ידי ציור נתיב דרך האותיות. הנח את אצבעך על האות הראשונה של המילה, צייר נתיב מאות לאות, והרם את האצבע אחרי האות האחרונה. <span dir="ltr">Swype</span> יוסיף רווחים במקומות הדרושים.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							מידע נוסף <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									מקש <span dir="ltr">Swype</span>
+									<div id="ul_1a" class="open">
+										<p>מקש <span dir="ltr">Swype</span> הוא המקש שעליו מופיע הלוגו של <span dir="ltr">Swype.</span> הקש הקשה ממושכת על מקש <span dir="ltr">Swype</span> כדי לגשת להגדרות <span dir="ltr">Swype.</span></p>
+										<p>מקש <span dir="ltr">Swype</span> משמש גם להפעלה של רבות מתנועות <span dir="ltr">Swype.</span></p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    תצוגה מקדימה של המקלדת
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									תנועות <span dir="ltr">Swype</span>
+									<div id="ul_1b" class="closed">
+										<p>תנועות <span dir="ltr">Swype</span> הן קיצורי דרך במקלדת, המאפשרים לבצע במהירות משימות נפוצות. תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+										<ul>
+											<li><span class="gestures">הצגת מקלדת העריכה</span> כדי לעבור למקלדת העריכה, צייר נתיב מ&#45;<img src="img_swypekey.png" /> אל מקש הסימנים (?123) במקלדת.</li>
+											<li><span class="gestures">הצגת מקלדת הנומרית</span> כדי לעבור במהירות למקלדת הנומרית, צייר נתיב מ&#45;<img src="img_swypekey.png" />אל המספר 5.</li>
+											<li><span class="gestures">הסתרת המקלדת</span> כדי להסתיר בקלות את המקלדת, צייר נתיב ממקש <span dir="ltr">Swype</span> אל מקש <span dir="ltr">backspace.</span></li>
+
+											<li><span class="gestures">ביטול ריווח אוטומטי</span> הפסק את הריווח האוטומטי לפני המילה הבאה על&#45;ידי ציור נתיב ממקש הרווח אל מקש <span dir="ltr">Backspace.</span></li>
+
+
+											<li><span class="gestures">פיסוק</span> דרך פשוטה להזנת פיסוק היא לצייר נתיב מסימן השאלה, הפסיק, הנקודה או סימן פיסוק אחר אל מקש הרווח, במקום להקיש עליו.</li>
+
+											<li><span class="gestures">קיצורי יישום</span>מפות גוגל: צייר נתיב מ&#45;<img src="img_swypekey.png" /> אל &#39;<span dir="ltr">g&#39;</span> ולאחר מכן אל &#39;<span dir="ltr">m&#39;</span></li>
+											<li><span class="gestures">חיפוש</span>סמן טקסט ו&#45;צייר נתיב <span dir="ltr">Swype</span> מ&#45;<img src="img_swypekey.png" /> אל ה&#45;<span dir="ltr">S</span> כדי לבצע חיפוש מהיר באינטרנט.</li>
+											<li><span class="gestures">החלפה לשפה האחרונה שהייתה בשימוש.</span>כדי לחזור במהירות לשפה הקודמת כאשר משתמשים במספר שפות שונות ניתן לבצע מחוות <span dir="ltr">Swype</span> מ&#45;<img src="img_swypekey.png" /> למקש הרווח.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									הזנת אותיות כפולות
+									<div id="ul_1n" class="closed">
+										<p>כדי לשפר את הדיוק בעת הזנה של אותיות כפולות, שרבט קלות או צייר לולאה על האות. לדוגמה, כדי להזין &quot;בב&quot; במילה &quot;בבית&quot;, שרבט על המקש &quot;ב&quot;. תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									בחירת מילה
+									<div id="ul_1d" class="closed">
+										<p>כדי לאשר את מילת ברירת המחדל שמוצעת ברשימת בחירת המילה, המשך לצייר. אחרת, גלול ברשימה על&#45;ידי גרירת האצבע, ובחר במילה הרצויה. תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+										<p>כדי לבחור טקסט מרשימה, הזז את האצבע בתנועה מעגלית כדי לשמוע את הערכים ברשימה. תנועה בכיוון השעון תנוע קדימה ברשימה; תנועה נגד כיוון השעון תנוע אחורה ברשימה. הרמת האצבע תבחר בערך האחרון ברשימה שנאמר. כדי לבחור מילה ברשימת בחירת המילים, החלק את האצבע מעלה מהמקלדת, עד להשמעת המילה הראשונה ברשימה, ולאחר מכן התחל בתנועה מעגלית.	תכונה זו זמינה רק כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ריווח אוטומטי
+									<div id="ul_1f" class="closed">
+										<p><span dir="ltr">Swype</span> מוסיף אוטומטית רווח בין מילים כאשר אתה ממשיך לצייר את המילה הבאה במשפט. ניתן להפעיל או לכבות את תכונת הריווח האוטומטי ב&#39;הגדרות&#39;.</p>
+										<p>ניתן לבטל את הריווח האוטומטי עבור מילה אחת על&#45;ידי ציור נתיב ממקש הרווח למקש <span dir="ltr">Backspace.</span></p>
+										<p>תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									החלפת מילה
+									<div id="ul_1g" class="closed">
+										<p>החלף מילה על&#45;ידי הקשה עליה, ולאחר מכן בחר את המילה הרצויה מרשימת בחירת המילה, או פשוט סמן את המילה וצייר מילה חדשה. המילה החדשה תחליף את המילה השגויה.</p>
+										<p>ניתן לסמן מילה על&#45;ידי הקשה על המילה ולאחר מכן על <img src="img_swypekey.png" /> או הקשה כפולה על המילה.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									דילוג בין אותיות
+									<div id="ul_1h" class="closed">
+										<p>לפעמים, דילוג על אותיות בזמן ציור המילה מבטיח שתקבל את המילה הרצויה בפעם הראשונה.</p>
+										<p>לדוגמה, ניתן לצייר את &quot;חף&quot; ו&#45;&quot;חלף&quot; באמצעות אותו נתיב &#45; אך שים לב כי אין צורך לעבור מאות לאות בקו ישר. דילוג על &quot;ל&quot; בעת העברת האצבע אל &quot;ף&quot; מבטיח כי המילה &quot;חף&quot; תופיע ראשונה ברשימת בחירת המילה.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									מכתבים אחרים
+									<div id="ul_1i" class="closed">
+
+										<p>לחץ לחיצה ממושכת על מקש כדי להציג רשימה של תווים חלופיים עבור אותו מקש, כגון סימנים כמו % ו&#45;@ ומספרים.</p>
+
+										<p>הקש על מקש הסימנים (?123) כדי לעבור למקלדת הסימנים.</p>
+										<p>שים לב כי כל התווים ניתנים לציור מהמקלדת הראשית (בין אם אתה יכול לראות אותם ובין אם לאו). באפשרותך לצייר נתיב באמצעות תצוגה זו של המקלדת, אך תקבל רק מילים המכילות מספר או סימן אחד לפחות.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									הוספה ומחיקה של מילים
+									<div id="ul_1j" class="closed">
+										<p><span dir="ltr">Swype</span> מוסיף בחוכמה מילים חדשות שבהן אתה משתמש למילון האישי שלך.</p>
+										<p>תוכל גם להוסיף מילה על&#45;ידי סימון המילה והקשה על <img src="img_swypekey.png" />. הקש על ההנחיה המופיעה כדי להוסיף את המילה.</p>
+										<p>כדי למחוק מילה, הקש הקשה ממושכת על המילה ברשימת בחירת המילה, ולאחר מכן הקש על &#39;אישור&#39; בתיבת הדו&#45;שיח של האישור. תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									התאמה אישית
+									<div id="ul_1k" class="closed">
+										<p><span dir="ltr">Swype</span> יכול להוסיף מילה במהירות שלך מ<span dir="ltr">Twitter,</span>‏ <span dir="ltr">Gmail.</span> כדי להתאים אישית את <span dir="ltr">Swype:</span></p>
+										<ol>
+											<li>הקש הקשה ממושכת על <img src="img_swypekey.png" />.</li>
+											<li>מתפריט &#39;הגדרות&#39; של <span dir="ltr">Swype,</span> בחר ב&#39;המילים שלי&#39; &gt; &#39;התאמה אישית&#39;.</li>
+											<li>בחר מאפשרויות ההתאמה האישית, והזן את אישורי הכניסה שלך אם תתבקש.</li>
+											<li>תוכל לבצע התאמה אישית של <span dir="ltr">Swype</span> ממקור אחד או מכולם.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">דיבור</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>תוכל לדבר כדי להזין תוכן טקסט לכל צורך, מטקסט והודעות דואר אלקטרוני ועד לעדכוני <span dir="ltr">Facebook</span> ו&#45;<span dir="ltr">Twitter.</span></p>
+						<div class="learnmore" onclick="toggle('0b')">
+							מידע נוסף <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									פיסוק
+									<div id="ul_2a" class="open">
+										<p>אין צורך בהוספה ידנית של פיסוק. אמור את הפיסוק הרצוי והמשך. נסה את הדוגמה הבאה:</p>
+										<ol>
+											<li>הקש על מקש הקול והתחל לדבר.</li>
+											<li>מה תאמר: <i>ארוחת הערב הייתה נהדרת סימן קריאה</i></li>
+											<li>מה ייקלט: <i>ארוחת הערב הייתה נהדרת!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>קלט קולי אינו זמין במקלדות מסוימות</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">כתיבה</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>תוכל להשתמש באצבע כדי להתוות אותיות ומילים, ו&#45;<span dir="ltr">Swype</span> יהפוך זאת לטקסט. תוכל להתוות אותיות משמאל לימין או זו על&#45;גבי זו. הקש על <span dir="ltr">ABC/123</span> כדי לעבור בין מצב אותיות למצב סימנים.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							מידע נוסף <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									הפעל כתב יד
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>לחץ לחיצה ממושכת על <img src="img_symkey.png" /> והחלק את האצבע שלך לסמל כתב היד.</li>
+											<li>התווה אותיות באצבע באזור כתב היד.</li>
+
+											<li>הקש על מקש הרווח בין מילים</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									תנועה מרובת&#45;מגע
+									<div id="ul_3b" class="closed">
+										<p>תנועה מרובת&#45;מגע מאפשרת לך להשלים משימות פשוטות, כגון הזנת אותיות רישיות.</p>
+										<ol>
+											<li>התווה כמה אותיות קטנות במשטח הציור</li>
+											<li>לאחר הזנת התווים, החלק שתי אצבעות כלפי מעלה באזור הכתיבה</li>
+											<li>תכונת כתב היד תזהה את התנועה מרובת&#45;המגע, ותהפוך את האותיות לרישיות</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>כתב יד אינו זמין במקלדות מסוימות.</i></p>
+									<p><i>תכונה זו אינה זמינה כאשר שירות נגישות המערכת <span dir="ltr">Explore&#45;by&#45;Touch</span> פועל.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">הקשה</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>זו הצורה המסורתית להזנה ידנית במקלדת. ההקשה על מקלדת <span dir="ltr">Swype</span> להזנת טקסט היא קלה ויעילה יותר בזכות מספר תכונות שימושיות:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							מידע נוסף <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									תיקון הקלדה מרושלת
+									<div id="ul_4a" class="open">
+										<p>אין צורך להקיש על כל אות ואות באופן מושלם. עשה כמיטב יכולתך, ו&#45;<span dir="ltr">Swype</span> יספק בחוכמה הצעות למילים.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									השלמת מילים
+									<div id="ul_4b" class="closed">
+										<p><span dir="ltr">Swype</span> גם יכול לנחש את המילה לאחר שתקיש רק כמה אותיות.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">שפות</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>כדי לעבור משפה לשפה באמצעות המקלדת: הקש הקשה ממושכת על מקש הרווח. בחר את השפה הרצויה מהתפריט המוקפץ.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title"><span dir="ltr">Swype Connect</span></span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p><span dir="ltr">Swype Connect</span> מאפשר לנו לספק עדכונים ופונקציונליות רבת&#45;עצמה ישירות למכשיר שלך! למרות ש&#45;<span dir="ltr">Swype Connect</span> פועל דרך דור שלישי, מומלץ למצוא חיבור <span dir="ltr">Wi&#45;Fi.</span></p>
+						<div class="learnmore" onclick="toggle('0f')">
+							מידע נוסף <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									הורדות שפה
+									<div id="ul_6a" class="open">
+										<p>קל להוסיף שפות נוספות ל&#45;<span dir="ltr">Swype:</span></p>
+										<ol>
+											<li>לחץ לחיצה ממושכת על <img src="img_swypekey.png" /> ובחר &#39;שפות&#39;.</li>
+											<li>מהתפריט &#39;שפות&#39;, בחר &#39;הורד שפות&#39;.</li>
+											<li>לחץ על שפה, וההורדה תתחיל באופן אוטומטי.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i><span dir="ltr">Swype Connect</span> אינו זמין בכל המקלדות.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">עזרה נוספת</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>לקבלת עזרה נוספת עבור השימוש ב&#45;<span dir="ltr">Swype,</span> הצג מדריך למשתמש של <span dir="ltr">Swype</span> וטיפים וסרטונים של <span dir="ltr">Swype</span> באתר <a href="http://www.swype.com"><span dir="ltr">www.swype.com</span></a>, או בקר בפורום המקוון של <span dir="ltr">Swype</span> בכתובת <a href="http://forum.swype.com"><span dir="ltr">forum.swype.com</span></a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

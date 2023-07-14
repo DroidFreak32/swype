@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_preview_theme_height">100.0dip</dimen>
+    <dimen name="preference_theme_column_width">100.0dip</dimen>
+    <dimen name="theme_category_title_size">15.0dip</dimen>
+</resources>

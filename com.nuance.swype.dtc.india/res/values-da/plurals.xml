@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d dage siden</item>
+        <item quantity="one">%d dag siden</item>
+    </plurals>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d ord vil blive slettet</item>
+        <item quantity="one">Ét ord vil blive slettet.</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d timer siden</item>
+        <item quantity="one">%d time siden</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">%d minut siden</item>
+    </plurals>
+</resources>

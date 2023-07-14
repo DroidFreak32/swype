@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_width" ns:keyTextSize="?keyCharacterSize5row" ns:letterLanguageCategory="ta" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <include ns:src="@xml/kbd_number_row_default" />
+    <Row ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_tamil_அ" ns:keyEdgeFlags="left" ns:keyLabel="அ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஆ" ns:keyLabel="ஆ" ns:altKeyLabel="ஆ" ns:shiftedKeyLabel="ா" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_இ" ns:keyLabel="இ" ns:altKeyLabel="இ" ns:shiftedKeyLabel="ி" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஈ" ns:keyLabel="ஈ" ns:altKeyLabel="ஈ" ns:shiftedKeyLabel="ீ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_உ" ns:keyLabel="உ" ns:altKeyLabel="உ" ns:shiftedKeyLabel="ு" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஊ" ns:keyLabel="ஊ" ns:altKeyLabel="ஊ" ns:shiftedKeyLabel="ூ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_்" ns:keyLabel="்" ns:altKeyLabel="்" ns:shiftedKeyLabel="ஃ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_எ" ns:keyLabel="எ" ns:altKeyLabel="எ" ns:shiftedKeyLabel="ெ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஏ" ns:keyLabel="ஏ" ns:altKeyLabel="ஏ" ns:shiftedKeyLabel="ே" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஐ" ns:keyLabel="ஐ" ns:altKeyLabel="ஐ" ns:shiftedKeyLabel="ை" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஒ" ns:keyLabel="ஒ" ns:altKeyLabel="ஒ" ns:shiftedKeyLabel="ொ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஓ" ns:keyEdgeFlags="right" ns:keyLabel="ஓ" ns:altKeyLabel="ஓ" ns:shiftedKeyLabel="ோ" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_tamil_க" ns:keyEdgeFlags="left" ns:keyLabel="க" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ங" ns:keyLabel="ங" ns:altKeyLabel="ங" ns:shiftedKeyLabel="ஞ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ச" ns:keyLabel="ச" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ட" ns:keyLabel="ட" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ண" ns:keyLabel="ண" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_த" ns:keyLabel="த" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ந" ns:keyLabel="ந" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ப" ns:keyLabel="ப" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ம" ns:keyLabel="ம" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ய" ns:keyLabel="ய" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ர" ns:keyLabel="ர" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஔ" ns:keyEdgeFlags="right" ns:keyLabel="ஔ" ns:altKeyLabel="ஔ" ns:shiftedKeyLabel="ௌ" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:keyWidth="@fraction/shift_9_12_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ல" ns:keyLabel="ல" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_வ" ns:keyLabel="வ" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ழ" ns:keyLabel="ழ" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ள" ns:keyLabel="ள" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ற" ns:keyLabel="ற" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ன" ns:keyLabel="ன" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஜ" ns:keyLabel="ஜ" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஸ" ns:keyLabel="ஸ" ns:altKeyLabel="ஸ" ns:shiftedKeyLabel="ஷ" />
+        <Key ns:popupCharacters="@string/alternates_for_tamil_ஹ" ns:keyLabel="ஹ" />
+        <Key ns:keyWidth="@fraction/delete_9_12_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_tamil" />
+</KeyboardEx>

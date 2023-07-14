@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">ঙাংবা</a></div>
+				<div><a href="#write">ইবা</a></div>
+				<div class="last"><a href="#tap">মখল</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype য়াওরবদি, নহাকনা তোঙান&#45;তোঙানবা ইনপুত মোদশিং&#45; Swype, ঙাংবা, ইবা নত্রগা তপ্না নম্বা মরীসিগী মরক্তা লাইনা ওন্থোক&#45;ওনশিন তৌবা ঙমগনি।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype হাইবসি কেক্স নম্নবগীদমক খ্বাইদগী থুবা লম্বী অমনি। মসিনা নহাকপু ময়েকশিংগী খুথাংদা য়েক্তুনা ৱাহৈ অদুদা চংহল্লি। নহাক্কি খুৎশাদু ৱাহৈদুগী অহানবা ময়েক্তুদা থম্মু অমসুং ময়েক অমদগী ময়েক অমদা অরোইবা ময়েক্তুদগী খুৎ থাংগৎতুনা লম্বী অমা শেম্মু। Swype না মথৌ তাবশিংদা স্পেস হাপকনি।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							হেন্না খংউ <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype কি কী
+									<div id="ul_1a" class="open">
+										<p>Swype কি কী হায়বসি Swype কি লোগো য়াওবা কীদুবুনী। Swype কি সেতিংদা চংনবগীদমক্তা Swype কীদা নম্মু অমসুং ঙাইহাক থম্মু।</p>
+										<p>Swype কী হায়বসি তোঙান&#45;তোঙানবা Swype কি মওং&#45;মতৌশিং হৌহনবদসু শিজিন্নৈ।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    কীবোর্দ প্রীভিয়ু
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype কি জেচরশিং
+									<div id="ul_1b" class="closed">
+										<p>Swype কি জেচরশিং হায়বসি কমন তাস্কশিং থুনা পাংথোকপা য়ানবা কীবোর্দকি সোর্ত&#45;কতশিংদুনী। মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</p>
+										<ul>
+											<li><span class="gestures">ইদিৎ কীবোর্দ ফংবা</span> ইদিৎ কীবোর্দ ফংনবা, <img src="img_swypekey.png" /> তগী সিম্বোল কী (?123) ফাওবা কীবোর্দতা স্বাইপ তৌ।</li>
+											<li><span class="gestures">নম্বর কীবোর্দ ফংবা</span> নম্বর কীবোর্দ থুনা ফংনবগীদমক,  <img src="img_swypekey.png" /> তগী 5 ফাউবা স্বাইপ তৌ।</li>
+											<li><span class="gestures">কীবোর্দ লোৎপা</span> কীবোর্দ লাইনা লোৎনবগীদমক, স্বাইপ কীদগী স্পেস বার ফাওবা Swype তৌ।</li>
+
+											<li><span class="gestures">ওতোমেতিক স্পেসিং মুথৎপা</span> স্পেস কীদগী বেক&#45;স্পেস কী ফাওবা স্বাইপ তৌদুনা মথংগী ৱাহৈগী মমাংদা ওতোমেতিক কীদু নমশিল্লু।</li>
+
+
+											<li><span class="gestures">পঙ্কচুয়েসন</span> পঙ্কচুয়েসন হাপ্পগী খ্বাইদগী লাইবা লম্বীদি ৱাহং খুদম, কোমা, পেরিয়দ, নত্রগা অতোপ্পা পঙ্কচুয়েসনশিংদগী স্পেস বারদা নম্বগী মহুত্তা মদু ফাওবা স্বাইপ তৌবনি।</li>
+
+											<li><span class="gestures">এপ্লিকেসন সোর্ত&#45;কতশিং</span>Google Maps: </li>
+											<li><span class="gestures">থীবা</span>অথুবা ৱেব সর্স অমা তৌনবগীদমক ময়েক খরা হাইলাইত তৌ অমসুং  <img src="img_swypekey.png" /> তগী S তা স্বাইপ তৌ।</li>
+											<li><span class="gestures">অরোইবা ওইনা শিজিন্নখিবা লোনদুদা ওন্থোক্লি</span>তোঙান&#45;তোঙানবা লোনশিং শিজিন্নবকান্দা, খ্বাইদগী থুবা মমাংদা শিজিন্নখিবা লোন্দুদা ওন্থোকপগী লম্বীদি <img src="img_swypekey.png" /> তগী স্পেস কী ফাওবা স্বাইপ তৌবনি।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									দবল লেতর হাপচিল্লী
+									<div id="ul_1n" class="closed">
+										<p>দবল লেতর হাপচিবকান্দা শোইদনবা, খিতং থুনা চিংউ নত্রগা ময়েক্তুদা কোঙ্গোয় অমা শেম্মু। খুদম ওইনা, &quot;নববর্ষ&quot; দা &quot;বব&quot; ফংনবগীদমক, &quot;ব&quot; কীদা খিতং থুনা চিংউ। মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									ৱাহৈ অমা খনবা
+									<div id="ul_1d" class="closed">
+										<p>ৱার্দ চোইস লিস্ততা মশাগী ওইবা পীরক্লিবা ৱাহৈদু খন্নবগীদমক স্বাইপ তৌ। নত্রগনা, নহাক্কি খুৎশাদুনা লিসতু মখাদা চিংথৌ অমসুং নহাকনা অপাম্বা ৱাহৈদু খল্লু। মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</p>
+										<p>লিস্ত অমদগী তেক্স খন্নবগীদক, লিসতুদা য়াওরিবশিংদু তান্নবা নহাক্কি খুৎশাদু অকোইবা মওংদা উংঙু। ঘরিনা চৎপগী মওংদা উংলগনা লিসতুদা মাংলোমদা চৎকনি; ঘরিনা চৎপগী ওন্ন&#45;তৈনবদা উংলগনা লিসতুদা মনিংলোমদা চৎকনি। খুৎশা থাংগৎপদা অরোইবা ওইনা হায়খিবদু লিস্ততগী লৌথোকখিগনি। ৱাহৈ খনবগী লিস্ততগী ৱাহৈ অমা খন্নবগীদমক, নহাক্কি খুৎশাদু মথক্লোমদা লিসতুদগী অহানবা ৱাহৈদু হেক তাদ্রিফাও কীবোর্দতগী ইনখৎলু, অমসুং অকোইবা মওংদা উংঙু।	মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌরবকান্দতা ফংই।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									মথন্তা স্পেস পিজবা
+									<div id="ul_1f" class="closed">
+										<p>নহাকনা ৱাহৈ পরেংদুদা য়াওরিবা মথংগী ৱাহৈদা স্বাইপ তৌবা মতমদা Swype না মশা মথন্তনা ৱাহৈ অনীগী মরক্তা স্পেস অমা হাপচল্লি। নহাকনা Swype সেতিংদা চংদুনা ওতো স্পেসিং ফিচরদু ওন নত্রগা ওফ তৌবা য়াই</p>
+										<p>স্পেস কীদগী বেক ইস্পেস কীদা স্বাইপ তৌদুনা ৱাহৈ অমগী ওতো&#45;ইস্পেসিং অদু মুথৎপা য়াই।</p>
+										<p>মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									ৱাহৈ অমবু মহুৎ শিন্দোকপা
+									<div id="ul_1g" class="closed">
+										<p>ৱাহৈদুদা তপ্না নমদুনা ৱাহৈদুবু শিন্দোকউ, মখা তানা ৱাহৈ খনবগী লিস্ততুদগী নহাকনা পাম্বা ৱাহৈদু খল্লু, নত্রগা ৱাহৈদু চম্না হাইলাইত তৌ অমসুং অনৌবা ৱাহৈ অমা স্বাইপ তৌ। অনৌবা ৱাহৈদুনা অরানবা ৱাহৈদু শিন্দোক্কনি।</p>
+										<p>ৱাহৈদুদা তপ্না নমদুনা অমসুং <img src="img_swypekey.png" /> দা থেংদুনা নত্রগা ৱাহৈদুদা অনীরক তপ্না নমদুনা ৱাহৈ অমবু হাইলাইত তৌবা য়াই।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									ময়েকশিংগী মরক্তা চোংথোক&#45;চোংশিন তৌবা
+									<div id="ul_1h" class="closed">
+										<p>করিগুম্বাকান্দা স্বাইপ তৌরিঙৈদা ময়েকশিংদা য়েংদবনা নহাকনা অহানবদা পাম্বা ৱাহৈদু ফংবা ঙমহল্লি।</p>
+										<p>খুদম ওইনা, &quot;আঁচাক&quot; অমসুং &quot;আঁচাত&quot; সি চপ মান্নবা লম্বীদা য়েকপা য়াই &#45; তৌইগুমশুং খংজিনগদবদি, নহাকনা অচুম্বা লৈইদা ৱাহৈ অমদগী ৱাহৈ অমদা চৎলোইদবনি। নহাক্কী খুৎনা &quot;ত&quot; তা স্বাইপ তৌবা মতমদা &quot;ক&quot; তা য়েংদবনা অহানবগী ৱাহৈ খনবগী লিস্ত অদুদা অহানবদা &quot;আঁচাত&quot; হাইবা ৱাহৈসি য়াওবা ঙমহল্লি।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									অতোপ্পা ময়েকশিং
+									<div id="ul_1i" class="closed">
+
+										<p>কী অমদা নমদুনা অমসুং ঙাইহাক থমদুনা হায়রিবা ময়েক্তুগী মহুৎশিন্নবা অতোপ্পা ময়েকশিংগী লিস্ত অমা, শম্না হায়রবদা @ অমসুং %, অমশুং নম্বরশিং থোক্লকনবা নম্মু।</p>
+
+										<p>সিম্বোল কী (?123) দা তপ্না নমদুনা সিম্বোল কীবোর্দতা পুরকউ।</p>
+										<p>খংজিনগদবদি ময়েক খুদিংমক মপুং ওইবা কীবোর্দতগী স্বাইপ তৌবা য়াই (নহাকনা মখোয়দু উরবসু উদ্রবসু)। কীবোর্দকী উরিবা মওংসি শিজিন্নরগা নহাকনা স্বাইপ তৌবা য়াই, তৌইগুমশুং নহাকনা মশিং অমা নত্রগা সিম্বোল অমা য়াওবা ৱাহৈতমক ফংগনি।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									ৱাহৈশিং হাপচিনবা অমসুং ককথৎপা
+									<div id="ul_1j" class="closed">
+										<p>নহাকনা অনৌবা ৱাহৈ অমা হেক শিজিন্নবদা Swype না য়াম্না হৈ&#45;শিংনা মদু নহাক্কি লনাই দিক্সনারিদা হাপচিল্লি।</p>
+										<p>নহাকনা ৱাহৈ অমা হাইলাইত তৌদুনা অমসুং <img src="img_swypekey.png" /> দা তপ্না নমদুনা হাপচিনবসু য়াই। ৱাহৈ অমা হাপচিন্নবা মথং&#45;মনাও নাইনা উৎলিবা প্রোম্পত অদুদা তপ্না নম্মু।</p>
+										<p>ৱাহৈ অমা মুথৎনবা, ৱাহৈ খন্নবা লিস্ততু তপ্না নম্মু অমসুং ঙাইহাক পাইশিন্দুনা থম্মু, অমসুং কনফরমেসন দাইলোগ অদুগী ওঃকেঃ দা তপ্না নম্মু। মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									পার্সেনেলাইজেসন
+									<div id="ul_1k" class="closed">
+										<p>Swype না Twitter অমসুং Gmail দগী য়াংনা নহাক্কি দিক্সনারিদা ৱাহৈ হাপচিনবা ঙমই। Swypeপার্সেনেলাইজেসন তৌবা:</p>
+										<ol>
+											<li><img src="img_swypekey.png" />. দু তপ্না নম্মু অমসুং ঙাইহাক থম্মু।</li>
+											<li>Swype সেতিং মেন্যুদগী, ঐগী ৱাহৈ &gt; পর্সোনেলাইজেসন খল্লু।</li>
+											<li>পার্সেনেলাইজেসন ওপসনদগী খল্লু অমসুং নহাক্কি ৱারোলশিং হংলক্লবদি হাপচিল্লু।</li>
+											<li>নহাকনা সোর্স অমদগী নত্রগা ময়ামদগী Swype পু পার্সেনেলাইজেসন তৌবা য়াই।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">ঙাংবা</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>তেক্স অমসুং ই&#45;মেলগী মেসেজশিংদা য়াওরিবা খুদিংমক নহাকনা ঙাংদুনা Facebook অমসুং Twitter গী অপদেটশিংদা হাপ্পা য়াই।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							হেন্না খংউ <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									পঙ্কচুয়েসন
+									<div id="ul_2a" class="open">
+										<p>মেনুয়ল ওইনা পঙ্কচুয়েসন হাপ্পগী মথৌ তাদে। নংনা অপাম্বা পংচুয়েসনদু হাইয়ু অমসুং মখা চৎথৌ। মসি তৌদুনা য়েংঙু:</p>
+										<ol>
+											<li>ভোইস কীদু তপ্না নম্মু অমসুং ঙাংবা হৌ।</li>
+											<li>নহাকনা করি হাইরি: <i>নুমিদাংগী চাক্লেন্দু হাওখি এক্সক্লেমেসন পোইন্ত</i></li>
+											<li>নহাকনা করি ফংলে: <i>নুমিদাংগী চাক্লেন্দু হাওখি!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>কীবোর্দ খরদা ভোইস ইনপুত য়াওদে</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ইবা</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>নহাকনা নহাক্কী খুৎশা শিজিন্নদুনা ময়েকশিং য়েকপা য়াই অমসুং Swype না মদু তেক্সতা ওন্থোকখিগনি। নহাক ময়েকশিংবু ওইদগী য়েৎতা নত্রগা অমনা&#45;অমগী মথক্তা য়েকপা য়াগনি। ময়েক অমসুং সিম্বোল মোদপু হঙ্গৎ হন্দা নম্বা য়ান্নবা ABC / 123 দা তপ্না নম্মু।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							হেন্না খংউ <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									খুৎনা ইবা য়াহনবা
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> দা নম্মু অমসুং ঙাইহাক থম্মু অমসুং নহাক্কী খুৎশা অদু হেন্দরাইতিং আইকোনদুদা ইনলু।</li>
+											<li>খুৎনা ইন্নবা জগাদা নহাক্কী খুৎশানা ময়েকশিং অদু য়েকউ।</li>
+
+											<li>ৱাহৈ খুদিংগী মরক্তা লৈরিবা স্পেস বার অদুদা তপ্না নম্মু</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									মল্টি&#45;তচ জেচর
+									<div id="ul_3b" class="closed">
+										<p>মল্টি&#45;তচগী জেচরসিনা নহাকনা য়াম্না চম্বা থৌওংশিং হায়বদি ৱাহৈ নত্রগা ময়েক চাওহনবা য়াহল্লি।</p>
+										<ol>
+											<li>দ্রোয়ীং পেদতা অপীকপা ময়েক খরা য়েকউ</li>
+											<li>ময়েকশিংদু ইরবা মতুংদা, খুৎশা অনীনা ইফম মফমদুদা মথক্লোমদা নানখৎলু</li>
+											<li>খুৎনা ইবগী মওংশিংনা মল্টি&#45;তচ কি মওং&#45;মতৌশিংদু শকখংগনি অমসুং ময়েকশিংদু চাওহনগনি</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>খুৎনা ইবসি কীবোর্দ খরদদি য়াওদে।</i></p>
+									<p><i>মসিগী ফিচরসি সিস্তেম এসেসিবিলিতি সার্ভিস এক্সপ্লোর&#45;বাই&#45;তচ সি ওন তৌবকান্দা ফংদে।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">মখল</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>মেনুয়ল কীবোর্দ ইনপুটকি ত্রেদিসনেল ওইবা মশক&#45;মওং। Swype কীবোর্দকি ইনপুটতা নম্বসি কান্নরবা মওং&#45;মতৌ খরনা লাইহল্লে অমসুং হেন্না ফগৎহল্লে:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							হেন্না খংউ <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									সলোপ্পিং তাইপিং শেমদোকপা
+									<div id="ul_4a" class="open">
+										<p>নহাকনা ময়েক খুদিংমক চপ চানা নম্বগী মতৌ তাদে। নহাক্না খ্বাইদগী ফরে খনবদুদং হোৎনৌ অমসুং Swype না য়াম্না হৈ&#45;শিংনা নঙোন্দা খন্ননবা ৱাহৈশিং পীরক্কনি।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									ৱাহৈ লোইরে
+									<div id="ul_4b" class="closed">
+										<p>নহাকনা ময়েক খরতমক নম্বদা Swype না নহাক্কি ৱাহৈদুসু খংবা ঙমই।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">লোনশিং</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>কীবোর্দতগী লোন ওন্থোকপা: স্পেস বার তপ্না নম্মু অমসুং ঙাইহাক থম্মু। থোক্লক্লিবা পোপঅপ মেন্যুদুদগী নহাকনা পাম্বা লোন্দু খল্লু।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect না নহাক্কি দিভাইজপু অপদেত অমসুং মথৌ নীংথীনা পাংথোকপগী রাইত ঐখোয়না পীবা য়াহল্লি! Swype Connect না 3G দা মথৌ পাংথোকপদা, মতম চুপ্পদা ঐখোয়না ৱাই&#45;ফাই কনেক্সন অমা থীন্ননবা খংহল্লি।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							হেন্না খংউ <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									লোন দাউনলোদ তৌবা
+									<div id="ul_6a" class="open">
+										<p>Swype তা অহেনবা লোন অমা হাপচিনবসি য়াম্না লাই:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> দা তপ্না নম্মু অমসুং ঙাইহাক থম্মু অমসুং লোন খল্লু।</li>
+											<li>লোনগী মেন্যুদগী, লোন দাউনলোদ তৌবা খল্লু।</li>
+											<li>লোন অমদা ক্লিক তৌ অমসুং নহাক্কি দাউনলোদ তৌবদু মথন্তা হৌরক্কনি।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect সি কীবোর্দ খুদিংদা ফংদে।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">অহেনবা মতেং</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype শিজিন্নবদা অহেনবা মতেংগীদমক, Swype মেনুয়ল য়ুজর অমা অমসুং Swype তিপ অমসুং <a href="http://www.swype.com">www.swype.com</a>, দা ভিদিও য়েংউ নত্রগা অমসুং Swype ফোরম ওনলাইন <a href="http://forum.swype.com">forum.swype.com</a>. সিদা য়েংউ।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

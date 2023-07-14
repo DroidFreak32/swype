@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="5.0dip" android:duration="200" android:drawable="@drawable/progress_bar_indeterminate_animation_frame_1" />
+    <item android:height="5.0dip" android:duration="200" android:drawable="@drawable/progress_bar_indeterminate_animation_frame_2" />
+    <item android:height="5.0dip" android:duration="200" android:drawable="@drawable/progress_bar_indeterminate_animation_frame_3" />
+</animation-list>

@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">गा॒ल्हायो</a></div>
+				<div><a href="#write">लिखो</a></div>
+				<div class="last"><a href="#tap">नमुनो</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype सा, तव्हां सघ था रखो तव्हां जुदा&#45;जुदा तरिकनि &#45; Swype, गा॒ल्हिअण, लिखण&#45;दबा॒अण मंझ सहुलाईअ मट&#45;सट करे था सघो.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype लफ्ज़ विझण जो तकिड़ो तरीको आ. इहो मोकल डि॒दो आहे अखरनि मार्फत लफजनि खे छिकण जी. पहिंजी आंङुरु अग॒वाटि अखर जे पहिंरे लफज ते रखो ऐं अखर खां अखर ताईं वाटि ठायो, आखरी अखर तां मथे कंदे. Swype वांदी जाई दाखिल कंदी जिते जरुरी पवंदी.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							वधीक जा॒णो <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype की
+									<div id="ul_1a" class="open">
+										<p>Swype की उहा की आहे जहिं ते Swype लोगो आहे. Swype सेटिंग्स ऐकसेस करण लाई Swype की खे दबा॒यो ऐं झलो.</p>
+										<p>Swype की जो इस्तमाल जुदा जुदा Swype इशारनि खे शुरु करण शुरू करण में कयो वेंदो आ.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    कीबोर्ड अगो॒णो&#45;नजारो
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype इशारा
+									<div id="ul_1b" class="closed">
+										<p>Swype इशारा नंडी&#45;वाटि आहिनि कीबोर्ड ते सहुला कम तकडा निबेरण लाई. इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+										<ul>
+											<li><span class="gestures">कीबोर्ड खे फेर&#45;घेर करण</span> कीबोर्ड खे फेरघेर कराअण लाई, कीबोर्ड ते <img src="img_swypekey.png" /> खां (?123) ताईं सवाईप कयो.</li>
+											<li><span class="gestures">कीबोर्ड खे अंकाईतो करण</span> अंकाईतो कीबोर्ड ते तकिड़ो वञण लाई, सवाइप कयो <img src="img_swypekey.png" /> खां अंक 5 ताईं.</li>
+											<li><span class="gestures">कीबोर्ड लिकाइण</span> कीबोर्ड खे सहुलाईअ सा लिकाण लाई, फक्त सवाइप कयो Swype की खां बैकस्पेस ताईं.</li>
+
+											<li><span class="gestures">पहिंजे पाण वांदी जाई बंद कयो</span> पहिंजे&#45;पाण वांदी जाई रोकण लाई सवाइप कयो वांदी&#45;जाई खां बैकस्पेस ताईं.</li>
+
+
+											<li><span class="gestures">बीहक जी नीशानी</span> बीहक जी निशानी दाखिल करण जी सहुली वाटि आहे सवाली निशान, नंढे ठिबके, ठिबके, या बि का बाहक जी नीशानी खां सवाइप कयो खेसि दबाअण जी जाई ते.</li>
+
+											<li><span class="gestures">ऐपलीकेशन नंढी&#45;वाटियूं</span>Google Maps: </li>
+											<li><span class="gestures">गोल्हा</span>तकिड़ी वेब गोल्हा लाई किन टेक्सट खे पधिरो करे ऐं <img src="img_swypekey.png" /> खां S ताईं सवाईप कयो.</li>
+											<li><span class="gestures">आखरी इस्तेमाल थिअल बो॒ली ते वञजेपयो</span>जड॒हिं जुदा जुदा बो॒लियूं पई कमु आणजिनि, पिछाडी वारी बो॒ली ते मोटण लाई , <img src="img_swypekey.png" /> खां वांदी की डा॒हि सवाईप कयो.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									बिठा अखर दाखिल पया थेनि
+									<div id="ul_1n" class="closed">
+										<p>बि॒ठे अखरनि जे दाखिले महल दुरुस्ती सांङे, अखरनि खे कजहि फेगघेर कयो या कडी ठाहियो. मसलन, &quot;उत्तर&quot; में &quot;त्त&quot; पाइण लाई, &quot;त्&quot; की ते मथे वञो. इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									हिकु लफ्ज़ चूंडण
+									<div id="ul_1d" class="closed">
+										<p>लफ्ज़ चूंड फेहरिस्त में ड॒सयलु मुल लफज खे मञण लाई, फक्त सवाईप कंदा रहो. या न त, पंहिंजी आंङुरीअ घिरकाऐ फेहरिस्त ते नज़र विझो, ऐं पहिंजी चाहि जो लफ्ज़ चूंडो. इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+										<p>फेहरिस्‍त मां लिखत चूंडण लाई,पहिंजी आंङुरी गोलाई तरीके सां घुमायो दाखिलत जे फेहरिस्‍त खे बुधण लाई. घड़ी हलण जे नमूने फेहरिस्‍त में अगते वधंबो; घड़ी उबती हलण जे नमूने फेहरिस्‍त में पोइते वेंबो. आंगुर सोरण सां आखरी दाखिल थिअल चवलु फेहरिस्‍त बाहिर ईंदी. लफ्ज़ चूंड फेहरिस्‍त में कहिं लफ्ज़ खे चूंडण लाई, कीबोर्ड जे मथोउं खां पंहिंजी आंङुरी घिरकायो जेसिताई फेहरिस्‍त जो पहिरों लफ्ज़ु बु॒धण में अचे, पोइ गोल घुमाइण चालू कयो.	इहा कारगुजारी फक्त तड॒हिं ई मेसर थिंदी जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									पहिंजे पाण जार्इ छड॒ण
+									<div id="ul_1f" class="closed">
+										<p>Swype पहिंजेपाण लफजनि मंझ वांदी जाई विझी छडिं॒डी जड॒हिं जदहिं तव्हां जुमले जो अग॒या लफजु सवाईप कंदा. तव्हां पहिंजेपाण&#45;वांदीजाई खसुसियत खे चालु या बंद करे था सघो Swype सेटिंग्स में.</p>
+										<p>पहिंजेपाण&#45;वांदीजाई हिक लफज लाई बंद करे थी सघजे वांदी जाई डिं॒दड की खां बैकस्पेस स्वाइप करे.</p>
+										<p>इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									लफ्ज़ मटण
+									<div id="ul_1g" class="closed">
+										<p>लफज खे मटो साणसि दबा॒ऐ, ऐं पोई उहो लफजु चुंडो॒ लफज&#45;चाहि फहरसत मां , या फक्त लफज उजागर कयो ऐं नयो लफज सवाइप कयो. गलत लफ्ज़ जी जार्इ ते नओ लफ्ज़ अची वेंदो.</p>
+										<p>लफ्ज़ उजागर करे थो सघजे लफ्ज खे दबा॒ऐ ऐं <img src="img_swypekey.png" /> खे हणी या लफ्ज खे ब॒&#45;भेडा दबा॒ऐ.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									अखरनि मंझ टपो
+									<div id="ul_1h" class="closed">
+										<p>किड॒हिं सवाइपिंग कंदे लफजनि खे नजरअंदाज करण सां तव्हां खे उहे लफजु हथु इंदो तव्हां खे जेको पहिंरां भेरो खपिंदो आ.</p>
+										<p>मसलन, &quot;अटकलना&quot; अएं &quot;अटकना&quot; सागे जरिए सां ठाए सघबो आ &#45; पर ध्यान द्यो, तव्हांखे कहिं सिधी लाइन में हिक अखर खां बे अखर ताणि वञण जी घुर्ज कोन्हे. &quot;न&quot; ते पंहिंजी आंङुरु सवाइप कंदे &quot;न&quot; खे नजरअंदाज करण सां इन जी पक कंदो आहे क &quot;अटकना&quot; पहिरों लफ्ज़ आ लफज चुंड फहरिसत में.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									जुदा चूंड वारा अखर
+									<div id="ul_1i" class="closed">
+
+										<p>कहिं&#45;हिक की खे दबा॒यो ऐं झलो उन की लाई बे॒&#45;चारे जे अखरनि खे खणी अचण लाई, मसलनि निशानियूं जिअं @ ऐं %, ऐं अंक.</p>
+
+										<p>निशाननि की (?123) दबा॒यो निशान कीबोर्ड डा॒हि गिनी वञण लाई.</p>
+										<p>धयानु रखो त मुल कीबोर्ड मां समुरा अखर सवाईप&#45;सघेरा आहिनि (भले तव्हां उहे दिसी सघो या न). तव्हां सवाइप करे था सघो कीबोर्ड जे हिन नजारे खे इसतमाल कंदे, पर तव्हां खे रुगो॒ उहे लफज मिंलिंदा जहिं मंझ घट में घट हिकु अंकु या निशानी हुंदी</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									लफ्ज़ गंढण ऐं सोरण
+									<div id="ul_1j" class="closed">
+										<p>Swype अक्लमंदी सां उहे नया लफ्ज़ गंढे थो, जेके तव्हां पहिंजी जाती डिक्शनरी में इस्तेमाल कंदा आहियो.</p>
+										<p>तव्हां लफज खे पिणि गंढे शा सघो खेसि उजागर ऐं <img src="img_swypekey.png" /> खे दबाए. लफ्ज़ गंढण लाई सामो आयलु नयापो दबा॒यो.</p>
+										<p>कहिं लफ्ज़ रदि करण लाई, लफज फेहिरसत खे दबा॒यो ऐं झलो लफज&#45;चुंड में, ऐं पोई ठीक दबा॒यो पक कंदड डाऐलाग दबे॒ मंझ. इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									जाती संवारीयप
+									<div id="ul_1k" class="closed">
+										<p>Swype तकडायप में Twitter ऐं Gmail मां तव्हांजी लुगत में लफज गंढे थो सघे. जाती&#45;संवारयप लाई Swype कयो:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> खे दबा॒यो ऐं झलो.</li>
+											<li>Swype सेटिंग्स मेनु मां , मुंहिंजा लफ्ज़ &gt; जाती&#45;सहूलियत चूंडो.</li>
+											<li>जाती&#45;संवारियप अख्तयारनि मां चुंडो ऐं पहिंजी सुञाणप जा विचुड दाखिल कयो जेकर पुछयो वञे त.</li>
+											<li>तव्हां Swype खे जाती&#45;संवारयप हिक या सभीनि मुंढनि खां करे था करे था सघो.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">गा॒ल्हायो</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>तव्हां लिखत मुवादु दाखिल करण लाई गा॒ल्हाऐ था सघो सबुकहिं लाई लिखत ऐं इ&#45;मेल खां Facebook ऐं Twitter वाधारनि ताईं.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							वधीक जा॒णो <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									बीहक जी नीशानी
+									<div id="ul_2a" class="open">
+										<p>हथराधू बीहक जी निशानी गंढ जी जरुरत नाहे. फक्त चयो पंहिंजी चाहि जी बीहक जी निशानी ऐं अग॒ते वधो. इहो आज़मायो:</p>
+										<ol>
+											<li>आवाज़ी की दबा॒यो ऐं गा॒ल्हाअण शुरू कयो.</li>
+											<li>तव्हां छा चयो: <i>रात जी मानी धियानु छिकाईंदड जाईकेदार हुई</i></li>
+											<li>तव्हांखे छा मिलो: <i>रात जी माने जाईकेदार हुई!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>आवाज़ी इन्पुट किनि कीबोर्ड में मेसर नाहे हुंदो आ</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">लिखो</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>तव्हां आंङुरु जो इस्तमाल करे था सघो अखर ऐं लफज छिकण लाई ऐं Swype खेसि लिखत में मटिंदो. तव्हां अखर खबे॒&#45;खां&#45;सजे॒ या हिक&#45;बे जे मथां छिकेथा सघो. ABC / 123 खे दबा॒यो अखर ऐं निशानियूंनि में मट&#45;सट करण लाई.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							वधीक जा॒णो <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									हथलिखाई सघेरी कयो
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> खे दबा॒यो ऐं झलो ऐं हथलिखार्इ निशान ते पंहिंजी आंङुरु सरकायो.</li>
+											<li>हथलिखार्इ जी जार्इ ते पंहिंजी आंङुंर सां अखर छिको.</li>
+
+											<li>हर&#45;हिक लफ्ज़ जे विच में वांदी जाई दबा॒यो</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									घणा&#45;छुह जो इशारो
+									<div id="ul_3b" class="closed">
+										<p>घणा&#45;छुह इशारो मोकल डि॒दो आहे त सहुला कम करण जी मसलनि अखर या लफजनि जो वडो॒तरो करण.</p>
+										<ol>
+											<li>के नंढातरा अखर ड्राइंग&#45;पैड ते छीको</li>
+											<li>अखर विझण खां पोइ, लिखण जी जार्इ ते ब॒ आंङिरियूं मथे घिरकायो</li>
+											<li>हथलिखार्इ खसुसियत घणा&#45;छुअण जे इशारनि खे सुञाणींदी ऐं अखरनि खे वडो॒तरो कंदी</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>कुझ कीबोर्डनि मंझ हथलिखार्इ मौजूद नाहे हुंदी आ.</i></p>
+									<p><i>इहा कारगुजारी मेसर नाहे जड॒हिं सरिशतो हथुइंदड सेवा चुहण&#45;सा&#45;तपास कयो चालु हुजे.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">नमुनो</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>हथराधु कीबोर्ड इन्पुट जो रिवाज़ी तरीको. Swype कीबोर्ड ते दबा॒अण&#45;इन्पुट सोहिलो ऐं वधीक असरदार कयो वयो आहे कजहि मददगार खसुसियतुनि साण:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							वधीक जा॒णो <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									लापरवाही टाइपिंग सुधार
+									<div id="ul_4a" class="open">
+										<p>तव्हांखे हर&#45;हिक अखर चिटी रित दबा॒इण जी घुर्ज नाहे. फक्त पंहिंजी सुठी कोशिश कयो ऐं Swype अक्लमंदी सां लफ्ज़ सुझार्इंदो.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									लफ्ज़ पूरो करण
+									<div id="ul_4b" class="closed">
+										<p>Swype तव्हां जे लफजनि जो पिणि अंदाजो कंदो जड॒हिं तव्हां फक्त के अखर ई दबाईंदा.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">बो॒लीयूं</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>कीबोर्ड मां बो॒ल्यूं मटण सांङे: स्पेस&#45;बार खे दबा॒यो ऐं झले रखो. पॉपअप मेनु मां पहिंजी चाहि जी बो॒ली चूंड्यो.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect मोकल डि॒दो आहे असांखे जबरदस्त कारगुजारी ऐं वाधारा मेसर कंदो आहे बिलकुल तव्हां ज औजारअ ते! जड॒हिं त Swype Connect 3G ते कम कंदो आहे, असीं सदाई सलाहि डि॒दा आहियूं वार्इ&#45;फार्इ गंढ गो॒ल्हण सांङे.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							वधीक जा॒णो <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									बो॒लीअ जा डाउनलोड
+									<div id="ul_6a" class="open">
+										<p>Swype ते वधीक बोलियूं गंढणु सोहिलो आ:</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> के दबा॒यो ऐं झलो ऐं बो॒ली चूंडो.</li>
+											<li>बो॒लीयूंनि जे मेनु मां, बो॒ली डाउंलोड कयो चुंडो.</li>
+											<li>कहिं हिक बो॒ली ते क्लिक कयो ऐं डाउनलोड पहिंजे&#45;पाण शुरू थी वेंदो.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect सभनि कीबोर्ड ते मेसर नाहे.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">वधीक मदद</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype जे इस्तेमाल नसबत वधीक मदद लाई, Swype सलाहिनामो ऐं Swype नुस्खा ऐं विडियो <a href="http://www.swype.com">www.swype.com</a> ते डि॒सो, या <a href="http://forum.swype.com">forum.swype.com</a> ते आनलाईन Swype फोरम ते जांचो.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

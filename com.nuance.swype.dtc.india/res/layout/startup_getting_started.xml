@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/startup_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="35.0dip" android:paddingEnd="35.0dip">
+        <com.nuance.swype.widget.directional.DirectionalTextView android:textStyle="bold" android:textColor="@color/about_swype_links" android:id="@id/acct_check_email" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_activation_code_description" android:textDirection="locale" />
+        <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:id="@id/gs_help" style="@style/Widget.GettingStartedButtonTop">
+            <ImageView android:id="@id/help_btn_icon" android:src="@drawable/icon_settings_howtoswype" android:contentDescription="@string/learn_more_description" android:layout_alignParentStart="true" style="@style/Widget.ImageView" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/help_btn_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/help_btn_icon">
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textSize="@dimen/textsize_medium" android:textStyle="bold" android:textColor="?startupTextColorAction" android:id="@id/help_text0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_settings_title" android:textDirection="locale" />
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textColor="@color/welcome_subtitles" android:id="@id/help_text1" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/learn_more_description" android:textDirection="locale" />
+            </LinearLayout>
+        </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+        <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:id="@id/gs_gestures" style="@style/Widget.GettingStartedButtonTop">
+            <ImageView android:id="@id/btn_icon" android:src="@drawable/icon_settings_gestures" android:contentDescription="@string/gesture_description_button" android:layout_alignParentStart="true" style="@style/Widget.ImageView" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/btn_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/btn_icon">
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textSize="@dimen/textsize_medium" android:textStyle="bold" android:textColor="?startupTextColorAction" android:id="@id/text0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gesture_button" android:textDirection="locale" />
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textColor="@color/welcome_subtitles" android:id="@id/text1" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gesture_description_button" android:textDirection="locale" />
+            </LinearLayout>
+        </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+        <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:id="@id/gs_settings" style="@style/Widget.GettingStartedButtonTop">
+            <ImageView android:id="@id/btn_icon1" android:src="@drawable/icon_settings_settings" android:contentDescription="@string/pref_connect_settings" android:layout_alignParentStart="true" style="@style/Widget.ImageView" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/btn_icon1" android:layout_centerVertical="true" android:layout_toEndOf="@id/btn_icon1">
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textSize="@dimen/textsize_medium" android:textStyle="bold" android:textColor="?startupTextColorAction" android:id="@id/settings_text0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pref_connect_settings" android:textDirection="locale" />
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textColor="@color/welcome_subtitles" android:id="@id/settings_text1" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/swype_settings_welcome_description" android:textDirection="locale" />
+            </LinearLayout>
+        </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+        <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:id="@id/gs_start_swyping" style="@style/Widget.GettingStartedButton">
+            <ImageView android:id="@id/btn_icon2" android:src="@drawable/icon_settings_store" android:contentDescription="@string/start_swyping_description_button" android:layout_alignParentStart="true" style="@style/Widget.ImageView" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/btn_icon2" android:layout_centerVertical="true" android:layout_toEndOf="@id/btn_icon2">
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textSize="@dimen/textsize_medium" android:textStyle="bold" android:textColor="?startupTextColorAction" android:id="@id/start_swyping_text0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_swyping_button" android:textDirection="locale" />
+                <com.nuance.swype.widget.directional.DirectionalTextView android:textColor="@color/welcome_subtitles" android:id="@id/start_swyping_text1" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_swyping_description_button" android:textDirection="locale" />
+            </LinearLayout>
+        </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+    </LinearLayout>
+</ScrollView>

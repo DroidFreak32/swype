@@ -1,0 +1,329 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+            
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">रोड़ मे</a></div>
+				<div><a href="#write">ओल</a></div>
+				<div class="last"><a href="#tap">रोकोम</a></div>
+            
+			</div>
+			<div class="content">
+				<p class="welcome">Swype साँव, आम पोनय भेगार भेगार आदेर भावाँर चालू रेयाक् खेमोता मेनाक्आ&#45; Swype, रोड़, ओल आर ओता।</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype पाट के आदेर लागित् ते तापिस होर काना। नोवा आमआखोर को गार दारायते साबाद आदेर रेयाक् दाँवे एमोक् काना। साबाद रेयाक् पाहिल आखोर रे आमाक् काटुप् दोहोय मे आर आखोर खोन आखोर होर ते गार इदीय मे, मुचात् आखोर तायोम रे काटुप् राकाबमे। Swype जाहाँ रे लाकतीक्आ इनसर्ट मे।</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							बाड़ती चेद मे <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype की
+									<div id="ul_1a" class="open">
+										<p>Swype की दो की रेयाक् Swype लोगो सालाक् ओना रे मेनाक्आ। Swype सेटिंग बेभार लागित् ते Swype की ओताय मे आर ताङ्गीय मे।</p>
+										<p>नोवा Swype की दो एतोहोप् रे आयमा Swype इसारा को बेभार हुयुक् काना।</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    कीबोर्ड लाहा रे ञेल
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<!--li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype इसाराको
+									<div id="ul_1b" class="closed">
+										<p>Swype इसाराको कीबोर्ड रे शॉर्टकट चाँड़ ते सोमानय कामी पुरावोक् काना। जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</p>
+										<ul>
+											<li><span class="gestures">कीबोर्ड सासापड़ा लागित् ते हुयुक् काना</span> सासापड़ावाक् कीबोर्ड ञाम लागित् ते स्वाइप खोन <img src="img_swypekey.png" /> ते चिनहा की (?123) कीबोर्ड रे सेनोक् मे।</li>
+											<li><span class="gestures">कीबोर्ड लेखा लागिच् हुयुक् काना</span> कीबोर्ड रे लेखा चाँड़ ते ञामोक् काना स्वाइप खोन <img src="img_swypekey.png" /> ते लेखा 5 ।</li>
+											<li><span class="gestures">ओको कीबोर्ड</span> कीबोर्ड आवसान ते ओकोक्आ, एकेन स्वाइप खोन Swype की खोन बैकस्पेस की ते चालाक् मे।</li>
+
+											<li><span class="gestures">आच् ते स्पेसोक् बोन्द मे</span> बेकस्पेस की लागित् स्पेस की खोन स्वाइप कातेन लाहा साबाद खोन लाहा आच् ते एकेन ओताय मे।</li>
+
+
+											<li><span class="gestures">पुर्नबीरम</span> स्वाइप खोन आवसान भावाँर ते कुकली चिनहा, जिराक् चिनहा, अल्पविराम, ओकते, आदेर गानोक् आ, से नोवा दो स्पेस की ते एटाक् विराम चिन्हा को गानोक्आ।</li>
+
+											<li><span class="gestures">एप्लिकेशन खाटोवाक्</span>Google Maps: </li>
+											<li><span class="gestures">सेन्दरा</span>स्वाइप खोन किछुगान पुस्टाव लागित् ते पाट <img src="img_swypekey.png" /> रे S ते चाँड़ वेब रेम सेन्दरा दड़ियाक्आ।</li>
+											<li><span class="gestures">मुचात् रे बेभार आकान पारसी फेराव मे</span>जोखोन आम आयमा पारसीम बेभारा, चाँड़ ते बोदोल दाड़ियाक्आ तायनोम सेयाक् पारसी रे स्वाइप खोन ते <img src="img_swypekey.png" /> स्पेस की रे।</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									बारया आखोर आदेर मे
+									<div id="ul_1n" class="closed">
+										<p>जोखोच् बारया आखोर एम आदेर सटीक लागित् ते, नासेनाक् ओर से आखोर रे कोबे बेनाव मे। पारतुल लेकाते, &quot;hello&quot;, रे &quot;ll&quot; ञाम लागित् ते &quot;l&quot; की ओर मे। जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</p>
+									</div>
+								</li>
+                         -->
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									साबाद बाछाव मे
+									<div id="ul_1d" class="closed">
+										<p>साबाद बाछाव सूची रे एम आकात् डिफॉल्ट साबाद सिकार लागित् ते, स्वाइपिंग तेगे ताहेन मे। आरबाङ्खान, आमाक् काटुप् स्क्रॉल दारायते सूची रे आमाक् काटुप् घासाव मे, साबाद बाछाव मे आर आम कुसी साबाद बाछाव मे। जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</p>
+										<p>सूची खोन पाट को बाछाव लागित्, आमाक् काटुप् सूची बोलोन रे बेड़हाय ते लाड़ाव कातेन ओचोग मे। घड़ी सूई आचुर लेकाते सूची रेयाक् दाराय ते लाहा सेच् बाड़तीक् ते गे ताहेना, सूची दाराय ते घड़ी सुई लेका आचुरोक् ताहेना। काटुप् ओचोग मे मुचात् रेयाक् रोरोड़ सूची आदेर रेयाक् ओरजोनेम ञामा। साबाद बाछाव सूची खोन मित् साबाद रेयाक् बाछाव लागित्, कीबोर्ड रे आमाक् काटुप् लेञ मे उनहाबिच् जाहातिन हाबिच् पाहिल साबाद एम आञ्जोम आकात्, आचुरोक् लाड़वना ते चालाक्आ।	जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुबिता मेनाक्आ ओना सालाक् जोड़ाव ताहेन मे।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									निजे तेगी स्पेस
+									<div id="ul_1f" class="closed">
+										<p>जोखेच् आम Swype आयात रे बारया साबाद तालारे स्वाइप आच ते स्पेस लायोम साबाद लाहा रे इनसर्ट हुयुक्आ। Swype सेटिंट रे आच् ते बोन्द से चालू बाड़ती सुबिता आम चालाव दोहो दाड़ेयाक्आ।</p>
+										<p>बैकस्पेस की खोन स्पेस की रेयाक् स्वाइपिंग दारायते मित् साबाद लागित् ऑटो&#45; स्पेसिंग थुकुम दाड़ेयाक्आ।</p>
+										<p>जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									साबाद उचाड़ मे
+									<div id="ul_1g" class="closed">
+										<p>नोवा रे ओता दाराते मित् साबाद उचाड़ोक्आ, ओनातायोम साबाद बाछाव सूची खोन आमा कुसी साबाद बाछाम मे, से स्वाइप रेयाक् मित् टेच् नावा साबाद आर साबाद साधारोन पुस्टाव मे। मित् नावा साबाद भुल जायगा रे उचाड़ दाड़ेयाक्आ।</p>
+										<p>मित् साबाद ओता दाराय ते साबाद पुस्टाव दाड़ेयाक्आ आर <img src="img_swypekey.png" /> ठेब से साबाद रे दोहड़ा ओता ते हुय दाड़ेयाक्आ।</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									आखोर को ताला रे खेञ्चेररुवाड़ ओचोय मे
+									<div id="ul_1h" class="closed">
+										<p>आम ओका ओका आखोर इकाकाक् जोखोच् स्वाइपिम ते आम साबाद पाहिल धाव खोजोक् काना रिकायेत् काना।</p>
+										<p>जेलीका, &quot;tip&quot; आर &quot;top&quot; मित डाहार रे बुन बिनाव दाड़ीयाआ, मेन खान सूचना मेनाआ तोबे आम मित सूझही रेखा रे मित आखोर खोन एटा आखोर सेज बाङ ऐम सोराव लागतीआ। पाहिल साबाद बाछाव सूची रे &quot;अटकना&quot; ओना साबाद रिकाय लागित् &quot;न&quot; जोखोच् आम स्वाइपिंग ते आमाक् काटुप् दो &quot;ক&quot; बागीयाक्आ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									बोदोल तेयाक् एटाक् आखोर
+									<div id="ul_1i" class="closed">
+
+										<p>की ओताय आर ताङ्गीय मे नोवा की रे एटाक् आखोर को रेयाक् सूची चेतान आगूय लागित् ते,  नोवा लेका ते हुयुक्आ जेलेका चिनहा लागित् @ आर %, आर नंबर।</p>
+
+										<p>चिनहा कीबोर्ड रे चिनहा राकाप ओचोय लागित् चिनहा की ओताय मे (?123)।</p>
+										<p>टोहोर आसोल कीबोर्ड रे जोतो लेकान चिनहा स्वाइप रे मेनाक्आ (चेत ओना ञेल काते कामी दाड़ेयाक्आ से बा)। आम स्वाइप रे कीबोर्ड रे नोवा ञेनेल लागित् बेभार दाड़ेयाक्आ, मेनखान आम नंबर से चिनहाम ञामा एकेन साबाद दो बाङा।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									साबादको जोड़ाव आर ओचोग लागित्
+									<div id="ul_1j" class="closed">
+										<p>आमाक् निजाक् साबादमुराई रे जाहाँ लेकान नावाँ साबाद को बेभारा Swype दिनासा जोड़ावा।</p>
+										<p><img src="img_swypekey.png" /> नोवा ओता आर जोड़ावाक् साबाद गारचिनहाम दाड़ेयाक्आ। चाँड़ ते ओताय मे साबाद जोड़ाव थार सोदोरोक्आ।</p>
+										<p>मित् साबाद मिटाव काते, ओता आर ताङ्गीय मे साबाद बाछाव सूची रे साबाद आर ओनातायोमपुस्टाव काथा लागित् ओके ओतायमे। जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									आपनाराक्
+									<div id="ul_1k" class="closed">
+										<p>Swype चाँड़ ते आयाक् साबाद मुराई Twitter आर Gmail सालाक् साबाद कोय जोड़ाव दाड़ेयाक्आ। Swype आपनाराक् :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> ओता आर ताङ्गीय मे।</li>
+											<li>Swype सेटिंग्स मेनू खोन, बाछाक् मा इञाक् साबाद को &gt; आच् ते।</li>
+											<li>आपनाराक् विकल्पको बाछाव मे आर जुदी आम क्रेडेंशियल्स सोदोर खान आदेर मे।</li>
+											<li>आम मित् से आयमा सोत खोन Swype आङ्गोच दाड़ेयाक्आ।</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">रोड़ मे</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>आम Facebook आर Twitter अपडेट लागित् ते पाट आर ई&#45;मेल सान्देस को जोतो जिनिस को लागित् पाड़हाक् जिनिस रे बोल लागित् एम गालमाराव दाड़ेयाक्आ।</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							बाड़ती चेद मे <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									पुर्नबीरम
+									<div id="ul_2a" class="open">
+										<p>जाहाँन लाकती बानुक्आ तीतेयाक् लाड़चाल लेकाते जिराक् जोड़ाव लागित्। जिराक् एम मेनेदा आर लेताड़ेम दोहोया। नोवा बेभआर मे :</p>
+										<ol>
+											<li>आड़ाङ की ओताय मे रोड़ एहोब मे।</li>
+											<li>आम चेत् एम मेनेदा : <i>केदोक् सोड़ोम हाहाड़ा ताहेकाना</i></li>
+											<li>चेत आमेम ञाम केदा : <i>केदोक् आडी सोड़ोम ताहेकाना!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>आड़ाङ आदेर किछुगान की बोर्ड रे बानुक् आना</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ओल</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>आम आखोर आर साबाद रे लाबेर ओचो लागित् ते आमाक् काटुप् रेयाक् एम बेभार दाड़ेयाक्आ आर Swype पाट रे फेरावा। आम एतोम खोन कोंये आखोरेम गार दाड़ेयाक्आ से मित् चेतान मित् रे। टॉगल तालारे आखोर आर चिनहा भावाँर लागित् ओताय मे ABC / 123।					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							बाड़ती चेद मे <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									तीते ओल सोमोल मे
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> ओता आर ताङ्गीय मे आर आमाक् काटुप् लेञ मे तीतेओलाक् आइकॉन रे।</li>
+											<li>आखोर गार सालाक् आमाक् काटुप् तीतेओल जायगा रे।</li>
+
+											<li>मिमित् साबाद ताला रे स्पेस बार ओताय मे</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<!--<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									मल्टी&#45; जाक् इसारा
+									<div id="ul_3b" class="closed">
+										<p>आम मल्टी&#45; जाक् इसारा नोङ्कान साबाद से आखोर लाटूय लागित् आवसान कामी पुराव लागित् दाँवे एमोक् काना।</p>
+										<ol>
+											<li>गार पैड रे किछू काटिच् आखोर को रेयाक् गार</li>
+											<li>आखोर को आदेर तायोमस ओल जायगा रे बारया काटुप् लेञ कातेन चेतान मे</li>
+											<li>मल्टी जाक् इसारा आर आखोर को लाटूय तीते ओलाक् जिनिस को आङ्गोच् एदाय</li>
+										</ol>
+									</div>
+								</li>-->
+
+								<li class="note">
+									<p><i>किछगान कीबोर्ड रे तीते ओलाक् बानुक्आ।</i></p>
+									<p><i>जोखेच् सिस्टम सेटेर सेवा रेयाक् पान्ते सुविता को बानुक्आ जोगाजोग रे ताहेन मे।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">रोकोम</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>मैनुआल कीबोर्ड आदेर रेयाक् पारंपरिक रुप। Swype की बोर्ड रे ओता आदेर आवसान गेया आर किछुगान सुबिता दाराय ते आर बाड़ती गाखुड़ बेनाव आकाना :</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							बाड़ती चेद मे <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									मैले टाइप जुत
+									<div id="ul_4a" class="open">
+										<p>आम पुरा लेकाते मित् आखोर ओता भावाँर लेकाते लाकती बानुक्आ। आम नासेनाक् भागे रेयाक् कुरुमुटू आर Swype गानाखुड़ साबाद रेयाक् बापाडाय सोलहाय एमोक्आ।</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									पुरुन साबाद
+									<div id="ul_4b" class="closed">
+										<p>जोखेच् आम किछुगान आखोरेम ओताया खान Swype आच ते आमाक् साबाद ए ओनमाना।</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">पारसी</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>कीबोर्ड खोन पारसी को चालूय लागित् ते : स्पेस बार ओतोय मे आर ताङ्गीय मे। पॉपअप मेनू खोन आमाक् मोने लेकाते पारसी बाछाव मे।</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect इञाक् डिवाइस लागित् नावाआरो आर दाड़ेवानाक् कामी मोञ्ज ते हाटिञ लागित् इकाय एमोक् काना! जोखोन Swype Connect दोय कामियाय 3G रे, आले दो जोतो समय ले लायामा सेंदराय मे वाईफाई जुड़ाव।</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							बाड़ती चेद मे <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									पारसी डाउनलोड
+									<div id="ul_6a" class="open">
+										<p>Swype कोराव लागित् ते बाड़ती पारसी को जोड़ाव आवसान गेया :</p>
+										<ol>
+											<li><img src="img_swypekey.png" /> आर पारसी बाछाव कातेन ओता आर ताङ्गीयमे।</li>
+											<li>पारसी मेनू खोन, पारसी बाछाव कातेन डाउनलोड मे।</li>
+											<li>मित् पारसी रे क्लिक मे आर आचे ते गे डाउनलोड एहोबोक्आ।</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect जोतो की बोर्ड रे बानुक्आ।</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">बाड़ती गोड़ो</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype बेभार साँव आयमा गोड़ो आर बाड़ती गोड़ो लागित् ञेनेल Swype बेभारिच् मेनुअल आर Swype भावाँर आर विडियो लागित् <a href="http://www.swype.com">www.swype.com</a>, बेभार मे से <a href="http://forum.swype.com">forum.swype.com</a>, ते Swype ऑनलाइन फोरम खोन ञेल लेगाय मे।</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+/* ------------- main ------------- */
+* { margin: 0; }
+html,
+body {
+	font-family: Droid Sans, Arial, sans-serif;
+	text-align: center;
+	background: #fff;
+	color: #333;
+}
+/* ------------- text ------------- */
+h3 {
+	color: #333;
+	text-align: left;
+	vertical-align: center;
+	font-weight: 100;
+	font-size: 1.5em;
+	margin: 0 0 0 5px;
+}
+p {
+	color: #333;
+	padding: 1px 15px;
+	margin: 5px 0;
+	font: 0.8em Droid Sans, sans-serif;
+}
+/* ------------- wraps ------------- */
+.wrapper {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	min-height: 20px;
+	padding: 8px;
+	margin: 0 0 10px 0;
+}
+.content {
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	max-width: 590px;
+}
+/* ------------- footer ------------- */
+.footer {
+	height: auto;
+	background: #fff;
+}
+td.space { padding: 0; }
+.btncontainer {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	height: auto;
+	clear: both;
+}
+.column {
+	color: #FFA200;
+	font-size: 0.8em;
+	font-weight: 800;
+	text-decoration: none;
+	text-align: center;
+	width: 50%;
+	padding: 10px 7px;
+	text-transform: uppercase;
+}
+.content img {
+	width: 1.25em;
+	margin: 0 3px -5px 3px;
+	display: inline;
+}
+.header img { display: none; }
+/* ------------- no highlight ------------- */
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }

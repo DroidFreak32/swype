@@ -1,0 +1,55 @@
+<html dir="rtl">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -<span dir="ltr">webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</span></style>
+        <script type="text/javascript">
+            <span dir="ltr">function showToast(text) {</span>
+                <span dir="ltr">window.SwypeHost.showToast(text)</span>
+            }
+            <span dir="ltr">function cancel() {</span>
+                <span dir="ltr">window.SwypeHost.cancel()</span>
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3><span dir="ltr">Swype</span> اشارے</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>تمام منتخب کرنے کے لیے :</b> <img src="img_swypekey.png" /> سے <span dir="ltr">&quot;a&quot; Swype</span> کریں
+                </p>
+                <p>
+                    <b>کاپی کرنے کے لیے:</b> <img src="img_swypekey.png" /> سے <span dir="ltr">&quot;c&quot; Swype</span> کریں
+                </p>
+                <p>
+                    <b>کٹ:</b> <img src="img_swypekey.png" /> سے <span dir="ltr">&quot;x&quot; Swype</span> کریں
+                </p>
+                <p>
+                    <b>ہیسٹ:</b> <img src="img_swypekey.png" /> سے <span dir="ltr">&quot;v&quot; Swype</span> کریں
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        یہ دوبارہ مت دکھائیں
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        منسوخ
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

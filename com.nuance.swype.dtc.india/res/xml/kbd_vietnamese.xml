@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="?keyCharacterSize5row" ns:altTextSize="11.0dip" ns:keyBackground="@drawable/btn_keyboard_key_5row" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top" ns:rowBackground="?firstRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_ă" ns:keyEdgeFlags="left" ns:keyLabel="ă" ns:altKeyLabel="1" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_â" ns:keyLabel="â" ns:altKeyLabel="2" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_ê" ns:keyLabel="ê" ns:altKeyLabel="3" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_ô" ns:keyLabel="ô" ns:altKeyLabel="4" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyTextSize="26.0dip" ns:codes="0x0301,0x0300,0x0035" ns:disableMultitap="true" ns:popupCharacters="@string/alternates_for_vietnamese_tones" ns:keyLabel="́ ̀" ns:altKeyLabel="5" ns:popupLabel="́" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="10.000002%" />
+        <Key ns:keyTextSize="26.0dip" ns:codes="0x0309,0x0303,0x0036" ns:disableMultitap="true" ns:popupCharacters="@string/alternates_for_vietnamese_tones2" ns:keyLabel="̉ ̃" ns:altKeyLabel="6" ns:popupLabel="̉" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="10.000002%" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_̣" ns:keyLabel="̣" ns:altKeyLabel="7" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_đ" ns:keyLabel="đ" ns:altKeyLabel="8" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_ư" ns:keyLabel="ư" ns:altKeyLabel="9" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_ơ" ns:keyEdgeFlags="right" ns:keyLabel="ơ" ns:altKeyLabel="0" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?secondRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_q" ns:keyEdgeFlags="left" ns:keyLabel="q" ns:altKeyLabel="~" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_w" ns:keyLabel="w" ns:altKeyLabel="\@" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_e" ns:keyLabel="e" ns:altKeyLabel="\#" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_r" ns:keyLabel="r" ns:altKeyLabel="$" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_t" ns:keyLabel="t" ns:altKeyLabel="%" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_y" ns:keyLabel="y" ns:altKeyLabel="^" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_u" ns:keyLabel="u" ns:altKeyLabel="&amp;" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_i" ns:keyLabel="i" ns:altKeyLabel="*" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_o" ns:keyLabel="o" ns:altKeyLabel="(" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_p" ns:keyEdgeFlags="right" ns:keyLabel="p" ns:altKeyLabel=")" ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?thirdRowBackground">
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_a" ns:keyEdgeFlags="left" ns:keyLabel="a" ns:altKeyLabel="£" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_s" ns:keyLabel="s" ns:altKeyLabel="_" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_d" ns:keyLabel="d" ns:altKeyLabel="₫" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_f" ns:keyLabel="f" ns:altKeyLabel="+" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_g" ns:keyLabel="g" ns:altKeyLabel="=" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_h" ns:keyLabel="h" ns:altKeyLabel="«" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_j" ns:keyLabel="j" ns:altKeyLabel="»" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_k" ns:keyLabel="k" ns:altKeyLabel=":" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_l" ns:keyEdgeFlags="right" ns:keyLabel="l" ns:altKeyLabel=";" ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" />
+    </Row>
+    <Row ns:rowBackground="?fourthRowBackground">
+        <Key ns:keyWidth="@fraction/shift_7_10_key_width" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_shift_cycle_feedback" ns:keyIcon="@drawable/sym_keyboard_shift_cycle" ns:keyIconRecolor="?iconRecolorShift" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_z" ns:keyLabel="z" ns:altKeyLabel="!" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_x" ns:keyLabel="x" ns:altKeyLabel="/" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_c" ns:keyLabel="c" ns:altKeyLabel="\\" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_v" ns:keyLabel="v" ns:altKeyLabel="°" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_b" ns:keyLabel="b" ns:altKeyLabel="[" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_n" ns:keyLabel="n" ns:altKeyLabel="]" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:popupCharacters="@string/alternates_for_vietnamese_m" ns:keyLabel="m" ns:altKeyLabel="\?" ns:keyContentBaseline="?keyContent5rowBaseline" />
+        <Key ns:keyWidth="@fraction/delete_7_10_key_width" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:keyIconRecolor="?iconRecolorDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" ns:keyType="function" ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row" />
+</KeyboardEx>

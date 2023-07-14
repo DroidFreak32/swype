@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Key ns:codes="@integer/keycode_emoticon" ns:keyIcon="?emojiIconPopupMenu" ns:keyboardSettings="emoji" ns:keyGroup="@id/emoji_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    <Key ns:codes="@integer/keycode_smile_no_resize" ns:popupKeyboard="@xml/popup_smileys" ns:keyOutputText=":-)" ns:keyIcon="?keyboardFeedbackEmoticon" ns:keyGroup="@id/emoji_key" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_smiley_key_long" ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+</merge>
