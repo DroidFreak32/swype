@@ -3787,7 +3787,7 @@
 
     float-to-int v8, v8
 
-    add-int/lit8 v8, v8, -0xa
+    add-int/lit8 v8, v8, -0x8
 
     invoke-virtual {v4, v8}, Landroid/widget/SeekBar;->setProgress(I)V
 

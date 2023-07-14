@@ -51,7 +51,7 @@
     .line 1048
     iget-object v0, p0, Lcom/nuance/swype/input/settings/SettingsPrefs$19;->this$0:Lcom/nuance/swype/input/settings/SettingsPrefs;
 
-    add-int/lit8 v1, p2, 0xa
+    add-int/lit8 v1, p2, 0x8
 
     int-to-float v1, v1
 
@@ -89,7 +89,7 @@
 
     const/4 v3, 0x0
 
-    add-int/lit8 v4, p2, 0xa
+    add-int/lit8 v4, p2, 0x8
 
     mul-int/lit8 v4, v4, 0xa
 
