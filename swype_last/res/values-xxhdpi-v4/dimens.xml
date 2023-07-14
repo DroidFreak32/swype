@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+        <dimen name="keyboard_forced_height">320.0dip</dimen>
+
 <!--     <dimen name="key_text_size">25dip</dimen>
     <dimen name="key_text_size_5row">24dip</dimen>
     <dimen name="key_text_size_small">24dip</dimen>
