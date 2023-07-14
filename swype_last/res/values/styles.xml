@@ -2932,6 +2932,7 @@
         <item name="iconRecolorTabTablet">#ffa8adaf</item>
         <item name="iconRecolorTimeout">#ffd4d6d7</item>
         <item name="glowStretch">0.0dip</item>
+        <item name="keyContentBaseline">0.0dip</item>
         <item name="btnKeyboardActionKeyNormal">@drawable/trans_key</item>
         <item name="btnKeyboardActionKeyPressed">@drawable/btn_key_text_pressed_material_dark</item>
         <item name="btnKeyboardKeyChecked">@drawable/trans_key</item>

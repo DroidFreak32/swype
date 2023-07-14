@@ -26,5 +26,5 @@
     <!-- <dimen name="theme_category_title_size">20.0dip</dimen> -->
 
     <!-- Pushes down the alt keys by given amount -->
-    <dimen name="key_secondary_character_padding_adjustment">10.0dip</dimen>
+    <dimen name="key_secondary_character_padding_adjustment">0.0dip</dimen>
 </resources>
