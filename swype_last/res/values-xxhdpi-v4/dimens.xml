@@ -24,4 +24,7 @@
     <!-- <dimen name="key_text_size_large">23.0dip</dimen> -->
     <!-- <dimen name="key_text_size_small">17.0dip</dimen> -->
     <!-- <dimen name="theme_category_title_size">20.0dip</dimen> -->
+
+    <!-- Pushes down the alt keys by given amount -->
+    <dimen name="key_secondary_character_padding_adjustment">10.0dip</dimen>
 </resources>
