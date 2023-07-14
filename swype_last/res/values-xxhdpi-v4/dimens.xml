@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_text_size">25dip</dimen>
+<!--     <dimen name="key_text_size">25dip</dimen>
     <dimen name="key_text_size_5row">24dip</dimen>
     <dimen name="key_text_size_small">24dip</dimen>
     <dimen name="key_label_text_size">21dip</dimen>
@@ -16,5 +16,5 @@
     <dimen name="alt_text_size_small">17dip</dimen>
     <dimen name="alt_emoji_icon_size_big">27dip</dimen>
     <dimen name="alt_emoji_icon_size_small">23dip</dimen>
-    <dimen name="theme_category_title_size">20.0dip</dimen>
+    <dimen name="theme_category_title_size">20.0dip</dimen> -->
 </resources>

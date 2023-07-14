@@ -9233,6 +9233,18 @@
         <item>English</item>
         <item>English</item>
     </string-array>
+    <string-array name="language_English_US">
+        <item>EN</item>
+        <item>en-us</item>
+        <item>en-rUS</item>
+        <item>0x0109</item>
+        <item>1</item>
+        <item>1</item>
+        <item>.</item>
+        <item>Latin1</item>
+        <item>English_US</item>
+        <item>English (US)</item>
+    </string-array>
     <string-array name="language_English_AU">
         <item>EN</item>
         <item>en-au</item>

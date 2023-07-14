@@ -4,7 +4,7 @@
     ns:canSwypePopupCharacters="false"
     xmlns:ns="http://schemas.android.com/apk/res-auto">
     <include
-        ns:src="@xml/kbd_number_row_default" />
+        ns:src="@xml/kbd_qwerty_sym_row_default" />
     <Row
         ns:rowEdgeFlags="top"
         ns:rowBackground="?firstRowBackground">

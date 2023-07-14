@@ -26,6 +26,7 @@
     <color name="cardview_light_background">#ffffffff</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="system_accent">?attr/colorAccent</color>
     <color name="com_facebook_blue">#ff3b5998</color>
     <color name="com_facebook_button_background_color">#ff415dae</color>
     <color name="com_facebook_button_background_color_disabled">#ffbdc1c9</color>

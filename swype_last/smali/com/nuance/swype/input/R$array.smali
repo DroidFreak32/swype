@@ -209,6 +209,8 @@
 
 .field public static final language_English_IN:I = 0x7f0c00cf
 
+.field public static final language_English_US:I = 0x7f0c00d0
+
 .field public static final language_Estonian:I = 0x7f0c0061
 
 .field public static final language_Farsi:I = 0x7f0c0062

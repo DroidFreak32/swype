@@ -6,11 +6,22 @@
         ns:rowEdgeFlags="top"
         ns:rowBackground="?numberRowBackground"
         ns:rowType="number">
+<!--         <Key
+            ns:keyWidth="@fraction/default_10_key_width"
+            ns:keyHeight="@dimen/key_height_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="`"
+            ns:shiftedKeyLabel="~"
+            ns:altKeyLabel="~"
+            ns:keyEdgeFlags="left"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" /> -->
         <Key
             ns:keyWidth="@fraction/default_10_key_width"
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="1"
+            ns:shiftedKeyLabel="!"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -18,6 +29,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="2"
+            ns:shiftedKeyLabel="\@"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -25,6 +37,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="3"
+            ns:shiftedKeyLabel="#"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -32,6 +45,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="4"
+            ns:shiftedKeyLabel="$"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -39,6 +53,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="5"
+            ns:shiftedKeyLabel="%"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -46,6 +61,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="6"
+            ns:shiftedKeyLabel="^"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -53,6 +69,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="7"
+            ns:shiftedKeyLabel="&amp;"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -60,6 +77,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="8"
+            ns:shiftedKeyLabel="*"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -67,6 +85,7 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="9"
+            ns:shiftedKeyLabel="("
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
@@ -74,7 +93,27 @@
             ns:keyHeight="@dimen/key_height_5row"
             ns:keyTextColor="?defaultKeyTextColor"
             ns:keyLabel="0"
+            ns:shiftedKeyLabel=")"
             ns:keyBackground="@drawable/btn_keyboard_number"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+<!--         <Key
+            ns:keyWidth="@fraction/default_10_key_width"
+            ns:keyHeight="@dimen/key_height_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="-"
+            ns:shiftedKeyLabel="_"
+            ns:altKeyLabel="_"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyWidth="@fraction/default_10_key_width"
+            ns:keyHeight="@dimen/key_height_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="="
+            ns:shiftedKeyLabel="+"
+            ns:altKeyLabel="+"
+            ns:keyEdgeFlags="right"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" /> -->
     </Row>
 </KeyboardEx>

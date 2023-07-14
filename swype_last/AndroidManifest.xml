@@ -15,7 +15,7 @@
     <uses-feature android:name="android.hardware.telephony" android:required="false"/>
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <application android:allowBackup="false" android:icon="@drawable/swype_logo" android:label="@string/ime_name" android:name="com.nuance.swype.input.IMEApplication" android:supportsRtl="true" android:debuggable="true" android:theme="@style/AppTheme">
+    <application android:allowBackup="false" android:icon="@drawable/swype_logo" android:label="@string/ime_name" android:name="com.nuance.swype.input.IMEApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
         <service android:directBootAware="true" android:label="@string/ime_name" android:name="com.nuance.swype.input.IME" android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
                 <action android:name="android.view.InputMethod"/>

@@ -2,22 +2,27 @@
 <KeyboardEx
     ns:keyWidth="@fraction/default_10_key_width"
     xmlns:ns="http://schemas.android.com/apk/res-auto">
+<!--     <include
+        ns:src="@xml/kbd_qwerty_sym_row_default" /> -->
     <include
         ns:src="@xml/kbd_number_row_default" />
     <Row
         ns:rowBackground="?firstRowBackground">
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_q"
             ns:keyEdgeFlags="left"
             ns:keyLabel="q"
             ns:altKeyLabel="1"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_w"
             ns:keyLabel="w"
             ns:altKeyLabel="2"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_e"
             ns:keyLabel="e"
             ns:altKeyLabel="3"
@@ -25,6 +30,7 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_e"
             ns:keyLabel="e"
             ns:altKeyLabel="3"
@@ -33,6 +39,7 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_e"
             ns:keyLabel="e"
             ns:altKeyLabel="3"
@@ -41,36 +48,43 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_r"
             ns:keyLabel="r"
             ns:altKeyLabel="4"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_t"
             ns:keyLabel="t"
             ns:altKeyLabel="5"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_y"
             ns:keyLabel="y"
             ns:altKeyLabel="6"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_u"
             ns:keyLabel="u"
             ns:altKeyLabel="7"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_i"
             ns:keyLabel="i"
             ns:altKeyLabel="8"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_o"
             ns:keyLabel="o"
             ns:altKeyLabel="9"
             ns:keyBackground="@drawable/btn_keyboard_key_top" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_p"
             ns:keyEdgeFlags="right"
             ns:keyLabel="p"
@@ -80,19 +94,22 @@
     <Row
         ns:rowBackground="?secondRowBackground">
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_a"
             ns:keyEdgeFlags="left"
             ns:keyLabel="a"
             ns:altKeyLabel="\@"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_s"
             ns:keyLabel="s"
-            ns:altKeyLabel="€"
+            ns:altKeyLabel="₹"
             ns:keyGroup="@id/currency2"
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_s"
             ns:keyLabel="s"
             ns:altKeyLabel="$"
@@ -101,6 +118,7 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_s"
             ns:keyLabel="s"
             ns:altKeyLabel="£"
@@ -109,36 +127,43 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_d"
             ns:keyLabel="d"
             ns:altKeyLabel="&amp;"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_f"
             ns:keyLabel="f"
             ns:altKeyLabel="_"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_g"
             ns:keyLabel="g"
             ns:altKeyLabel="("
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_h"
             ns:keyLabel="h"
             ns:altKeyLabel=")"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_j"
             ns:keyLabel="j"
             ns:altKeyLabel=":"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_k"
             ns:keyLabel="k"
             ns:altKeyLabel=";"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertyeuro_panlatin_l"
             ns:keyEdgeFlags="right"
             ns:keyLabel="l"
@@ -147,6 +172,7 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_l"
             ns:keyEdgeFlags="right"
             ns:keyLabel="l"
@@ -156,6 +182,7 @@
             ns:resizeWhenHidden="false"
             ns:keyBackground="@drawable/btn_keyboard_key_mid" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwertypound_panlatin_l"
             ns:keyEdgeFlags="right"
             ns:keyLabel="l"
@@ -181,30 +208,37 @@
             ns:keyBackground="@drawable/btn_keyboard_key_shift_cycle"
             ns:keyContentBaseline="@dimen/key_content_no_baseline" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_z"
             ns:keyLabel="z"
             ns:altKeyLabel="*" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_x"
             ns:keyLabel="x"
             ns:altKeyLabel="!" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_c"
             ns:keyLabel="c"
             ns:altKeyLabel="\#" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_v"
             ns:keyLabel="v"
             ns:altKeyLabel="=" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_b"
             ns:keyLabel="b"
             ns:altKeyLabel="/" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_n"
             ns:keyLabel="n"
             ns:altKeyLabel="+" />
         <Key
+            ns:keyHeight="@dimen/key_height_5row"
             ns:popupCharacters="@string/alternates_for_qwerty_panlatin_m"
             ns:keyLabel="m"
             ns:altKeyLabel="\?" />

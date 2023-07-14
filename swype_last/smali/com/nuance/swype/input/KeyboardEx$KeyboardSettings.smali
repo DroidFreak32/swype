@@ -195,7 +195,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x11
+    const/16 v3, 0x800
 
     invoke-direct {v0, v1, v2, v3}, Lcom/nuance/swype/input/KeyboardEx$KeyboardSettings;-><init>(Ljava/lang/String;II)V
 

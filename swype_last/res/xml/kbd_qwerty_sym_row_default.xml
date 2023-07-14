@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx
+    ns:keyWidth="@fraction/default_10_key_width"
+    xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row
+        ns:altTextSize="@dimen/alt_label_text_size_5row"
+        ns:rowBackground="?numberRowBackground"
+        ns:rowEdgeFlags="top"
+        ns:rowType="non_number">
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="`"
+            ns:altKeyLabel="~"
+            ns:shiftedKeyLabel="~"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="!"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="\@"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="#"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="₹"
+            ns:altKeyLabel="$"
+            ns:shiftedKeyLabel="$"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="%"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="^"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="&amp;"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="*"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="("
+            ns:altKeyLabel=")"
+            ns:shiftedKeyLabel=")"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="-"
+            ns:altKeyLabel="_"
+            ns:shiftedKeyLabel="_"
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+        <Key
+            ns:keyTextSize="@dimen/key_label_text_size_5row"
+            ns:keyTextColor="?defaultKeyTextColor"
+            ns:keyLabel="+"
+            ns:altKeyLabel="="
+            ns:shiftedKeyLabel="="
+            ns:keyBackground="@drawable/btn_keyboard_number"
+            ns:keyContentBaseline="@dimen/key_content_no_baseline" />
+    </Row>
+</KeyboardEx>

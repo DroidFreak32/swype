@@ -71,6 +71,20 @@
         </InputMode>
     </Language>
     <Language
+                ns:language="@array/language_English_US"
+                ns:defaultInputMode="QWERTY"
+                ns:currencyType="dollar">
+        <InputMode
+                ns:defaultLayoutId="@integer/handwriting_id"
+                ns:inputMode="handwriting"
+                ns:inputModeName="@string/handwriting">
+            <Layout
+                ns:layout="@xml/alpha_handwriting_key_pad"
+                ns:layoutId="@integer/handwriting_id"
+                ns:layoutName="@string/handwriting" />
+        </InputMode>
+    </Language>
+    <Language
                 ns:language="@array/language_English_UK"
                 ns:defaultInputMode="QWERTY"
                 ns:currencyType="pound">
