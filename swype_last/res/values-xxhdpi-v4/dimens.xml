@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <dimen name="keyboard_forced_height">320.0dip</dimen>
+        <dimen name="keyboard_forced_height">300.0dip</dimen>
 
     <!-- <dimen name="alt_emoji_icon_size">10.0dip</dimen> -->
     <!-- <dimen name="alt_emoji_icon_size_big">20.0dip</dimen> -->
@@ -27,4 +27,6 @@
 
     <!-- Pushes down the alt keys by given amount -->
     <dimen name="key_secondary_character_padding_adjustment">0.0dip</dimen>
+
+    <dimen name="key_height_5row">32.0dip</dimen>
 </resources>
