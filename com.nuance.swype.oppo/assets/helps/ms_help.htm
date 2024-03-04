@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Cakap</a></div>
+				<div><a href="#write">Tulis</a></div>
+				<div class="last"><a href="#tap">Ketik</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Dengan Swype, anda boleh beralih secara selanjar antara empat mod input yang berbeza &#45; Swype, Bercakap, Tulis atau Ketik.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype adalah cara yang pantas untuk memasukkan teks. Ia membolehkan anda memasukkan perkataan dengan melukiskan laluan melalui huruf. Letakkan jari anda pada huruf pertama perkataan dan lukis laluan dari satu huruf ke huruf yang lain, angkat jari selepas huruf yang terakhir. Swype akan memasukkan ruang apabila perlu.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Ketahui Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Kekunci Swype
+									<div id="ul_1a" class="open">
+										<p>Kekunci Swype adalah kekunci dengan logo Swype di atasnya. Tekan dan tahan kekunci Swype untuk mengakses Tetapan Swype.</p>
+										<p>Kekunci Swype juga digunakan untuk memulakan banyak gerak isyarat Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pratonton Papan Kekunci
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gerak isyarat Swype
+									<div id="ul_1b" class="closed">
+										<p>Gerak Isyarat Swype adalah pintasan pada papan kekunci untuk menyempurnakan tugas lazim dengan cepat. Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+										<ul>
+											<li><span class="gestures">Mendapatkan Papan Kekunci Edit</span> Untuk pergi ke papan kekunci Edit, sapukan jari anda dari <img src="img_swypekey.png" /> ke kekunci Simbol (?123) pada papan kekunci.</li>
+											<li><span class="gestures">Mendapatkan Papan Kekunci Nombor</span> Untuk pergi ke papan kekunci Nombor, sapukan jari dari <img src="img_swypekey.png" /> ke nombor 5.</li>
+											<li><span class="gestures">Menyembunyikan Papan Kekunci</span> Untuk menyembunyikan papan kekunci dengan mudah, hanya sapukan jari anda dari kekunci Swype ke kekunci undur ruang.</li>
+
+											<li><span class="gestures">Matikan Penjarakan Automatik</span> Matikan penjarakan automatik sebelum perkataan seterusnya dengan menyapukan jari anda dari kekunci Ruang ke kekunci Undur Ruang.</li>
+
+
+											<li><span class="gestures">Mengedit Huruf Besar dan Kecil Perkataan</span> Tukar huruf perkataan menjadi huruf besar atau huruf kecil selepas anda menuliskannya dengan mengetik perkataan tersebut dan kemudian menyapukan jari anda dari <img src="img_swypekey.png" /> ke kekunci Syif <img src="img_shiftkey.png" /> . Senarai Pilihan Perkataan dengan pilihan huruf besar atau kecil akan dipaparkan, membolehkan anda untuk memilih huruf kecil, Huruf Besar, atau SEMUA HURUF BESAR.</li>
+
+											<li><span class="gestures">Tanda Baca</span> Cara mudah untuk memasukkan tanda baca adalah untuk menyapukan jari anda dari tanda soal, koma, noktah, atau tanda baca yang lain ke kekunci Ruang daripada mengetik tanda bacanya.</li>
+
+											<li><span class="gestures">Pilih Semua, Potong, Salin dan Tampal</span>
+												Pilih Semua: Sapukan jari anda dari kekunci Swype <img src="img_swypekey.png" /> ke &#39;a&#39;<br />
+												Potong: Sapukan jari anda dari <img src="img_swypekey.png" /> ke &#39;x&#39;<br />
+												Salin: Sapukan jari anda dari <img src="img_swypekey.png" /> ke &#39;c&#39;<br />
+												Tampal: Sapukan jari anda dari <img src="img_swypekey.png" /> ke &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Pintasan aplikasi</span>Peta Google: Sapukan jari anda dari <img src="img_swypekey.png" /> hingga &#39;g&#39;, kemudian &#39;m&#39;</li>
+											<li><span class="gestures">Cari</span>Serlahkan beberapa teks dan Swype dari <img src="img_swypekey.png" /> ke S untuk melakukan carian web pantas.</li>
+											<li><span class="gestures">Beralih kepada bahasa yang terakhir digunakan.</span>Semasa menggunakan berbilang bahasa, cara cepat untuk beralih semula kepada bahasa sebelumnya adalah dengan Swype dari <img src="img_swypekey.png" /> ke kekunci Ruang.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Memasukkan huruf berganda
+									<div id="ul_1n" class="closed">
+										<p>Untuk meningkatkan ketepatan semasa memasukkan huruf berganda, coret sedikit atau buatkan bulatan pada huruf. Contohnya, untuk mendapatkan “ss” pada “massa”, coret pada kekunci “s”. Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Memilih perkataan
+									<div id="ul_1d" class="closed">
+										<p>Untuk menerima perkataan yang dicadangkan dalam Senarai Pilihan Perkataan, terus gunakan Swype. Jika tidak, skrol seluruh senarai dengan menyeretkan jari anda, dan pilih perkataan yang dikehendaki. Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+<p>Untuk memilih teks dari senarai, gerakkan jari anda mengikut gerakan membulat untuk mendengarkan entri senarai. Gerakan mengikut arah jam akan membuat gerakan ke hadapan melalui senarai; gerakan melawan arah jam akan membuat gerakan ke belakang melalui se  
+Apabila jari diangkat, entri senarai yang terakhir disebut akan dihasilkan.
+Untuk memilih perkataan dalam senarai Pilihan Perkataan, luncurkan jari anda ke atas dari papan kekunci sehingga perkataan pertama dalam senarai kedengaran, kemudian mulakan gerakan membulat.
+Ciri ini hanya tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Perkataan dengan Huruf Besar
+									<div id="ul_1e" class="closed">
+										<p>Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+										<p>Tukar perkataan menjadi huruf besar dengan menyapukan jari anda dari huruf pertama ke bahagian atas papan kekunci, dan tanpa mengangkat jari, sapukan jari anda kembali ke bawah dan ke huruf perkataan berikutnya.</p>
+										<p>Tukar huruf perkataan menjadi huruf besar atau huruf kecil selepas anda menuliskannya dengan mengetik perkataan tersebut dan kemudian menyapukan jari anda dari <img src="img_swypekey.png" /> ke kekunci Syif <img src="img_shiftkey.png" /> . Senarai Pilihan Perkataan dengan pilihan huruf besar atau kecil akan dipaparkan, membolehkan anda untuk memilih huruf kecil, Huruf Besar, atau SEMUA HURUF BESAR.</p>
+										<p>Untuk masuk mod Kunci HURUF BESAR, ketik kekunci Shift dua kali <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Penjarak Automatik
+									<div id="ul_1f" class="closed">
+										<p>Ruang dimasukkan di antara perkataan secara automatik apabila anda menyurih perkataan seterusnya dalam ayat. Anda boleh menghidupkan atau mematikan ciri penjarak auto dalam Tetapan Swype.</p>
+										<p>Penjarak auto boleh ditutup untuk satu patah perkataan dengan menyapu dari kekunci Ruang ke kekunci Undur Ruang.</p>
+										<p>Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Menggantikan perkataan
+									<div id="ul_1g" class="closed">
+										<p>Tukar perkataan dengan mengetik padanya, kemudian pilih perkataan yang anda kehendaki daripada Senarai Pilihan Perkataan, atau hanya serlahkan perkataan tersebut dan masukkan perkataan baru. Perkataan baru akan menggantikan yang salah.</p>
+										<p>Sesuatu perkataan boleh diserlahkan dengan mengetik perkataan itu dan menekan <img src="img_swypekey.png" /> atau mengetik dua kali pada perkataan tersebut.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Melangkau di antara huruf
+									<div id="ul_1h" class="closed">
+										<p>Kadangkala, mengelakkan huruf semasa menggunakan Swype memastikan anda mendapat perkataan yang anda kehendaki pada kali pertama.</p>
+										<p>Contohnya, “taklik” dan “takluk” boleh dilukis dengan laluan yang sama – tetapi perhatikan, anda tidak perlu beralih dari satu huruf ke huruf yang lain dalam satu garis yang lurus. Elakkan “i” apabila melalukan jari anda ke “u” untuk memastikan perkataan “takluk” adalah perkataan pertama dalam Senarai Pilihan Perkataan.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Aksara gantian
+									<div id="ul_1i" class="closed">
+
+										<p>Tekan dan tahan kekunci untuk mengeluarkan senarai aksara alternatif untuk kekunci tersebut, seperti huruf beraksen seperti é dan à, simbol seperti @ dan %, dan nombor.</p>
+
+										<p>Ketik kekunci Simbol (?123) untuk dibawa ke papan kekunci Simbol.</p>
+										<p>Ambil perhatian bahawa SEMUA aksara boleh di–Swype daripada papan kekunci utama (sama ada anda boleh melihatnya atau tidak). Anda boleh Swype menggunakan paparan papan kekunci ini, tetapi anda hanya akan mendapat perkataan yang mempunyai sekurang–kurangnya satu nombor atau simbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Menambah dan memadam perkataan
+									<div id="ul_1j" class="closed">
+										<p>Swype bijak menambah perkataan baru yang anda gunakan ke dalam Kamus Peribadi anda.</p>
+										<p>Anda boleh juga menambah perkataan dengan menyerlahkannya dan mengetik <img src="img_swypekey.png" /> . Ketik pada penggesa yang dipaparkan untuk menambah perkataan.</p>
+										<p>Untuk memadam perkataan, tekan dan tahan perkataan dalam Senarai Pilihan Perkataan, dan kemudian ketik OK dalam dialog pengesahan. Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Pemperibadian
+									<div id="ul_1k" class="closed">
+										<p>Swype boleh dengan cepat menambah perkataan ke dalam kamus anda dari Facebook, Twitter, dan Gmail. Untuk memperibadikan Swype:</p>
+										<ol>
+											<li>Tekan dan tahan <img src="img_swypekey.png" /> .</li>
+											<li>Dari menu Tetapan Swype, pilih Pemperibadian.</li>
+											<li>Pilih daripada pilihan pemperibadian dan masukkan kelayakan anda jika diminta.</li>
+											<li>Anda boleh memperibadikan Swype dari satu atau semua sumber.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Cakap</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Anda boleh bercakap untuk memasukkan kandungan teks untuk segala&#45;galanya daripada mesej teks dan e&#45;mel kepada kemas kini Facebook dan Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Ketahui Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Tanda Baca
+									<div id="ul_2a" class="open">
+										<p>Tidak perlu menambah tanda baca secara manual. Hanya sebutkan tanda baca yang anda mahukan dan teruskan. Cuba ini:</p>
+										<ol>
+											<li>Tekan kekunci suara dan mula bercakap.</li>
+											<li>Apa yang anda katakan: <i>Makanan malam amat lazat tanda seru</i></li>
+											<li>Apa yang anda dapat: <i>Makan malam amat lazat!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Input suara tidak tersedia pada sesetengah papan kekunci</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Tulis</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Anda boleh menggunakan jari anda untuk melukiskan huruf dan perkataan dan Swype akan menukarkannya kepada teks. Anda boleh melukis perkataan dari kiri ke kanan atau di atas satu sama lain. Tekan ABC / 123 untuk beralih di antara mod huruf dan simbol.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Ketahui Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Hidupkan ciri tulisan tangan
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Tekan dan tahan <img src="img_symkey.png" /> dan luncurkan jari anda pada ikon tulisan tangan.</li>
+											<li>Lukiskan huruf dengan jari anda di kawasan tulisan tangan.</li>
+
+											<li>Ketik bar ruang di antara setiap perkataan</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gerak Isyarat Berbilang Sentuh
+									<div id="ul_3b" class="closed">
+										<p>Gerak isyarat berbilang sentuh membolehkan anda melengkapkan tugasan yang mudah, seperti menjadikan perkataan atau huruf berhuruf besar atau kecil.</p>
+										<ol>
+											<li>Lukiskan beberapa huruf berhuruf kecil pada pad lukisan</li>
+											<li>Selepas memasukkan aksara sapukan dua jari ke atas pada kawasan penulisan</li>
+											<li>Ciri tulisan tangan akan mengenali gerak isyarat berbilang sentuh ini dan menjadikan hurufnya berhuruf besar</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Tulisan tangan tidak tersedia pada sesetengah papan kekunci.</i></p>
+									<p><i>Ciri ini tidak tersedia apabila perkhidmatan kebolehaksesan sistem Explore&#45;by&#45;Touch dihidupkan.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Ketik</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Cara tradisional input papan kekunci manual. Input ketik pada papan kekunci Swype dimudahkan lagi dan lebih cekap dengan beberapa ciri yang berguna:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Ketahui Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Pembetulan Penaipan yang Tidak Kemas
+									<div id="ul_4a" class="open">
+										<p>Anda tidak perlu mengetik setiap huruf dengan sempurna. Hanya cuba sebaiknya dan Swype akan secara bijak menyediakan cadangan perkataan.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Melengkapkan perkataan
+									<div id="ul_4b" class="closed">
+										<p>Swype boleh juga meneka perkataan anda apabila anda mengetik hanya beberapa huruf.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Bahasa</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Untuk menukar bahasa dari papan kekunci: Tekan dan tahan bar ruang. Pilih bahasa pilihan anda dari menu pop timbul.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect membolehkan kami untuk menghantar kemas kini dan kefungsian yang berkuasa terus ke peranti anda! Walaupun Swype Connect boleh berfungsi melalui 3G, kami selalu mencadangkan bahawa anda mencari sambungan WiFi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Ketahui Lebih Lanjut <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Muat turun bahasa
+									<div id="ul_6a" class="open">
+										<p>Menambah bahasa tambahan untuk Swype adalah mudah:</p>
+										<ol>
+											<li>Tekan dan tahan <img src="img_swypekey.png" /> dan pilih Bahasa.</li>
+											<li>Dari menu Bahasa, pilih Muat Turun bahasa.</li>
+											<li>Klik pada bahasa yang anda kehendaki dan muat turunan anda akan dimulakan secara automatik.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect tidak tersedia pada semua papan kekunci.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Bantuan Lanjut</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Untuk mendapatkan bantuan lanjut mengenai menggunakan Swype, lihat manual Pengguna Swype dan Petua dan Video Swype di <a href="http://www.swype.com">www.swype.com</a>, atau semak Forum Swype dalam talian di www.<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

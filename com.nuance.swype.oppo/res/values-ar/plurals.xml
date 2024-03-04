@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">الكلمات %d سيتم حذفها</item>
+        <item quantity="one">سيتم حذف كلمة واحدة.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">منذ %d أيام</item>
+        <item quantity="one">منذ %d يوم</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">منذ %d ساعات</item>
+        <item quantity="one">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">منذ %d دقائق</item>
+        <item quantity="one">منذ %d دقيقة</item>
+    </plurals>
+</resources>

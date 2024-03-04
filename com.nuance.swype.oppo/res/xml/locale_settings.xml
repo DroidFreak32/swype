@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocaleList xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Locale ns:currencyType="dollar" ns:language_code="EN" ns:country_code="AU" />
+    <Locale ns:currencyType="pound" ns:language_code="EN" ns:country_code="GB" />
+    <Locale ns:currencyType="dollar" ns:language_code="EN" ns:country_code="NZ" />
+    <Locale ns:currencyType="euro" ns:language_code="EN" ns:country_code="IE" />
+    <Locale ns:currencyType="euro" ns:language_code="ES" ns:country_code="AD" />
+    <Locale ns:currencyType="euro" ns:language_code="ES" ns:country_code="ES" />
+    <Locale ns:currencyType="euro" ns:language_code="PT" ns:country_code="PT" />
+</LocaleList>

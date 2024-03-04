@@ -1,0 +1,344 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Мовлення</a></div>
+				<div><a href="#write">Написання</a></div>
+				<div class="last"><a href="#tap">Надрукувати</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">За допомогою Swype ви маєте можливість легко перемикатися між чотирма різними режимами введення &#45; Swype, мовлення, написання чи торкання.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype – це новий спосіб введення тексту. Надає можливості вводити слово «протягуванням» букв. Покладіть палець на першу букву слова і намалюйте лінію від букви до букви, піднявши палець після останньої букви. Пробіли будуть вставлені автоматично у потрібних місцях.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Додаткова інформація <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Клавіша Swype
+									<div id="ul_1a" class="open">
+										<p>Клавіша Swype – це клавіша, на якій зображено логотип Swype. Натисніть і утримуйте клавішу Swype для доступу до установок Swype.</p>
+										<p>Для ініціювання багатьох жестів Swype також використовуйте клавішу Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Огляд клавіатури
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype жести
+									<div id="ul_1b" class="closed">
+										<p>Жести Swype це швидкий виклик стандартних задач з клавіатури Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+										<ul>
+											<li><span class="gestures">Відображення клавіатури для редагування</span> Для відображення клавіатури для редагування перейдіть ковзним рухом з <img src="img_swypekey.png" /> на клавішу символів (?123) на клавіатурі.</li>
+											<li><span class="gestures">Відображення цифрової клавіатури</span> Для швидкого відображення цифрової клавіатури перейдіть ковзним рухом з клавіші <img src="img_swypekey.png" /> на клавішу 5.</li>
+											<li><span class="gestures">Сховати клавіатуру</span> Щоб легко сховати клавіатуру, просто перейдіть ковзним рухом Swype з клавіші Swype на клавішу Backspace.</li>
+
+											<li><span class="gestures">Вимкнути автоматичне введення пробілів</span> Щоб заборонити автоматичне введення пробілу перед наступним словом, проведіть пальцем з клавіші пробілу до клавіші Backspace.</li>
+
+
+											<li><span class="gestures">Зміна відмінка слова</span> Щоб змінити регістр слова після його введення, доторкніться до слова в тексті, після чого проведіть пальцем від <img src="img_swypekey.png" /> до клавіші Shift <img src="img_shiftkey.png" /> . Відкриється список вибору слів з параметрами перетворення регістру, де можна вибрати нижній регістр, написання з Великої букви чи ВСІ ВЕЛИКІ.</li>
+
+											<li><span class="gestures">Пунктуація</span> Для введення коми, крапки чи іншого розділового знака переміщуйтеся методом Swype від потрібного знака до клавіші пробілу замість того, щоб торкатися знака, а потім клавіші пробілу.</li>
+
+											<li><span class="gestures">Швидкий виклик програми</span>Google Maps: Перейдіть ковзним рухом з <img src="img_swypekey.png" /> на &#39;g&#39;, а потім на &#39;m&#39;</li>
+											<li><span class="gestures">Пошук</span>Виділіть текст і перейдіть ковзним рухом з <img src="img_swypekey.png" /> на S для прискореного веб&#45;пошуку.</li>
+											<li><span class="gestures">Переключення на останню мову вводу.</span>У разі використання кількох мов можна швидко переключитися на попередню мову за допомогою ковзного руху Swype з <img src="img_swypekey.png" /> на клавішу пробілу.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Введення подвоєних букв
+									<div id="ul_1n" class="closed">
+										<p>Для поліпшення точності введення подвоєних букв зробіть невелику петлю на букві. Наприклад, щоб отримати &quot;нн&quot; у слові &quot;камінні&quot;, зробіть петлю на клавіші &quot;н&quot;. Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Вибір слова
+									<div id="ul_1d" class="closed">
+										<p>Щоб прийняти підказане слово зі списку вибору слів, просто продовжуйте введення методом Swype. Інакше прокрутіть список переміщенням пальця й виберіть бажане слово. Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+<p>  
+
+
+Ця функція доступна лише тоді, коли спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Написання слів з великої букви
+									<div id="ul_1e" class="closed">
+										<p>Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+										<p>Щоб зробити першу букву слова великою під час введення методом Swype, проведіть пальцем від першої букви до верхнього краю клавіатури і, не піднімаючи його, проведіть пальцем знову донизу до наступної букви слова.</p>
+										<p>Щоб змінити регістр слова після його введення, доторкніться до слова в тексті, після чого проведіть пальцем від <img src="img_swypekey.png" /> до клавіші Shift <img src="img_shiftkey.png" /> . Відкриється список вибору слів з параметрами перетворення регістру, де можна вибрати нижній регістр, написання з Великої букви чи ВСІ ВЕЛИКІ.</p>
+										<p>Щоб увійти до режиму CAPS Lock, просто двічі торкніться клавіші Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Автоматичні пробіли
+									<div id="ul_1f" class="closed">
+										<p>Swype автоматично ставить пробіл між словами під час введення наступного слова в реченні методом Swype. Функцію автопробілу можна ввімкнути або вимкнути в Установках Swype.</p>
+										<p>Автопробіл для одного слова можна вимкнути, якщо виконати ковзний рух Swype від клавіші пробілу до клавіші Backspace.</p>
+										<p>Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Заміна слова
+									<div id="ul_1g" class="closed">
+										<p>Щоб замінити слово, доторкніться до нього, потім виберіть потрібне слово зі списку вибору слів чи просто виділить слово та введіть нове слово методом Swype. Нове слово замінить неправильне.</p>
+										<p>Щоб виділити слово, торкніться його та натисніть <img src="img_swypekey.png" /> чи торкніться його двічі.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Підбір букв для написання слова
+									<div id="ul_1h" class="closed">
+										<p>Іноді уникання букв під час введення методом Swype допомагає отримати бажане слово з першого разу.</p>
+										<p>Наприклад, слова &quot;пароль&quot; і &quot;паль&quot; можна ввести однаковим шляхом, проте зауважте, що не обов&#39;язково переміщатися від букви до букви по прямій. Уникання букв &quot;р&quot; та &quot;о&quot; під час переміщення пальця до &quot;л&quot; допоможе отримати слово &quot;паль&quot; першим у списку вибору слів.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Швидший вибір слова
+									<div id="ul_1i" class="closed">
+
+										<p>Якщо доторкнутися пальцем до будь&#45;якої клавіші й утримувати її, відкриється список усіх доступних для цієї клавіші символів, зокрема акцентованих букв на зразок &quot;ї&quot; та &quot;й&quot;, символів на зразок @ та %, а також цифр.</p>
+
+										<p>Торкніться клавіші символів (?123) для переходу до клавіатури символів.</p>
+										<p>Зверніть увагу, що ВСІ символи можна ввести у Swype з основної клавіатури (незалежно від того, бачите ви їх чи ні). Ви можете вводити слова у Swype, використовуючи цей режим клавіатури, у такому випадку будуть вводитися лише ті слова, у яких є як мінімум одна цифра або символ.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Додавання та видалення слів
+									<div id="ul_1j" class="closed">
+										<p>Метод Swype передбачає автоматичне додавання нових слів, які ви використовуєте, до вашого особистого словника.</p>
+										<p>Щоб додати слово, виділіть його та торкніться <img src="img_swypekey.png" /> . Доторкніться до підказки, яка з&#39;явиться, щоб додати слово.</p>
+										<p>Щоб видалити слово, натисніть слово у списку вибору слів та утримуйте його, потім торкніться ОК у діалоговому вікні підтвердження. Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Персоналізація
+									<div id="ul_1k" class="closed">
+										<p>За допомогою метода Swype можна швидко додати слово до свого словника із Facebook, Twitter та Gmail. Щоб персоналізувати Swype:</p>
+										<ol>
+											<li>Натисніть та утримуйте <img src="img_swypekey.png" /> .</li>
+											<li>В меню Установки Swype оберіть Персоналізацію.</li>
+											<li>Виберіть опції персоналізації і введіть свої облікові дані, якщо потрібно.</li>
+											<li>Ви можете персоналізувати Swype з одного або з усіх джерел.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Мовлення</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Для введення текстових даних (від текстових повідомлень і повідомлень електронної пошти до оновлень Facebook та Twitter) Ви можете вимовляти потрібну інформацію.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Додаткова інформація <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Пунктуація
+									<div id="ul_2a" class="open">
+										<p>Немає потреби вручну вводити знаки пунктуації. Просто скажіть, які знаки пунктуації хочете вам потрібні, та продовжуйте. Спробуйте таке:</p>
+										<ol>
+											<li>Натисніть голосову клавішу і почніть говорити.</li>
+											<li>Коли ви кажете: <i>Обід був чудовий знак оклику</i></li>
+											<li>Ось що виходить: <i>Обід був чудовий!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>На деяких клавіатурах голосове введення є неможливим</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Написання</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>За допомогою пальця можна малювати букви та слова, і Swype перетворить їх на текст. Букви можна малювати зліва направо або одну на одній. Натисніть ABC / 123 для перемикання між режимом букв та символів.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Додаткова інформація <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Увімкнути введення рукописного тексту
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Натисніть та утримуйте <img src="img_symkey.png" /> та ковзніть пальцем до іконки рукописного вводу.</li>
+											<li>Малюйте букви пальцем на рукописній зоні.</li>
+
+											<li>Після кожного слова торкайтеся пробілу</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Жести з кількох торкань
+									<div id="ul_3b" class="closed">
+										<p>Жест із кількох торкань дає можливість виконувати прості завдання на зразок введення великих букв та слів великими буквами.</p>
+										<ol>
+											<li>Уведіть декілька малих букв у зоні для малювання</li>
+											<li>Після введення цих літер ковзніть двома пальцями вгору до зони написання</li>
+											<li>Функція введення рукописного тексту розпізнає жест із декількох торкань і робить букви великими</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>На деяких клавіатурах введення рукописного тексту є неможливим.</i></p>
+									<p><i>Ця функція недоступна, якщо спеціальний системний сервіс Explore&#45;by&#45;Touch увімкнений.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Надрукувати</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Традиційна форма ручного введення з клавіатури. Уведення за допомогою торкання на клавіатурі Swype буде легшим та ефективнішим завдяки кільком корисним функціям:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Додаткова інформація <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Виправлення недбалого введення
+									<div id="ul_4a" class="open">
+										<p>Нема потреби точно влучати в букву. Зробіть це якомога точніше, і Swype автоматично запропонує варіанти слів.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Завершення слова
+									<div id="ul_4b" class="closed">
+										<p>Swype також може підказувати слово лише за кількома буквами.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Мови</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Для перемикання між мовами на клавіатурі: Натисніть та утримуйте пробіл. Оберіть потрібну мову із спливаючого меню.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect дає змогу забезпечити оновлення та надзвичайну функціональність вашого пристрою! Оскільки Swype Connect працюватиме з 3G, ми завжди рекомендуємо пошук WiFi&#45;з’єднання.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Додаткова інформація <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Завантажити мови
+									<div id="ul_6a" class="open">
+										<p>За допомогою Swype легко додавати нові мови:</p>
+										<ol>
+											<li>Натисніть та утримуйте <img src="img_swypekey.png" /> і оберіть &quot;Мови&quot;.</li>
+											<li>У меню &quot;Мови&quot; оберіть &quot;Завантажити мови&quot;.</li>
+											<li>Натисніть на мову, і завантаження почнеться автоматично.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect є можливим не на всіх клавіатурах.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Додаткова довідка</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Для отримання додаткової довідки щодо використання Swype перегляньте інструкцію користувача Swype, а також підказки та відеоматеріали щодо Swype на сайті <a href="http://www.swype.com">www.swype.com</a>, або перевірте онлайн&#45;форум Swype за адресою <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

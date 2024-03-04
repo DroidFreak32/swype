@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InputMethodsConfig xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="QWERTY" ns:inputModeName="@string/qwerty_keyboard_mode" ns:encoding="Latin">
+        <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_panlatin" />
+        <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwerty_panlatin_sym" />
+    </InputMode>
+    <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="QWERTZ" ns:inputModeName="@string/qwertz_keyboard_mode" ns:encoding="Latin">
+        <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertz_panlatin" />
+        <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertz_panlatin_sym" />
+    </InputMode>
+    <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="AZERTY" ns:inputModeName="@string/azerty_keyboard_mode" ns:encoding="Latin">
+        <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_azerty_panlatin" />
+        <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_azerty_panlatin_sym" />
+    </InputMode>
+    <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="QWERTY_BURMESE" ns:inputModeName="@string/burmese_qwerty_keyboard_mode_alphabetic" ns:encoding="Myanmar">
+        <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_burmese_alphabetic" />
+        <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_burmese_alphabetic_sym" />
+    </InputMode>
+    <Language ns:language="@array/language_English" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_English_UK" ns:defaultInputMode="QWERTY" ns:currencyType="pound">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_French" ns:defaultInputMode="national" ns:defaultGlobalInputMode="AZERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_french_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_azertyfr" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_azertyfr_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_French_CA" ns:defaultInputMode="QWERTY" ns:defaultGlobalInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_portuguese_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyfrpt" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyfrpt_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_French_CH" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_french_ch_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_french_qwertz_standard" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_french_qwertz_standard_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_German" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_german_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzde" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzde_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Italian" ns:defaultInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Spanish" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_spanish_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_spanish_qwerty_national" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_spanish_qwerty_national_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Sinhala" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_sinhala_qwerty" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_sinhala_qwerty_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Chinese_CN" ns:defaultInputMode="pinyin_nine_keys">
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="pinyin_nine_keys" ns:inputModeName="@string/pinyin_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="pinyin_qwerty" ns:inputModeName="@string/pinyin_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="doublepinyin" ns:inputModeName="@string/double_pinyin_input_mode">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_doublepinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="stroke" ns:inputModeName="@string/im_stroke">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_stroke" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_full_screen" ns:inputModeName="@string/handwriting_full_screen">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_half_screen" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Chinese_TW" ns:defaultInputMode="zhuyin_qwerty">
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="zhuyin_nine_keys" ns:inputModeName="@string/zhuyin_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_bpmf" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bopomofo_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="zhuyin_qwerty" ns:inputModeName="@string/bopomofo">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_bpmf" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bopomofo_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="pinyin_nine_keys" ns:inputModeName="@string/pinyin_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="pinyin_qwerty" ns:inputModeName="@string/pinyin_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="stroke" ns:inputModeName="@string/im_stroke">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_stroke" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="cangjie_nine_keys" ns:inputModeName="@string/cangjie_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_cangjie_multitap" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="cangjie_qwerty" ns:inputModeName="@string/cangjie_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_cangjie" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="quick_cangjie_nine_keys" ns:inputModeName="@string/quick_cangjie_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_cangjie_multitap" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="quick_cangjie_qwerty" ns:inputModeName="@string/quick_cangjie_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_cangjie" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_full_screen" ns:inputModeName="@string/handwriting_full_screen">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_half_screen" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Chinese_HK" ns:defaultInputMode="stroke">
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="zhuyin_nine_keys" ns:inputModeName="@string/zhuyin_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_bpmf" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bopomofo_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="zhuyin_qwerty" ns:inputModeName="@string/bopomofo">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_bpmf" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bopomofo_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="pinyin_nine_keys" ns:inputModeName="@string/pinyin_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="pinyin_qwerty" ns:inputModeName="@string/pinyin_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_pinyin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="stroke" ns:inputModeName="@string/im_stroke">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_stroke" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="cangjie_nine_keys" ns:inputModeName="@string/cangjie_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_cangjie_multitap" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="cangjie_qwerty" ns:inputModeName="@string/cangjie_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_cangjie" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/phone_keypad_id" ns:inputMode="quick_cangjie_nine_keys" ns:inputModeName="@string/quick_cangjie_nine_keys">
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_cangjie_multitap" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="quick_cangjie_qwerty" ns:inputModeName="@string/quick_cangjie_qwerty">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_cangjie" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_full_screen" ns:inputModeName="@string/handwriting_full_screen">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting_half_screen" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/chinese_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_chinese_handwriting_sym" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Korean" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:inputModeName="@string/full_keyboard" ns:enableTrace="true" ns:traceAutoAccept="false" ns:compatibleLanguages="@array/compatibility_korean_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/korean_keyboard" ns:layout="@xml/kbd_qwerty_korean" />
+            <Layout ns:layoutId="@integer/bilingual_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_korean_bilingual" />
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad_cji" ns:layout="@xml/kbd_keypad_chunjiin_multitap" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_korean_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting" ns:enabled="true">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/korean_handwriting_key_pad" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_korean_sym" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Greek" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_greek" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_greek_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Russian" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatibility_cyrillic">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_russian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_russian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Dutch" ns:defaultInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Dutch_BE" ns:defaultInputMode="AZERTY" ns:defaultGlobalInputMode="AZERTY" ns:currencyType="euro">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Basque" ns:defaultInputMode="QWERTY" ns:defaultGlobalInputMode="QWERTY" ns:currencyType="euro">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_basque_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_spanish_qwerty_national" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_spanish_qwerty_national_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Indonesian" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Malay" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Polish" ns:defaultInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Slovak" ns:defaultInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Hebrew" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_hebrew" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_hebrew_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Czech" ns:defaultInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Galician" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_galician_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_galician_qwerty_national" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_galician_qwerty_national_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Finnish" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_finnish_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyfisv" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyfisv_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Swedish" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_swedish_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyfisv" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyfisv_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Portuguese" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_portuguese_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyfrpt" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyfrpt_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Portuguese_PT" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY" ns:currencyType="euro">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_portuguese_pt_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyfrpt" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyfrpt_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Norwegian" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_norwegian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyno" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyno_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Croatian" ns:defaultInputMode="QWERTZ" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_croatian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzbk" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzbk_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Bosnian" ns:defaultInputMode="QWERTZ" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_bosnian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzbk" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzbk_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Serbian" ns:defaultInputMode="QWERTZ" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_serbian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzbk" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzbk_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Slovenian" ns:defaultInputMode="QWERTZ" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_slovenian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzbk" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzbk_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Albanian" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_albanian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_albanian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_albanian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Arabic" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_arabic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_arabic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Armenian" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_armenian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_armenian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Azerbaijani" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_azerbaijani_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_azerbaijani" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_azerbaijani_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Bulgarian" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatibility_cyrillic">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_bulgarian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bulgarian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Georgian" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_georgian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_georgian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Kazakh" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatibility_cyrillic">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_kazakh" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_kazakh_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Latvian" ns:defaultInputMode="QWERTY" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_latvian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_latvian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_latvian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Lithuanian" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_lithuanian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_lithuanian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_lithuanian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Icelandic" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_icelandic_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyis" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyis_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Catalan" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_catalan_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyca" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyca_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Danish" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_danish_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyda" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyda_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Estonian" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_estonian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyet" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyet_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Hungarian" ns:defaultInputMode="national" ns:defaultGlobalInputMode="QWERTZ">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_hungarian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertzhu" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertzhu_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Romanian" ns:defaultInputMode="QWERTY" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_romanian_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertyro" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertyro_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Turkish" ns:defaultInputMode="QWERTY" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_turkish_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwertytr" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_qwertytr_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Ukrainian" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatibility_cyrillic">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_ukrainian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_ukrainian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Tamil" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_tamil" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_tamil_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Hindi" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_hindi" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_hindi_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Hinglish" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Marathi" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_marathi_alphabetic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_marathi_alphabetic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Thai" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_thai" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_thai_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Urdu" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_urdu" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_urdu_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Vietnamese" ns:defaultInputMode="telex" ns:defaultGlobalInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="telex" ns:inputModeName="@string/telex">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_panlatin" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_vietnamese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national" ns:compatibleLanguages="@array/compatability_vietnamese_national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_vietnamese" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_vietnamese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Tagalog" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Farsi" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_persian" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_persian_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Japanese" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_qwerty_jp" />
+            <Layout ns:layoutId="@integer/phone_keypad_id" ns:layoutName="@string/phone_keypad" ns:layout="@xml/kbd_keypad_multitap_jp" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_japanesest_sym" />
+        </InputMode>
+        <InputMode ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/japanese_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Gujarati" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_gujarati_alphabetic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_gujarati_alphabetic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Malayalam" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_malayalam_alphabetic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_malayalam_alphabetic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad_tablet" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Irish" ns:defaultInputMode="QWERTY">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Javanese" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Sundanese" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Afrikaans" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Sesotho" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Swahili" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Xhosa" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Zulu" ns:defaultInputMode="QWERTY" ns:currencyType="dollar">
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Telugu" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_telugu_alphabetic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_telugu_alphabetic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Burmese" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_burmese" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_burmese_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Burmese_Zawgyi" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_burmese_zawgyi_unicodelayout" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_burmese_zawgyi_unicodelayout_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Khmer" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_khmer" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_khmer_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+    <Language ns:language="@array/language_Bengali" ns:defaultInputMode="national">
+        <InputMode ns:defaultLayoutId="@integer/full_keyboard_id" ns:inputMode="national">
+            <Layout ns:layoutId="@integer/full_keyboard_id" ns:layoutName="@string/full_keyboard" ns:layout="@xml/kbd_bengali_alphabetic" />
+            <Layout ns:layoutId="@integer/symbols_keyboard_id" ns:layoutName="@string/symbols_keyboard" ns:layout="@xml/kbd_bengali_alphabetic_sym" />
+        </InputMode>
+        <InputMode ns:defaultLayoutId="@integer/handwriting_id" ns:inputMode="handwriting" ns:inputModeName="@string/handwriting">
+            <Layout ns:layoutId="@integer/handwriting_id" ns:layoutName="@string/handwriting" ns:layout="@xml/alpha_handwriting_key_pad" />
+        </InputMode>
+    </Language>
+</InputMethodsConfig>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categorydbfiles>
+    <language name="Chinese_CN">
+        <cdb file="poi_beijing.ldb" id="0x0101" dpname="@string/beijing" summary="@string/points_of_interest" />
+        <cdb file="poi_shanghai.ldb" id="0x0102" dpname="@string/shanghai" summary="@string/points_of_interest" />
+        <cdb file="poi_chongqing.ldb" id="0x0103" dpname="@string/chongqing" summary="@string/points_of_interest" />
+        <cdb file="poi_guangzhou.ldb" id="0x0104" dpname="@string/guangzhou" summary="@string/points_of_interest" />
+        <cdb file="poi_chengdu.ldb" id="0x0106" dpname="@string/chengdu" summary="@string/points_of_interest" />
+        <cdb file="poi_shenyang.ldb" id="0x0107" dpname="@string/shenyang" summary="@string/points_of_interest" />
+        <cdb file="poi_shenzhen.ldb" id="0x0108" dpname="@string/shenzhen" summary="@string/points_of_interest" />
+        <cdb file="poi_tianjin.ldb" id="0x010A" dpname="@string/tianjin" summary="@string/points_of_interest" />
+        <cdb file="poi_wuhan.ldb" id="0x010B" dpname="@string/wuhan" summary="@string/points_of_interest" />
+        <cdb file="poi_xian.ldb" id="0x010C" dpname="@string/xian" summary="@string/points_of_interest" />
+        <cdb file="dialect_beijing.ldb" id="0x010D" dpname="@string/beijing" summary="@string/dialects" />
+        <cdb file="dialect_changsha.ldb" id="0x010E" dpname="@string/changsha" summary="@string/dialects" />
+        <cdb file="dialect_chengdu.ldb" id="0x010F" dpname="@string/chengdu" summary="@string/dialects" />
+        <cdb file="dialect_guangzhou.ldb" id="0x0110" dpname="@string/guangzhou" summary="@string/dialects" />
+        <cdb file="dialect_hangzhou.ldb" id="0x0111" dpname="@string/hangzhou" summary="@string/dialects" />
+        <cdb file="dialect_nanjing.ldb" id="0x0113" dpname="@string/nanjing" summary="@string/dialects" />
+        <cdb file="dialect_shanghai.ldb" id="0x0114" dpname="@string/shanghai" summary="@string/dialects" />
+        <cdb file="dialect_shenyang.ldb" id="0x0115" dpname="@string/shenyang" summary="@string/dialects" />
+        <cdb file="dialect_wuhan.ldb" id="0x0117" dpname="@string/wuhan" summary="@string/dialects" />
+        <cdb file="dialect_xian.ldb" id="0x0118" dpname="@string/xian" summary="@string/dialects" />
+    </language>
+    <language name="Chinese_HK">
+        <cdb file="poi_hongkong.ldb" id="0x0105" dpname="@string/hongkong" summary="@string/points_of_interest" />
+        <cdb file="dialect_hongkong.ldb" id="0x0112" dpname="@string/hongkong" summary="@string/dialects" />
+    </language>
+    <language name="Chinese_TW">
+        <cdb file="poi_taibei.ldb" id="0x0109" dpname="@string/taipei" summary="@string/points_of_interest" />
+        <cdb file="dialect_taibei.ldb" id="0x0116" dpname="@string/taipei" summary="@string/dialects" />
+    </language>
+</categorydbfiles>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:layout_gravity="center" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="#ffffffff" android:dividerHeight="10.0dip" android:fadeScrollbars="false" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton1" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step1_done" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_settings" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step2_done" android:layout_weight="1.0" android:contentDescription="@string/select_input_method" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step3_on" android:layout_weight="1.0" android:contentDescription="@string/accessibility_voice_input_language_selection" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step4_off" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_title" />
+    </LinearLayout>
+</LinearLayout>

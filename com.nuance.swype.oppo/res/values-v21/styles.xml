@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:radioButtonStyle">@android:style/Widget.CompoundButton.RadioButton</item>
+        <item name="toastStyle">@style/ToastStyle</item>
+        <item name="settingsHeaders">@xml/settings_headers_light</item>
+    </style>
+    <style name="AppDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:radioButtonStyle">@android:style/Widget.CompoundButton.RadioButton</item>
+        <item name="toastStyle">@style/ToastStyle</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d کلمه حذف خواهد شد</item>
+        <item quantity="one">یک کلمه حذف خواهد شد.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d روز پیش</item>
+        <item quantity="one">%d روز پیش</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ساعت پیش</item>
+        <item quantity="one">%d ساعت پیش</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d دقیقه پیش</item>
+        <item quantity="one">%d دقیقه پیش</item>
+    </plurals>
+</resources>

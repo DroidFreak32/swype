@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_10_key_tablet_width" ns:keyHeight="@dimen/key_height_5row" ns:keyTextSize="@dimen/key_text_size_5row" ns:altTextSize="19.0dip" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key1" ns:keyLabel="ๆ" ns:altKeyLabel="ๆ" ns:shiftedKeyLabel="๑" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key2" ns:keyLabel="ๅ" ns:altKeyLabel="ๅ" ns:shiftedKeyLabel="๒" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key3" ns:keyLabel="ภ" ns:altKeyLabel="ภ" ns:shiftedKeyLabel="๓" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key4" ns:keyLabel="ถ" ns:altKeyLabel="ถ" ns:shiftedKeyLabel="๔" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key5" ns:keyLabel="ุ" ns:altKeyLabel="ุ" ns:shiftedKeyLabel="ู" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key6" ns:keyLabel="ึ" ns:altKeyLabel="ึ" ns:shiftedKeyLabel="฿" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key7" ns:keyLabel="ค" ns:altKeyLabel="ค" ns:shiftedKeyLabel="๕" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key8" ns:keyLabel="ต" ns:altKeyLabel="ต" ns:shiftedKeyLabel="๖" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key9" ns:keyLabel="จ" ns:altKeyLabel="จ" ns:shiftedKeyLabel="๗" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key10" ns:keyLabel="ข " ns:altKeyLabel="ข" ns:shiftedKeyLabel="๘" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key11" ns:keyLabel="ช" ns:altKeyLabel="ช" ns:shiftedKeyLabel="๙" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key12" ns:keyLabel="ไ" ns:altKeyLabel="ไ" ns:shiftedKeyLabel="๐" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key13" ns:keyLabel="ำ" ns:altKeyLabel="ำ" ns:shiftedKeyLabel="ฎ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key14" ns:keyLabel="พ" ns:altKeyLabel="พ" ns:shiftedKeyLabel="ฑ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key15" ns:keyLabel="ะ" ns:altKeyLabel="ะ" ns:shiftedKeyLabel="ธ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key16" ns:keyLabel="ั" ns:altKeyLabel="ั" ns:shiftedKeyLabel="ํ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key17" ns:keyLabel="ี" ns:altKeyLabel="ี" ns:shiftedKeyLabel="๊" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key18" ns:keyLabel="ร" ns:altKeyLabel="ร" ns:shiftedKeyLabel="ณ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key19" ns:keyLabel="น" ns:altKeyLabel="น" ns:shiftedKeyLabel="ฯ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key20" ns:keyLabel="ย" ns:altKeyLabel="ย" ns:shiftedKeyLabel="ญ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key21" ns:keyLabel="บ" ns:altKeyLabel="บ" ns:shiftedKeyLabel="ฐ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key22" ns:keyLabel="ล" ns:altKeyLabel="ล" ns:shiftedKeyLabel="ฅ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key23" ns:keyEdgeFlags="left" ns:keyLabel="ฟ" ns:altKeyLabel="ฟ" ns:shiftedKeyLabel="ฤ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key24" ns:keyLabel="ห" ns:altKeyLabel="ห" ns:shiftedKeyLabel="ฆ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key25" ns:keyLabel="ก" ns:altKeyLabel="ก" ns:shiftedKeyLabel="ฏ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key26" ns:keyLabel="ด" ns:altKeyLabel="ด" ns:shiftedKeyLabel="โ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key27" ns:keyLabel="เ" ns:altKeyLabel="เ" ns:shiftedKeyLabel="ฌ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key28" ns:keyLabel="้" ns:altKeyLabel="้" ns:shiftedKeyLabel="็" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key29" ns:keyLabel="่" ns:altKeyLabel="่" ns:shiftedKeyLabel="๋" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key30" ns:keyLabel="า" ns:altKeyLabel="า" ns:shiftedKeyLabel="ษ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key31" ns:keyLabel="ส" ns:altKeyLabel="ส" ns:shiftedKeyLabel="ศ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key32" ns:keyLabel="ว" ns:altKeyLabel="ว" ns:shiftedKeyLabel="ซ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:shiftedPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_thai_key33" ns:keyEdgeFlags="right" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:shiftedOutputText=":-)" ns:keyLabel="ง" ns:altKeyLabel="\?" ns:shiftedKeyIcon="@drawable/keyboard_emoticon" ns:shiftedPreviewIcon="?keyboardFeedbackEmoticonPrimary" ns:shiftTransition="drop_show" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key34" ns:keyLabel="ผ" ns:altKeyLabel="ผ" ns:shiftedKeyLabel="ฉ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key35" ns:keyLabel="ป" ns:altKeyLabel="ป" ns:shiftedKeyLabel="ฮ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key36" ns:keyLabel="แ" ns:altKeyLabel="แ" ns:shiftedKeyLabel="ฺ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key37" ns:keyLabel="อ" ns:altKeyLabel="อ" ns:shiftedKeyLabel="์" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key38" ns:keyLabel="ิ" ns:altKeyLabel="ิ" ns:shiftedKeyLabel="\?" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key39" ns:keyLabel="ื" ns:altKeyLabel="ื" ns:shiftedKeyLabel="ฒ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key40" ns:keyLabel="ท" ns:altKeyLabel="ท" ns:shiftedKeyLabel="ฬ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key41" ns:keyLabel="ม" ns:altKeyLabel="ม" ns:shiftedKeyLabel="ฦ" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_thai_key42" ns:keyLabel="ใ" ns:altKeyLabel="ใ" ns:shiftedKeyLabel="ฝ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_5row_tablet" />
+</KeyboardEx>

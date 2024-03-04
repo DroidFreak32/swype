@@ -1,0 +1,207 @@
+/* ------------- main ------------- */
+body {
+	background: #fff;
+	color: #333;
+	font-family: Droid Sans, Arial, sans-serif;
+	font-weight: 100;
+	width: auto;
+	margin: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.clear { clear: both; }
+img { border: 0; }
+.space {
+	display: block;
+	margin-top: 20px;
+}
+/* ------------- text ------------- */
+a,
+a:link,
+a:visited {
+	color: #000; 
+	text-decoration: underline;
+}
+b { color: #000; }
+/* ------------- wraps ------------- */
+#container {
+	min-width: 100px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.closed { display: none; }
+.open {
+	display: block;
+	margin-top: 6px;
+	padding-top: 5px;
+}
+	.open p {
+		padding: 5px 0;
+		line-height: 1.5em;
+		color: #ddd;
+		font-weight: normal;
+	}
+	.open img.example {
+		text-align: center;
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+		position: relative;
+	}
+.content {
+/*	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	overflow-y:scroll;
+	margin-top: 43px; */
+	margin-top: 5px;
+	padding: 10px;
+}
+	.content p { font-size: 1em; }
+	.content p.welcome { padding-bottom: 3px; }
+/* ------------- header ------------- */
+#header {
+	background: #ccc;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 2;
+}
+	#header div {
+		color: #fff;
+		display: block;
+		text-align: center;
+		border-left: 1px solid #999;
+		text-decoration: none;
+		width: 24.6%;
+		float: left;
+	}
+	#header div.first { border-left: 0px solid #aaa; }
+	#header div.last { border-right: 0px solid #aaa; }
+		#header div a {
+			text-decoration: none;
+			color: #000;
+			display: block;
+			padding: 10px 0px;
+			font-size: 0.95em;
+			border-top: 5px solid #ccc;
+			border-bottom: 5px solid #ccc;
+		}
+		#header div a:hover {
+			border-bottom: 5px solid #ffa200;
+		}
+/* ------------- primary expander ------------- */
+.numlist li {
+	font-size: 1em;
+	text-align: left;
+	list-style: none;
+}
+	.numlist li p { color: #222; }
+	.numlist li .title {
+		color: #555;
+		font-weight: 900;
+		font-size: 1.15em;
+	}
+div.head-title {
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #bbb;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	display: inline;
+	float: left;
+}
+.img-title-container {
+	display: block;
+	width: 25px;
+	height: 25px;
+	text-align: right;
+	float: right;
+}
+.img-title {
+	height: 100%;
+	max-height: 25px;
+}
+	.numlist li .learnmore {
+		color: #111;
+		background: #eee;
+		background: -webkit-gradient(linear, right top, right bottom, from(#ddd), to(#bbb) );
+		background: -moz-linear-gradient(top, #ddd, #bbb);
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		border: 1px solid #aaa;
+		padding: 8px 15px;
+		margin-top: 10px;
+		display: block;
+		text-align: left;
+		width: auto;
+		float: left;
+		font-weight: 300;
+		font-size: 0.9em;
+	}
+		.numlist li .learnmore img { 
+			display: inline;
+			vertical-align: middle;
+			padding: 0 5px;
+			max-width: 10px;
+		}
+/* ------------- secondary expander ------------- */
+.disclist { padding-bottom: 0; }
+	.disclist .open { border-top: 1px solid #aaa; }
+	.disclist li {
+		background: #f1f1f1;
+		color: #111;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		border: 1px solid transparent;
+		margin: 5px 0;
+		padding: 7px 10px 8px 10px;
+		font-size: 0.9em;
+		width: auto;
+	}
+	.disclist li.note {
+		color: #333;
+		background: #f1f1f1;
+		padding: 5px 10px;
+	}
+	.disclist li .open p { color: #333; }
+		.disclist li img.arrow {
+			float: right;
+			max-width: 10px;
+		}
+		.disclist li ol li {
+			color: #333;
+			margin: 5px 0 5px 20px;
+			padding: 0;
+			font-weight: normal;
+			list-style: decimal;
+		}
+		.disclist li ul li {
+			font-weight: normal;
+			color: #555;
+			line-height: 1.5em;
+		}
+			.disclist li ul li span.gestures {
+				color: #000;
+				font-weight: bold;
+				display: block;
+				padding: 0 0 3px 0;
+			}
+span.gestures { font-weight: bold; }
+/* ------------- images ------------- */
+.swypekey {
+	padding-right: 20px;
+	margin-right: 2px;
+	background: url('img_swypekey.png') right center no-repeat;
+}
+/* ------------- no highlight ------------- */
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }

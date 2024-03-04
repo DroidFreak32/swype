@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.chinese.SpellPhraseViewContainer android:orientation="vertical" android:background="?keyboardSuggestStrip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/spell_layout_window" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height">
+        <com.nuance.swype.input.chinese.SpellListView android:id="@id/spell_candidates" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/phrase_layout_window" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height">
+        <ImageButton android:id="@id/phrase_candidate_left" android:background="@drawable/pressable_background_highlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowLeft" />
+        <com.nuance.swype.input.chinese.CJKCandidatesListView android:id="@id/cjk_candidates" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/phrase_candidate_right" android:background="@drawable/pressable_background_highlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowRight" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/functionbar_layout_window" android:layout_width="fill_parent" android:layout_height="@dimen/candidates_list_height">
+        <com.nuance.swype.input.FunctionBarListView android:id="@id/functionbar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.nuance.swype.input.chinese.SpellPhraseViewContainer>

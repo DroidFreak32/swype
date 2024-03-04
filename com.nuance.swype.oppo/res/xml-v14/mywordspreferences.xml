@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_dictionary_management_title" android:key="dictionary_management">
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/back_and_sync_title" android:key="pref_account_register" android:summary="@string/pref_backup_sync_desc" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/back_and_sync_title" android:key="pref_account_manage" android:summary="@string/pref_backup_sync_desc" android:fragment="com.nuance.swype.input.settings.AccountPrefsFragment" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_connect_activation_code" android:key="pref_activation_code" />
+        <CheckBoxPreference android:title="@string/auto_import_frequent_contacts" android:key="auto_import_frequent_contacts" android:summary="@string/auto_import_recent_contacts_summary" android:defaultValue="@bool/auto_import_frequent_contacts_default" />
+        <CheckBoxPreference android:title="@string/pref_living_language_title" android:key="pref_connect_hotwords" android:summary="@string/pref_living_language_description" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/personalization_settings_title" android:key="pref_social_integration" android:fragment="com.nuance.swype.input.settings.SocialIntegrationPrefsFragment" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/change_dictionary_behavior_title" android:key="edit_dictionary_preference_change_behavior_key" />
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/pref_edit_dictionary_title" android:key="edit_dictionary_preference_key" android:fragment="com.nuance.swype.input.settings.PersonalDictionaryFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_data_management_title" android:key="pref_data_management">
+        <com.nuance.swype.preference.ClassActionPreference android:title="@string/clear_language_data" android:key="erase_udb" android:summary="@string/pref_clear_lang_data_desc" />
+        <CheckBoxPreference android:title="@string/usage_statistics_log_title" android:key="pref_connect_contribute_usage_data" android:summary="@string/usage_statistics_log_summary" />
+        <com.nuance.swype.preference.CustomCheckBoxPreference android:title="@string/pref_connect_enable_data_connection" android:key="pref_connect_enable_data_connection" android:summary="@string/pref_connect_enable_data_connection_desc" />
+    </PreferenceCategory>
+</PreferenceScreen>

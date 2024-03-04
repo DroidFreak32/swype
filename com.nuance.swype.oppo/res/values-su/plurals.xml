@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d kecap bakal dipupus.</item>
+        <item quantity="one">Hiji kecap bakal dipupus.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d poé ka tukang</item>
+        <item quantity="one">%d poé ka tukang</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d jam katukang</item>
+        <item quantity="one">%d jam katukang</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d menit katukang</item>
+        <item quantity="one">%d menit katukang</item>
+    </plurals>
+</resources>

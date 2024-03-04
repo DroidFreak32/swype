@@ -1,0 +1,323 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">කතා කරන්න</a></div>
+				<div><a href="#write">ලියන්න</a></div>
+				<div class="last"><a href="#tap">ටයිප් කරන්න</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swype මගින් ඔබට Swype කිරීම, කථනය, ලිවීම හෝ තට්ටු කිරීම වැනි විවිධ ආදාන ප්‍රකාර අතර අතොරක් නැතිව මාරු වීමේ හැකියාව ලබා දේ.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype පෙළ ඇතුළත් කිරීම සඳහා භාවිතා කළ හැකි වේගවත් ක්‍රමයකි. එමගින් අකුරු අතර ඇඳීමෙන් වදනක් ඇතුළත් කිරීමට අවකාශ සලසයි. වචනයේ පළමු අකුර මතින් ඔබේ ඇඟිල්ල තබා අකුරෙන් අකුරට මංපෙතක් ඇද, අවසන් අකුරෙන් පසු ඔබේ ඇඟිල්ල ඔසවන්න. Swype මගින් අවශ්‍ය තැන්වල ඉඩ ඇතුළු කරනු ඇත.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							වැඩිදුර දැනගන්න <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype යතුර
+									<div id="ul_1a" class="open">
+										<p>Swype යතුර යනු Swype ලාංඡනය සහිත යතුරයි. Swype සැකසුම් වෙත ප්‍රවේශ වීමට Swype යතුර ඔබාගෙන සිටින්න.</p>
+										<p>Swype අංග චලන බොහොමයක් ඇරඹීමට ද Swype යතුර භාවිතා කරනු ලැබේ.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    යතුරු පුවරු පෙරදසුන
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype අංග චලන
+									<div id="ul_1b" class="closed">
+										<p>Swype අංග චලන යනු, යතුරු පුවරුවේ පොදු කාර්යයන් ඉක්මනින් කරවා ගැනීමට ඇති කෙටිමං වේ. “ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට මෙම විශේෂාංගය ලද නොහැක.</p>
+										<ul>
+											<li><span class="gestures">සංස්කරණ යතුරු පුවරුව වෙත යාම</span> සංස්කරණ යතුරු පුවරුව වෙත යාමට, <img src="img_swypekey.png" /> වෙතින් යතුරු පුවරුවේ ඇති (?123) සංකේත යතුර වෙත Swype කරන්න.</li>
+											<li><span class="gestures">අංක යතුරු පුවරුව වෙත යාම</span> අංක යතුරු පුවරුව වෙත වහා යාමට, <img src="img_swypekey.png" /> වෙතින් අංක 5 වෙත Swype කරන්න.</li>
+											<li><span class="gestures">යතුරු පුවරුව සැඟවිම</span> යතුරු පුවරුව පහසුවෙන් සැඟවීමට, Swype යතුරේ සිට ආපස්සට මැකීමේ යතුර වෙත Swype කිරීම සෑහේ.</li>
+
+											<li><span class="gestures">ස්වයංක්‍රියව ඉඩ තැබිම ක්‍රියා විරහිත කරන්න</span> ඉඩ යතුරේ සිට ආපස්සට මැකීමේ යතුර වෙත Swype කිරීමෙන් ඊළඟ වදනට පෙර ස්වයංක්‍රියව ඉඩ තැබීම අවුරන්න.</li>
+
+
+											<li><span class="gestures">විරාම ලකුණ</span> ප්‍රශ්නාර්ථ ලකුණ, කොමාව, නැවතීම හෝ වෙනත් විරාම ලකුණු තට්ටු කිරිම වෙනුවට විරාම ලකුණක සිට ඉඩ තැබීමේ යතුර වෙත Swype කිරීම ඒවා ඇතුළත් කිරීමට පහසු ක්‍රමයකි.</li>
+
+											<li><span class="gestures">යෙදුම් කෙටිමං</span>Google සිතියම්: <img src="img_swypekey.png" /> වෙතින් ‘g’ වෙතට ද අනතුරුව ‘m’ වෙතට ද Swype කරන්න</li>
+											<li><span class="gestures">සොයන්න</span>යුහු වෙබ් සෙවුමක් සිදු කිරීමට පෙළක් උද්දීපනය කර <img src="img_swypekey.png" /> වෙතින් S වෙත Swype කරන්න.</li>
+											<li><span class="gestures">අවසන් වරට භාවිත භාෂාවට මාරු වීම</span>භාෂා කිහිපයක් භාවිතා කරන විට <img src="img_swypekey.png" /> වෙතින් ඉඩ තැබීමේ යතුරට Swype කිරීමෙන් පෙර භාෂාවට ඉක්මනින් මාරු විය හැක.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									වචනයක් තේරීම
+									<div id="ul_1d" class="closed">
+										<p>වදන් තේරීම් ලැයිස්තුවෙන් යෝජිත පෙරනිමි වදන පිළිගැනීමට දිගටම Swype කරන්න. එසේ නැතහොත්, ඔබේ ඇඟිල්ල ඇදගෙන යාමෙන් ලැයිස්තුවේ පහළට පෙරළා ඔබට උවමනා වදන තෝරන්න. “ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට මෙම විශේෂාංගය ලද නොහැක.</p>
+<p>ලැයිස්තුවකින් පෙළ තේරීම සඳහා, ලැයිස්තු සංලේඛ ඇසීමට ඔබේ ඇඟිල්ල කවාකාරව කරකවන්න. දක්ෂිණාවර්තව කැරකැවීමෙන් ලැයිස්තුවේ ඉදිරියට යන අතර වාමාවර්තව කැරකැවීමෙන් ලැයිස්තුවේ ආපස්සට යයි.  
+ඇඟිල්ල එසවීමෙන් අවසන් වරට කියූ ලැයිස්තු සංලේඛය ප්‍රතිදාන කරයි.
+වදන් තේරීම් ලැයිස්තුවෙන් වදනක් තෝරා ගැනීමට, ලැයිස්තුවේ පළමු වදන ඇසෙන තෙක් ඔබේ ඇඟිල්ල යතුරු පුවරුවෙන් ඉහළට ඔසවාගෙන සිට, අනතුරුව කවාකාරව කරකැවීම අරඹන්න.
+මෙම විශේෂාංගය ලද හැක්කේ “ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට පමණි.
+</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									ස්වයංක්‍රියව ඉඩ තැබීම
+									<div id="ul_1f" class="closed">
+										<p>ඔබ වාක්‍යයේ ඇති ඊළඟ වදන Swype කළ විට Swype මගින් ස්වයංක්‍රියව වදන් අතර ඉඩ තබයි. ඔබට Swype සැකසුම් වෙතින් ස්වයං&#45;ඉඩ තැබීම් විශේෂාංගය ක්‍රියාත්මක හෝ ක්‍රියා විරහිත කළ හැක.</p>
+										<p>ඉඩ යතුරේ සිට පසුපසට මැකිමේ යතුරට Swype කිරීමෙන් එක් වදනක් සඳහා ස්වයං&#45;ඉඩ තැබීම ක්‍රියා විරහිත කළ හැක.</p>
+										<p>“ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට මෙම විශේෂාංගය ලද නොහැක.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									වදනක් ආදේශ කිරීම
+									<div id="ul_1g" class="closed">
+										<p>වදනක් මත තට්ටු කොට අනතුරුව ඔබට උවමනා වදන වදන් තේරීම් ලැයිස්තුවෙන් තේරීමෙන් හෝ වදන උද්දීපනය කොට නව වදනක් Swype කිරීමෙන් වදනක් ආදේශ කරන්න. නව වදන මගින් වැරදි වදන ආදේශ වනු ඇත.</p>
+										<p>වදනකට තට්ටු කොට <img src="img_swypekey.png" /> ස්පර්ශ කිරීමෙන් හෝ වදනකට දෙ වරක් තට්ටු කිරීමෙන් වදනක් උද්දීපනය කළ හැක.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									අකුරු අතර පැනීම
+									<div id="ul_1h" class="closed">
+										<p>Swype කරන අතර ඇතැම් අකුරු මග හැරීමෙන් ඔබට අවශ්‍ය වදන පළමුවරම ඔබට ලැබෙන බව සහතික කරයි.</p>
+										<p>නිදසුන් ලෙස, &quot;වර්ගයේ&quot; හා &quot;වල්ගයේ&quot; එකම මංපෙතෙන් ඇදිය හැකි නමුත් &#45; ඍජු රේඛාවක අකුරින් අකුරට යෑමට අවශ්‍ය නොවන බැව් සැලකිල්ලට ගන්න. ඔබේ ඇඟිල්ල &quot;ග&quot; වෙත Swype කරන විට ”ල&quot; මග හැරීමෙන් වදන් තේරීම් ලැයිස්තුවේ මුලින්ම &quot;වර්ගයේ&quot; වදන දිස් වන බව සහතික කරයි.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									විකල්ප අනුලකුණු
+									<div id="ul_1i" class="closed">
+
+										<p>@ හා % වැනි සංකේත හා අංක ආදී, කිසියම් යතුරක් සඳහා වන විකල්ප අනුලකුණු ලැයිස්තුවක් ලබා ගැනීමට එම යතුර ඔබාගෙන සිටින්න.</p>
+
+										<p>සංකේත යතුරු පුවරුව වෙත ගෙන යනු ලැබීමට (?123) සංකේත යතුර තට්ටු කරන්න.</p>
+										<p>ප්‍රධාන යතුරු පුවරුවෙන් සියලුම අනුලකුණු Swype කළ හැකි බව (ඔබට ඒවා දැකිය හැකි හෝ නොහැකි වුව ද) සලකන්න. ඔබට යතුරු පුවරුවේ මෙම දසුන භාවිතයෙන් Swype කළ හැකි වුව ද ඔබට දිස් වනු ඇත්තේ අවම වශයෙන් එක් අංකයක් හෝ සංකේතයක් සහිත වදන් පමණි.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									වදන් එක් කිරීම හා මැකීම
+									<div id="ul_1j" class="closed">
+										<p>Swype මගින් ඔබ භාවිතා කරන ඕනෑම නව වදනක් ඔබේ පුද්ගලික ශබ්දකෝෂයට එක් කරයි.</p>
+										<p>වදනක් උද්දීපනය කොට <img src="img_swypekey.png" /> තට්ටු කිරීමෙන් ද වදන් එක් කළ හැක. වදන එක් කිරීමට, දිස් වන ප්‍රේරකය තට්ටු කරන්න.</p>
+										<p>වදනක් මැකීමට, වදන් තේරීම් ලැයිස්තුවෙන් වදනක් ඔබාගෙන සිට අනතුරුව තහවුරුකරණ සංවාද කොටුවෙහි හරි තට්ටු කරන්න. “ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට මෙම විශේෂාංගය ලද නොහැක.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									පුද්ගලායනය
+									<div id="ul_1k" class="closed">
+										<p>Facebook, Twitter හා Gmail වෙතින් ඔබේ ශබ්දකෝෂයට Swype මගින් ඉක්මනින් වදන් එක් කළ හැක. Swype පුද්ගලායනය කිරීමට:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> ඔබාගෙන සිටින්න.</li>
+											<li>Swype සැකසුම් මෙනුවෙන් පුද්ගලායනය තෝරන්න.</li>
+											<li>පුද්ගලායන විකල්ප වෙතින් තෝරා අනතුරුව ප්‍රේරණයක් ලද හොත් ඔබේ අක්තපත්‍ර ඇතුළත් කරන්න.</li>
+											<li>ඔබට මූලාශ්‍ර සියල්ලෙන් හෝ එකකින් Swype පුද්ගලායනය කළ හැක.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">කතා කරන්න</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>පෙළ හා විද්‍යුත් තැපැල් පණිවුඩ සිට Facebook හා Twitter යාවත්කාල දක්වා සෑම දෙයකටම, කතා කිරීම මගින් පෙළ අන්තර්ගත ඇතුළත් කළ හැක.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							වැඩිදුර දැනගන්න <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									විරාම ලකුණ
+									<div id="ul_2a" class="open">
+										<p>හස්තීයව විරාම ලකුණු එක් කිරීමට උවමනා නොවේ. ඔබට අවශ්‍ය විරාම ලකුණු කියා ඉදිරියට යන්න. මෙසේ කර බලන්න:</p>
+										<ol>
+											<li>කටහඬ යතුර ඔබා කතා කිරීම අරඹන්න.</li>
+											<li>ඔබ කියන දේ: <i>රාත්‍රී ආහාරය ඉතා රසවත් හර්ෂාදී ලකුණ</i></li>
+											<li>ඔබට ලැබෙන දේ: <i>රාත්‍රී ආහාරය ඉතා රසවත්!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ඇතැම් යතුරු පුවරුවල කටහඬ ආදානය නොමැත.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">ලියන්න</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>ඔබේ ඇඟිල්ල භාවිතයෙන් අකුරු හා වදන් ඇඳිය හැකි අතර Swype මගින් ඒවා පෙළ බවට පරිවර්තනය කරනු ඇත. ඔබට වමේ සිට දකුණට හෝ එකක් මත එකක් වන සේ අකුරු ඇඳිය හැක. අකුරු හා සංකේත ප්‍රකාර අතර මාරු වීමට ABC / 123 ඔබන්න.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							වැඩිදුර දැනගන්න <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									අත්අකුරු සක්‍රියනය
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> ඔබාගෙන සිට ඔබේ ඇඟිල්ල අතින් ලිවීමේ නිරූපකය වෙත ලෙස්සා යවන්න.</li>
+											<li>අතින් ලිවීමේ කලාපයේ ඔබේ ඇඟිල්ල භාවිතයෙන් අකුරු අඳින්න.</li>
+
+											<li>සෑම වදන් දෙකක් අතරම ඉඩ තැබීමේ යතුර තට්ටු කරන්න</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									බහු&#45;ස්පර්ශ අනුචලනය
+									<div id="ul_3b" class="closed">
+										<p>වදන් හෝ අකුරු මහකුරුකරණය වැනි සරල කාර්යයන් සම්පූර්ණ කිරීමට බහු&#45;ස්පර්ශ අනුචලයෙන් ඉඩ සලසයි.</p>
+										<ol>
+											<li>ඇඳිමේ පුවරුව මත කුඩා අකුරු කිහිපයක් අදින්න</li>
+											<li>අකුරු ඇතුළත් කිරීමෙන් පසු, ලිවීම් කලාපයේ ඇඟිලි දෙකක් උඩු අතට ලෙස්සා යවන්න.</li>
+											<li>අතින් ලිවීමේ විශේෂාංගය මගින් බහු&#45;ස්පර්ශ අනුචලනය හඳුනාගෙන අකුරු මහකුරු කරනු ඇත</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>ඇතැම් යතුරු පුවරුවල අතින් ලිවීම නොමැත.</i></p>
+									<p><i>“ස්පර්ශයෙන්&#45;ගවේෂණය“ පද්ධති ප්‍රවේශ්‍යතා සේවාව ක්‍රියාත්මකව ඇති විට මෙම විශේෂාංගය ලද නොහැක.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ටයිප් කරන්න</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>හස්තීය යතුරු පුවරු ආදානයේ සාම්ප්‍රදායික ආකෘතිය. ප්‍රයෝජනවත් විශේෂාංග කිහිපයක් මගින් Swype යතුරු පුවරුව මත ආදාන තට්ටු කිරීම වඩාත් පහසු හා කාර්යක්ෂ්ම බවට පත් කොට ඇත:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							වැඩිදුර දැනගන්න <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									අපිළිවෙළ යතුරු ලියනය නිවැරදි කිරීම
+									<div id="ul_4a" class="open">
+										<p>සෑම අකුරක්ම ඉතා නිවැරදිව තට්ටු කළ යුතු නොවේ. හුදෙක් ඔබට හැකි උපරිමයෙන් තට්ටු කළ විට Swype බුද්ධිය මගින් වදන් යෝජනා සපයනු ඇත.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									වදන් සපිරීම
+									<div id="ul_4b" class="closed">
+										<p>ඔබ අකුරු කිහිපයක් පමණක් තට්ටු කරන විටම Swype මගින් අදාළ වදන අනුමාන කළ හැක.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">භාෂා</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>යතුරු පුවරුවෙන් භාෂා මාරු කිරීමට: ඉඩ තැබීමේ යතුර ඔබාගෙන සිටින්න. උත්පතන මෙනුවෙන් ඔබට අභිමත භාෂාව තෝරන්න.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype සබැඳුම මගින් යාවත්කාල හා ප්‍රබල ක්‍රියාකාරීත්වයන් ඍජුවම ඔබගේ උපාංගයට ගෙන දීමට අපට ඉඩ සලසයි! Swype සබැඳුම 3G ඔස්සේ ක්‍රියාත්මක වනු ඇති අතර මේ සඳහා සැමවිටම Wifi සම්බන්ධයක් සොයා ගැනීම යෝග්‍ය වේ.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							වැඩිදුර දැනගන්න <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									භාෂා බා ගැනුම්
+									<div id="ul_6a" class="open">
+										<p>Swype වෙත අතිරේක භාෂා එක් කිරීම පහසුය:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> ඔබාගෙන සිට භාෂා තෝරන්න.</li>
+											<li>භාෂා මෙනුවෙන් භාෂා බා ගන්න තෝරන්න.</li>
+											<li>භාෂාවක් මත ක්ලික් කළ විට ඔබේ බා ගැනුම ස්වයංක්‍රියව ඇරඹෙනු ඇත.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>සෑම යතුරු පුවරුවකම Swype සබැඳුම නොමැත.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">වැඩිදුර උපකාර</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Swype භාවිතා කිරීම සඳහා වැඩිදුර උපකාර ලැබීමට, Swype පරිශීලක අත්පොතක් හා <a href="http://www.swype.com">www.swype.com</a> වෙතින් Swype ඉඟි හා වීඩියෝ බලන්න. නැතහොත් <a href="http://forum.swype.com">forum.swype.com</a> වෙතින් Swype සංසදය සබැඳිව පිරික්සා බලන්න.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

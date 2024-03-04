@@ -1,0 +1,141 @@
+.class Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;
+.super Lcom/nuance/nmdp/speechkit/NluRecognizerImpl;
+.source "NluRecognizerProxy.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;->createRecognizer(Lcom/nuance/nmdp/speechkit/transaction/TransactionRunner;Ljava/lang/String;ILcom/nuance/nmdp/speechkit/SpeechKit$PartialResultsMode;Ljava/lang/String;Ljava/lang/String;Lcom/nuance/nmdp/speechkit/transaction/recognize/ISignalEnergyListener;)Lcom/nuance/nmdp/speechkit/RecognizerBase;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+
+# direct methods
+.method constructor <init>(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;Lcom/nuance/nmdp/speechkit/transaction/TransactionRunner;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lcom/nuance/nmdp/speechkit/util/pdx/PdxValue$Dictionary;Lcom/nuance/nmdp/speechkit/transaction/recognize/ISignalEnergyListener;)V
+    .locals 8
+    .param p2, "x0"    # Lcom/nuance/nmdp/speechkit/transaction/TransactionRunner;
+    .param p3, "x1"    # Ljava/lang/String;
+    .param p4, "x2"    # I
+    .param p5, "x3"    # Ljava/lang/String;
+    .param p6, "x4"    # Ljava/lang/String;
+    .param p7, "x5"    # Lcom/nuance/nmdp/speechkit/util/pdx/PdxValue$Dictionary;
+    .param p8, "x6"    # Lcom/nuance/nmdp/speechkit/transaction/recognize/ISignalEnergyListener;
+
+    .prologue
+    .line 52
+    iput-object p1, p0, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+    move-object v0, p0
+
+    move-object v1, p2
+
+    move-object v2, p3
+
+    move v3, p4
+
+    move-object v4, p5
+
+    move-object v5, p6
+
+    move-object v6, p7
+
+    move-object/from16 v7, p8
+
+    invoke-direct/range {v0 .. v7}, Lcom/nuance/nmdp/speechkit/NluRecognizerImpl;-><init>(Lcom/nuance/nmdp/speechkit/transaction/TransactionRunner;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lcom/nuance/nmdp/speechkit/util/pdx/PdxValue$Dictionary;Lcom/nuance/nmdp/speechkit/transaction/recognize/ISignalEnergyListener;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected onError(Lcom/nuance/nmdp/speechkit/SpeechError;)V
+    .locals 2
+    .param p1, "error"    # Lcom/nuance/nmdp/speechkit/SpeechError;
+
+    .prologue
+    .line 56
+    iget-object v0, p0, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+    new-instance v1, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$1;
+
+    invoke-direct {v1, p0, p1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$1;-><init>(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;Lcom/nuance/nmdp/speechkit/SpeechError;)V
+
+    invoke-static {v0, v1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;->access$100(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;Ljava/lang/Runnable;)V
+
+    .line 65
+    return-void
+.end method
+
+.method protected onRecordingBegin()V
+    .locals 2
+
+    .prologue
+    .line 70
+    iget-object v0, p0, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+    new-instance v1, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$2;
+
+    invoke-direct {v1, p0}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$2;-><init>(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;)V
+
+    invoke-static {v0, v1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;->access$200(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;Ljava/lang/Runnable;)V
+
+    .line 79
+    return-void
+.end method
+
+.method protected onRecordingDone()V
+    .locals 2
+
+    .prologue
+    .line 84
+    iget-object v0, p0, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+    new-instance v1, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$3;
+
+    invoke-direct {v1, p0}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$3;-><init>(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;)V
+
+    invoke-static {v0, v1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;->access$300(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;Ljava/lang/Runnable;)V
+
+    .line 93
+    return-void
+.end method
+
+.method protected onResults(Lcom/nuance/nmdp/speechkit/GenericRecognition;)V
+    .locals 2
+    .param p1, "result"    # Lcom/nuance/nmdp/speechkit/GenericRecognition;
+
+    .prologue
+    .line 98
+    iget-object v0, p0, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->this$0:Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;
+
+    new-instance v1, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$4;
+
+    invoke-direct {v1, p0, p1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1$4;-><init>(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;Lcom/nuance/nmdp/speechkit/GenericRecognition;)V
+
+    invoke-static {v0, v1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;->access$400(Lcom/nuance/nmdp/speechkit/NluRecognizerProxy;Ljava/lang/Runnable;)V
+
+    .line 107
+    return-void
+.end method
+
+.method protected bridge synthetic onResults(Ljava/lang/Object;)V
+    .locals 0
+    .param p1, "x0"    # Ljava/lang/Object;
+
+    .prologue
+    .line 52
+    check-cast p1, Lcom/nuance/nmdp/speechkit/GenericRecognition;
+
+    .end local p1    # "x0":Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcom/nuance/nmdp/speechkit/NluRecognizerProxy$1;->onResults(Lcom/nuance/nmdp/speechkit/GenericRecognition;)V
+
+    return-void
+.end method

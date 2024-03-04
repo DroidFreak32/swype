@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d žodžiai (-is, -ių) bus ištrinta</item>
+        <item quantity="one">Vienas žodis bus ištrintas.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">Prieš %d dienas (-ą;-ų)</item>
+        <item quantity="one">Prieš %d dieną</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Prieš %d valandas (-ą; -ų)</item>
+        <item quantity="one">Prieš %d valandą</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Prieš %d minutes (-čių)</item>
+        <item quantity="one">Prieš %d minutę</item>
+    </plurals>
+</resources>

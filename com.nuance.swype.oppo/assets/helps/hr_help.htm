@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Govor</a></div>
+				<div><a href="#write">Pisanje</a></div>
+				<div class="last"><a href="#tap">Tapkanje</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Sa Swypeom, imate mogućnost besprijekornog prebacivanja između četiri različita režima unosa &#45; Swype, Govor, Pisanje ili Tapkanje.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype je brzi način unosa teksta. Dopušta vam tipkati riječ crtanjem preko slova. Stavite prst na prvo slovo riječi i nacrtajte putanju od slova do slova, a zatim nakon zadnjeg slova dignite prst. Swype će umetnuti razmake gdje je to potrebno.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Saznaj više <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype Tipka
+									<div id="ul_1a" class="open">
+										<p>Swype tipka je tipka sa Swype logotipom. Za pristup postavkama Swype&#45;a pritisnite i držite Swype tipku.</p>
+										<p>Swype tipka se također koristi za počinjanje mnogih Swype gesta.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Pregled tipkovnice
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype geste
+									<div id="ul_1b" class="closed">
+										<p>Swype geste su prečaci tipkovnice za brzo obavljanje uobičajenih zadataka. Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+										<ul>
+											<li><span class="gestures">Dolazak na tipkovnicu uređivanja</span> Da dođete do Tipkovnice za uređivanje, swapeajte od <img src="img_swypekey.png" /> do Tipke simbola (?123) na tipkovnici.</li>
+											<li><span class="gestures">Dolazak na tipkovnicu brojeva</span> Da dođete brzo do Tipkovnice za brojeve, swapeajte od tipke <img src="img_swypekey.png" /> do broja 5.</li>
+											<li><span class="gestures">Skrivanje tipkovnice</span> Za lagano skrivanje tipkovnice, swapeajte od Swype tipke do povratne tipke.</li>
+
+											<li><span class="gestures">Isključivanje automatskog razmaka</span> Suzbijte automatski razmak prije sljedeće riječi tako da kliznete od Tipke razmak do Povratne tipke.</li>
+
+
+											<li><span class="gestures">Uredi veliko ili malo slovo riječi</span> Promijenite mala ili velika slova riječi nakon što ju unesete, tapkanjem po riječi a zatim skliznite od <img src="img_swypekey.png" /> do Shift tipke <img src="img_shiftkey.png" /> . Prikazat će se Popis izbora riječi s opcijom prvog velikog slova u riječi koji vam dozvoljava da izaberete mala slova, prvo veliko slovo ili SVA SLOVA VELIKA.</li>
+
+											<li><span class="gestures">Interpunkcija</span> Jednostavan način unašanja interpunkcija je da Swypeate od upitnika, zareza, točke ili druge interpunkcije do Tipke razmak, umjesto da ih tapkate.</li>
+
+											<li><span class="gestures">Izaberi sve, izbriši, kopiraj i ubaci</span>
+												Izaberi sve: Swapeajte od <img src="img_swypekey.png" /> do &#39;a&#39;<br />
+												Izbriši: Swapeajte od <img src="img_swypekey.png" /> do &#39;x&#39;<br />
+												Kopiraj: Swapeajte od <img src="img_swypekey.png" /> do &#39;c&#39;<br />
+												Unesi: Swapeajte od <img src="img_swypekey.png" /> do &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Prečci aplikacije</span>Google karte: Swypeajte od <img src="img_swypekey.png" /> do &#39;g&#39;, zatim &#39;m&#39;</li>
+											<li><span class="gestures">Pretražite</span>Označite dio teksta i Swype od <img src="img_swypekey.png" /> do S da obavite brzo pretraživanje interneta.</li>
+											<li><span class="gestures">Prebacivanje na posljednje korišten jezik.</span>Kad koristite višestruke jezike, brzi način vraćanja natrag na prethodni jezik je da Swypeate od <img src="img_swypekey.png" /> do tipke za razmak.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Pravljenje duplih slova
+									<div id="ul_1n" class="closed">
+										<p>Kako biste poboljšali točnost pri unašanju duplih slova, lagano prošarajte ili napravite krug oko slova. Primjerice, kako biste dobili „zz“ u „jazza“, prošarajte preko tipke „z“. Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Izbor riječi
+									<div id="ul_1d" class="closed">
+										<p>Kako biste prihvatili predloženu osnovnu riječ s Popisa izbora riječi, samo nastavite sa Swypingom. U suprotnom, kliznite kroz popis povlačenjem svog prsta i izaberite riječ koju želite. Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+<p>Za izbor teksta s popisa, mičite prst s kružnim pokretima kako biste preslušali unose s popisa. Pokreti u smjeru kazaljke na satu pomiču kroz popis unaprijed, u smjeru suprotnom od kazaljki sata pomiču kroz popis unatrag.  
+Podizanjem prsta izlazi posljednji unos govornog popisa.
+Za izbor riječi s Popisa izbora riječi, kliži prst prema gore od tipkovnice dok se ne čuje prva riječ s popisa, a zatim počni kružnim pokretima.
+Ova značajka dostupna je samo kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Prvo veliko slovo riječi
+									<div id="ul_1e" class="closed">
+										<p>Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+										<p>Za prvo veliko slovo riječi kod Swypinga, skližite prst od prvog slova prema gore iznad vrha tipkovnice i bez dizanja, poskližite svoj prst natrag dolje do sljedećeg slova u riječi.</p>
+										<p>Promijenite mala ili velika slova riječi nakon što ju unesete, tapkanjem po riječi a zatim skliznite od <img src="img_swypekey.png" /> do Shift tipke <img src="img_shiftkey.png" /> . Prikazat će se Popis izbora riječi s opcijom prvog velikog slova u riječi koji vam dozvoljava da izaberete mala slova, prvo veliko slovo ili SVA SLOVA VELIKA.</p>
+										<p>Za ulaz u režim zaključavanja VELIKIH SLOVA, dvostruko potapkajte po tipki Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatski razmak
+									<div id="ul_1f" class="closed">
+										<p>Swype automatski stavlja razmak između riječi kada Swypeate sljedeću riječ u rečenici. Možete uključiti ili isključiti funkciju automatski&#45;razmak kod Swype postavki.</p>
+										<p>Automatski&#45;razmak može se isključiti za jednu riječ ako Swypeate od tipke Razmak do tipke tipke Backspace.</p>
+										<p>Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Zamjena riječi
+									<div id="ul_1g" class="closed">
+										<p>Promijenite riječ tako da ju potapkate, zatim izaberite riječ koju želite s Popisa izbora riječi ili jednostavno osvijetlite riječ i Swypeajte novu riječ. Nova će riječ zamijeniti neispravnu riječ.</p>
+										<p>Riječ se može osvijetliti tako da ju potapkate i pritisnite <img src="img_swypekey.png" /> ili pritisnite na riječ dva puta.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Poskakivanje između slova
+									<div id="ul_1h" class="closed">
+										<p>Ponekad izbjegavanje slova pri Swypingu omogućava da dobijete riječ koju želite prvi puta.</p>
+										<p>Primjerice, „pita“ i „puta“ se mogu izvuči iz istog izvora – ali pazite, vi se ne morate micati od slova do slova u ravnoj liniji. Izbjegavanje slova „i“ kad skližete svojim prstom do slova „u“ omogućava da je riječ „puta“ prva na Popisu izbora riječi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Brži izbor riječi
+									<div id="ul_1i" class="closed">
+
+										<p>Pritisnite i držite tipku kako biste prikazali alternativne znakove za tu tipku, kao što su to akcentirana slova poput č i š, simboli poput @ i % i brojevi.</p>
+
+										<p>Pritisnite Tipku simbola (?123) kako biste došli na Tipkovnicu simbola.</p>
+										<p>Primijetite da su SVI znakovi Swype&#45;omogućeni iz glavne tipkovnice (bez obzira na to da li ih vidite ili ih ne vidite). Možete Swypeati koristeći ovaj izgled tipkovnice, ali ćete dobiti riječi koje su od jednog broja ili simbola.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Dodavanje i brisanje riječi
+									<div id="ul_1j" class="closed">
+										<p>Swype inteligentno dodaje nove riječi koje koristite u vaš Osobni rječnik.</p>
+										<p>Možete isto tako dodati riječ tako da ju osvijetlite i potapkate <img src="img_swypekey.png" /> . Potapkajte upit koji se pojavljuje da dodate riječ.</p>
+										<p>Da biste izbrisali riječ, pritisnite i držite pritisnutim riječ u Popisu izbora riječi, zatim pritisnite U redu u dijalogu povrđivanja. Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizacija
+									<div id="ul_1k" class="closed">
+										<p>Swype može brzo dodati riječ u vaš rječnik iz Facebook&#45;a, Twitter&#45;a i Gmail&#45;a. Kako biste personalizirali Swype:</p>
+										<ol>
+											<li>Pritisnite i držite <img src="img_swypekey.png" /> .</li>
+											<li>Iz izbornika postavki Swypea, izaberite Personalizaciju.</li>
+											<li>Izvršite odabir u opcijama personalizacije i unesite svoje vjerodajnice na upit.</li>
+											<li>Možete personalizirati Swype iz jednog ili svih izbora.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Govor</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Govorite kako biste unijeli sadržaj teksta za sve, od tekstualnih poruka i e&#45;pošte do ažuriranja Facebook&#45;a i Twitter&#45;a.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Saznaj više <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Interpunkcija
+									<div id="ul_2a" class="open">
+										<p>Nije potrebno ručno dodati interpunkcije. Samo recite željenu interpunkciju i nastavite. Pokušajte sljedeće:</p>
+										<ol>
+											<li>Pritisnite glasovnu tipku i počnite govoriti.</li>
+											<li>Recite sljedeće: <i>Večera je bila odlična uskličnik</i></li>
+											<li>Što dobivate: <i>Večera je bila odlična!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Glasovni unos nije moguć na nekim tipkovnicama</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Pisanje</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Možete prstom crtati slova i riječi i Swype će ih prebaciti u tekst. Možete crtati slova s lijeva na desno ili jedno povrh drugoga. Pritisnite ABC / 123 za prebacivanje između režima slova i režima simbola.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Saznaj više <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Omogući rukopis
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Pritisni i drži <img src="img_symkey.png" /> i klizni prstom do ikone za rukopis.</li>
+											<li>Prstom crtajte slova u području za rukopis.</li>
+
+											<li>Potapkajte traku razmaka između svake riječi</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Višekratni pritisak geste
+									<div id="ul_3b" class="closed">
+										<p>Višekratni pritisak geste dozvoljava vam završiti jednostavne zadatke, kao što su to pisanje velikih slova riječi ili pisanje velikih slova.</p>
+										<ol>
+											<li>Nacrtajte nekoliko malih slova na podlozi za crtanja</li>
+											<li>Nakon što ste unijeli znakove poskliznite dva prsta prema gore na mjesto za pisanje.</li>
+											<li>Značajka rukopisa će prepoznati višekratni pritisak geste i napisat će velika slova.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Rukopis nije moguć na nekim tipkovnicama.</i></p>
+									<p><i>Ova značajka nije dostupna kada je sustav usluga dostupnosti Istražite&#45;by&#45;Touch uključen.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Tapkanje</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Tradicionalni oblik ručnog unosa u tipkovnicu. Unos tapkanjem na Swype tipkovnicu je lakše i učinkovitije pomoću nekoliko korisnih značajki:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Saznaj više <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Ispravka grešaka u tipkanju
+									<div id="ul_4a" class="open">
+										<p>Ne morate tipkati svako slovo perfektno. Radite što najbolje možete i Swype će inteligentno dati prijedloge riječi.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Završavanje riječi
+									<div id="ul_4b" class="closed">
+										<p>Swype može također pogoditi vašu riječ kada dotaknete samo nekoliko slova.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Jezici</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Za prebacivanje jezika s tipkovnice: Pritisnite i držite tipku za razmak. U skočnom izborniku izaberite svoj željeni jezik.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect omogućava nam dostavu ažuriranja i snažnu funkcionalnost izravno u vaš uređaj! Iako Swype Connect radi preko 3G, mi uvijek preporučujemo pronalaženje WiFi veze.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Saznaj više <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Preuzimanje jezika
+									<div id="ul_6a" class="open">
+										<p>Dodavanje dodatnog jezika na Swype je jednostavno:</p>
+										<ol>
+											<li>Pritisni i drži <img src="img_swypekey.png" /> i izaberi Jezike.</li>
+											<li>Iz izbornika Jezici, izaberi Preuzimanje jezika.</li>
+											<li>Kliknite na jezik i preuzimanje automatski započinje.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect nije dostupno na nekim tipkovnicama.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Dodatna pomoć</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Za više pomoći o uporabi Swypea, pregledajte Swypeov korisnički priručnik i Swypeove savjete i videa na <a href="http://www.swype.com">www.swype.com</a> ili pregledajte Swype forum online na <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

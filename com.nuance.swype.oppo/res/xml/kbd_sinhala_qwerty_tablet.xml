@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="7.5700045%p" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_්" ns:keyLabel="අ" ns:altKeyLabel="1" ns:shiftedKeyLabel="්" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ආ" ns:keyLabel="ආ" ns:altKeyLabel="2" ns:shiftedKeyLabel="ා" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඇ" ns:keyLabel="ඇ" ns:altKeyLabel="3" ns:shiftedKeyLabel="ැ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඉ" ns:keyLabel="ඉ" ns:altKeyLabel="4" ns:shiftedKeyLabel="ි" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඊ" ns:keyLabel="ඊ" ns:altKeyLabel="5" ns:shiftedKeyLabel="ී" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_උ" ns:keyLabel="උ" ns:altKeyLabel="6" ns:shiftedKeyLabel="ු" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඌ" ns:keyLabel="ඌ" ns:altKeyLabel="7" ns:shiftedKeyLabel="ූ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_එ" ns:keyLabel="එ" ns:altKeyLabel="8" ns:shiftedKeyLabel="ෙ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඒ" ns:keyLabel="ඒ" ns:altKeyLabel="9" ns:shiftedKeyLabel="ේ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඔ" ns:keyLabel="ඔ" ns:altKeyLabel="0" ns:shiftedKeyLabel="ො" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඕ" ns:keyLabel="ඕ" ns:altKeyLabel="%" ns:shiftedKeyLabel="ෝ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ක_tablet" ns:keyLabel="ක" ns:altKeyLabel="¤" ns:shiftedKeyLabel="ඛ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ග" ns:keyLabel="ග" ns:altKeyLabel="&amp;" ns:shiftedKeyLabel="ඝ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ච" ns:keyLabel="ච" ns:altKeyLabel="$" ns:shiftedKeyLabel="ඡ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ජ" ns:keyLabel="ජ" ns:altKeyLabel="&lt;" ns:shiftedKeyLabel="ඥ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ට" ns:keyLabel="ට" ns:altKeyLabel=">" ns:shiftedKeyLabel="ඨ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ඩ" ns:keyLabel="ඩ" ns:altKeyLabel="(" ns:shiftedKeyLabel="ඬ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ණ" ns:keyLabel="ණ" ns:altKeyLabel=")" ns:shiftedKeyLabel="ඟ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ත" ns:keyLabel="ත" ns:altKeyLabel=":" ns:shiftedKeyLabel="ථ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ද" ns:keyLabel="ද" ns:altKeyLabel=";" ns:shiftedKeyLabel="ධ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_න" ns:keyLabel="න" ns:altKeyLabel="_" ns:shiftedKeyLabel="ඳ" />
+        <Key ns:shiftCode="0x0000200D" ns:popupCharacters="@string/alternates_for_sinhala_ං" ns:keyLabel="ං" ns:altKeyLabel="'" ns:shiftedKeyLabel="ෞ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="12.150002%p" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:altPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_sinhala_ප" ns:keyLabel="ප" ns:shiftedKeyLabel="ඵ" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticonPrimary" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_බ" ns:keyLabel="බ" ns:altKeyLabel="!" ns:shiftedKeyLabel="භ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ම" ns:keyLabel="ම" ns:altKeyLabel="¡" ns:shiftedKeyLabel="ඹ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ය" ns:keyLabel="ය" ns:altKeyLabel="=" ns:shiftedKeyLabel="ඤ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ර" ns:keyLabel="ර" ns:altKeyLabel="/" ns:shiftedKeyLabel="ෘ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ල" ns:keyLabel="ල" ns:altKeyLabel="+" ns:shiftedKeyLabel="ළ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ව" ns:keyLabel="ව" ns:altKeyLabel="*" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_ස" ns:keyLabel="ස" ns:altKeyLabel="^" ns:shiftedKeyLabel="ශ" />
+        <Key ns:popupCharacters="@string/alternates_for_sinhala_හ" ns:keyLabel="හ" ns:altKeyLabel="\?" ns:shiftedKeyLabel="ෂ" />
+        <Key ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift" ns:keyWidth="12.150002%p" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_sinhala_tablet" />
+</KeyboardEx>

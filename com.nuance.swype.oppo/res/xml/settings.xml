@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/swype"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_connect_settings" ns:icon="@drawable/ic_settings_preferences">
+        <intent android:action="com.nuance.swype.input.settings.SettingsPrefsActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_menu_themes" android:key="themes_category_activity" ns:icon="@drawable/ic_settings_personalization">
+        <intent android:action="com.nuance.swype.input.settings.ThemesCategoryActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_menu_themes" android:key="themes_activity" ns:icon="@drawable/ic_settings_personalization">
+        <intent android:action="com.nuance.swype.input.settings.ThemesActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_menu_themes" android:key="themes_prefs" ns:icon="@drawable/ic_settings_personalization">
+        <intent android:action="com.nuance.swype.input.settings.ThemesPrefsActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/settings_swype_chinese" android:key="chinese_settings" ns:icon="@drawable/ic_settings_chinese">
+        <intent android:action="com.nuance.swype.input.settings.ChinesePrefsActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_my_words_title" android:key="my_words" ns:icon="@drawable/ic_settings_connect">
+        <intent android:action="com.nuance.swype.input.settings.MyWordsPrefsActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/language_category_title" ns:icon="@drawable/ic_settings_languages">
+        <intent android:action="com.nuance.swype.input.settings.LanguageOptionsActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_menu_gestures" ns:icon="@drawable/ic_settings_gestures">
+        <intent android:action="com.nuance.swype.input.settings.TutorialActivity">
+            <extra android:name="help_url" android:value="@string/fullhelp_gestures_file" />
+        </intent>
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/pref_help_title" ns:icon="@drawable/ic_settings_help">
+        <intent android:action="com.nuance.swype.input.settings.HelpActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+    <com.nuance.swype.preference.IconPreferenceScreen android:title="@string/updates_title" android:key="updates" ns:icon="@drawable/ic_settings_updates">
+        <intent android:action="com.nuance.swype.input.settings.UpdatesActivity" />
+    </com.nuance.swype.preference.IconPreferenceScreen>
+</PreferenceScreen>

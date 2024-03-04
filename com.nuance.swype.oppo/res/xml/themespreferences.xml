@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/kb_layout_portrait_title" android:key="portrait_docking_modes" />
+    <Preference android:title="@string/kb_layout_landscape_title" android:key="landscape_docking_modes" />
+    <PreferenceScreen android:title="@string/pref_kb_height_title" android:key="keyboard_height_settings" />
+    <PreferenceScreen android:title="@string/pref_word_choice_title" android:key="candidates_size_setting_preference" android:summary="@string/pref_word_choice_desc" />
+    <CheckBoxPreference android:title="@string/pref_kbd_font_weight_title" android:key="keyboard_font_weight_bold" android:defaultValue="@bool/font_typeface_bold" />
+</PreferenceScreen>

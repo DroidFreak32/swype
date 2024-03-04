@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Beszéd</a></div>
+				<div><a href="#write">Írás</a></div>
+				<div class="last"><a href="#tap">Érintés</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">A Swype használatával zökkenőmentesen válthat négy különböző beviteli mód között – Swype, beszéd, írás vagy érintés.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>A Swype a gépelés gyors módja. Lehetővé teszi szavak begépelését a betűk rajzolásával. Helyezze ujját a szó első betűjére, ujját húzza betűről betűre, majd az utolsó betűnél emelje fel az ujját! A Swype behelyezi a szóközöket, ahol szükséges.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							További információk <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									A Swype billentyű
+									<div id="ul_1a" class="open">
+										<p>A Swype billentyű a Swype emblémával ellátott gomb. A Swype Beállítások eléréséhez nyomja meg és tartsa lenyomva a Swype billentyűt.</p>
+										<p>A Swype billentyű számos Swype mozdulat indítására is használatos.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Billentyűzet előnézet
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype mozdulatok
+									<div id="ul_1b" class="closed">
+										<p>A Swype mozdulatok a gyakori feladatok végrehajtására szolgáló gyors elérési utak a billentyűzeten. Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+										<ul>
+											<li><span class="gestures">A Szerkesztési billentyűzet elérése</span> A Szerkesztési billentyűzet megjelenítéséhez húzza ujját a <img src="img_swypekey.png" /> billentyűről a Szimbólumok (?123) billentyűre.</li>
+											<li><span class="gestures">A Szám billentyűzet elérése</span> A Szám billentyűzet gyors megjelenítéséhez húzza ujját a Swype billentyűről <img src="img_swypekey.png" /> az 5&#45;ös számra.</li>
+											<li><span class="gestures">A billentyűzet elrejtése</span> A billentyűzet egyszerű elrejtéséhez húzza ujját a Swype billentyűről a backspace billentyűre.</li>
+
+											<li><span class="gestures">Automatikus szóköz kikapcsolása</span> A következő szó előtti automatikus szóköz letiltásához húzza el ujját a szóköz billentyűről a Backspace billentyűre.</li>
+
+
+											<li><span class="gestures">A szó kis&#45; vagy nagybetűs írásának szerkesztése</span> Egy szó kis&#45; vagy nagybetűs írását a bevitelt követően úgy változtathatja meg, hogy megérinti a szót, majd a <img src="img_swypekey.png" /> billentyűről a <img src="img_shiftkey.png" /> billentyűre húzza ujját. A Szóválasztó lista nagybetűs opciója jelenik meg, mellyel a kisbetűs, a Nagy kezdőbetűs és a CSUPA NAGYBETŰS írásmód közül választhat.</li>
+
+											<li><span class="gestures">Írásjelek</span> Egyszerű módja az írásjelek bevitelének az, ha a kérdőjeltől, vesszőtől, ponttól vagy egyéb írásjeltől a szóköz billentyűre húzza ujját ahelyett, hogy azt megérintené.</li>
+
+											<li><span class="gestures">Mindent kijelölés, Kivágás, Másolás és Beillesztés</span>
+												Mindent kijelöl: Húzza ujját a <img src="img_swypekey.png" /> billentyűről az „a” billentyűre<br />
+												Kivágás: Húzza ujját a <img src="img_swypekey.png" /> billentyűről az „x” billentyűre<br />
+												MÁSOLÁS: Húzza ujját a <img src="img_swypekey.png" /> billentyűről a „c” billentyűre<br />
+												Beillesztés: Húzza ujját a <img src="img_swypekey.png" /> billentyűről a „v” billentyűre
+											</li>
+
+											<li><span class="gestures">Alkalmazási parancsok</span>Google térképek: Húzza ujját a <img src="img_swypekey.png" /> billentyűről a „g”, majd az „m” billentyűre</li>
+											<li><span class="gestures">Keresés</span>Jelöljön ki egy szövegrészt és húzza ujját a <img src="img_swypekey.png" /> billentyűről az „S” billentyűre a gyors webkereséshez.</li>
+											<li><span class="gestures">Váltás a legutóbb használt nyelvre.</span>Több nyelv használata esetén úgy válthat gyorsan vissza az előző nyelvre, hogy a <img src="img_swypekey.png" /> ikonról a szóköz billentyűre húz.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Kettőzött betűk
+									<div id="ul_1n" class="closed">
+										<p>Kettőzött betűk írásakor a pontosság növeléséhez enyhén firkáljon vagy rajzoljon hurkot a betűn. Például, hogy a „kell” szó „ll” betűjét kapja, firkáljon az „l” betűre. Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Egy szó kiválasztása
+									<div id="ul_1d" class="closed">
+										<p>A Szóválasztási Listában javasolt alapértelmezett szó elfogadásához folytassa az írást! Ellenkező esetben görgessen végig a listán, és válassza ki azt a szót, amelyiket használni szeretné! Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+<p>Ha a listából szöveget szeretne kiválasztani, rajzoljon kört az ujjával, hogy hallja a listában szereplő elemeket. Az óra járásával megegyező körzés a listán előrefelé halad, az óra járásával ellentétes irányú körzés a listán visszafelé halad.  
+Ujja felemelésekor a listán legutoljára elhangzott elem kerül kiválasztásra.
+Ha a szóválasztó listából szeretne egy szót kiválasztani, ujját húzza felfelé a billentyűzetről, amíg a listán lévő első szót nem hallja, majd kezdjen ujjával körözni.
+Ez a funkció csak akkor áll rendelkezésre, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Nagybetűs szavak
+									<div id="ul_1e" class="closed">
+										<p>Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+										<p>Ha egy szót nagybetűvel akar kezdeni, induljon a szó első betűjéről és ujját húzza fel a Swype billentyűzet ablaka fölé, majd az ujja felemelése nélkül húzza le vissza a billentyűzetre a következő betűhöz.</p>
+										<p>Egy szó kis&#45; vagy nagybetűs írását a bevitelt követően úgy változtathatja meg, hogy megérinti a szót, majd a <img src="img_swypekey.png" /> billentyűről a <img src="img_shiftkey.png" /> billentyűre húzza ujját. A Szóválasztó lista nagybetűs opciója jelenik meg, mellyel a kisbetűs, a Nagy kezdőbetűs és a CSUPA NAGYBETŰS írásmód közül választhat.</p>
+										<p>A CAPS Lock mód bekapcsolásához kétszer érintse meg a Shift billentyűt <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatikus szóköz
+									<div id="ul_1f" class="closed">
+										<p>A Swype automatikusan beilleszti a szóközt a szavak közé, amikor beírja a mondat következő szavát. Az automatikus szóköz funkció ki&#45; és bekapcsolása a Swype Beállítások alatt található.</p>
+										<p>Az automatikus szóköz funkció egy szóra is kikapcsolható, mely a szóközről a törlés billentyűre való húzással történik.</p>
+										<p>Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Egy szó lecserélése
+									<div id="ul_1g" class="closed">
+										<p>Egy szót annak megérintésével, majd pedig a Szóválasztó listából a kívánt szó kiválasztásával cserélheti le, vagy egyszerűen csak jelölje ki a szót és Swype&#45;pal írja az új szót. Az új szó lecseréli a helytelen szót.</p>
+										<p>Egy szó a szó majd a <img src="img_swypekey.png" /> megérintésével vagy a szó kétszeri megérintésével jelölhető ki.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Betűk közötti ugrás
+									<div id="ul_1h" class="closed">
+										<p>Swype használata közben a betűk kihagyásával elsőre a kívánt szót kaphatja meg.</p>
+										<p>Például, a „poros” és a „piros” szavak ugyanazzal az útvonallal is leírhatók – azonban nem kell egyenes vonalban betűről betűre haladnia. Az „i” betű felé húzáskor az „o” betű elkerülésével biztosítható, hogy a „piros” szó legyen az első a Szóválasztó listán.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Választható karakterek
+									<div id="ul_1i" class="closed">
+
+										<p>Nyomja meg és tartsa lenyomva a billentyűt a választható karakterek, például az ékezetes betűk, mint az ő és ü, szimbólumok, mint a @ és a %, vagy a számok megjelenítéséhez.</p>
+
+										<p>Érintse meg a Szimbólumok billentyűt (?123) hogy a Szimbólumok billentyűzetet előhívja.</p>
+										<p>Ne felejtsük el, hogy az ÖSSZES karakter bevihető a Swype&#45;on keresztül a főbillentyűzetről, (függetlenül attól, hogy látja&#45;e azokat vagy sem). A Swype használható a billentyűzet e nézetéből is, de csak olyan szavakat fog tudni használni, melyek legalább egy számot vagy szimbólumot tartalmaznak.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Szavak hozzáadása és törlése
+									<div id="ul_1j" class="closed">
+										<p>A Swype intelligensen hozzáadja az Ön által használt új szavakat a Személyes Szótárához.</p>
+										<p>Ön is hozzáadhat egy szót annak kijelölésével majd a <img src="img_swypekey.png" /> megérintésével. Érintse meg a szó hozzáadásáról érkezett értesítést.</p>
+										<p>Egy szó törléséhez érintse meg és tartsa lenyomva a szót a Szóválasztó Listában, majd érintse meg az OK gombot a megerősítési ablakban. Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Személyreszabás
+									<div id="ul_1k" class="closed">
+										<p>A Swype gyorsan szótárához ad szavakat Facebook, Twitter és Gmail. A Swype személyreszabása:</p>
+										<ol>
+											<li>Nyomja meg és tartsa lenyomva a <img src="img_swypekey.png" /> billentyűt.</li>
+											<li>A Swype Beállítások menüből válassza a Testreszabás opciót.</li>
+											<li>Válasszon a személyreszabási opciókból és írja be azonosító adatait ha arra kéri a rendszer.</li>
+											<li>A Swype személyre szabható egy vagy minden forrásból.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Beszéd</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Szöveg bevitele beszéddel, az SMS&#45;ektől és e&#45;mailektől kezdve a Facebook és Twitter frissítésekig bárhol használható.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							További információk <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Írásjelek
+									<div id="ul_2a" class="open">
+										<p>Az írásjelek manuális hozzáadása nem szükséges. Csak mondja ki a kívánt írásjelet és folytassa tovább. Próbálja meg ezt:</p>
+										<ol>
+											<li>Nyomja meg a hang gombot és kezdjen beszélni.</li>
+											<li>Mondja ezt: <i>A vacsora ízletes volt felkiáltójel</i></li>
+											<li>Amit kiír: <i>A vacsora ízletes volt!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Néhány billentyűzetnél nem használható a hangbevitel</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Írás</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Ujját is használhatja betűk és szavak berajzolásához és azt a Swype szöveggé alakítja. A betűket balról jobbra vagy egymás tetejére rajzolhatja. Nyomja meg az ABC / 123 billentyűt a betű és szimbólum mód közötti váltáshoz.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							További információk <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Kézírás engedélyezése
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Nyomja meg és tartsa lenyomva a <img src="img_symkey.png" /> billentyűt és húzza ujját a Kézírás ikonra.</li>
+											<li>Ujjával rajzoljon betűket a kézírási területen.</li>
+
+											<li>Érintse meg a szóköz billentyűt az egyes szavak között.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Többérintéses műveleti mozdulat
+									<div id="ul_3b" class="closed">
+										<p>A többérintéses műveleti mozdulat segítségével egyszerű feladatok, mint szavak vagy betűk nagybetűs írása végezhető el.</p>
+										<ol>
+											<li>Rajzoljon néhány kisbetűs betűt a rajzoló panelra</li>
+											<li>A karakterek bevitele után húzza fel kettő ujját az író területre</li>
+											<li>A kézírás funkció felismeri a többérintéses műveleti mozdulatot és nagybetűsre váltja a betűket</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Néhány billentyűzetnél nem használható a kézírás.</i></p>
+									<p><i>Ez a funkció nem használható, ha az Explore&#45;by&#45;Touch rendszer hozzáférési szolgáltatás be van kapcsolva.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Érintés</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>A manuális billentyűzeti bevitel tradicionális formája. A Swype billentyűzet érintéses bevitelét néhány hasznos funkció megkönnyíti és hatékonyabbá teszi:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							További információk <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Pontatlan gépelés helyesbítése
+									<div id="ul_4a" class="open">
+										<p>Nem kell minden egyes betűt tökéletesen beírnia. Csak próbálja meg legjobb tudása szerint és a Swype intelligensen szójavaslatokat fog felkínálni.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Szókiegészítés
+									<div id="ul_4b" class="closed">
+										<p>A Swype már néhány betű beírása után is ki tudja találni a szót.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Nyelvek</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Nyelvek váltása a billentyűzetről: Nyomja meg és tartsa lenyomva a szóköz billentyűt. Jelölje ki a kívánt nyelvet a felnyíló menüből.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>A Swype Connect segítségével frissítéseket és hatékony szolgáltatáskészletet nyújtunk eszközén! Bár a Swype Connect működik a 3G hálózaton, mindig javasoljuk a Wi&#45;Fi kapcsolat használatát.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							További információk <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Nyelv letöltése
+									<div id="ul_6a" class="open">
+										<p>A Swype&#45;hoz könnyű további nyelveket hozzáadni:</p>
+										<ol>
+											<li>Nyomja meg és tartsa lenyomva a <img src="img_swypekey.png" /> billentyűt és válassza a Nyelvek opciót.</li>
+											<li>A Nyelvek menüből válassza a Nyelvek letöltése opciót.</li>
+											<li>Kattintson egy nyelvre és a letöltés automatikusan elkezdődik.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>A Swype Connect nem minden billentyűzeten elérhető.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">További Súgó</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>A Swype használatához további segítséget kaphat, ha megtekinti a Swype kézikönyvet és a Swype tippeket és videókat a <a href="http://www.swype.com">www.swype.com</a> oldalon, vagy a Swpye fórumon a <a href="http://forum.swype.com">forum.swype.com</a> webcímen.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

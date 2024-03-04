@@ -1,0 +1,358 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">語音輸入</a></div>
+				<div><a href="#write">手寫輸入</a></div>
+				<div class="last"><a href="#tap">點擊</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swype可讓您在四種不同的輸入模式之間流暢地切換 &#45; Swype、語音、手寫或輕點。</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype是一種輸入文字的快速方式。 它可讓您透過在字母間滑行來輸入字詞。 請將您的手指放在字詞的第一個字母上，並在不同的字母之間繪出路徑，於最後一個字母後，手指提起。 空格將會在必要時自動插入。</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype鍵
+									<div id="ul_1a" class="open">
+										<p>Swype鍵是帶有Swype標誌的按鍵。 按住Swype鍵不放可存取Swype設定。</p>
+										<p>Swype鍵也可用來啟動許多Swype手勢。</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    鍵盤預覽
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype 手勢
+									<div id="ul_1b" class="closed">
+										<p>Swype 手勢是在鍵盤上快速完成常用任務的捷徑。 系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，無法提供此功能。</p>
+										<ul>
+											<li><span class="gestures">切換到編輯鍵盤</span> 若要切換到編輯鍵盤，請從鍵盤上的 <img src="img_swypekey.png" /> Swype 到符號鍵 (?123)。</li>
+											<li><span class="gestures">切換到數字鍵盤</span> 如要快速切換到數字鍵盤，從 <img src="img_swypekey.png" /> 鍵 Swype 到數字 5。</li>
+											<li><span class="gestures">隱藏鍵盤</span> 如要輕鬆地隱藏鍵盤，只需從 Swype 鍵 Swype 到退格鍵。</li>
+
+
+											<li><span class="gestures">標點符號</span> 輸入標點符號有個簡單的方法，就是從問號、逗號、句號或其他標點符號 Swype 至空格鍵，而非輕點標點符號。</li>
+
+											<li><span class="gestures">全選、剪下、複製與貼上</span>
+												全選： 從 <img src="img_swypekey.png" /> Swype 到‘a’<br />
+												剪下： 從 <img src="img_swypekey.png" /> Swype 到‘x’<br />
+												複製： 從 <img src="img_swypekey.png" /> Swype 到‘c’<br />
+												貼上： 從 <img src="img_swypekey.png" /> Swype 到‘v’
+											</li>
+
+											<li><span class="gestures">應用程式捷徑</span>Google 地圖： 從 <img src="img_swypekey.png" /> Swype 到‘g’，再到‘m’</li>
+											<li><span class="gestures">搜尋</span>反白一些文字並從<img src="img_swypekey.png" /> Swype 到 S 以進行快速網頁搜尋。</li>
+											<li><span class="gestures">切換到上次使用的語言。</span>當使用多種語言時，切換回前一個語言的最快方式是從 <img src="img_swypekey.png" /> Swype 到空格鍵。</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									輸入重複字母
+									<div id="ul_1n" class="closed">
+										<p>若要提高輸入重複字母時的準確度，只要在該字母上稍微潦草地劃過或畫個圈即可。 比方說，若要獲得「ㄐ一ㄠㄠ」(驕傲) 中的「ㄠㄠ」，請在「ㄠ」鍵上稍稍的畫個圈。 系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，無法提供此功能。</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									選擇字詞
+									<div id="ul_1d" class="closed">
+										<p>若要接受「字詞選擇清單」中建議的預設字詞，只要繼續滑行或輕點即可。 否則，請拖曳您的手指來捲動清單，並選擇您想要的字詞。 系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，無法提供此功能。</p>
+<p>  
+
+
+系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，才可提供此功能。
+</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									在字母之間跳動
+									<div id="ul_1h" class="closed">
+										<p>有時在滑行輸入時避免掉字母，可確保您第一次就能找到您想要的字詞。</p>
+										<p>例如，「ㄅㄚ」及「ㄅㄞ」可用相同路徑繪製，但請注意，您無須以直線方向在字母及字母之間移動。 當您的手指滑行到「ㄞ」時，請避免掉「ㄚ」，以確保字詞「ㄅㄞ」為「字詞選擇清單」中的起首。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									替代字元
+									<div id="ul_1i" class="closed">
+
+										<p>長按某鍵可開啟該鍵的替換字母清單，例如%和@等符號，以及數字。</p>
+
+										<p>輕點符號鍵 (?123) 可開啟符號鍵盤。</p>
+										<p>請注意所有的字元均可用 Swype 方式從主鍵盤輸入（無論您是否能看見這些字元）。 您可以使用鍵盤的此一視圖以 Swype 方式輸入，但您只會得到至少有一個數字或符號的字詞。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									新增與刪除字詞
+									<div id="ul_1j" class="closed">
+										<p>Swype 會聰明地將您使用的新字詞加入您的「個人字典」。</p>
+										<p>您也可以醒目提示字詞並輕點 <img src="img_swypekey.png" /> 來新增字詞。 輕點一下所出現的提示，以新增字詞。</p>
+										<p>若要刪除某字詞，請在「字詞選擇清單」中按住該字詞不放，然後輕點確認對話框中的「確定」。 系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，無法提供此功能。</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									個人化
+									<div id="ul_1k" class="closed">
+										<p>Swype 可快速將 Facebook、Twitter、Gmail中的字詞新增至您的字典。 個人化 Swype：</p>
+										<ol>
+											<li>按住 <img src="img_swypekey.png" /> 不放</li>
+											<li>從「Swype 設定」功能表選擇「個人化」。</li>
+											<li>選擇想要的個人化選項，並依提示輸入認證。</li>
+											<li>您可以從單一或所有來源對 Swype 進行個人化。</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">語音輸入</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>您可以透過語音輸入的方式輸入簡訊、email及更新您的Facebook與Twitter。</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									標點符號
+									<div id="ul_2a" class="open">
+										<p>您無須手動新增標點符號， 只要說出您要的標點符號後繼續即可。 試試看這麼做：</p>
+										<ol>
+											<li>按下語音鍵 後開始說話。</li>
+											<li>您的說話內容： <i>晚餐很好吃驚嘆號</i></li>
+											<li>您得到的結果： <i>晚餐很好吃！</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>某些鍵盤並不支援語音輸入</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">手寫輸入</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>您可以利用手指滑行輸入字母及字詞，讓 Swype 將其轉換成文字。 您可以從左至右滑行輸入字母，或直接輕點每個字母。					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									啟用手寫功能
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>長按<img src="img_symkey.png" />並滑動手指到手寫圖示上。</li>
+											<li>用您的手指在手寫區域滑行輸入字母。</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>某些鍵盤並不支援手寫模式。</i></p>
+									<p><i>系統協助工具服務 Explore&#45;by&#45;Touch 開啟時，無法提供此功能。</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">點擊</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>傳統的點擊式輸入。 透過下列這些有用的功能，在 Swype 鍵盤上輕點輸入變得更加容易且有效率：</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									錯字校正
+									<div id="ul_4a" class="open">
+										<p>您無需完美地輕點每一個字母。 只需要盡力而為，Swype 會聰明地提供字詞建議。</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									單字完成
+									<div id="ul_4b" class="closed">
+										<p>當您只輕點幾個字母時，Swype 也能猜出您要輸入的字詞。</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">語言</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>從鍵盤切換語言： 按住空格鍵不放。 從快顯功能表選擇想要的語言。</p>
+
+						<div class="learnmore" onclick="toggle('0e')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0e" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0e" class="closed">
+							<ul class="disclist">
+                                
+
+                                <li onclick="toggle('5f')">
+                                    <img src="icon_down.png" class="arrow" id="img_5f" />
+                                    切換輸入模式
+                                    <div id="ul_5f" class="closed">
+                                        <p>切換鍵盤配置</p>
+                                        <img src="ChinesePeriod.png" class="example" />
+                                    </div>
+                                </li>
+                                <li onclick="toggle('5g')">
+                                    <img src="icon_down.png" class="arrow" id="img_5g" />
+                                    切換鍵盤手寫和滑動輸入
+                                    <div id="ul_5g" class="closed">
+                                        <p>想要在全鍵盤上切換鍵盤手寫和滑動輸入種類，只需按一下功能表上的手寫圖標。</p>
+                                        <img src="ChineseComma.png" class="example" />
+                                    </div>
+                                </li>
+                                <li onclick="toggle('5h')">
+                                    <img src="icon_down.png" class="arrow" id="img_5h" />
+                                    中英文混輸
+                                    <div id="ul_5h" class="closed">
+                                        <p>中文拼音全鍵盤輸入支持中英文混輸。 在每一次輸入過程中，Swype會將鍵盤的實際輸入作為第一個候選詞隱藏在選擇條的最左邊，通過單擊選擇條左邊的按鍵，或向右拖動選擇條，都會顯示出實際的鍵盤輸入。</p>
+                                        <img src="ChineseMixedInput.png" class="example" />
+                                    </div>
+                                </li>
+                                <li onclick="toggle('5i')">
+                                    <img src="icon_down.png" class="arrow" id="img_5i" />
+                                    切換鍵盤佈局
+                                    <div id="ul_5i" class="closed">
+                                        <p>Swype為不同的輸入模式提供多種鍵盤佈局，輸入模式有中文拼音，注音，手寫，倉頡，快速倉頡。 您可以通過系統的設置頁面來選擇鍵盤佈局，也可以通過多點滑動手勢來切換鍵盤佈局。</p>
+                                        <p>在鍵盤輸入時，使用兩個手指從左向右或者從右向左滑動，您可以在數字鍵盤和全鍵盤間來回切換。</p>
+                                        <img src="ChineseKeyboardSwitch.png" class="example" />
+                                        <p>在手寫識別區域，使用兩個手指向上或向下滑動，您可以在全屏模式和半屏模式間進行快速切換。</p>
+                                        <img src="ChineseHalfToFull.png" class="example" />
+                                    </div>
+                                </li>
+                                <li onclick="toggle('5j')">
+                                    <img src="icon_down.png" class="arrow" id="img_5j" />
+                                    關閉輸入鍵盤
+                                    <div id="ul_5j" class="closed">
+                                        <p>您可以使用兩個手指在輸入區域內向下滑動，即可快速關閉輸入鍵盤。</p>
+                                        <img src="ChineseCloseWindow.png" class="example" />
+                                    </div>
+                                </li>
+
+
+							</ul>
+						</div>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect 讓我們能夠直接傳送更新項目及強大的功能到您的裝置！ 雖然 Swype Connect 能夠透過 3G 運作，我們建議您一律使用 WiFi 連線。</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							瞭解更多內容 <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									語言下載項目
+									<div id="ul_6a" class="open">
+										<p>在 Swype 上新增其他語言非常簡單：</p>
+										<ol>
+											<li>長按<img src="img_swypekey.png" />，並選擇「語言」。</li>
+											<li>於「語言」選單中選擇「下載語言」。</li>
+											<li>按一下某個語言即可自動開始下載。</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>並非所有鍵盤皆支援 Swype Connect。</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">更多幫助</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>如需更多關於使用 Swype 的說明，可在 <a href="http://www.swype.com">www.swype.com</a> 查看 Swype 使用者手冊以及 Swype 提示與影片，或是在 <a href="http://forum.swype.com">forum.swype.com</a> 瀏覽Swype 線上論壇。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

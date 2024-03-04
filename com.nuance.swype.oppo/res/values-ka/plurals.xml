@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d სიტყვა წაიშლება</item>
+        <item quantity="one">ერთი სიტყვა წაიშლება.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="one">%d დღის წინ</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d საათის წინ</item>
+        <item quantity="one">%d საათის წინ</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="one">%d წუთის წინ</item>
+    </plurals>
+</resources>

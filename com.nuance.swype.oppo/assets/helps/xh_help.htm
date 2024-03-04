@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Thetha</a></div>
+				<div><a href="#write">Bhala</a></div>
+				<div class="last"><a href="#tap">Cofa</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Nge&#45;Swype, unobuchule bokutshintsha ngendlela engabonakalisi phakathi kwezimo ezine zeminikelo ezahlukileyyo – Uku&#45;Swype, uku&#45;Thetha, uku&#45;Bhala okanye uku&#45;Thayipha.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>I&#45;Swype yindlela ekhawulezayo yokufaka umbhalo. Ikuvumela ukufaka igama ngokuzoba phakathi koonobumba. Beka Umnwe wakho phezu konobumba wokuqala wegama uze uzobe indlela ukusuka kunobumba ngamnye ukuya komnye, uphakamise emva konobumba wokugqibela. I&#45;Swype izofaka izithuba apho kuyimfuneko khona.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Funda ngokongezelelweyo <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Isitshixo seSwype
+									<div id="ul_1a" class="open">
+										<p>Isitshixo seSwype sisitshixo esinophawu lweSwype kuso. Cinezela ubambe isitshixo seSwype ukufumana iiSethingi zeSwype.</p>
+										<p>Isitshixo seSwype siyasetyenziswa kwakhona ukuqala imijekulo eminingi yeSwype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Umboniso wangaphambili wekhibhodi
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Izijekuzisi ze&#45;Swype
+									<div id="ul_1b" class="closed">
+										<p>Ukujekuzisa nge&#45;Swype yindlela emfutshane phezu kwekhibhodi ukugqiba imisebenzi eqhelekileyo ngokukhawuleza. Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+										<ul>
+											<li><span class="gestures">Ukuya kwikhibhodi yokuhlela</span> Ukuya kwikhibhodi yokuHlela, Swype ukusuka <img src="img_swypekey.png" /> ukuya kwisitshixo seeMpawu (?123) phezu kwekhibhodi.</li>
+											<li><span class="gestures">Ukuya kwikhibhodi yamanani</span> Ukufika kwibhodi yamaNani ngokukhawuleza, Swype ukusuka <img src="img_swypekey.png" /> ukuya kwinani 5.</li>
+											<li><span class="gestures">Ukufihla ikhibhodi</span> Ukufihla ikhibhodi ngokulula, Swype nje ukususela kwisitshixo se&#45;Swype ukuya kwisitshixo wokuBuyisela emva.</li>
+
+											<li><span class="gestures">Cima ukwenza isithuba esizenzekelayo</span> Nqanda ukuvuleka kwesithuba ngokuzenzekela ngaphambi kwegama elilandelayo ngokuSwype ukususela kwisitshixo sesiThuba ukuya kwisitshixo sokuBuyisela emva.</li>
+
+
+											<li><span class="gestures">Ukuhlela ubukhulu begama</span> Tshintsha ubukhulu bonobumba wegama ngemva kokumfaka ngokuthayipha igama uze uswayiphe ukusuka ku <img src="img_swypekey.png" /> ukuya kwisitshixo seShift <img src="img_shiftkey.png" /> . I&#45;Word Choice List enelungelo lokukhetha oonobumba abakhulu izakubonakala, ikuvumela ukuba ukhethe oonobumba abancinane, ooNobumba abakhulu, okanye ALL CAPS.</li>
+
+											<li><span class="gestures">Iimpawu zokubhala</span> Indlela elula yokufaka iimpawu zokuloba kuku&#45;Swype ukusuka kuphawu lombuzo, ikhoma, ungxi, okanye olunye uphawu lokubhala ukuya kwisitshixo sesithuba endaweni yokuyicinezela.</li>
+
+											<li><span class="gestures">Khetha Konke, Sika, Kopa kwaye uNcamathisele</span>
+												Khetha Konke: Swype ukusuka <img src="img_swypekey.png" /> ukuya ‘a’<br />
+												Sika: Swype ukusuka <img src="img_swypekey.png" /> ukuya ‘x’<br />
+												Kopa: Swype ukusuka <img src="img_swypekey.png" /> ukuya ‘c’<br />
+												Ncamathisela: Swype ukusuka <img src="img_swypekey.png" /> ukuya ‘v’
+											</li>
+
+											<li><span class="gestures">Iindlela zokusebenza ezimfutshane</span>Iimaphu zikaGoogle: Swype ukusuka <img src="img_swypekey.png" /> ukuya ‘g’, kulandele ‘m’</li>
+											<li><span class="gestures">Funa</span>Bhala ngokucacileyo omnye umbhalo uze uSwype ukusuka ku&#45; <img src="img_swypekey.png" /> ukuya ku&#45;S ukwenza uphando olukhawulezayo kwiwebhusayithi.</li>
+											<li><span class="gestures">Ukushintshela kulwimi lokugqibela olusetyenzisiwe</span>Xa usebenzisa iilwimi ezininzininzi, indlela ekhawulezayo yokubuyela emva kulwimi olungaphambili kukuSwype ukusuka ku <img src="img_swypekey.png" /> ukuya kwisitshixo seSpace.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Ukufakela oonobumba abangababini
+									<div id="ul_1n" class="closed">
+										<p>Ukwenza ngcono ukucoseleka xa ufakela oonobumba abangababini, bhala kancinane okanye wenze irhintyela phezu konobumba. Umzekelo, ukufumana u&#45;“mm” ku&#45; “mmandla”, bhala kancinane phezu kwesitshixo sika&#45; “m”. Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Ukukhetha igama
+									<div id="ul_1d" class="closed">
+										<p>Ukwamkela igama elize ngemposiso eliphakanyiswayo kwi&#45; Word Choice List, qhubeka njalo uSwayiphe. Okanye, hambisa uluhlu ngokutsala umnwe wakho, uze ukhethe igama olifunayo. Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+<p>Ukukhetha umbhalo kuluhlu, hambisa umnwe wakho ngesangqa ukuze uzwe uluhlu lweenkcukacha. Ukuhambisela kwesokunene kuya phambili kuluhlu; ukuhambisela kwesokhohlo kuya emva kuluhlu.  
+Ukuphakamisa umnwe kunikela ngombhalo wokugqibela woluhlu obuthethiwe.
+Ukukhetha igama kwi&#45;Word Choice List, hambisa umnwe uye phezulu kwikhibhodi kude kuvakale igama lokuqala kuluhlu, uze uqalise ukushukuma okusisangqa.
+Eli lungu alifumaneki kuphela xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Ukubhala amagama ngooNobumba abakhulu
+									<div id="ul_1e" class="closed">
+										<p>Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+										<p>Bhala igama ngooNobumba abakhulu ngokuSwype umnwe wakho ukusuka kunobumba wokuqala ukuya phezulu ukudlula phezulu kwikhibhodi uze, ungaphakamsanga, uhambise umnwe uwehlise kwakhona ukuya kunobumba olandelayo.</p>
+										<p>Tshintsha ubukhulu bonobumba wegama ngemva kokumfaka ngokuthayipha igama uze uswayiphe ukusuka ku <img src="img_swypekey.png" /> ukuya kwisitshixo seShift <img src="img_shiftkey.png" /> . I&#45;Word Choice List enelungelo lokukhetha oonobumba abakhulu izakubonakala, ikuvumela ukuba ukhethe oonobumba abancinane, ooNobumba abakhulu, okanye ALL CAPS.</p>
+										<p>Ukufaka isimo seCAPS Lock, thayipha nje kabini phezu kwesitshixo se&#45;Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Ukuvula isithuba ngokuzenzekela
+									<div id="ul_1f" class="closed">
+										<p>I&#45;Swype ngokuzenzekela ifakela isithuba phakathi kwamagama xa uSwype igama elilandelayo kwisivakalisi. Ungacima okanye uvule isimo sokuvula isithuba ngokuzenzekela kwiiSethingi ze&#45;Swype.</p>
+										<p>Ukuvula isithuba ngokuzenzekela kungacinywa kwelinye igama ngokuSwype ukusuka kwisitshixo sesiThuba ukuya kwisitshixo se&#45;Backspace.</p>
+										<p>Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Ukufaka igama endaweni yelinye
+									<div id="ul_1g" class="closed">
+										<p>Faka igama endaweni yelinye ngokuthayipha phezu kwalo, uze ukhethe igama olifunayo kwi&#45;Word Choice List, okanye ubhale nje ngokucacileyo igama elo uze uSwype igama elitsha. Igama elitsha lizongena endaweni yelingafanele /yelingalungile</p>
+										<p>Igama lingabhalwa ngokucacileyo ngokuthayipha igama elo uze ubethe <img src="img_swypekey.png" /> okanye kuthayitshwe igama kabini.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Ukuxhumaxhuma phakathi kwamagama
+									<div id="ul_1h" class="closed">
+										<p>Ngelinye ixesha ukuphepha oonobumba xa uSwype kuqinisekisa ukuba ufumana igama olifunayo ngelixa lokuqala nje.</p>
+										<p>Umzekelo, “ezona” no “ezina” zingazotywa ngendlela efanayo – kodwa lumka, akuyomfuneko ukushukuma usuka komnye unobumba usiya komnye ngomgca othe ngqo. Ukuphepha u&#45;“o” xa uswype umnwe wakho ku”n” kuqinisekisa ukuba “ezona” isekuqaleni kuluhlu lwe&#45;Word Choice.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Balingisi enye
+									<div id="ul_1i" class="closed">
+
+										<p>Cinezela ubambe isitshixo ukukhupha uluhlu lweempawu zesitshixo eso, ezifana neempawu ezifana no &#45; @ no&#45; %, namanani.</p>
+
+										<p>Thayipha isitshixo seZimpawu (?123) ezizakusiwa kwikhibhodi yeeMpawu.</p>
+										<p>Qaphela ukuthi ZONKE iimpawu ziphumeleliswa yi&#45;Swype ukusuka kwikhibhodi enkulu (okanye ukwazi ukuzibona okanye hayi). UngaSwype usebenzisa oku okubonakala kwikhibhodi, kodwa uzakufumana kuphela amagama anobuncinane benani elinye okanye uphawu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Ukwengeza nokucima amagama
+									<div id="ul_1j" class="closed">
+										<p>I&#45;Swype yongeza ngobukrelekrele nawaphi amagama amatsha owasebenzisa kwisiChazimazwi sakho Buqu.</p>
+										<p>Ungongezelela futhi igama ngokulibhala ngokucacileyo uze uthayiphe <img src="img_swypekey.png" /> . Thayipha isikhokhelo esivelayo ukongeza igama.</p>
+										<p>Ukucima igama,cinezela ubambe igama kwi&#45;Word Choice List, uze uthayiphe KULUNGILE kwingxoxo yokuqinisekisa. Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Okobuqu
+									<div id="ul_1k" class="closed">
+										<p>I&#45;Swype ingongeza amagama ngokukhawuleza kwisichazimazwi sakho ukusuka kwi&#45;Facebook, Twitter ne&#45;Gmail. Ukwenza i&#45;Swype ibe yeyobuqu:</p>
+										<ol>
+											<li>Cinezela ubambe <img src="img_swypekey.png" /> .</li>
+											<li></li>
+											<li></li>
+											<li>Ungabhalisa i&#45;Swype ngawe buqu ukusuka kumthombo owodwa okanye emininzi.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Thetha</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Ungathetha ukungenisa okuphakathi embhalweni kuko konke kususela kumbhalo nemiyalezo ye&#45;imeyile ukuya kwi&#45;Facebook nohlaziyo lwe&#45;Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Funda ngokongezelelweyo <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Iimpawu zokubhala
+									<div id="ul_2a" class="open">
+										<p>Akukho mfuneko yokongezelela iimpawu zokubhala ngesandla. Yitsho nje uphawu lokubhala olufunayo uze uqhubeke. Zama oku:</p>
+										<ol>
+											<li>Cinezela isitshixo sezwi uze uqale ukuthetha.</li>
+											<li>Okutshoyo: <i>Idina ibimnandi kakhulu uphawu lwesikhuzo</i></li>
+											<li>Okufumanayo: <i>Idina ibimnandi kakhulu!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Umnikelo weliZwi awufumaneki kwezinyenye iikhibhodi</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Bhala</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Ungasebenzisa umnwe wakho ukuzoba oonobumba namagama i&#45;Swype izowatshintshela embhalweni. Ungazoba oonobumba ukusuka&#45;kwesokhohlo&#45;ukuya kwesokunene okanye phezu konobumba ngamnye. Cinezela u&#45;ABC/123 ukutshintshatshintsha phakathi kwesimo sonobumba nophawu.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Funda ngokongezelelweyo <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Phumel. umbhalo wes.
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Cinezela ubambe i&#45;<img src="img_symkey.png" /> uhambise umnwe wakho ukuya kwisitshixo sokubhala ngesandla.</li>
+											<li>Zoba oonobumba ngomnwe phezu kwendawo yokubhalela ngesandla.</li>
+
+											<li>Thayipha isitshixo sesithuba phakathi kwegama ngalinye</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Ukujekuzisa ngokuPhatha kaNinginingi
+									<div id="ul_3b" class="closed">
+										<p>Ukujekuzisa ngokuphatha kaninginingi kukuvumela ukuba ufeze imisebenzi elula, efana nokubhala amagama okanye oonobumba ngoonobumba abakhulu.</p>
+										<ol>
+											<li>Zoba oonobumba abancane kwiphedi yokuzobela</li>
+											<li>Emva kokufaka iimpawu,hambisa iminwe emibini ukuya phezulu phezu kwendawo yokubhalela</li>
+											<li>Isimo sokubhala sizakuqonda ukujekuzisa okusebenzisa ukuphathwa kaningi&#45;ningi size sibhale oonobumba ngoonobumba abakhulu</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Umbhalo wesandla awufumaneki kwezinye iikhibhodi.</i></p>
+									<p><i>Eli lungu alifumaneki xa iinkonzo zokuba nokufikelwa kwisixokelelwano( system accessibility service) zo kuBona&#45;ngo&#45;kuBamba zilayitiwe.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Cofa</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Umnikelo wohlobo lwakudala lwekhibhodi esebenza ngezandla. Ukuthayipha umnikelo phezu kwekhibhodi ye&#45;Swype kwenziwa lula nokuba nobuchule zizimo ezincedisayo:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Funda ngokongezelelweyo <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Ukulungisa ukuThayipha okwenziwe ngobuxelegu
+									<div id="ul_4a" class="open">
+										<p>Akuyomfuneko ukuthayipha unobumba ngamnye kakuhle. Zama kakuhle kakhulu yaye i&#45;Swype izonikela ngeengcebiso zamagama ngobukrelekrele obukhulu.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									UkuGqitywa kweGama
+									<div id="ul_4b" class="closed">
+										<p>I&#45;Swype iyakwazi ukuthelekelela igama lakho xa uthayipha kuphela oonobumba abambalwa.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Iilwimi</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Ukutshintsha iilwimi kwikhibhodi: Cinezela ubambe isitshixo sesithuba. Khetha ulwimi olufunayo ukusuka kwimenyu evelayo.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>I&#45;Swype Connect isivumela ukuhambisa izihlaziyi nokusebenza okunamandla kwisixhobo sakho ngqo! Njengoba i&#45;Swype Connect ikwazi ukusebenza kwi 3G, sisoloko njalo nje sicebisa ukufumana ukunxibelelana nge&#45;WiFi</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Funda ngokongezelelweyo <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Ukulayisha phantsi iilwimi
+									<div id="ul_6a" class="open">
+										<p>Ukongeza iilwimi ezongezelelweyo ku&#45;Swype kulula:</p>
+										<ol>
+											<li>Cinezela futhi ubambe u&#45; <img src="img_swypekey.png" /> uze ukhethe iiLwimi.</li>
+											<li>Ukusuka kwimenyu yeeLwimi, khetha Layisha phantsi iilwimi</li>
+											<li>Cinezela phezu kolwimi ukulayisha phantsi kwakho kuza kuqala ngokuzenzekela.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>I&#45;Swype Connect ayifumaneki kuzo zonke iikhibhodi.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Uncedo olongezelelweyo</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Ukufumana uncedo olongezelelweyo ngokusebenzisa i&#45;Swype, jonga iNcwadi Yomsebenzisi ye&#45;Swype kunye neeNgcebiso ze&#45;Swype neVidiyo ku <a href="http://www.swype.com">www.swype.com</a>, okanye uhlole indawo yembutho ye&#45;Swype kwikhompyutha ku&#45;<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:shiftedPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_hebrew_apos" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:shiftedOutputText=":-)" ns:keyLabel="'" ns:shiftedKeyIcon="@drawable/keyboard_emoticon" ns:shiftedPreviewIcon="?keyboardFeedbackEmoticonPrimary" ns:shiftTransition="drop_show" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ק" ns:keyLabel="ק" ns:altKeyLabel="ְ" ns:shiftedKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ר" ns:keyLabel="ר" ns:altKeyLabel="ֱ" ns:shiftedKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_א" ns:keyLabel="א" ns:altKeyLabel="ֲ" ns:shiftedKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ט" ns:keyLabel="ט" ns:altKeyLabel="ֳ" ns:shiftedKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ו" ns:keyLabel="ו" ns:altKeyLabel="}" ns:shiftedKeyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ן" ns:keyLabel="ן" ns:altKeyLabel="{" ns:shiftedKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_ם" ns:keyLabel="ם" ns:altKeyLabel="]" ns:shiftedKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_hebrew_פ" ns:keyLabel="פ" ns:altKeyLabel="[" ns:shiftedKeyLabel="%" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_top" ns:keyWidth="@fraction/delete_8_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ש" ns:keyEdgeFlags="left" ns:keyLabel="ש" ns:altKeyLabel="^" ns:shiftedKeyLabel="/" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ד" ns:keyLabel="ד" ns:altKeyLabel="$" ns:shiftedKeyLabel="₪" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ג" ns:keyLabel="ג" ns:altKeyLabel="ִ" ns:shiftedKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_כ" ns:keyLabel="כ" ns:altKeyLabel="ֵ" ns:shiftedKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ע" ns:keyLabel="ע" ns:altKeyLabel="ֶ" ns:shiftedKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_י" ns:keyLabel="י" ns:altKeyLabel="£" ns:shiftedKeyLabel="&amp;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ח" ns:keyLabel="ח" ns:altKeyLabel="€" ns:shiftedKeyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ל" ns:keyLabel="ל" ns:altKeyLabel="`" ns:shiftedKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ך" ns:keyLabel="ך" ns:altKeyLabel=">" ns:shiftedKeyLabel="~" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_hebrew_ף" ns:keyEdgeFlags="right" ns:keyLabel="ף" ns:altKeyLabel="&lt;" ns:shiftedKeyLabel="&quot;" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_8_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ז" ns:keyLabel="ז" ns:altKeyLabel="\#" ns:shiftedKeyLabel="!" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ס" ns:keyLabel="ס" ns:altKeyLabel="ַ" ns:shiftedKeyLabel="7" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ב" ns:keyLabel="ב" ns:altKeyLabel="ָ" ns:shiftedKeyLabel="8" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ה" ns:keyLabel="ה" ns:altKeyLabel="ׂ" ns:shiftedKeyLabel="9" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_נ" ns:keyLabel="נ" ns:altKeyLabel="ׁ" ns:shiftedKeyLabel="0" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_מ" ns:keyLabel="מ" ns:altKeyLabel="ֹ" ns:shiftedKeyLabel="_" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_צ" ns:keyLabel="צ" ns:altKeyLabel="ּ" ns:shiftedKeyLabel="=" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ת" ns:keyLabel="ת" ns:altKeyLabel="ֻ" ns:shiftedKeyLabel="\\" />
+        <Key ns:popupCharacters="@string/alternates_for_hebrew_ץ" ns:keyEdgeFlags="right" ns:keyLabel="ץ" ns:altKeyLabel="|" ns:shiftedKeyLabel="\?" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_hebrew" />
+</KeyboardEx>

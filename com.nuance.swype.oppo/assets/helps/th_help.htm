@@ -1,0 +1,317 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">พูด</a></div>
+				<div><a href="#write">เขียน</a></div>
+				<div class="last"><a href="#tap">เคาะ</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">ด้วย Swype คุณสามารถสับเปลี่ยนได้ระหว่างสี่โหมดการป้อนข้อมูลที่แตกต่างกันได้อย่างราบรื่น &#45; กวาดนิ้ว พูด, เขียน หรือ เคาะ</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype คือวิธีที่รวดเร็วในการพิมพ์ข้อความ โดยคุณสามารถพิมพ์คำเหล่านี้ได้ผ่านการลากเส้นผ่านตัวอักษร วางนิ้วไว้ที่อักษรตัวแรกของคำ จากนั้นลากเส้นจากอักษรตัวหนึ่งไปยังอักษรอีกตัว โดยยกนิ้วขึ้นเมื่อถึงอักษรตัวสุดท้าย Swype จะแทรกเคาะว่างระหว่างคำให้ตามความเหมาะสม</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							ยกเลิก <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									ปุ่ม Swype
+									<div id="ul_1a" class="open">
+										<p>ปุ่ม Swype เป็นปุ่มที่มีโลโก้ Swype แสดงอยู่ กดปุ่ม Swype ค้างไว้เพื่อเข้าถึงการตั้งค่า Swype</p>
+										<p>ปุ่ม Swype ใช้เพื่อเริ่มการกรายนิ้วมากมายใน Swype</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    แสดงคีย์บอร์ดก่อน
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									รูปแบบการกวาดนิ้ว
+									<div id="ul_1b" class="closed">
+										<p>รูปแบบการกวาดนิ้วเป็นวิธีการลัดบนคีย์บอร์ดสำหรับสั่งการตามที่ต้องการอย่างรวดเร็ว คุณลักษณะนี้จะไม่สามารถใช้ได้เมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัส</p>
+										<ul>
+											<li><span class="gestures">การใช้แป้นพิมพ์ แก้ไข</span> ใช้คีย์บอร์ดแก้ไขโดยกวาดนิ้วจากปุ่ม <img src="img_swypekey.png" /> ไปที่ปุ่มสัญลักษณ์ (?123) ที่คีย์บอร์ด</li>
+											<li><span class="gestures">การใช้แป้นพิมพ์ตัวเลข</span> ใช้งานแป้นพิมพ์ตัวเลขโดยกวาดนิ้วจากปุ่ม <img src="img_swypekey.png" /> ไปที่หมายเลข 5</li>
+											<li><span class="gestures">การซ่อนแป้นพิมพ์</span> ซ่อนแป้นพิมพ์ได้ง่าย ๆ โดยกวาดนิ้วจากปุ่ม Swype ไปที่ปุ่ม backspace</li>
+
+
+											<li><span class="gestures">เครื่องหมายวรรคตอน</span> วิธีง่ายๆ เพื่อใส่วรรคตอนคือการกวาดนิ้วจากเครื่องหมายคำถาม จุลภาค จุด หรือเครื่องหมายวรรคตอนอื่นไปยังปุ่ม Space แทนการเคาะเลือกเครื่องหมายวรรคตอน</li>
+
+											<li><span class="gestures">วิธีการลัดของแอพพลิเคชัน</span>แผนที่ Google: Swype จาก <img src="img_swypekey.png" /> ถึง &#39;g&#39; จากนั้น &#39;m&#39;</li>
+											<li><span class="gestures">ค้นหา</span>ไฮไลท์ข้อความและกวาดนิ้วจาก <img src="img_swypekey.png" /> ถึง S เพื่อค้นหาเว็บแบบรวดเร็ว</li>
+											<li><span class="gestures">การสับเปลี่ยนเป็นภาษาที่ใช้ครั้งสุดท้าย</span>เมื่อใช้มากกว่าหนึ่งภาษา วิธีที่เร็วในการเปลี่ยนกลับเป็นภาษาก่อนหน้านี้ก็คือการกวาดนิ้วจาก <img src="img_swypekey.png" /> ไปยังสเปซคีย์</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									การ​พิมพ์​อักษร​เหมือน​กัน​สอง​ตัว
+									<div id="ul_1n" class="closed">
+										<p>เพื่อให้อักขระเหมือนกันสองตัวมีความถูกต้องมากขึ้น ทำได้โดยเลื่อนนิ้วไปมาเล็กน้อยหรือวงล้อมรอบตัวอักษร เช่น ในการพิมพ์ &quot;บบ&quot; สำหรับคำว่า &quot;แบบ&quot; โดยเลื่อนนิ้วไปมาบนแป้นตัว &quot;บ&quot; คุณลักษณะนี้จะไม่สามารถใช้ได้เมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัส</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									การเลือกคำ
+									<div id="ul_1d" class="closed">
+										<p>ในการยอมรับคำที่แนะนำเริ่มต้นในรายการเลือกคำ ให้กวาดนิ้วไปเรื่อย ๆ หรือไล่รายการโดยการลากนิ้ว และเลือกคำที่ต้องการ คุณลักษณะนี้จะไม่สามารถใช้ได้เมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัส</p>
+<p>  
+
+
+คุณลักษณะนี้จะใช้ได้เฉพาะเมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัสเท่านั้น
+</p>
+									</div>
+								</li>
+
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									การแทนที่คำ
+									<div id="ul_1g" class="closed">
+										<p>แทนที่คำได้โดยเคาะที่คำนั้น จากนั้นเลือกคำที่คุณต้องการจากรายการเลือกคำ หรือเพียงไฮไลท์คำนั้นและกวาดเลือกคำใหม่ คำใหม่จะแทนที่คำที่ไม่ถูกต้อง</p>
+										<p>สามาถไฮไลท์คำได้โดยเคาะที่คำและกด <img src="img_swypekey.png" /> หรือเคาะสองครั้งที่คำ</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									การเลื่อนไปมาระหว่างตัวอักษร
+									<div id="ul_1h" class="closed">
+										<p>หลีกเลี่ยงการกวาดนิ้วไปยังตัวอักษรที่ไม่ต้องการเพื่อให้แน่ใจว่าได้คำศัพท์ที่คุณต้องการตั้งแต่ครั้ง</p>
+										<p>เช่น คำว่า &quot;พรบ&quot; และ &quot;พบ&quot; สามารถลากคำโดยใช้เส้นทางเหมือนกัน แต่คุณไม่ต้องลากระหว่างตัวอักษรเป็นเส้นตรง ข้ามตัว &quot;ร&quot; ขณะเลื่อนนิ้วไปที่ &quot;บ&quot; เพื่อให้แน่ใจว่าคำว่า &quot;พบ&quot; จะปรากฏขึ้นเป็นตัวแรกในรายการเลือกคำ</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									เลือก​คำ​ได้​เร็ว​กว่า
+									<div id="ul_1i" class="closed">
+
+										<p>กดปุ่มค้างไว้เพื่อให้แสดงรายการตัวอักษรทางเลือกสำหรับปุ่มนั้น เช่น สัญลักษณ์อย่าง % และ @ และตัวเลข</p>
+
+										<p>เคาะปุ่มสัญลักษณ์ (?123) เพื่อไปที่คีย์บอร์ดสัญลักษณ์</p>
+										<p>(ไม่ว่าจะเห็นหรือไม่ก็ตาม) สามารถกวาดเลือกอักขระทั้งหมดได้จากแป้นพิมพ์หลัก (ไม่ว่าจะเห็นหรือไม่ก็ตาม) คุณสามารถกวาดเลือกจากส่วนแสดงผลแป้นพิมพ์นี้ แต่จะได้เฉพาะคำที่มีตัวเลขหรือสัญลักษณ์อย่างน้อยหนึ่งตัว</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									การเพิ่มและการลบคำ
+									<div id="ul_1j" class="closed">
+										<p>Swype เพิ่มคำใหม่ที่คุณใช้อย่างชาญฉลาดลงสู่พจนานุกรมส่วนตัวของคุณ</p>
+										<p>นอกจากนี้ คุณสามารถเพิ่มคำได้โดยการไฮไลท์คำและเคาะ <img src="img_swypekey.png" /> เคาะเลือกข้อมูลแจ้งที่ปรากฏขึ้นเพื่อเพิ่มคำศัพท์</p>
+										<p>เพื่อลบคำ ให้กดคำนั้นค้างไว้ในรายการทางเลือกคำ และจากนั้นเคาะ โอเค ในกล่องการยืนยัน คุณลักษณะนี้จะไม่สามารถใช้ได้เมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัส</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									การตั้งค่าความเป็นส่วนตัว
+									<div id="ul_1k" class="closed">
+										<p>Swype สามารถเพิ่มคำศัพท์ได้อย่างรวดเร็วลงไปในพจนานุกรมของคุณจาก Facebook, Twitter, แลGmail การตั้งค่าความเป็นส่วนตัวของ Swype:</p>
+										<ol>
+											<li>กดปุ่ม <img src="img_swypekey.png" /> ค้าง</li>
+											<li>จากเมนูการตั้งค่า Swype เลือก การตั้งค่าส่วนบุคคล</li>
+											<li>เลือกจากตัวเลือกการตั้งค่าความเป็นส่วนตัวและใส่ข้อมูลยืนยันตัวตนเมื่อถูกขอ</li>
+											<li>คุณสามารถตั้งค่าความเป็นส่วนตัวใน Swype จากแหล่งข้อมูลหนึ่งแหล่งหรือทั้งหมด</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">พูด</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>คุณสามารถพูดเพื่อป้อนเนื้อหาทุกๆ อย่างได้ตั้งแต่ข้อความและเนื้อหาอีเมลไปจนถึงการอัพเดทใน Facebook และ Twitter</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							ยกเลิก <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									เครื่องหมายวรรคตอน
+									<div id="ul_2a" class="open">
+										<p>ไม่จำเป็นต้องเพิ่มเครื่องหมายวรรคตอนด้วยตนเอง เพียงพูดเครื่องหมายวรรคตอนที่คุณต้องการและดำเนินการต่อ ลองดูตัวอย่างนี้:</p>
+										<ol>
+											<li>กดปุ่มเสียง และเริ่มพูด</li>
+											<li>สิ่งที่คุณพูด: <i>อาหารเย็นมีรสชาติอร่อยอัศเจรีย์</i></li>
+											<li>สิ่งที่คุณได้: <i>อาหารเย็นมีรสชาติอร่อย!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>การป้อนข้อมูลโดยใช้เสียงไม่มีให้ในบางคีย์บอร์ด</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">เขียน</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>คุณสามารถใช้นิ้วของคุณลากตัวอักษรและคำต่างๆ และ Swype จะเปลี่ยนมันเป็นข้อความ คุณสามารถลากอักษรไปซ้ายไปขวาหรือทับกันได้					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							ยกเลิก <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									เปิดใช้ลายมือ
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>กด <img src="img_symkey.png" /> ค้างไว้ และเลื่อนนิ้วไปยังไอคอนลายมือ</li>
+											<li>ลากตัวอักษรด้วยนิ้วมือของคุณบนพื้นที่ลายมือ</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									ลักษณะสัมผัสแบบมัลติ
+									<div id="ul_3b" class="closed">
+										<p>ลักษณะการสัมผัสแบบมัลติจะช่วยให้คุณทำงานง่ายๆ ได้อย่างสมบูรณ์ เช่น การสร้างอักษรหรือคำให้เป็นตัวพิมพ์ใหญ่</p>
+										<ol>
+											<li>ลากตัวอักษรเล็กบนแผ่นวาด</li>
+											<li>หลังจากใส่ตัวอักษร ให้เลื่อนนิ้วสองนิ้วไปทางพื้นที่เขียน</li>
+											<li>คุณสมบัติลายมือจะจดจำลักษณะการสัมผัสแบบมัลติและทำอักษรตัวพิมพ์ใหญ่</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>ลายมือไม่มีให้ในบางคีย์บอร์ด</i></p>
+									<p><i>คุณลักษณะนี้จะไม่สามารถใช้ได้เมื่อมีการใช้งานการเข้าถึงระบบให้บริการสำรวจโดยการสัมผัส</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">เคาะ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>รูปแบบดั้งเดิมของการป้อนข้อมูลคีย์บอร์ดด้วยตนเอง การป้อนข้อมูลโดยใช้การเคาะบนคีย์บอร์ด Swype ได้อย่างง่ายดายและมีประสิทธิภาพมากขึ้นด้วยคุณสมบัติที่มีประโยชน์:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							ยกเลิก <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									การแก้ไขการพิมพ์ที่ยุ่งเหยิง
+									<div id="ul_4a" class="open">
+										<p>คุณไม่ต้องเคาะตัวอักษรแต่ละตัวให้ครบสมบูรณ์ เพียงทดลองดูและ Swype จะให้คำแนะนำอย่างชาญฉลาด</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									เติมคำให้สมบูรณ์
+									<div id="ul_4b" class="closed">
+										<p>Swype ยังสามารถเดาคำศัพท์ของคุณเมื่อคุณพิมพ์เพียงไม่กี่ตัวอักษร</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ภาษา</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>เพื่อสลับภาษาจากคีย์บอร์ด: กดปุ่มสเปซบาร์ค้าง เลือกภาษาที่ต้องการของคุณจากเมนูป็อบอัพ</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>การเชื่อมต่อ Swype จะช่วยให้เราสามารถส่งการอัพเดทและฟังก์ชันที่ทรงคุณค่ามากมายตรงไปยังอุปกรณ์ของคุณ! ขณะที่การเชื่อมต่อ Swype จะทำงานกับ 3G แต่เราแนะนำให้ค้นหาการเชื่อมต่อ WiFi</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							ยกเลิก <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									การดาวน์โหลดภาษา
+									<div id="ul_6a" class="open">
+										<p>เพิ่มภาษาลงใน Swype อย่างง่ายดาย:</p>
+										<ol>
+											<li>กดปุ่ม <img src="img_swypekey.png" /> ค้างและตัวเลือกภาษา</li>
+											<li>จากเมนูตัวเลือกภาษา เลือกภาษาในการดาวน์โหลด</li>
+											<li>คลิกที่ภาษาและการดาวน์โหลดของคุณจะเริ่มโดยอัตโนมัติ</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>การเชื่อมต่อ Swype ไม่มีให้สำหรับคีย์บอร์ดทั้งหมด</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">วิธีใช้เพิ่มเติม</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>ดูวิธีใช้ Swype เพิ่มเติมได้จากคู่มือผู้ใช้ Swype และคำแนะนำและวิดีโอเกี่ยวกับ Swype ได้ที่ <a href="http://www.swype.com">www.swype.com</a> หรือดูกระทู้เกี่ยวกับ Swype ออนไลน์ได้ที่ <a href="http://forum.swype.com">forum.swype.com</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

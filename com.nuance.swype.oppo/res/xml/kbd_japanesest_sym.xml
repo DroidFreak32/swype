@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_10_key_width" ns:canSwypePopupCharacters="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyLabel="1" ns:shiftedKeyLabel="'" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="2" ns:shiftedKeyLabel="&quot;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="3" ns:shiftedKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="4" ns:shiftedKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="5" ns:shiftedKeyLabel="&lt;" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="6" ns:shiftedKeyLabel=">" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="7" ns:shiftedKeyLabel="«" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="8" ns:shiftedKeyLabel="»" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="9" ns:shiftedKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="right" ns:keyLabel="0" ns:shiftedKeyLabel="}" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyLabel="\@" ns:shiftedKeyLabel="^" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="¥" ns:shiftedKeyLabel="$" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="&amp;" ns:shiftedKeyLabel="¢" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\#" ns:shiftedKeyLabel="=" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="(" ns:shiftedKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel=")" ns:shiftedKeyLabel="+" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel=":" ns:shiftedKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:shiftedOutputText="〒" ns:keyLabel="※" ns:shiftedKeyLabel="〒" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="「" ns:shiftedKeyLabel="『" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="right" ns:keyLabel="」" ns:shiftedKeyLabel="』" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_7_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="?symKeyboardFeedbackSymEtching" ns:keyIcon="?symKeyboardSymEtching" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_emoticon" ns:popupKeyboard="@xml/popup_smileys" ns:iconPreview="?keyboardFeedbackEmoticonPrimary" ns:keyOutputText=":-)" ns:shiftedKeyLabel="¤" ns:keyIcon="?keyboardEmoticonPrimary" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="！" ns:shiftedKeyLabel="…" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="時" ns:keyLabel="時" ns:shiftedKeyLabel="%" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="分" ns:keyLabel="分" ns:shiftedKeyLabel="/" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="月" ns:keyLabel="月" ns:shiftedKeyLabel="\\" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="日" ns:keyLabel="日" ns:shiftedKeyLabel="~" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="？" ns:shiftedKeyLabel="々" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/delete_7_10_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/swype_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/symbols_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_jp_abc" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="," />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="-" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom_space" ns:keyWidth="@fraction/space_key_width_cjk" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="・" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcBtmTextColor" ns:keyLabel="." />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_bottom" ns:keyWidth="@fraction/return_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

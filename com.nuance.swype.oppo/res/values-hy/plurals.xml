@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d բառեր ջնջվելու են</item>
+        <item quantity="one">Մի բառ ջնջվելու է։</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d օրեր առաջ</item>
+        <item quantity="one">%d օր առաջ</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ժամեր առաջ</item>
+        <item quantity="one">%d ժամ առաջ</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d րոպեներ առաջ</item>
+        <item quantity="one">%d րոպե առաջ</item>
+    </plurals>
+</resources>

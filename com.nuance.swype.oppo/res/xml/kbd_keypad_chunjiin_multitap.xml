@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_4_key_width" ns:keyTextSize="@dimen/key_text_size_large" ns:invalidDockModes="split" ns:showPopup="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyFontTypeface="non_bold" ns:codes="0x00003163" ns:keyMultitapChars="ㅣ" ns:keyEdgeFlags="left" ns:keyLabel="ㅣ" ns:altKeyLabel="1" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyFontTypeface="non_bold" ns:codes="0x0000318D" ns:keyMultitapChars="ㆍ" ns:keyLabel="ㆍ" ns:altKeyLabel="2" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyFontTypeface="non_bold" ns:codes="0x00003161" ns:keyMultitapChars="ㅡ" ns:keyLabel="ㅡ" ns:altKeyLabel="3" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_8_key_width" ns:codes="46" ns:popupCharacters="@string/alternates_for_period_korean" ns:keyLabel="." ns:altKeyLabel=",!?" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/default_8_key_width" ns:popupCharacters="@string/alternates_for_cjk_punctuation" ns:keyEdgeFlags="right" ns:keyLabel="\?" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyFontTypeface="non_bold" ns:codes="0x3131,0x314b,0x3132" ns:keyMultitapChars="ㄱ,ㅋ,ㄲ" ns:keyEdgeFlags="left" ns:keyLabel="ㄱㅋ" ns:altKeyLabel="4" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyFontTypeface="non_bold" ns:codes="0x3134,0x3139" ns:keyMultitapChars="ㄴ,ㄹ" ns:keyLabel="ㄴㄹ" ns:altKeyLabel="5" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyFontTypeface="non_bold" ns:codes="0x3137,0x314c,0x3138" ns:keyMultitapChars="ㄷ,ㅌ,ㄸ" ns:keyLabel="ㄷㅌ" ns:altKeyLabel="6" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/default_8_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?symKeyboardSpeech" ns:keyboardSettings="speech" ns:dependentKey="@integer/keycode_language_quick_switch" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/default_8_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_language_quick_switch" ns:keyEdgeFlags="right" ns:keyLabel="@string/label_korean_eng_key" />
+    </Row>
+    <Row>
+        <Key ns:keyFontTypeface="non_bold" ns:codes="0x3142,0x314d,0x3143" ns:keyMultitapChars="ㅂ,ㅍ,ㅃ" ns:keyEdgeFlags="left" ns:keyLabel="ㅂㅍ" ns:altKeyLabel="7" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="0x3145,0x314e,0x3146" ns:keyMultitapChars="ㅅ,ㅎ,ㅆ" ns:keyLabel="ㅅㅎ" ns:altKeyLabel="8" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="0x3148,0x314a,0x3149" ns:keyMultitapChars="ㅈ,ㅊ,ㅉ" ns:keyLabel="ㅈㅊ" ns:altKeyLabel="9" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_8_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_8_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_sym_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_symbol_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="0x3147,0x3141" ns:keyMultitapChars="ㅇ,ㅁ" ns:keyLabel="ㅇㅁ" ns:altKeyLabel="0" ns:keyType="nonregional" ns:keepAltKeyPopup="true" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:isRepeatable="true" ns:keyIcon="?symKeyboardSpaceCom" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

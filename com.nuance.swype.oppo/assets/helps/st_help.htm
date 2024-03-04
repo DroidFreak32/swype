@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Bua</a></div>
+				<div><a href="#write">Ngola</a></div>
+				<div class="last"><a href="#tap">Mofuta</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Ka Swype, o na le bokgoni ba ho fetohela dipakeng tsa di&#45;imphute moute tse nne tse fapakaneng &#45; Swype, Bua, Ngola kapa Thepa</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Ho sebedisa Swype ke mokgwa o potlakileng wa ho kenya mantswe E o lumella ho kenya lentswe ka ho taka hodim&#39;a diletere Beha monwana letereng ya pele ya lentswe mme o take tselana ho ya letereng, o ntse o phahamisa kamor&#39;a letere ya ho qetela Swype e tla siya sebaka moo ho hlokehang</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Ithute haholwanyane <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Khi ya Swype
+									<div id="ul_1a" class="open">
+										<p>Khi ya Swype ke khi e nang le letshwao la Swype ho yona Penya mme o hate khi ya Swype le ho di&#45;Settings tsa Swype</p>
+										<p>Khi ya Swype e boetse e sebetsa ho dumella ho sebedisa dikestjhara tse mmalwa tsa Swype</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Preview ya Khiboto
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Dikestjhara tsa Swype
+									<div id="ul_1b" class="closed">
+										<p>Dikestjhara tsa Swype ke tsela tse kgutshwanyane khibotong ho funama ditshebetso tsa ka potlako. Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+										<ul>
+											<li><span class="gestures">Fumana ho hlaola diphoso ho khiboto</span> Ho fumana ho Hlaola diphoso ho Khiboto, Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho Simbolo key (?123) khibotong.</li>
+											<li><span class="gestures">Fumana nomoro ya khiboto</span> Ho fumana Nomoro ya khiboto, Swype ho tloha ho <img src="img_swypekey.png" /> ho isa ho nomoro ya 5</li>
+											<li><span class="gestures">Pata khiboto</span> Pata khiboto, Swype feela ho tloha ho Khi ya Swype ho ya ho Khi ya bekesepeisi.</li>
+
+											<li><span class="gestures">Tima speising se othomathiki</span> Tobetsa nakwana speising pele lentswe le leng ka ho Swype ho tloha ho Khi ya sepeisi ho kgutlela ho khi ya bekesepeisi</li>
+
+
+											<li><span class="gestures">Hlaola diphoso lentsweng</span> Fetola ditlhaku tsa lentswe kamor&#39;a hore o le kenye ka ho thepa lentswe ebe o Swepe ho tloha ho <img src="img_swypekey.png" /> ho ya ho Khi ya Shifte <img src="img_shiftkey.png" /> . Kgetho ya Lethathamo la mantswe le diletere tse kgolo e tla hlaha, e le ho o dumella ho kgetha diletere tse nyane, Tse kgolo kapa DIKHEPSE TSOHLE</li>
+
+											<li><span class="gestures">Matshwao a puo</span> Mokgwa o bobebe wa ho kenya Matshwao a puo ho Swype ho tloha ho letshwao la potso, feelwane, matshwaong a mang a puo ho ya ho khi ya sepeisi bakeng sa ho e hatella.</li>
+
+											<li><span class="gestures">Kgetha tsohle, kgaola, Kopitsa le ho Mamaretsa</span>
+												Kgetha Tsohle: Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho &#39;a&#39;<br />
+												Kgaola: Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho &#39;x&#39;<br />
+												Kopitsa: Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho &#39;c&#39;<br />
+												Mamaretsa Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Tshebediso ya tsela e kgutshwanyane</span>Mmapa wa Google: Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho &#39;g&#39;, e be &#39;m&#39;</li>
+											<li><span class="gestures">Batla</span>Kgetha mantswenyana mme o Swype ho tloha <img src="img_swypekey.png" /> ho ya ho S e le ho batla oebong ka tsela e potlakileng</li>
+											<li><span class="gestures">Ho fetohela ho puo ya ho qetela e Sebedisitsweng</span>Ha o sebedisa dipuo tse ngata, tsela e potlakileng ya ho kgutlela morao puong e neng e sebetsa ke ho Swype ho tloha ho <img src="img_swypekey.png" /> ho ya ho Khi ya Sebaka</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Ho kenya diletere habedi
+									<div id="ul_1n" class="closed">
+										<p>E le ho ntlafatsa tshebetso ha ho kenngwa diletere habedi, ngola hanyane kapa o etsa lupu letereng Mohlala, ho fumana &quot;oo&quot; ho &quot;lebatooa&quot;, ngola ho khi ya &#39;o&#39; Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Ho kgetha lentswe
+									<div id="ul_1d" class="closed">
+										<p>Ho amohela lentswe le hlahisitsweng la sethatho ho hlaha Lethathamong La Mantswe, itswellepele o nne o Swype Ho feta moo, o ka skrola hara lethathamo ka ho tsamaisa monwana wa hao mme wa kgetha lentswe leo o le ratang Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+<p>Ho kgetha tema lenaneng, tsamaisa monwana ka tsela ya sekele ho utlwa lenane la mantswe. Tsamaisa ka tlolokowaese ho habahanya le lenane, hape ka motsamao oo e seng wa tlolokowaese o kgutlile morao ho habahanya le lenane.  
+Ho phahamisa autephute ka monwana ke ho kenya lentswe le builweng la ho qetela.
+Ho kgetha lentswe Kgethong ya Lenaneng la Lentswe, tsamaisetsa monwana wa hao hodimo khibotong ho fihlela lentswe la pele le utlwahala lenaneng, ebe o qala ka motsamao wa sekele
+Tshebeletso ena e fumaneha ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Ho ngola mantswe ka diletere tse kgolo
+									<div id="ul_1e" class="closed">
+										<p>Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+										<p>Ngola lentswe ka diletere tse kgolo ka ho Swype monwana ho tloha letereng ya pele ho ya feta ka hodimo ho khiboto mme, o sa e phahamise, tsamaisa monwana ho ya tlaase mabapa le lentswe</p>
+										<p>Fetola ditlhaku tsa lentswe kamor&#39;a hore o le kenye ka ho thepa lentswe ebe o Swepe ho tloha ho <img src="img_swypekey.png" /> ho ya ho Khi ya Shifte <img src="img_shiftkey.png" /> . Kgetho ya Lethathamo la mantswe le diletere tse kgolo e tla hlaha, e le ho o dumella ho kgetha diletere tse nyane, Tse kgolo kapa DIKHEPSE TSOHLE</p>
+										<p>Ho kenya moute wa KHEPSE Loko, thepa habedi ho khi ya Shifte <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Sebaka se iketsang ka bosona
+									<div id="ul_1f" class="closed">
+										<p>Swype e hlahisa sebaka ka boyona dipakeng tsa mantswe ha o Swype lentswe le latelang polelong O ka etsa hore sesebediswa se arole mantswe ka bosona kapa wa etsa hore se se etse jwalo ka ho ya ho di&#45;settings tsa Swype</p>
+										<p>Ho arola mantswe hwa sesebediswa ho ka tinngwa bakeng sa lentswe le le leng ka ho Swype ho tloha ho khi ya Sebaka</p>
+										<p>Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Ho kenya lentswe ho le leng
+									<div id="ul_1g" class="closed">
+										<p>Ho kenya lentsoe le leng ka ho tobetsa ho lona, ebe o kgetha lentswe leo o le batlang Lethathamong la Mantswe, kapa o ka kgetha lentswe mme wa Swype lentswe le letjha Lentswe le letjha le tla dula sebakeng sa le fosahetseng</p>
+										<p>Lentswe le ka kgethwa ka ho hatella lentsweng leo mme ebe o thepa <img src="img_swypekey.png" /> habedi lentsweng moo</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Ho baonsa dipakeng tsa diletere
+									<div id="ul_1h" class="closed">
+										<p>Ka dinako tse ding ho qoba diletere ha o Swype ho netefatsa hore o fumana lentswe leo o le batlang lekgetlo la pele feela</p>
+										<p>Mohlala, &quot;foleng&quot; le &quot;fileng&quot; di ka hlaha ka tsela e le nngwe empa hlokomela hore ha oa tlameha ho tloha ho letere e nngwe ho ya ho e nngwe ka mola o otlolohileng Ho qoba &quot;i&quot; ha o Swype monwana ya ho &quot;l&quot; ho netefatsa hore lentswe &quot;foleng&quot; ke lentswe la pele Lethathamo la Kgetho ya Mantswe.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Diletere tse fapanyetsanang
+									<div id="ul_1i" class="closed">
+
+										<p>Penya o hatelle ho khi e le ho hlahisa lethathamo la diletere tse fapanyetsang tsa khi eo, jwalo ka @ le % mmoho le dipalo</p>
+
+										<p>Thepa khi ya matshwao (?123) ho di isa Khibotong ya matshwao</p>
+										<p>Hlokomela hore diletere tsohle di ka sebetseha ka Swype ho tloha Khibotong ya matlha (O li bona kapa o sa li bone) O ka Swype o sebedisa tjhebahalo ena ya khiboto, empa o tla fumana feela mantswe a nang le nomoro e le nngwe kapa letshwao</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Ho kenya kapa ho Khansela mantswe
+									<div id="ul_1j" class="closed">
+										<p>Ho Swype ka hlokolosi ho kenya mantswe a matjha ao o a sebedisang Dikshenaring ya hao</p>
+										<p>O ka boetse wa kenya lentswe ka ho le kgetha mme ebe o thepa <img src="img_swypekey.png" /> Thepa lentswe le hlahang e le ho le kenya dikshenaring</p>
+										<p>Ho Khansela lentswe, penya o hatelle lentsweng leo Lethathamong la Kgetho ya Mantswe mme o thepe OK ka lebokosaneng la ho netefatsa Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Etsa ya hao
+									<div id="ul_1k" class="closed">
+										<p>Swype e tlatselletsa mantswe a hao kapele ho Facebook, Twitter le Gmail. Ho etsa Swype e be ya hao.</p>
+										<ol>
+											<li>Tobetsa le ho tshwara <img src="img_swypekey.png" /> .</li>
+											<li></li>
+											<li></li>
+											<li>O ka etsa Swype ho tswa ho mehlodi e mengata kapa o le mong.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Bua</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>O ka bua ka ho kenya tema ya dikahare tsa ntho e nngwe le e nngwe ho tswa temeng le melaetsa ya imeile ho isa ho di&#45;apodeiti tsa Facebook le Twitter</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Ithute haholwanyane <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Matshwao a puo
+									<div id="ul_2a" class="open">
+										<p>Ha ho hlokahale ho kenya matshwao ka tsela e tlwahelehileng Bua lentshwao la puo leo o le batlang mme o tswelepele Leka sena:</p>
+										<ol>
+											<li>Penya khi ya lentswe ebe o qala ho bua</li>
+											<li>Seo o se buang: <i>Dijo tsa tinare di ne di le monate letshwao la makalo</i></li>
+											<li>Seo o se fumanang: <i>Dijo tsa tinare di ne di le monate!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Imphute ya lentswe ha e fumanehe mefuteng e meng ya di&#45;khiboto</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Ngola</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>O ka sebedisa monwana wa hao ho taka diletere le mantswe mme Swype e tla di fetolela mantsweng a ngotsweng O ka taka diletere ho tloha ho le letshehadi ho ya ho le letona kapa lentswe hodim&#39;a le leng Penya ABC/123 ho tokola dipakeng tsa moute wa diletere le matshwao					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Ithute haholwanyane <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Ekthifeita mongolo
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Tobetsa le ho tshwara <img src="img_symkey.png" /> le ho tsamaisa monwana wa hao aekhoneng ya mongolo wa letsoho.</li>
+											<li>Taka ditlhaku ka monwana wa hao sebakeng seo ho ngollwang.</li>
+
+											<li>Hatella space bar pakeng tsa lentswe ka leng.</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Kestjhara ya Multi&#45;Touch
+									<div id="ul_3b" class="closed">
+										<p>Kestjhara ya Multi&#45;touch e o dumella hore o etse mesebetsi e bobebe e jwalo ka ho ngola mantswe kapa ditlhaku ka tlhaku tse kgolo.</p>
+										<ol>
+											<li>Taka Ditlhaku tse Nyane leqepheng la ho taka.</li>
+											<li>Ka mora ho kenya ditlhaku tsamaisa menwana e mmedi hodimo sebakeng seo ho ngollwang ho sona.</li>
+											<li>Makgetha a mongolo wa letsoho a tla bona kestjhara ya multi&#45;touch ebe a ngola ditlhaku tse kgolo.</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Mongolo wa letsoho ha o fumanehe mefuteng e meng ya dikhiboto</i></p>
+									<p><i>Tshebeletso ena ha e fumanehe ha system accessibility ya Explore&#45;by&#45;Touch e ntse e sebetsa</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Mofuta</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Sebopeho se tlwahelehileng sa imphute sa khiboto Hatella imphute hodima khiboto ya Swype ho bebofatsa le ho etsa tshebetso e be matla ka makgetha a mang a bohlokwa.</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Ithute haholwanyane <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Thaepa Ditokiso feela
+									<div id="ul_4a" class="open">
+										<p>Ha ho hlokehe hore o hatelle tlhaku e nngwe le e nngwe ka boqhetseke. Leka ka bowena kaofela, mme Swype e tla o fa lentswe ka bohlale</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Ho phethela Lentswe
+									<div id="ul_4b" class="closed">
+										<p>Swype e ka akanya lentswe la hao ha o hatella ditlhaku tse mmalwa</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Dipuo</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Ho tima dipuo ho tswa khibotong: Tobetsa le ho tshwara space bar Kgetha puo eo o e ratang ho tswa menyung wa phopoapo</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Kgokahanyo ya Swype e re dumella ho tsamaisa diapodeiti le mesebetsi e matla sesebedisweng sa hao. Le ha Kgokahanyo ya Swype e tla sebetsa ka 3G, re kgothalletsa ho fumana tshebediso ya kgokahanyo ya WiFi</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Ithute haholwanyane <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Di&#45;downloads tsa Puo
+									<div id="ul_6a" class="open">
+										<p>Ho tlatselletsa puo ya tlatsetso ho etsa hore Swype e be bobebe:</p>
+										<ol>
+											<li>Tobetsa mme o tshware <img src="img_swypekey.png" /> ebe o kgetha dipuo</li>
+											<li>Ho tloha ho menyu wa Dipuo, kgetha downloada dipuo.</li>
+											<li>Tlelika ho puo mme downloade e tla qala ka tlwaelo.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Kgokahanyo ya Swype ha e fumanehe dikhibotong kaofela.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Thuso e nngwe</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Bakeng sa ho thuswa, boha Swype User Manual le Swype Tips le Videos ho <a href="http://www.swype.com">www.swype.com</a>, kapa lekola Swype Forum onlaene ho <a href="http://forum.swype.com">forum.swype.com</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_4_key_width" ns:invalidDockModes="split" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_cut" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardCut" ns:popupLabel="@string/label_cut" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?symKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_arrow_up" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowUp" ns:keyIcon="?symKeyboardArrowUp" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_mode_back" ns:keyEdgeFlags="right" ns:keyIcon="?symKeyboardBack" ns:popupLabel="@string/label_back" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_copy" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardCopy" ns:popupLabel="@string/label_copy" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_arrow_left" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowLeft" ns:keyIcon="?symKeyboardArrowLeft" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_toggle_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_select" ns:isSticky="true" ns:keyIcon="@drawable/select_text_toggle" ns:popupLabel="@string/label_select_text" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_arrow_right" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowRight" ns:keyIcon="?symKeyboardArrowRight" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_paste" ns:keyEdgeFlags="left" ns:keyIcon="?symKeyboardPaste" ns:popupLabel="@string/label_paste" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_select_all" ns:keyIcon="?symKeyboardSelectAll" ns:popupLabel="@string/label_select_all" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_arrow_down" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackArrowDown" ns:keyIcon="?symKeyboardArrowDown" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_abc_layer" ns:keyLabel="@string/label_alpha_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_space" ns:iconPreview="?symKeyboardFeedbackSpace" ns:keyIcon="?symKeyboardSpaceCom" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

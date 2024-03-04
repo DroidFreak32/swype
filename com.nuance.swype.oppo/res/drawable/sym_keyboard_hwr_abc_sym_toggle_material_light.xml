@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checkable="true" android:drawable="@drawable/sym_keyboard_hwr_sym_123_material_light" />
+    <item android:drawable="@drawable/sym_keyboard_hwr_sym_abc_material_light" />
+</selector>

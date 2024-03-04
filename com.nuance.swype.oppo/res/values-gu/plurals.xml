@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d શબ્દો ભૂંસવામાં આવશે</item>
+        <item quantity="one">એક શબ્દ ભૂંસવામાં આવશે</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d દિવસો બાકી છે</item>
+        <item quantity="one">%d દિવસ બાકી છે</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d કલાકો બાકી છે</item>
+        <item quantity="one">%d કલાક બાકી છે</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d મિનિટો બાકી છે</item>
+        <item quantity="one">%d મિનિટ બાકી છે</item>
+    </plurals>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_12_key_tablet_width" ns:letterLanguageCategory="ml" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_അ" ns:keyLabel="അ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ആ" ns:keyLabel="ആ" ns:altKeyLabel="ആ" ns:shiftedKeyLabel="ാ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഇ" ns:keyLabel="ഇ" ns:altKeyLabel="ഇ" ns:shiftedKeyLabel="ി" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഈ" ns:keyLabel="ഈ" ns:altKeyLabel="ഈ" ns:shiftedKeyLabel="ീ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഉ" ns:keyLabel="ഉ" ns:altKeyLabel="ഉ" ns:shiftedKeyLabel="ു" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഊ" ns:keyLabel="ഊ" ns:altKeyLabel="ഊ" ns:shiftedKeyLabel="ൂ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_എ" ns:keyLabel="എ" ns:altKeyLabel="എ" ns:shiftedKeyLabel="െ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഏ" ns:keyLabel="ഏ" ns:altKeyLabel="ഏ" ns:shiftedKeyLabel="േ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഐ" ns:keyLabel="ഐ" ns:altKeyLabel="ഐ" ns:shiftedKeyLabel="ൈ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഒ" ns:keyLabel="ഒ" ns:altKeyLabel="ഒ" ns:shiftedKeyLabel="ൊ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഓ" ns:keyLabel="ഓ" ns:altKeyLabel="ഓ" ns:shiftedKeyLabel="ോ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഔ" ns:keyLabel="ഔ" ns:altKeyLabel="ഔ" ns:shiftedKeyLabel="ൗ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/return_12_12_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ക" ns:keyLabel="ക" ns:altKeyLabel="ക" ns:shiftedKeyLabel="ഖ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഗ" ns:keyLabel="ഗ" ns:altKeyLabel="ഗ" ns:shiftedKeyLabel="ഘ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ങ" ns:keyLabel="ങ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ച" ns:keyLabel="ച" ns:altKeyLabel="ച" ns:shiftedKeyLabel="ഛ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ജ" ns:keyLabel="ജ" ns:altKeyLabel="ജ" ns:shiftedKeyLabel="ഝ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഞ" ns:keyLabel="ഞ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ട" ns:keyLabel="ട" ns:altKeyLabel="ട" ns:shiftedKeyLabel="ഠ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ഡ" ns:keyLabel="ഡ" ns:altKeyLabel="ഡ" ns:shiftedKeyLabel="ഢ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ണ" ns:keyLabel="ണ" ns:altKeyLabel="ണ" ns:shiftedKeyLabel="ഴ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ത" ns:keyLabel="ത" ns:altKeyLabel="ത" ns:shiftedKeyLabel="ഥ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ദ" ns:keyLabel="ദ" ns:altKeyLabel="ദ" ns:shiftedKeyLabel="ധ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ന" ns:keyLabel="ന" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/return_12_12_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_പ" ns:keyLabel="പ" ns:altKeyLabel="പ" ns:shiftedKeyLabel="ഫ" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ബ" ns:keyLabel="ബ" ns:altKeyLabel="ബ" ns:shiftedKeyLabel="ഭ" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_മ" ns:keyLabel="മ" ns:altKeyLabel="മ" ns:shiftedKeyLabel="ം" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_്" ns:keyLabel="്" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_യ" ns:keyLabel="യ" ns:altKeyLabel="യ" ns:shiftedKeyLabel="വ" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ര" ns:keyLabel="ര" ns:altKeyLabel="ര" ns:shiftedKeyLabel="റ" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ല" ns:keyLabel="ല" ns:altKeyLabel="ല" ns:shiftedKeyLabel="ള" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_ശ" ns:keyLabel="ശ" ns:altKeyLabel="ശ" ns:shiftedKeyLabel="ഷ" />
+        <Key ns:popupCharacters="@string/alternates_for_malayalam_alphabetic_സ" ns:keyLabel="സ" ns:altKeyLabel="സ" ns:shiftedKeyLabel="ഹ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_malayalam_tablet" />
+</KeyboardEx>

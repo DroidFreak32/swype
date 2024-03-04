@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_chinese_keypad_width" ns:invalidDockModes="split" ns:showPopup="false" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="49,ㄅ,ㄉ,ㄚ" ns:popupCharacters="ㄅㄉㄚ1" ns:keyLabel="﻿ㄅㄉㄚ" ns:altKeyLabel="1" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="50,ㄍ,ㄐ,ㄞ,ㄧ" ns:popupCharacters="ㄍㄐㄞㄧ2" ns:keyLabel="ㄍㄐㄞㄧ" ns:altKeyLabel="2" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="51,ㄓ,ㄗ,ㄢ,ㄦ" ns:popupCharacters="ㄓㄗㄢㄦ3" ns:keyLabel="ㄓㄗㄢㄦ" ns:altKeyLabel="3" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="52,ㄆ,ㄊ,ㄛ" ns:popupCharacters="ㄆㄊㄛ4" ns:keyLabel="ㄆㄊㄛ" ns:altKeyLabel="4" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="53,ㄎ,ㄑ,ㄟ,ㄨ" ns:popupCharacters="ㄎㄑㄟㄨ5" ns:keyLabel="ㄎㄑㄟㄨ" ns:altKeyLabel="5" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="54,ㄔ,ㄘ,ㄣ" ns:popupCharacters="ㄔㄘㄣ6" ns:keyLabel="ㄔㄘㄣ" ns:altKeyLabel="6" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?symKeyboardSpeech" ns:keyboardSettings="speech" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="55,ㄇ,ㄋ,ㄜ,ㄝ" ns:popupCharacters="ㄇㄋㄜㄝ7" ns:keyLabel="ㄇㄋㄜㄝ" ns:altKeyLabel="7" ns:keyType="regional" />
+        <Key ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="56,ㄏ,ㄒ,ㄠ,ㄩ" ns:popupCharacters="ㄏㄒㄠㄩ8" ns:keyLabel="ㄏㄒㄠㄩ" ns:altKeyLabel="8" ns:keyType="regional" />
+        <Key ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="57,ㄕ,ㄙ,ㄤ,ㄥ" ns:popupCharacters="ㄕㄙㄤㄥ9" ns:keyLabel="ㄕㄙㄤㄥ" ns:altKeyLabel="9" ns:keyType="regional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="right" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:keyFontTypeface="default_bold" ns:codes="@integer/keycode_sym_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyEdgeFlags="left" ns:keyLabel="@string/label_symbol_key" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_language_quick_switch" ns:iconPreview="?cjkChineseFeedbackToggletochinese" ns:keyIcon="?cjkChineseToggletochinese" />
+        <Key ns:keyTextSize="@dimen/bpmf_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="48,ㄈ,ㄌ,ㄡ,ㄖ" ns:popupCharacters="ㄈㄌㄡㄖ0" ns:keyLabel="ㄈㄌㄡㄖ" ns:altKeyLabel="0" ns:keyType="regional" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:isRepeatable="true" ns:keyIcon="?symKeyboardSpaceCom" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyside_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

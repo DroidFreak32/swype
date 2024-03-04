@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.widget.directional.DirectionalRelativeLayout android:padding="?containerPadding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/swypeLogo" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_swype" android:layout_centerHorizontal="true" android:contentDescription="@string/swype" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linearLayoutpage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0" android:layout_below="@id/swypeLogo">
+        <TextView android:textSize="23.0sp" android:textStyle="normal" android:gravity="center" android:id="@id/pageDesc" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="3.0" android:textDirection="locale" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_alignParentBottom="true">
+        <Button android:id="@id/startup_button_negative" android:background="@drawable/btn_keyboard_key_focus_pressed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:minHeight="?defaultButtonHeight" android:layout_weight="0.5" android:layout_marginEnd="3.0dip" />
+        <Button android:id="@id/startup_button_positive" android:background="@drawable/btn_keyboard_key_focus_pressed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:minHeight="?defaultButtonHeight" android:layout_weight="0.5" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/firstStartContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_panel" android:layout_below="@id/linearLayoutpage" />
+</com.nuance.swype.widget.directional.DirectionalRelativeLayout>

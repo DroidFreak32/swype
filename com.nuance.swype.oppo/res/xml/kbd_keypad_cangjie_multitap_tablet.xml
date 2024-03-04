@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_chinese_keypad_tablet_width" ns:invalidDockModes="split" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="1" ns:keyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="26085,26376,37329" ns:popupCharacters="日月金2" ns:keyLabel="日月金" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="26408,27700,28779" ns:popupCharacters="木水火3" ns:keyLabel="木水火" ns:altKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDelete" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="22303,31481,25096" ns:popupCharacters="土竹戈4" ns:keyLabel="土竹戈" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="21313,22823,20013" ns:popupCharacters="十大中5" ns:keyLabel="十大中" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="19968,24339,20154" ns:popupCharacters="一弓人6" ns:keyLabel="一弓人" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_mid" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?tabletSymKeyboardSpeech" ns:keyboardSettings="speech" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="?transBackground" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="@color/transparent" ns:codes="0x0000003F" ns:keyEdgeFlags="left" ns:showPopup="false" />
+        <Key ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="24515,25163,21475,23608" ns:popupCharacters="心手口尸7" ns:keyLabel="心手口尸" ns:altKeyLabel="7" />
+        <Key ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="24319,23665,22899" ns:popupCharacters="廿山女8" ns:keyLabel="廿山女" ns:altKeyLabel="8" />
+        <Key ns:keyTextSize="@dimen/cangjie_keytext_size" ns:keyFontTypeface="non_bold" ns:codes="30000,38627,21340" ns:popupCharacters="田難卜9" ns:keyLabel="田難卜" ns:altKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyhalf_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?tabletSymKeyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyhalf_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_keyboard_resize" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackCycleResize" ns:keyIcon="?tabletSymKeyboardCycleResize" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:keyFontTypeface="default_bold" ns:codes="@integer/keycode_sym_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyEdgeFlags="left" ns:keyLabel="@string/label_symbol_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyhalf_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_language_quick_switch" ns:iconPreview="?cjkChineseFeedbackToggletochinese" ns:keyIcon="?tabletCjkChineseToggletochinese" ns:dependentKey="@integer/keycode_space" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyhalf_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:isRepeatable="true" ns:keyIcon="?symKeyboardSpaceCom" ns:showPopup="false" />
+        <Key ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_multitap_deadkey" ns:iconPreview="?symKeyboardFeedbackTimeout" ns:altKeyLabel="0" ns:keyIcon="?tabletSymKeyboardTimeout" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/default_chinese_keyside_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+</KeyboardEx>

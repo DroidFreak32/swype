@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/theme_main_page_lineLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/theme_grid_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:footerDividersEnabled="false" />
+    <com.nuance.swype.widget.directional.DirectionalRelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/theme_option" android:background="@drawable/btn_keyboard_key_focus_pressed" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true">
+        <com.nuance.swype.widget.directional.DirectionalTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0sp" android:textColor="#ff555555" android:gravity="center" android:id="@id/theme_grid_view_option_low_end" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/theme_options" android:layout_alignParentTop="true" android:textDirection="locale" />
+        <ImageView android:id="@id/theme_grid_view_option_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_suggest_strip_scroll_right_arrow" android:layout_alignRight="@id/theme_grid_view_option_low_end" android:layout_centerVertical="true" />
+    </com.nuance.swype.widget.directional.DirectionalRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sym_keyboard_resize_minileft_material_light" android:maxLevel="0" />
+    <item android:drawable="@drawable/sym_keyboard_resize_split_material_light" android:maxLevel="1" />
+    <item android:drawable="@drawable/sym_keyboard_resize_fullscreen_material_light" android:maxLevel="2" />
+    <item android:drawable="@drawable/sym_keyboard_resize_miniright_material_light" android:maxLevel="3" />
+    <item android:drawable="@drawable/sym_keyboard_resize_minifloat_material_light" android:maxLevel="4" />
+</level-list>

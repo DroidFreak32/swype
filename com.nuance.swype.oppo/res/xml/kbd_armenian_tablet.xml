@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_10_key_tablet_width" ns:keyTextSize="@dimen/key_text_size_5row" ns:altTextSize="19.0dip" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_է" ns:keyLabel="է" ns:altKeyLabel="1" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_թ" ns:keyLabel="թ" ns:altKeyLabel="2" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_փ" ns:keyLabel="փ" ns:altKeyLabel="3" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ձ" ns:keyLabel="ձ" ns:altKeyLabel="4" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ջ" ns:keyLabel="ջ" ns:altKeyLabel="5" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_և" ns:keyLabel="և" ns:altKeyLabel="6" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ռ" ns:keyLabel="ռ" ns:altKeyLabel="7" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_չ" ns:keyLabel="չ" ns:altKeyLabel="8" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ճ" ns:keyLabel="ճ" ns:altKeyLabel="9" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ժ" ns:keyLabel="ժ" ns:altKeyLabel="0" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:altPopupKeyboard="@xml/popup_smileys" ns:popupCharacters="@string/alternates_for_armenian_ք" ns:keyLabel="ք" ns:altIcon="@drawable/keyboard_emoticon" ns:altPreviewIcon="?keyboardFeedbackEmoticon" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ե" ns:keyLabel="ե" ns:altKeyLabel="\?" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ր" ns:keyLabel="ր" ns:altKeyLabel="!" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_տ" ns:keyLabel="տ" ns:altKeyLabel=";" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ը" ns:keyLabel="ը" ns:altKeyLabel="_" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ո" ns:keyLabel="ո" ns:altKeyLabel="%" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ւ" ns:keyLabel="ւ" ns:altKeyLabel="«" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ի" ns:keyLabel="ի" ns:altKeyLabel="»" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_օ" ns:keyLabel="օ" ns:altKeyLabel="(" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_պ" ns:keyLabel="պ" ns:altKeyLabel=")" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_top" ns:keyWidth="@fraction/return_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ա" ns:keyLabel="ա" ns:altKeyLabel="~" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ս" ns:keyLabel="ս" ns:altKeyLabel="·" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_դ" ns:keyLabel="դ" ns:altKeyLabel="…" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ֆ" ns:keyLabel="ֆ" ns:altKeyLabel="*" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_գ" ns:keyLabel="գ" ns:altKeyLabel="[" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_հ" ns:keyLabel="հ" ns:altKeyLabel="]" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_յ" ns:keyLabel="յ" ns:altKeyLabel="{" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_կ" ns:keyLabel="կ" ns:altKeyLabel="}" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_լ" ns:keyLabel="լ" ns:altKeyLabel="'" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_շ" ns:keyLabel="շ" ns:altKeyLabel="”" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_զ" ns:keyLabel="զ" ns:altKeyLabel="՟" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ղ" ns:keyLabel="ղ" ns:altKeyLabel="՜" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ց" ns:keyLabel="ց" ns:altKeyLabel="\#" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_վ" ns:keyLabel="վ" ns:altKeyLabel="=" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_բ" ns:keyLabel="բ" ns:altKeyLabel="/" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ն" ns:keyLabel="ն" ns:altKeyLabel="՞" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_մ" ns:keyLabel="մ" ns:altKeyLabel="՛" />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_ծ" ns:keyLabel="ծ" ns:altKeyLabel="." />
+        <Key ns:keyContentBaseline="?keyContent5rowBaseline" ns:popupCharacters="@string/alternates_for_armenian_խ" ns:keyLabel="խ" ns:altKeyLabel="+" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_cycle_shift_5row" ns:keyWidth="@fraction/shift_10_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:isLockable="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_armenian_tablet" />
+</KeyboardEx>

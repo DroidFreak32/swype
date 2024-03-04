@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_nuance" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nuance_communications" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyright" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Small" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" />
+</LinearLayout>

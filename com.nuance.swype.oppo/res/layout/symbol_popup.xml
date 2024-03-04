@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.widget.directional.DirectionalRelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <com.nuance.swype.input.chinese.ChineseKeyboardViewEx android:id="@id/keyboardViewEx" android:layout_width="wrap_content" android:layout_height="wrap_content" ns:keyTextColor="?defaultKeyTextColor" />
+    </ScrollView>
+</com.nuance.swype.widget.directional.DirectionalRelativeLayout>

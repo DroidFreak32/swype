@@ -1,0 +1,331 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">બોલો</a></div>
+				<div><a href="#write">લખો</a></div>
+				<div class="last"><a href="#tap">ટાઇપ</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Swypeથી તમે કોઈ પણ તકલીફ વગર ચાર અલગ અલગ ઈન્પૂટ મોડ બદલી શકો છો &#45; Swype, બોલો, લખો અથવા ટેપ</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swypeથી જલ્દી લખાણ લખી શકાય છે. તમે અક્ષરો વચ્ચે દોરીને શબ્દો લખી શકો છો. તમારી આંગળી શબ્દના પહેલા અક્ષર પર મૂકો અને પછી ઉઠાડ્યા વગર જોડણીની બીજા એમ દરેક અક્ષર પર વારાફરતી ફેરવીને છેલ્લા અક્ષરે તમારી આંગળી ઉઠાડો. જ્યાં જગ્યાની જરૂર હશે ત્યાં Swype જગ્યા ઉમેરશે.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							વધુ શીખો <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Swype કી
+									<div id="ul_1a" class="open">
+										<p>Swypeની નિશાની કે લૉગોની કી છે એ Swype છે. Swypeને દાબી રાખશો તો Swype સેટીંગ જોવા મળશે.</p>
+										<p>Swype કીથી Swype જેચર્સનાં ઘણાં ભાગો વાપરી શકાય</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    કિબોર્ડ કેવો દેખાય છે
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype હાવભાવ
+									<div id="ul_1b" class="closed">
+										<p>Swype જેસ્ચર એ કિબોર્ડનાં શોર્ટકટ છે જેથી સામાન્ય ટાસ્ક જલ્દી થઈ શકે. સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</p>
+										<ul>
+											<li><span class="gestures">કિબોર્ડમાં ફેરફાર કરવા</span> કિબોર્ડમાં ફેરફાર કરવા હોય તો, <img src="img_swypekey.png" /> થી નિશાનીઓ(?123) સુધી કિબોર્ડ પર Swype કરો.</li>
+											<li><span class="gestures">નંબર કિબોર્ડમાં કરવા માટે</span> નંબર કિબોર્ડ જલ્દી કરવા માટે, <img src="img_swypekey.png" /> થી નંબર 5 સુધી Swype કરો.</li>
+											<li><span class="gestures">કિબોર્ડ દૂર કરવા માટે</span> કિબોર્ડ દૂર કરવો સહેલો છે, તમારી Swype કિમાંથી બેક સ્પેસ સૂધી Swype કરો.</li>
+
+											<li><span class="gestures">આપોઆપ સ્પેસિંગ બંધ કરો</span> કિબોર્ડ દૂર કરવો સહેલો છે, તમારી Swype કિમાંથી બેક સ્પેસ સૂધી Swype કરો. તમે સ્પેસ કિથી બેકસ્પેસ કિ સુધી Swyping કરશો તો આવતા શબ્દ પહેલાની આપોઆપ સ્પેસિંગ બંધ કરી શકશો.</li>
+
+
+											<li><span class="gestures">વિરામચિન્હ</span> વિરામચિન્હને સાદી રીતે એન્ટર કરી શકાય, તમે પ્રશ્ન ચિન્હ, કોમા, વિરામચિન્હ અને બીજા વિરામચિન્હોથી સ્પેસ સુધી દાબવાને બદલે, Swype કરો.</li>
+
+											<li><span class="gestures">એપ્લિકેશના શોર્ટકટ</span>Googleના નકશા: <img src="img_swypekey.png" /> ને &#39;g&#39;, ત્યારબાદ &#39;m&#39;માંથી <img src="img_swypekey.png" /> દ્વારા Swype કરો.</li>
+											<li><span class="gestures">શોધો</span>ઝડપી વેબ શોધવા માટે કંઈક લખાણને વિશિષ્ટ રીતે દર્શાવો અને <img src="img_swypekey.png" /> થી S Swype કરો.</li>
+											<li><span class="gestures">છેલ્લી ભાષા વાપરેલ એ બદલવી</span>જ્યારે અનેક ભાષાઓ વાપરતા હોવ અને પહેલાની ભાષા જલ્દી પાછી કરવી હોય તો <img src="img_swypekey.png" /> થી સ્પેસ કી સુધી Swype કરો.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									ડબલ અક્ષર નાંખવા
+									<div id="ul_1n" class="closed">
+										<p>ડબલ અક્ષરનો સુધારો કરવા માટે જરા હલાવો અથવા અક્ષર પર આંટી દોરો.. દાખલા તરીકે, &quot;દદ&quot; એ અક્ષરોને&quot;મદદથી&quot;, લેવા માટે તમારી આંગળી &quot;મદદથી&quot; પર જરા હલાવો. સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									શબ્દ પસંદ કરો
+									<div id="ul_1d" class="closed">
+										<p>જે શબ્દો પસંદ કરવામાં આવ્યા હોય એ તમને સ્વીકારવા હોય તો Swyping કરીને ચોઈસ લિસ્ટ પરથી એને સ્વીકારો. અથવા, લિસ્ટ જોવા માટે તમારી ઘસડો અને પછી લિસ્ટમાંથી તમને જોઈએ એ શબ્દ પસંદ કરો. સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</p>
+<p>  
+
+
+સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ છે.
+</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									આપોઆપ સ્પેસિંગ
+									<div id="ul_1f" class="closed">
+										<p>તમે જ્યારે વાક્યમાં બીજો શબ્દ Swype થી લખો ત્યારે દરેક શબ્દો વચ્ચે Swype આપોઆપ સ્પેસ મૂકશે ઓટો&#45;સ્પેસિંગ ભાગ તમે Swype સેટીંગની અંદરથી બંધ કરી શકો છો.</p>
+										<p>એક શબ્દથી બીજા શબ્દ વચ્ચે ઓટો&#45;સ્પેસિંગ બંધ કરવા માટે સ્પેસ કિથી બેક સ્પેસ કિ સુધી Swyping કરો.</p>
+										<p>સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									શબ્દ બદલવો
+									<div id="ul_1g" class="closed">
+										<p>શબ્દ બદલવા માટે, ચોઇસ લિસ્ટમાંથી તમને જે શબ્દ પસંદ હોય એના પર ટેપકરો અથવા શબ્દ હાઈલાઇટ કરો અને નવો શબ્દ Swype કરો. ખોટા શબ્દની જગ્યાએ નવો આવી જશે.</p>
+										<p>શબ્દને હાઈલાઇટ કરવો હોય તો એ શબ્દને ટપ કરો અને <img src="img_swypekey.png" /> દબાવો અથવા શબ્દને બે વખત ટેપકરો.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									અક્ષરો વચ્ચે બાઉન્સ થવું
+									<div id="ul_1h" class="closed">
+										<p>અમુક વખતે Swyping કરતી વખતે શબ્દો ચૂકી જવા એ બતાવે છે કે તમને જે શબ્દ પસંદ હોય એ પહેલી વખતે જ આવી શકે.</p>
+										<p>દાખલા તરીકે, &quot;ઘટતા&quot; અને &quot;ઘડતા&quot; એ એક જ માર્ગે દોરી શકાય &#45; નોંધ કરો કે તમારે એક બીજા અક્ષરથી સીધી લીટી નહિ કરવી પડે બાઉન્સિંગ ટાળવા માટે &quot;ડ&quot; તમે જ્યારે તમારી આંગળી Swyping કરો &quot;ત&quot; એ બતાવે છે કે જે શબ્દ પસંદ કર્યો છે &quot;ઘટતા&quot; એ શબ્દની પસંદીનાં લિસ્ટમાં પહેલો આવે.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									બીજા ચિન્હો
+									<div id="ul_1i" class="closed">
+
+										<p>જે તે કીના વૈકલ્પિક અક્ષરો, જેમ કે @ અને % જેવા પ્રતીકો અને આંકડાની સૂચિ લાવવા કીને દબાવી રાખો.</p>
+
+										<p>સિંબોલ્સ કિ ટેપકરો (?123) જેથી સિંબોલ્સ કે ચિન્હોનો કિબોર્ડ આવી શકે</p>
+										<p>નોંધ કરો કે મુખ્ય કિબોર્ડમાંથી બધા જ અક્ષરોને Swype કરી શકાય (ભલે તમને દેખાય કે નહિ). તમે કિબોર્ડનો આ જોઈને Swype કરી શકશો, પણ તમને ફક્ત એ જ શબ્દો મળશે જેમાં ઓછામાં ઓછો એક નંબર કે સિંબોલ હોય.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									શબ્દો ઉમેરવા અને ભૂંસવા
+									<div id="ul_1j" class="closed">
+										<p>કોઈ પણ નવા શબ્દો Swype ઑટોમોટિકલી તમારા પોતાના શબ્દકોશમાં ઉમેરશે.</p>
+										<p>તમે <img src="img_swypekey.png" /> હાઈલાઇટ કે ટેપકરીને શબ્દો ઉમેરી શકો છો. શબ્દ ઉમેરવા માટે તમને જણાવવામાં આવે તો એ ટેપકરો જેથી શબ્દ ઉમેરી શકાય.</p>
+										<p>શબ્દ ભૂંસવા માટે, વર્ડ ચોઇસ લિસ્ટમાંથી શબ્દ ટેપકરીને દાબી રાખો અને ઑકે કરો. સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									વ્યક્તિગત કરવું
+									<div id="ul_1k" class="closed">
+										<p>Swypeથી તમે જલ્દીFacebookમાંથી, Twitterમાંથી અને જીમેઈલમાંથી તમારા શબ્દકોશમાં શબ્દો ઉમેરી શકે.. Swype પોતાને ફાવે એવી રીતે સેટ કરવા:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> કિ દાબી રાખો.</li>
+											<li></li>
+											<li>પર્સનલાઇઝેશન વિકલ્પમાંથી, જ્યારે પૂછવામાં આવે ત્યારે તમને જે ગમે એ એન્ટર કરો.</li>
+											<li>તમે Swypeને એક કાં બધા જ મૂળમાંથી ફેરવી શકો.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">બોલો</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>તમે Facebook, Twitter અપડેટ અને ઇ&#45;મેઈલ એમ બધા માટે કાં બોલી શકો અથવા લખાણ લખી શકો</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							વધુ શીખો <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									વિરામચિન્હ
+									<div id="ul_2a" class="open">
+										<p>તમારે વિરામચિન્હ જાતે મૂકવાની જરૂર નથી. જે વિરામચિન્હ જોઈએ એ બોલો અને પછી ચાલુ રાખો આ ટ્રાય કરો:</p>
+										<ol>
+											<li>વોઈસ કિ પ્રેસ કરો  અને બોલવાનું શરૂ કરો.</li>
+											<li>તમે શું બોલી શકો: <i>ખાવાનું સરસ હતુ</i></li>
+											<li>શું લખવામાં આવશે: <i>ખાવાનું સરસ હતુ</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>અમુક કિબોર્ડમાં વોઈસ ઈન્પૂટ ઉપલબ્ધ નથી</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">લખો</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>તમારી આંગળીથી તમે અક્ષર અને શબ્દો દોરી શકો અને Swype એને લખાણમાં બદલી નાખશે તમે ડાબીથી જમણી તરફ અક્ષરો ચિત્રી શકો અથવા એક બીજાની ઉપર. ABC / 123 પ્રેસ કરો જેથી અક્ષર અને નિશાનીઓનાં મોડ બદલી શકાય.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							વધુ શીખો <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									હસ્તાક્ષર શક્ય કરો
+									<div id="ul_3a" class="open">
+										<ol>
+											<li><img src="img_symkey.png" /> દબાવી રાખો અને તમારી આંગળીને હસ્તાક્ષર પ્રતીક પર સરકાવો.</li>
+											<li>હસ્તાક્ષર વિસ્તારમાં તમારી આંગળીથી અક્ષર ચિત્રો</li>
+
+											<li>દરેક શબ્દ વચ્ચે સ્પેસ બાર ટેપકરો</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									મલ્ટી&#45;ટચ જેસ્ચર
+									<div id="ul_3b" class="closed">
+										<p>મલ્ટી&#45;ટચ જેસ્ચરથી તમે સાદા કામ કરી શકો છો જેમ કે શબ્દોને અથવા અક્ષરોને કેપિટલ કરવા.</p>
+										<ol>
+											<li>અમુક lowercase અક્ષરો ડ્રોઈંગ પેડ પર ચિત્રો</li>
+											<li>અક્ષરો લખ્યા પછી, બે આંગળી લખવાના વિસ્તારમાં ઉંચે ઘસેડો</li>
+											<li>હસ્તાક્ષર ભાગને મલ્ટિ&#45;ટચ જેચ્ચર ખબર પડશે અને અક્ષરને capitalize કરશે</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>અમુક કિબોર્ડમાં હસ્તાક્ષર ઉપલબ્ધનથી.</i></p>
+									<p><i>સિસ્ટમ ઉપલ્બધતા સેવા સ્પર્શ માર્ગે અન્વેષણ પર હોય ત્યારે આ સુવિધા ઉપલબ્ધ નથી.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ટાઇપ</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>મેનુએલ કિબોર્ડનું અસલ રૂપ ટેપથી Swype કિબોર્ડ સહેલો બનાવેલ છે અને અમુક રીતોથી વધારે જલ્દી થઈ શકે:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							વધુ શીખો <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									જેમતેમ ટાયપિંગ કરેલ સુધરે
+									<div id="ul_4a" class="open">
+										<p>તમારે દરેક અક્ષર પર્ફેકલી ટેપકરવા એ જરૂરી નથી. તમને ફાવે એ રીતે કરો અને Swype એની મેળે શબ્દોના સૂચનો આપશો.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									શબ્દો પૂરા કરવા
+									<div id="ul_4b" class="closed">
+										<p>તમે ફક્ત થોડા જ અક્ષરો ટેપકરશો તો Swypeને શબ્દનો ખ્યાલ આવી.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">ભાષાઓ</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>કિબોર્ડમાંથી ભાષાઓ બદલો: સ્પેસ બાર પ્રેસ કરો અને દાબી રાખો. તમને ગમતી ભાષા પોપ&#45;અપ મેનુમાંથી પસંદ કરો.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype કનેક્ટથી અપડેટ થઈ શકે અને તમારી ડિવાઈસમાં પાવરફૂલ ફંકશન લાવી શકે છે! Swype કનેક્ટ 3G પરથી કામ કરશે, પણ અમે તો વાઇફાય કનેક્શન વાપરવાની ભલામણ કરીએ છીએ.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							વધુ શીખો <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									ભાષાઓ ડાઉનલોડ
+									<div id="ul_6a" class="open">
+										<p>Swypeમાં ભાષાઓ ઉમેરવી સહેલી છે:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> કીને પ્રેસ કરીને દબાવી રાખો અને ભાષાઓ પસંદ કરો.</li>
+											<li>ભાષાનાં મેનુમાંથી, ડાઉનલોડ ભાષાઓ પસંદ કરો.</li>
+											<li>તમને પસંદ પડે એ ભાષા પર ક્લિક કરો અને તમારે ડાઉનલોડ આપમેળે શરૂ થશે.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect બધા કિબોર્ડમાં ઉપલબ્ધ નથી.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">વધારે મદદ</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>તમને Swype વાપરવા માટે વધુ મદદ જોઈએ તો, Swypeનું યૂઝર મેનુએલ વાપરો અને Swype ટિપ્સ અને વિડિયો <a href="http://www.swype.com">www.swype.com</a>, અથવા Swype ઓનલાઇન ફૉરમ જુઓ<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

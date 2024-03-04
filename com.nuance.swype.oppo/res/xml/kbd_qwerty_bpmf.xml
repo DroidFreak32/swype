@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_key_5row" ns:keyWidth="@fraction/default_10_key_width" ns:keyTextSize="@dimen/key_text_size_small" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="left" ns:keyLabel="ㄅ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄉ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_tone3" ns:keyLabel="ˇ" ns:keyType="nonregional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_tone4" ns:keyLabel="ˋ" ns:keyType="nonregional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄓ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_tone2" ns:keyLabel="ˊ" ns:keyType="nonregional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:codes="@integer/keycode_tone5" ns:keyLabel="˙" ns:keyType="nonregional" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄚ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄞ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="right" ns:keyLabel="ㄢ" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="left" ns:keyLabel="ㄆ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄊ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄍ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄐ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄔ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄗ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄧ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄛ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄟ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_mid" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="right" ns:keyLabel="ㄣ" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="left" ns:keyLabel="ㄇ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄋ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄎ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄑ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄕ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄘ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄨ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄜ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄠ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="right" ns:keyLabel="ㄤ" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="left" ns:keyLabel="ㄈ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄌ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄏ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄒ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄖ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄙ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄩ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄝ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄡ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyEdgeFlags="right" ns:keyLabel="ㄥ" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/swype_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_swype" ns:altCode="@integer/keycode_settings" ns:keyEdgeFlags="left" ns:iconPreview="?keyboardSwypeLogoFeedback" ns:keyIcon="?keyboardSwypeLogo" ns:altPreviewIcon="?keyboardSwypeLogoFeedback" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/symbols_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size_5row" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_sym_layer" ns:popupKeyboard="@xml/popup_layers" ns:keyLabel="@string/label_symbol_key" ns:altIcon="?symKeyboardLayers" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_language_quick_switch" ns:iconPreview="?cjkChineseFeedbackToggletochinese" ns:keyIcon="?cjkChineseToggletochinese" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="?keyContent5rowBaseline" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_comma_bpmf_qwerty" ns:iconPreview="?chineseFeedbackComma" ns:keyOutputText="，" ns:keyIcon="?chineseComma" ns:keyboardMode="im|normal|number" ns:keyGroup="@id/comma_cjk_hwr_config_key" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_comma_bpmf_qwerty" ns:keyLabel="/" ns:keyboardMode="url" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcBtmTextColor" ns:popupCharacters="@string/alternates_for_fullwidth_comma_bpmf_qwerty" ns:keyLabel="\@" ns:keyboardMode="email" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_bottom_space" ns:keyWidth="@fraction/space_key_width_cjk" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:altTextColor="?defaultAltTextColorSpace" ns:codes="@integer/keycode_space" ns:altCode="@integer/keycode_language_menu" ns:isRepeatable="true" ns:keyIcon="?symKeyboardSpaceKey" ns:showPopup="false" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_5row_top" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyFontTypeface="non_bold" ns:keyLabel="ㄦ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_speech" ns:altCode="@integer/keycode_speech_app" ns:iconPreview="?symKeyboardFeedbackSpeech" ns:keyIcon="?symKeyboardSpeech" ns:keyboardSettings="speech" ns:dependentKey="@integer/keycode_space" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row" ns:keyWidth="@fraction/bottom_row_default_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:isRepeatable="true" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?symKeyboardDelete" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_5row_bottom" ns:keyWidth="@fraction/swype_key_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?symKeyboardReturn" />
+    </Row>
+</KeyboardEx>

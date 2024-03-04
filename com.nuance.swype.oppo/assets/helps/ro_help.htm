@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Vorbire</a></div>
+				<div><a href="#write">Scriere</a></div>
+				<div class="last"><a href="#tap">Tastați</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Cu Swype aveți posibilitatea de a comuta ușor între patru moduri diferite de introducere: Swype, Vorbire, Scriere sau Apăsare.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype reprezintă un mod rapid de a introduce text. Vă permite să introduceți un cuvânt prin traversarea prin litere. Puneți degetul pe prima literă a cuvântului și trageți o urmă de la literă la literă, ridicând degetul după ultima literă. Swype va introduce spațiile unde sunt necesare.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Aflați mai multe <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Tasta Swype
+									<div id="ul_1a" class="open">
+										<p>Tasta Swype este tasta cu sigla Swype. Apăsați și mențineți apăsarea tastei Swype pentru a accesa funcția de Setări Swype.</p>
+										<p>Tasta Swype este, de asemenea, folosită pentru inițierea multor gesturi Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Previzualizare tastatură
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gesturi Swype
+									<div id="ul_1b" class="closed">
+										<p>Gesturile Swype sunt comenzi rapide de la tastatură pentru a efectua rapid sarcinile comune. Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+										<ul>
+											<li><span class="gestures">Accesarea tastaturii Editare</span> Pentru a accesa tastatura Editare, glisați de la tasta <img src="img_swypekey.png" /> la tasta Simboluri (?123) de pe tastatură.</li>
+											<li><span class="gestures">Accesarea tastaturii Numerice</span> Pentru a accesa rapid tastatura numerică, glisați de la tasta <img src="img_swypekey.png" /> la numărul 5.</li>
+											<li><span class="gestures">Ascunderea tastaturii</span> Pentru a ascunde cu ușurință tastatura, trasați de la tasta Swype la tasta Backspace.</li>
+
+											<li><span class="gestures">Dezactivarea spațierii automate</span> Suprimați spațierea automată înainte de cuvântul următor, glisând de la tasta Space la tasta Backspace.</li>
+
+
+											<li><span class="gestures">Modificare majuscule / minuscule pentru un cuvânt</span> Schimbați formatul de scriere al cuvântului după ce&#45;l introduceți prin atingerea cuvântului din text și tragerea de la <img src="img_swypekey.png" /> la tasta Shift <img src="img_shiftkey.png" /> înainte de a ridica degetul. Se va afișa o listă pentru alegerea cuvintelor cu opțiuni de scriere cu majusculă, permițându&#45;vă să alegeți între litere minuscule, majuscule sau TOATE MAJUSCULE.</li>
+
+											<li><span class="gestures">Semne de punctuație</span> Un mod simplu de a introduce punctuația este să treceți cu Swype de la semnul întrebării, virgulă, punct sau alte semne de punctuație la tasta Spațiu în loc de atingerea tastei Spațiu.</li>
+
+											<li><span class="gestures">Selectare toate, Decupare, Copiere și Lipire</span>
+												Selectare toate: Trasați de pe tasta <img src="img_swypekey.png" /> pe tasta „a”.<br />
+												Decupare: Trasați de pe tasta <img src="img_swypekey.png" /> pe tasta „x”.<br />
+												Copiere: Trasați de pe tasta <img src="img_swypekey.png" /> pe tasta „c”.<br />
+												Lipire: Trasați de pe tasta <img src="img_swypekey.png" /> pe tasta „v”.
+											</li>
+
+											<li><span class="gestures">Comenzi rapide aplicație</span>Google Maps: Trasați de pe tasta <img src="img_swypekey.png" /> pe tasta „g”, apoi pe „m”.</li>
+											<li><span class="gestures">Căutare</span>Evidențiați text și trasați cu Swype de la <img src="img_swypekey.png" /> la „S” pentru a efectua o căutare rapidă pe internet.</li>
+											<li><span class="gestures">Se comută la ultima limbă folosită.</span>La folosirea mai multor limbi, un mod rapid de a reveni la limba anterioară este de a glisa de la <img src="img_swypekey.png" /> la tasta Spațiu.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Cum introduc litere duble?
+									<div id="ul_1n" class="closed">
+										<p>Pentru a îmbunătăți precizia la introducerea literelor duble, efectuați o mișcare „înainte&#45;înapoi” pe tastă sau faceți un cerc pe literă. De exemplu, pentru a obține literele „ii” în „lunii”, efectuați o mișcare „înainte&#45;înapoi” pe tasta „i”. Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Alegerea unui cuvânt
+									<div id="ul_1d" class="closed">
+										<p>Pentru a accepta cuvântul sugerat implicit din lista pentru alegerea cuvintelor, pur și simplu, continuați să introduceți textul cu Swype. În caz contrar, parcurgeți lista trăgând degetul și selectând cuvântul dorit. Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+<p>Pentru a selecta text dintr&#45;o listă, deplasați&#45;vă degetul cu o mișcare circulară pentru a auzi intrările în listă. Mișcările spre dreapta derulează înainte prin listă; mișcările spre stânga derulează înapoi prin listă.  
+Ridicarea degetului produce ultima intrare rostită din listă.
+Pentru a alege un cuvânt din Lista pentru alegerea cuvintelor, glisați degetul în sus dinspre tastatură, până când se aude primul cuvânt din listă, apoi începeți mișcarea circulară.
+Această functie este disponibilă numai atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Scrierea cu majuscule
+									<div id="ul_1e" class="closed">
+										<p>Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+										<p>Scrieți cu majusculă un cuvânt în timp ce&#45;l trasați prin tragerea degetului în sus de la prima literă dincolo de partea de sus a tastaturii și fără să ridicați degetul, trăgând degetul înapoi în jos la următoarea literă a cuvântului.</p>
+										<p>Schimbați formatul de scriere al cuvântului după ce&#45;l introduceți prin atingerea cuvântului din text și tragerea de la <img src="img_swypekey.png" /> la tasta Shift <img src="img_shiftkey.png" /> înainte de a ridica degetul. Se va afișa o listă pentru alegerea cuvintelor cu opțiuni de scriere cu majusculă, permițându&#45;vă să alegeți între litere minuscule, majuscule sau TOATE MAJUSCULE.</p>
+										<p>Pentru a intra în modul de CAPS Lock, atingeți de două ori tasta Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Spațiere automată
+									<div id="ul_1f" class="closed">
+										<p>Swype inserează automat un spațiu între cuvinte atunci când introduceți următorul cuvânt al propoziției. Puteți activa sau dezactiva caracteristica de spațiere automată în Setări Swype.</p>
+										<p>Spațierea automată poate fi dezactivată pentru un cuvânt, trasând o urmă de pe tasta Spațiu pe tasta Backspace.</p>
+										<p>Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Schimbarea unui cuvânt
+									<div id="ul_1g" class="closed">
+										<p>Schimbați un cuvânt prin atingerea acestuia, apoi selectând cuvântul dorit din Lista pentru alegerea cuvintelor sau, pur și simplu, evidențiind cuvântul și trăgând un cuvânt nou. Cuvântul nou îl va înlocui pe cel incorect.</p>
+										<p>Un cuvânt poate fi selectat prin apăsarea acestuia și atingerea <img src="img_swypekey.png" /> sau apăsarea de două ori a cuvântului.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Evitarea literelor
+									<div id="ul_1h" class="closed">
+										<p>Evitarea literelor uneori când Swype asigură din prima cuvântul dorit.</p>
+										<p>De exemplu, „aflei” și „alei” pot fi scrise cu același traseu – dar observați că nu trebuie să treceți de la o literă la altă în linie dreaptă. Evitând litera „f” când trageți degetul la „l” va lista cuvântul „alei” în Lista pentru alegerea cuvintelor.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Caractere alternative
+									<div id="ul_1i" class="closed">
+
+										<p>Apăsați și mențineți apăsarea tastei pentru a aduce în prim&#45;plan o listă de caractere alternative pentru acea tastă, cum ar fi litere accentuate, ca de exemplu â și ș, simboluri ca @ și % și cifre.</p>
+
+										<p>Apăsați tasta Simboluri (?123) pentru a vă duce la tastatura Simboluri.</p>
+										<p>Rețineți, TOATE aceste caractere pot fi trasate de pe tastatura principală (indiferent că le puteți vedea sau nu). Puteți trasa folosind această vizualizare a tastaturi, însă veți obține numai cuvintele care conțin cel puțin o cifră sau un simbol.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Adăugarea și ștergerea cuvintelor
+									<div id="ul_1j" class="closed">
+										<p>Swype adaugă în mod inteligent în Dicționarul dumne personal cuvintele noi pe care le folosiți.</p>
+										<p>Puteți de asemenea adăuga un cuvânt prin selectarea acestuia și apăsarea <img src="img_swypekey.png" /> . Atingeți sugestia care apare pentru adăugarea cuvântului.</p>
+										<p>Pentru a șterge un cuvânt, apăsați și mențineți apăsat cuvântul din Lista pentru alegerea cuvintelor, apoi apăsați OK în fereastra de dialog pentru confirmare. Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalizare
+									<div id="ul_1k" class="closed">
+										<p>Swype poate adăuga rapid cuvintele în dicționar de la Facebook, Twitter și Gmail. Pentru personalizarea Swype:</p>
+										<ol>
+											<li>Apăsați și mențineți apăsarea tastei <img src="img_swypekey.png" /> .</li>
+											<li>Din meniul Setări Swype selectați Personalizare.</li>
+											<li>Selectați din opțiunile de personalizare și introduceți&#45;vă autorizările dacă vi se cere acest lucru.</li>
+											<li>Puteți personaliza Swype dintr&#45;o sursă sau din toate.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Vorbire</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Puteți vorbi pentru a introduce conținut text pentru toate, de la mesaje text și e&#45;mail, la actualizări Facebook și Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Aflați mai multe <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Semne de punctuație
+									<div id="ul_2a" class="open">
+										<p>Nu este necesară introducerea manuală a punctuației. Trebuie doar să rostiți punctuația pe care o doriți și să continuați. Încercați astfel:</p>
+										<ol>
+											<li>Apăsați tasta vocală și începeți să vorbiți.</li>
+											<li>Ceea ce rostiți: <i>Cina a fost delicioasă semnul exclamării</i></li>
+											<li>Ceea ce obțineți: <i>Cina a fost delicioasă!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Introducerea vocală nu este disponibilă la unele tastaturi</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Scriere</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Puteți trage cu degetul litere și cuvinte, iar Swype le va transforma în text. Puteți trage litere de la stânga la dreapta sau una deasupra celeilalte. Apăsați ABC / 123 pentru a comuta între modul litere și simboluri.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Aflați mai multe <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Activare scris de mână
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Apăsați și mențineți apăsarea tastei <img src="img_symkey.png" /> și glisați degetul la pictograma Scris de mână.</li>
+											<li>Trageți literele cu degetul în zona pentru scris de mână.</li>
+
+											<li>Apăsați bara de spațiu după fiecare cuvânt</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gest cu atingeri multiple
+									<div id="ul_3b" class="closed">
+										<p>Gestul cu atingeri multiple vă permite să realizați sarcini simple, cum ar fi transformarea în majuscule a cuvintelor sau literelor.</p>
+										<ol>
+											<li>Trasa câteva litere minuscule pe spațiul pentru desenare</li>
+											<li>După introducerea caracterelor, glisați două degete în sus, pe suprafața pentru scriere</li>
+											<li>Caracteristica scris de mână va recunoaște gestul cu atingeri multiple și va transforma literele în majuscule</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Scrisul de mână nu este disponibil la unele tastaturi.</i></p>
+									<p><i>Această functie nu este disponibilă atunci când serviciul de accesibilitate a sistemului Explorare&#45;prin&#45;Atingere este activat.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Tastați</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Forma tradițională de introducere manuală de la tastatură. Introducerea prin apăsare pe tastatura Swype se realizează mai ușor și mai eficient cu ajutorul unor caracteristici utile:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Aflați mai multe <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Corectarea tastării greșite
+									<div id="ul_4a" class="open">
+										<p>Nu trebuie să apăsați corect fiecare literă. Faceți tot ce puteți, iar Swype vă va furniza sugestii pentru cuvinte.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Terminare a cuvântului
+									<div id="ul_4b" class="closed">
+										<p>Swype poate, de asemenea, ghici cuvântul dacă ați apăsat numai câteva litere.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Limbi</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Pentru a comuta limbile de la tastatură: Apăsați și mențineți apăsarea barei de spațiu. Selectați limba dorită din meniul derulant.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect ne permite să transmitem actualizări și funcționalitate îmbunătățită direct către dispozitivul dvs.! Deși Swype Connect va funcționa în rețele 3G, noi recomandăm întotdeauna găsirea unei conexiuni WiFi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Aflați mai multe <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Descărcări limbi
+									<div id="ul_6a" class="open">
+										<p>Adăugarea limbilor suplimentare la Swype este ușoară:</p>
+										<ol>
+											<li>Apăsați și mențineți apăsarea tastei <img src="img_swypekey.png" /> și selectați Limbi.</li>
+											<li>Din meniul Limbi, selectați Descărcare limbi.</li>
+											<li>Aasati pe o limbă, iar descărcarea va începe automat.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect nu este disponibil la toate tastaturile.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Mai mult ajutor</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Pentru ajutor suplimentar privind utilizarea Swype, consultați un manual de utilizare pentru Swype și urmăriți Sfaturi și videoclipuri Swype la <a href="http://www.swype.com">www.swype.com</a> sau vizitați forumul Swype online la www.<a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

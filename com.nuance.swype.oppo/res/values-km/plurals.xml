@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d ពាក្យ​​នឹង​ត្រូវ​បាន​លុប</item>
+        <item quantity="one">ពាក្យ​​មួយ​នឹង​ត្រូវ​បាន​លុប។</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">%d ថ្ងៃ​មុន</item>
+        <item quantity="one">%d ថ្ងៃ​មុន</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">%d ម៉ោង​មុន</item>
+        <item quantity="one">%d ម៉ោង​មុន</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">%d នាទី​មុន</item>
+        <item quantity="one">%d នាទី​មុន</item>
+    </plurals>
+</resources>

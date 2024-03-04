@@ -1,0 +1,334 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html dir="rtl">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<!-- include RTL language css overrides -->
+		<link rel="stylesheet" href="style_help_rtl.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">گفتن</a></div>
+				<div><a href="#write">نوشتن</a></div>
+				<div class="last"><a href="#tap">ضربه</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">با Swype می توانید به راحتی بین چهار حالت ورودی &#45; Swype، گفتن، نوشتن یا ضربه زدن &#45; بچرخید.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype یک شیوه سریع برای وارد کردن متن است. به شما امکان می دهد تا یک کلمه را با کشیدن بر روی حروفش وارد کنید. انگشت خود را بر روی اولین حرف کلمه قرار دهید و مسیری از حرف به حرف بکشید و بعد از آخرین حرف انگشت خود را بردارید. Swype وقتی لازم باشد فاصله می زند.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							بیشتر بدانید <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									کلید Swype
+									<div id="ul_1a" class="open">
+										<p>کلید Swype کلیدی است که آرم Swype بر روی آن قرار دارد. برای دستیابی به تنظیمات Swype کلید Swype را فشار داده و نگه دارید.</p>
+										<p>از کلید Swype همچنین برای باز کردن بسیاری از قابلیت های Swype می توان استفاده کرد.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    پیش نمایش صفحه کلید
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									حالت های Swype
+									<div id="ul_1b" class="closed">
+										<p>حالات Swype میانبرهایی بر روی صفحه کلید برای کامل کردن سریع کارهای معمولی است. وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</p>
+										<ul>
+											<li><span class="gestures">رفتن به صفحه کلید ویرایش</span> برای باز کردن صفحه کلید ویرایش از کلید <img src="img_swypekey.png" /> به کلید علائم (?123) روی صفحه کلید Swype کنید.</li>
+											<li><span class="gestures">رفتن به صفحه کلید عددی</span> برای باز کردن سریع صفحه کلید عددی، از <img src="img_swypekey.png" /> به عدد 5 Swype کنید.</li>
+											<li><span class="gestures">مخفی کردن صفحه کلید</span> برای اینکه صفحه کلید را به آسانی مخفی کنید، کافی است از کلید Swype به کلید حذف فاصله Swype کنید.</li>
+
+											<li><span class="gestures">خاموش کردن فاصله زدن خودکار</span> با خط کشی بین حروف از کلید فاصله به کلید حذف فاصله می توان فاصله گذاری خودکار قبل از کلمه بعدی را خاموش کرد.</li>
+
+
+											<li><span class="gestures">نشانه گذاری</span> یک روش ساده برای ورود نشانه گذاری، بجای ضربه زدن، خط کشی بین حروف از علامت سؤال، کاما، نقطه یا دیگر علائم نشانه گذاری به کلید فاصله است.</li>
+
+											<li><span class="gestures">میانبرهای برنامه</span>نقشه های Google: از <img src="img_swypekey.png" /> m&#39;به وبعدg&#39;&#39; m&#39;m&#39;کنید.</li>
+											<li><span class="gestures">جستجو</span>برای جستجوی سریع در وب، متنی را برجسته کنید و از <img src="img_swypekey.png" /> به S Swype کنید.</li>
+											<li><span class="gestures">از انتقال به آخرین زبان استفاده شده است.</span>هنگام استفاده از چند زبان، یک روش سریع برای بازگشت به زبان قبلی Swype کردن از <img src="img_swypekey.png" /> به کلید فاصله است.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									نوشتن حروف دوتایی
+									<div id="ul_1n" class="closed">
+										<p>برای وارد کردن حروف دوتایی، به آرامی بکشید یا یک چرخ بر روی حرف بزنید. برای مثال، برای نوشتن &quot;وو&quot; و &quot;دوو&quot; بر روی کلید &quot;و&quot; مکث کنید. وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									انتخاب یک کلمه
+									<div id="ul_1d" class="closed">
+										<p>برای پذیرفتن کلمه پیشنهادی در فهرست انتخاب کلمه، فقط به Swype کردن ادامه دهید. در غیر اینصورت، با کشیدن انگشت خود در فهرست حرکت کنید و کلمه ای که می خواهید را انتخاب کنید. وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</p>
+<p>  
+
+
+تنها وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس است.
+</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									فاصله گذاری خودکار
+									<div id="ul_1f" class="closed">
+										<p>وقتی شما کلمه بعدی را در جمله Swype می کنید، Swype بطور خودکار بین کلمه ها فاصله می گذارد. می توانید ویژگی فاصله گذاری خودکار را در تنظیمات Swype روشن یا خاموش کنید.</p>
+										<p>با Swype کردن از کلید فاصله به کلید حذف می توان فاصله گذاری خودکار را برای یک کلمه خاموش کرد.</p>
+										<p>وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									جایگزین کردن یک کلمه
+									<div id="ul_1g" class="closed">
+										<p>یک کلمه را با ضربه زدن بر روی آن جایگزین کنید و سپس کلمه ای که می خواهید را از فهرست انتخاب کلمه انتخاب کنید یا فقط کلمه را برجسته کرده و یک کلمه جدید Swype کنید. کلمه جدید جایگزین کلمه نادرست خواهد شد.</p>
+										<p>با ضربه زدن بر روی کلمه یا زدن <img src="img_swypekey.png" /> یا دو بار ضربه زدن بر روی کلمه می توان آن را برجسته کرد.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									حرکت میان حروف
+									<div id="ul_1h" class="closed">
+										<p>برخی اوقات، اجتناب کردن از حروف هنگام Swype کردن به شما اطمینان می دهد که کلمه ای که می خواهید را همان ابتدا بگیرید.</p>
+										<p>برای مثال، &quot;بانک&quot; و &quot;بلک&quot; را می توان با یک مسیر مشابه نوشت &#45; اما توجه کنید، شما نباید حرف به حرف در یک مسیر مستقیم حرکت کنید. با اجتناب کردن از &quot;ن&quot; زمانی که انگشت خود را به &quot;ک&quot; حرکت می دهید اطمینان حاصل می کند که کلمه &quot;بلک&quot; اولین گزینه در فهرست انتخاب کلمه باشد.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									انتخاب سریعتر کلمه
+									<div id="ul_1i" class="closed">
+
+										<p>جهت مشاهده سایرکاربردهای یک کلید، مانند نشانه هایی چون % و @، کلید مورد نظررا فشار داده و نگهدارید.</p>
+
+										<p>بر روی کلید علائم (=!+) ضربه بزنید تا به صفحه کلید علائم آورده شوند.</p>
+										<p>توجه کنید که همه نوشته ها از صفحه کلید اصلی قابل Swype کردن هستند (چه آنها را ببینید یا اینکه نبینید). با استفاده از این نمای صفحه کلید می توانید Swype کنید اما تنها کلماتی را خواهید گرفت که حداقل یک عدد یا علامت دارند.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									افزودن یا حذف کردن کلمات
+									<div id="ul_1j" class="closed">
+										<p>Swype بطور هوشمندانه کلمات جدیدی که استفاده می کنید را به فرهنگ لغت شخصی می افزاید.</p>
+										<p>همچنین می توانید یک کلمه را با برجسته کردن آن و ضربه زدن بر روی <img src="img_swypekey.png" /> اضافه کنید. بر روی فرمانی که برای افزودن کلمه ظاهر می شود ضربه بزنید.</p>
+										<p>برای حذف کردن یک کلمه، آن را در فهرست انتخاب کلمه فشار داده و نگه دارید و سپس در پنجره تایید بر روی &quot;قبول&quot; ضربه بزنید. وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									شخصی سازی
+									<div id="ul_1k" class="closed">
+										<p>Swype می تواند کلمه را از Facebook، Twitter، Gmail به فرهنگ لغت شما اضافه کند. شخصی سازی Swype:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> را فشار داده و نگه دارید.</li>
+											<li>گزینه شخصی سازی را از فهرست تنظیمات Swype انتخاب کنید.</li>
+											<li>از گزینه های شخصی سازی انتخاب کنید و اگر درخواست شد مشخصات اعتباری خود را وارد کنید.</li>
+											<li>می توانید Swype را از یک یا همه منابع شخصی سازی کنید.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">گفتن</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>می توانید محتوای متنی همه چیز از پیامک و ایمیل تا به روزآوریهای Facebook و Twitter را با گفتن آن وارد کنید.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							بیشتر بدانید <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									نشانه گذاری
+									<div id="ul_2a" class="open">
+										<p>نیازی به افزودن دستی نشانه گذاریها نیست. فقط نشانه هایی که می خواهید را بگویید و ادامه دهید. به این نمونه توجه کنید:</p>
+										<ol>
+											<li>کلید صدا را فشار دهید و شروع به صحبت کردن کنید.</li>
+											<li>این را بگویید: <i>شام خوشمزه بود علامت تعجب</i></li>
+											<li>نتیجه این می شود: <i>شام خوشمزه بود!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>ورودی صوتی در برخی صفحه کلیدها موجود نیست</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">نوشتن</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>می توانید از انگشت خود برای کشیدن حروف و کلمات استفاده کنید و Swype آن را به متن تبدیل می کند. می توانید حروف را از چپ به راست یا از بالای یکدیگر بکشید. برای چرخش میان حرف و حالت علامت کلیدَ ABC /123 را فشار دهید.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							بیشتر بدانید <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									فعال کردن دست نویس
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>کلید <img src="img_symkey.png" /> را فشار داده و نگهدارید و انگشت خود را به روی تصویر دستنویس بکشید.</li>
+											<li>در ناحیه دست نویس حروف را با انگشت خود بکشید.</li>
+
+											<li>نوار فاصله را بین هر کلمه بزنید</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									حالت چند لمسی
+									<div id="ul_3b" class="closed">
+										<p>حالت چند لمسی به شما اجازه می دهد تا کارهای ساده مانند بزرگ و کوچکی کلمات یا حروف را انجام دهید.</p>
+										<ol>
+											<li>چند حرف کوچک در صفحه بکشید</li>
+											<li>بعد از وارد کردن حروف دو انگشت را به سمت بالادر صفحه نوشتن بکشید</li>
+											<li>قابلیت دست نویس حالت چند لمسی را تشخیص خواهد داد و حروف را بزرگ خواهد کرد</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>دست نویس در برخی صفحه کلیدها موجود نیست.</i></p>
+									<p><i>وقتی خدمات دسترسی به سیستم کاوش لمسی روشن است این ویژگی در دسترس نیست.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">ضربه</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>شکل سنتی وارد کردن دستی صفحه کلید. ورود با ضربه در صفحه کلید Swype آسانتر شده است و توسط برخی قابلیت های مفید کارآیی بیشتری پیدا کرده است:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							بیشتر بدانید <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									اصلاح تایپ به هم ریخته
+									<div id="ul_4a" class="open">
+										<p>لازم نیست که همه حروف را درست تایپ کنید. فقط نهایت تلاش خود را بکنید و Swype بطور هوشمندانه کلمات را به شما پیشنهاد خواهد کرد.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									تکمیل کلمه
+									<div id="ul_4b" class="closed">
+										<p>Swype همچنین می تواند کلمات را وقتی تنها چند حرف زده اید حدس بزند.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">زبان ها</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>برای چرخش زبان ها از صفحه کلید: نوار فاصله را فشار داده و نگه دارید. زبان مورد نظرتان را از فهرست پنجرهای که بازمی شود انتخاب کنید.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect به ما امکان می دهد تا به روزآوریها و قابلیت های قدرتمند را به دستگاه شما برسانیم! در حالیکه Swype Connect بر روی شبکه 3G کار می کند، ما همیشه توصیه می کنیم از اتصال وای فای استفاده کنید.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							بیشتر بدانید <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									بارگیری زبان
+									<div id="ul_6a" class="open">
+										<p>افزودن زبان های دیگر به Swype آسان است:</p>
+										<ol>
+											<li> <img src="img_swypekey.png" /> را فشار داده و نگه دارید و گزینه های زبان را انتخاب کنید.</li>
+											<li>از فهرست گزینه های زبان، بارگیری زبان ها را انتخاب کنید.</li>
+											<li>بر روی یک زبان کلیک کنید و بارگیری بطور خودکار آغاز می شود.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect در همه صفحه کلیدها موجود نیست.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">راهنمایی بیشتر</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>برای راهنمایی بشتر درباره استفاده از Swype، راهنمای کاربر Swype و نکات و ویدیوهای Swype را در <a href="http://www.swype.com">www.swype.com</a> ببینید، یا به فروم آنلاین Swype در نشانی <a href="http://forum.swype.com">forum.swype.com</a>مراجعه کنید.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

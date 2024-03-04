@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyWidth="@fraction/default_12_key_tablet_width" ns:letterLanguageCategory="indic" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_edit" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackKeypad" ns:keyIcon="?tabletSymKeyboardKeypad" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_అ" ns:keyLabel="అ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఆ" ns:keyLabel="ఆ" ns:altKeyLabel="ఆ" ns:shiftedKeyLabel="ా" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఇ" ns:keyLabel="ఇ" ns:altKeyLabel="ఇ" ns:shiftedKeyLabel="ి" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఈ" ns:keyLabel="ఈ" ns:altKeyLabel="ఈ" ns:shiftedKeyLabel="ీ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఉ" ns:keyLabel="ఉ" ns:altKeyLabel="ఉ" ns:shiftedKeyLabel="ు" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఊ" ns:keyLabel="ఊ" ns:altKeyLabel="ఊ" ns:shiftedKeyLabel="ూ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఎ" ns:keyLabel="ఎ" ns:altKeyLabel="ఎ" ns:shiftedKeyLabel="ె" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఏ" ns:keyLabel="ఏ" ns:altKeyLabel="ఏ" ns:shiftedKeyLabel="ే" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఐ" ns:keyLabel="ఐ" ns:altKeyLabel="ఐ" ns:shiftedKeyLabel="ై" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఒ" ns:keyLabel="ఒ" ns:altKeyLabel="ఒ" ns:shiftedKeyLabel="ొ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఓ" ns:keyLabel="ఓ" ns:altKeyLabel="ఓ" ns:shiftedKeyLabel="ో" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_top" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ఔ" ns:keyLabel="ఔ" ns:altKeyLabel="ఔ" ns:shiftedKeyLabel="ౌ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_top" ns:keyWidth="@fraction/delete_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_delete" ns:keyEdgeFlags="right" ns:isRepeatable="false" ns:iconPreview="?symKeyboardFeedbackDelete" ns:keyIcon="?tabletSymKeyboardDelete" ns:altPreviewIcon="?symKeyboardFeedbackDeleteWord" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_tab" ns:keyEdgeFlags="left" ns:iconPreview="?symKeyboardFeedbackTab" ns:keyIcon="?tabletSymKeyboardTab" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_క" ns:keyLabel="క" ns:altKeyLabel="క" ns:shiftedKeyLabel="ఖ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_గ" ns:keyLabel="గ" ns:altKeyLabel="గ" ns:shiftedKeyLabel="ఘ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_చ" ns:keyLabel="చ" ns:altKeyLabel="చ" ns:shiftedKeyLabel="ఛ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_జ" ns:keyLabel="జ" ns:altKeyLabel="జ" ns:shiftedKeyLabel="ఝ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_్" ns:keyLabel="్" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ట" ns:keyLabel="ట" ns:altKeyLabel="ట" ns:shiftedKeyLabel="ఠ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_డ" ns:keyLabel="డ" ns:altKeyLabel="డ" ns:shiftedKeyLabel="ఢ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_త" ns:keyLabel="త" ns:altKeyLabel="త" ns:shiftedKeyLabel="థ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ద" ns:keyLabel="ద" ns:altKeyLabel="ద" ns:shiftedKeyLabel="ధ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_న" ns:keyLabel="న" ns:altKeyLabel="న" ns:shiftedKeyLabel="ణ" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_key_mid" ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ం" ns:keyLabel="ం" ns:altKeyLabel="ం" ns:shiftedKeyLabel="ః" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key_mid" ns:keyWidth="@fraction/return_12_11_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyTextSize="@dimen/key_label_text_size" ns:keyTextColor="?funcKeyTextColor" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:iconPreview="?symKeyboardFeedbackReturn" ns:keyIcon="?tabletSymKeyboardReturn" />
+    </Row>
+    <Row>
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift" ns:keyEdgeFlags="left" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ప" ns:keyLabel="ప" ns:altKeyLabel="ప" ns:shiftedKeyLabel="ఫ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_బ" ns:keyLabel="బ" ns:altKeyLabel="బ" ns:shiftedKeyLabel="భ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_మ" ns:keyLabel="మ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_య" ns:keyLabel="య" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ర" ns:keyLabel="ర" ns:altKeyLabel="ర" ns:shiftedKeyLabel="ృ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_ల" ns:keyLabel="ల" ns:altKeyLabel="ల" ns:shiftedKeyLabel="ళ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_వ" ns:keyLabel="వ" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_శ" ns:keyLabel="శ" ns:altKeyLabel="శ" ns:shiftedKeyLabel="ష" />
+        <Key ns:popupCharacters="@string/alternates_for_telugu_alphabetic_స" ns:keyLabel="స" ns:altKeyLabel="స" ns:shiftedKeyLabel="హ" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyLabel="\@" />
+        <Key ns:keyBackground="@drawable/btn_keyboard_action_key" ns:keyWidth="@fraction/shift_12_10_key_tablet_width" ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_shift_right" ns:keyEdgeFlags="right" ns:isModifier="true" ns:isSticky="true" ns:iconPreview="@drawable/sym_keyboard_cycle_shift_feedback" ns:keyIcon="@drawable/sym_keyboard_cycle_shift" />
+    </Row>
+    <include ns:src="@xml/kbd_bottom_row_telugu_alphabetic_tablet" />
+</KeyboardEx>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nuance.swype.input.japanese.JapaneseWordListViewContainer android:orientation="horizontal" android:background="?keyboardSuggestStripHandwriting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/phrase_layout_window" android:layout_width="wrap_content" android:layout_height="@dimen/candidates_list_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/phrase_candidate_left" android:background="@drawable/pressable_background_highlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowLeft" />
+        </LinearLayout>
+        <com.nuance.swype.input.chinese.CJKCandidatesListView android:id="@id/cjk_candidates" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/phrase_candidate_right" android:background="@drawable/pressable_background_highlight" android:clickable="true" android:layout_width="@dimen/cjk_candidates_arrow_width" android:layout_height="fill_parent" android:src="?cjkSuggestStripArrowRight" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nuance.swype.input.japanese.JapaneseWordListViewContainer>

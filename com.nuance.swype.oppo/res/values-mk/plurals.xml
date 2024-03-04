@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">Ќе се избришат %d зборови</item>
+        <item quantity="one">Еден збор ќе биде избришан.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">Пред %d денови</item>
+        <item quantity="one">Пред %d ден</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">Пред %d часови</item>
+        <item quantity="one">Пред %d час</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">Пред %d минути</item>
+        <item quantity="one">Пред %d минута</item>
+    </plurals>
+</resources>

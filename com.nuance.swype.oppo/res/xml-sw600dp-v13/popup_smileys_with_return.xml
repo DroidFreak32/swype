@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardEx ns:keyBackground="@drawable/btn_keyboard_popup_key" ns:keyWidth="15.999996%p" ns:keyTextSize="@dimen/popup_preview_key_label_size" ns:keyTextColor="@color/color_popup_text" ns:keyboardForcedHeight="-1.0px" xmlns:ns="http://schemas.android.com/apk/res-auto">
+    <Row ns:rowEdgeFlags="top">
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyOutputText=":-)" ns:keyLabel=":-)" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_smiley_key_long" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":-(" ns:keyLabel=":-(" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_crying_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=";-)" ns:keyLabel=";-)" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_wink_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":-P" ns:keyLabel=":-P" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_tongue_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="right" ns:keyOutputText="=-O" ns:keyLabel="=-O" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_surprise_key" />
+    </Row>
+    <Row>
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyOutputText=":-*" ns:keyLabel=":-*" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_kiss_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":O" ns:keyLabel=":O" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_shouting_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText="B-)" ns:keyLabel="B-)" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_cool_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":-$" ns:keyLabel=":-$" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_money_mouth_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="right" ns:keyOutputText=":-!" ns:keyLabel=":-!" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_foot_in_mouth_key" />
+    </Row>
+    <Row ns:rowEdgeFlags="bottom">
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyEdgeFlags="left" ns:keyOutputText=":-[" ns:keyLabel=":-[" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_embarrassed_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":-\\" ns:keyLabel=":-\\" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_annoyed_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":'(" ns:keyLabel=":'(" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_crying_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:keyOutputText=":-D" ns:keyLabel=":-D" ns:accessibilitylabel="@string/accessibility_label_for_emoticons_laughing_key" />
+        <Key ns:keyContentBaseline="@dimen/key_content_no_baseline" ns:codes="@integer/keycode_enter" ns:keyEdgeFlags="right" ns:keyIcon="?tabletSymKeyboardReturn" ns:accessibilitylabel="@string/accessibility_enter" />
+    </Row>
+</KeyboardEx>

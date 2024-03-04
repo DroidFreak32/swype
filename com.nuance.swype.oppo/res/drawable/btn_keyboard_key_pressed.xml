@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?btnKeyboardKeyPressed" />
+    <item android:drawable="?glow" android:left="?glowStretch" android:top="?glowStretch" android:right="?glowStretch" android:bottom="?glowStretch" />
+</layer-list>

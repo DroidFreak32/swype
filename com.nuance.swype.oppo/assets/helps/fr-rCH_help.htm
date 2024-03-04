@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Parler</a></div>
+				<div><a href="#write">Écrire</a></div>
+				<div class="last"><a href="#tap">Taper</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Avec Swype, vous avez la possibilité de basculer aisément entre quatre modes de saisie différents &#45; Swypez, Parlez, Écrivez ou Appuyez.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype est un moyen rapide de saisir du texte. Il vous permet d’entrer un mot en reliant les lettres sur le clavier. Placez votre doigt sur la première lettre du mot et faites&#45;le glisser de lettres en lettre. Relevez le doigt après la dernière lettre. Les espaces seront insérés automatiquement lorsque nécessaire.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							En savoir plus <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									La touche Swype
+									<div id="ul_1a" class="open">
+										<p>La touche Swype est la touche qui porte le logo Swype. Pour accéder aux Paramètres de Swype, appuyez sur la touche Swype et maintenez&#45;la enfoncée.</p>
+										<p>La touche Swype est également utilisée pour initier plusieurs des gestes Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Aperçu clavier
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Gestes Swype
+									<div id="ul_1b" class="closed">
+										<p>Les gestes Swype sont des raccourcis clavier permettant d&#39;accomplir rapidement des taches courantes. Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+										<ul>
+											<li><span class="gestures">Accéder au clavier de modification</span> Pour afficher le clavier de modification, swypez de la touche <img src="img_swypekey.png" /> vers la touche Symboles (?123) sur le clavier.</li>
+											<li><span class="gestures">Accéder au clavier numérique</span> Pour accéder rapidement au clavier numérique, swypez de la touche <img src="img_swypekey.png" /> vers le chiffre 5.</li>
+											<li><span class="gestures">Cacher le clavier</span> Pour cacher le clavier, il suffit de swyper de la touche Swype à la touche Retour.</li>
+
+											<li><span class="gestures">Désactiver l&#39;espacement automatique</span> Pour supprimer l&#39;espacement automatique avant le mot suivant, swypez de la touche «Espace» à la touche «Retour».</li>
+
+
+											<li><span class="gestures">Modification de la taille de case d&#39;un mot</span> Pour changer la taille d’un mot déjà saisi il suffit de taper dessus puis de faire glisser votre doigt de la touche <img src="img_swypekey.png" /> à la touche Maj <img src="img_shiftkey.png" /> . Une Liste de choix de mots avec des options s’affiche, qui vous offre le choix entre minuscules, Initiale en majuscule ou TOUT EN MAJ.</li>
+
+											<li><span class="gestures">Ponctuation</span> Une façon simple de saisir la ponctuation est de swyper du point d&#39;interrogation, virgule, point, ou autres signes de ponctuation vers la touche «Espace» au lieu d&#39;appuyer sur la touche correspondante.</li>
+
+											<li><span class="gestures">Sélectionner tout, Couper, Copier et Coller</span>
+												Sélectionner tout: Swyper de la touche <img src="img_swypekey.png" /> vers la touche «a»<br />
+												Couper: Swyper de la touche <img src="img_swypekey.png" /> vers la touche «x»<br />
+												Copier: Swyper de la touche <img src="img_swypekey.png" /> vers la touche «c»<br />
+												Coller: Swyper de la touche <img src="img_swypekey.png" /> vers la touche «v»
+											</li>
+
+											<li><span class="gestures">Raccourcis d&#39;application</span>Google Maps: Swyper de la touche <img src="img_swypekey.png" /> vers la touche «g», puis «m»</li>
+											<li><span class="gestures">Recherche</span>Mettre le texte en surbrillance et Swyper de <img src="img_swypekey.png" /> jusqu&#39;au S pour faire une recherche rapide sur Internet.</li>
+											<li><span class="gestures">Retour à la dernière langue utilisée.</span>Lorsque vous utilisez plusieurs langues, revenez rapidement à la langue précédente en swypant de <img src="img_swypekey.png" /> vers la touche espace.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Entrer des doubles lettres
+									<div id="ul_1n" class="closed">
+										<p>Pour plus de précision lors de la saisie d&#39;une double lettre, griffonnez quelques instants ou faites une boucle sur la lettre. Par exemple, pour entrer les «ll» de «fille», griffonnez quelques instants sur la touche «l». Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Choisir un mot
+									<div id="ul_1d" class="closed">
+										<p>Pour accepter la suggestion par défaut dans la Liste de choix de mots, il suffit de continuer à Swyper. Sinon, faites glisser votre doigt sur la liste jusqu’au mot que vous souhaitez sélectionner. Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+<p>Pour sélectionner du texte dans une liste, faites un mouvement circulaire avec le doigt pour entendre le contenu de la liste. Un mouvement horaire avance dans la liste, un mouvement antiphonaire remonte dans la liste.  
+Levez le doigt pour sélectionner la dernière entrée vocalisée.
+Pour choisir un mot dans la Liste de choix de mots, faites glisser votre doigt au&#45;dessus du clavier jusqu&#39;à ce que vous entendiez le premier mot de la liste puis commencez le mouvement circulaire.
+Cette fonction est disponible uniquement lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Mettre les mots en majuscule
+									<div id="ul_1e" class="closed">
+										<p>Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+										<p>Quand vous Swypez, vous pouvez mettre un mot en majuscule en faisant glisser votre doigt de la première lettre à la suivante en sortant de la zone de clavier par le haut.</p>
+										<p>Pour changer la taille d’un mot déjà saisi il suffit de taper dessus puis de faire glisser votre doigt de la touche <img src="img_swypekey.png" /> à la touche Maj <img src="img_shiftkey.png" /> . Une Liste de choix de mots avec des options s’affiche, qui vous offre le choix entre minuscules, Initiale en majuscule ou TOUT EN MAJ.</p>
+										<p>Pour activer le verrouillage des majuscules, appuyez simplement deux fois sur la touche Maj <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Espacement automatique
+									<div id="ul_1f" class="closed">
+										<p>Un espace est automatiquement inséré entre les mots, lorsque vous tracez le mot suivant de la phrase. Vous pouvez activer ou désactiver la fonction d&#39;espacement automatique à partir des Paramètres de Swype.</p>
+										<p>Il est possible de désactiver l&#39;espacement automatique pour un mot en Swypant de la touche Espace à la touche Retour.</p>
+										<p>Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Remplacer un mot
+									<div id="ul_1g" class="closed">
+										<p>Pour remplacer un mot, appuyez dessus, puis choisissez le mot à insérer dans la Liste de choix de mots, ou mettez&#45;le tout simplement en surbrillance et Swyper un nouveau mot. Le nouveau mot remplacera le mot incorrect.</p>
+										<p>Un mot peut être mis en surbrillance en appuyant dessus puis en appuyant sur la touche <img src="img_swypekey.png" /> ou en double cliquant sur le mot.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Éviter les lettres
+									<div id="ul_1h" class="closed">
+										<p>Parfois, en évitant certaines lettres en Swypant, vous obtenez le mot que vous voulez à la première tentative.</p>
+										<p>Par exemple, «pire» et «pure» peuvent s’écrire en suivant le même trajet, mais remarquez que vous n’avez pas besoin de faire glisser votre doigt de lettre en lettre en ligne droite. Si vous évitez le «i» en glissant vers le «u», vous aurez l’assurance de trouver «pure» en tête de la Liste de choix de mots.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Caractères supplémentaires
+									<div id="ul_1i" class="closed">
+
+										<p>Maintenez une touche enfoncée pour faire apparaître la liste des caractères spéciaux correspondants, tels que les lettres accentuées «é» et «à», les symboles «@» et «%» et les chiffres.</p>
+
+										<p>Appuyez sur la touche Symboles (?123) pour accéder au clavier des symboles.</p>
+										<p>Notez que TOUS les caractères (visibles ou non) peuvent être Swypés à l&#39;aide du clavier principal. Vous pouvez Swyper des mots en utilisant cette vue du clavier, mais seuls les mots comportant au moins un chiffre ou un symbole seront proposés.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Ajout et suppression de mots
+									<div id="ul_1j" class="closed">
+										<p>Swype ajoute intelligemment les nouveaux mots utilisés à votre dictionnaire personnel.</p>
+										<p>Vous pouvez aussi ajouter un mot en le mettant en surbrillance puis en appuyant sur la touche <img src="img_swypekey.png" /> . Appuyez sur le message qui s’affiche pour ajouter le mot.</p>
+										<p>Pour supprimer un mot, appuyez sur ce mot dans la Liste de choix de mots et maintenez&#45;le enfoncé, puis appuyez sur OK dans la boîte de dialogue de confirmation. Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personnalisation
+									<div id="ul_1k" class="closed">
+										<p>Swype peut rapidement ajouter des mots à votre dictionnaire à partir de Facebook, Twitter, et Gmail. Pour personnaliser Swype:</p>
+										<ol>
+											<li>Maintenir la touche <img src="img_swypekey.png" /> enfoncée.</li>
+											<li>À partir du menu Paramètres de Swype, sélectionnez Personnalisation.</li>
+											<li>Sélectionnez à partir des options de personnalisation et entrez vos identifiants lorsque vous y êtes invité.</li>
+											<li>Vous pouvez personnaliser Swype à partir d&#39;une ou de toutes les sources.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Parler</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Vous pouvez parler pour entrer du contenu ; du simple SMS au courrier électronique en passant par les mises à jour Facebook et Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							En savoir plus <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Ponctuation
+									<div id="ul_2a" class="open">
+										<p>Vous n&#39;avez pas besoin d&#39;ajouter manuellement la ponctuation. Contentez&#45;vous de dire le signe de ponctuation désiré et continuez. Essayer cela:</p>
+										<ol>
+											<li>Appuyez sur la touche commande vocale puis commencez à parler.</li>
+											<li>Dîtes: <i>Le dîner était délicieux point d&#39;exclamation</i></li>
+											<li>Vous obtenez: <i>Le dîner était délicieux!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>La saisie vocale n&#39;est pas disponible sur certains claviers</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Écrire</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Vous pouvez dessiner les lettres et mots du bout des doigts et Swype les transformera en texte. Vous pouvez dessiner les lettres de gauche à droite ou les unes au&#45;dessus des autres. Appuyez sur la touche ABC/123 pour entrer alternativement des chiffres et des lettres.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							En savoir plus <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Activer l&#39;écriture manuscrite
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Appuyer sur et maintenir <img src="img_symkey.png" /> et glisser votre doigt vers l&#39;icône d&#39;écriture.</li>
+											<li>Dessinez les lettres avec le doigt dans la zone d&#39;écriture.</li>
+
+											<li>Appuyez sur la barre d&#39;espacement entre chaque mot</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Gestes Multi&#45;Touch
+									<div id="ul_3b" class="closed">
+										<p>La fonction «Gestes Multi&#45;Touch» vous permet d&#39;accomplir des tâches simples, telle que la capitalisation des mots ou des lettres.</p>
+										<ol>
+											<li>Dessinez des lettres minuscules sur le pavé tactile</li>
+											<li>Une fois le caractère entré, faites glisser deux doigts vers le haut dans la zone d&#39;écriture</li>
+											<li>La fonctionnalité «Écriture manuscrite» reconnaîtra le geste Multi&#45;Touch et mettra les lettres en majuscules</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Le mode «Écriture manuscrite» n&#39;est pas disponible sur certains claviers.</i></p>
+									<p><i>Cette fonction n&#39;est pas disponible lorsque le service de l&#39;accessibilité du système Découvrez&#45;en&#45;Touch est activé.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Taper</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>La saisie au clavier manuelle traditionnelle. La saisie au clavier Swype est rendue plus facile et plus efficace grâce à des fonctionnalités utiles:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							En savoir plus <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Correction des erreurs de saisie
+									<div id="ul_4a" class="open">
+										<p>Vous n&#39;avez pas besoin d&#39;appuyer sur chaque lettre parfaitement. Faites du mieux que possible et Swype vous suggérera intelligemment de choisir parmi plusieurs mots.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Mot complet
+									<div id="ul_4b" class="closed">
+										<p>Swype peut aussi deviner votre mot en appuyant sur seulement quelques lettres.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Langues</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Changer de langue à partir du clavier: Appuyez puis maintenez la barre d&#39;espacement enfoncée. Sélectionnez la langue souhaitée dans le menu contextuel.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect nous permet d&#39;offrir des mises à jour et de puissantes fonctionnalités directement sur votre appareil! Même si Swype Connect fonctionne sur des réseaux 3G, nous recommandons de privilégier une connexion Wi&#45;Fi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							En savoir plus <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Téléchargements des langues
+									<div id="ul_6a" class="open">
+										<p>Ajouter des langues supplémentaires à Swype est facile:</p>
+										<ol>
+											<li>Maintenez la touche <img src="img_swypekey.png" /> enfoncée puis sélectionner les options de langue.</li>
+											<li>À partir du menu «Options de langue», sélectionner «Télécharger des langues».</li>
+											<li>Cliquer sur une langue et votre téléchargement démarrera automatiquement.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect n&#39;est pas disponible sur tous les claviers.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Plus d&#39;aide</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Si vous avez besoin d&#39;aide supplémentaire pour utiliser Swype, reportez&#45;vous au Manuel d&#39;utilisateur Swype et aux Conseils et vidéos Swype sur <a href="http://www.swype.com">www.swype.com</a>, ou rendez&#45;vous sur le forum Swype sur <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

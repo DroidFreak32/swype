@@ -1,0 +1,344 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Ομιλία</a></div>
+				<div><a href="#write">Γραφή</a></div>
+				<div class="last"><a href="#tap">Χτύπημα</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Με το Swype μπορείτε να χρησιμοποιήσετε τέσσερις διαφορετικούς τρόπους εισαγωγής: ολίσθηση, ομιλία, γραφή, χτύπημα.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Το Swype είναι ένας γρήγορος τρόπος εισαγωγής κειμένου. Για να γράψετε μια λέξη, ενώστε τα γράμματά της με μια γραμμή. Αγγίξτε το πρώτο γράμμα μιας λέξης, γλιστρήστε το δάχτυλο πάνω από τα υπόλοιπα και σηκώστε το μετά την εισαγωγή του τελευταίου γράμματος. Το Swype εισάγει κενά διαστήματα όπου χρειάζεται.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Ακύρωση <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									Το πλήκτρο Swype
+									<div id="ul_1a" class="open">
+										<p>Το πλήκτρο Swype είναι το πλήκτρο με το λογότυπο του Swype. Κρατήστε πατημένο το πλήκτρο Swype για να μεταβείτε στις Ρυθμίσεις του Swype.</p>
+										<p>Το πλήκτρο Swype χρησιμοποιείται και στην αρχή πολλών χειρονομιών Swype.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Προεπισκόπηση πληκτρολογίου
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Χειρονομίες Swype
+									<div id="ul_1b" class="closed">
+										<p>Οι χειρονομίες Swype είναι συντομεύσεις πληκτρολογίου για γρήγορη εκτέλεση κοινών εργασιών. Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+										<ul>
+											<li><span class="gestures">Μετάβαση στο πληκτρολόγιο επεξεργασίας</span> Για μετάβαση στο πληκτρολόγιο επεξεργασίας, γλιστρήστε το δάχτυλο από το <img src="img_swypekey.png" /> στο πλήκτρο συμβόλων (?123).</li>
+											<li><span class="gestures">Μετάβαση στο πληκτρολόγιο αριθμών</span> Για γρήγορη μετάβαση στο πληκτρολόγιο αριθμών, γλιστρήστε το δάχτυλο από το <img src="img_swypekey.png" /> στον αριθμό 5.</li>
+											<li><span class="gestures">Απόκρυψη του πληκτρολογίου</span> Για εύκολη απόκρυψη του πληκτρολογίου, ολισθήστε από το πλήκτρο Swype στο πλήκτρο backspace.</li>
+
+											<li><span class="gestures">Απενεργοποίηση αυτόματης εισαγωγής διαστήματος</span> Ακυρώστε την αυτόματη εισαγωγή διαστήματος πριν την επόμενη λέξη γλιστρώντας από το πλήκτρο διαστήματος στο πλήκτρο Backspace.</li>
+
+
+											<li><span class="gestures">Επεξεργασία κεφαλαίων/πεζών μιας λέξης</span> Αλλάξτε μεταξύ πεζών/κεφαλαίων σε μια λέξη που εισάγατε, πατώντας στη λέξη και στη συνέχεια γλιστρώντας από το <img src="img_swypekey.png" /> στο πλήκτρο Shift <img src="img_shiftkey.png" /> . Θα εμφανιστεί μια Λίστα Επιλογής Λέξεων με συνδυασμούς κεφαλαίων/πεζών: πεζά, Πρώτο κεφαλαίο, ΟΛΑ ΚΕΦΑΛΑΙΑ.</li>
+
+											<li><span class="gestures">Στίξη</span> Αντί να χτυπήσετε ένα σημείο στίξης, είναι πιο απλό να γλιστρήσετε το δάχτυλο από ένα σημείο στίξης στο πλήκτρο διαστήματος..</li>
+
+											<li><span class="gestures">Συντομεύσεις εφαρμογών</span>Google Maps: Γλιστρήστε το δάχτυλο από το <img src="img_swypekey.png" /> στο «g» και έπειτα στο «m»</li>
+											<li><span class="gestures">Αναζήτηση</span>Επισημάνετε κάποιο κείμενο και κάντε Swype από τo <img src="img_swypekey.png" /> στο S για μια γρήγορη αναζήτηση στο διαδίκτυο.</li>
+											<li><span class="gestures">Εναλλαγή στη γλώσσα που χρησιμοποιήθηκε τελευταία.</span>Όταν χρησιμοποιείτε πολλαπλές γλώσσες, ένας γρήγορος τρόπος για να επιστρέψετε στην προηγούμενη γλώσσα είναι να κάνετε Swype από το εικονίδιο <img src="img_swypekey.png" /> στο πλήκτρο του διαστήματος.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Πληκτρολόγηση διπλών γραμμάτων
+									<div id="ul_1n" class="closed">
+										<p>Για ακριβέστερη εισαγωγή διπλών γραμμάτων τρεμοπαίξτε το δάχτυλο πάνω στο γράμμα ή κυκλώστε το. Για παράδειγμα, γράψτε το «λλ» της λέξης «φύλλα» τρεμοπαίζοντας το δάχτυλο πάνω στο «λ». Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Επιλογή λέξης
+									<div id="ul_1d" class="closed">
+										<p>Για να αποδεχθείτε την προτεινόμενη προεπιλεγμένη λέξη από τη Λίστα Επιλογής Λέξης, απλά συνεχίστε να γράφετε. Αλλιώς, μετακυλήστε με το δάχτυλο τη λίστα και επιλέξτε τη λέξη που θέλετε. Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+<p>  
+
+
+Αυτή η λειτουργία είναι διαθέσιμη μόνο όταν η υπηρεσία προσβασιμότητας του συστήματος Explore&#45;by&#45;Touch είναι ενεργοποιημένη.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Γραφή λέξεων με κεφαλαία
+									<div id="ul_1e" class="closed">
+										<p>Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+										<p>Για να γράψετε μια λέξη με κεφαλαία, γλιστρήστε το δάχτυλο από το πρώτο γράμμα της στην περιοχή πάνω από το πληκτρολόγιο και μετά, χωρίς να το σηκώσετε, στο επόμενο γράμμα της λέξης.</p>
+										<p>Αλλάξτε μεταξύ πεζών/κεφαλαίων σε μια λέξη που εισάγατε, πατώντας στη λέξη και στη συνέχεια γλιστρώντας από το <img src="img_swypekey.png" /> στο πλήκτρο Shift <img src="img_shiftkey.png" /> . Θα εμφανιστεί μια Λίστα Επιλογής Λέξεων με συνδυασμούς κεφαλαίων/πεζών: πεζά, Πρώτο κεφαλαίο, ΟΛΑ ΚΕΦΑΛΑΙΑ.</p>
+										<p>Για να ενεργοποιήσετε τη λειτουργία CAPS Lock (γραφή με κεφαλαία), χτυπήστε δύο φορές το πλήκτρο Shift <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Αυτόματη εισαγωή διαστήματος
+									<div id="ul_1f" class="closed">
+										<p>Το Swype εισάγει αυτόματα κενό διάστημα ανάμεσα στις λέξεις όταν γράφετε την επόμενη λέξη της πρότασης. Μπορείτε να (απ&#45;)ενεργοποιείτε την αυτόματη εισαγωγή διαστήματος από τις Ρυθμίσεις Swype.</p>
+										<p>Η αυτόματη εισαγωγή διαστήματος μπορεί να απενεργοποιηθεί για μια λέξη, αν γλιστρήσετε το δάχτυλο από το πλήκτρο διαστήματος στο πλήκτρο Backspace.</p>
+										<p>Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Αντικατάσταση μιας λέξης
+									<div id="ul_1g" class="closed">
+										<p>Για να αντικαταστήσετε μια λέξη, είτε χτυπήστε την και επιλέξτε άλλη από τη Λίστα Επιλογής Λέξης είτε μαρκάρετέ την και γράψτε άλλη. Η νέα λέξη θα αντικαταστήσει τη λανθασμένη.</p>
+										<p>Για να μαρκάρετε μια λέξη, είτε χτυπήστε την και πιέστε το <img src="img_swypekey.png" /> είτε χτυπήστε τη λέξη δύο φορές.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Παράκαμψη γραμμάτων
+									<div id="ul_1h" class="closed">
+										<p>Καμιά φορά η αποφυγή γραμμάτων κατά το γλίστρημα διασφαλίζει πως πετυχαίνετε τη λέξη που θέλετε με την πρώτη.</p>
+										<p>Για παράδειγμα, τα «δύει» και «δει» μπορούν να γραφούν με την ίδια διαδρομή –προσέξτε, όμως, ότι δεν χρειάζεται να κάνετε ευθεία γραμμή. Αν παρακάμψετε με το δάχτυλο το «ύ» και μεταβείτε στο «ε», το «δει» θα εμφανιστεί πρώτο στη Λίστα Επιλογής Λέξης.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Εναλλακτικοί χαρακτήρες
+									<div id="ul_1i" class="closed">
+
+										<p>Αν κρατήσετε πατημένο ένα πλήκτρο, εμφανίζεται λίστα εναλλακτικών χαρακτήρων για αυτό, όπως: τονισμένα γράμματα (π.χ. «έ», «ά»), σύμβολα (π.χ. @ %) και αριθμοί.</p>
+
+										<p>Χτυπώντας το πλήκτρο συμβόλων (?123) μεταβαίνετε στο πληκτρολόγιο συμβόλων.</p>
+										<p>Σημειώστε ότι ΟΛΟΙ οι χαρακτήρες μπορούν να γραφούν με γλίστρημα στο κεντρικό πληκτρολόγιο, ακόμη κι αν δεν εμφανίζονται σε αυτό. Μπορείτε να κάνετε Swype χρησιμοποιώντας αυτή την προβολή πληκτρολογίου αλλά θα έχετε μόνο λέξεις που έχουν τουλάχιστον έναν αριθμό ή σύμβολο.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Προσθήκη και διαγραφή λέξεων
+									<div id="ul_1j" class="closed">
+										<p>Το Swype προσθέτει έξυπνα στο Προσωπικό Λεξικό σας νέες λέξεις που χρησιμοποιείτε.</p>
+										<p>Μπορείτε, επίσης, να προσθέσετε μια λέξη αν την μαρκάρετε και χτυπήσετε το <img src="img_swypekey.png" /> . Χτυπήστε το μήνυμα που θα εμφανιστεί και η λέξη θα προστεθεί.</p>
+										<p>Για να διαγράψετε μια λέξη, κρατήστε πατημένη τη λέξη στη Λίστα Επιλογής Λέξης και χτυπήστε OK στο παράθυρο επιβεβαίωσης. Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Εξατομίκευση
+									<div id="ul_1k" class="closed">
+										<p>Το Swype μπορεί να προσθέσει γρήγορα στο λεξικό σας λέξεις από το Facebook, το Twitter, και το Gmail Για να εξατομικεύσετε το Swype:</p>
+										<ol>
+											<li>Κρατήστε πατημένο το <img src="img_swypekey.png" /> .</li>
+											<li>Από το μενού Ρυθμίσεις του Swype επιλέξτε Εξατομίκευση.</li>
+											<li>Κάντε τις επιθυμητές επιλογές εξατομίκευσης και εισαγάγετε τα διαπιστευτήριά σας αν ζητηθούν.</li>
+											<li>Μπορείτε να εξατομικεύσετε το Swype από μία ή όλες τις πηγές.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Ομιλία</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>Μπορείτε να υπαγορεύσετε για να συντάξετε τα πάντα, από SMS και email έως ενημερώσεις στο Facebook και στο Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Ακύρωση <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Στίξη
+									<div id="ul_2a" class="open">
+										<p>Δεν χρειάζεται να προσθέσετε τα σημεία στίξης με το χέρι. Απλά πείτε ποιο σημείο στίξης θέλετε και συνεχίστε. Κάντε μια δοκιμή:</p>
+										<ol>
+											<li>Πατήστε το πλήκτρο ομιλίας και αρχίστε να μιλάτε.</li>
+											<li>Πείτε: <i>Το δείπνο ήταν καταπληκτικό θαυμαστικό</i></li>
+											<li>Εμφανίζεται αυτό: <i>Το δείπνο ήταν καταπληκτικό!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Ορισμένα πληκτρολόγια δεν προσφέρουν φωνητική εισαγωγή</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Γραφή</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>Μπορείτε να σχεδιάσετε γράμματα και λέξεις με το δάχτυλο και το Swype να τα μετατρέψει σε κείμενο. Μπορείτε να σχεδιάσετε γράμματα από αριστερά προς δεξιά ή στο ίδιο σημείο. Με το ABC / 123 εναλλάσσονται οι λειτουργίες γραμμάτων και συμβόλων.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Ακύρωση <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Ενεργοποίηση χειρογράφησης
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Πατήστε και κρατήστε πατημένο το <img src="img_symkey.png" /> και σύρετε το δάχτυλό σας στο εικονίδιο του χειρογράφου.</li>
+											<li>Σχεδιάστε γράμματα με το δάχτυλο στην περιοχή χειρογράφησης.</li>
+
+											<li>Χτυπήστε το πλήκτρο διαστήματος ανάμεσα στις λέξεις</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Χειρονομία πολλών δαχτύλων
+									<div id="ul_3b" class="closed">
+										<p>Με τη χειρονομία πολλών δαχτύλων μπορείτε να κάνετε απλά πράγματα, όπως να μετατρέψετε ένα ή περισσότερα γράμματα σε κεφαλαία.</p>
+										<ol>
+											<li>Σχεδιάστε μερικά πεζά γράμματα στην περιοχή σχεδίασης</li>
+											<li>Αφού εισαχθούν οι χαρακτήρες, γλιστρήστε δύο δάχτυλα προς τα πάνω στην περιοχή γραφής</li>
+											<li>Η περιοχή χειρογράφησης θα αναγνωρίσει τη χειρονομία πολλών δαχτύλων και θα μετατρέψει τα γράμματα σε κεφαλαία</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Ορισμένα πληκτρολόγια δεν επιτρέπουν τη χειρογράφηση.</i></p>
+									<p><i>Αυτή η λειτουργία δεν είναι διαθέσιμη όταν η υπηρεσία πρόσβασης στο σύστημα Explore&#45;by&#45;Touch είναι ενεργοποιημένη.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Χτύπημα</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>Παραδοσιακή, μη αυτόματη γραφή με πληκτρολόγιο. Η εισαγωγή με χτύπημα στο πληκτρολόγιο του Swype γίνεται πιο εύκολη και γρήγορη με διάφορα έξυπνα γνωρίσματα:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Ακύρωση <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Διόρθωση αδέξιας πληκτρολόγησης
+									<div id="ul_4a" class="open">
+										<p>Δεν χρειάζεται να χτυπήσετε κάθε γράμμα τέλεια. Κάντε ό,τι καλύτερο μπορείτε και το Swype θα προτείνει πιθανές λέξεις.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Συμπλήρωση λέξεων
+									<div id="ul_4b" class="closed">
+										<p>Το Swype μπορεί να μαντέψει μια λέξη μόλις χτυπήσετε λίγα γράμματα.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Γλώσσες</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Για αλλαγή γλώσσας από το πληκτρολόγιο: Κρατήστε πατημένο το πλήκτρο διαστήματος. Επιλέξτε τη γλώσσα που επιθυμείτε από το αναδυόμενο μενού.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Με το Swype Connect μπορούμε να στέλνουμε ενημερώσεις και σημαντικές λειτουργίες κατευθείαν στη συσκευή σας! Το Swype Connect λειτουργεί και μέσω 3G, αλλά συστήνεται η χρήση σύνδεσης WiFi.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Ακύρωση <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Λήψη γλωσσών
+									<div id="ul_6a" class="open">
+										<p>Είναι εύκολο να προσθέσετε γλώσσες στο Swype:</p>
+										<ol>
+											<li>Πατήστε και κρατήστε πατημένο το <img src="img_swypekey.png" /> και επιλέξτε Γλώσσες.</li>
+											<li>Από το μενού Γλώσσες, επιλέξτε Λήψη γλωσσών.</li>
+											<li>Κάντε κλικ σε μια γλώσσα και η λήψη θα ξεκινήσει αυτόματα.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Το Swype Connect δεν είναι διαθέσιμο σε όλα τα πληκτρολόγια.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Περισσότερη βοήθεια</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Για περισσότερη βοήθεια για τη χρήση του Swype, διαβάστε ένα εγχειρίδιο χρήσης του Swype, δείτε τις Συμβουλές και Βίντεο του Swype στο <a href="http://www.swype.com">www.swype.com</a> ή μπείτε στο Swype Forum, <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

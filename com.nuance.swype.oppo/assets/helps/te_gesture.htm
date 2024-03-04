@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style_gesture.css" type="text/css" />
+        <style type="text/css">* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }</style>
+        <script type="text/javascript">
+            function showToast(text) {
+                window.SwypeHost.showToast(text)
+            }
+            function cancel() {
+                window.SwypeHost.cancel()
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img src="logo_info.png" class="info" />
+                <h3>Swype చిహ్నాలు</h3>
+            </div>
+            <div class="content">
+                <p>
+                    <b>అన్నిటినీ ఎంపిక చేయడానికి:</b> <img src="img_swypekey.png" /> నుండి &quot;a&quot; వరకు Swype చెయ్యి
+                </p>
+                <p>
+                    <b>కాపీ చేయడానికి:</b> <img src="img_swypekey.png" /> నుండి &quot;c&quot; వరకు Swype చెయ్యి
+                </p>
+                <p>
+                    <b>కట్ చేయడానికి:</b> <img src="img_swypekey.png" /> నుండి &quot;x&quot; వరకు Swype చెయ్యి
+                </p>
+                <p>
+                    <b>అంటించడానికి:</b> <img src="img_swypekey.png" /> నుండి &quot;v&quot; వరకు Swype చెయ్యి
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="btncontainer" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="column" onclick="window.SwypeHost.doNotShow('Tag')">
+                        తిరిగి చూపించకు
+                    </td>
+                    <td class="space">
+                        &nbsp;
+                    </td>
+                    <td class="column" onclick="window.SwypeHost.cancel()">
+                        రద్దు చెయ్యి
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

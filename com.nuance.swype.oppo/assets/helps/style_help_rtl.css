@@ -1,0 +1,30 @@
+/*
+This stylesheet is included after the normal stylesheet for RTL 
+languages, so values in here will override the normal stylesheet.
+*/
+/* ------------- main ------------- */
+html[dir="rtl"] body {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+/* ------------- wraps ------------- */
+.content p.welcome { text-align: right; }
+/* ------------- header ------------- */
+#toplinks td {
+	display: block;
+	float: left;
+}
+/* ------------- primary expander ------------- */
+div.head-title { float: right; }
+.img-title-container { float: left; }
+.numlist li { text-align: right; }
+	.numlist li .title { float: right; }
+	.numlist li .learnmore {
+		text-align: right;
+		float: right;
+	}
+/* ------------- secondary expander ------------- */
+.disclist li ol li {
+	margin-left: 0;
+	margin-right: 20px;
+}

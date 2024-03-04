@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">စာလုံး %d လုံး ဖျက်လိုက်ပါမယ်</item>
+        <item quantity="one">စာလုံး တစ်လုံး ဖျက်လိုက်ပါမယ်။</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">လွန်ခဲ့တဲ့ %d ရက်က</item>
+        <item quantity="one">လွန်ခဲ့တဲ့ %d ရက်က</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">လွန်ခဲ့တဲ့ %d နာရီက</item>
+        <item quantity="one">လွန်ခဲ့တဲ့ %d နာရီက</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">လွန်ခဲ့တဲ့ %d မိနစ်က</item>
+        <item quantity="one">လွန်ခဲ့တဲ့ %d မိနစ်က</item>
+    </plurals>
+</resources>

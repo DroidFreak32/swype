@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sym_keyboard_hwr_abc_sym_toggle_white" android:maxLevel="0" />
+    <item android:maxLevel="1">
+        <selector>
+            <item android:state_checkable="true" android:drawable="@drawable/sym_keyboard_hwr_sym_123_white_mini" />
+            <item android:drawable="@drawable/sym_keyboard_hwr_sym_abc_white_mini" />
+        </selector>
+    </item>
+    <item android:maxLevel="2">
+        <selector>
+            <item android:state_checkable="true" android:drawable="@drawable/sym_keyboard_hwr_sym_123_white_mini" />
+            <item android:drawable="@drawable/sym_keyboard_hwr_sym_abc_white_mini" />
+        </selector>
+    </item>
+    <item android:maxLevel="3">
+        <selector>
+            <item android:state_checkable="true" android:drawable="@drawable/sym_keyboard_hwr_sym_123_white_mini" />
+            <item android:drawable="@drawable/sym_keyboard_hwr_sym_abc_white_mini" />
+        </selector>
+    </item>
+    <item android:maxLevel="4">
+        <selector>
+            <item android:state_checkable="true" android:drawable="@drawable/sym_keyboard_hwr_sym_123_white_mini" />
+            <item android:drawable="@drawable/sym_keyboard_hwr_sym_abc_white_mini" />
+        </selector>
+    </item>
+</level-list>

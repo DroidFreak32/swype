@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="speech_recording_label_height">25.0dip</dimen>
+    <dimen name="bpmf_keytext_size">15.0dip</dimen>
+    <dimen name="cangjie_keytext_size">15.0dip</dimen>
+    <dimen name="hand_writing_mode_text_size">13.0dip</dimen>
+    <dimen name="japanese_flicker_menu_key_text_size">22.0dip</dimen>
+    <dimen name="key_font_size_jp">15.0dip</dimen>
+    <dimen name="key_label_text_size">17.0dip</dimen>
+    <dimen name="key_label_text_size_small">16.0dip</dimen>
+    <dimen name="key_label_text_size_5row">16.0dip</dimen>
+    <dimen name="key_text_size">20.0dip</dimen>
+    <dimen name="key_text_size_large">24.0dip</dimen>
+    <dimen name="key_text_size_small">19.0dip</dimen>
+    <dimen name="key_text_size_5row">18.0dip</dimen>
+    <dimen name="return_key_text_size">19.0dip</dimen>
+    <dimen name="theme_category_title_size">19.0dip</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_msg_delete_words">
+        <item quantity="other">%d orðum verður eytt</item>
+        <item quantity="one">Einu orði verður eytt.</item>
+    </plurals>
+    <plurals name="days_ago_label">
+        <item quantity="other">fyrir %d dögum</item>
+        <item quantity="one">fyrir %d degi</item>
+    </plurals>
+    <plurals name="hours_ago_label">
+        <item quantity="other">fyrir %d klukkustundum</item>
+        <item quantity="one">fyrir %d klukkustund</item>
+    </plurals>
+    <plurals name="minutes_ago_label">
+        <item quantity="other">fyrir %d mínútum</item>
+        <item quantity="one">fyrir %d mínútu</item>
+    </plurals>
+</resources>

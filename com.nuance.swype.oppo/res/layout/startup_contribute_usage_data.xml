@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.nuance.swype.widget.CurrentPageIndicator android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cpi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" custom:totalPages="2" custom:currentPage="2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/opt_in" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="2.0">
+        <Button android:id="@id/decline" android:background="@drawable/btn_keyboard_key_focus_pressed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:minHeight="?defaultButtonHeight" android:text="@string/decline_button" android:layout_weight="1.0" android:layout_marginEnd="3.0dip" />
+        <Button android:id="@id/accept" android:background="@drawable/btn_keyboard_key_focus_pressed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:minHeight="?defaultButtonHeight" android:text="@string/accept_button" android:layout_weight="1.0" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton1" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step1_done" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_settings" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step2_done" android:layout_weight="1.0" android:contentDescription="@string/select_input_method" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step3_done" android:layout_weight="1.0" android:contentDescription="@string/accessibility_voice_input_language_selection" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/imageButton4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_step4_on" android:layout_weight="1.0" android:contentDescription="@string/pref_connect_title" />
+    </LinearLayout>
+</LinearLayout>

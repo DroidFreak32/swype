@@ -1,0 +1,351 @@
+<!-- For conditional definitions, see NuSwype\Linguistic\Localization\Scripts\HelpBuilder\config.py -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="True" name="HandheldFriendly" />
+		<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="style_help.css" type="text/css" />
+		
+		<script type="text/javascript">
+			function toggle(id){
+				ul = "ul_" + id;
+				img = "img_" + id;
+				ulElement = document.getElementById(ul);
+				imgElement = document.getElementById(img);
+				if (ulElement){
+					if (ulElement.className == "closed"){
+						ulElement.className = "open";
+						imgElement.src = "icon_up.png";
+					}
+					else{
+						ulElement.className = "closed";
+						imgElement.src = "icon_down.png";
+					}
+				}
+			}
+			function collapse(id) {
+				var e = document.getElementById(id);
+				if(e.style.display == 'block')
+				e.style.display = 'none';
+				else
+				e.style.display = 'block';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="first"><a href="#swype">Swype</a></div>
+				<div><a href="#speak">Spreken</a></div>
+				<div><a href="#write">Schrijven</a></div>
+				<div class="last"><a href="#tap">Tikken op</a></div>
+			</div>
+			<div class="content">
+				<p class="welcome">Met Swype heeft u de mogelijkheid om naadloos te schakelen tussen vier verschillende invoermodi &#45; Swype, Spreken, Schrijven of Tikken.</p>
+				<span id="swype" class="space"></span>
+				<ul class="numlist">
+<!------------------ Swype ------------------>
+					<li class="swype">
+						<div class="head-title"><span class="title">Swype</span><span class="img-title-container"><img src="img_ic_swype.png" class="img-title" /></span></div>
+						<div class="clear"></div>
+						<p>Swype is een snelle manier van typen. Hiermee kunt u een woord invoeren door door letters heen te tekenen. Plaats uw vinger op de eerste letter van het woord, maak een pad van de ene letter naar de volgende letter en til uw vinger op na de laatste letter. Swype voegt waar nodig spaties toe.</p>
+						<div class="learnmore" onclick="toggle('0a')">
+							Meer weten <img src="icon_down.png" class="arrow" id="img_0a" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0a" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('1a')">
+									<img src="icon_up.png" class="arrow" id="img_1a" />
+									De Swype&#45;toets
+									<div id="ul_1a" class="open">
+										<p>De Swype&#45;toets is de toets met het logo van Swype erop. Druk op de Swype&#45;toets en houd deze vast om naar de instellingen van Swype te gaan.</p>
+										<p>De Swype&#45;toets wordt ook gebruikt om veel van de Swype&#45;gebaren te starten.</p>
+									</div>
+								</li>
+								<!--<li onclick="toggle('1x')">
+									<img src="icon_down.png" class="arrow" id="img_1x" />
+								    Toetsenbord&#45;voorbeeld
+									<div id="ul_1x" class="closed">
+										<img src="en_WhatIsSwype.png" class="example" />
+									</div>
+								</li>-->
+								<li onclick="toggle('1b')">
+									<img src="icon_down.png" class="arrow" id="img_1b" />
+									Swype&#45;gebaren
+									<div id="ul_1b" class="closed">
+										<p>Swype&#45;gebaren zijn snelkoppelingen op het toetsenbord om gewone taken snel uit te voeren. Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+										<ul>
+											<li><span class="gestures">Naar het bewerkingstoetsenbord</span> Om het Edit&#45;toetsenbord te bereiken, Swype van de <img src="img_swypekey.png" /> naar de Symbolen&#45;toets(?123) op het toetsenbord.</li>
+											<li><span class="gestures">Naar het numeriek toetsenbord</span> Om snel het Nummer&#45;toetsenbord te bereiken, Swype van de <img src="img_swypekey.png" /> naar het nummer 5.</li>
+											<li><span class="gestures">Het toetsenbord verbergen</span> U kunt ook van de Swype&#45;toets naar de backspace&#45;toets Swypen om het toetsenbord eenvoudigweg te verbergen.</li>
+
+											<li><span class="gestures">Automatische spaties uitzetten</span> Onderdruk automatische spaties voor het volgende woord door vanaf de spatietoets naar de backspace&#45;toets te swypen.</li>
+
+
+											<li><span class="gestures">Letterformaat van woord bewerken</span> Wijzig de hoofd&#45;/kleine letter van een woord nadat het is ingevoerd door op het woord te tikken en vervolgens te swypen van de <img src="img_swypekey.png" /> naar de Shift&#45;toets <img src="img_shiftkey.png" /> . Een Woordkeuzelijst met hoofdletteropties wordt getoond, zodat er gekozen kan worden uit kleine letters, Hoofdletters, of VOLLEDIG IN HOOFDLETTERS.</li>
+
+											<li><span class="gestures">Leestekens</span> Een simpele manier om leestekens aan te brengen is door te swypen van een vraagteken, komma, punt na zin of ander leesteken naar de spatietoets in plaats van het erop tikken.</li>
+
+											<li><span class="gestures">Alles selecteren, Knippen, Kopiëren en Plakken</span>
+												Alles selecteren: Swype van de <img src="img_swypekey.png" /> naar de &#39;a&#39;<br />
+												Knippen: Swype van de <img src="img_swypekey.png" /> naar de &#39;x&#39;<br />
+												Kopiëren: Swype van de <img src="img_swypekey.png" /> naar de &#39;c&#39;<br />
+												Plakken: Swype van de <img src="img_swypekey.png" /> naar de &#39;v&#39;
+											</li>
+
+											<li><span class="gestures">Applicatie&#45;snelkoppelingen</span>Google Maps: Swype van de <img src="img_swypekey.png" /> naar de &#39;g&#39;, dan &#39;m&#39;</li>
+											<li><span class="gestures">Zoeken</span>Markeer wat tekst en Swype van het <img src="img_swypekey.png" /> naar de S om een snelle webzoekopdracht uit te voeren.</li>
+											<li><span class="gestures">Omschakelen naar de laatst gebruikte taal.</span>Swype van de <img src="img_swypekey.png" /> naar de spatiebalk om bij het gebruik van meerdere talen op een snelle manier terug te schakelen naar de voorafgaande taal.</li>
+										</ul>
+									</div>
+								</li>
+
+								<li onclick="toggle('1n')">
+									<img src="icon_down.png" class="arrow" id="img_1n" />
+									Dubbele letters schrijven
+									<div id="ul_1n" class="closed">
+										<p>Om de nauwkeurigheid te verbeteren bij het invoeren van dubbele letters krabbelt u een beetje of maakt u een lus op de letter. Om bijvoorbeeld de &quot;ee&quot; in &quot;steeds&quot; te krijgen, krabbelt u op de &quot;e&quot; toets. Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1d')">
+									<img src="icon_down.png" class="arrow" id="img_1d" />
+									Een woord kiezen
+									<div id="ul_1d" class="closed">
+										<p>Om het gesuggereerde woord in de Woordkeuzelijst te accepteren, gaat u gewoon door met Swypen. Of u rolt verder door de lijst door met uw vinger te slepen en het woord van uw keuze te selecteren. Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+<p>Maak met uw vinger een cirkelvormige beweging om tekst uit een lijst te selecteren en de items in de lijst te horen. Met de klok mee beweegt voorwaarts door de lijst; tegen de klok in beweegt achterwaarts door de lijst.  
+Vinger opheffen geeft het laatst gesproken lijst&#45;item als uitvoer.
+Glij met uw vinger omhoog vanaf het toetsenbord totdat het eerste woord in de lijst wordt gehoord, en begin dan met de cirkelvormige beweging, om een woord uit de woordkeuzelijst te kiezen.
+Deze functie is alleen beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.
+</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1e')">
+									<img src="icon_down.png" class="arrow" id="img_1e" />
+									Een woord met hoofdletter schrijven
+									<div id="ul_1e" class="closed">
+										<p>Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+										<p>Geef een woord tijdens het Swypen een hoofdletter door uw vinger vanaf de eerste letter naar boven langs de bovenkant van het toetsenbord te laten glijden en vervolgens, zonder op te tillen, weer naar beneden naar de volgende letter van het woord.</p>
+										<p>Wijzig de hoofd&#45;/kleine letter van een woord nadat het is ingevoerd door op het woord te tikken en vervolgens te swypen van de <img src="img_swypekey.png" /> naar de Shift&#45;toets <img src="img_shiftkey.png" /> . Een Woordkeuzelijst met hoofdletteropties wordt getoond, zodat er gekozen kan worden uit kleine letters, Hoofdletters, of VOLLEDIG IN HOOFDLETTERS.</p>
+										<p>Om CAPS Lock in te schakelen, tikt u twee keer op de Shift&#45;toets <img src="img_shiftkey.png" /> .</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1f')">
+									<img src="icon_down.png" class="arrow" id="img_1f" />
+									Automatische spaties
+									<div id="ul_1f" class="closed">
+										<p>Swype plaatst automatisch spaties tussen woorden wanneer het volgende woord in de zin wordt geswypet. U kunt de automatische spatiëring aan&#45; en uitzetten in de instellingen van Swype.</p>
+										<p>Automatische spaties kunnen voor één woord worden uitgeschakeld door van de spatiebalk naar de Backspace&#45;toets te swypen.</p>
+										<p>Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+									</div>
+								</li>
+
+
+								<li onclick="toggle('1g')">
+									<img src="icon_down.png" class="arrow" id="img_1g" />
+									Een woord vervangen
+									<div id="ul_1g" class="closed">
+										<p>Vervang een woord door erop te tikken en vervolgens het gewenste woord uit de Woordkeuzelijst te selecteren of markeer eenvoudigweg het woord en Swype een nieuw woord. Het nieuwe woord zal het onjuiste vervangen.</p>
+										<p>Een woord kan gemarkeerd worden door erop te tikken en op <img src="img_swypekey.png" /> te drukken of door op het woord te dubbeltikken.</p>
+									</div>
+								</li>
+
+								<li onclick="toggle('1h')">
+									<img src="icon_down.png" class="arrow" id="img_1h" />
+									Stuiteren tussen letters
+									<div id="ul_1h" class="closed">
+										<p>Soms zorgt het vermijden van letters tijdens het Swypen ervoor dat het gewenste woord meteen de eerste keer verschijnt.</p>
+										<p>Bijvoorbeeld, &quot;binden&quot; en &quot;bonden&quot; kunnen met hetzelfde pad geschreven worden &#45; maar let op, u hoeft niet in een rechte lijn van de ene naar de andere letter te gaan. Door de &quot;i&quot; tijdens het swypen met uw vinger naar de &quot;p&quot; te vermijden, zorgt u ervoor dat &quot;bonden&quot; het eerste woord in de Woordkeuzelijst is.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1i')">
+									<img src="icon_down.png" class="arrow" id="img_1i" />
+									Alternatieve tekens
+									<div id="ul_1i" class="closed">
+
+										<p>Druk en houd op een toets vast om een lijst met alternatieve tekens te krijgen voor die toets, zoals letters met een accent zoals é of met een trema zoals ä, of symbolen zoals @ en %, en cijfers.</p>
+
+										<p>Tik op de Symbolen&#45;toets (?123) om naar het Symbolentoetsenbord te gaan.</p>
+										<p>ALLE tekens kunnen vanaf het hoofdtoetsenbord worden geswypet, ook al zijn ze niet allemaal zichtbaar. U kunt Swypen met deze toetsenbordweergave, maar u krijgt alleen worden met ten minste één cijfer of symbool.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1j')">
+									<img src="icon_down.png" class="arrow" id="img_1j" />
+									Toevoegen en verwijderen van woorden
+									<div id="ul_1j" class="closed">
+										<p>Swype voegt op intelligente wijze nieuwe woorden die u gebruikt toe aan uw Persoonlijke woordenboek.</p>
+										<p>U kunt een woord ook toevoegen door het te markeren en te tikken op <img src="img_swypekey.png" /> . Tik op de melding die verschijnt om het woord toe te voegen.</p>
+										<p>Om een woord te verwijderen, druk en houd het woord vast in de Woordkeuzelijst en tik dan op OK in de bevestigingsdialoog. Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</p>
+									</div>
+								</li>
+								<li onclick="toggle('1k')">
+									<img src="icon_down.png" class="arrow" id="img_1k" />
+									Personalisatie
+									<div id="ul_1k" class="closed">
+										<p>Swype kan snel een woord toevoegen aan uw woordenboek van Facebook, Twitter, en Gmail. Om Swype te personaliseren:</p>
+										<ol>
+											<li>Druk op en houd de <img src="img_swypekey.png" /> vast.</li>
+											<li>Selecteer Persoonlijke instellingen vanuit het Swype&#45;instellingenmenu</li>
+											<li>Selecteer een optie van de personalisatie&#45;opties en voer uw verificatiegegevens in als hierom gevraagd wordt.</li>
+											<li>U kunt Swype personaliseren vanuit een of alle bronnen.</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="speak" class="space"></span>
+					</li>
+<!------------------ Speak ------------------>
+					<li class="speak">
+						<div class="head-title"><span class="title">Spreken</span><span class="img-title-container"><img src="img_ic_speak.png" class="img-title" /></span></div>
+						<p>U kunt spraak gebruiken om tekstinhoud in te voeren voor alles van tekst&#45; en e&#45;mailberichten tot updates voor Facebook en Twitter.</p>
+						<div class="learnmore" onclick="toggle('0b')">
+							Meer weten <img src="icon_down.png" class="arrow" id="img_0b" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0b" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('2a')">
+									<img src="icon_up.png" class="arrow" id="img_2a" />
+									Leestekens
+									<div id="ul_2a" class="open">
+										<p>Het is niet nodig om handmatig leestekens toe te voegen. Spreek gewoonweg de gewenste leestekens in en ga verder. Probeer dit:</p>
+										<ol>
+											<li>Druk op de stem&#45;toets en begin met praten.</li>
+											<li>Wat u zegt: <i>Het avondeten was heerlijk uitroepteken</i></li>
+											<li>Wat u krijgt: <i>Het avondeten was heerlijk!</i></li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Spraakinvoer is voor sommige toetsenborden niet beschikbaar</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="write" class="space"></span>
+					</li>
+<!------------------ Write ------------------>
+					<li class="write">
+						<div class="head-title"><span class="title">Schrijven</span><span class="img-title-container"><img src="img_ic_write.png" class="img-title" /></span></div>
+						<p>U kunt uw vingers gebruiken om letters en woorden te tekenen en Swype zal het in tekst omzetten. U kunt letters van links naar rechts tekenen of bovenop elkaar. Druk op ABC / 123 om te schakelen tussen letter&#45; en symboolmodus.					
+						</p>
+						<div class="learnmore" onclick="toggle('0c')">
+							Meer weten <img src="icon_down.png" class="arrow" id="img_0c" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0c" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('3a')">
+									<img src="icon_up.png" class="arrow" id="img_3a" />
+									Activeer handschrift
+									<div id="ul_3a" class="open">
+										<ol>
+											<li>Druk en houd de <img src="img_symkey.png" /> vast en glij met uw vinger naar het handschrift&#45;icoon</li>
+											<li>Teken letters met uw vingers op het handschriftgebied.</li>
+
+											<li>Tik op de spatiebalk tussen elk woord</li>
+
+										</ol>
+									</div>
+								</li>
+
+								<li onclick="toggle('3b')">
+									<img src="icon_down.png" class="arrow" id="img_3b" />
+									Multi&#45;aanrakinggebaar
+									<div id="ul_3b" class="closed">
+										<p>Het multi&#45;aanrakinggebaar biedt u de mogelijkheid om simpele taken te voltooien, zoals het geven van een hoofdletter aan woorden of het omzetten van letters in hoofdletters.</p>
+										<ol>
+											<li>Teken een paar kleine letters op het tekenvlak</li>
+											<li>Schuif twee vingers omhoog op het schrijfgebied na het invoeren van de letters</li>
+											<li>De handschriftfunctie zal het multi&#45;aanrakinggebaar herkennen en de letters in hoofdletters omzetten</li>
+										</ol>
+									</div>
+								</li>
+
+								<li class="note">
+									<p><i>Handschrift is voor sommige toetsenborden niet beschikbaar.</i></p>
+									<p><i>Deze functie is niet beschikbaar wanneer de Explore&#45;by&#45;Touch&#45;service voor systeemtoegankelijkheid is ingeschakeld.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="tap" class="space"></span>
+					</li>
+<!------------------ Tap ------------------>
+					<li class="tap">
+						<div class="head-title"><span class="title">Tikken op</span><span class="img-title-container"><img src="img_ic_tap.png" class="img-title" /></span></div>
+						<p>De traditionele manier om handmatig met een toetsenbord in te voeren. De invoer op het Swype&#45;toetsenbord m.b.v. tikken is gemakkelijker en efficiënter gemaakt door een aantal handige functies:</p>
+						<div class="learnmore" onclick="toggle('0d')">
+							Meer weten <img src="icon_down.png" class="arrow" id="img_0d" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0d" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('4a')">
+									<img src="icon_up.png" class="arrow" id="img_4a" />
+									Slordig typen&#45;correctie
+									<div id="ul_4a" class="open">
+										<p>U hoeft niet perfect op elke letter te tikken. Doe gewoonweg uw best en Swype zal op intelligente wijze suggesties voor woorden geven.</p>
+									</div>
+								</li>
+								<li onclick="toggle('4b')">
+									<img src="icon_down.png" class="arrow" id="img_4b" />
+									Woordvoltooiing
+									<div id="ul_4b" class="closed">
+										<p>Swype kan ook uw woord raden als u slechts een paar letters heeft getikt.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span id="languages" class="space"></span>
+					</li>
+<!------------------ Languages ------------------>
+					<li class="languages">
+						<div class="head-title"><span class="title">Talen</span><span class="img-title-container"><img src="img_ic_languages.png" class="img-title" /></span></div>
+						<p>Om vanuit het toetsenbord van taal te wisselen: Druk op en houd de spatiebalk vast. Selecteer uw gewenste taal uit het popup&#45;menu.</p>
+                                
+						<span id="swypeconnect" class="space"></span>
+					</li>
+<!------------------ Swype Connect ------------------>
+					<li class="swypeconnect">
+						<div class="head-title"><span class="title">Swype Connect</span><span class="img-title-container"><img src="img_ic_swypeconnect.png" class="img-title" /></span></div>
+						<p>Swype Connect geeft ons de mogelijkheid om updates en krachtige functionaliteit direct naar uw apparaat te sturen! Hoewel Swype Connect via 3G kan werken, raden we altijd aan om een WiFi&#45;verbinding te vinden.</p>
+						<div class="learnmore" onclick="toggle('0f')">
+							Meer weten <img src="icon_down.png" class="arrow" id="img_0f" />
+						</div>
+						<div class="clear"></div>
+						<div id="ul_0f" class="closed">
+							<ul class="disclist">
+								<li onclick="toggle('6a')">
+									<img src="icon_up.png" class="arrow" id="img_6a" />
+									Downloads van talen
+									<div id="ul_6a" class="open">
+										<p>Het toevoegen van extra talen aan Swype is gemakkelijk:</p>
+										<ol>
+											<li>Druk op en houd <img src="img_swypekey.png" /> vast en selecteer Talen.</li>
+											<li>Selecteer Talen downloaden uit het Talen&#45;menu.</li>
+											<li>Klik op een taal en uw download zal automatisch beginnen.</li>
+										</ol>
+									</div>
+								</li>
+								<li class="note">
+									<p><i>Swype Connect is niet op alle toetsenborden beschikbaar.</i></p>
+								</li>
+							</ul>
+						</div>
+						<span id="morehelp" class="space"></span>
+					</li>
+<!------------------ More Help ------------------>
+					<li class="morehelp">
+						<div class="head-title"><span class="title">Meer hulp</span><span class="img-title-container"><img src="img_ic_morehelp.png" class="img-title" /></span></div>
+						<p>Voor meer hulp bij het gebruik van Swype kunt u de Swype Gebruiksaanwijzing en Swype Tips en Video&#39;s bekijken op <a href="http://www.swype.com">www.swype.com</a> of het Swype Forum online bezoeken op <a href="http://forum.swype.com">forum.swype.com</a>.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

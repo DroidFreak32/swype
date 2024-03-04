@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ff151515" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true" android:divider="?android:listDivider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/purchase_theme_name" android:paddingLeft="11.0dip" android:paddingTop="11.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/purchase_theme_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/theme_lock_purchase" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_lock" android:layout_toLeftOf="@id/purchase_theme_price" android:layout_alignTop="@id/purchase_theme_name" android:layout_alignBottom="@id/purchase_theme_name" android:layout_centerVertical="true" android:contentDescription="@string/theme_lock_icon" android:fontFamily="sans-serif-light" />
+    </RelativeLayout>
+    <ImageView android:id="@id/purchase_theme_preview_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/theme_preview_arctic" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/purchase_theme_preview_content_description" />
+    <LinearLayout android:orientation="horizontal" android:background="#ff151515" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle">
+        <Button android:textColor="#ff999999" android:id="@id/purchase_theme_cancel" android:background="#ff151515" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel_button" android:layout_weight="1.0" android:contentDescription="@string/cancel_button" />
+        <View android:background="#90909090" android:layout_width="2.0px" android:layout_height="50.0dip" />
+        <Button android:textColor="#ffffffff" android:id="@id/purchase_theme_confirm" android:background="#ff151515" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
